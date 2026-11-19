@@ -17,7 +17,8 @@ def processar_post(post_id, canal, texto, cfg, est, driver, modo, log, notificar
     ok, motivo, info = filtro.avaliar(limpo, cfg)
     if not ok:
         log("  pulado %s (%s)" % (chave, motivo))
-        est.marcar(chave, "pulado:" + motivo)
+        if modo != "dry":
+            est.marcar(chave, "pulado:" + motivo)
         return "pulado"
 
     cent = cfg["preco"]["centavos_quando_inteiro"]
@@ -26,25 +27,33 @@ def processar_post(post_id, canal, texto, cfg, est, driver, modo, log, notificar
     if p < cfg["preco"]["suspeito_abaixo_de"]:
         log("  aviso: preco suspeito R$ %s (bug?)" % preco_txt)
         if cfg["preco"]["politica_suspeito"] == "pular":
-            est.marcar(chave, "pulado:suspeito")
+            if modo != "dry":
+                est.marcar(chave, "pulado:suspeito")
             return "pulado"
     link = links.preparar(info["link"], info["loja"])
     extra = None  # reservado: infos extras do post (ex.: "frete grátis") — ver extras.py no futuro
 
     log("  %s -> %s loja=%s preco=%s cupom=%s" % (chave, link, info["loja"], preco_txt, info["cupom"]))
     if modo == "dry":
-        est.marcar(chave, "dry")
-        return "dry"
+        return "dry"          # dry NUNCA consome o post: o modo live ainda poderá processá-lo
+    est.marcar(chave, "em_andamento")   # marca ANTES: se algo travar, nunca posta em duplicidade
+    est.salvar()
     try:
         res, det = driver.gerar(link, preco_txt, info["cupom"], extra, modo=modo)
-    except Falha as e:
-        log("  FALHA %s: %s" % (chave, e))
+    except Exception as e:  # Falha, TimeoutError, limite do Telegram etc.
+        log("  FALHA %s: %r" % (chave, e))
+        try:
+            driver.conv.cancelar_tudo()
+        except Exception:  # noqa
+            pass
         notificar("⚠️ Robô de promoções: falha em %s\n%s\nLink: %s" % (chave, e, link))
         est.marcar(chave, "falha")
+        est.salvar()
         return "falha"
     est.marcar(chave, res)
     if res == "gerado":
         est.somar()
+    est.salvar()
     log("  resultado %s: %s" % (chave, det))
     return res
 
@@ -63,7 +72,8 @@ def rodar(cfg, posts_por_canal, est, driver, log=print, notificar=lambda m: None
                 log("limite atingido; o resto fica para a próxima execução")
                 return cont
             r = processar_post(pid, canal, txt, cfg, est, driver, modo, log, notificar)
-            est.set_ultimo(canal, pid)
+            if modo != "dry":
+                est.set_ultimo(canal, pid)
             cont[r] = cont.get(r, 0) + 1
             if r in ("gerado", "cancelado_teste", "duplicado", "falha"):
                 feitos += 1
