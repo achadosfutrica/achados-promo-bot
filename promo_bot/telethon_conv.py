@@ -17,8 +17,8 @@ def _tela(msg):
 class ConvTelethon:
     """Versão síncrona sobre o loop do Telethon (simples de testar e de ler)."""
 
-    def __init__(self, client, bot_user, timeout=45):
-        self.c, self.bot, self.timeout = client, bot_user, timeout
+    def __init__(self, client, bot_user, timeout=45, intervalo=1.5):
+        self.c, self.bot, self.timeout, self.intervalo = client, bot_user, timeout, intervalo
         self.loop = client.loop
         self._ultima = None
 
@@ -26,8 +26,9 @@ class ConvTelethon:
         return self.loop.run_until_complete(coro)
 
     async def _assinatura(self):
-        msgs = await self.c.get_messages(self.bot, limit=1)
-        m = msgs[0] if msgs else None
+        """Última mensagem RECEBIDA do bot (ignora as nossas, senão agiríamos antes da resposta)."""
+        msgs = await self.c.get_messages(self.bot, limit=8)
+        m = next((x for x in msgs if not x.out), None)
         if m is None:
             return None, ()
         return m, (m.id, m.message, tuple(b.text for l in (m.buttons or []) for b in l), m.edit_date)
@@ -36,15 +37,18 @@ class ConvTelethon:
         fim = time.time() + self.timeout
         estavel, ult = 0, None
         while time.time() < fim:
-            await asyncio.sleep(1.5)
+            await asyncio.sleep(self.intervalo)
             m, ass = await self._assinatura()
             if ass != antes:
                 # espera estabilizar (o bot edita a mensagem em etapas)
                 if ass == ult:
                     estavel += 1
                     if estavel >= 1:
+                        t = _tela(m)
+                        if t.carregando():      # "processando..." -> continua esperando
+                            continue
                         self._ultima = m
-                        return _tela(m)
+                        return t
                 else:
                     ult, estavel = ass, 0
         raise TimeoutError("o bot nao respondeu em %ss" % self.timeout)
@@ -63,7 +67,7 @@ class ConvTelethon:
         async def f():
             m, antes = await self._assinatura()
             alvo = None
-            for linha in (m.buttons or []):
+            for linha in ((m.buttons if m else None) or []):
                 for b in linha:
                     if b.text == rotulo:
                         alvo = b
