@@ -5,6 +5,8 @@ Regras de segurança:
  - tela desconhecida / botão não achado -> cancela o rascunho e avisa (nunca chuta).
  - nunca toca em 'parcel' (Add parcelamento).
 """
+import re
+
 from . import texto as T
 
 
@@ -14,11 +16,21 @@ class Tela:
         self.botoes = botoes or []  # lista de rótulos (str), em ordem
 
     def achar(self, *trechos):
+        """Procura botão. Trechos curtos (<=4 letras, ex.: 'por') só casam como PALAVRA inteira."""
         for b in self.botoes:
             nb = T.norm(b)
-            if any(T.norm(t) in nb for t in trechos):
-                return b
+            for t in trechos:
+                nt = T.norm(t)
+                if len(nt) <= 4:
+                    if re.search(r"(?<![a-z0-9])" + re.escape(nt) + r"(?![a-z0-9])", nb):
+                        return b
+                elif nt in nb:
+                    return b
         return None
+
+    def carregando(self):
+        """Tela intermediária ('processando...') sem botões: ainda não é a resposta final."""
+        return (not self.botoes) and self.tem_texto("processando", "carregando", "aguarde", "buscando", "analisando", "gerando")
 
     def tem_texto(self, *trechos):
         n = T.norm(self.texto)
