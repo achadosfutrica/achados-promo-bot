@@ -1,0 +1,81 @@
+# ============================================================
+# CONFIGURAÇÃO DO ROBÔ DE PROMOÇÕES (fumotom + promotom -> @di48291bot)
+# ============================================================
+# mode:
+#   off   = NADA roda (estado atual: desativado)
+#   dry   = lê os canais e só escreve no log o que FARIA (não fala com o Divulgador)
+#   test  = fala com o @di48291bot, preenche tudo e CANCELA no fim (nunca gera/posta)
+#   live  = gera a promoção de verdade (vai para WhatsApp e Telegram)
+mode: "off"
+
+canais:
+  - fumotom
+  - promotom
+
+bot_divulgador: "di48291bot"
+
+# lojas aceitas (false = o post é pulado e anotado no log)
+lojas:
+  amazon: true
+  mercadolivre: true
+  shopee: false        # <<< PENDENTE: ativar amanhã, depois da análise da Shopee
+  magalu: false
+  aliexpress: false    # você pediu para NÃO gerar AliExpress
+
+preco:
+  centavos_quando_inteiro: "99"   # 315 vira 315,99 ; 36,50 fica 36,50
+  suspeito_abaixo_de: 10          # só marca no log como "bug"; você mandou rodar
+  politica_suspeito: "publicar"   # publicar | pular
+
+limites:
+  max_por_execucao: 8             # no máximo N promoções por execução
+  pausa_entre_promocoes_seg: 25   # pausa entre uma promoção e outra (evita bloqueio da conta)
+  max_por_dia: 150
+  primeira_vez_ler_ultimos: 0     # ao ligar, NÃO posta o passado (0). Coloque 5 para ler os 5 últimos.
+
+# palavras que BLOQUEIAM (componentes de computador)...
+bloquear:
+  - hd
+  - ssd
+  - nvme
+  - m.2
+  - placa de video
+  - placa mae
+  - placa-mae
+  - gpu
+  - rtx
+  - gtx
+  - radeon
+  - cooler
+  - aircooler
+  - water cooler
+  - gabinete
+  - fonte de alimentacao
+  - fonte atx
+  - memoria ram
+  - ddr4
+  - ddr5
+  - processador
+  - ryzen
+  - intel core
+  - kit upgrade
+  - pasta termica
+  - ventoinha
+  - fan rgb
+# ...exceto se o título tiver uma destas palavras (sempre passam)
+liberar:
+  - monitor
+  - mouse
+  - teclado
+  - fone
+  - headset
+  - headphone
+  - earphone
+  - earbuds
+
+# textos a remover das promoções copiadas
+remover_linhas_que_comecam:
+  - "-anuncio"
+  - "anuncio"
+remover_trechos:
+  - "- Dica *"
