@@ -1,0 +1,37 @@
+import os
+import yaml
+
+PADRAO = {
+    "mode": "off",
+    "canais": ["fumotom", "promotom"],
+    "bot_divulgador": "di48291bot",
+    "lojas": {"amazon": True, "mercadolivre": True, "shopee": False, "magalu": False, "aliexpress": False},
+    "preco": {"centavos_quando_inteiro": "99", "suspeito_abaixo_de": 10, "politica_suspeito": "publicar"},
+    "limites": {"max_por_execucao": 8, "pausa_entre_promocoes_seg": 25, "max_por_dia": 150, "primeira_vez_ler_ultimos": 0},
+    "bloquear": [], "liberar": [],
+    "remover_linhas_que_comecam": ["-anuncio", "anuncio"],
+    "remover_trechos": [],
+}
+
+
+def _mescla(base, extra):
+    out = dict(base)
+    for k, v in (extra or {}).items():
+        if isinstance(v, dict) and isinstance(out.get(k), dict):
+            out[k] = _mescla(out[k], v)
+        else:
+            out[k] = v
+    return out
+
+
+def carregar(caminho=None):
+    caminho = caminho or os.environ.get("PROMO_CONFIG", "config.yaml")
+    with open(caminho, encoding="utf-8") as f:
+        cfg = _mescla(PADRAO, yaml.safe_load(f) or {})
+    # a variável de ambiente PROMO_MODE (do GitHub) pode forçar o modo
+    forcado = os.environ.get("PROMO_MODE", "").strip().lower()
+    if forcado in ("off", "dry", "test", "live"):
+        cfg["mode"] = forcado
+    if cfg["mode"] not in ("off", "dry", "test", "live"):
+        raise ValueError("mode inválido: %r" % cfg["mode"])
+    return cfg
