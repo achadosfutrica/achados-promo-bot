@@ -1,5 +1,5 @@
-# =========================================================
-# CONFIGURAÇÃO DO ROBÔ DE PROMOÇÕES (fumotom + promotom -> @di48291bot)
+# ============================================================
+# CONFIGURAÇÃO DO ROBÔ DE PROMOÇÕES (fumotom + promotom + juaocupons -> @divulgadorinteligente2bot)
 # ============================================================
 # mode:
 #   off   = NADA roda (estado atual: desativado)
@@ -13,7 +13,7 @@ canais:
   - promotom
   - juaocupons        # novo (t.me/juaocupons)
 
-bot_divulgador: "di48291bot"
+bot_divulgador: "divulgadorinteligente2bot"
 
 # robô de cupons que recebe o aviso "/cupomacabou CODIGO" quando um canal avisa que o cupom esgotou
 # (ele pergunta para você se posta que acabou ou não)
