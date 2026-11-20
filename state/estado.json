@@ -18,6 +18,10 @@
    "r": "falha",
    "t": 1795203108
   },
+  "link:https://www.amazon.com.br/dp/8571670439": {
+   "r": "cancelado_teste",
+   "t": 1795204010
+  },
   "promotom:115007": {
    "r": "pulado:sem link",
    "t": 1795203318
@@ -53,11 +57,16 @@
   "promotom:115018": {
    "r": "pulado:sem link",
    "t": 1795203436
+  },
+  "teste:1795203980": {
+   "r": "cancelado_teste",
+   "t": 1795204010
   }
  },
  "ultimo_id": {
   "fumotom": 51411,
   "juaocupons": 27572,
-  "promotom": 115018
+  "promotom": 115018,
+  "teste": 1795203980
  }
 }
