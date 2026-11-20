@@ -1,5 +1,5 @@
 name: promo-bot
-# TESTE: só roda manualmente. (Depois do teste, o cron será ligado.)
+# ATIVO: roda a cada 10 min. Para parar: crie a variável PROMO_MODE = off (Settings > Secrets and variables > Actions > Variables).
 on:
   workflow_dispatch:
     inputs:
@@ -9,8 +9,8 @@ on:
       link:
         description: "(opcional, só no modo test) link de um produto para testar"
         default: ""
-  # schedule:
-  #   - cron: "*/10 * * * *"
+  schedule:
+    - cron: "*/10 * * * *"
 
 permissions:
   contents: write
