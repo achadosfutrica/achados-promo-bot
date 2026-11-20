@@ -1,5 +1,5 @@
 {
- "contagem_dia": 0,
+ "contagem_dia": 3,
  "dia": "2026-11-20",
  "feitos": {
   "fumotom:51408": {
@@ -18,9 +18,49 @@
    "r": "falha",
    "t": 1795203108
   },
+  "fumotom:51412": {
+   "r": "gerado",
+   "t": 1795206932
+  },
+  "fumotom:51413": {
+   "r": "pulado:aliexpress (bloqueado)",
+   "t": 1795206957
+  },
+  "fumotom:51414": {
+   "r": "gerado",
+   "t": 1795207001
+  },
+  "fumotom:51415": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795207026
+  },
+  "fumotom:51416": {
+   "r": "falha",
+   "t": 1795207029
+  },
+  "fumotom:51417": {
+   "r": "gerado",
+   "t": 1795207097
+  },
   "link:https://www.amazon.com.br/dp/8571670439": {
    "r": "cancelado_teste",
    "t": 1795204010
+  },
+  "link:https://www.amazon.com.br/dp/B074D6KZM7": {
+   "r": "gerado",
+   "t": 1795207001
+  },
+  "link:https://www.amazon.com.br/dp/B09T2X5QR8": {
+   "r": "gerado",
+   "t": 1795207097
+  },
+  "link:https://www.amazon.com.br/dp/B0CT9VZHD6": {
+   "r": "falha",
+   "t": 1795207029
+  },
+  "link:https://www.amazon.com.br/dp/B0DLPX11ZS": {
+   "r": "gerado",
+   "t": 1795206932
   },
   "promotom:115007": {
    "r": "pulado:sem link",
@@ -64,7 +104,7 @@
   }
  },
  "ultimo_id": {
-  "fumotom": 51411,
+  "fumotom": 51417,
   "juaocupons": 27572,
   "promotom": 115018,
   "teste": 1795203980
