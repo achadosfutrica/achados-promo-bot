@@ -109,6 +109,22 @@ limites:
   max_por_dia: 150
   primeira_vez_ler_ultimos: 0     # ao ligar, NÃO posta o passado (0). Coloque 5 para ler os 5 últimos.
   max_idade_min: 90               # posts com mais de 90 min são ignorados (evita postar promoção vencida)
+  max_por_canal: 3                # no máximo N de cada canal por execução (o fumotom não ocupa tudo)
+  fila_max: 200                   # promoções boas que sobraram esperam a próxima execução
+
+# INTELIGÊNCIA: nota para cada promoção com base no que VOCÊ posta (seu grupo do Telegram, últimos 7 dias)
+# as de nota maior saem primeiro; abaixo de nota_minima são puladas (aparece no log)
+inteligencia:
+  ligada: true
+  meu_grupo: -1004468673194       # grupo "Achados Futrica" (onde o Divulgador posta)
+  dias_perfil: 7
+  atualizar_horas: 24
+  nota_minima: 5
+  bug_desconto: 0.6               # 60% ou mais de desconto = BUG (+20 na nota)
+
+# bônus na nota para lojas novas (as 4 grandes não ganham bônus)
+bonus_loja:
+  _novas: 15
 
 # palavras que BLOQUEIAM (componentes de computador)...
 bloquear:
