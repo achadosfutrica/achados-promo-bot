@@ -1,5 +1,5 @@
 {
- "contagem_dia": 3,
+ "contagem_dia": 7,
  "dia": "2026-11-20",
  "feitos": {
   "fumotom:51408": {
@@ -42,6 +42,46 @@
    "r": "gerado",
    "t": 1795207097
   },
+  "fumotom:51418": {
+   "r": "gerado",
+   "t": 1795210014
+  },
+  "fumotom:51419": {
+   "r": "duplicado",
+   "t": 1795210046
+  },
+  "fumotom:51420": {
+   "r": "duplicado",
+   "t": 1795210086
+  },
+  "fumotom:51421": {
+   "r": "pulado:periferico de PC",
+   "t": 1795210111
+  },
+  "fumotom:51422": {
+   "r": "duplicado",
+   "t": 1795210118
+  },
+  "fumotom:51423": {
+   "r": "gerado",
+   "t": 1795210194
+  },
+  "fumotom:51424": {
+   "r": "duplicado",
+   "t": 1795210226
+  },
+  "fumotom:51425": {
+   "r": "gerado",
+   "t": 1795210302
+  },
+  "fumotom:51426": {
+   "r": "gerado",
+   "t": 1795210371
+  },
+  "link:https://meli.la/2zwCHF8": {
+   "r": "duplicado",
+   "t": 1795210086
+  },
   "link:https://www.amazon.com.br/dp/8571670439": {
    "r": "cancelado_teste",
    "t": 1795204010
@@ -54,9 +94,21 @@
    "r": "gerado",
    "t": 1795207001
   },
+  "link:https://www.amazon.com.br/dp/B08T6Q3KF4": {
+   "r": "gerado",
+   "t": 1795210014
+  },
   "link:https://www.amazon.com.br/dp/B09T2X5QR8": {
    "r": "gerado",
    "t": 1795207097
+  },
+  "link:https://www.amazon.com.br/dp/B09ZB8P4S4": {
+   "r": "gerado",
+   "t": 1795210371
+  },
+  "link:https://www.amazon.com.br/dp/B0BQ3MNNFQ": {
+   "r": "duplicado",
+   "t": 1795210226
   },
   "link:https://www.amazon.com.br/dp/B0CT9VZHD6": {
    "r": "falha",
@@ -65,6 +117,22 @@
   "link:https://www.amazon.com.br/dp/B0DLPX11ZS": {
    "r": "gerado",
    "t": 1795206932
+  },
+  "link:https://www.amazon.com.br/dp/B0DYVSGMT5": {
+   "r": "gerado",
+   "t": 1795210302
+  },
+  "link:https://www.amazon.com.br/dp/B0F691QZM6": {
+   "r": "gerado",
+   "t": 1795210194
+  },
+  "link:https://www.amazon.com.br/dp/B0FY6Z7K5W": {
+   "r": "duplicado",
+   "t": 1795210046
+  },
+  "link:https://www.amazon.com.br/dp/B0H7L24BPG": {
+   "r": "duplicado",
+   "t": 1795210118
   },
   "promotom:115007": {
    "r": "pulado:sem link",
@@ -112,7 +180,7 @@
   }
  },
  "ultimo_id": {
-  "fumotom": 51417,
+  "fumotom": 51426,
   "juaocupons": 27572,
   "promotom": 115018,
   "teste": 1795208735
