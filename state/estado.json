@@ -134,6 +134,10 @@
    "r": "duplicado",
    "t": 1795210118
   },
+  "link:https://www.belezanaweb.com.br/ciclo-fragrance-athina-body-splash-200ml/": {
+   "r": "cancelado_teste",
+   "t": 1795211058
+  },
   "promotom:115007": {
    "r": "pulado:sem link",
    "t": 1795203318
@@ -177,12 +181,16 @@
   "teste:1795208735": {
    "r": "cancelado_teste",
    "t": 1795208765
+  },
+  "teste:1795211010": {
+   "r": "cancelado_teste",
+   "t": 1795211058
   }
  },
  "ultimo_id": {
   "fumotom": 51426,
   "juaocupons": 27572,
   "promotom": 115018,
-  "teste": 1795208735
+  "teste": 1795211010
  }
 }
