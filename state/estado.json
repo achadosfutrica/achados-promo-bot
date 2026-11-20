@@ -114,6 +114,10 @@
    "r": "pulado:sem preco",
    "t": 1795213188
   },
+  "link:https://click.centauro.com.br/13Nl/3022r95u": {
+   "r": "falha",
+   "t": 1795214936
+  },
   "link:https://meli.la/2zwCHF8": {
    "r": "duplicado",
    "t": 1795210086
@@ -269,8 +273,13 @@
   "teste:1795211010": {
    "r": "cancelado_teste",
    "t": 1795211058
+  },
+  "teste:1795214930": {
+   "r": "falha",
+   "t": 1795214936
   }
  },
+ "fila": [],
  "perfil": {
   "faixas": [
    894,
@@ -3295,6 +3304,6 @@
   "perfumepromo": 10076,
   "promotom": 115024,
   "teniscertocupons": 66098,
-  "teste": 1795211010
+  "teste": 1795214930
  }
 }
