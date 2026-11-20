@@ -1,5 +1,5 @@
 {
- "contagem_dia": 9,
+ "contagem_dia": 11,
  "dia": "2026-11-20",
  "feitos": {
   "fumotom:51408": {
@@ -98,6 +98,30 @@
    "r": "pulado:loja desconhecida",
    "t": 1795213096
   },
+  "fumotom:51432": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795215877
+  },
+  "fumotom:51433": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795215877
+  },
+  "fumotom:51434": {
+   "r": "gerado",
+   "t": 1795215949
+  },
+  "fumotom:51435": {
+   "r": "gerado",
+   "t": 1795216052
+  },
+  "fumotom:51436": {
+   "r": "falha",
+   "t": 1795216081
+  },
+  "iuriindica:123964": {
+   "r": "pulado:mesmo link",
+   "t": 1795215974
+  },
   "juaocupons:27573": {
    "r": "pulado:loja desconhecida",
    "t": 1795213187
@@ -129,6 +153,10 @@
   "link:https://www.amazon.com.br/dp/8578606574": {
    "r": "cancelado_teste",
    "t": 1795208765
+  },
+  "link:https://www.amazon.com.br/dp/B00QYCJS42": {
+   "r": "falha",
+   "t": 1795216081
   },
   "link:https://www.amazon.com.br/dp/B015RKWZY6": {
    "r": "gerado",
@@ -182,6 +210,10 @@
    "r": "duplicado",
    "t": 1795213002
   },
+  "link:https://www.amazon.com.br/dp/B0FQCRTG24": {
+   "r": "gerado",
+   "t": 1795216052
+  },
   "link:https://www.amazon.com.br/dp/B0FY6Z7K5W": {
    "r": "duplicado",
    "t": 1795210046
@@ -213,6 +245,14 @@
   "link:https://www.centauro.com.br/kit-3-pares-de-meias-de-corrida-asics-quarter-tamanho-34-a-38-adulto-987919.html?cor=O4&shortlink=3022r95u&is_retargeting=true&onelink_id=13Nl&c=social-com-divulgacao_teniscerto&source_caller=api_v2&af_dp=centauro%3A%2F%2Fpdp%3Fsku%3D987919O4&deep_link_value=centauro%3A%2F%2Fpdp%3Fsku%3D987919O4&af_adset=teniscerto&af_click_lookback=1h&af_viewthrough_lookback=1h&af_channel=network": {
    "r": "falha",
    "t": 1795215311
+  },
+  "link:https://www.kabum.com.br/produto/1006946/mouse-gamer-sem-fio-logitech-g-pro-x2-superstrike-lightspeed-61g-cliques-tateis-personalizaveis-usb-c-preto-e-branco-910-007775": {
+   "r": "gerado",
+   "t": 1795215949
+  },
+  "link:https://www.netshoes.com.br/lst/afil-corre": {
+   "r": "falha",
+   "t": 1795215980
   },
   "promotom:115007": {
    "r": "pulado:sem link",
@@ -274,9 +314,37 @@
    "r": "pulado:sem preco",
    "t": 1795213187
   },
+  "promotom:115025": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795215878
+  },
+  "promotom:115026": {
+   "r": "pulado:sem link",
+   "t": 1795215878
+  },
   "teniscertocupons:63531": {
    "r": "cancelado_teste",
    "t": 1795215823
+  },
+  "teniscertocupons:66099": {
+   "r": "falha",
+   "t": 1795215980
+  },
+  "teniscertocupons:66100": {
+   "r": "pulado:mesmo link",
+   "t": 1795216005
+  },
+  "teniscertocupons:66101": {
+   "r": "pulado:mesmo link",
+   "t": 1795216005
+  },
+  "teniscertocupons:66102": {
+   "r": "pulado:mesmo link",
+   "t": 1795216005
+  },
+  "teniscertocupons:66103": {
+   "r": "pulado:mesmo link",
+   "t": 1795216005
   },
   "teste:1795203980": {
    "r": "cancelado_teste",
@@ -295,7 +363,14 @@
    "t": 1795214936
   }
  },
- "fila": [],
+ "fila": [
+  {
+   "canal": "fumotom",
+   "id": 51437,
+   "t": 1795215482.0,
+   "txt": "Organizador de embalagem Med. Copper Infused Compression Socks Travelonadulto-unissex\n\nR$ 121\n\nhttps://www.amazon.com.br/dp/B07MFVTP31?tag=promotom05-20\n\n-Anúncio"
+  }
+ ],
  "perfil": {
   "faixas": [
    894,
@@ -3314,12 +3389,12 @@
   "t": 1795214633
  },
  "ultimo_id": {
-  "fumotom": 51431,
-  "iuriindica": 123963,
+  "fumotom": 51437,
+  "iuriindica": 123964,
   "juaocupons": 27576,
   "perfumepromo": 10076,
-  "promotom": 115024,
-  "teniscertocupons": 66098,
+  "promotom": 115026,
+  "teniscertocupons": 66103,
   "teste": 1795214930
  }
 }
