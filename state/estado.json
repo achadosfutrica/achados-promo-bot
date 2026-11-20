@@ -1,9 +1,27 @@
 {
  "contagem_dia": 0,
- "dia": "2026-11-18",
- "feitos": {},
+ "dia": "2026-11-20",
+ "feitos": {
+  "fumotom:51408": {
+   "r": "falha",
+   "t": 1795203021
+  },
+  "fumotom:51409": {
+   "r": "falha",
+   "t": 1795203049
+  },
+  "fumotom:51410": {
+   "r": "falha",
+   "t": 1795203078
+  },
+  "fumotom:51411": {
+   "r": "falha",
+   "t": 1795203108
+  }
+ },
  "ultimo_id": {
-  "fumotom": 50168,
-  "promotom": 114603
+  "fumotom": 51410,
+  "juaocupons": 27572,
+  "promotom": 115004
  }
 }
