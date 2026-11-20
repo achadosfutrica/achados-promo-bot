@@ -118,6 +118,18 @@
    "r": "falha",
    "t": 1795216081
   },
+  "fumotom:51440": {
+   "r": "duplicado",
+   "t": 1795218657
+  },
+  "fumotom:51441": {
+   "r": "falha",
+   "t": 1795218798
+  },
+  "fumotom:51442": {
+   "r": "falha",
+   "t": 1795218728
+  },
   "iuriindica:123964": {
    "r": "pulado:mesmo link",
    "t": 1795215974
@@ -145,6 +157,18 @@
   "link:https://meli.la/2zwCHF8": {
    "r": "duplicado",
    "t": 1795210086
+  },
+  "link:https://s.shopee.com.br/4fxwkyRuzp": {
+   "r": "falha",
+   "t": 1795218798
+  },
+  "link:https://s.shopee.com.br/5fqRk5yjGE": {
+   "r": "duplicado",
+   "t": 1795218657
+  },
+  "link:https://s.shopee.com.br/9KjmJe3KW0": {
+   "r": "falha",
+   "t": 1795218728
   },
   "link:https://www.amazon.com.br/dp/8571670439": {
    "r": "cancelado_teste",
@@ -322,6 +346,10 @@
    "r": "pulado:sem link",
    "t": 1795215878
   },
+  "promotom:115027": {
+   "r": "pulado:mesmo link",
+   "t": 1795218682
+  },
   "teniscertocupons:63531": {
    "r": "cancelado_teste",
    "t": 1795215823
@@ -346,6 +374,14 @@
    "r": "pulado:mesmo link",
    "t": 1795216005
   },
+  "teniscertocupons:66104": {
+   "r": "pulado:mesmo link",
+   "t": 1795218647
+  },
+  "teniscertocupons:66105": {
+   "r": "pulado:mesmo link",
+   "t": 1795218647
+  },
   "teste:1795203980": {
    "r": "cancelado_teste",
    "t": 1795204010
@@ -366,9 +402,45 @@
  "fila": [
   {
    "canal": "fumotom",
+   "id": 51443,
+   "t": 1795218100.0,
+   "txt": "Monitor Gamer Aoc 23,8\" Full Hd 144Hz Agon G50 Ips 0,5ms 24G50f/57 Hdmi DisplayPort G-Sync\n\nR$ 462\n-Resgate todos os cupons desta página:\nhttps://s.shopee.com.br/906vvDQccM\n\n-Link produto:\nhttps://s.shopee.com.br/30pimBrS1b\n\n-Anúncio"
+  },
+  {
+   "canal": "fumotom",
+   "id": 51446,
+   "t": 1795218501.0,
+   "txt": "Panela Philco PPH240APR Redstone com Tampa de Vidro 2,7L -\n\nR$ 99\n\nhttps://www.amazon.com.br/dp/B0C2Z9NDNQ?tag=promotom05-20\n\n-Anúncio"
+  },
+  {
+   "canal": "fumotom",
+   "id": 51439,
+   "t": 1795216695.0,
+   "txt": "ULTCOVER Capa de mesa redonda de 122 cm para decoração de móveis à prova d'água\n\nR$ 337\n\nhttps://www.amazon.com.br/dp/B09LPT72GF?tag=promotom05-20\n\n-Anúncio"
+  },
+  {
+   "canal": "fumotom",
+   "id": 51438,
+   "t": 1795216330.0,
+   "txt": "MANGUEIRA MULTI USO 3/8\"X2,7 TRANSP ROLO C/ 50M Force Line\n\nR$ 141\n\nhttps://www.amazon.com.br/dp/B08CFZH1Q6?tag=promotom05-20\n\n-Anúncio"
+  },
+  {
+   "canal": "fumotom",
    "id": 51437,
    "t": 1795215482.0,
    "txt": "Organizador de embalagem Med. Copper Infused Compression Socks Travelonadulto-unissex\n\nR$ 121\n\nhttps://www.amazon.com.br/dp/B07MFVTP31?tag=promotom05-20\n\n-Anúncio"
+  },
+  {
+   "canal": "fumotom",
+   "id": 51444,
+   "t": 1795218211.0,
+   "txt": "Timex Standard 3-Hand 40mm Men’s Analog Watch\n\nR$ 348\n\nhttps://www.amazon.com.br/dp/B0B771YYWG?tag=promotom05-20\n\n-Anúncio"
+  },
+  {
+   "canal": "fumotom",
+   "id": 51445,
+   "t": 1795218401.0,
+   "txt": "UNTOUCHABLES (4K UHD/DIGITAL)\n\nR$ 161\n\nhttps://www.amazon.com.br/dp/B09TVW4VKR?tag=promotom05-20\n\n-Anúncio"
   }
  ],
  "perfil": {
@@ -3389,12 +3461,12 @@
   "t": 1795214633
  },
  "ultimo_id": {
-  "fumotom": 51437,
+  "fumotom": 51446,
   "iuriindica": 123964,
   "juaocupons": 27576,
   "perfumepromo": 10076,
-  "promotom": 115026,
-  "teniscertocupons": 66103,
+  "promotom": 115027,
+  "teniscertocupons": 66105,
   "teste": 1795214930
  }
 }
