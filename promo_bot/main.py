@@ -202,7 +202,13 @@ def main():
                 log("aviso: nao consegui avisar o robo de cupons: %s" % e)
                 notificar("⚠️ Robô de promoções: não consegui avisar @%s:\n%s" % (cfg["robo_cupons"], msg))
         from .divulgador_api import Divulgador
-        posts = _ler_canais(client, cfg, est, log)
+        teste_link = os.environ.get("PROMO_TESTE_LINK", "").strip()
+        if teste_link and cfg["mode"] == "test":
+            # teste manual: usa só este link (não lê os canais, não mexe no ponteiro dos canais)
+            posts = {"teste": [(int(time.time()), "Produto de teste por R$ 99,90 no Pix\n" + teste_link)]}
+            log("teste com o link informado: %s" % teste_link)
+        else:
+            posts = _ler_canais(client, cfg, est, log)
         drv = Driver(ConvTelethon(client, cfg["bot_divulgador"]), cfg, log)
         cont = rodar(cfg, posts, est, drv, log, notificar, avisar_robo=avisar_robo, divulgador=Divulgador())
         log("resumo: %s" % cont)
