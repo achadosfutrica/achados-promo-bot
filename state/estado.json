@@ -202,6 +202,10 @@
    "r": "cancelado_teste",
    "t": 1795211058
   },
+  "link:https://www.centauro.com.br/kit-3-pares-de-meias-de-corrida-asics-quarter-tamanho-34-a-38-adulto-987919.html?cor=O4&shortlink=3022r95u&is_retargeting=true&onelink_id=13Nl&c=social-com-divulgacao_teniscerto&source_caller=api_v2&af_dp=centauro%3A%2F%2Fpdp%3Fsku%3D987919O4&deep_link_value=centauro%3A%2F%2Fpdp%3Fsku%3D987919O4&af_adset=teniscerto&af_click_lookback=1h&af_viewthrough_lookback=1h&af_channel=network": {
+   "r": "falha",
+   "t": 1795215311
+  },
   "promotom:115007": {
    "r": "pulado:sem link",
    "t": 1795203318
@@ -261,6 +265,10 @@
   "promotom:115024": {
    "r": "pulado:sem preco",
    "t": 1795213187
+  },
+  "teniscertocupons:63531": {
+   "r": "falha",
+   "t": 1795215311
   },
   "teste:1795203980": {
    "r": "cancelado_teste",
