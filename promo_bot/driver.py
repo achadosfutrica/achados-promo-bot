@@ -72,9 +72,11 @@ class Driver:
     def gerar(self, link, preco_txt, cupom=None, extra=None, modo="live"):
         """Retorna ('gerado'|'cancelado_teste', detalhe). Levanta Falha em qualquer anomalia."""
         try:
+            if hasattr(self.conv, "limpar"):
+                self.conv.limpar()          # fecha pergunta que ficou aberta (sua ou de outra execução)
             tela = self.conv.enviar(link)
             tela = self._revisar(tela)
-            if tela.tem_texto("ja foi gerado", "já foi gerado", "ja gerou", "duplicad"):
+            if tela.tem_texto("ja foi gerado", "já foi gerado", "ja gerou", "duplicad", "produto ja gerado", "deseja gerar novamente"):
                 self.conv.cancelar_tudo()
                 return "duplicado", tela.texto[:120]
             if not tela.achar("gerar promo"):

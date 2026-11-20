@@ -2,6 +2,7 @@
 import asyncio
 import time
 
+from . import texto as T
 from .driver import Tela
 
 
@@ -33,12 +34,15 @@ class ConvTelethon:
             return None, ()
         return m, (m.id, m.message, tuple(b.text for l in (m.buttons or []) for b in l), m.edit_date)
 
-    async def _esperar_mudanca(self, antes):
-        fim = time.time() + self.timeout
+    async def _esperar_mudanca(self, antes, min_id=None, timeout=None):
+        """Espera a resposta do bot. min_id: só vale mensagem do bot DEPOIS da nossa (evita ler uma tela velha)."""
+        fim = time.time() + (timeout or self.timeout)
         estavel, ult = 0, None
         while time.time() < fim:
             await asyncio.sleep(self.intervalo)
             m, ass = await self._assinatura()
+            if m is None or (min_id is not None and m.id <= min_id):
+                continue
             if ass != antes:
                 # espera estabilizar (o bot edita a mensagem em etapas)
                 if ass == ult:
@@ -51,13 +55,13 @@ class ConvTelethon:
                         return t
                 else:
                     ult, estavel = ass, 0
-        raise TimeoutError("o bot nao respondeu em %ss" % self.timeout)
+        raise TimeoutError("o bot nao respondeu em %ss" % (timeout or self.timeout))
 
     def enviar(self, txt):
         async def f():
             _, antes = await self._assinatura()
-            await self.c.send_message(self.bot, txt)
-            return await self._esperar_mudanca(antes)
+            enviada = await self.c.send_message(self.bot, txt)
+            return await self._esperar_mudanca(antes, min_id=getattr(enviada, "id", None))
         return self._run(f())
 
     def responder(self, txt):
@@ -78,12 +82,30 @@ class ConvTelethon:
         return self._run(f())
 
     def cancelar_tudo(self):
+        """Fecha qualquer tela aberta do bot (Cancelar / Não) e ESPERA a resposta, para não atropelar o próximo produto."""
         async def f():
-            m, _ = await self._assinatura()
-            if m and m.buttons:
-                for linha in m.buttons:
-                    for b in linha:
-                        if "cancel" in (b.text or "").lower():
-                            await b.click()
-                            return
+            m, antes = await self._assinatura()
+            if not (m and m.buttons):
+                return False
+            alvo = None
+            for linha in m.buttons:
+                for b in linha:
+                    nb = T.norm(b.text or "")
+                    if "cancel" in nb or nb.strip(" ❌✖️") in ("nao", "não") or nb.startswith(("❌ nao", "nao,")):
+                        alvo = alvo or b
+            if alvo is None:
+                return False
+            await alvo.click()
+            try:
+                await self._esperar_mudanca(antes, timeout=15)
+            except TimeoutError:
+                pass
+            return True
         return self._run(f())
+
+    def limpar(self):
+        """Antes de cada produto: se ficou uma pergunta aberta (ex.: 'Deseja gerar novamente?'), fecha."""
+        try:
+            return self.cancelar_tudo()
+        except Exception:  # noqa
+            return False
