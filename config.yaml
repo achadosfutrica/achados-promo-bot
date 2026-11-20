@@ -30,8 +30,8 @@ ml_vendedor_extra: true
 # lojas aceitas (false = o post é pulado e anotado no log)
 lojas:
   amazon: true
-  mercadolivre: false # DESLIGADO até as suas aplicações do ML saírem (depois: true)
-  shopee: false        # <<< PENDENTE: ativar amanhã, depois da análise da Shopee
+  mercadolivre: true   # LIGADO 20/11 (com "📌 Vendido por" na informação extra)
+  shopee: true         # LIGADO 20/11 (clique de teste confirmado no relatório)
   magalu: false
   aliexpress: false    # você pediu para NÃO gerar AliExpress
 
