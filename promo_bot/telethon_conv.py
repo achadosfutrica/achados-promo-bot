@@ -67,6 +67,14 @@ class ConvTelethon:
     def responder(self, txt):
         return self.enviar(txt)
 
+    def enviar_foto(self, midia):
+        """Manda a foto do post original (cadastro manual: 'Qual a foto do produto?')."""
+        async def f():
+            _, antes = await self._assinatura()
+            enviada = await self.c.send_file(self.bot, midia)
+            return await self._esperar_mudanca(antes, min_id=getattr(enviada, "id", None))
+        return self._run(f())
+
     def clicar(self, rotulo):
         async def f():
             m, antes = await self._assinatura()
@@ -85,6 +93,14 @@ class ConvTelethon:
         """Fecha qualquer tela aberta do bot (Cancelar / Não) e ESPERA a resposta, para não atropelar o próximo produto."""
         async def f():
             m, antes = await self._assinatura()
+            if m and not m.buttons and "/cancelar" in (m.message or ""):
+                # pergunta do cadastro manual ("Qual a foto do produto? /cancelar"): cancela por comando
+                enviada = await self.c.send_message(self.bot, "/cancelar")
+                try:
+                    await self._esperar_mudanca(antes, min_id=getattr(enviada, "id", None), timeout=15)
+                except TimeoutError:
+                    pass
+                return True
             if not (m and m.buttons):
                 return False
             alvo = None

@@ -91,14 +91,71 @@ class Driver:
             tela = self.conv.clicar(esc)
         return tela
 
+    def _manual(self, tela, dados):
+        """Cadastro manual (loja que o Divulgador não lê, ex.: Centauro): responde as perguntas do bot
+        com o que veio no post original (foto, título, preço, cupom). Pergunta desconhecida -> Falha (cancela)."""
+        dados = dados or {}
+        for _ in range(10):
+            if tela.achar("gerar promo"):
+                return tela
+            n = T.norm(tela.texto)
+            pular = tela.achar("pular", "nao tem", "não tem", "sem cupom", "nenhum", "skip")
+            if "foto" in n or "imagem" in n:
+                midia = dados.get("foto")() if callable(dados.get("foto")) else dados.get("foto")
+                if not midia or not hasattr(self.conv, "enviar_foto"):
+                    raise Falha("bot pediu foto e o post nao tem foto: %r" % tela.texto[:120])
+                self.log("  manual: foto")
+                tela = self.conv.enviar_foto(midia)
+            elif "loja" in n and dados.get("loja_nome"):
+                tela = self.conv.responder(dados["loja_nome"])
+            elif "titulo" in n or "nome do produto" in n or "nome" in n:
+                if not dados.get("titulo"):
+                    raise Falha("bot pediu o titulo e nao tenho: %r" % tela.texto[:120])
+                self.log("  manual: titulo")
+                tela = self.conv.responder(dados["titulo"][:200])
+            elif ("antigo" in n or "original" in n or "de quanto" in n or "preco de" in n or "cheio" in n):
+                if dados.get("preco_antigo"):
+                    tela = self.conv.responder(dados["preco_antigo"])
+                elif pular:
+                    tela = self.conv.clicar(pular)
+                else:
+                    tela = self.conv.responder(dados.get("preco_txt", ""))
+            elif "preco" in n or "valor" in n:
+                self.log("  manual: preco")
+                tela = self.conv.responder(dados.get("preco_txt", ""))
+            elif "cupom" in n:
+                dados["_cupom_ok"] = True
+                if dados.get("cupom"):
+                    tela = self.conv.responder(dados["cupom"])
+                elif pular:
+                    tela = self.conv.clicar(pular)
+                else:
+                    raise Falha("bot pediu cupom e nao ha botao de pular: %r" % tela.texto[:120])
+            elif "link" in n and dados.get("link"):
+                tela = self.conv.responder(dados["link"])
+            elif pular:
+                tela = self.conv.clicar(pular)
+            else:
+                raise Falha("pergunta do cadastro manual nao reconhecida: %r | botoes=%s" % (tela.texto[:200], tela.botoes))
+        raise Falha("cadastro manual nao terminou")
+
     # --- fluxo
-    def gerar(self, link, preco_txt, cupom=None, extra=None, modo="live", loja=None):
+    def gerar(self, link, preco_txt, cupom=None, extra=None, modo="live", loja=None, dados=None):
         """Retorna ('gerado'|'cancelado_teste', detalhe). Levanta Falha em qualquer anomalia."""
         try:
             if hasattr(self.conv, "limpar"):
                 self.conv.limpar()          # fecha pergunta que ficou aberta (sua ou de outra execução)
             tela = self.conv.enviar(link)
             tela = self._plataforma(tela, loja)
+            if not tela.achar("gerar promo") and tela.tem_texto("qual a foto", "foto do produto", "qual o titulo", "qual o título", "nome do produto"):
+                self.log("  Divulgador nao leu a loja: cadastro manual com os dados do post")
+                d = dict(dados or {})
+                d.setdefault("preco_txt", preco_txt)
+                d.setdefault("cupom", cupom)
+                d.setdefault("link", link)
+                tela = self._manual(tela, d)
+                if d.get("_cupom_ok"):
+                    cupom = None                 # já respondido no cadastro manual
             tela = self._revisar(tela)
             if tela.tem_texto("ja foi gerado", "já foi gerado", "ja gerou", "duplicad", "produto ja gerado", "deseja gerar novamente"):
                 self.conv.cancelar_tudo()

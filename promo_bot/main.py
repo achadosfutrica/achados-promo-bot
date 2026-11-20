@@ -1,5 +1,6 @@
 """Orquestrador: lê canais -> filtra -> limpa -> manda ao Divulgador."""
 import os
+import re
 import sys
 import time
 
@@ -32,7 +33,7 @@ def avisar_esgotado(chave, canal, texto, cfg, est, modo, log, avisar_robo):
 
 
 def processar_post(post_id, canal, texto, cfg, est, driver, modo, log, notificar,
-                   avisar_robo=_sem, divulgador=None, ml_extra=None, resolver=None):
+                   avisar_robo=_sem, divulgador=None, ml_extra=None, resolver=None, midia=None):
     chave = "%s:%s" % (canal, post_id)
     if est.ja_fez(chave):
         return "repetido"
@@ -77,7 +78,7 @@ def processar_post(post_id, canal, texto, cfg, est, driver, modo, log, notificar
         return "dry"          # dry NUNCA consome o post: o modo live ainda poderá processá-lo
     chave_link = "link:" + link
     ant = est.d.get("feitos", {}).get(chave_link)
-    if ant and time.time() - ant.get("t", 0) < 12 * 3600:   # canal repostou o MESMO produto em 12 h: não tenta de novo
+    if ant and modo == "live" and time.time() - ant.get("t", 0) < 12 * 3600:   # canal repostou o MESMO produto em 12 h: não tenta de novo
         log("  pulado %s (mesmo link ja tentado: %s)" % (chave, ant.get("r")))
         est.marcar(chave, "pulado:mesmo link")
         return "pulado"
@@ -92,7 +93,13 @@ def processar_post(post_id, canal, texto, cfg, est, driver, modo, log, notificar
             except Exception as e:  # noqa
                 log("  aviso: cupom no Divulgador falhou: %s" % e)
     try:
-        res, det = driver.gerar(link, preco_txt, info["cupom"], extra, modo=modo, loja=info["loja"])
+        dados = {
+            "titulo": inteligencia.titulo(limpo),
+            "preco_antigo": (T.formatar_preco(inteligencia.preco_antigo(limpo), cent) if inteligencia.preco_antigo(limpo) else None),
+            "loja_nome": info["loja"],
+            "foto": (lambda: midia(canal, post_id)) if midia else None,
+        }
+        res, det = driver.gerar(link, preco_txt, info["cupom"], extra, modo=modo, loja=info["loja"], dados=dados)
     except Exception as e:  # Falha, TimeoutError, limite do Telegram etc.
         log("  FALHA %s: %r" % (chave, e))
         try:
@@ -114,7 +121,7 @@ def processar_post(post_id, canal, texto, cfg, est, driver, modo, log, notificar
 
 
 def rodar(cfg, posts_por_canal, est, driver, log=print, notificar=lambda m: None, dormir=time.sleep,
-          avisar_robo=_sem, divulgador=None, ml_extra=None, resolver=None, perfil=None, agora=None):
+          avisar_robo=_sem, divulgador=None, ml_extra=None, resolver=None, perfil=None, agora=None, midia=None):
     """posts_por_canal: {canal: [(id, texto), ...]} em ordem crescente de id.
 
     1) avisos de esgotado e posts que não passam no filtro são tratados na hora;
@@ -136,7 +143,8 @@ def rodar(cfg, posts_por_canal, est, driver, log=print, notificar=lambda m: None
 
     def fazer(canal, pid, txt):
         return processar_post(pid, canal, txt, cfg, est, driver, modo, log, notificar,
-                              avisar_robo=avisar_robo, divulgador=divulgador, ml_extra=ml_extra, resolver=resolver)
+                              avisar_robo=avisar_robo, divulgador=divulgador, ml_extra=ml_extra, resolver=resolver,
+                              midia=midia)
 
     # fila da execução anterior + posts novos
     itens = []
@@ -302,7 +310,23 @@ def main():
                 notificar("⚠️ Robô de promoções: não consegui avisar @%s:\n%s" % (cfg["robo_cupons"], msg))
         from .divulgador_api import Divulgador
         teste_link = os.environ.get("PROMO_TESTE_LINK", "").strip()
-        if teste_link and cfg["mode"] == "test":
+        def midia(canal, pid):
+            """Foto do post original (para o cadastro manual do Divulgador)."""
+            try:
+                m = client.get_messages(canal, ids=pid)
+                return m.photo if m and m.photo else None
+            except Exception as e:  # noqa
+                log("aviso: nao peguei a foto de %s:%s: %r" % (canal, pid, e))
+                return None
+        post_tg = re.match(r"https?://t\.me/(?:s/)?([A-Za-z0-9_]+)/(\d+)", teste_link or "")
+        if teste_link and cfg["mode"] == "test" and post_tg:
+            # teste com um post REAL de um canal (texto + foto), ex.: https://t.me/teniscertocupons/63531
+            canal_t, pid_t = post_tg.group(1), int(post_tg.group(2))
+            m = client.get_messages(canal_t, ids=pid_t)
+            posts = {canal_t: [(pid_t, (m.message or "") if m else "")]}
+            est.d.get("feitos", {}).pop("%s:%s" % (canal_t, pid_t), None)
+            log("teste com o post %s/%s" % (canal_t, pid_t))
+        elif teste_link and cfg["mode"] == "test":
             # teste manual: usa só este link (não lê os canais, não mexe no ponteiro dos canais)
             posts = {"teste": [(int(time.time()), "Produto de teste por R$ 99,90 no Pix\n" + teste_link)]}
             log("teste com o link informado: %s" % teste_link)
@@ -311,7 +335,7 @@ def main():
         drv = Driver(ConvTelethon(client, cfg["bot_divulgador"]), cfg, log)
         perfil = atualizar_perfil(client, cfg, est, log)
         cont = rodar(cfg, posts, est, drv, log, notificar, avisar_robo=avisar_robo, divulgador=Divulgador(),
-                     resolver=lojas_extra.resolver, perfil=perfil)
+                     resolver=lojas_extra.resolver, perfil=perfil, midia=midia)
         log("resumo: %s" % cont)
     est.salvar()
     return 0

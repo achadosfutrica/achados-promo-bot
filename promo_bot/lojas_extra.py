@@ -138,11 +138,13 @@ def resolver(url, timeout=10, voltas=6):
     import urllib.request
     abridor = urllib.request.build_opener(_SemRedirecionar())
     ua = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/124 Safari/537.36"}
-    atual = url
+    atual, achada = url, None
     for _ in range(voltas):
         alvo = desembrulhar(atual)
         if loja(alvo):
-            return alvo
+            if not rastreador(alvo):
+                return alvo
+            achada = alvo          # click.centauro.com.br/xyz: é da loja, mas ainda é um link curto -> segue
         try:
             r = abridor.open(urllib.request.Request(atual, headers=ua), timeout=timeout)
             loc, corpo = None, r.read(300000).decode("utf-8", "ignore")
@@ -150,9 +152,9 @@ def resolver(url, timeout=10, voltas=6):
             loc = e.headers.get("Location") if 300 <= e.code < 400 else None
             corpo = ""
             if not loc:
-                return url
+                return achada or url
         except Exception:  # noqa
-            return url
+            return achada or url
         if loc:
             from urllib.parse import urljoin
             atual = urljoin(atual, loc)
@@ -166,6 +168,18 @@ def resolver(url, timeout=10, voltas=6):
             if achou is None and host(u) and host(u) != host(atual) and parece_encurtado(u):
                 achou = u
         if not achou:
-            return url
+            return achada or url
         atual = achou
-    return url
+    return achada or url
+
+
+_PREFIXO_RASTREIO = ("click.", "clk.", "l.", "link.", "links.", "go.", "track.", "trk.", "r.", "t.", "tracking.", "redir.")
+
+
+def rastreador(url):
+    """Subdomínio de rastreio da própria loja com caminho curto (ex.: click.centauro.com.br/13Nl/3022r95u)."""
+    h = host(url)
+    if not h.startswith(_PREFIXO_RASTREIO):
+        return False
+    caminho = urlparse(url).path.strip("/")
+    return len(caminho) <= 30 and caminho.count("/") <= 2 and "." not in caminho
