@@ -1,5 +1,5 @@
 {
- "contagem_dia": 7,
+ "contagem_dia": 9,
  "dia": "2026-11-20",
  "feitos": {
   "fumotom:51408": {
@@ -78,6 +78,42 @@
    "r": "gerado",
    "t": 1795210371
   },
+  "fumotom:51427": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795212909
+  },
+  "fumotom:51428": {
+   "r": "gerado",
+   "t": 1795212971
+  },
+  "fumotom:51429": {
+   "r": "duplicado",
+   "t": 1795213002
+  },
+  "fumotom:51430": {
+   "r": "gerado",
+   "t": 1795213071
+  },
+  "fumotom:51431": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795213096
+  },
+  "juaocupons:27573": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795213187
+  },
+  "juaocupons:27574": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795213188
+  },
+  "juaocupons:27575": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795213188
+  },
+  "juaocupons:27576": {
+   "r": "pulado:sem preco",
+   "t": 1795213188
+  },
   "link:https://meli.la/2zwCHF8": {
    "r": "duplicado",
    "t": 1795210086
@@ -90,9 +126,17 @@
    "r": "cancelado_teste",
    "t": 1795208765
   },
+  "link:https://www.amazon.com.br/dp/B015RKWZY6": {
+   "r": "gerado",
+   "t": 1795213071
+  },
   "link:https://www.amazon.com.br/dp/B074D6KZM7": {
    "r": "gerado",
    "t": 1795207001
+  },
+  "link:https://www.amazon.com.br/dp/B084BQ7FDW": {
+   "r": "gerado",
+   "t": 1795212971
   },
   "link:https://www.amazon.com.br/dp/B08T6Q3KF4": {
    "r": "gerado",
@@ -105,6 +149,10 @@
   "link:https://www.amazon.com.br/dp/B09ZB8P4S4": {
    "r": "gerado",
    "t": 1795210371
+  },
+  "link:https://www.amazon.com.br/dp/B0B4PZL68N": {
+   "r": "duplicado",
+   "t": 1795213161
   },
   "link:https://www.amazon.com.br/dp/B0BQ3MNNFQ": {
    "r": "duplicado",
@@ -126,6 +174,10 @@
    "r": "gerado",
    "t": 1795210194
   },
+  "link:https://www.amazon.com.br/dp/B0FLKGNYJ8": {
+   "r": "duplicado",
+   "t": 1795213002
+  },
   "link:https://www.amazon.com.br/dp/B0FY6Z7K5W": {
    "r": "duplicado",
    "t": 1795210046
@@ -133,6 +185,14 @@
   "link:https://www.amazon.com.br/dp/B0H7L24BPG": {
    "r": "duplicado",
    "t": 1795210118
+  },
+  "link:https://www.amazon.com.br/dp/B0HMX7CTSY": {
+   "r": "falha",
+   "t": 1795213129
+  },
+  "link:https://www.amazon.com.br/promotion/psp/A2NPJ9DSPYUPG5?ascsubtag=srctok-28ab6dc6e33bff44&btn_type=ss&btn_ref=srctok-5c93709126700c95&linkCode=sl2&tag=promotom05-20&linkId=a8d6e9063673b05d61eea72c14dbf69b&ref_=as_li_ss_tl": {
+   "r": "falha",
+   "t": 1795213101
   },
   "link:https://www.belezanaweb.com.br/ciclo-fragrance-athina-body-splash-200ml/": {
    "r": "cancelado_teste",
@@ -174,6 +234,30 @@
    "r": "pulado:sem link",
    "t": 1795203436
   },
+  "promotom:115019": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795213096
+  },
+  "promotom:115020": {
+   "r": "falha",
+   "t": 1795213101
+  },
+  "promotom:115021": {
+   "r": "falha",
+   "t": 1795213129
+  },
+  "promotom:115022": {
+   "r": "duplicado",
+   "t": 1795213161
+  },
+  "promotom:115023": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795213187
+  },
+  "promotom:115024": {
+   "r": "pulado:sem preco",
+   "t": 1795213187
+  },
   "teste:1795203980": {
    "r": "cancelado_teste",
    "t": 1795204010
@@ -188,9 +272,12 @@
   }
  },
  "ultimo_id": {
-  "fumotom": 51426,
-  "juaocupons": 27572,
-  "promotom": 115018,
+  "fumotom": 51431,
+  "iuriindica": 123963,
+  "juaocupons": 27576,
+  "perfumepromo": 10076,
+  "promotom": 115024,
+  "teniscertocupons": 66098,
   "teste": 1795211010
  }
 }
