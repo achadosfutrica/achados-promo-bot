@@ -1,5 +1,6 @@
 """Decide se um post é uma promoção que deve ser copiada."""
 import re
+from . import lojas_extra as LX
 from . import texto as T
 
 LOJAS = {
@@ -16,7 +17,14 @@ def loja_do_link(url):
     for loja, pistas in LOJAS.items():
         if any(p in u for p in pistas):
             return loja
-    return None
+    return LX.loja(LX.desembrulhar(url))
+
+
+def link_da_loja(url, loja):
+    """Lojas extras: abre link de afiliado de terceiros e tira rastreio. As 4 principais: como veio."""
+    if loja in LOJAS:
+        return url
+    return LX.limpar(LX.desembrulhar(url))
 
 
 def eh_periferico_de_pc(texto, cfg):
@@ -30,7 +38,7 @@ def eh_periferico_de_pc(texto, cfg):
     return any(tem(p) for p in cfg.get("bloquear", []))
 
 
-def avaliar(texto, cfg):
+def avaliar(texto, cfg, resolver=None):
     """Retorna (ok, motivo, info). info = {link, loja, preco, cupom}."""
     if not texto or not texto.strip():
         return False, "vazio", {}
@@ -52,9 +60,18 @@ def avaliar(texto, cfg):
         if loja:
             escolhido = (u, loja)
             break
+    if not escolhido and resolver:
+        for u in urls:                       # encurtado / rede de afiliado: abre e vê qual loja é
+            if LX.parece_encurtado(u):
+                final = resolver(u)
+                loja = loja_do_link(final) if final else None
+                if loja:
+                    escolhido = (final, loja)
+                    break
     if not escolhido:
         return False, "loja desconhecida", {}
     link, loja = escolhido
+    link = link_da_loja(link, loja)
     if not lojas_ok.get(loja, False):
         return False, "loja desativada: " + loja, {"loja": loja}
     p, _, _ = T.preco(texto)

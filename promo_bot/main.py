@@ -4,7 +4,7 @@ import sys
 import time
 
 from . import config as C
-from . import filtro, links, ml_vendedor, texto as T
+from . import filtro, links, lojas_extra, ml_vendedor, texto as T
 from .driver import Driver, Falha
 from .estado import Estado
 
@@ -32,7 +32,7 @@ def avisar_esgotado(chave, canal, texto, cfg, est, modo, log, avisar_robo):
 
 
 def processar_post(post_id, canal, texto, cfg, est, driver, modo, log, notificar,
-                   avisar_robo=_sem, divulgador=None, ml_extra=None):
+                   avisar_robo=_sem, divulgador=None, ml_extra=None, resolver=None):
     chave = "%s:%s" % (canal, post_id)
     if est.ja_fez(chave):
         return "repetido"
@@ -41,7 +41,7 @@ def processar_post(post_id, canal, texto, cfg, est, driver, modo, log, notificar
         if r:
             return r
     limpo = T.limpar(texto, cfg)
-    ok, motivo, info = filtro.avaliar(limpo, cfg)
+    ok, motivo, info = filtro.avaliar(limpo, cfg, resolver=resolver)
     if not ok:
         log("  pulado %s (%s)" % (chave, motivo))
         if modo != "dry":
@@ -66,6 +66,11 @@ def processar_post(post_id, canal, texto, cfg, est, driver, modo, log, notificar
             log("  ML vendedor: %r" % e)
         if extra:
             log("  extra: " + extra.splitlines()[0])
+    if cfg.get("copiar_extra", True):
+        do_post = T.extra_do_post(limpo)
+        if do_post:
+            extra = (extra + "\n\n" + do_post) if extra else do_post
+            log("  extra do post: " + do_post.replace("\n", " / ")[:120])
 
     log("  %s -> %s loja=%s preco=%s cupom=%s" % (chave, link, info["loja"], preco_txt, info["cupom"]))
     if modo == "dry":
@@ -79,7 +84,7 @@ def processar_post(post_id, canal, texto, cfg, est, driver, modo, log, notificar
     est.marcar(chave, "em_andamento")   # marca ANTES: se algo travar, nunca posta em duplicidade
     est.salvar()
     # cupom: cadastra/atualiza na página de cupons do Divulgador (desconto, acima de, máximo, código)
-    if info["cupom"] and modo == "live" and divulgador is not None and getattr(divulgador, "ligado", False) and cfg.get("cupons_no_divulgador", True):
+    if info["cupom"] and info["loja"] in filtro.LOJAS and modo == "live" and divulgador is not None and getattr(divulgador, "ligado", False) and cfg.get("cupons_no_divulgador", True):
         det = T.cupom_detalhes(limpo)
         if det:
             try:
@@ -87,7 +92,7 @@ def processar_post(post_id, canal, texto, cfg, est, driver, modo, log, notificar
             except Exception as e:  # noqa
                 log("  aviso: cupom no Divulgador falhou: %s" % e)
     try:
-        res, det = driver.gerar(link, preco_txt, info["cupom"], extra, modo=modo)
+        res, det = driver.gerar(link, preco_txt, info["cupom"], extra, modo=modo, loja=info["loja"])
     except Exception as e:  # Falha, TimeoutError, limite do Telegram etc.
         log("  FALHA %s: %r" % (chave, e))
         try:
@@ -109,7 +114,7 @@ def processar_post(post_id, canal, texto, cfg, est, driver, modo, log, notificar
 
 
 def rodar(cfg, posts_por_canal, est, driver, log=print, notificar=lambda m: None, dormir=time.sleep,
-          avisar_robo=_sem, divulgador=None, ml_extra=None):
+          avisar_robo=_sem, divulgador=None, ml_extra=None, resolver=None):
     """posts_por_canal: {canal: [(id, texto), ...]} em ordem crescente de id."""
     modo = cfg["mode"]
     if modo == "off":
@@ -123,7 +128,7 @@ def rodar(cfg, posts_por_canal, est, driver, log=print, notificar=lambda m: None
                 log("limite atingido; o resto fica para a próxima execução")
                 return cont
             r = processar_post(pid, canal, txt, cfg, est, driver, modo, log, notificar,
-                               avisar_robo=avisar_robo, divulgador=divulgador, ml_extra=ml_extra)
+                               avisar_robo=avisar_robo, divulgador=divulgador, ml_extra=ml_extra, resolver=resolver)
             if modo != "dry":
                 est.set_ultimo(canal, pid)
             cont[r] = cont.get(r, 0) + 1
@@ -210,7 +215,7 @@ def main():
         else:
             posts = _ler_canais(client, cfg, est, log)
         drv = Driver(ConvTelethon(client, cfg["bot_divulgador"]), cfg, log)
-        cont = rodar(cfg, posts, est, drv, log, notificar, avisar_robo=avisar_robo, divulgador=Divulgador())
+        cont = rodar(cfg, posts, est, drv, log, notificar, avisar_robo=avisar_robo, divulgador=Divulgador(), resolver=lojas_extra.resolver)
         log("resumo: %s" % cont)
     est.salvar()
     return 0

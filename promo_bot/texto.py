@@ -191,3 +191,42 @@ def cupons_esgotados(texto):
 def tem_sacola_laranja(texto):
     """🛍 (sacola de compras) — marca de posts que você não quer copiar."""
     return "\U0001F6CD" in (texto or "")
+
+
+# ------------------------------------------------------------------
+# Informação extra copiada do post original (frete, cashback, como ativar...)
+# ------------------------------------------------------------------
+_EXTRA_CHAVE = re.compile(
+    r"frete gr|frete gratis|cashback|resgat|ative |ativar|aplique|aplicar|selecion|marque|no carrinho|cai no carrinho|"
+    r"cupom (?:no|na|do|da) (?:app|site|pagina|anuncio)|no app\b|pelo app|so no app|primeira compra|1a compra|"
+    r"por cpf|limite de|limitad|vendido (?:e entregue )?por|loja oficial|full\b|chega amanha|chega hoje|prime\b|"
+    r"retira|retirada|moedas|pontos|cartao|nubank|mercado pago|pague com|via pix|desconto no pix|estoque|"
+    r"valor (?:cai|muda|varia)|preco (?:cai|muda|varia)|opcao|cor |tamanho|voltagem|110v|220v|bivolt|"
+    r"outras opcoes|clique em|role ate|link (?:de|do) cupom|pegue o cupom|resgate o cupom"
+)
+
+
+def extra_do_post(texto, max_linhas=3, max_chars=300):
+    """Linhas de instrução do post (sem título, preço, link e o próprio código de cupom)."""
+    linhas = [l.strip() for l in (texto or "").splitlines() if l.strip()]
+    out = []
+    for i, l in enumerate(linhas):
+        if i == 0:
+            continue                      # título
+        n = norm(l)
+        if URL_RE.search(l) or n.strip(" -:•*").startswith(("link", "compre", "clique aqui", "acesse")) and URL_RE.search(l):
+            continue
+        sem_url = URL_RE.sub("", l).strip()
+        if not sem_url or len(sem_url) < 8:
+            continue
+        if PRECO_RE.search(sem_url) and not _EXTRA_CHAVE.search(n):
+            continue                      # linha de preço
+        if re.match(r"^\W*(cupom|codigo)\b", n) and not _EXTRA_CHAVE.search(n.split(":", 1)[-1]):
+            continue                      # "Cupom: XYZ" (o cupom vai no campo próprio)
+        if _EXTRA_CHAVE.search(n):
+            if sem_url not in out:
+                out.append(sem_url)
+        if len(out) >= max_linhas:
+            break
+    r = "\n".join(out).strip()
+    return r[:max_chars] if r else None

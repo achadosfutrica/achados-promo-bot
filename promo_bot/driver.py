@@ -68,19 +68,43 @@ class Driver:
             tela = self.conv.clicar(b)
         return tela
 
+    PLATAFORMAS = ("awin", "rakuten", "afilio", "ltk", "lomadee", "flipnet")
+
+    def _plataforma(self, tela, loja):
+        """Se o bot perguntar por qual plataforma gerar (Awin/Rakuten/...), escolhe a do config."""
+        for _ in range(2):
+            if tela.achar("gerar promo"):
+                return tela
+            opcoes = [b for b in tela.botoes if any(p in T.norm(b) for p in self.PLATAFORMAS)]
+            if not opcoes:
+                return tela
+            prefs = (self.cfg.get("plataforma") or {})
+            ordem = [prefs.get(loja or "", "")] + list(prefs.get("_padrao", ["awin", "rakuten", "afilio"]))
+            esc = None
+            for p in [x for x in ordem if x]:
+                esc = next((b for b in opcoes if T.norm(p) in T.norm(b)), None)
+                if esc:
+                    break
+            if not esc:
+                raise Falha("plataforma preferida nao oferecida: %s | botoes=%s" % (ordem, tela.botoes))
+            self.log("  plataforma: %s" % esc)
+            tela = self.conv.clicar(esc)
+        return tela
+
     # --- fluxo
-    def gerar(self, link, preco_txt, cupom=None, extra=None, modo="live"):
+    def gerar(self, link, preco_txt, cupom=None, extra=None, modo="live", loja=None):
         """Retorna ('gerado'|'cancelado_teste', detalhe). Levanta Falha em qualquer anomalia."""
         try:
             if hasattr(self.conv, "limpar"):
                 self.conv.limpar()          # fecha pergunta que ficou aberta (sua ou de outra execução)
             tela = self.conv.enviar(link)
+            tela = self._plataforma(tela, loja)
             tela = self._revisar(tela)
             if tela.tem_texto("ja foi gerado", "já foi gerado", "ja gerou", "duplicad", "produto ja gerado", "deseja gerar novamente"):
                 self.conv.cancelar_tudo()
                 return "duplicado", tela.texto[:120]
             if not tela.achar("gerar promo"):
-                raise Falha("tela de revisao nao reconhecida: %r" % tela.texto[:150])
+                raise Falha("tela de revisao nao reconhecida: %r | botoes=%s" % (tela.texto[:200], tela.botoes))
 
             # 1) CUPOM PRIMEIRO (ele recalcula desconto sozinho)
             if cupom:
