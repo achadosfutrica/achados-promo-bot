@@ -51,7 +51,7 @@ class Driver:
         b = tela.achar(*trechos)
         if b is None:
             if obrigatorio:
-                raise Falha("botao nao encontrado: %s | botoes=%s" % (trechos, tela.botoes))
+                raise Falha("botao nao encontrado: %s | tela=%r | botoes=%s" % (trechos, tela.texto[:250], tela.botoes))
             return tela
         if "parcel" in T.norm(b) and not any("parcel" in T.norm(t) for t in trechos):
             raise Falha("recusei clicar em parcelamento")
