@@ -46,6 +46,10 @@
    "r": "cancelado_teste",
    "t": 1795204010
   },
+  "link:https://www.amazon.com.br/dp/8578606574": {
+   "r": "cancelado_teste",
+   "t": 1795208765
+  },
   "link:https://www.amazon.com.br/dp/B074D6KZM7": {
    "r": "gerado",
    "t": 1795207001
@@ -101,12 +105,16 @@
   "teste:1795203980": {
    "r": "cancelado_teste",
    "t": 1795204010
+  },
+  "teste:1795208735": {
+   "r": "cancelado_teste",
+   "t": 1795208765
   }
  },
  "ultimo_id": {
   "fumotom": 51417,
   "juaocupons": 27572,
   "promotom": 115018,
-  "teste": 1795203980
+  "teste": 1795208735
  }
 }
