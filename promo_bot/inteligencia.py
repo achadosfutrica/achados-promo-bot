@@ -25,12 +25,28 @@ loja oficial link compre aqui hoje agora apenas so preco valor reais off ate aci
 FAIXAS = [0, 30, 60, 100, 200, 400, 800, 1500, 3000, 10 ** 9]
 
 
+def _gatilho(s):
+    """Linha de chamada ('LEVE TRÊS PELO PREÇO DE UMA!!', 'CORRE!!') e não nome de produto."""
+    letras = [c for c in s if c.isalpha()]
+    if not letras:
+        return True
+    maius = sum(c.isupper() for c in letras) / len(letras)
+    return maius > 0.6 or s.rstrip().endswith("!!")
+
+
 def titulo(texto):
+    """Nome do produto: 1ª linha que não é link, preço, cupom nem chamada em MAIÚSCULAS."""
+    candidatas = []
     for l in (texto or "").splitlines():
         s = T.URL_RE.sub("", l).strip()
-        if len(re.sub(r"\W", "", s)) >= 4 and not T.PRECO_RE.search(s):
+        n = T.norm(s)
+        if len(re.sub(r"\W", "", s)) < 4 or T.PRECO_RE.search(s) or re.match(r"^\W*(cupom|codigo|link|compre)\b", n):
+            continue
+        candidatas.append(s)
+    for s in candidatas:
+        if not _gatilho(s):
             return s
-    return ""
+    return candidatas[0] if candidatas else ""
 
 
 def palavras(s):

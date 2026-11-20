@@ -164,11 +164,20 @@ class Driver:
                 raise Falha("tela de revisao nao reconhecida: %r | botoes=%s" % (tela.texto[:200], tela.botoes))
 
             # 1) CUPOM PRIMEIRO (ele recalcula desconto sozinho)
+            if cupom and any(T.norm(cupom) in T.norm(b) for b in tela.botoes):
+                cupom = None                     # o Divulgador já colocou este cupom (ex.: botão "🎟️ TENISCERTO")
             if cupom:
-                tela = self._clicar(tela, "cupom")
+                tela = self._clicar(tela, "cupom", "🎟")
                 tela = self.conv.responder(cupom)
                 if tela.tem_texto("nao encontr", "não encontr", "inexistente", "invalido", "inválido", "nao existe"):
                     raise Falha("cupom desconhecido do Divulgador: %s" % cupom)
+                tela = self._revisar(tela)
+
+            # 1b) preço antigo ("De:") quando o post traz e o Divulgador deixou vazio
+            b_de = next((b for b in tela.botoes if T.norm(b).strip().startswith("de:") and "vazio" in T.norm(b)), None)
+            if b_de and (dados or {}).get("preco_antigo"):
+                tela = self.conv.clicar(b_de)
+                tela = self.conv.responder(dados["preco_antigo"])
                 tela = self._revisar(tela)
 
             # 2) PREÇO POR ÚLTIMO
