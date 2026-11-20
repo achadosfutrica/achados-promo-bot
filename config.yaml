@@ -34,6 +34,61 @@ lojas:
   shopee: true         # LIGADO 20/11 (clique de teste confirmado no relatório)
   magalu: false
   aliexpress: false    # você pediu para NÃO gerar AliExpress
+  # --- outras lojas (20/11): o link vai ao Divulgador, que converte no seu afiliado
+  belezanaweb: true
+  cea: true
+  natura: true
+  paguemenos: true
+  casasbahia: true
+  webcontinental: true
+  nespresso: true
+  amobeleza: true
+  dafiti: true
+  adidas: true
+  carrefour: true
+  artwalk: true
+  asics: true
+  authenticfeet: true
+  puma: true
+  brastemp: true
+  drogal: true
+  pacheco: true
+  drogariasaopaulo: true
+  drogaraia: true
+  drogasil: true
+  efacil: true
+  hering: true          # Hering e Espaço Hering
+  fastshop: true
+  kabum: true
+  lg: true
+  mizuno: true
+  olympikus: true
+  stanley: true
+  vivara: true
+  nike: true
+  netshoes: true
+  centauro: true
+  epocacosmeticos: true
+  zzmall: true
+  futfanatics: true     # o Divulgador não tem Futfanatics: se ele não gerar, você recebe aviso
+
+# se o bot do Divulgador perguntar por qual plataforma gerar, usa esta
+plataforma:
+  belezanaweb: awin
+  amobeleza: rakuten
+  adidas: awin
+  carrefour: awin
+  dafiti: awin
+  pacheco: rakuten
+  drogariasaopaulo: rakuten
+  drogasil: awin
+  efacil: awin
+  hering: rakuten       # Espaço Hering via Rakuten
+  kabum: awin
+  _padrao: [awin, rakuten, afilio]
+
+# copia do post original as linhas de instrução (frete grátis, ative o cupom, cashback...) para a informação extra
+copiar_extra: true
 
 # posts que são PULADOS mesmo com loja ligada
 bloquear_sacola_laranja: true   # qualquer post com 🛍 (sacola)
