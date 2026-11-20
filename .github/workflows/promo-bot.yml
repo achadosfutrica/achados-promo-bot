@@ -1,11 +1,14 @@
 name: promo-bot
-# DESATIVADO: só roda manualmente (workflow_dispatch). Para automatizar, remova o '#' das 2 linhas do cron.
+# TESTE: só roda manualmente. (Depois do teste, o cron será ligado.)
 on:
   workflow_dispatch:
     inputs:
       mode:
         description: "off | dry | test | live"
         default: "dry"
+      link:
+        description: "(opcional, só no modo test) link de um produto para testar"
+        default: ""
   # schedule:
   #   - cron: "*/10 * * * *"
 
@@ -32,7 +35,10 @@ jobs:
           TG_API_ID: ${{ secrets.TG_API_ID }}
           TG_API_HASH: ${{ secrets.TG_API_HASH }}
           TG_SESSION: ${{ secrets.TG_SESSION }}
-          PROMO_MODE: ${{ github.event.inputs.mode || vars.PROMO_MODE || 'off' }}
+          DI_EMAIL: ${{ secrets.DI_EMAIL }}
+          DI_SENHA: ${{ secrets.DI_SENHA }}
+          PROMO_MODE: ${{ github.event.inputs.mode || vars.PROMO_MODE || '' }}
+          PROMO_TESTE_LINK: ${{ github.event.inputs.link || '' }}
         run: python -m promo_bot.main
       - name: Salvar estado
         if: always()
