@@ -4,7 +4,7 @@ import sys
 import time
 
 from . import config as C
-from . import filtro, links, lojas_extra, ml_vendedor, texto as T
+from . import filtro, inteligencia, links, lojas_extra, ml_vendedor, texto as T
 from .driver import Driver, Falha
 from .estado import Estado
 
@@ -114,28 +114,122 @@ def processar_post(post_id, canal, texto, cfg, est, driver, modo, log, notificar
 
 
 def rodar(cfg, posts_por_canal, est, driver, log=print, notificar=lambda m: None, dormir=time.sleep,
-          avisar_robo=_sem, divulgador=None, ml_extra=None, resolver=None):
-    """posts_por_canal: {canal: [(id, texto), ...]} em ordem crescente de id."""
+          avisar_robo=_sem, divulgador=None, ml_extra=None, resolver=None, perfil=None, agora=None):
+    """posts_por_canal: {canal: [(id, texto), ...]} em ordem crescente de id.
+
+    1) avisos de esgotado e posts que não passam no filtro são tratados na hora;
+    2) as promoções válidas recebem uma NOTA (inteligencia.nota) e são geradas da maior para a menor,
+       no máximo `max_por_canal` de cada canal por execução;
+    3) as que sobrarem vão para a FILA e concorrem de novo na próxima execução (até max_idade_min).
+    """
     modo = cfg["mode"]
     if modo == "off":
         log("modo OFF: nada a fazer.")
         return {"off": 1}
+    agora = agora or time.time()
     lim = cfg["limites"]
-    cont, feitos = {}, 0
+    ic = cfg.get("inteligencia") or {}
+    cont, feitos, por_canal = {}, 0, {}
+
+    def conta(r):
+        cont[r] = cont.get(r, 0) + 1
+
+    def fazer(canal, pid, txt):
+        return processar_post(pid, canal, txt, cfg, est, driver, modo, log, notificar,
+                              avisar_robo=avisar_robo, divulgador=divulgador, ml_extra=ml_extra, resolver=resolver)
+
+    # fila da execução anterior + posts novos
+    itens = []
+    max_idade = lim.get("max_idade_min", 90) * 60
+    for f in (est.d.get("fila") or []):
+        if not max_idade or agora - f.get("t", agora) <= max_idade:
+            itens.append((f["canal"], f["id"], f["txt"], f.get("t", agora)))
+    vistos = {(c, i) for c, i, _, _ in itens}
     for canal, posts in posts_por_canal.items():
-        for pid, txt in posts:
-            if feitos >= lim["max_por_execucao"] or est.contagem_hoje() >= lim["max_por_dia"]:
-                log("limite atingido; o resto fica para a próxima execução")
-                return cont
-            r = processar_post(pid, canal, txt, cfg, est, driver, modo, log, notificar,
-                               avisar_robo=avisar_robo, divulgador=divulgador, ml_extra=ml_extra, resolver=resolver)
+        for p in posts:
+            pid, txt = p[0], p[1]
+            if (canal, pid) not in vistos:
+                itens.append((canal, pid, txt, p[2] if len(p) > 2 and p[2] else agora))
             if modo != "dry":
                 est.set_ultimo(canal, pid)
-            cont[r] = cont.get(r, 0) + 1
-            if r in ("gerado", "cancelado_teste", "duplicado", "falha"):
-                feitos += 1
-                dormir(lim["pausa_entre_promocoes_seg"])
+
+    candidatos = []
+    for ordem, (canal, pid, txt, t) in enumerate(itens):
+        chave = "%s:%s" % (canal, pid)
+        if est.ja_fez(chave):
+            continue
+        limpo = T.limpar(txt, cfg)
+        ok = False
+        if not (cfg.get("avisar_esgotado", True) and T.cupons_esgotados(txt)):
+            ok, _, info = filtro.avaliar(limpo, cfg, resolver=resolver)
+        if not ok:
+            conta(fazer(canal, pid, txt))            # pulado / esgotado (não usa o bot)
+            continue
+        if ic.get("ligada", True):
+            n, det = inteligencia.nota(limpo, info, perfil, cfg)
+        else:
+            n, det = 0, "inteligencia desligada"
+        if ic.get("ligada", True) and perfil and perfil.get("n") and n < ic.get("nota_minima", 0):
+            log("  pulado %s (nota %s < %s: %s)" % (chave, n, ic.get("nota_minima"), det))
+            if modo != "dry":
+                est.marcar(chave, "pulado:nota")
+            conta("pulado")
+            continue
+        candidatos.append((-n, ordem, canal, pid, txt, t, det))
+    candidatos.sort()
+    if candidatos and ic.get("ligada", True):
+        log("ranking: " + " | ".join("%s:%s=%s" % (c[2], c[3], -c[0]) for c in candidatos[:10]))
+
+    fila = []
+    max_canal = lim.get("max_por_canal", 0)
+    for neg, _, canal, pid, txt, t, det in candidatos:
+        cheio = feitos >= lim["max_por_execucao"] or est.contagem_hoje() >= lim["max_por_dia"]
+        if cheio or (max_canal and por_canal.get(canal, 0) >= max_canal):
+            fila.append({"canal": canal, "id": pid, "txt": txt, "t": t})
+            continue
+        if ic.get("ligada", True):
+            log("  %s:%s nota %s (%s)" % (canal, pid, -neg, det))
+        r = fazer(canal, pid, txt)
+        conta(r)
+        if r in ("gerado", "cancelado_teste", "duplicado", "falha"):
+            feitos += 1
+            por_canal[canal] = por_canal.get(canal, 0) + 1
+            dormir(lim["pausa_entre_promocoes_seg"])
+    if modo != "dry":
+        est.d["fila"] = fila[:lim.get("fila_max", 200)]
+    if fila:
+        log("%d promoções ficaram na fila para a próxima execução" % len(fila))
     return cont
+
+
+def atualizar_perfil(client, cfg, est, log):
+    """1x por dia: lê os SEUS posts no seu grupo do Telegram e refaz o perfil da inteligência."""
+    ic = cfg.get("inteligencia") or {}
+    grupo = ic.get("meu_grupo")
+    if not ic.get("ligada", True) or not grupo:
+        return est.d.get("perfil")
+    perfil = est.d.get("perfil")
+    if not inteligencia.perfil_vencido(perfil, ic.get("atualizar_horas", 24)):
+        return perfil
+    try:
+        client.get_dialogs(limit=300)            # carrega o grupo no cache da sessão
+        desde = time.time() - ic.get("dias_perfil", 7) * 86400
+        textos = []
+        for m in client.iter_messages(int(grupo), limit=ic.get("max_posts_perfil", 6000)):
+            if m.date and m.date.timestamp() < desde:
+                break
+            if m.message:
+                textos.append(m.message)
+        novo = inteligencia.montar_perfil(textos)
+        if novo["n"] >= 30:
+            est.d["perfil"] = novo
+            top = list(novo["palavras"])[:15]
+            log("perfil atualizado: %d posts seus; mais comuns: %s" % (novo["n"], ", ".join(top)))
+            return novo
+        log("perfil: poucos posts (%d); mantive o anterior" % novo["n"])
+    except Exception as e:  # noqa
+        log("aviso: nao consegui montar o perfil: %r" % e)
+    return perfil
 
 
 def _ler_canais(client, cfg, est, log):
@@ -164,7 +258,7 @@ def recentes_apenas(msgs, max_idade_min, est, canal, log, agora=None):
         if max_idade_min and quando and agora - quando > max_idade_min * 60:
             est.set_ultimo(canal, pid)
             continue
-        out.append((pid, txt))
+        out.append((pid, txt, quando))
     if len(out) < len(msgs):
         log("canal %s: %d posts antigos (mais de %s min) ignorados" % (canal, len(msgs) - len(out), max_idade_min))
     return out
@@ -215,7 +309,9 @@ def main():
         else:
             posts = _ler_canais(client, cfg, est, log)
         drv = Driver(ConvTelethon(client, cfg["bot_divulgador"]), cfg, log)
-        cont = rodar(cfg, posts, est, drv, log, notificar, avisar_robo=avisar_robo, divulgador=Divulgador(), resolver=lojas_extra.resolver)
+        perfil = atualizar_perfil(client, cfg, est, log)
+        cont = rodar(cfg, posts, est, drv, log, notificar, avisar_robo=avisar_robo, divulgador=Divulgador(),
+                     resolver=lojas_extra.resolver, perfil=perfil)
         log("resumo: %s" % cont)
     est.salvar()
     return 0
