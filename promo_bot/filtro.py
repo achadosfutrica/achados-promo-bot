@@ -34,6 +34,14 @@ def avaliar(texto, cfg):
     """Retorna (ok, motivo, info). info = {link, loja, preco, cupom}."""
     if not texto or not texto.strip():
         return False, "vazio", {}
+    n = T.norm(texto)
+    if cfg.get("bloquear_sacola_laranja", True) and T.tem_sacola_laranja(texto):
+        return False, "sacola laranja (bloqueado)", {}
+    if "aliexpress" in n or "ali express" in n:
+        return False, "aliexpress (bloqueado)", {}
+    for frase in cfg.get("bloquear_texto", []):
+        if T.norm(frase) in n:
+            return False, "texto bloqueado: " + frase, {}
     urls = T.links(texto)
     if not urls:
         return False, "sem link", {}
