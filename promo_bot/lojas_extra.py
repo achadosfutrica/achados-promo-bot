@@ -53,7 +53,7 @@ _PARAM_DESTINO = ("ued", "murl", "url", "u", "redirect", "redirect_url", "destin
 # parâmetros de rastreio de OUTROS afiliados (removidos; o Divulgador põe os seus)
 _RASTREIO = re.compile(r"^(utm_.*|awc|ranmid|raneaid|ransiteid|siteid|clickref|afl|aff.*|partner.*|sc_.*|gclid|fbclid|"
                        r"cm_mmc|lmdsid|origem|source|campaign|influ|ref|tag|vtex_.*|mc_.*|_ga|mkt.*|cid|pid|pub.*|irclickid|"
-                       r"irgwc|sharedid|clickid|click_id|tracking.*|zanpid|xcod|lomadee.*)$", re.I)
+                       r"irgwc|sharedid|clickid|click_id|tracking.*|zanpid|xcod|lomadee.*|aw_.*|sv1|sv_.*|awinaffid|awinmid|ranlinkid|utm|gad_.*|srsltid)$", re.I)
 
 # encurtadores e redes de afiliado (precisam ser abertos para saber a loja)
 ENCURTADORES = ("bit.ly", "tinyurl.com", "cutt.ly", "tidd.ly", "awin1.com", "awin.com", "linksynergy.com",
@@ -126,22 +126,46 @@ def parece_encurtado(url):
     return any(e in h for e in ENCURTADORES) or (curto and h.count(".") <= 2 and len(h) <= 14)
 
 
-def resolver(url, timeout=10):
-    """Segue os redirecionamentos (só para encurtadores) e devolve a URL final. Sem rede -> a própria URL."""
+class _SemRedirecionar(__import__("urllib.request").request.HTTPRedirectHandler):
+    def redirect_request(self, req, fp, code, msg, headers, newurl):
+        return None          # não segue: a gente lê o Location e decide
+
+
+def resolver(url, timeout=10, voltas=6):
+    """Abre encurtadores/links de afiliado SEM entrar na loja (lojas bloqueiam robôs):
+    segue os 'Location' um a um e para assim que aparecer o link de uma loja conhecida."""
+    import urllib.error
     import urllib.request
-    try:
-        req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124 Safari/537.36"})
-        with urllib.request.urlopen(req, timeout=timeout) as r:
-            final = r.geturl()
-            if loja(final):
-                return final
-            # alguns redirecionam por HTML/JS: procura um link de loja na página
-            corpo = r.read(300000).decode("utf-8", "ignore")
-            for m in re.finditer(r"https?:[\\/]+[^\"'<>\s]+", corpo):
-                u = m.group(0).replace("\\/", "/")
-                u = desembrulhar(unquote(u))
-                if loja(u):
-                    return u
-            return final
-    except Exception:  # noqa
-        return url
+    abridor = urllib.request.build_opener(_SemRedirecionar())
+    ua = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/124 Safari/537.36"}
+    atual = url
+    for _ in range(voltas):
+        alvo = desembrulhar(atual)
+        if loja(alvo):
+            return alvo
+        try:
+            r = abridor.open(urllib.request.Request(atual, headers=ua), timeout=timeout)
+            loc, corpo = None, r.read(300000).decode("utf-8", "ignore")
+        except urllib.error.HTTPError as e:
+            loc = e.headers.get("Location") if 300 <= e.code < 400 else None
+            corpo = ""
+            if not loc:
+                return url
+        except Exception:  # noqa
+            return url
+        if loc:
+            from urllib.parse import urljoin
+            atual = urljoin(atual, loc)
+            continue
+        # 200: redirecionamento por HTML/JS (meta refresh, window.location) ou link de loja na página
+        achou = None
+        for m in re.finditer(r"https?:[\\/]+[^\"'<>\s]+", corpo):
+            u = unquote(m.group(0).replace("\\/", "/"))
+            if loja(desembrulhar(u)):
+                return desembrulhar(u)
+            if achou is None and host(u) and host(u) != host(atual) and parece_encurtado(u):
+                achou = u
+        if not achou:
+            return url
+        atual = achou
+    return url
