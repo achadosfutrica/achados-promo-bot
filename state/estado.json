@@ -17,11 +17,47 @@
   "fumotom:51411": {
    "r": "falha",
    "t": 1795203108
+  },
+  "promotom:115007": {
+   "r": "pulado:sem link",
+   "t": 1795203318
+  },
+  "promotom:115008": {
+   "r": "pulado:loja desativada: mercadolivre",
+   "t": 1795203318
+  },
+  "promotom:115009": {
+   "r": "duplicado",
+   "t": 1795203325
+  },
+  "promotom:115010": {
+   "r": "falha",
+   "t": 1795203354
+  },
+  "promotom:115011": {
+   "r": "falha",
+   "t": 1795203382
+  },
+  "promotom:115015": {
+   "r": "falha",
+   "t": 1795203411
+  },
+  "promotom:115016": {
+   "r": "pulado:sem link",
+   "t": 1795203436
+  },
+  "promotom:115017": {
+   "r": "pulado:sem link",
+   "t": 1795203436
+  },
+  "promotom:115018": {
+   "r": "pulado:sem link",
+   "t": 1795203436
   }
  },
  "ultimo_id": {
-  "fumotom": 51410,
+  "fumotom": 51411,
   "juaocupons": 27572,
-  "promotom": 115004
+  "promotom": 115018
  }
 }
