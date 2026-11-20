@@ -70,6 +70,12 @@ def processar_post(post_id, canal, texto, cfg, est, driver, modo, log, notificar
     log("  %s -> %s loja=%s preco=%s cupom=%s" % (chave, link, info["loja"], preco_txt, info["cupom"]))
     if modo == "dry":
         return "dry"          # dry NUNCA consome o post: o modo live ainda poderá processá-lo
+    chave_link = "link:" + link
+    ant = est.d.get("feitos", {}).get(chave_link)
+    if ant and time.time() - ant.get("t", 0) < 12 * 3600:   # canal repostou o MESMO produto em 12 h: não tenta de novo
+        log("  pulado %s (mesmo link ja tentado: %s)" % (chave, ant.get("r")))
+        est.marcar(chave, "pulado:mesmo link")
+        return "pulado"
     est.marcar(chave, "em_andamento")   # marca ANTES: se algo travar, nunca posta em duplicidade
     est.salvar()
     # cupom: cadastra/atualiza na página de cupons do Divulgador (desconto, acima de, máximo, código)
@@ -90,9 +96,11 @@ def processar_post(post_id, canal, texto, cfg, est, driver, modo, log, notificar
             pass
         notificar("⚠️ Robô de promoções: falha em %s\n%s\nLink: %s" % (chave, e, link))
         est.marcar(chave, "falha")
+        est.marcar(chave_link, "falha")
         est.salvar()
         return "falha"
     est.marcar(chave, res)
+    est.marcar(chave_link, res)
     if res == "gerado":
         est.somar()
     est.salvar()
