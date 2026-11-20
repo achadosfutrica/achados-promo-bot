@@ -1,4 +1,4 @@
-# ============================================================
+# =========================================================
 # CONFIGURAÇÃO DO ROBÔ DE PROMOÇÕES (fumotom + promotom -> @di48291bot)
 # ============================================================
 # mode:
@@ -6,21 +6,39 @@
 #   dry   = lê os canais e só escreve no log o que FARIA (não fala com o Divulgador)
 #   test  = fala com o @di48291bot, preenche tudo e CANCELA no fim (nunca gera/posta)
 #   live  = gera a promoção de verdade (vai para WhatsApp e Telegram)
-mode: "off"
+mode: "live"
 
 canais:
   - fumotom
   - promotom
+  - juaocupons        # novo (t.me/juaocupons)
 
 bot_divulgador: "di48291bot"
+
+# robô de cupons que recebe o aviso "/cupomacabou CODIGO" quando um canal avisa que o cupom esgotou
+# (ele pergunta para você se posta que acabou ou não)
+robo_cupons: "AchadosFutricaBot"
+avisar_esgotado: true
+
+# cupom do post: cadastra/atualiza na página de cupons do Divulgador (desconto, acima de, máximo, código)
+# precisa dos secrets DI_EMAIL e DI_SENHA no GitHub (sem eles, só pula esta parte)
+cupons_no_divulgador: true
+
+# Mercado Livre: põe "📌 Vendido por Loja ..." na informação extra
+ml_vendedor_extra: true
 
 # lojas aceitas (false = o post é pulado e anotado no log)
 lojas:
   amazon: true
-  mercadolivre: true
+  mercadolivre: false # DESLIGADO até as suas aplicações do ML saírem (depois: true)
   shopee: false        # <<< PENDENTE: ativar amanhã, depois da análise da Shopee
   magalu: false
   aliexpress: false    # você pediu para NÃO gerar AliExpress
+
+# posts que são PULADOS mesmo com loja ligada
+bloquear_sacola_laranja: true   # qualquer post com 🛍 (sacola)
+bloquear_texto:                 # se o texto tiver qualquer uma destas frases (sem acento, minúsculas)
+  - aliexpress
 
 preco:
   centavos_quando_inteiro: "99"   # 315 vira 315,99 ; 36,50 fica 36,50
@@ -32,6 +50,7 @@ limites:
   pausa_entre_promocoes_seg: 25   # pausa entre uma promoção e outra (evita bloqueio da conta)
   max_por_dia: 150
   primeira_vez_ler_ultimos: 0     # ao ligar, NÃO posta o passado (0). Coloque 5 para ler os 5 últimos.
+  max_idade_min: 90               # posts com mais de 90 min são ignorados (evita postar promoção vencida)
 
 # palavras que BLOQUEIAM (componentes de computador)...
 bloquear:
