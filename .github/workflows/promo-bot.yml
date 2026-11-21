@@ -1,5 +1,5 @@
 name: promo-bot
-# ATIVO: roda a cada 10 min. Para parar: crie a variável PROMO_MODE = off (Settings > Secrets and variables > Actions > Variables).
+# ATIVO: de dia fica ligado (vigia de cupons, ~5h30 por execucao; a da fila assume em seguida). Madrugada: a cada 30 min. Para parar: crie a variável PROMO_MODE = off (Settings > Secrets and variables > Actions > Variables).
 on:
   workflow_dispatch:
     inputs:
@@ -22,7 +22,7 @@ concurrency:
 jobs:
   run:
     runs-on: ubuntu-latest
-    timeout-minutes: 12
+    timeout-minutes: 360
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
