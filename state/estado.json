@@ -1,6 +1,6 @@
 {
- "cmd_ultimo": 2034671,
- "contagem_dia": 69,
+ "cmd_ultimo": 2034701,
+ "contagem_dia": 71,
  "dia": "2026-11-21",
  "feitos": {
   "apromodaluh:158768": {
@@ -951,6 +951,10 @@
    "r": "pulado:sem link",
    "t": 1795299002
   },
+  "juaocupons:27612": {
+   "r": "pulado:mesmo link",
+   "t": 1795300262
+  },
   "link:https://amzn.to/3YeTytk": {
    "r": "falha",
    "t": 1795268438
@@ -1178,6 +1182,10 @@
   "link:https://www.amazon.com.br/dp/8578606574": {
    "r": "cancelado_teste",
    "t": 1795208765
+  },
+  "link:https://www.amazon.com.br/dp/B0001XVUFA": {
+   "r": "gerado",
+   "t": 1795300954
   },
   "link:https://www.amazon.com.br/dp/B0013CQCTW": {
    "r": "gerado",
@@ -1498,6 +1506,14 @@
   "link:https://www.netshoes.com.br/lst/afil-corre": {
    "r": "gerado",
    "t": 1795296485
+  },
+  "link:https://www.netshoes.com.br/p/tenis-olympikus-corre-5-cinza+bege-SE7-0803-982-42?sellerId=0": {
+   "r": "gerado",
+   "t": 1795300885
+  },
+  "link:https://www.netshoes.com.br/p/tenis-olympikus-corre-5-vanderlei-dourado-SE7-0806-070-34": {
+   "r": "falha",
+   "t": 1795300236
   },
   "link:https://www.netshoes.com.br/p/tenis-olympikus-corre-turbo-bege+preto-SE7-07ZZ-784-44": {
    "r": "duplicado",
@@ -2411,6 +2427,14 @@
    "r": "pulado:repetido",
    "t": 1795299055
   },
+  "pincei:370513": {
+   "r": "pulado:repetido",
+   "t": 1795299631
+  },
+  "pincei:370514": {
+   "r": "pulado:repetido",
+   "t": 1795300232
+  },
   "promotom:115007": {
    "r": "pulado:sem link",
    "t": 1795203318
@@ -2675,6 +2699,18 @@
    "r": "pulado:mesmo link",
    "t": 1795299092
   },
+  "promotom:115091": {
+   "r": "pulado:aliexpress (bloqueado)",
+   "t": 1795300206
+  },
+  "promotom:115092": {
+   "r": "pulado:sem link",
+   "t": 1795300206
+  },
+  "promotom:115093": {
+   "r": "gerado",
+   "t": 1795300954
+  },
   "teniscertocupons:63531": {
    "r": "cancelado_teste",
    "t": 1795215823
@@ -2762,6 +2798,18 @@
   "teniscertocupons:66133": {
    "r": "duplicado",
    "t": 1795299067
+  },
+  "teniscertocupons:66134": {
+   "r": "falha",
+   "t": 1795300236
+  },
+  "teniscertocupons:66135": {
+   "r": "gerado",
+   "t": 1795300885
+  },
+  "teniscertocupons:66136": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795300812
   },
   "teste:1795203980": {
    "r": "cancelado_teste",
@@ -7183,19 +7231,39 @@
    "w": [
     "necessidade"
    ]
+  },
+  {
+   "ids": [],
+   "p": 449.99,
+   "t": 1795300813,
+   "w": [
+    "necessidade"
+   ]
+  },
+  {
+   "ids": [
+    "B0001XVUFA"
+   ],
+   "p": 99.0,
+   "t": 1795300910,
+   "w": [
+    "casio",
+    "mq24",
+    "serie"
+   ]
   }
  ],
  "tpl_ultimo": 2032135,
- "ult_ciclo": 1795299165.035869,
+ "ult_ciclo": 1795300979.5488846,
  "ultimo_id": {
   "apromodaluh": 158823,
   "fumotom": 51582,
   "iuriindica": 123999,
-  "juaocupons": 27611,
+  "juaocupons": 27612,
   "perfumepromo": 10097,
-  "pincei": 370512,
-  "promotom": 115090,
-  "teniscertocupons": 66133,
+  "pincei": 370514,
+  "promotom": 115093,
+  "teniscertocupons": 66136,
   "teste": 1795214930
  }
 }
