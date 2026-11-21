@@ -1,6 +1,6 @@
 {
  "cmd_ultimo": 2034772,
- "contagem_dia": 71,
+ "contagem_dia": 72,
  "dia": "2026-11-21",
  "feitos": {
   "apromodaluh:158768": {
@@ -747,6 +747,10 @@
    "r": "falha",
    "t": 1795302059
   },
+  "fumotom:51584": {
+   "r": "gerado",
+   "t": 1795303263
+  },
   "iuriindica:123964": {
    "r": "pulado:mesmo link",
    "t": 1795215974
@@ -958,6 +962,10 @@
   "juaocupons:27612": {
    "r": "pulado:mesmo link",
    "t": 1795300262
+  },
+  "juaocupons:27613": {
+   "r": "pulado:mesmo link",
+   "t": 1795303290
   },
   "link:https://amzn.to/3YeTytk": {
    "r": "falha",
@@ -1354,6 +1362,10 @@
   "link:https://www.amazon.com.br/dp/B0F6LKH3RZ": {
    "r": "gerado",
    "t": 1795250237
+  },
+  "link:https://www.amazon.com.br/dp/B0FC62Y27J": {
+   "r": "gerado",
+   "t": 1795303263
   },
   "link:https://www.amazon.com.br/dp/B0FLKGNYJ8": {
    "r": "duplicado",
@@ -7307,15 +7319,37 @@
    "w": [
     "necessidade"
    ]
+  },
+  {
+   "ids": [
+    "B0FC62Y27J"
+   ],
+   "p": 302.0,
+   "t": 1795303220,
+   "w": [
+    "ajustavel",
+    "altura",
+    "armazenamento",
+    "cama",
+    "etiqueta",
+    "janela",
+    "kitstorack",
+    "organizador",
+    "pacotes",
+    "recipientes",
+    "rodas",
+    "sapatos",
+    "sob"
+   ]
   }
  ],
  "tpl_ultimo": 2032135,
- "ult_ciclo": 1795302652.5353663,
+ "ult_ciclo": 1795304421.53797,
  "ultimo_id": {
   "apromodaluh": 158823,
-  "fumotom": 51583,
+  "fumotom": 51584,
   "iuriindica": 123999,
-  "juaocupons": 27612,
+  "juaocupons": 27613,
   "perfumepromo": 10097,
   "pincei": 370514,
   "promotom": 115093,
