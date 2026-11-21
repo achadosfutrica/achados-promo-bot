@@ -15,6 +15,8 @@ canais:
   - teniscertocupons  # vestuário/tênis (Netshoes, Asics, Olympikus, Centauro) ~369 mil inscritos
   - iuriindica        # eletrônicos e eletrodomésticos ~107 mil inscritos
   - perfumepromo      # beleza/perfumes (Época, Amobeleza) ~5 mil inscritos
+  - pincei            # Pincei Ofertas (links pincei.co -> Mercado Livre) ~11 mil inscritos
+  - apromodaluh       # A Promo da Luh (também no Monitorar Grupos; o robô não repete o que já saiu no grupo)
 
 bot_divulgador: "divulgadorinteligente2bot"
 
@@ -121,6 +123,12 @@ inteligencia:
   atualizar_horas: 24
   nota_minima: 5
   bug_desconto: 0.6               # 60% ou mais de desconto = BUG (+20 na nota)
+
+# não posta o MESMO produto 2x em 24 h (robô + seu grupo), a não ser que o preço caia 15% ou mais
+repetidos:
+  ligado: true
+  horas: 24
+  desconto_min: 0.15
 
 # bônus na nota para lojas novas (as 4 grandes não ganham bônus)
 bonus_loja:
