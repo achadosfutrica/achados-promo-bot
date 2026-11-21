@@ -1,5 +1,5 @@
 {
- "contagem_dia": 58,
+ "contagem_dia": 63,
  "dia": "2026-11-21",
  "feitos": {
   "apromodaluh:158768": {
@@ -113,6 +113,54 @@
   "apromodaluh:158795": {
    "r": "pulado:repetido",
    "t": 1795270243
+  },
+  "apromodaluh:158796": {
+   "r": "gerado",
+   "t": 1795274829
+  },
+  "apromodaluh:158797": {
+   "r": "pulado:repetido",
+   "t": 1795274553
+  },
+  "apromodaluh:158798": {
+   "r": "pulado:repetido",
+   "t": 1795274655
+  },
+  "apromodaluh:158799": {
+   "r": "pulado:repetido",
+   "t": 1795274553
+  },
+  "apromodaluh:158800": {
+   "r": "gerado",
+   "t": 1795274731
+  },
+  "apromodaluh:158801": {
+   "r": "gerado",
+   "t": 1795274630
+  },
+  "apromodaluh:158802": {
+   "r": "pulado:periferico de PC",
+   "t": 1795274553
+  },
+  "apromodaluh:158803": {
+   "r": "pulado:mesmo link",
+   "t": 1795274655
+  },
+  "apromodaluh:158804": {
+   "r": "pulado:mesmo link",
+   "t": 1795274553
+  },
+  "apromodaluh:158805": {
+   "r": "pulado:mesmo link",
+   "t": 1795274655
+  },
+  "apromodaluh:158807": {
+   "r": "pulado:mesmo link",
+   "t": 1795274655
+  },
+  "apromodaluh:158808": {
+   "r": "pulado:repetido",
+   "t": 1795274655
   },
   "esg:1ABHVBZ": {
    "r": "avisado",
@@ -646,6 +694,34 @@
    "r": "gerado",
    "t": 1795272727
   },
+  "fumotom:51557": {
+   "r": "falha",
+   "t": 1795273895
+  },
+  "fumotom:51558": {
+   "r": "pulado:repetido",
+   "t": 1795274856
+  },
+  "fumotom:51559": {
+   "r": "pulado:periferico de PC",
+   "t": 1795274452
+  },
+  "fumotom:51560": {
+   "r": "pulado:repetido",
+   "t": 1795274934
+  },
+  "fumotom:51561": {
+   "r": "pulado:periferico de PC",
+   "t": 1795274452
+  },
+  "fumotom:51562": {
+   "r": "duplicado",
+   "t": 1795274868
+  },
+  "fumotom:51563": {
+   "r": "duplicado",
+   "t": 1795274908
+  },
   "iuriindica:123964": {
    "r": "pulado:mesmo link",
    "t": 1795215974
@@ -677,6 +753,30 @@
   "iuriindica:123971": {
    "r": "duplicado",
    "t": 1795272658
+  },
+  "iuriindica:123972": {
+   "r": "gerado",
+   "t": 1795273983
+  },
+  "iuriindica:123973": {
+   "r": "pulado:repetido",
+   "t": 1795274046
+  },
+  "iuriindica:123974": {
+   "r": "pulado:periferico de PC",
+   "t": 1795274452
+  },
+  "iuriindica:123975": {
+   "r": "pulado:repetido",
+   "t": 1795274857
+  },
+  "iuriindica:123976": {
+   "r": "pulado:repetido",
+   "t": 1795274935
+  },
+  "iuriindica:123977": {
+   "r": "pulado:repetido",
+   "t": 1795274894
   },
   "juaocupons:27573": {
    "r": "pulado:loja desconhecida",
@@ -754,6 +854,18 @@
    "r": "falha",
    "t": 1795273377
   },
+  "juaocupons:27592": {
+   "r": "gerado",
+   "t": 1795274302
+  },
+  "juaocupons:27593": {
+   "r": "falha",
+   "t": 1795274131
+  },
+  "juaocupons:27594": {
+   "r": "pulado:sem link",
+   "t": 1795273856
+  },
   "link:https://amzn.to/3YeTytk": {
    "r": "falha",
    "t": 1795268438
@@ -770,6 +882,14 @@
    "r": "falha",
    "t": 1795214936
   },
+  "link:https://meli.la/11V3TKU": {
+   "r": "duplicado",
+   "t": 1795274020
+  },
+  "link:https://meli.la/11eKGLa": {
+   "r": "duplicado",
+   "t": 1795274908
+  },
   "link:https://meli.la/12bGnkU": {
    "r": "duplicado",
    "t": 1795232418
@@ -781,6 +901,10 @@
   "link:https://meli.la/16T92Hm": {
    "r": "falha",
    "t": 1795263049
+  },
+  "link:https://meli.la/16XsvJC": {
+   "r": "gerado",
+   "t": 1795273983
   },
   "link:https://meli.la/1FNUEvs": {
    "r": "gerado",
@@ -801,6 +925,10 @@
   "link:https://meli.la/1KYLwXU": {
    "r": "gerado",
    "t": 1795232248
+  },
+  "link:https://meli.la/1c2W61x": {
+   "r": "duplicado",
+   "t": 1795274868
   },
   "link:https://meli.la/1cV18Wo": {
    "r": "duplicado",
@@ -842,6 +970,10 @@
    "r": "gerado",
    "t": 1795264541
   },
+  "link:https://meli.la/25qnrwa": {
+   "r": "gerado",
+   "t": 1795274731
+  },
   "link:https://meli.la/29ExosW": {
    "r": "gerado",
    "t": 1795268591
@@ -858,6 +990,10 @@
    "r": "gerado",
    "t": 1795263943
   },
+  "link:https://meli.la/2HTVFxG": {
+   "r": "gerado",
+   "t": 1795274829
+  },
   "link:https://meli.la/2HrW3K9": {
    "r": "gerado",
    "t": 1795264623
@@ -866,6 +1002,10 @@
    "r": "gerado",
    "t": 1795264979
   },
+  "link:https://meli.la/2LQFH1o": {
+   "r": "gerado",
+   "t": 1795274630
+  },
   "link:https://meli.la/2TCX82v": {
    "r": "falha",
    "t": 1795273377
@@ -873,6 +1013,10 @@
   "link:https://meli.la/2VQzJqw": {
    "r": "duplicado",
    "t": 1795232168
+  },
+  "link:https://meli.la/2ZeTaW5": {
+   "r": "falha",
+   "t": 1795273895
   },
   "link:https://meli.la/2eNiHzy": {
    "r": "gerado",
@@ -909,6 +1053,14 @@
   "link:https://s.shopee.com.br/5fqRk5yjGE": {
    "r": "gerado",
    "t": 1795269094
+  },
+  "link:https://s.shopee.com.br/5q0DxVuTin": {
+   "r": "falha",
+   "t": 1795274131
+  },
+  "link:https://s.shopee.com.br/70GSVaUJxC": {
+   "r": "falha",
+   "t": 1795274203
   },
   "link:https://s.shopee.com.br/70LsWuSJlz": {
    "r": "gerado",
@@ -1049,6 +1201,10 @@
   "link:https://www.amazon.com.br/dp/B0C2Z9NDNQ": {
    "r": "gerado",
    "t": 1795222212
+  },
+  "link:https://www.amazon.com.br/dp/B0CJ9NVNW6": {
+   "r": "gerado",
+   "t": 1795274302
   },
   "link:https://www.amazon.com.br/dp/B0CMVBVFW2": {
    "r": "gerado",
@@ -1217,6 +1373,10 @@
   "link:https://www.mizuno.com.br/tenis-de-corrida-mizuno-hyperwarp-pro-102369003-004/p": {
    "r": "gerado",
    "t": 1795273343
+  },
+  "link:https://www.mizuno.com.br/tenis-de-corrida-mizuno-hyperwarp-pro-102369003-012/p": {
+   "r": "duplicado",
+   "t": 1795274058
   },
   "link:https://www.netshoes.com.br/lst/afil-corre": {
    "r": "falha",
@@ -1970,6 +2130,82 @@
    "r": "pulado:sacola laranja (bloqueado)",
    "t": 1795273247
   },
+  "pincei:370369": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795273856
+  },
+  "pincei:370370": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795273856
+  },
+  "pincei:370371": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795273856
+  },
+  "pincei:370372": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795273856
+  },
+  "pincei:370373": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795273856
+  },
+  "pincei:370374": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795273856
+  },
+  "pincei:370375": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795274452
+  },
+  "pincei:370376": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795274553
+  },
+  "pincei:370377": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795274553
+  },
+  "pincei:370378": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795274553
+  },
+  "pincei:370379": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795274553
+  },
+  "pincei:370380": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795274553
+  },
+  "pincei:370381": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795274553
+  },
+  "pincei:370382": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795274553
+  },
+  "pincei:370383": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795274553
+  },
+  "pincei:370384": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795274553
+  },
+  "pincei:370385": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795274553
+  },
+  "pincei:370386": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795274553
+  },
+  "pincei:370387": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795274553
+  },
   "promotom:115007": {
    "r": "pulado:sem link",
    "t": 1795203318
@@ -2214,6 +2450,14 @@
    "r": "pulado:sem preco",
    "t": 1795273247
   },
+  "promotom:115077": {
+   "r": "falha",
+   "t": 1795274203
+  },
+  "promotom:115078": {
+   "r": "duplicado",
+   "t": 1795274020
+  },
   "teniscertocupons:63531": {
    "r": "cancelado_teste",
    "t": 1795215823
@@ -2262,6 +2506,10 @@
    "r": "gerado",
    "t": 1795273343
   },
+  "teniscertocupons:66111": {
+   "r": "duplicado",
+   "t": 1795274058
+  },
   "teste:1795203980": {
    "r": "cancelado_teste",
    "t": 1795204010
@@ -2279,7 +2527,14 @@
    "t": 1795214936
   }
  },
- "fila": [],
+ "fila": [
+  {
+   "canal": "apromodaluh",
+   "id": 158806,
+   "t": 1795273934.0,
+   "txt": "✨ Robô Aspirador de Pó Philco 8 modos de limpeza PAS67A 70W 127V\n\n~de R$ 1.299,90~\n🔥 *por R$ 1.039,92* 😱\n\n🏷️ *Cupom: 20BF26PRIME (somente para membros PRIME)*\n\n🛒 https://link.amazon/B08QxrBJH\n\n📌 Assine PRIME por 30 dias GRATIS aqui: https://amzn.to/3YeTytk"
+  }
+ ],
  "perfil": {
   "faixas": [
    894,
@@ -6420,19 +6675,141 @@
    "w": [
     "resgate"
    ]
+  },
+  {
+   "ids": [],
+   "p": 159.0,
+   "t": 1795273921,
+   "w": [
+    "160hz",
+    "1800r",
+    "1ms",
+    "34g600a",
+    "amd",
+    "curvo",
+    "freesync",
+    "gamer",
+    "hdr10",
+    "maxxaudio",
+    "mbr",
+    "monitor",
+    "premium",
+    "preto",
+    "quadhd",
+    "ultragear",
+    "ultrawide"
+   ]
+  },
+  {
+   "ids": [],
+   "p": 129.0,
+   "t": 1795274010,
+   "w": [
+    "driving",
+    "force",
+    "g920",
+    "gamer",
+    "logitech",
+    "preto",
+    "volante",
+    "xbox"
+   ]
+  },
+  {
+   "ids": [],
+   "p": 1169.99,
+   "t": 1795274047,
+   "w": [
+    "necessidade"
+   ]
+  },
+  {
+   "ids": [
+    "B0CJ9NVNW6"
+   ],
+   "p": 10.0,
+   "t": 1795274233,
+   "w": [
+    "resgate"
+   ]
+  },
+  {
+   "ids": [],
+   "p": 133.88,
+   "t": 1795274555,
+   "w": [
+    "887ml",
+    "black",
+    "copo",
+    "quencher",
+    "stanley"
+   ]
+  },
+  {
+   "ids": [],
+   "p": 89.91,
+   "t": 1795274657,
+   "w": [
+    "baixelas",
+    "conjunto",
+    "maresia",
+    "pecas",
+    "ryo",
+    "white"
+   ]
+  },
+  {
+   "ids": [],
+   "p": 59.99,
+   "t": 1795274757,
+   "w": [
+    "390g",
+    "chocolate",
+    "chocotone",
+    "gotas",
+    "lindt",
+    "panettone"
+   ]
+  },
+  {
+   "ids": [],
+   "p": 141.0,
+   "t": 1795274858,
+   "w": [
+    "256gb",
+    "8gb",
+    "max",
+    "moto",
+    "motorola",
+    "ram",
+    "smartphone"
+   ]
+  },
+  {
+   "ids": [],
+   "p": 244.0,
+   "t": 1795274896,
+   "w": [
+    "b400f",
+    "crystal",
+    "samsung",
+    "smart",
+    "soundbar",
+    "uhd"
+   ]
   }
  ],
  "tpl_ultimo": 2032135,
- "ult_ciclo": 1795273472.6106088,
+ "ult_ciclo": 1795274935.5011048,
  "ultimo_id": {
-  "apromodaluh": 158795,
-  "fumotom": 51556,
-  "iuriindica": 123971,
-  "juaocupons": 27591,
+  "apromodaluh": 158808,
+  "fumotom": 51563,
+  "iuriindica": 123977,
+  "juaocupons": 27594,
   "perfumepromo": 10079,
-  "pincei": 370368,
-  "promotom": 115076,
-  "teniscertocupons": 66110,
+  "pincei": 370387,
+  "promotom": 115078,
+  "teniscertocupons": 66111,
   "teste": 1795214930
  }
 }
