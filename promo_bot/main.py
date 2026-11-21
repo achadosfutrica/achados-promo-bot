@@ -106,7 +106,10 @@ def processar_post(post_id, canal, texto, cfg, est, driver, modo, log, notificar
     # cupom: cadastra/atualiza na página de cupons do Divulgador (desconto, acima de, máximo, código)
     if info["cupom"] and info["loja"] in filtro.LOJAS and modo == "live" and divulgador is not None and getattr(divulgador, "ligado", False) and cfg.get("cupons_no_divulgador", True):
         det = det_cupom
-        if det:
+        if det and det.get("minimo"):
+            # 21/11: o Divulgador não guarda compra mínima; o piloto automático aplicaria em produto barato
+            log("  cupom %s NAO cadastrado no Divulgador (tem compra minima R$ %s)" % (info["cupom"], det["minimo"]))
+        elif det:
             try:
                 log("  cupom %s no Divulgador: %s" % (info["cupom"], divulgador.salvar_cupom(info["loja"], info["cupom"], det)))
             except Exception as e:  # noqa
