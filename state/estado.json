@@ -1,5 +1,5 @@
 {
- "contagem_dia": 7,
+ "contagem_dia": 9,
  "dia": "2026-11-21",
  "feitos": {
   "fumotom:51408": {
@@ -274,6 +274,14 @@
    "r": "gerado",
    "t": 1795242920
   },
+  "fumotom:51481": {
+   "r": "gerado",
+   "t": 1795247462
+  },
+  "fumotom:51482": {
+   "r": "gerado",
+   "t": 1795247393
+  },
   "iuriindica:123964": {
    "r": "pulado:mesmo link",
    "t": 1795215974
@@ -405,6 +413,14 @@
   "link:https://www.amazon.com.br/dp/B07MJHJ4MF": {
    "r": "gerado",
    "t": 1795226394
+  },
+  "link:https://www.amazon.com.br/dp/B07MTHFGTQ": {
+   "r": "gerado",
+   "t": 1795247393
+  },
+  "link:https://www.amazon.com.br/dp/B07XB7X52Q": {
+   "r": "gerado",
+   "t": 1795247462
   },
   "link:https://www.amazon.com.br/dp/B083JG28TD": {
    "r": "gerado",
@@ -3953,11 +3969,50 @@
     "tornozelo",
     "vince"
    ]
+  },
+  {
+   "ids": [
+    "B07MTHFGTQ"
+   ],
+   "p": 161.0,
+   "t": 1795247347,
+   "w": [
+    "28x75",
+    "blue",
+    "bunk",
+    "campistas",
+    "colchao",
+    "conjuntos",
+    "lencois",
+    "light",
+    "microfibra",
+    "profundidade",
+    "size",
+    "solid",
+    "trailers",
+    "viagem"
+   ]
+  },
+  {
+   "ids": [
+    "B07XB7X52Q"
+   ],
+   "p": 26.0,
+   "t": 1795247418,
+   "w": [
+    "12cm",
+    "branca",
+    "enfeite",
+    "natal",
+    "plumas",
+    "pomba",
+    "tuut"
+   ]
   }
  ],
  "ultimo_id": {
   "apromodaluh": 158767,
-  "fumotom": 51480,
+  "fumotom": 51482,
   "iuriindica": 123965,
   "juaocupons": 27580,
   "perfumepromo": 10077,
