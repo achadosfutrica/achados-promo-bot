@@ -1,5 +1,5 @@
 {
- "contagem_dia": 5,
+ "contagem_dia": 7,
  "dia": "2026-11-21",
  "feitos": {
   "fumotom:51408": {
@@ -266,6 +266,14 @@
    "r": "gerado",
    "t": 1795239209
   },
+  "fumotom:51479": {
+   "r": "gerado",
+   "t": 1795242988
+  },
+  "fumotom:51480": {
+   "r": "gerado",
+   "t": 1795242920
+  },
   "iuriindica:123964": {
    "r": "pulado:mesmo link",
    "t": 1795215974
@@ -414,6 +422,10 @@
    "r": "gerado",
    "t": 1795207097
   },
+  "link:https://www.amazon.com.br/dp/B09WF6T43K": {
+   "r": "gerado",
+   "t": 1795242988
+  },
   "link:https://www.amazon.com.br/dp/B09ZB8P4S4": {
    "r": "gerado",
    "t": 1795210371
@@ -473,6 +485,10 @@
   "link:https://www.amazon.com.br/dp/B0H7L24BPG": {
    "r": "duplicado",
    "t": 1795210118
+  },
+  "link:https://www.amazon.com.br/dp/B0HLKNR6NY": {
+   "r": "gerado",
+   "t": 1795242920
   },
   "link:https://www.amazon.com.br/dp/B0HMX7CTSY": {
    "r": "falha",
@@ -3899,11 +3915,49 @@
     "mostrador",
     "racing"
    ]
+  },
+  {
+   "ids": [
+    "B0HLKNR6NY"
+   ],
+   "p": 11.0,
+   "t": 1795242875,
+   "w": [
+    "capim",
+    "comprimento",
+    "decoracao",
+    "desidratado",
+    "encaixe",
+    "hastes",
+    "natural",
+    "pampas",
+    "pluma",
+    "seco",
+    "solta",
+    "total",
+    "vasos"
+   ]
+  },
+  {
+   "ids": [
+    "B09WF6T43K"
+   ],
+   "p": 407.0,
+   "t": 1795242945,
+   "w": [
+    "bota",
+    "camuto",
+    "elvin",
+    "feminina",
+    "plataforma",
+    "tornozelo",
+    "vince"
+   ]
   }
  ],
  "ultimo_id": {
   "apromodaluh": 158767,
-  "fumotom": 51478,
+  "fumotom": 51480,
   "iuriindica": 123965,
   "juaocupons": 27580,
   "perfumepromo": 10077,
