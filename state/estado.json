@@ -1,4 +1,5 @@
 {
+ "cmd_ultimo": 2034253,
  "contagem_dia": 63,
  "dia": "2026-11-21",
  "feitos": {
@@ -2535,6 +2536,10 @@
    "txt": "✨ Robô Aspirador de Pó Philco 8 modos de limpeza PAS67A 70W 127V\n\n~de R$ 1.299,90~\n🔥 *por R$ 1.039,92* 😱\n\n🏷️ *Cupom: 20BF26PRIME (somente para membros PRIME)*\n\n🛒 https://link.amazon/B08QxrBJH\n\n📌 Assine PRIME por 30 dias GRATIS aqui: https://amzn.to/3YeTytk"
   }
  ],
+ "flags": {
+  "resumo": true,
+  "trava": true
+ },
  "perfil": {
   "faixas": [
    894,
@@ -6800,16 +6805,16 @@
   }
  ],
  "tpl_ultimo": 2032135,
- "ult_ciclo": 1795274935.5011048,
+ "ult_ciclo": 1795295102.002475,
  "ultimo_id": {
-  "apromodaluh": 158808,
-  "fumotom": 51563,
-  "iuriindica": 123977,
-  "juaocupons": 27594,
-  "perfumepromo": 10079,
-  "pincei": 370387,
-  "promotom": 115078,
-  "teniscertocupons": 66111,
+  "apromodaluh": 158821,
+  "fumotom": 51578,
+  "iuriindica": 123986,
+  "juaocupons": 27605,
+  "perfumepromo": 10095,
+  "pincei": 370490,
+  "promotom": 115087,
+  "teniscertocupons": 66123,
   "teste": 1795214930
  }
 }
