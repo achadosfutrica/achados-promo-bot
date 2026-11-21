@@ -1,5 +1,5 @@
 {
- "contagem_dia": 16,
+ "contagem_dia": 17,
  "dia": "2026-11-20",
  "feitos": {
   "fumotom:51408": {
@@ -154,6 +154,10 @@
    "r": "gerado",
    "t": 1795226326
   },
+  "fumotom:51451": {
+   "r": "gerado",
+   "t": 1795229180
+  },
   "fumotom:51452": {
    "r": "gerado",
    "t": 1795226394
@@ -161,6 +165,10 @@
   "fumotom:51453": {
    "r": "gerado",
    "t": 1795226258
+  },
+  "fumotom:51454": {
+   "r": "duplicado",
+   "t": 1795229110
   },
   "iuriindica:123964": {
    "r": "pulado:mesmo link",
@@ -189,6 +197,10 @@
   "juaocupons:27577": {
    "r": "pulado:loja desconhecida",
    "t": 1795222099
+  },
+  "juaocupons:27578": {
+   "r": "pulado:sem preco",
+   "t": 1795229102
   },
   "link:https://click.centauro.com.br/13Nl/3022r95u": {
    "r": "falha",
@@ -237,6 +249,10 @@
   "link:https://www.amazon.com.br/dp/B074D6KZM7": {
    "r": "gerado",
    "t": 1795207001
+  },
+  "link:https://www.amazon.com.br/dp/B07CBLS785": {
+   "r": "gerado",
+   "t": 1795229180
   },
   "link:https://www.amazon.com.br/dp/B07MJHJ4MF": {
    "r": "gerado",
@@ -305,6 +321,10 @@
   "link:https://www.amazon.com.br/dp/B0G56BT2XF": {
    "r": "gerado",
    "t": 1795226258
+  },
+  "link:https://www.amazon.com.br/dp/B0H5G5BBWX": {
+   "r": "duplicado",
+   "t": 1795229110
   },
   "link:https://www.amazon.com.br/dp/B0H7L24BPG": {
    "r": "duplicado",
@@ -422,6 +442,10 @@
    "r": "pulado:periferico de PC",
    "t": 1795222097
   },
+  "promotom:115030": {
+   "r": "pulado:repetido",
+   "t": 1795229135
+  },
   "teniscertocupons:63531": {
    "r": "cancelado_teste",
    "t": 1795215823
@@ -471,14 +495,7 @@
    "t": 1795214936
   }
  },
- "fila": [
-  {
-   "canal": "fumotom",
-   "id": 51451,
-   "t": 1795224020.0,
-   "txt": "A Quiet Place [Blu-ray]\n\nR$ 144\n\nhttps://www.amazon.com.br/dp/B07CBLS785?tag=promotom05-20\n\n-Anúncio"
-  }
- ],
+ "fila": [],
  "perfil": {
   "faixas": [
    894,
@@ -3496,12 +3513,45 @@
   },
   "t": 1795214633
  },
+ "postados": [
+  {
+   "ids": [
+    "B0H5G5BBWX"
+   ],
+   "p": 159.0,
+   "t": 1795229102,
+   "w": [
+    "evo",
+    "led",
+    "mini",
+    "polegadas",
+    "qned",
+    "qned85",
+    "smart"
+   ]
+  },
+  {
+   "ids": [
+    "B07CBLS785"
+   ],
+   "p": 144.0,
+   "t": 1795229135,
+   "w": [
+    "blu",
+    "place",
+    "quiet",
+    "ray"
+   ]
+  }
+ ],
  "ultimo_id": {
-  "fumotom": 51453,
+  "apromodaluh": 158767,
+  "fumotom": 51454,
   "iuriindica": 123965,
-  "juaocupons": 27577,
+  "juaocupons": 27578,
   "perfumepromo": 10077,
-  "promotom": 115029,
+  "pincei": 370184,
+  "promotom": 115030,
   "teniscertocupons": 66105,
   "teste": 1795214930
  }
