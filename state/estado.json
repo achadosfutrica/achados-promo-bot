@@ -1,5 +1,5 @@
 {
- "contagem_dia": 35,
+ "contagem_dia": 41,
  "dia": "2026-11-21",
  "feitos": {
   "apromodaluh:158768": {
@@ -534,6 +534,38 @@
    "r": "gerado",
    "t": 1795265614
   },
+  "fumotom:51536": {
+   "r": "gerado",
+   "t": 1795267373
+  },
+  "fumotom:51537": {
+   "r": "gerado",
+   "t": 1795268089
+  },
+  "fumotom:51538": {
+   "r": "gerado",
+   "t": 1795267442
+  },
+  "fumotom:51545": {
+   "r": "gerado",
+   "t": 1795267303
+  },
+  "fumotom:51547": {
+   "r": "gerado",
+   "t": 1795268021
+  },
+  "fumotom:51548": {
+   "r": "pulado:sem preco",
+   "t": 1795267838
+  },
+  "fumotom:51549": {
+   "r": "duplicado",
+   "t": 1795267952
+  },
+  "fumotom:51550": {
+   "r": "pulado:loja desativada: magalu",
+   "t": 1795267841
+  },
   "iuriindica:123964": {
    "r": "pulado:mesmo link",
    "t": 1795215974
@@ -598,6 +630,18 @@
    "r": "falha",
    "t": 1795265642
   },
+  "juaocupons:27586": {
+   "r": "pulado:sem preco",
+   "t": 1795266625
+  },
+  "juaocupons:27587": {
+   "r": "falha",
+   "t": 1795266632
+  },
+  "juaocupons:27588": {
+   "r": "gerado",
+   "t": 1795267920
+  },
   "link:https://amzn.to/4kf5ZRs": {
    "r": "falha",
    "t": 1795265642
@@ -621,6 +665,10 @@
   "link:https://meli.la/1FNUEvs": {
    "r": "gerado",
    "t": 1795264028
+  },
+  "link:https://meli.la/1FTmw7z": {
+   "r": "gerado",
+   "t": 1795267920
   },
   "link:https://meli.la/1G6Beyy": {
    "r": "falha",
@@ -738,6 +786,10 @@
    "r": "falha",
    "t": 1795218728
   },
+  "link:https://www.amazon.com.br/b?ie=UTF8&node=223186559011&linkCode=sl2&tag=promotom05-20&linkId=f155ce5d9728807146c12d5bf6aec8c2&ref_=as_li_ss_tl&ascsubtag=srctok-20b45474d2408a6b&btn_type=ss&btn_ref=srctok-20b45474d2408a6b": {
+   "r": "falha",
+   "t": 1795268122
+  },
   "link:https://www.amazon.com.br/dp/8571670439": {
    "r": "cancelado_teste",
    "t": 1795204010
@@ -789,6 +841,10 @@
   "link:https://www.amazon.com.br/dp/B07XB7X52Q": {
    "r": "gerado",
    "t": 1795247462
+  },
+  "link:https://www.amazon.com.br/dp/B07YD3G568": {
+   "r": "gerado",
+   "t": 1795268089
   },
   "link:https://www.amazon.com.br/dp/B083JG28TD": {
    "r": "gerado",
@@ -882,6 +938,18 @@
    "r": "duplicado",
    "t": 1795213002
   },
+  "link:https://www.amazon.com.br/dp/B0FMZN9WNP": {
+   "r": "gerado",
+   "t": 1795267303
+  },
+  "link:https://www.amazon.com.br/dp/B0FN185QW9": {
+   "r": "gerado",
+   "t": 1795267373
+  },
+  "link:https://www.amazon.com.br/dp/B0FN1BGHWW": {
+   "r": "gerado",
+   "t": 1795267442
+  },
   "link:https://www.amazon.com.br/dp/B0FQCRTG24": {
    "r": "gerado",
    "t": 1795216052
@@ -893,6 +961,10 @@
   "link:https://www.amazon.com.br/dp/B0G56BT2XF": {
    "r": "gerado",
    "t": 1795226258
+  },
+  "link:https://www.amazon.com.br/dp/B0GFSJSPFT": {
+   "r": "gerado",
+   "t": 1795268021
   },
   "link:https://www.amazon.com.br/dp/B0GKQX8ZPN": {
    "r": "duplicado",
@@ -906,6 +978,10 @@
    "r": "duplicado",
    "t": 1795210118
   },
+  "link:https://www.amazon.com.br/dp/B0HJBL8G54": {
+   "r": "duplicado",
+   "t": 1795267952
+  },
   "link:https://www.amazon.com.br/dp/B0HLKNR6NY": {
    "r": "gerado",
    "t": 1795242920
@@ -913,6 +989,14 @@
   "link:https://www.amazon.com.br/dp/B0HMX7CTSY": {
    "r": "falha",
    "t": 1795213129
+  },
+  "link:https://www.amazon.com.br/promotion/psp/A25OOGUKOUEBH9?ascsubtag=srctok-5574090257db38d7&btn_type=ss&btn_ref=srctok-12348a019e788601&linkCode=sl2&tag=promotom05-20&linkId=c7443296774b4c8fb32b8783c684c1e9&ref_=as_li_ss_tl": {
+   "r": "falha",
+   "t": 1795267234
+  },
+  "link:https://www.amazon.com.br/promotion/psp/A25OOGUKOUEBH9?linkCode=ll1&tag=promodacla002-20&linkId=0d1067eb282e327cf0019f3f58560838&ref_=as_li_ss_tl&ascsubtag=srctok-5574090257db38d7&btn_type=ss&btn_ref=srctok-79cd338c8e28534a&ref=psp_pc_cart_collapse&language=pt-BR": {
+   "r": "falha",
+   "t": 1795266632
   },
   "link:https://www.amazon.com.br/promotion/psp/A2NPJ9DSPYUPG5?ascsubtag=srctok-28ab6dc6e33bff44&btn_type=ss&btn_ref=srctok-1f7f4ed33821ec37&linkCode=sl2&tag=promotom05-20&linkId=a8d6e9063673b05d61eea72c14dbf69b&ref_=as_li_ss_tl": {
    "r": "falha",
@@ -1354,6 +1438,78 @@
    "r": "pulado:sacola laranja (bloqueado)",
    "t": 1795266023
   },
+  "pincei:370285": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795266627
+  },
+  "pincei:370286": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795266627
+  },
+  "pincei:370287": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795266627
+  },
+  "pincei:370288": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795266627
+  },
+  "pincei:370289": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795266627
+  },
+  "pincei:370290": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795267229
+  },
+  "pincei:370291": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795267229
+  },
+  "pincei:370292": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795267229
+  },
+  "pincei:370293": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795267229
+  },
+  "pincei:370294": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795267229
+  },
+  "pincei:370295": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795267844
+  },
+  "pincei:370296": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795267844
+  },
+  "pincei:370297": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795267844
+  },
+  "pincei:370298": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795267844
+  },
+  "pincei:370299": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795267844
+  },
+  "pincei:370300": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795267844
+  },
+  "pincei:370301": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795267844
+  },
+  "pincei:370302": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795267844
+  },
   "promotom:115007": {
    "r": "pulado:sem link",
    "t": 1795203318
@@ -1578,6 +1734,14 @@
    "r": "pulado:sem preco",
    "t": 1795264831
   },
+  "promotom:115072": {
+   "r": "falha",
+   "t": 1795267234
+  },
+  "promotom:115073": {
+   "r": "falha",
+   "t": 1795268122
+  },
   "teniscertocupons:63531": {
    "r": "cancelado_teste",
    "t": 1795215823
@@ -1627,7 +1791,50 @@
    "t": 1795214936
   }
  },
- "fila": [],
+ "fila": [
+  {
+   "canal": "fumotom",
+   "id": 51540,
+   "t": 1795267156.0,
+   "txt": "Reebok Apparel Camiseta masculina Volt\n\nR$ 45\n\nhttps://www.amazon.com.br/dp/B0FMZHLLTD?smid=A2EB9PYM83FCP9&tag=promotom05-20\n\n-Anúncio"
+  },
+  {
+   "canal": "fumotom",
+   "id": 51539,
+   "t": 1795267147.0,
+   "txt": "Reebok Apparel Blusa feminina com estampa de linhas topográficas\n\nR$ 42\n\nhttps://www.amazon.com.br/dp/B0FN111YFW?smid=A2EB9PYM83FCP9&tag=promotom05-20\n\n-Anúncio"
+  },
+  {
+   "canal": "fumotom",
+   "id": 51543,
+   "t": 1795267184.0,
+   "txt": "Legging Motum Brushback Legging ReebokFeminino\n\nR$ 61\n\nhttps://www.amazon.com.br/dp/B0FN4MNVYX?smid=A2EB9PYM83FCP9&tag=promotom05-20\n\n-Anúncio"
+  },
+  {
+   "canal": "fumotom",
+   "id": 51541,
+   "t": 1795267167.0,
+   "txt": "Shorts Cruz 2.0 7” Short ReebokMasculino\n\nR$ 48\n\nhttps://www.amazon.com.br/dp/B0FN2Q1KC2?smid=A2EB9PYM83FCP9&tag=promotom05-20\n\n-Anúncio"
+  },
+  {
+   "canal": "fumotom",
+   "id": 51542,
+   "t": 1795267171.0,
+   "txt": "Shorts Distance 7” Short ReebokMasculino\n\nR$ 55\n\nhttps://www.amazon.com.br/dp/B0FN26N71H?smid=A2EB9PYM83FCP9&tag=promotom05-20\n\n-Anúncio"
+  },
+  {
+   "canal": "fumotom",
+   "id": 51546,
+   "t": 1795267227.0,
+   "txt": "Calças Bv Woven Pant ReebokFeminino\n\nR$ 82\n\nhttps://www.amazon.com.br/dp/B0FN4MY5HM?smid=A2EB9PYM83FCP9&tag=promotom05-20\n\n-Anúncio"
+  },
+  {
+   "canal": "fumotom",
+   "id": 51544,
+   "t": 1795267212.0,
+   "txt": "Suéter com capuz Id Bb Tricot Zip-up ReebokFeminino\n\nR$ 76\n\nhttps://www.amazon.com.br/dp/B0FN182R4D?smid=A2EB9PYM83FCP9&tag=promotom05-20\n\n-Anúncio"
+  }
+ ],
  "perfil": {
   "faixas": [
    894,
@@ -5389,18 +5596,140 @@
     "p20i",
     "soundcore"
    ]
+  },
+  {
+   "ids": [
+    "B0FMZMVD8B",
+    "B0FMZN9WNP"
+   ],
+   "p": 86.0,
+   "t": 1795267259,
+   "w": [
+    "branco",
+    "cross",
+    "jaqueta",
+    "masculina",
+    "preto",
+    "reebok",
+    "xadrez"
+   ]
+  },
+  {
+   "ids": [
+    "B0FN185QW9"
+   ],
+   "p": 69.0,
+   "t": 1795267328,
+   "w": [
+    "apparel",
+    "classico",
+    "feminino",
+    "meio",
+    "moletom",
+    "preto",
+    "reebok",
+    "ziper"
+   ]
+  },
+  {
+   "ids": [
+    "B0FN1BGHWW"
+   ],
+   "p": 38.0,
+   "t": 1795267398,
+   "w": [
+    "ajuste",
+    "apparel",
+    "blusa",
+    "comprida",
+    "elastico",
+    "feminina",
+    "gola",
+    "jersei",
+    "leve",
+    "manga",
+    "padrao",
+    "poliester",
+    "redonda",
+    "reebok",
+    "tecido"
+   ]
+  },
+  {
+   "ids": [],
+   "p": 65.0,
+   "t": 1795267846,
+   "w": [
+    "ainda",
+    "ativo",
+    "livre",
+    "mercado",
+    "selecionados"
+   ]
+  },
+  {
+   "ids": [
+    "B0HJBL8G54"
+   ],
+   "p": 158.0,
+   "t": 1795267945,
+   "w": [
+    "aluminio",
+    "apple",
+    "azul",
+    "caixa",
+    "esportiva",
+    "gps",
+    "marinho",
+    "meia",
+    "noite",
+    "pulseira",
+    "watch"
+   ]
+  },
+  {
+   "ids": [
+    "B0GFSJSPFT"
+   ],
+   "p": 87.0,
+   "t": 1795267977,
+   "w": [
+    "atleticos",
+    "compresn",
+    "conjunto",
+    "reebokmeninos",
+    "set",
+    "short",
+    "shorts"
+   ]
+  },
+  {
+   "ids": [
+    "B07YD3G568"
+   ],
+   "p": 366.0,
+   "t": 1795268046,
+   "w": [
+    "14tb",
+    "digital",
+    "elements",
+    "externo",
+    "hdd",
+    "usb",
+    "western"
+   ]
   }
  ],
  "tpl_ultimo": 2032135,
- "ult_ciclo": 1795266023.3419893,
+ "ult_ciclo": 1795268147.1010075,
  "ultimo_id": {
   "apromodaluh": 158788,
-  "fumotom": 51535,
+  "fumotom": 51550,
   "iuriindica": 123966,
-  "juaocupons": 27585,
+  "juaocupons": 27588,
   "perfumepromo": 10077,
-  "pincei": 370284,
-  "promotom": 115071,
+  "pincei": 370302,
+  "promotom": 115073,
   "teniscertocupons": 66105,
   "teste": 1795214930
  }
