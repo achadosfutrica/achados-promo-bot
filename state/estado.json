@@ -1,5 +1,5 @@
 {
- "contagem_dia": 13,
+ "contagem_dia": 16,
  "dia": "2026-11-21",
  "feitos": {
   "fumotom:51408": {
@@ -294,9 +294,25 @@
    "r": "gerado",
    "t": 1795253375
   },
+  "fumotom:51487": {
+   "r": "gerado",
+   "t": 1795256221
+  },
+  "fumotom:51488": {
+   "r": "gerado",
+   "t": 1795256289
+  },
+  "fumotom:51489": {
+   "r": "gerado",
+   "t": 1795256356
+  },
   "fumotom:51490": {
    "r": "gerado",
    "t": 1795253307
+  },
+  "fumotom:51491": {
+   "r": "pulado:so cupom (ignorado)",
+   "t": 1795256177
   },
   "iuriindica:123964": {
    "r": "pulado:mesmo link",
@@ -410,6 +426,10 @@
    "r": "falha",
    "t": 1795216081
   },
+  "link:https://www.amazon.com.br/dp/B00U85D3UG": {
+   "r": "gerado",
+   "t": 1795256221
+  },
   "link:https://www.amazon.com.br/dp/B015RKWZY6": {
    "r": "gerado",
    "t": 1795213071
@@ -490,6 +510,10 @@
    "r": "falha",
    "t": 1795207029
   },
+  "link:https://www.amazon.com.br/dp/B0D3PR672T": {
+   "r": "gerado",
+   "t": 1795256289
+  },
   "link:https://www.amazon.com.br/dp/B0D3QWBSX5": {
    "r": "gerado",
    "t": 1795239209
@@ -501,6 +525,10 @@
   "link:https://www.amazon.com.br/dp/B0DYVSGMT5": {
    "r": "gerado",
    "t": 1795210302
+  },
+  "link:https://www.amazon.com.br/dp/B0F2HM2LB5": {
+   "r": "gerado",
+   "t": 1795256356
   },
   "link:https://www.amazon.com.br/dp/B0F691QZM6": {
    "r": "gerado",
@@ -796,24 +824,6 @@
   }
  },
  "fila": [
-  {
-   "canal": "fumotom",
-   "id": 51487,
-   "t": 1795252819.0,
-   "txt": "Modern Threads Edredão de edredom, edredom alternativo acolchoado reversível com abas de canto, roupa de cama para todas as estações, solteiro, bege/azul claro\n\nR$ 244\n\nhttps://www.amazon.com.br/dp/B00U85D3UG?tag=promotom05-20\n\n-Anúncio"
-  },
-  {
-   "canal": "fumotom",
-   "id": 51488,
-   "t": 1795252819.0,
-   "txt": "MengRan Recargas de caneta esferográfica de 4,5 '' para canetas giratórias, ponta média de 1 mm, compatível com recargas de caneta cruzada (8511) (10 unidades de tinta azul)\n\nR$ 43\n\nhttps://www.amazon.com.br/dp/B0D3PR672T?tag=promotom05-20\n\n-Anúncio"
-  },
-  {
-   "canal": "fumotom",
-   "id": 51489,
-   "t": 1795252819.0,
-   "txt": "Organizador sob a pia, aço inoxidável, 2 pacotes, organizadores e armazenamento sob a pia de 2 níveis, prateleira deslizante para armário de cozinha, banheiro, despensa, armário, organizador de\n\nR$ 318\n\nhttps://www.amazon.com.br/dp/B0F2HM2LB5?tag=promotom05-20\n\n-Anúncio"
-  },
   {
    "canal": "fumotom",
    "id": 51485,
@@ -4158,11 +4168,82 @@
     "pacote",
     "puma"
    ]
+  },
+  {
+   "ids": [
+    "B00U85D3UG"
+   ],
+   "p": 244.0,
+   "t": 1795256177,
+   "w": [
+    "abas",
+    "acolchoado",
+    "alternativo",
+    "azul",
+    "bege",
+    "cama",
+    "canto",
+    "claro",
+    "edredao",
+    "edredom",
+    "estacoes",
+    "modern",
+    "reversivel",
+    "roupa",
+    "solteiro",
+    "threads",
+    "todas"
+   ]
+  },
+  {
+   "ids": [
+    "B0D3PR672T"
+   ],
+   "p": 43.0,
+   "t": 1795256246,
+   "w": [
+    "azul",
+    "caneta",
+    "canetas",
+    "compativel",
+    "cruzada",
+    "esferografica",
+    "giratorias",
+    "media",
+    "mengran",
+    "ponta",
+    "recargas",
+    "tinta"
+   ]
+  },
+  {
+   "ids": [
+    "B0F2HM2LB5"
+   ],
+   "p": 318.0,
+   "t": 1795256314,
+   "w": [
+    "aco",
+    "armario",
+    "armazenamento",
+    "banheiro",
+    "cozinha",
+    "deslizante",
+    "despensa",
+    "inoxidavel",
+    "niveis",
+    "organizador",
+    "organizadores",
+    "pacotes",
+    "pia",
+    "prateleira",
+    "sob"
+   ]
   }
  ],
  "ultimo_id": {
   "apromodaluh": 158767,
-  "fumotom": 51490,
+  "fumotom": 51491,
   "iuriindica": 123965,
   "juaocupons": 27580,
   "perfumepromo": 10077,
