@@ -44,7 +44,10 @@ def processar_post(post_id, canal, texto, cfg, est, driver, modo, log, notificar
         if r:
             return r
     limpo = T.limpar(texto, cfg)
-    ok, motivo, info = filtro.avaliar(limpo, cfg, resolver=resolver)
+    cfg_f = cfg
+    if canal in (cfg.get("sacola_liberada_canais") or []):       # ex.: Pincei usa 🛍️ em todo post
+        cfg_f = dict(cfg, bloquear_sacola_laranja=False)
+    ok, motivo, info = filtro.avaliar(limpo, cfg_f, resolver=resolver)
     if not ok:
         log("  pulado %s (%s)" % (chave, motivo))
         if modo != "dry":

@@ -20,6 +20,7 @@ PADRAO = {
     "templates": {"ligado": True, "bot_manual": "di48291bot", "robo_templates": "achadosfutricatemplatesbot"},
     "repetidos": {"ligado": True, "horas": 24, "desconto_min": 0.15},
     "bloquear_sacola_laranja": True,
+    "sacola_liberada_canais": [],
     "bloquear_texto": [],
     "preco": {"centavos_quando_inteiro": "99", "suspeito_abaixo_de": 10, "politica_suspeito": "publicar"},
     "limites": {"max_por_execucao": 8, "pausa_entre_promocoes_seg": 25, "max_por_dia": 150, "primeira_vez_ler_ultimos": 0, "max_idade_min": 90},
