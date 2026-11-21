@@ -59,7 +59,7 @@ _RASTREIO = re.compile(r"^(utm_.*|awc|ranmid|raneaid|ransiteid|siteid|clickref|a
 ENCURTADORES = ("bit.ly", "tinyurl.com", "cutt.ly", "tidd.ly", "awin1.com", "awin.com", "linksynergy.com",
                 "click.linksynergy", "afilio.com.br", "rdir.", "lmd.re", "is.gd", "ow.ly", "t.co", "rebrand.ly",
                 "abre.ai", "encurtador", "l.wl.co", "shorturl.at", "go.", "s.", "app.", "onelink.me", "linktr.ee",
-                "divulgador.link", "di.link", "promo.", "clk.", "trk.")
+                "divulgador.link", "di.link", "promo.", "clk.", "trk.", "pincei.co", "pincei.com.br")
 
 
 def host(url):
@@ -159,7 +159,11 @@ def resolver(url, timeout=10, voltas=6):
             from urllib.parse import urljoin
             atual = urljoin(atual, loc)
             continue
-        # 200: redirecionamento por HTML/JS (meta refresh, window.location) ou link de loja na página
+        # 200: página intermediária. Pincei e parecidos levam ao Mercado Livre: pega o código MLB do produto
+        mlb = re.search(r"\bMLB-?(\d{6,})", corpo)
+        if mlb and "mercadoli" in corpo.lower():
+            return "https://produto.mercadolivre.com.br/MLB-%s" % mlb.group(1)
+        # redirecionamento por HTML/JS (meta refresh, window.location) ou link de loja na página
         achou = None
         for m in re.finditer(r"https?:[\\/]+[^\"'<>\s]+", corpo):
             u = unquote(m.group(0).replace("\\/", "/"))

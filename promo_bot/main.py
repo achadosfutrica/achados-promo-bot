@@ -5,7 +5,7 @@ import sys
 import time
 
 from . import config as C
-from . import filtro, inteligencia, links, lojas_extra, ml_vendedor, texto as T
+from . import filtro, inteligencia, links, lojas_extra, ml_vendedor, repetidos, texto as T
 from .driver import Driver, Falha
 from .estado import Estado
 
@@ -76,6 +76,16 @@ def processar_post(post_id, canal, texto, cfg, est, driver, modo, log, notificar
     log("  %s -> %s loja=%s preco=%s cupom=%s" % (chave, link, info["loja"], preco_txt, info["cupom"]))
     if modo == "dry":
         return "dry"          # dry NUNCA consome o post: o modo live ainda poderá processá-lo
+    # mesmo produto já saiu hoje (pelo robô ou no seu grupo)? só repete se o preço caiu bastante
+    rcfg = cfg.get("repetidos") or {}
+    reg = repetidos.registro(limpo, link, info.get("preco"))
+    if rcfg.get("ligado", True):
+        hist = (est.d.get("postados") or []) + (est.d.get("_grupo_hoje") or [])
+        rep, motivo = repetidos.ja_postado(reg, hist, rcfg.get("desconto_min", 0.15), rcfg.get("horas", 24))
+        if rep:
+            log("  pulado %s (%s)" % (chave, motivo))
+            est.marcar(chave, "pulado:repetido")
+            return "pulado"
     chave_link = "link:" + link
     ant = est.d.get("feitos", {}).get(chave_link)
     if ant and modo == "live" and time.time() - ant.get("t", 0) < 12 * 3600:   # canal repostou o MESMO produto em 12 h: não tenta de novo
@@ -100,6 +110,8 @@ def processar_post(post_id, canal, texto, cfg, est, driver, modo, log, notificar
             "foto": (lambda: midia(canal, post_id)) if midia else None,
         }
         res, det = driver.gerar(link, preco_txt, info["cupom"], extra, modo=modo, loja=info["loja"], dados=dados)
+        if res in ("gerado", "duplicado") and modo == "live":
+            est.d["postados"] = repetidos.limpar_historico((est.d.get("postados") or []) + [reg])
     except Exception as e:  # Falha, TimeoutError, limite do Telegram etc.
         log("  FALHA %s: %r" % (chave, e))
         try:
@@ -208,6 +220,27 @@ def rodar(cfg, posts_por_canal, est, driver, log=print, notificar=lambda m: None
     if fila:
         log("%d promoções ficaram na fila para a próxima execução" % len(fila))
     return cont
+
+
+def grupo_hoje(client, cfg, log):
+    """O que saiu no SEU grupo nas últimas 24 h (para não repetir o mesmo produto no dia)."""
+    grupo = (cfg.get("inteligencia") or {}).get("meu_grupo")
+    if not grupo or not (cfg.get("repetidos") or {}).get("ligado", True):
+        return []
+    try:
+        desde = time.time() - 24 * 3600
+        out = []
+        for m in client.iter_messages(int(grupo), limit=2000):
+            if m.date and m.date.timestamp() < desde:
+                break
+            if m.message:
+                p, _, _ = T.preco(m.message)
+                out.append(repetidos.registro(m.message, "", p, m.date.timestamp()))
+        log("seu grupo: %d posts nas ultimas 24 h" % len(out))
+        return out
+    except Exception as e:  # noqa
+        log("aviso: nao li o seu grupo: %r" % e)
+        return []
 
 
 def atualizar_perfil(client, cfg, est, log):
@@ -334,6 +367,7 @@ def main():
             posts = _ler_canais(client, cfg, est, log)
         drv = Driver(ConvTelethon(client, cfg["bot_divulgador"]), cfg, log)
         perfil = atualizar_perfil(client, cfg, est, log)
+        est.d["_grupo_hoje"] = grupo_hoje(client, cfg, log)
         cont = rodar(cfg, posts, est, drv, log, notificar, avisar_robo=avisar_robo, divulgador=Divulgador(),
                      resolver=lojas_extra.resolver, perfil=perfil, midia=midia)
         log("resumo: %s" % cont)

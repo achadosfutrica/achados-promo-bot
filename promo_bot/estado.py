@@ -42,4 +42,4 @@ class Estado:
     def salvar(self):
         os.makedirs(os.path.dirname(self.caminho) or ".", exist_ok=True)
         with open(self.caminho, "w", encoding="utf-8") as f:
-            json.dump(self.d, f, ensure_ascii=False, indent=1, sort_keys=True)
+            json.dump({k: v for k, v in self.d.items() if not k.startswith("_")}, f, ensure_ascii=False, indent=1, sort_keys=True)
