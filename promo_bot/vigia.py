@@ -151,7 +151,20 @@ class Vigia:
         self.log("vigia desligado (%d disparo(s))" % self.disparos)
 
 
-def rodar_vigia(client, cfg, log, ciclo, salvar, dormir):
+def segundos_para_dia(cfg, agora=None):
+    """Na madrugada: quantos segundos faltam para o fim dela (07:00). Fora dela: 0."""
+    agora = agora if agora is not None else time.time()
+    if not noite(cfg, agora):
+        return 0
+    vc = cfg.get("vigia") or {}
+    t = datetime.fromtimestamp(agora, BRT)
+    fim = _min(vc.get("noite_fim", "07:00"))
+    hm = t.hour * 60 + t.minute
+    mins = (fim - hm) % (24 * 60)
+    return max(0, int(mins * 60 - t.second))
+
+
+def rodar_vigia(client, cfg, log, ciclo, salvar, dormir, a_cada_minuto=None):
     """Fica ligado até `duracao_min` ou até a madrugada. Roda o ciclo de promoções a cada `ciclo_min`."""
     vc = cfg.get("vigia") or {}
     v = Vigia(client, cfg, log)
@@ -159,7 +172,7 @@ def rodar_vigia(client, cfg, log, ciclo, salvar, dormir):
     inicio = time.time()
     dur = float(vc.get("duracao_min", 330)) * 60
     passo = float(vc.get("ciclo_min", 10)) * 60
-    prox, prox_salvar = 0.0, time.time() + 1800
+    prox, prox_salvar, prox_min = 0.0, time.time() + 1800, time.time() + 60
     motivo = "duracao"
     try:
         while time.time() - inicio < dur:
@@ -172,6 +185,12 @@ def rodar_vigia(client, cfg, log, ciclo, salvar, dormir):
                     ciclo()
                 except Exception as e:  # noqa
                     log("aviso: ciclo de promocoes falhou: %r" % e)
+            if a_cada_minuto and time.time() >= prox_min:
+                prox_min = time.time() + 60
+                try:
+                    a_cada_minuto()          # comandos das Mensagens Salvas e resumo das 23h
+                except Exception as e:  # noqa
+                    log("aviso: painel: %r" % e)
             if time.time() >= prox_salvar:
                 prox_salvar = time.time() + 1800
                 salvar()

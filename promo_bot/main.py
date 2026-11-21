@@ -7,7 +7,7 @@ import sys
 import time
 
 from . import config as C
-from . import filtro, inteligencia, links, lojas_extra, ml_vendedor, repetidos, templates, texto as T, vigia
+from . import filtro, inteligencia, links, lojas_extra, ml_vendedor, repetidos, templates, texto as T, vigia, painel
 from .driver import Driver, Falha
 from .estado import Estado
 
@@ -63,6 +63,14 @@ def processar_post(post_id, canal, texto, cfg, est, driver, modo, log, notificar
             if modo != "dry":
                 est.marcar(chave, "pulado:suspeito")
             return "pulado"
+    antigo = inteligencia.preco_antigo(limpo)
+    if painel.trava_bloqueia(est, cfg, p, antigo):
+        log("  TRAVA %s: preco R$ %s muito abaixo do De R$ %s" % (chave, preco_txt, T.formatar_preco(antigo)))
+        if modo != "dry":
+            est.marcar(chave, "pulado:trava preco")
+            notificar("🛑 Trava de preço: não gerei %s\nPreço lido: R$ %s | De: R$ %s (menos de %d%%). Confira se não é erro de leitura.\nLink: %s\n\nPara desligar a trava: /trava desligar"
+                      % (chave, preco_txt, T.formatar_preco(antigo), int(float(cfg.get("trava_preco_pct", 0.3)) * 100), info["link"]))
+        return "pulado"
     link = links.preparar(info["link"], info["loja"])
     extra = None
     if info["loja"] == "mercadolivre" and cfg.get("ml_vendedor_extra", True):
@@ -411,7 +419,12 @@ def main():
                 log("aviso: nao peguei a foto de %s:%s: %r" % (canal, pid, e))
                 return None
 
+        def painel_agora():
+            painel.ler_comandos(client, est, log)
+            painel.resumo_se_hora(client, est, log)
+
         def ciclo(posts=None):
+            painel_agora()
             templates.encaminhar_manuais(client, cfg, est, log, cfg["mode"])   # @di48291bot -> não vira arte
             if posts is None:
                 posts = _ler_canais(client, cfg, est, log)
@@ -437,7 +450,7 @@ def main():
             log("teste com o link informado: %s" % teste_link)
             ciclo({"teste": [(int(time.time()), "Produto de teste por R$ 99,90 no Pix\n" + teste_link)]})
         elif usar_vigia(cfg):
-            if vigia.rodar_vigia(client, cfg, log, ciclo, lambda: salvar_no_git(est, log), dormir) == "duracao":
+            if vigia.rodar_vigia(client, cfg, log, ciclo, lambda: salvar_no_git(est, log), dormir, painel_agora) == "duracao":
                 proxima_execucao(log)          # não depende do agendamento do GitHub (que atrasa)
         elif vigia.noite(cfg) and not cfg.get("_manual"):
             intervalo = float((cfg.get("vigia") or {}).get("noite_ciclo_min", 30)) * 60
@@ -445,6 +458,13 @@ def main():
                 log("madrugada: ciclo a cada %d min; ainda nao e hora." % (intervalo / 60))
             else:
                 ciclo()
+            falta = vigia.segundos_para_dia(cfg)
+            if cfg["mode"] == "live" and (cfg.get("vigia") or {}).get("ligado") and 0 < falta <= 40 * 60:
+                # perto das 07:00: esta execução espera e já liga o vigia (o agendamento do GitHub atrasa)
+                log("madrugada acabando: espero %d min e ligo o vigia" % (falta // 60 + 1))
+                dormir(falta + 5)
+                if vigia.rodar_vigia(client, cfg, log, ciclo, lambda: salvar_no_git(est, log), dormir, painel_agora) == "duracao":
+                    proxima_execucao(log)
         else:
             ciclo()
     est.salvar()

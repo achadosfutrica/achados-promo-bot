@@ -86,7 +86,7 @@ def perfil_vencido(perfil, horas=24, agora=None):
     return not perfil or not perfil.get("n") or (agora or time.time()) - perfil.get("t", 0) > horas * 3600
 
 
-_ANTIGO = re.compile(r"(?:\bde|\bera|\bantes)\s*:?\s*~?\s*R\$\s*([0-9]{1,3}(?:\.[0-9]{3})+(?![0-9])|[0-9]+)(?:,([0-9]{1,2}))?(?![0-9])|~\s*R\$\s*([0-9]{1,3}(?:\.[0-9]{3})+(?![0-9])|[0-9]+)(?:,([0-9]{1,2}))?(?![0-9])", re.I)
+_ANTIGO = re.compile(r"(?:(?<!acima )(?<!partir )(?<!compras )(?<!minimo )(?<!mínimo )\bde|\bera|\bantes)\s*:?\s*~?\s*R\$\s*([0-9]{1,3}(?:\.[0-9]{3})+(?![0-9])|[0-9]+)(?:,([0-9]{1,2}))?(?![0-9])|~\s*R\$\s*([0-9]{1,3}(?:\.[0-9]{3})+(?![0-9])|[0-9]+)(?:,([0-9]{1,2}))?(?![0-9])", re.I)
 
 
 def preco_antigo(texto):
