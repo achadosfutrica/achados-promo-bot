@@ -1,5 +1,5 @@
 {
- "contagem_dia": 11,
+ "contagem_dia": 13,
  "dia": "2026-11-20",
  "feitos": {
   "fumotom:51408": {
@@ -130,6 +130,26 @@
    "r": "falha",
    "t": 1795218728
   },
+  "fumotom:51443": {
+   "r": "falha",
+   "t": 1795222144
+  },
+  "fumotom:51446": {
+   "r": "gerado",
+   "t": 1795222212
+  },
+  "fumotom:51447": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795222097
+  },
+  "fumotom:51448": {
+   "r": "pulado:periferico de PC",
+   "t": 1795222097
+  },
+  "fumotom:51449": {
+   "r": "gerado",
+   "t": 1795222286
+  },
   "iuriindica:123964": {
    "r": "pulado:mesmo link",
    "t": 1795215974
@@ -150,9 +170,17 @@
    "r": "pulado:sem preco",
    "t": 1795213188
   },
+  "juaocupons:27577": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795222099
+  },
   "link:https://click.centauro.com.br/13Nl/3022r95u": {
    "r": "falha",
    "t": 1795214936
+  },
+  "link:https://meli.la/1xG1HRm": {
+   "r": "gerado",
+   "t": 1795222286
   },
   "link:https://meli.la/2zwCHF8": {
    "r": "duplicado",
@@ -165,6 +193,10 @@
   "link:https://s.shopee.com.br/5fqRk5yjGE": {
    "r": "duplicado",
    "t": 1795218657
+  },
+  "link:https://s.shopee.com.br/906vvDQccM": {
+   "r": "falha",
+   "t": 1795222144
   },
   "link:https://s.shopee.com.br/9KjmJe3KW0": {
    "r": "falha",
@@ -213,6 +245,10 @@
   "link:https://www.amazon.com.br/dp/B0BQ3MNNFQ": {
    "r": "duplicado",
    "t": 1795210226
+  },
+  "link:https://www.amazon.com.br/dp/B0C2Z9NDNQ": {
+   "r": "gerado",
+   "t": 1795222212
   },
   "link:https://www.amazon.com.br/dp/B0CT9VZHD6": {
    "r": "falha",
@@ -350,6 +386,10 @@
    "r": "pulado:mesmo link",
    "t": 1795218682
   },
+  "promotom:115029": {
+   "r": "pulado:periferico de PC",
+   "t": 1795222097
+  },
   "teniscertocupons:63531": {
    "r": "cancelado_teste",
    "t": 1795215823
@@ -400,36 +440,6 @@
   }
  },
  "fila": [
-  {
-   "canal": "fumotom",
-   "id": 51443,
-   "t": 1795218100.0,
-   "txt": "Monitor Gamer Aoc 23,8\" Full Hd 144Hz Agon G50 Ips 0,5ms 24G50f/57 Hdmi DisplayPort G-Sync\n\nR$ 462\n-Resgate todos os cupons desta página:\nhttps://s.shopee.com.br/906vvDQccM\n\n-Link produto:\nhttps://s.shopee.com.br/30pimBrS1b\n\n-Anúncio"
-  },
-  {
-   "canal": "fumotom",
-   "id": 51446,
-   "t": 1795218501.0,
-   "txt": "Panela Philco PPH240APR Redstone com Tampa de Vidro 2,7L -\n\nR$ 99\n\nhttps://www.amazon.com.br/dp/B0C2Z9NDNQ?tag=promotom05-20\n\n-Anúncio"
-  },
-  {
-   "canal": "fumotom",
-   "id": 51439,
-   "t": 1795216695.0,
-   "txt": "ULTCOVER Capa de mesa redonda de 122 cm para decoração de móveis à prova d'água\n\nR$ 337\n\nhttps://www.amazon.com.br/dp/B09LPT72GF?tag=promotom05-20\n\n-Anúncio"
-  },
-  {
-   "canal": "fumotom",
-   "id": 51438,
-   "t": 1795216330.0,
-   "txt": "MANGUEIRA MULTI USO 3/8\"X2,7 TRANSP ROLO C/ 50M Force Line\n\nR$ 141\n\nhttps://www.amazon.com.br/dp/B08CFZH1Q6?tag=promotom05-20\n\n-Anúncio"
-  },
-  {
-   "canal": "fumotom",
-   "id": 51437,
-   "t": 1795215482.0,
-   "txt": "Organizador de embalagem Med. Copper Infused Compression Socks Travelonadulto-unissex\n\nR$ 121\n\nhttps://www.amazon.com.br/dp/B07MFVTP31?tag=promotom05-20\n\n-Anúncio"
-  },
   {
    "canal": "fumotom",
    "id": 51444,
@@ -3461,11 +3471,11 @@
   "t": 1795214633
  },
  "ultimo_id": {
-  "fumotom": 51446,
+  "fumotom": 51449,
   "iuriindica": 123964,
-  "juaocupons": 27576,
+  "juaocupons": 27577,
   "perfumepromo": 10076,
-  "promotom": 115027,
+  "promotom": 115029,
   "teniscertocupons": 66105,
   "teste": 1795214930
  }
