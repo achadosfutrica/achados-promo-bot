@@ -132,6 +132,96 @@ class _SemRedirecionar(__import__("urllib.request").request.HTTPRedirectHandler)
 
 
 def resolver(url, timeout=10, voltas=6):
+    if host(url).endswith(("pincei.co", "pincei.com.br")):
+        r = resolver_navegador(url)          # o Pincei só revela a loja depois de rodar o JavaScript da página
+        if r:
+            return r
+    return _resolver_http(url, timeout, voltas)
+
+
+# ---------------- Pincei: abre num Chrome invisível ----------------
+_NAV = {}
+
+
+def _navegador():
+    if "b" not in _NAV:
+        from playwright.sync_api import sync_playwright
+        _NAV["p"] = sync_playwright().start()
+        try:
+            _NAV["b"] = _NAV["p"].chromium.launch(channel="chrome", headless=True)   # Chrome já instalado no GitHub
+        except Exception:  # noqa
+            _NAV["b"] = _NAV["p"].chromium.launch(headless=True)
+    return _NAV["b"]
+
+
+def link_do_ml_social(links):
+    """Página 'social' do Mercado Livre (perfil do afiliado): o produto do post é o do botão 'Ir para produto'.
+    links: [(href, texto)] na ordem da página."""
+    for href, txt in links:
+        if "ir para produto" in (txt or "").strip().lower() and re.search(r"MLB-?\d{6,}", href or ""):
+            return href.split("?")[0].split("#")[0]
+    for href, _ in links:
+        if re.search(r"/p/MLB\d{6,}|MLB-\d{6,}", href or ""):
+            return href.split("?")[0].split("#")[0]
+    return None
+
+
+def resolver_navegador(url, espera=20):
+    """Abre o link num Chrome invisível e devolve o link final da loja (ou None se não deu).
+    Roda numa linha de execução própria: o Playwright não se mistura com o loop do Telegram."""
+    import concurrent.futures
+    if "x" not in _NAV:
+        import atexit
+        _NAV["x"] = concurrent.futures.ThreadPoolExecutor(max_workers=1)
+        atexit.register(_fechar_navegador)
+    try:
+        return _NAV["x"].submit(_abrir_no_navegador, url, espera).result(timeout=espera * 3 + 30)
+    except Exception:  # noqa
+        return None
+
+
+def _fechar_navegador():
+    def f():
+        try:
+            if "b" in _NAV:
+                _NAV.pop("b").close()
+            if "p" in _NAV:
+                _NAV.pop("p").stop()
+        except Exception:  # noqa
+            pass
+    try:
+        _NAV["x"].submit(f).result(timeout=20)
+    except Exception:  # noqa
+        pass
+
+
+def _abrir_no_navegador(url, espera=20):
+    pg = None
+    try:
+        pg = _navegador().new_page(user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+                                   "(KHTML, like Gecko) Chrome/131.0 Safari/537.36", locale="pt-BR")
+        pg.goto(url, wait_until="domcontentloaded", timeout=espera * 1000)
+        pg.wait_for_url(lambda u: "pincei" not in (urlparse(u).hostname or ""), timeout=espera * 1000)
+        final = pg.url
+        if "mercadolivre.com" in (urlparse(final).hostname or "") and "/social/" in final:
+            try:
+                pg.wait_for_selector("a[href*='MLB']", timeout=espera * 1000)
+            except Exception:  # noqa
+                pass
+            links = pg.eval_on_selector_all("a[href]", "as => as.map(a => [a.href, a.textContent || ''])")
+            return link_do_ml_social(links)        # perfil sem produto (ex.: post de cupom) -> None
+        return final
+    except Exception:  # noqa
+        return None
+    finally:
+        if pg is not None:
+            try:
+                pg.close()
+            except Exception:  # noqa
+                pass
+
+
+def _resolver_http(url, timeout=10, voltas=6):
     """Abre encurtadores/links de afiliado SEM entrar na loja (lojas bloqueiam robôs):
     segue os 'Location' um a um e para assim que aparecer o link de uma loja conhecida."""
     import urllib.error
@@ -187,3 +277,9 @@ def rastreador(url):
         return False
     caminho = urlparse(url).path.strip("/")
     return len(caminho) <= 30 and caminho.count("/") <= 2 and "." not in caminho
+
+
+if __name__ == "__main__":       # teste: python -m promo_bot.lojas_extra <link> [<link>...]
+    import sys
+    for a in sys.argv[1:]:
+        print(a, "->", resolver(a), flush=True)
