@@ -6,7 +6,7 @@
 #   dry   = lê os canais e só escreve no log o que FARIA (não fala com o Divulgador)
 #   test  = fala com o @di48291bot, preenche tudo e CANCELA no fim (nunca gera/posta)
 #   live  = gera a promoção de verdade (vai para WhatsApp e Telegram)
-mode: "live"
+mode: "off"   # 21/11 PARADO a pedido (erro de preco/cupom). Volta para "live" depois da correcao
 
 canais:
   - fumotom
