@@ -1,6 +1,6 @@
 {
- "cmd_ultimo": 2034253,
- "contagem_dia": 68,
+ "cmd_ultimo": 2034671,
+ "contagem_dia": 69,
  "dia": "2026-11-21",
  "feitos": {
   "apromodaluh:158768": {
@@ -827,6 +827,18 @@
    "r": "pulado:repetido",
    "t": 1795296374
   },
+  "iuriindica:123996": {
+   "r": "pulado:sem link",
+   "t": 1795297797
+  },
+  "iuriindica:123998": {
+   "r": "gerado",
+   "t": 1795298486
+  },
+  "iuriindica:123999": {
+   "r": "falha",
+   "t": 1795299140
+  },
   "juaocupons:27573": {
    "r": "pulado:loja desconhecida",
    "t": 1795213187
@@ -926,6 +938,18 @@
   "juaocupons:27608": {
    "r": "pulado:repetido",
    "t": 1795297390
+  },
+  "juaocupons:27609": {
+   "r": "pulado:sem preco",
+   "t": 1795299002
+  },
+  "juaocupons:27610": {
+   "r": "pulado:mesmo link",
+   "t": 1795299092
+  },
+  "juaocupons:27611": {
+   "r": "pulado:sem link",
+   "t": 1795299002
   },
   "link:https://amzn.to/3YeTytk": {
    "r": "falha",
@@ -1118,6 +1142,10 @@
   "link:https://s.shopee.com.br/5q0DxVuTin": {
    "r": "falha",
    "t": 1795274131
+  },
+  "link:https://s.shopee.com.br/6VPcQjCiZk": {
+   "r": "falha",
+   "t": 1795299140
   },
   "link:https://s.shopee.com.br/70GSVaUJxC": {
    "r": "falha",
@@ -1359,6 +1387,10 @@
    "r": "gerado",
    "t": 1795216052
   },
+  "link:https://www.amazon.com.br/dp/B0FY6RY66N": {
+   "r": "gerado",
+   "t": 1795298486
+  },
   "link:https://www.amazon.com.br/dp/B0FY6Z7K5W": {
    "r": "duplicado",
    "t": 1795210046
@@ -1467,9 +1499,21 @@
    "r": "gerado",
    "t": 1795296485
   },
+  "link:https://www.netshoes.com.br/p/tenis-olympikus-corre-turbo-bege+preto-SE7-07ZZ-784-44": {
+   "r": "duplicado",
+   "t": 1795299067
+  },
+  "link:https://www.netshoes.com.br/p/tenis-olympikus-corre-turbo-branco+preto-2I3-1640-028-40": {
+   "r": "duplicado",
+   "t": 1795297834
+  },
   "link:https://www.netshoes.com.br/p/tenis-olympikus-corre-turbo-lilas-SE7-07ZZ-022-44": {
    "r": "gerado",
    "t": 1795297363
+  },
+  "link:https://www.netshoes.com.br/p/tenis-olympikus-corre-turbo-preto+verde+limao-SE7-07ZZ-451-36": {
+   "r": "duplicado",
+   "t": 1795298414
   },
   "perfumepromo:10077": {
    "r": "pulado:sem link",
@@ -2355,6 +2399,18 @@
    "r": "pulado:repetido",
    "t": 1795297289
   },
+  "pincei:370510": {
+   "r": "pulado:repetido",
+   "t": 1795297822
+  },
+  "pincei:370511": {
+   "r": "pulado:repetido",
+   "t": 1795299027
+  },
+  "pincei:370512": {
+   "r": "pulado:repetido",
+   "t": 1795299055
+  },
   "promotom:115007": {
    "r": "pulado:sem link",
    "t": 1795203318
@@ -2611,6 +2667,14 @@
    "r": "pulado:sem preco",
    "t": 1795295986
   },
+  "promotom:115089": {
+   "r": "pulado:sem preco",
+   "t": 1795298400
+  },
+  "promotom:115090": {
+   "r": "pulado:mesmo link",
+   "t": 1795299092
+  },
   "teniscertocupons:63531": {
    "r": "cancelado_teste",
    "t": 1795215823
@@ -2686,6 +2750,18 @@
   "teniscertocupons:66130": {
    "r": "gerado",
    "t": 1795297363
+  },
+  "teniscertocupons:66131": {
+   "r": "duplicado",
+   "t": 1795297834
+  },
+  "teniscertocupons:66132": {
+   "r": "duplicado",
+   "t": 1795298414
+  },
+  "teniscertocupons:66133": {
+   "r": "duplicado",
+   "t": 1795299067
   },
   "teste:1795203980": {
    "r": "cancelado_teste",
@@ -7065,19 +7141,61 @@
    "w": [
     "necessidade"
    ]
+  },
+  {
+   "ids": [],
+   "p": 499.99,
+   "t": 1795297822,
+   "w": [
+    "necessidade"
+   ]
+  },
+  {
+   "ids": [],
+   "p": 499.99,
+   "t": 1795298402,
+   "w": [
+    "necessidade"
+   ]
+  },
+  {
+   "ids": [
+    "B0FY6RY66N"
+   ],
+   "p": 1996.0,
+   "t": 1795298442,
+   "w": [
+    "220v",
+    "btus",
+    "condicionado",
+    "frio",
+    "inverter",
+    "q12ja31e",
+    "smart",
+    "split",
+    "voice"
+   ]
+  },
+  {
+   "ids": [],
+   "p": 499.99,
+   "t": 1795299056,
+   "w": [
+    "necessidade"
+   ]
   }
  ],
  "tpl_ultimo": 2032135,
- "ult_ciclo": 1795297390.1388834,
+ "ult_ciclo": 1795299165.035869,
  "ultimo_id": {
   "apromodaluh": 158823,
   "fumotom": 51582,
-  "iuriindica": 123994,
-  "juaocupons": 27608,
+  "iuriindica": 123999,
+  "juaocupons": 27611,
   "perfumepromo": 10097,
-  "pincei": 370509,
-  "promotom": 115088,
-  "teniscertocupons": 66130,
+  "pincei": 370512,
+  "promotom": 115090,
+  "teniscertocupons": 66133,
   "teste": 1795214930
  }
 }
