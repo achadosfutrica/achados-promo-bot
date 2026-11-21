@@ -124,6 +124,14 @@ inteligencia:
   nota_minima: 5
   bug_desconto: 0.6               # 60% ou mais de desconto = BUG (+20 na nota)
 
+# promoções que VOCÊ gera à mão no @di48291bot não viram arte no robô de stories:
+# o robô encaminha essas mensagens ao @achadosfutricatemplatesbot (é o "encaminhar para pular" automático).
+# O que sai pelo @divulgadorinteligente2bot continua virando arte normalmente.
+templates:
+  ligado: true
+  bot_manual: di48291bot
+  robo_templates: achadosfutricatemplatesbot
+
 # não posta o MESMO produto 2x em 24 h (robô + seu grupo), a não ser que o preço caia 15% ou mais
 repetidos:
   ligado: true
