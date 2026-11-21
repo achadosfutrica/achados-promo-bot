@@ -1,5 +1,5 @@
 {
- "contagem_dia": 10,
+ "contagem_dia": 13,
  "dia": "2026-11-21",
  "feitos": {
   "fumotom:51408": {
@@ -286,6 +286,18 @@
    "r": "gerado",
    "t": 1795250237
   },
+  "fumotom:51484": {
+   "r": "gerado",
+   "t": 1795253238
+  },
+  "fumotom:51486": {
+   "r": "gerado",
+   "t": 1795253375
+  },
+  "fumotom:51490": {
+   "r": "gerado",
+   "t": 1795253307
+  },
   "iuriindica:123964": {
    "r": "pulado:mesmo link",
    "t": 1795215974
@@ -402,6 +414,10 @@
    "r": "gerado",
    "t": 1795213071
   },
+  "link:https://www.amazon.com.br/dp/B071RNK1TF": {
+   "r": "gerado",
+   "t": 1795253375
+  },
   "link:https://www.amazon.com.br/dp/B073HFH5BB": {
    "r": "gerado",
    "t": 1795235841
@@ -457,6 +473,14 @@
   "link:https://www.amazon.com.br/dp/B0BQ3MNNFQ": {
    "r": "duplicado",
    "t": 1795210226
+  },
+  "link:https://www.amazon.com.br/dp/B0BQ6QBS64": {
+   "r": "gerado",
+   "t": 1795253307
+  },
+  "link:https://www.amazon.com.br/dp/B0BR6SS9TX": {
+   "r": "gerado",
+   "t": 1795253238
   },
   "link:https://www.amazon.com.br/dp/B0C2Z9NDNQ": {
    "r": "gerado",
@@ -771,7 +795,32 @@
    "t": 1795214936
   }
  },
- "fila": [],
+ "fila": [
+  {
+   "canal": "fumotom",
+   "id": 51487,
+   "t": 1795252819.0,
+   "txt": "Modern Threads Edredão de edredom, edredom alternativo acolchoado reversível com abas de canto, roupa de cama para todas as estações, solteiro, bege/azul claro\n\nR$ 244\n\nhttps://www.amazon.com.br/dp/B00U85D3UG?tag=promotom05-20\n\n-Anúncio"
+  },
+  {
+   "canal": "fumotom",
+   "id": 51488,
+   "t": 1795252819.0,
+   "txt": "MengRan Recargas de caneta esferográfica de 4,5 '' para canetas giratórias, ponta média de 1 mm, compatível com recargas de caneta cruzada (8511) (10 unidades de tinta azul)\n\nR$ 43\n\nhttps://www.amazon.com.br/dp/B0D3PR672T?tag=promotom05-20\n\n-Anúncio"
+  },
+  {
+   "canal": "fumotom",
+   "id": 51489,
+   "t": 1795252819.0,
+   "txt": "Organizador sob a pia, aço inoxidável, 2 pacotes, organizadores e armazenamento sob a pia de 2 níveis, prateleira deslizante para armário de cozinha, banheiro, despensa, armário, organizador de\n\nR$ 318\n\nhttps://www.amazon.com.br/dp/B0F2HM2LB5?tag=promotom05-20\n\n-Anúncio"
+  },
+  {
+   "canal": "fumotom",
+   "id": 51485,
+   "t": 1795250872.0,
+   "txt": "YouTheFan NFL San Francisco 49ers - Levi's Stadium 3D StadiumView Magnet3D StadiumView Ímã StadiumView, cores do time, pequeno (8493489)\n\nR$ 65\n\nhttps://www.amazon.com.br/dp/B081DHLDSY?tag=promotom05-20\n\n-Anúncio"
+  }
+ ],
  "perfil": {
   "faixas": [
    894,
@@ -4046,11 +4095,74 @@
     "ultra",
     "usb"
    ]
+  },
+  {
+   "ids": [
+    "B0BR6SS9TX"
+   ],
+   "p": 280.0,
+   "t": 1795253193,
+   "w": [
+    "bolsa",
+    "bolsas",
+    "branco",
+    "classico",
+    "compartimento",
+    "fim",
+    "grande",
+    "higiene",
+    "mulheres",
+    "noturna",
+    "pcs",
+    "pessoal",
+    "sapatos",
+    "semana",
+    "transporte",
+    "viagem"
+   ]
+  },
+  {
+   "ids": [
+    "B0BQ6QBS64"
+   ],
+   "p": 317.0,
+   "t": 1795253263,
+   "w": [
+    "aderencia",
+    "antiruv",
+    "bloqueio",
+    "calor",
+    "casa",
+    "escritorio",
+    "estatica",
+    "janela",
+    "kespen",
+    "pelicula",
+    "privacidade",
+    "reflexivo",
+    "solar",
+    "uso"
+   ]
+  },
+  {
+   "ids": [
+    "B071RNK1TF"
+   ],
+   "p": 46.0,
+   "t": 1795253332,
+   "w": [
+    "baixo",
+    "cano",
+    "criancas",
+    "meias",
+    "pacote",
+    "puma"
+   ]
   }
  ],
  "ultimo_id": {
   "apromodaluh": 158767,
-  "fumotom": 51483,
+  "fumotom": 51490,
   "iuriindica": 123965,
   "juaocupons": 27580,
   "perfumepromo": 10077,
