@@ -1,5 +1,5 @@
 {
- "contagem_dia": 4,
+ "contagem_dia": 5,
  "dia": "2026-11-21",
  "feitos": {
   "fumotom:51408": {
@@ -262,6 +262,10 @@
    "r": "gerado",
    "t": 1795235841
   },
+  "fumotom:51478": {
+   "r": "gerado",
+   "t": 1795239209
+  },
   "iuriindica:123964": {
    "r": "pulado:mesmo link",
    "t": 1795215974
@@ -430,6 +434,10 @@
    "r": "falha",
    "t": 1795207029
   },
+  "link:https://www.amazon.com.br/dp/B0D3QWBSX5": {
+   "r": "gerado",
+   "t": 1795239209
+  },
   "link:https://www.amazon.com.br/dp/B0DLPX11ZS": {
    "r": "gerado",
    "t": 1795206932
@@ -541,6 +549,14 @@
   "pincei:370194": {
    "r": "pulado:sacola laranja (bloqueado)",
    "t": 1795232153
+  },
+  "pincei:370195": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795239151
+  },
+  "pincei:370196": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795239165
   },
   "promotom:115007": {
    "r": "pulado:sem link",
@@ -3868,15 +3884,30 @@
     "rockport",
     "toe"
    ]
+  },
+  {
+   "ids": [
+    "B0D3QWBSX5"
+   ],
+   "p": 243.0,
+   "t": 1795239165,
+   "w": [
+    "digital",
+    "eletronico",
+    "invicta",
+    "men",
+    "mostrador",
+    "racing"
+   ]
   }
  ],
  "ultimo_id": {
   "apromodaluh": 158767,
-  "fumotom": 51477,
+  "fumotom": 51478,
   "iuriindica": 123965,
   "juaocupons": 27580,
   "perfumepromo": 10077,
-  "pincei": 370194,
+  "pincei": 370196,
   "promotom": 115041,
   "teniscertocupons": 66105,
   "teste": 1795214930
