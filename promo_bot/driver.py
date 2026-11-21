@@ -59,9 +59,17 @@ class Driver:
 
     def _revisar(self, tela):
         """Pula a tela de revisão automática (always_review) se aparecer."""
-        for _ in range(3):
+        for _ in range(4):
             if tela.achar("gerar promo"):
                 return tela
+            if tela.tem_texto("aplicar o desconto do cupom"):
+                # o preço do post já vem com o cupom: NÃO deixa o Divulgador descontar de novo (o preço é digitado depois)
+                sim = bool(self.cfg.get("aplicar_desconto_cupom", False))
+                b = tela.achar("sim") if sim else tela.achar("nao", "não")
+                if b:
+                    self.log("  desconto do cupom: %s" % ("Sim" if sim else "Não"))
+                    tela = self.conv.clicar(b)
+                    continue
             b = tela.achar("continuar", "revisar", "seguir", "ok, entendi", "confirmar produto")
             if not b:
                 break
@@ -147,6 +155,12 @@ class Driver:
                 self.conv.limpar()          # fecha pergunta que ficou aberta (sua ou de outra execução)
             tela = self.conv.enviar(link)
             tela = self._plataforma(tela, loja)
+            if (not tela.achar("gerar promo") and tela.tem_texto("informe os dados", "nao e de produto", "não é de produto")
+                    and not tela.tem_texto("qual a foto", "qual o titulo", "qual o título") and hasattr(self.conv, "esperar")):
+                try:
+                    tela = self.conv.esperar()       # o bot manda a 1ª pergunta do cadastro manual logo depois
+                except Exception:  # noqa
+                    pass
             if not tela.achar("gerar promo") and tela.tem_texto("qual a foto", "foto do produto", "qual o titulo", "qual o título", "nome do produto"):
                 self.log("  Divulgador nao leu a loja: cadastro manual com os dados do post")
                 d = dict(dados or {})

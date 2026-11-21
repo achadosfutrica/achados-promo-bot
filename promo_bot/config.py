@@ -22,7 +22,7 @@ PADRAO = {
     "bloquear_sacola_laranja": True,
     "sacola_liberada_canais": [],
     "bloquear_texto": [],
-    "preco": {"centavos_quando_inteiro": "99", "suspeito_abaixo_de": 10, "politica_suspeito": "publicar"},
+    "preco": {"centavos_quando_inteiro": "00", "suspeito_abaixo_de": 10, "politica_suspeito": "publicar"},
     "limites": {"max_por_execucao": 8, "pausa_entre_promocoes_seg": 25, "max_por_dia": 150, "primeira_vez_ler_ultimos": 0, "max_idade_min": 90},
     "bloquear": [], "liberar": [],
     "remover_linhas_que_comecam": ["-anuncio", "anuncio"],

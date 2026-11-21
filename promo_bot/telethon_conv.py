@@ -67,6 +67,13 @@ class ConvTelethon:
     def responder(self, txt):
         return self.enviar(txt)
 
+    def esperar(self, timeout=20):
+        """Espera a próxima mensagem do bot sem enviar nada (o bot manda 2 mensagens seguidas)."""
+        async def f():
+            _, antes = await self._assinatura()
+            return await self._esperar_mudanca(antes, timeout=timeout)
+        return self._run(f())
+
     def enviar_foto(self, midia):
         """Manda a foto do post original (cadastro manual: 'Qual a foto do produto?')."""
         async def f():

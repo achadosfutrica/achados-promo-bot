@@ -78,6 +78,10 @@ def processar_post(post_id, canal, texto, cfg, est, driver, modo, log, notificar
             extra = (extra + "\n\n" + do_post) if extra else do_post
             log("  extra do post: " + do_post.replace("\n", " / ")[:120])
 
+    det_cupom = T.cupom_detalhes(limpo) if info["cupom"] else {}
+    if info["cupom"] and not T.cupom_vale(p, det_cupom):
+        log("  cupom %s NAO usado: compra minima R$ %s e o produto custa R$ %s" % (info["cupom"], det_cupom.get("minimo"), preco_txt))
+        info["cupom"] = None
     log("  %s -> %s loja=%s preco=%s cupom=%s" % (chave, link, info["loja"], preco_txt, info["cupom"]))
     if modo == "dry":
         return "dry"          # dry NUNCA consome o post: o modo live ainda poderá processá-lo
@@ -101,7 +105,7 @@ def processar_post(post_id, canal, texto, cfg, est, driver, modo, log, notificar
     est.salvar()
     # cupom: cadastra/atualiza na página de cupons do Divulgador (desconto, acima de, máximo, código)
     if info["cupom"] and info["loja"] in filtro.LOJAS and modo == "live" and divulgador is not None and getattr(divulgador, "ligado", False) and cfg.get("cupons_no_divulgador", True):
-        det = T.cupom_detalhes(limpo)
+        det = det_cupom
         if det:
             try:
                 log("  cupom %s no Divulgador: %s" % (info["cupom"], divulgador.salvar_cupom(info["loja"], info["cupom"], det)))

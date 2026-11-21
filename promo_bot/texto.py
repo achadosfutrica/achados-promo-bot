@@ -3,7 +3,8 @@ import re
 import unicodedata
 
 URL_RE = re.compile(r"https?://[^\s)>\]]+", re.I)
-PRECO_RE = re.compile(r"R\$\s*([0-9]{1,3}(?:\.[0-9]{3})*|[0-9]+)(?:,([0-9]{1,2}))?", re.I)
+# 21/11: "R$ 1889" é R$ 1.889 (o número inteiro, sem casa decimal). Antes lia só "188".
+PRECO_RE = re.compile(r"R\$\s*([0-9]{1,3}(?:\.[0-9]{3})+(?![0-9])|[0-9]+)(?:,([0-9]{1,2}))?(?![0-9])", re.I)
 CUPOM_RE = re.compile(r"(?:cupom|c[oó]digo|use o cupom|use)\s*[:\-]?\s*[\"“']?([A-Z0-9][A-Z0-9_\-]{2,24})[\"”']?", re.I)
 
 
@@ -47,8 +48,34 @@ def cupom(texto):
                     continue
                 if not (c.isupper() or any(ch.isdigit() for ch in c)):
                     continue  # código de cupom vem em MAIÚSCULAS ou com número
+                if c.upper() in _NAO_CODIGO or c.upper() in _LOJAS_NOME:
+                    continue  # "CUPOM AMAZON: R$ 40 OFF" -> AMAZON é a loja, não o código (21/11)
                 return c.upper()
     return None
+
+
+_LOJAS_NOME = {
+    "AMAZON", "SHOPEE", "MAGALU", "MAGAZINE", "MERCADOLIVRE", "MELI", "KABUM", "ALIEXPRESS", "NETSHOES", "CENTAURO",
+    "NIKE", "ADIDAS", "PUMA", "DAFITI", "CARREFOUR", "CASAS", "BAHIA", "AMERICANAS", "SUBMARINO", "NATURA", "HERING",
+    "RENNER", "RIACHUELO", "SAMSUNG", "APPLE", "XIAOMI", "TEMU", "SHEIN", "DROGASIL", "RAIA", "VIVARA", "STANLEY",
+    "PRIMEVIDEO", "IFOOD", "UBER", "PICPAY", "NUBANK", "INTER", "MASTERCARD", "VISA", "ELO",
+}
+
+
+def cupom_vale(preco, det):
+    """Cupom com compra mínima: só vale se o produto (antes do desconto) atinge o mínimo.
+    O preço do post pode já estar com o cupom, então soma o desconto de volta antes de comparar."""
+    mini = (det or {}).get("minimo")
+    if not mini or not preco:
+        return True
+    v = (det or {}).get("valor") or 0
+    if det.get("tipo") == "percent" and 0 < v < 100:
+        bruto = preco / (1 - v / 100.0)
+        if det.get("maximo"):
+            bruto = min(bruto, preco + det["maximo"])
+    else:
+        bruto = preco + v
+    return bruto + 0.01 >= mini
 
 
 def _para_float(inteiro, cent):
@@ -100,8 +127,9 @@ def preco(texto):
     return None, None, False
 
 
-def formatar_preco(valor, cent_padrao="99"):
-    """315 -> '315,99'; 36.5 -> '36,50'; 1299 -> '1299,99' (sem ponto de milhar, como o bot espera)."""
+def formatar_preco(valor, cent_padrao="00"):
+    """315 -> '315,00'; 36.5 -> '36,50'; 1889 -> '1889,00' (sem ponto de milhar, como o bot espera).
+    Sem casa decimal = valor inteiro em reais (21/11)."""
     inteiro = int(valor)
     cents = round((valor - inteiro) * 100)
     if cents == 0:
