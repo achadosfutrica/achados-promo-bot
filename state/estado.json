@@ -1,5 +1,5 @@
 {
- "contagem_dia": 41,
+ "contagem_dia": 51,
  "dia": "2026-11-21",
  "feitos": {
   "apromodaluh:158768": {
@@ -85,6 +85,10 @@
   "apromodaluh:158788": {
    "r": "gerado",
    "t": 1795265536
+  },
+  "apromodaluh:158789": {
+   "r": "falha",
+   "t": 1795268438
   },
   "esg:1ABHVBZ": {
    "r": "avisado",
@@ -546,9 +550,37 @@
    "r": "gerado",
    "t": 1795267442
   },
+  "fumotom:51539": {
+   "r": "gerado",
+   "t": 1795269163
+  },
+  "fumotom:51540": {
+   "r": "gerado",
+   "t": 1795268660
+  },
+  "fumotom:51541": {
+   "r": "gerado",
+   "t": 1795269686
+  },
+  "fumotom:51542": {
+   "r": "pulado:repetido",
+   "t": 1795269711
+  },
+  "fumotom:51543": {
+   "r": "gerado",
+   "t": 1795269232
+  },
+  "fumotom:51544": {
+   "r": "gerado",
+   "t": 1795269825
+  },
   "fumotom:51545": {
    "r": "gerado",
    "t": 1795267303
+  },
+  "fumotom:51546": {
+   "r": "gerado",
+   "t": 1795269756
   },
   "fumotom:51547": {
    "r": "gerado",
@@ -565,6 +597,18 @@
   "fumotom:51550": {
    "r": "pulado:loja desativada: magalu",
    "t": 1795267841
+  },
+  "fumotom:51551": {
+   "r": "gerado",
+   "t": 1795268591
+  },
+  "fumotom:51552": {
+   "r": "gerado",
+   "t": 1795268509
+  },
+  "fumotom:51553": {
+   "r": "gerado",
+   "t": 1795269094
   },
   "iuriindica:123964": {
    "r": "pulado:mesmo link",
@@ -641,6 +685,10 @@
   "juaocupons:27588": {
    "r": "gerado",
    "t": 1795267920
+  },
+  "link:https://amzn.to/3YeTytk": {
+   "r": "falha",
+   "t": 1795268438
   },
   "link:https://amzn.to/4kf5ZRs": {
    "r": "falha",
@@ -722,6 +770,10 @@
    "r": "gerado",
    "t": 1795264541
   },
+  "link:https://meli.la/29ExosW": {
+   "r": "gerado",
+   "t": 1795268591
+  },
   "link:https://meli.la/2Bx7R4d": {
    "r": "duplicado",
    "t": 1795232296
@@ -775,8 +827,8 @@
    "t": 1795218798
   },
   "link:https://s.shopee.com.br/5fqRk5yjGE": {
-   "r": "duplicado",
-   "t": 1795218657
+   "r": "gerado",
+   "t": 1795269094
   },
   "link:https://s.shopee.com.br/906vvDQccM": {
    "r": "falha",
@@ -785,6 +837,10 @@
   "link:https://s.shopee.com.br/9KjmJe3KW0": {
    "r": "falha",
    "t": 1795218728
+  },
+  "link:https://shopee.com.br/Qiaodan-TG-2.0-GT-Maratona-Homens-T%C3%AAnis-De-Corrida-Leve-Desempenho-Max-Almofada-QDB023264275-i.1883948371.49866024521?gads_t_sig=gqRjZGVrxHCFomtpsTE0MjUxOnRzc19zZGtfa2V5omt20QACpGFsZ2_SAAAAZKNkZWvAomN0xEAAAAAMc1TPTF0zl9lUk9doKYfbtNkYCBZaTm6dQ6q3WJIrnGYlyLtpSCE1-D6jy2YmlKEe_b7zxJZfI6lpwZ6fqmNpcGhlcnRleHTE6QAAAAzBE4BFFJdn_7bARmXQb1ftV0dwjq4KCnfUEcW5Pmqqe40mqdcnXu39KXExPeoV2hVWgCuUZRi12b9eCxbH8bCQK2aNqTDq9baQVJkblKDaoju1Q7PQhpwwPRhQLCF2GAoxMSI8LGZ-xQ4cpkRLWbBp8rCN0FptE5u_UXLPPJK9-UPhPYToMkdVBdkBJz03DMVlnrvQTDJH1XNhlNV5_dfCsOnwaUP8dHvQBv9ZpPbmqTBGEYyIIlkZsi31juuiFUFjglYmNqMzVRP-KXrnkOAckiyhgk6ehglxmqQ_sDYTMikSbuOY&mmp_pid=an_18104140006&uls_trackid=576a708c00s2&utm_campaign=id_5XNS8wETFTV&utm_content=TelegramQiaodanLeiliGT----&utm_medium=affiliates&utm_source=an_18104140006&utm_term=fvunmree5w6g": {
+   "r": "gerado",
+   "t": 1795269342
   },
   "link:https://www.amazon.com.br/b?ie=UTF8&node=223186559011&linkCode=sl2&tag=promotom05-20&linkId=f155ce5d9728807146c12d5bf6aec8c2&ref_=as_li_ss_tl&ascsubtag=srctok-20b45474d2408a6b&btn_type=ss&btn_ref=srctok-20b45474d2408a6b": {
    "r": "falha",
@@ -829,6 +885,10 @@
   "link:https://www.amazon.com.br/dp/B07CBLS785": {
    "r": "gerado",
    "t": 1795229180
+  },
+  "link:https://www.amazon.com.br/dp/B07D7P4SY4": {
+   "r": "gerado",
+   "t": 1795268509
   },
   "link:https://www.amazon.com.br/dp/B07MJHJ4MF": {
    "r": "gerado",
@@ -938,9 +998,21 @@
    "r": "duplicado",
    "t": 1795213002
   },
+  "link:https://www.amazon.com.br/dp/B0FMZHLLTD": {
+   "r": "gerado",
+   "t": 1795268660
+  },
   "link:https://www.amazon.com.br/dp/B0FMZN9WNP": {
    "r": "gerado",
    "t": 1795267303
+  },
+  "link:https://www.amazon.com.br/dp/B0FN111YFW": {
+   "r": "gerado",
+   "t": 1795269163
+  },
+  "link:https://www.amazon.com.br/dp/B0FN182R4D": {
+   "r": "gerado",
+   "t": 1795269825
   },
   "link:https://www.amazon.com.br/dp/B0FN185QW9": {
    "r": "gerado",
@@ -949,6 +1021,18 @@
   "link:https://www.amazon.com.br/dp/B0FN1BGHWW": {
    "r": "gerado",
    "t": 1795267442
+  },
+  "link:https://www.amazon.com.br/dp/B0FN2Q1KC2": {
+   "r": "gerado",
+   "t": 1795269686
+  },
+  "link:https://www.amazon.com.br/dp/B0FN4MNVYX": {
+   "r": "gerado",
+   "t": 1795269232
+  },
+  "link:https://www.amazon.com.br/dp/B0FN4MY5HM": {
+   "r": "gerado",
+   "t": 1795269756
   },
   "link:https://www.amazon.com.br/dp/B0FQCRTG24": {
    "r": "gerado",
@@ -1037,6 +1121,10 @@
   "perfumepromo:10077": {
    "r": "pulado:sem link",
    "t": 1795226215
+  },
+  "perfumepromo:10078": {
+   "r": "pulado:so cupom (ignorado)",
+   "t": 1795269040
   },
   "pincei:370185": {
    "r": "pulado:sacola laranja (bloqueado)",
@@ -1510,6 +1598,82 @@
    "r": "pulado:sacola laranja (bloqueado)",
    "t": 1795267844
   },
+  "pincei:370303": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795268434
+  },
+  "pincei:370304": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795268434
+  },
+  "pincei:370305": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795268434
+  },
+  "pincei:370306": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795268434
+  },
+  "pincei:370307": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795268434
+  },
+  "pincei:370308": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795268434
+  },
+  "pincei:370309": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795268434
+  },
+  "pincei:370310": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795269040
+  },
+  "pincei:370311": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795269040
+  },
+  "pincei:370312": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795269040
+  },
+  "pincei:370313": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795269040
+  },
+  "pincei:370314": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795269040
+  },
+  "pincei:370315": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795269040
+  },
+  "pincei:370316": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795269642
+  },
+  "pincei:370317": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795269642
+  },
+  "pincei:370318": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795269642
+  },
+  "pincei:370319": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795269642
+  },
+  "pincei:370320": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795269642
+  },
+  "pincei:370321": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795269642
+  },
   "promotom:115007": {
    "r": "pulado:sem link",
    "t": 1795203318
@@ -1774,6 +1938,14 @@
    "r": "pulado:mesmo link",
    "t": 1795218647
   },
+  "teniscertocupons:66106": {
+   "r": "gerado",
+   "t": 1795269342
+  },
+  "teniscertocupons:66108": {
+   "r": "pulado:repetido",
+   "t": 1795269855
+  },
   "teste:1795203980": {
    "r": "cancelado_teste",
    "t": 1795204010
@@ -1791,50 +1963,7 @@
    "t": 1795214936
   }
  },
- "fila": [
-  {
-   "canal": "fumotom",
-   "id": 51540,
-   "t": 1795267156.0,
-   "txt": "Reebok Apparel Camiseta masculina Volt\n\nR$ 45\n\nhttps://www.amazon.com.br/dp/B0FMZHLLTD?smid=A2EB9PYM83FCP9&tag=promotom05-20\n\n-Anúncio"
-  },
-  {
-   "canal": "fumotom",
-   "id": 51539,
-   "t": 1795267147.0,
-   "txt": "Reebok Apparel Blusa feminina com estampa de linhas topográficas\n\nR$ 42\n\nhttps://www.amazon.com.br/dp/B0FN111YFW?smid=A2EB9PYM83FCP9&tag=promotom05-20\n\n-Anúncio"
-  },
-  {
-   "canal": "fumotom",
-   "id": 51543,
-   "t": 1795267184.0,
-   "txt": "Legging Motum Brushback Legging ReebokFeminino\n\nR$ 61\n\nhttps://www.amazon.com.br/dp/B0FN4MNVYX?smid=A2EB9PYM83FCP9&tag=promotom05-20\n\n-Anúncio"
-  },
-  {
-   "canal": "fumotom",
-   "id": 51541,
-   "t": 1795267167.0,
-   "txt": "Shorts Cruz 2.0 7” Short ReebokMasculino\n\nR$ 48\n\nhttps://www.amazon.com.br/dp/B0FN2Q1KC2?smid=A2EB9PYM83FCP9&tag=promotom05-20\n\n-Anúncio"
-  },
-  {
-   "canal": "fumotom",
-   "id": 51542,
-   "t": 1795267171.0,
-   "txt": "Shorts Distance 7” Short ReebokMasculino\n\nR$ 55\n\nhttps://www.amazon.com.br/dp/B0FN26N71H?smid=A2EB9PYM83FCP9&tag=promotom05-20\n\n-Anúncio"
-  },
-  {
-   "canal": "fumotom",
-   "id": 51546,
-   "t": 1795267227.0,
-   "txt": "Calças Bv Woven Pant ReebokFeminino\n\nR$ 82\n\nhttps://www.amazon.com.br/dp/B0FN4MY5HM?smid=A2EB9PYM83FCP9&tag=promotom05-20\n\n-Anúncio"
-  },
-  {
-   "canal": "fumotom",
-   "id": 51544,
-   "t": 1795267212.0,
-   "txt": "Suéter com capuz Id Bb Tricot Zip-up ReebokFeminino\n\nR$ 76\n\nhttps://www.amazon.com.br/dp/B0FN182R4D?smid=A2EB9PYM83FCP9&tag=promotom05-20\n\n-Anúncio"
-  }
- ],
+ "fila": [],
  "perfil": {
   "faixas": [
    894,
@@ -5718,19 +5847,161 @@
     "usb",
     "western"
    ]
+  },
+  {
+   "ids": [
+    "B07D7P4SY4"
+   ],
+   "p": 111.0,
+   "t": 1795268463,
+   "w": [
+    "64ab",
+    "drive",
+    "fit",
+    "flash",
+    "muf",
+    "plus",
+    "samsung",
+    "usb"
+   ]
+  },
+  {
+   "ids": [],
+   "p": 379.0,
+   "t": 1795268535,
+   "w": [
+    "bluetooth",
+    "edition",
+    "fio",
+    "logitech",
+    "master",
+    "mouse"
+   ]
+  },
+  {
+   "ids": [
+    "B0FMZHLLTD"
+   ],
+   "p": 45.0,
+   "t": 1795268616,
+   "w": [
+    "apparel",
+    "camiseta",
+    "masculina",
+    "reebok",
+    "volt"
+   ]
+  },
+  {
+   "ids": [],
+   "p": 854.0,
+   "t": 1795269040,
+   "w": [
+    "25g64",
+    "300hz",
+    "full",
+    "gamer",
+    "hdmi",
+    "led",
+    "mini",
+    "monitor",
+    "mouse",
+    "pad",
+    "tcl"
+   ]
+  },
+  {
+   "ids": [
+    "B0FN111YFW"
+   ],
+   "p": 42.0,
+   "t": 1795269119,
+   "w": [
+    "apparel",
+    "blusa",
+    "estampa",
+    "feminina",
+    "linhas",
+    "reebok",
+    "topograficas"
+   ]
+  },
+  {
+   "ids": [
+    "B0FN4MNVYX"
+   ],
+   "p": 61.0,
+   "t": 1795269188,
+   "w": [
+    "brushback",
+    "legging",
+    "motum",
+    "reebokfeminino"
+   ]
+  },
+  {
+   "ids": [
+    "1883948371-49866024521"
+   ],
+   "p": 496.6,
+   "t": 1795269268,
+   "w": [
+    "impostos",
+    "inclusos"
+   ]
+  },
+  {
+   "ids": [
+    "B0FN2Q1KC2"
+   ],
+   "p": 48.0,
+   "t": 1795269642,
+   "w": [
+    "cruz",
+    "reebokmasculino",
+    "short",
+    "shorts"
+   ]
+  },
+  {
+   "ids": [
+    "B0FN4MY5HM"
+   ],
+   "p": 82.0,
+   "t": 1795269711,
+   "w": [
+    "calcas",
+    "pant",
+    "reebokfeminino",
+    "woven"
+   ]
+  },
+  {
+   "ids": [
+    "B0FN182R4D"
+   ],
+   "p": 76.0,
+   "t": 1795269781,
+   "w": [
+    "capuz",
+    "reebokfeminino",
+    "sueter",
+    "tricot",
+    "zip"
+   ]
   }
  ],
  "tpl_ultimo": 2032135,
- "ult_ciclo": 1795268147.1010075,
+ "ult_ciclo": 1795269855.3235648,
  "ultimo_id": {
-  "apromodaluh": 158788,
-  "fumotom": 51550,
+  "apromodaluh": 158789,
+  "fumotom": 51553,
   "iuriindica": 123966,
   "juaocupons": 27588,
-  "perfumepromo": 10077,
-  "pincei": 370302,
+  "perfumepromo": 10078,
+  "pincei": 370321,
   "promotom": 115073,
-  "teniscertocupons": 66105,
+  "teniscertocupons": 66108,
   "teste": 1795214930
  }
 }
