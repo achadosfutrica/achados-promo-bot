@@ -188,3 +188,17 @@ remover_linhas_que_comecam:
   - "anuncio"
 remover_trechos:
   - "- Dica *"
+
+# VIGIA DE CUPONS (21/11): fica ligado o dia todo pela sua conta do Telegram. Quando um destes canais
+# posta cupom, chama o radar do @AchadosFutricaBot na hora ("/canais ja", apagado logo depois).
+# Madrugada (00:30 às 07:00): vigia desligado e as promoções rodam a cada 30 min.
+vigia:
+  ligado: true
+  canais: [juaocupons, promotom, fadadoscupons, pincei, promodecorridaoficial, promozoneoficial]
+  espera_seg: 15        # espera o post aparecer na página pública antes de chamar o radar
+  poll_seg: 20          # leitura de segurança (canal em que a conta não está inscrita)
+  duracao_min: 330      # cada execução do GitHub fica ligada ~5h30 e a próxima assume
+  ciclo_min: 10         # promoções (fumotom, promotom...) continuam a cada 10 min
+  noite_inicio: "00:30"
+  noite_fim: "07:00"
+  noite_ciclo_min: 30
