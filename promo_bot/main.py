@@ -325,6 +325,26 @@ def usar_vigia(cfg, agora=None):
         and not vigia.noite(cfg, agora)
 
 
+def proxima_execucao(log):
+    """Pede ao GitHub a próxima execução (fica na fila e começa assim que esta terminar)."""
+    tok, repo = os.environ.get("GH_TOKEN"), os.environ.get("GITHUB_REPOSITORY")
+    if not (tok and repo):
+        return False
+    import json
+    import urllib.request
+    req = urllib.request.Request(
+        "https://api.github.com/repos/%s/actions/workflows/promo-bot.yml/dispatches" % repo,
+        data=json.dumps({"ref": os.environ.get("GITHUB_REF_NAME", "main"), "inputs": {"mode": "", "link": ""}}).encode(),
+        headers={"Authorization": "Bearer " + tok, "Accept": "application/vnd.github+json"}, method="POST")
+    try:
+        urllib.request.urlopen(req, timeout=30)
+        log("proxima execucao pedida ao GitHub")
+        return True
+    except Exception as e:  # noqa
+        log("aviso: nao pedi a proxima execucao: %r" % e)
+        return False
+
+
 def salvar_no_git(est, log):
     """No GitHub, grava o estado no repositório durante o dia (se o robô cair, não perde o histórico)."""
     est.salvar()
@@ -407,7 +427,8 @@ def main():
             log("teste com o link informado: %s" % teste_link)
             ciclo({"teste": [(int(time.time()), "Produto de teste por R$ 99,90 no Pix\n" + teste_link)]})
         elif usar_vigia(cfg):
-            vigia.rodar_vigia(client, cfg, log, ciclo, lambda: salvar_no_git(est, log), dormir)
+            if vigia.rodar_vigia(client, cfg, log, ciclo, lambda: salvar_no_git(est, log), dormir) == "duracao":
+                proxima_execucao(log)          # não depende do agendamento do GitHub (que atrasa)
         elif vigia.noite(cfg) and not cfg.get("_manual"):
             intervalo = float((cfg.get("vigia") or {}).get("noite_ciclo_min", 30)) * 60
             if time.time() - float(est.d.get("ult_ciclo") or 0) < intervalo - 90:

@@ -160,8 +160,12 @@ def rodar_vigia(client, cfg, log, ciclo, salvar, dormir):
     dur = float(vc.get("duracao_min", 330)) * 60
     passo = float(vc.get("ciclo_min", 10)) * 60
     prox, prox_salvar = 0.0, time.time() + 1800
+    motivo = "duracao"
     try:
-        while time.time() - inicio < dur and not noite(cfg):
+        while time.time() - inicio < dur:
+            if noite(cfg):
+                motivo = "noite"
+                break
             if time.time() >= prox and dur - (time.time() - inicio) > 15 * 60:   # não começa ciclo no fim
                 prox = time.time() + passo
                 try:
@@ -174,3 +178,4 @@ def rodar_vigia(client, cfg, log, ciclo, salvar, dormir):
             dormir(5)
     finally:
         v.desligar()
+    return motivo
