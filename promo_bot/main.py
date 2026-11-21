@@ -1,11 +1,13 @@
 """Orquestrador: lê canais -> filtra -> limpa -> manda ao Divulgador."""
 import os
+import asyncio
 import re
+import subprocess
 import sys
 import time
 
 from . import config as C
-from . import filtro, inteligencia, links, lojas_extra, ml_vendedor, repetidos, templates, texto as T
+from . import filtro, inteligencia, links, lojas_extra, ml_vendedor, repetidos, templates, texto as T, vigia
 from .driver import Driver, Falha
 from .estado import Estado
 
@@ -316,8 +318,34 @@ async def _buscar(client, canal, min_id, limite, com_data=False):
     return sorted(msgs)
 
 
+def usar_vigia(cfg, agora=None):
+    """Vigia só no modo live, de dia, e quando não é um teste manual."""
+    vc = cfg.get("vigia") or {}
+    return bool(vc.get("ligado")) and cfg["mode"] == "live" and not os.environ.get("PROMO_TESTE_LINK", "").strip() \
+        and not vigia.noite(cfg, agora)
+
+
+def salvar_no_git(est, log):
+    """No GitHub, grava o estado no repositório durante o dia (se o robô cair, não perde o histórico)."""
+    est.salvar()
+    if not os.environ.get("GITHUB_ACTIONS"):
+        return
+    try:
+        cmds = [["git", "add", "state/estado.json"],
+                ["git", "-c", "user.name=promo-bot", "-c", "user.email=promo-bot@users.noreply.github.com",
+                 "commit", "-q", "-m", "estado"],
+                ["git", "pull", "-q", "--rebase"], ["git", "push", "-q"]]
+        for c in cmds:
+            r = subprocess.run(c, capture_output=True, text=True, timeout=60)
+            if r.returncode and c[1] == "commit":
+                return            # nada mudou
+    except Exception as e:  # noqa
+        log("aviso: nao salvei o estado no git: %r" % e)
+
+
 def main():
     cfg = C.carregar()
+    cfg["_manual"] = os.environ.get("GITHUB_EVENT_NAME") == "workflow_dispatch"
     log = lambda s: print(time.strftime("%H:%M:%S"), s, flush=True)
     if cfg["mode"] == "off":
         log("modo OFF (config.yaml / PROMO_MODE). Nada foi feito. Para ligar: mode: dry, test ou live.")
@@ -341,7 +369,7 @@ def main():
             except Exception as e:  # noqa
                 log("aviso: nao consegui avisar o robo de cupons: %s" % e)
                 notificar("⚠️ Robô de promoções: não consegui avisar @%s:\n%s" % (cfg["robo_cupons"], msg))
-        templates.encaminhar_manuais(client, cfg, est, log, cfg["mode"])   # @di48291bot -> não vira arte
+        dormir = lambda seg: client.loop.run_until_complete(asyncio.sleep(seg))   # o vigia continua ouvindo
         from .divulgador_api import Divulgador
         teste_link = os.environ.get("PROMO_TESTE_LINK", "").strip()
         def midia(canal, pid):
@@ -352,26 +380,42 @@ def main():
             except Exception as e:  # noqa
                 log("aviso: nao peguei a foto de %s:%s: %r" % (canal, pid, e))
                 return None
+
+        def ciclo(posts=None):
+            templates.encaminhar_manuais(client, cfg, est, log, cfg["mode"])   # @di48291bot -> não vira arte
+            if posts is None:
+                posts = _ler_canais(client, cfg, est, log)
+            drv = Driver(ConvTelethon(client, cfg["bot_divulgador"]), cfg, log)
+            perfil = atualizar_perfil(client, cfg, est, log)
+            est.d["_grupo_hoje"] = grupo_hoje(client, cfg, log)
+            cont = rodar(cfg, posts, est, drv, log, notificar, dormir=dormir, avisar_robo=avisar_robo,
+                         divulgador=Divulgador(), resolver=lojas_extra.resolver, perfil=perfil, midia=midia)
+            est.d["ult_ciclo"] = time.time()
+            log("resumo: %s" % cont)
+            est.salvar()
+
         post_tg = re.match(r"https?://t\.me/(?:s/)?([A-Za-z0-9_]+)/(\d+)", teste_link or "")
         if teste_link and cfg["mode"] == "test" and post_tg:
             # teste com um post REAL de um canal (texto + foto), ex.: https://t.me/teniscertocupons/63531
             canal_t, pid_t = post_tg.group(1), int(post_tg.group(2))
             m = client.get_messages(canal_t, ids=pid_t)
-            posts = {canal_t: [(pid_t, (m.message or "") if m else "")]}
             est.d.get("feitos", {}).pop("%s:%s" % (canal_t, pid_t), None)
             log("teste com o post %s/%s" % (canal_t, pid_t))
+            ciclo({canal_t: [(pid_t, (m.message or "") if m else "")]})
         elif teste_link and cfg["mode"] == "test":
             # teste manual: usa só este link (não lê os canais, não mexe no ponteiro dos canais)
-            posts = {"teste": [(int(time.time()), "Produto de teste por R$ 99,90 no Pix\n" + teste_link)]}
             log("teste com o link informado: %s" % teste_link)
+            ciclo({"teste": [(int(time.time()), "Produto de teste por R$ 99,90 no Pix\n" + teste_link)]})
+        elif usar_vigia(cfg):
+            vigia.rodar_vigia(client, cfg, log, ciclo, lambda: salvar_no_git(est, log), dormir)
+        elif vigia.noite(cfg) and not cfg.get("_manual"):
+            intervalo = float((cfg.get("vigia") or {}).get("noite_ciclo_min", 30)) * 60
+            if time.time() - float(est.d.get("ult_ciclo") or 0) < intervalo - 90:
+                log("madrugada: ciclo a cada %d min; ainda nao e hora." % (intervalo / 60))
+            else:
+                ciclo()
         else:
-            posts = _ler_canais(client, cfg, est, log)
-        drv = Driver(ConvTelethon(client, cfg["bot_divulgador"]), cfg, log)
-        perfil = atualizar_perfil(client, cfg, est, log)
-        est.d["_grupo_hoje"] = grupo_hoje(client, cfg, log)
-        cont = rodar(cfg, posts, est, drv, log, notificar, avisar_robo=avisar_robo, divulgador=Divulgador(),
-                     resolver=lojas_extra.resolver, perfil=perfil, midia=midia)
-        log("resumo: %s" % cont)
+            ciclo()
     est.salvar()
     return 0
 
