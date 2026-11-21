@@ -2,6 +2,46 @@
  "contagem_dia": 18,
  "dia": "2026-11-21",
  "feitos": {
+  "apromodaluh:158768": {
+   "r": "pulado:repetido",
+   "t": 1795261536
+  },
+  "apromodaluh:158769": {
+   "r": "pulado:repetido",
+   "t": 1795261536
+  },
+  "apromodaluh:158770": {
+   "r": "pulado:repetido",
+   "t": 1795261536
+  },
+  "apromodaluh:158771": {
+   "r": "pulado:repetido",
+   "t": 1795261536
+  },
+  "apromodaluh:158772": {
+   "r": "pulado:repetido",
+   "t": 1795261536
+  },
+  "apromodaluh:158773": {
+   "r": "pulado:repetido",
+   "t": 1795261536
+  },
+  "apromodaluh:158774": {
+   "r": "pulado:repetido",
+   "t": 1795261536
+  },
+  "apromodaluh:158775": {
+   "r": "pulado:repetido",
+   "t": 1795261535
+  },
+  "apromodaluh:158776": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795261474
+  },
+  "apromodaluh:158777": {
+   "r": "pulado:repetido",
+   "t": 1795261536
+  },
   "fumotom:51408": {
    "r": "falha",
    "t": 1795203021
@@ -326,6 +366,26 @@
    "r": "gerado",
    "t": 1795259216
   },
+  "fumotom:51496": {
+   "r": "pulado:periferico de PC",
+   "t": 1795261453
+  },
+  "fumotom:51497": {
+   "r": "em_andamento",
+   "t": 1795261536
+  },
+  "fumotom:51499": {
+   "r": "pulado:periferico de PC",
+   "t": 1795261453
+  },
+  "fumotom:51500": {
+   "r": "falha",
+   "t": 1795261510
+  },
+  "fumotom:51503": {
+   "r": "pulado:periferico de PC",
+   "t": 1795261453
+  },
   "iuriindica:123964": {
    "r": "pulado:mesmo link",
    "t": 1795215974
@@ -622,6 +682,10 @@
    "r": "gerado",
    "t": 1795215949
   },
+  "link:https://www.kabum.com.br/produto/592319": {
+   "r": "falha",
+   "t": 1795261510
+  },
   "link:https://www.netshoes.com.br/lst/afil-corre": {
    "r": "falha",
    "t": 1795215980
@@ -701,6 +765,98 @@
   "pincei:370202": {
    "r": "pulado:sacola laranja (bloqueado)",
    "t": 1795259140
+  },
+  "pincei:370203": {
+   "r": "pulado:sem preco",
+   "t": 1795261454
+  },
+  "pincei:370204": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795261455
+  },
+  "pincei:370205": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795261456
+  },
+  "pincei:370206": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795261457
+  },
+  "pincei:370207": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795261457
+  },
+  "pincei:370208": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795261458
+  },
+  "pincei:370209": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795261459
+  },
+  "pincei:370210": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795261459
+  },
+  "pincei:370211": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795261460
+  },
+  "pincei:370212": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795261461
+  },
+  "pincei:370213": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795261461
+  },
+  "pincei:370214": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795261464
+  },
+  "pincei:370215": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795261465
+  },
+  "pincei:370216": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795261465
+  },
+  "pincei:370217": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795261466
+  },
+  "pincei:370218": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795261469
+  },
+  "pincei:370219": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795261470
+  },
+  "pincei:370220": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795261470
+  },
+  "pincei:370221": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795261471
+  },
+  "pincei:370222": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795261472
+  },
+  "pincei:370223": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795261472
+  },
+  "pincei:370224": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795261473
+  },
+  "pincei:370225": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795261474
   },
   "promotom:115007": {
    "r": "pulado:sem link",
@@ -4371,13 +4527,14 @@
    ]
   }
  ],
+ "tpl_ultimo": 2032135,
  "ultimo_id": {
-  "apromodaluh": 158767,
-  "fumotom": 51495,
+  "apromodaluh": 158777,
+  "fumotom": 51503,
   "iuriindica": 123965,
   "juaocupons": 27581,
   "perfumepromo": 10077,
-  "pincei": 370202,
+  "pincei": 370225,
   "promotom": 115043,
   "teniscertocupons": 66105,
   "teste": 1795214930
