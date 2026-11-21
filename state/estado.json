@@ -1,5 +1,5 @@
 {
- "contagem_dia": 53,
+ "contagem_dia": 58,
  "dia": "2026-11-21",
  "feitos": {
   "apromodaluh:158768": {
@@ -642,6 +642,10 @@
    "r": "gerado",
    "t": 1795271489
   },
+  "fumotom:51556": {
+   "r": "gerado",
+   "t": 1795272727
+  },
   "iuriindica:123964": {
    "r": "pulado:mesmo link",
    "t": 1795215974
@@ -653,6 +657,26 @@
   "iuriindica:123966": {
    "r": "pulado:so cupom (ignorado)",
    "t": 1795265420
+  },
+  "iuriindica:123967": {
+   "r": "pulado:aliexpress (bloqueado)",
+   "t": 1795272052
+  },
+  "iuriindica:123968": {
+   "r": "gerado",
+   "t": 1795272169
+  },
+  "iuriindica:123969": {
+   "r": "pulado:repetido",
+   "t": 1795272053
+  },
+  "iuriindica:123970": {
+   "r": "gerado",
+   "t": 1795272100
+  },
+  "iuriindica:123971": {
+   "r": "duplicado",
+   "t": 1795272658
   },
   "juaocupons:27573": {
    "r": "pulado:loja desconhecida",
@@ -726,9 +750,17 @@
    "r": "pulado:sem link",
    "t": 1795270241
   },
+  "juaocupons:27591": {
+   "r": "falha",
+   "t": 1795273377
+  },
   "link:https://amzn.to/3YeTytk": {
    "r": "falha",
    "t": 1795268438
+  },
+  "link:https://amzn.to/43L4rFd": {
+   "r": "gerado",
+   "t": 1795273447
   },
   "link:https://amzn.to/4kf5ZRs": {
    "r": "falha",
@@ -834,6 +866,10 @@
    "r": "gerado",
    "t": 1795264979
   },
+  "link:https://meli.la/2TCX82v": {
+   "r": "falha",
+   "t": 1795273377
+  },
   "link:https://meli.la/2VQzJqw": {
    "r": "duplicado",
    "t": 1795232168
@@ -862,6 +898,10 @@
    "r": "gerado",
    "t": 1795262920
   },
+  "link:https://s.shopee.com.br/3Vm0NWOBVq?lp=aff": {
+   "r": "duplicado",
+   "t": 1795272658
+  },
   "link:https://s.shopee.com.br/4fxwkyRuzp": {
    "r": "falha",
    "t": 1795218798
@@ -869,6 +909,10 @@
   "link:https://s.shopee.com.br/5fqRk5yjGE": {
    "r": "gerado",
    "t": 1795269094
+  },
+  "link:https://s.shopee.com.br/70LsWuSJlz": {
+   "r": "gerado",
+   "t": 1795272100
   },
   "link:https://s.shopee.com.br/906vvDQccM": {
    "r": "falha",
@@ -897,6 +941,10 @@
   "link:https://www.amazon.com.br/dp/B0013CQCTW": {
    "r": "gerado",
    "t": 1795259316
+  },
+  "link:https://www.amazon.com.br/dp/B00GIOSGIK": {
+   "r": "gerado",
+   "t": 1795272727
   },
   "link:https://www.amazon.com.br/dp/B00QYCJS42": {
    "r": "falha",
@@ -929,6 +977,10 @@
   "link:https://www.amazon.com.br/dp/B07D7P4SY4": {
    "r": "gerado",
    "t": 1795268509
+  },
+  "link:https://www.amazon.com.br/dp/B07F19X4L7": {
+   "r": "gerado",
+   "t": 1795272169
   },
   "link:https://www.amazon.com.br/dp/B07MJHJ4MF": {
    "r": "gerado",
@@ -1161,6 +1213,10 @@
   "link:https://www.kabum.com.br/produto/592319": {
    "r": "falha",
    "t": 1795261510
+  },
+  "link:https://www.mizuno.com.br/tenis-de-corrida-mizuno-hyperwarp-pro-102369003-004/p": {
+   "r": "gerado",
+   "t": 1795273343
   },
   "link:https://www.netshoes.com.br/lst/afil-corre": {
    "r": "falha",
@@ -1846,6 +1902,74 @@
    "r": "pulado:sacola laranja (bloqueado)",
    "t": 1795271444
   },
+  "pincei:370352": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795272052
+  },
+  "pincei:370353": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795272052
+  },
+  "pincei:370354": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795272052
+  },
+  "pincei:370355": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795272052
+  },
+  "pincei:370356": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795272647
+  },
+  "pincei:370357": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795272647
+  },
+  "pincei:370358": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795272647
+  },
+  "pincei:370359": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795272647
+  },
+  "pincei:370360": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795272647
+  },
+  "pincei:370361": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795272647
+  },
+  "pincei:370362": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795273247
+  },
+  "pincei:370363": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795273247
+  },
+  "pincei:370364": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795273247
+  },
+  "pincei:370365": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795273247
+  },
+  "pincei:370366": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795273247
+  },
+  "pincei:370367": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795273247
+  },
+  "pincei:370368": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795273247
+  },
   "promotom:115007": {
    "r": "pulado:sem link",
    "t": 1795203318
@@ -2082,6 +2206,14 @@
    "r": "pulado:sem link",
    "t": 1795270241
   },
+  "promotom:115075": {
+   "r": "gerado",
+   "t": 1795273447
+  },
+  "promotom:115076": {
+   "r": "pulado:sem preco",
+   "t": 1795273247
+  },
   "teniscertocupons:63531": {
    "r": "cancelado_teste",
    "t": 1795215823
@@ -2121,6 +2253,14 @@
   "teniscertocupons:66108": {
    "r": "pulado:repetido",
    "t": 1795269855
+  },
+  "teniscertocupons:66109": {
+   "r": "pulado:repetido",
+   "t": 1795272196
+  },
+  "teniscertocupons:66110": {
+   "r": "gerado",
+   "t": 1795273343
   },
   "teste:1795203980": {
    "r": "cancelado_teste",
@@ -6205,19 +6345,94 @@
     "swurfer",
     "verde"
    ]
+  },
+  {
+   "ids": [],
+   "p": 799.0,
+   "t": 1795272053,
+   "w": [
+    "alto",
+    "aoc",
+    "dci",
+    "falantes",
+    "ips",
+    "monitor",
+    "srgb",
+    "u27b3a",
+    "uhd"
+   ]
+  },
+  {
+   "ids": [
+    "B07F19X4L7"
+   ],
+   "p": 10.0,
+   "t": 1795272125,
+   "w": [
+    "100ml",
+    "limpa",
+    "rodabrill",
+    "telas"
+   ]
+  },
+  {
+   "ids": [],
+   "p": 486.0,
+   "t": 1795272647,
+   "w": [
+    "120hz",
+    "1ms",
+    "aoc",
+    "gaming",
+    "monitor",
+    "polegadas",
+    "versao"
+   ]
+  },
+  {
+   "ids": [
+    "B00GIOSGIK"
+   ],
+   "p": 89.0,
+   "t": 1795272683,
+   "w": [
+    "alca",
+    "carvao",
+    "cristal",
+    "dentes",
+    "escova",
+    "nano",
+    "ouro"
+   ]
+  },
+  {
+   "ids": [],
+   "p": 1169.99,
+   "t": 1795273248,
+   "w": [
+    "necessidade"
+   ]
+  },
+  {
+   "ids": [],
+   "p": 10.0,
+   "t": 1795273402,
+   "w": [
+    "resgate"
+   ]
   }
  ],
  "tpl_ultimo": 2032135,
- "ult_ciclo": 1795271514.9144173,
+ "ult_ciclo": 1795273472.6106088,
  "ultimo_id": {
   "apromodaluh": 158795,
-  "fumotom": 51555,
-  "iuriindica": 123966,
-  "juaocupons": 27590,
+  "fumotom": 51556,
+  "iuriindica": 123971,
+  "juaocupons": 27591,
   "perfumepromo": 10079,
-  "pincei": 370351,
-  "promotom": 115074,
-  "teniscertocupons": 66108,
+  "pincei": 370368,
+  "promotom": 115076,
+  "teniscertocupons": 66110,
   "teste": 1795214930
  }
 }
