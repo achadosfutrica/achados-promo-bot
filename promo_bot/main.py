@@ -5,7 +5,7 @@ import sys
 import time
 
 from . import config as C
-from . import filtro, inteligencia, links, lojas_extra, ml_vendedor, repetidos, texto as T
+from . import filtro, inteligencia, links, lojas_extra, ml_vendedor, repetidos, templates, texto as T
 from .driver import Driver, Falha
 from .estado import Estado
 
@@ -341,6 +341,7 @@ def main():
             except Exception as e:  # noqa
                 log("aviso: nao consegui avisar o robo de cupons: %s" % e)
                 notificar("⚠️ Robô de promoções: não consegui avisar @%s:\n%s" % (cfg["robo_cupons"], msg))
+        templates.encaminhar_manuais(client, cfg, est, log, cfg["mode"])   # @di48291bot -> não vira arte
         from .divulgador_api import Divulgador
         teste_link = os.environ.get("PROMO_TESTE_LINK", "").strip()
         def midia(canal, pid):

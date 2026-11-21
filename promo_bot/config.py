@@ -14,6 +14,7 @@ PADRAO = {
     "plataforma": {"_padrao": ["awin", "rakuten", "afilio"]},
     "inteligencia": {"ligada": False},
     "bonus_loja": {},
+    "templates": {"ligado": True, "bot_manual": "di48291bot", "robo_templates": "achadosfutricatemplatesbot"},
     "repetidos": {"ligado": True, "horas": 24, "desconto_min": 0.15},
     "bloquear_sacola_laranja": True,
     "bloquear_texto": [],
