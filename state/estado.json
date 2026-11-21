@@ -1,5 +1,5 @@
 {
- "contagem_dia": 51,
+ "contagem_dia": 53,
  "dia": "2026-11-21",
  "feitos": {
   "apromodaluh:158768": {
@@ -89,6 +89,30 @@
   "apromodaluh:158789": {
    "r": "falha",
    "t": 1795268438
+  },
+  "apromodaluh:158790": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795270241
+  },
+  "apromodaluh:158791": {
+   "r": "pulado:repetido",
+   "t": 1795270241
+  },
+  "apromodaluh:158792": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795270241
+  },
+  "apromodaluh:158793": {
+   "r": "pulado:repetido",
+   "t": 1795270243
+  },
+  "apromodaluh:158794": {
+   "r": "pulado:repetido",
+   "t": 1795270243
+  },
+  "apromodaluh:158795": {
+   "r": "pulado:repetido",
+   "t": 1795270243
   },
   "esg:1ABHVBZ": {
    "r": "avisado",
@@ -610,6 +634,14 @@
    "r": "gerado",
    "t": 1795269094
   },
+  "fumotom:51554": {
+   "r": "gerado",
+   "t": 1795270894
+  },
+  "fumotom:51555": {
+   "r": "gerado",
+   "t": 1795271489
+  },
   "iuriindica:123964": {
    "r": "pulado:mesmo link",
    "t": 1795215974
@@ -685,6 +717,14 @@
   "juaocupons:27588": {
    "r": "gerado",
    "t": 1795267920
+  },
+  "juaocupons:27589": {
+   "r": "pulado:sem link",
+   "t": 1795270241
+  },
+  "juaocupons:27590": {
+   "r": "pulado:sem link",
+   "t": 1795270241
   },
   "link:https://amzn.to/3YeTytk": {
    "r": "falha",
@@ -902,6 +942,10 @@
    "r": "gerado",
    "t": 1795247462
   },
+  "link:https://www.amazon.com.br/dp/B07XYH4Q1F": {
+   "r": "gerado",
+   "t": 1795271489
+  },
   "link:https://www.amazon.com.br/dp/B07YD3G568": {
    "r": "gerado",
    "t": 1795268089
@@ -953,6 +997,10 @@
   "link:https://www.amazon.com.br/dp/B0C2Z9NDNQ": {
    "r": "gerado",
    "t": 1795222212
+  },
+  "link:https://www.amazon.com.br/dp/B0CMVBVFW2": {
+   "r": "gerado",
+   "t": 1795270894
   },
   "link:https://www.amazon.com.br/dp/B0CT9VZHD6": {
    "r": "falha",
@@ -1125,6 +1173,10 @@
   "perfumepromo:10078": {
    "r": "pulado:so cupom (ignorado)",
    "t": 1795269040
+  },
+  "perfumepromo:10079": {
+   "r": "pulado:sem preco",
+   "t": 1795270850
   },
   "pincei:370185": {
    "r": "pulado:sacola laranja (bloqueado)",
@@ -1674,6 +1726,126 @@
    "r": "pulado:sacola laranja (bloqueado)",
    "t": 1795269642
   },
+  "pincei:370322": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795270241
+  },
+  "pincei:370323": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795270241
+  },
+  "pincei:370324": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795270241
+  },
+  "pincei:370325": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795270241
+  },
+  "pincei:370326": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795270241
+  },
+  "pincei:370327": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795270241
+  },
+  "pincei:370328": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795270241
+  },
+  "pincei:370329": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795270241
+  },
+  "pincei:370330": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795270241
+  },
+  "pincei:370331": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795270241
+  },
+  "pincei:370332": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795270850
+  },
+  "pincei:370333": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795270850
+  },
+  "pincei:370334": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795270850
+  },
+  "pincei:370335": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795270850
+  },
+  "pincei:370336": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795270850
+  },
+  "pincei:370337": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795270850
+  },
+  "pincei:370338": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795270850
+  },
+  "pincei:370339": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795270850
+  },
+  "pincei:370340": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795270850
+  },
+  "pincei:370341": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795271444
+  },
+  "pincei:370342": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795271444
+  },
+  "pincei:370343": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795271444
+  },
+  "pincei:370344": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795271444
+  },
+  "pincei:370345": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795271444
+  },
+  "pincei:370346": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795271444
+  },
+  "pincei:370347": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795271444
+  },
+  "pincei:370348": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795271444
+  },
+  "pincei:370349": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795271444
+  },
+  "pincei:370350": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795271444
+  },
+  "pincei:370351": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795271444
+  },
   "promotom:115007": {
    "r": "pulado:sem link",
    "t": 1795203318
@@ -1905,6 +2077,10 @@
   "promotom:115073": {
    "r": "falha",
    "t": 1795268122
+  },
+  "promotom:115074": {
+   "r": "pulado:sem link",
+   "t": 1795270241
   },
   "teniscertocupons:63531": {
    "r": "cancelado_teste",
@@ -5989,18 +6165,58 @@
     "tricot",
     "zip"
    ]
+  },
+  {
+   "ids": [
+    "B0CMVBVFW2"
+   ],
+   "p": 18.0,
+   "t": 1795270850,
+   "w": [
+    "300g",
+    "colageno",
+    "formula",
+    "hidrolisado",
+    "lavitan",
+    "super",
+    "verisol"
+   ]
+  },
+  {
+   "ids": [
+    "B07XYH4Q1F"
+   ],
+   "p": 230.0,
+   "t": 1795271444,
+   "w": [
+    "ajustaveis",
+    "anos",
+    "balanco",
+    "comporta",
+    "corda",
+    "disco",
+    "escalada",
+    "multiuso",
+    "partir",
+    "quatro",
+    "resistente",
+    "sentar",
+    "suporte",
+    "swurfer",
+    "verde"
+   ]
   }
  ],
  "tpl_ultimo": 2032135,
- "ult_ciclo": 1795269855.3235648,
+ "ult_ciclo": 1795271514.9144173,
  "ultimo_id": {
-  "apromodaluh": 158789,
-  "fumotom": 51553,
+  "apromodaluh": 158795,
+  "fumotom": 51555,
   "iuriindica": 123966,
-  "juaocupons": 27588,
-  "perfumepromo": 10078,
-  "pincei": 370321,
-  "promotom": 115073,
+  "juaocupons": 27590,
+  "perfumepromo": 10079,
+  "pincei": 370351,
+  "promotom": 115074,
   "teniscertocupons": 66108,
   "teste": 1795214930
  }
