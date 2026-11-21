@@ -1,5 +1,5 @@
 {
- "contagem_dia": 31,
+ "contagem_dia": 35,
  "dia": "2026-11-21",
  "feitos": {
   "apromodaluh:158768": {
@@ -65,6 +65,26 @@
   "apromodaluh:158783": {
    "r": "pulado:repetido",
    "t": 1795264055
+  },
+  "apromodaluh:158784": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795264835
+  },
+  "apromodaluh:158785": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795264835
+  },
+  "apromodaluh:158786": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795264835
+  },
+  "apromodaluh:158787": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795264835
+  },
+  "apromodaluh:158788": {
+   "r": "gerado",
+   "t": 1795265536
   },
   "esg:1ABHVBZ": {
    "r": "avisado",
@@ -442,6 +462,14 @@
    "r": "gerado",
    "t": 1795263943
   },
+  "fumotom:51518": {
+   "r": "gerado",
+   "t": 1795264896
+  },
+  "fumotom:51519": {
+   "r": "pulado:repetido",
+   "t": 1795264836
+  },
   "fumotom:51520": {
    "r": "pulado:repetido",
    "t": 1795263796
@@ -457,6 +485,10 @@
   "fumotom:51523": {
    "r": "gerado",
    "t": 1795264028
+  },
+  "fumotom:51524": {
+   "r": "pulado:repetido",
+   "t": 1795264922
   },
   "fumotom:51525": {
    "r": "pulado:periferico de PC",
@@ -486,6 +518,10 @@
    "r": "pulado:periferico de PC",
    "t": 1795264211
   },
+  "fumotom:51532": {
+   "r": "gerado",
+   "t": 1795264979
+  },
   "fumotom:51533": {
    "r": "pulado:periferico de PC",
    "t": 1795264211
@@ -494,6 +530,10 @@
    "r": "gerado",
    "t": 1795264541
   },
+  "fumotom:51535": {
+   "r": "gerado",
+   "t": 1795265614
+  },
   "iuriindica:123964": {
    "r": "pulado:mesmo link",
    "t": 1795215974
@@ -501,6 +541,10 @@
   "iuriindica:123965": {
    "r": "pulado:periferico de PC",
    "t": 1795226215
+  },
+  "iuriindica:123966": {
+   "r": "pulado:so cupom (ignorado)",
+   "t": 1795265420
   },
   "juaocupons:27573": {
    "r": "pulado:loja desconhecida",
@@ -546,6 +590,18 @@
    "r": "esgotado_avisado",
    "t": 1795264211
   },
+  "juaocupons:27584": {
+   "r": "pulado:sem preco",
+   "t": 1795264835
+  },
+  "juaocupons:27585": {
+   "r": "falha",
+   "t": 1795265642
+  },
+  "link:https://amzn.to/4kf5ZRs": {
+   "r": "falha",
+   "t": 1795265642
+  },
   "link:https://click.centauro.com.br/13Nl/3022r95u": {
    "r": "falha",
    "t": 1795214936
@@ -582,6 +638,10 @@
    "r": "duplicado",
    "t": 1795264156
   },
+  "link:https://meli.la/1gfPq4n": {
+   "r": "gerado",
+   "t": 1795265536
+  },
   "link:https://meli.la/1hFeJAd": {
    "r": "gerado",
    "t": 1795232374
@@ -593,6 +653,10 @@
   "link:https://meli.la/1swp7BE": {
    "r": "gerado",
    "t": 1795263855
+  },
+  "link:https://meli.la/1tQCDTK": {
+   "r": "gerado",
+   "t": 1795264896
   },
   "link:https://meli.la/1wTsHoU": {
    "r": "duplicado",
@@ -625,6 +689,10 @@
   "link:https://meli.la/2HrW3K9": {
    "r": "gerado",
    "t": 1795264623
+  },
+  "link:https://meli.la/2HvGDTe": {
+   "r": "gerado",
+   "t": 1795264979
   },
   "link:https://meli.la/2VQzJqw": {
    "r": "duplicado",
@@ -762,6 +830,10 @@
    "r": "gerado",
    "t": 1795253238
   },
+  "link:https://www.amazon.com.br/dp/B0BTYCRJSS": {
+   "r": "gerado",
+   "t": 1795265614
+  },
   "link:https://www.amazon.com.br/dp/B0C2Z9NDNQ": {
    "r": "gerado",
    "t": 1795222212
@@ -841,6 +913,10 @@
   "link:https://www.amazon.com.br/dp/B0HMX7CTSY": {
    "r": "falha",
    "t": 1795213129
+  },
+  "link:https://www.amazon.com.br/promotion/psp/A2NPJ9DSPYUPG5?ascsubtag=srctok-28ab6dc6e33bff44&btn_type=ss&btn_ref=srctok-1f7f4ed33821ec37&linkCode=sl2&tag=promotom05-20&linkId=a8d6e9063673b05d61eea72c14dbf69b&ref_=as_li_ss_tl": {
+   "r": "falha",
+   "t": 1795265009
   },
   "link:https://www.amazon.com.br/promotion/psp/A2NPJ9DSPYUPG5?ascsubtag=srctok-28ab6dc6e33bff44&btn_type=ss&btn_ref=srctok-5c93709126700c95&linkCode=sl2&tag=promotom05-20&linkId=a8d6e9063673b05d61eea72c14dbf69b&ref_=as_li_ss_tl": {
    "r": "falha",
@@ -1202,6 +1278,82 @@
    "r": "pulado:sacola laranja (bloqueado)",
    "t": 1795264211
   },
+  "pincei:370266": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795264835
+  },
+  "pincei:370267": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795264835
+  },
+  "pincei:370268": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795264835
+  },
+  "pincei:370269": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795264835
+  },
+  "pincei:370270": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795264835
+  },
+  "pincei:370271": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795264835
+  },
+  "pincei:370272": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795264835
+  },
+  "pincei:370273": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795265420
+  },
+  "pincei:370274": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795265420
+  },
+  "pincei:370275": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795265420
+  },
+  "pincei:370276": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795265420
+  },
+  "pincei:370277": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795265420
+  },
+  "pincei:370278": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795265420
+  },
+  "pincei:370279": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795266023
+  },
+  "pincei:370280": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795266023
+  },
+  "pincei:370281": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795266023
+  },
+  "pincei:370282": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795266023
+  },
+  "pincei:370283": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795266023
+  },
+  "pincei:370284": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795266023
+  },
   "promotom:115007": {
    "r": "pulado:sem link",
    "t": 1795203318
@@ -1418,6 +1570,14 @@
    "r": "gerado",
    "t": 1795264374
   },
+  "promotom:115070": {
+   "r": "falha",
+   "t": 1795265009
+  },
+  "promotom:115071": {
+   "r": "pulado:sem preco",
+   "t": 1795264831
+  },
   "teniscertocupons:63531": {
    "r": "cancelado_teste",
    "t": 1795215823
@@ -1467,32 +1627,7 @@
    "t": 1795214936
   }
  },
- "fila": [
-  {
-   "canal": "fumotom",
-   "id": 51519,
-   "t": 1795263198.0,
-   "txt": "Headset Gamer Redragon H510-pro Zeus Rgb Wireless 7.1 53mm\n\nR$ 247\n-CUPOM: MELIMAIS2111\n\nhttps://meli.la/25LXamt\n\n-Anúncio"
-  },
-  {
-   "canal": "fumotom",
-   "id": 51518,
-   "t": 1795263104.0,
-   "txt": "Teclado Gamer Magnético 8000hz Rapid Trigger 0,01mm Hot Swap Switch Shadow Dareu Cool68 Blazing Orange\n\nR$ 232\n-CUPOM: MELIMAIS2111\n\nhttps://meli.la/1tQCDTK\n\n-Anúncio"
-  },
-  {
-   "canal": "fumotom",
-   "id": 51524,
-   "t": 1795263567.0,
-   "txt": "Fonte Montech Beta 2, 850w, Preto - Beta2850w\n\nR$ 311\n-CUPOM: MELIMAIS2111\n\nhttps://meli.la/1wTsHoU\n\n-Anúncio"
-  },
-  {
-   "canal": "fumotom",
-   "id": 51532,
-   "t": 1795263976.0,
-   "txt": "Extratora Portátil Para Limpeza Estofados Elv400 Vonder\n\nR$ 295\n-CUPOM: MELIMAIS2111\n\nhttps://meli.la/2HvGDTe\n\n-Anúncio"
-  }
- ],
+ "fila": [],
  "perfil": {
   "faixas": [
    894,
@@ -5191,18 +5326,81 @@
     "montech",
     "preto"
    ]
+  },
+  {
+   "ids": [],
+   "p": 232.0,
+   "t": 1795264837,
+   "w": [
+    "01mm",
+    "8000hz",
+    "blazing",
+    "cool68",
+    "dareu",
+    "gamer",
+    "hot",
+    "magnetico",
+    "orange",
+    "rapid",
+    "shadow",
+    "swap",
+    "switch",
+    "teclado",
+    "trigger"
+   ]
+  },
+  {
+   "ids": [],
+   "p": 295.0,
+   "t": 1795264923,
+   "w": [
+    "elv400",
+    "estofados",
+    "extratora",
+    "limpeza",
+    "portatil",
+    "vonder"
+   ]
+  },
+  {
+   "ids": [],
+   "p": 100.0,
+   "t": 1795265421,
+   "w": [
+    "cupons",
+    "livre",
+    "mercado",
+    "novos"
+   ]
+  },
+  {
+   "ids": [
+    "B0BTYCRJSS"
+   ],
+   "p": 103.0,
+   "t": 1795265561,
+   "w": [
+    "anker",
+    "anuncio",
+    "cores",
+    "fone",
+    "outras",
+    "ouvido",
+    "p20i",
+    "soundcore"
+   ]
   }
  ],
  "tpl_ultimo": 2032135,
- "ult_ciclo": 1795264693.0377378,
+ "ult_ciclo": 1795266023.3419893,
  "ultimo_id": {
-  "apromodaluh": 158783,
-  "fumotom": 51534,
-  "iuriindica": 123965,
-  "juaocupons": 27583,
+  "apromodaluh": 158788,
+  "fumotom": 51535,
+  "iuriindica": 123966,
+  "juaocupons": 27585,
   "perfumepromo": 10077,
-  "pincei": 370265,
-  "promotom": 115069,
+  "pincei": 370284,
+  "promotom": 115071,
   "teniscertocupons": 66105,
   "teste": 1795214930
  }
