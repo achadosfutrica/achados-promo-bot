@@ -1,5 +1,5 @@
 {
- "contagem_dia": 2,
+ "contagem_dia": 4,
  "dia": "2026-11-21",
  "feitos": {
   "fumotom:51408": {
@@ -214,6 +214,10 @@
    "r": "pulado:periferico de PC",
    "t": 1795232153
   },
+  "fumotom:51466": {
+   "r": "pulado:repetido",
+   "t": 1795235798
+  },
   "fumotom:51467": {
    "r": "pulado:periferico de PC",
    "t": 1795232153
@@ -237,6 +241,26 @@
   "fumotom:51472": {
    "r": "pulado:repetido",
    "t": 1795232275
+  },
+  "fumotom:51473": {
+   "r": "pulado:repetido",
+   "t": 1795235797
+  },
+  "fumotom:51474": {
+   "r": "pulado:repetido",
+   "t": 1795235797
+  },
+  "fumotom:51475": {
+   "r": "falha",
+   "t": 1795235684
+  },
+  "fumotom:51476": {
+   "r": "gerado",
+   "t": 1795235771
+  },
+  "fumotom:51477": {
+   "r": "gerado",
+   "t": 1795235841
   },
   "iuriindica:123964": {
    "r": "pulado:mesmo link",
@@ -285,6 +309,14 @@
   "link:https://meli.la/12bGnkU": {
    "r": "duplicado",
    "t": 1795232418
+  },
+  "link:https://meli.la/1G6Beyy": {
+   "r": "falha",
+   "t": 1795235684
+  },
+  "link:https://meli.la/1J1i9jq": {
+   "r": "gerado",
+   "t": 1795235771
   },
   "link:https://meli.la/1KYLwXU": {
    "r": "gerado",
@@ -345,6 +377,10 @@
   "link:https://www.amazon.com.br/dp/B015RKWZY6": {
    "r": "gerado",
    "t": 1795213071
+  },
+  "link:https://www.amazon.com.br/dp/B073HFH5BB": {
+   "r": "gerado",
+   "t": 1795235841
   },
   "link:https://www.amazon.com.br/dp/B074D6KZM7": {
    "r": "gerado",
@@ -679,14 +715,7 @@
    "t": 1795214936
   }
  },
- "fila": [
-  {
-   "canal": "fumotom",
-   "id": 51466,
-   "t": 1795230803.0,
-   "txt": "Watercooler Deepcool Le360 V2 Argb Preto 360mm Preto\n\nR$ 281 - Desconto na Finalização\n\nhttps://meli.la/12bGnkU\n\n-Anúncio"
-  }
- ],
+ "fila": [],
  "perfil": {
   "faixas": [
    894,
@@ -3811,11 +3840,39 @@
     "preto",
     "watercooler"
    ]
+  },
+  {
+   "ids": [],
+   "p": 113.0,
+   "t": 1795235710,
+   "w": [
+    "delta",
+    "esportivo",
+    "liso",
+    "masculino",
+    "olympikus",
+    "tenis"
+   ]
+  },
+  {
+   "ids": [
+    "B073HFH5BB"
+   ],
+   "p": 375.0,
+   "t": 1795235798,
+   "w": [
+    "dressports",
+    "masculino",
+    "oxford",
+    "plain",
+    "rockport",
+    "toe"
+   ]
   }
  ],
  "ultimo_id": {
   "apromodaluh": 158767,
-  "fumotom": 51472,
+  "fumotom": 51477,
   "iuriindica": 123965,
   "juaocupons": 27580,
   "perfumepromo": 10077,
