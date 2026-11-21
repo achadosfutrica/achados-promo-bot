@@ -1,5 +1,5 @@
 {
- "contagem_dia": 13,
+ "contagem_dia": 16,
  "dia": "2026-11-20",
  "feitos": {
   "fumotom:51408": {
@@ -150,9 +150,25 @@
    "r": "gerado",
    "t": 1795222286
   },
+  "fumotom:51450": {
+   "r": "gerado",
+   "t": 1795226326
+  },
+  "fumotom:51452": {
+   "r": "gerado",
+   "t": 1795226394
+  },
+  "fumotom:51453": {
+   "r": "gerado",
+   "t": 1795226258
+  },
   "iuriindica:123964": {
    "r": "pulado:mesmo link",
    "t": 1795215974
+  },
+  "iuriindica:123965": {
+   "r": "pulado:periferico de PC",
+   "t": 1795226215
   },
   "juaocupons:27573": {
    "r": "pulado:loja desconhecida",
@@ -222,6 +238,14 @@
    "r": "gerado",
    "t": 1795207001
   },
+  "link:https://www.amazon.com.br/dp/B07MJHJ4MF": {
+   "r": "gerado",
+   "t": 1795226394
+  },
+  "link:https://www.amazon.com.br/dp/B083JG28TD": {
+   "r": "gerado",
+   "t": 1795226326
+  },
   "link:https://www.amazon.com.br/dp/B084BQ7FDW": {
    "r": "gerado",
    "t": 1795212971
@@ -278,6 +302,10 @@
    "r": "duplicado",
    "t": 1795210046
   },
+  "link:https://www.amazon.com.br/dp/B0G56BT2XF": {
+   "r": "gerado",
+   "t": 1795226258
+  },
   "link:https://www.amazon.com.br/dp/B0H7L24BPG": {
    "r": "duplicado",
    "t": 1795210118
@@ -313,6 +341,10 @@
   "link:https://www.netshoes.com.br/lst/afil-corre": {
    "r": "falha",
    "t": 1795215980
+  },
+  "perfumepromo:10077": {
+   "r": "pulado:sem link",
+   "t": 1795226215
   },
   "promotom:115007": {
    "r": "pulado:sem link",
@@ -442,15 +474,9 @@
  "fila": [
   {
    "canal": "fumotom",
-   "id": 51444,
-   "t": 1795218211.0,
-   "txt": "Timex Standard 3-Hand 40mm Men’s Analog Watch\n\nR$ 348\n\nhttps://www.amazon.com.br/dp/B0B771YYWG?tag=promotom05-20\n\n-Anúncio"
-  },
-  {
-   "canal": "fumotom",
-   "id": 51445,
-   "t": 1795218401.0,
-   "txt": "UNTOUCHABLES (4K UHD/DIGITAL)\n\nR$ 161\n\nhttps://www.amazon.com.br/dp/B09TVW4VKR?tag=promotom05-20\n\n-Anúncio"
+   "id": 51451,
+   "t": 1795224020.0,
+   "txt": "A Quiet Place [Blu-ray]\n\nR$ 144\n\nhttps://www.amazon.com.br/dp/B07CBLS785?tag=promotom05-20\n\n-Anúncio"
   }
  ],
  "perfil": {
@@ -3471,10 +3497,10 @@
   "t": 1795214633
  },
  "ultimo_id": {
-  "fumotom": 51449,
-  "iuriindica": 123964,
+  "fumotom": 51453,
+  "iuriindica": 123965,
   "juaocupons": 27577,
-  "perfumepromo": 10076,
+  "perfumepromo": 10077,
   "promotom": 115029,
   "teniscertocupons": 66105,
   "teste": 1795214930
