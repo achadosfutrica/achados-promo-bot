@@ -1,6 +1,6 @@
 {
  "cmd_ultimo": 2034253,
- "contagem_dia": 63,
+ "contagem_dia": 68,
  "dia": "2026-11-21",
  "feitos": {
   "apromodaluh:158768": {
@@ -162,6 +162,14 @@
   "apromodaluh:158808": {
    "r": "pulado:repetido",
    "t": 1795274655
+  },
+  "apromodaluh:158822": {
+   "r": "pulado:so cupom (ignorado)",
+   "t": 1795296253
+  },
+  "apromodaluh:158823": {
+   "r": "pulado:repetido",
+   "t": 1795296374
   },
   "esg:1ABHVBZ": {
    "r": "avisado",
@@ -723,6 +731,18 @@
    "r": "duplicado",
    "t": 1795274908
   },
+  "fumotom:51580": {
+   "r": "pulado:repetido",
+   "t": 1795296510
+  },
+  "fumotom:51581": {
+   "r": "pulado:repetido",
+   "t": 1795296511
+  },
+  "fumotom:51582": {
+   "r": "gerado",
+   "t": 1795296557
+  },
   "iuriindica:123964": {
    "r": "pulado:mesmo link",
    "t": 1795215974
@@ -778,6 +798,34 @@
   "iuriindica:123977": {
    "r": "pulado:repetido",
    "t": 1795274894
+  },
+  "iuriindica:123988": {
+   "r": "pulado:repetido",
+   "t": 1795296511
+  },
+  "iuriindica:123989": {
+   "r": "pulado:repetido",
+   "t": 1795296374
+  },
+  "iuriindica:123990": {
+   "r": "pulado:repetido",
+   "t": 1795296511
+  },
+  "iuriindica:123991": {
+   "r": "pulado:aliexpress (bloqueado)",
+   "t": 1795295999
+  },
+  "iuriindica:123992": {
+   "r": "pulado:aliexpress (bloqueado)",
+   "t": 1795295999
+  },
+  "iuriindica:123993": {
+   "r": "pulado:aliexpress (bloqueado)",
+   "t": 1795295999
+  },
+  "iuriindica:123994": {
+   "r": "pulado:repetido",
+   "t": 1795296374
   },
   "juaocupons:27573": {
    "r": "pulado:loja desconhecida",
@@ -866,6 +914,18 @@
   "juaocupons:27594": {
    "r": "pulado:sem link",
    "t": 1795273856
+  },
+  "juaocupons:27606": {
+   "r": "pulado:mesmo link",
+   "t": 1795296583
+  },
+  "juaocupons:27607": {
+   "r": "pulado:sem preco",
+   "t": 1795295999
+  },
+  "juaocupons:27608": {
+   "r": "pulado:repetido",
+   "t": 1795297390
   },
   "link:https://amzn.to/3YeTytk": {
    "r": "falha",
@@ -1243,6 +1303,10 @@
    "r": "gerado",
    "t": 1795256356
   },
+  "link:https://www.amazon.com.br/dp/B0F493DZMH": {
+   "r": "gerado",
+   "t": 1795296557
+  },
   "link:https://www.amazon.com.br/dp/B0F691QZM6": {
    "r": "gerado",
    "t": 1795210194
@@ -1311,6 +1375,10 @@
    "r": "duplicado",
    "t": 1795259248
   },
+  "link:https://www.amazon.com.br/dp/B0H127L18H": {
+   "r": "duplicado",
+   "t": 1795296047
+  },
   "link:https://www.amazon.com.br/dp/B0H5G5BBWX": {
    "r": "duplicado",
    "t": 1795229110
@@ -1347,6 +1415,10 @@
    "r": "falha",
    "t": 1795213101
   },
+  "link:https://www.asics.com.br/1012b991-300/p": {
+   "r": "gerado",
+   "t": 1795296348
+  },
   "link:https://www.belezanaweb.com.br/ciclo-fragrance-athina-body-splash-200ml/": {
    "r": "cancelado_teste",
    "t": 1795211058
@@ -1371,6 +1443,18 @@
    "r": "falha",
    "t": 1795261510
   },
+  "link:https://www.mercadolivre.com.br/lavadora-de-alta-pressao-krcher-compacta-1500-psi-1400w-300lh-com-aplicador-de-detergente-e-lanca-regulavel/p/MLB40583845": {
+   "r": "duplicado",
+   "t": 1795296175
+  },
+  "link:https://www.mercadolivre.com.br/tenis-de-corrida-masculino-runfalcon-6-cloudfoam-adidas/up/MLBU3950203810": {
+   "r": "gerado",
+   "t": 1795296668
+  },
+  "link:https://www.mercadolivre.com.br/testo-essencial-formula-exclusiva-com-feno-grego-boro-arginina-zma-vitamina-b6-60-capsulas/p/MLB58582424": {
+   "r": "duplicado",
+   "t": 1795297238
+  },
   "link:https://www.mizuno.com.br/tenis-de-corrida-mizuno-hyperwarp-pro-102369003-004/p": {
    "r": "gerado",
    "t": 1795273343
@@ -1380,8 +1464,12 @@
    "t": 1795274058
   },
   "link:https://www.netshoes.com.br/lst/afil-corre": {
-   "r": "falha",
-   "t": 1795215980
+   "r": "gerado",
+   "t": 1795296485
+  },
+  "link:https://www.netshoes.com.br/p/tenis-olympikus-corre-turbo-lilas-SE7-07ZZ-022-44": {
+   "r": "gerado",
+   "t": 1795297363
   },
   "perfumepromo:10077": {
    "r": "pulado:sem link",
@@ -2207,6 +2295,66 @@
    "r": "pulado:sacola laranja (bloqueado)",
    "t": 1795274553
   },
+  "pincei:370495": {
+   "r": "pulado:sem preco",
+   "t": 1795296005
+  },
+  "pincei:370496": {
+   "r": "pulado:so cupom (ignorado)",
+   "t": 1795296034
+  },
+  "pincei:370497": {
+   "r": "duplicado",
+   "t": 1795296047
+  },
+  "pincei:370498": {
+   "r": "pulado:repetido",
+   "t": 1795296075
+  },
+  "pincei:370499": {
+   "r": "pulado:repetido",
+   "t": 1795296081
+  },
+  "pincei:370500": {
+   "r": "pulado:repetido",
+   "t": 1795296109
+  },
+  "pincei:370501": {
+   "r": "pulado:repetido",
+   "t": 1795296135
+  },
+  "pincei:370502": {
+   "r": "duplicado",
+   "t": 1795296175
+  },
+  "pincei:370503": {
+   "r": "pulado:repetido",
+   "t": 1795296203
+  },
+  "pincei:370504": {
+   "r": "pulado:repetido",
+   "t": 1795296228
+  },
+  "pincei:370505": {
+   "r": "pulado:repetido",
+   "t": 1795296253
+  },
+  "pincei:370506": {
+   "r": "gerado",
+   "t": 1795296668
+  },
+  "pincei:370507": {
+   "r": "duplicado",
+   "t": 1795297238
+  },
+  "pincei:370508": {
+   "r": "pulado:repetido",
+   "t": 1795297263
+  },
+  "pincei:370509": {
+   "r": "pulado:repetido",
+   "t": 1795297289
+  },
   "promotom:115007": {
    "r": "pulado:sem link",
    "t": 1795203318
@@ -2459,6 +2607,10 @@
    "r": "duplicado",
    "t": 1795274020
   },
+  "promotom:115088": {
+   "r": "pulado:sem preco",
+   "t": 1795295986
+  },
   "teniscertocupons:63531": {
    "r": "cancelado_teste",
    "t": 1795215823
@@ -2511,6 +2663,30 @@
    "r": "duplicado",
    "t": 1795274058
   },
+  "teniscertocupons:66125": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795295999
+  },
+  "teniscertocupons:66126": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795295999
+  },
+  "teniscertocupons:66127": {
+   "r": "gerado",
+   "t": 1795296485
+  },
+  "teniscertocupons:66128": {
+   "r": "pulado:mesmo link",
+   "t": 1795296510
+  },
+  "teniscertocupons:66129": {
+   "r": "gerado",
+   "t": 1795296348
+  },
+  "teniscertocupons:66130": {
+   "r": "gerado",
+   "t": 1795297363
+  },
   "teste:1795203980": {
    "r": "cancelado_teste",
    "t": 1795204010
@@ -2528,14 +2704,7 @@
    "t": 1795214936
   }
  },
- "fila": [
-  {
-   "canal": "apromodaluh",
-   "id": 158806,
-   "t": 1795273934.0,
-   "txt": "✨ Robô Aspirador de Pó Philco 8 modos de limpeza PAS67A 70W 127V\n\n~de R$ 1.299,90~\n🔥 *por R$ 1.039,92* 😱\n\n🏷️ *Cupom: 20BF26PRIME (somente para membros PRIME)*\n\n🛒 https://link.amazon/B08QxrBJH\n\n📌 Assine PRIME por 30 dias GRATIS aqui: https://amzn.to/3YeTytk"
-  }
- ],
+ "fila": [],
  "flags": {
   "resumo": true,
   "trava": true
@@ -6802,19 +6971,113 @@
     "soundbar",
     "uhd"
    ]
+  },
+  {
+   "ids": [
+    "B0H127L18H"
+   ],
+   "p": 1996.65,
+   "t": 1795296040,
+   "w": [
+    "boombox",
+    "caixa",
+    "jbl",
+    "preta",
+    "som"
+   ]
+  },
+  {
+   "ids": [
+    "40583845"
+   ],
+   "p": 242.19,
+   "t": 1795296163,
+   "w": [
+    "alta",
+    "compacta",
+    "karcher",
+    "lavadora",
+    "pressao"
+   ]
+  },
+  {
+   "ids": [],
+   "p": 539.99,
+   "t": 1795296253,
+   "w": [
+    "asics",
+    "pela",
+    "produto",
+    "vendido"
+   ]
+  },
+  {
+   "ids": [],
+   "p": 409.99,
+   "t": 1795296374,
+   "w": [
+    "necessidade"
+   ]
+  },
+  {
+   "ids": [
+    "B0F493DZMH"
+   ],
+   "p": 21.0,
+   "t": 1795296511,
+   "w": [
+    "iluminador",
+    "mari",
+    "maria",
+    "splendid"
+   ]
+  },
+  {
+   "ids": [],
+   "p": 277.39,
+   "t": 1795296618,
+   "w": [
+    "adidas",
+    "cloudfoam",
+    "corrida",
+    "masculino",
+    "runfalcon",
+    "tenis"
+   ]
+  },
+  {
+   "ids": [
+    "58582424"
+   ],
+   "p": 36.18,
+   "t": 1795297226,
+   "w": [
+    "essencial",
+    "exclusiva",
+    "formula",
+    "testo"
+   ]
+  },
+  {
+   "ids": [],
+   "p": 499.99,
+   "t": 1795297289,
+   "w": [
+    "necessidade"
+   ]
   }
  ],
  "tpl_ultimo": 2032135,
- "ult_ciclo": 1795295102.002475,
+ "ult_ciclo": 1795297390.1388834,
  "ultimo_id": {
-  "apromodaluh": 158821,
-  "fumotom": 51578,
-  "iuriindica": 123986,
-  "juaocupons": 27605,
-  "perfumepromo": 10095,
-  "pincei": 370490,
-  "promotom": 115087,
-  "teniscertocupons": 66123,
+  "apromodaluh": 158823,
+  "fumotom": 51582,
+  "iuriindica": 123994,
+  "juaocupons": 27608,
+  "perfumepromo": 10097,
+  "pincei": 370509,
+  "promotom": 115088,
+  "teniscertocupons": 66130,
   "teste": 1795214930
  }
 }
