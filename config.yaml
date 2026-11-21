@@ -6,7 +6,7 @@
 #   dry   = lê os canais e só escreve no log o que FARIA (não fala com o Divulgador)
 #   test  = fala com o @di48291bot, preenche tudo e CANCELA no fim (nunca gera/posta)
 #   live  = gera a promoção de verdade (vai para WhatsApp e Telegram)
-mode: "off"   # 21/11 PARADO a pedido (erro de preco/cupom). Volta para "live" depois da correcao
+mode: "live"
 
 canais:
   - fumotom
@@ -101,7 +101,7 @@ bloquear_texto:                 # se o texto tiver qualquer uma destas frases (s
   - aliexpress
 
 preco:
-  centavos_quando_inteiro: "99"   # 315 vira 315,99 ; 36,50 fica 36,50
+  centavos_quando_inteiro: "00"   # 21/11: sem casa decimal = reais inteiros (1889 vira 1889,00)
   suspeito_abaixo_de: 10          # só marca no log como "bug"; você mandou rodar
   politica_suspeito: "publicar"   # publicar | pular
 
