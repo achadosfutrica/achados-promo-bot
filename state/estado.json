@@ -1,5 +1,5 @@
 {
- "contagem_dia": 16,
+ "contagem_dia": 18,
  "dia": "2026-11-21",
  "feitos": {
   "fumotom:51408": {
@@ -314,6 +314,18 @@
    "r": "pulado:so cupom (ignorado)",
    "t": 1795256177
   },
+  "fumotom:51492": {
+   "r": "duplicado",
+   "t": 1795259248
+  },
+  "fumotom:51493": {
+   "r": "gerado",
+   "t": 1795259316
+  },
+  "fumotom:51494": {
+   "r": "gerado",
+   "t": 1795259216
+  },
   "iuriindica:123964": {
    "r": "pulado:mesmo link",
    "t": 1795215974
@@ -353,6 +365,10 @@
   "juaocupons:27580": {
    "r": "pulado:sem preco",
    "t": 1795232153
+  },
+  "juaocupons:27581": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795259140
   },
   "link:https://click.centauro.com.br/13Nl/3022r95u": {
    "r": "falha",
@@ -421,6 +437,10 @@
   "link:https://www.amazon.com.br/dp/8578606574": {
    "r": "cancelado_teste",
    "t": 1795208765
+  },
+  "link:https://www.amazon.com.br/dp/B0013CQCTW": {
+   "r": "gerado",
+   "t": 1795259316
   },
   "link:https://www.amazon.com.br/dp/B00QYCJS42": {
    "r": "falha",
@@ -522,6 +542,10 @@
    "r": "gerado",
    "t": 1795206932
   },
+  "link:https://www.amazon.com.br/dp/B0DW6X9K7P": {
+   "r": "gerado",
+   "t": 1795259216
+  },
   "link:https://www.amazon.com.br/dp/B0DYVSGMT5": {
    "r": "gerado",
    "t": 1795210302
@@ -553,6 +577,10 @@
   "link:https://www.amazon.com.br/dp/B0G56BT2XF": {
    "r": "gerado",
    "t": 1795226258
+  },
+  "link:https://www.amazon.com.br/dp/B0GKQX8ZPN": {
+   "r": "duplicado",
+   "t": 1795259248
   },
   "link:https://www.amazon.com.br/dp/B0H5G5BBWX": {
    "r": "duplicado",
@@ -649,6 +677,30 @@
   "pincei:370196": {
    "r": "pulado:loja desconhecida",
    "t": 1795239165
+  },
+  "pincei:370197": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795259140
+  },
+  "pincei:370198": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795259140
+  },
+  "pincei:370199": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795259140
+  },
+  "pincei:370200": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795259140
+  },
+  "pincei:370201": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795259140
+  },
+  "pincei:370202": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795259140
   },
   "promotom:115007": {
    "r": "pulado:sem link",
@@ -774,6 +826,14 @@
    "r": "pulado:repetido",
    "t": 1795232276
   },
+  "promotom:115042": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795259140
+  },
+  "promotom:115043": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795259140
+  },
   "teniscertocupons:63531": {
    "r": "cancelado_teste",
    "t": 1795215823
@@ -826,9 +886,9 @@
  "fila": [
   {
    "canal": "fumotom",
-   "id": 51485,
-   "t": 1795250872.0,
-   "txt": "YouTheFan NFL San Francisco 49ers - Levi's Stadium 3D StadiumView Magnet3D StadiumView Ímã StadiumView, cores do time, pequeno (8493489)\n\nR$ 65\n\nhttps://www.amazon.com.br/dp/B081DHLDSY?tag=promotom05-20\n\n-Anúncio"
+   "id": 51495,
+   "t": 1795258172.0,
+   "txt": "Fonte Husky Sledger 650W, 80 Plus Bronze, Cybenetics Bronze, Pfc ativo, Bivolt - Hfn650pt\n\nR$ 199\n\nhttps://www.amazon.com.br/dp/B0F5D8XV1T?tag=promotom05-20\n\n-Anúncio"
   }
  ],
  "perfil": {
@@ -4239,16 +4299,86 @@
     "prateleira",
     "sob"
    ]
+  },
+  {
+   "ids": [
+    "B0DW6X9K7P"
+   ],
+   "p": 151.0,
+   "t": 1795259140,
+   "w": [
+    "1080p",
+    "acao",
+    "agua",
+    "bastao",
+    "camera",
+    "capturas",
+    "foto",
+    "gopro",
+    "gps",
+    "horizonte",
+    "hypersmooth",
+    "inv",
+    "live",
+    "max",
+    "prova",
+    "reenquadramento",
+    "timewarp",
+    "trava",
+    "video"
+   ]
+  },
+  {
+   "ids": [
+    "B0GKQGVXDJ",
+    "B0GKQT7HPX",
+    "B0GKQX8ZPN",
+    "B0GKR2PFSY"
+   ],
+   "p": 449.0,
+   "t": 1795259241,
+   "w": [
+    "12gb",
+    "256gb",
+    "camera",
+    "celular",
+    "galaxy",
+    "grande",
+    "ram",
+    "s26",
+    "samsung",
+    "tela",
+    "tripla"
+   ]
+  },
+  {
+   "ids": [
+    "B0013CQCTW"
+   ],
+   "p": 59.0,
+   "t": 1795259273,
+   "w": [
+    "canetas",
+    "conica",
+    "jetstream",
+    "ousada",
+    "pacote",
+    "ponta",
+    "preta",
+    "refil",
+    "tinta",
+    "uniball"
+   ]
   }
  ],
  "ultimo_id": {
   "apromodaluh": 158767,
-  "fumotom": 51491,
+  "fumotom": 51495,
   "iuriindica": 123965,
-  "juaocupons": 27580,
+  "juaocupons": 27581,
   "perfumepromo": 10077,
-  "pincei": 370196,
-  "promotom": 115041,
+  "pincei": 370202,
+  "promotom": 115043,
   "teniscertocupons": 66105,
   "teste": 1795214930
  }
