@@ -97,6 +97,7 @@ copiar_extra: true
 
 # posts que são PULADOS mesmo com loja ligada
 bloquear_sacola_laranja: true   # qualquer post com 🛍 (sacola)
+sacola_liberada_canais: [pincei]   # 21/11: o Pincei usa 🛍️ "PEGAR PROMOÇÃO" em todo post (não é anúncio)
 bloquear_texto:                 # se o texto tiver qualquer uma destas frases (sem acento, minúsculas)
   - aliexpress
 
