@@ -1,5 +1,5 @@
 {
- "contagem_dia": 19,
+ "contagem_dia": 31,
  "dia": "2026-11-21",
  "feitos": {
   "apromodaluh:158768": {
@@ -41,6 +41,38 @@
   "apromodaluh:158777": {
    "r": "pulado:repetido",
    "t": 1795261536
+  },
+  "apromodaluh:158778": {
+   "r": "pulado:repetido",
+   "t": 1795263713
+  },
+  "apromodaluh:158779": {
+   "r": "gerado",
+   "t": 1795263688
+  },
+  "apromodaluh:158780": {
+   "r": "pulado:repetido",
+   "t": 1795263713
+  },
+  "apromodaluh:158781": {
+   "r": "pulado:repetido",
+   "t": 1795263610
+  },
+  "apromodaluh:158782": {
+   "r": "pulado:repetido",
+   "t": 1795263609
+  },
+  "apromodaluh:158783": {
+   "r": "pulado:repetido",
+   "t": 1795264055
+  },
+  "esg:1ABHVBZ": {
+   "r": "avisado",
+   "t": 1795264211
+  },
+  "esg:MELIMAIS2111": {
+   "r": "avisado",
+   "t": 1795264211
   },
   "fumotom:51408": {
    "r": "falha",
@@ -402,6 +434,66 @@
    "r": "pulado:periferico de PC",
    "t": 1795262825
   },
+  "fumotom:51516": {
+   "r": "pulado:periferico de PC",
+   "t": 1795263007
+  },
+  "fumotom:51517": {
+   "r": "gerado",
+   "t": 1795263943
+  },
+  "fumotom:51520": {
+   "r": "pulado:repetido",
+   "t": 1795263796
+  },
+  "fumotom:51521": {
+   "r": "gerado",
+   "t": 1795264623
+  },
+  "fumotom:51522": {
+   "r": "pulado:periferico de PC",
+   "t": 1795263608
+  },
+  "fumotom:51523": {
+   "r": "gerado",
+   "t": 1795264028
+  },
+  "fumotom:51525": {
+   "r": "pulado:periferico de PC",
+   "t": 1795263608
+  },
+  "fumotom:51526": {
+   "r": "gerado",
+   "t": 1795263770
+  },
+  "fumotom:51527": {
+   "r": "pulado:periferico de PC",
+   "t": 1795264211
+  },
+  "fumotom:51528": {
+   "r": "pulado:periferico de PC",
+   "t": 1795264211
+  },
+  "fumotom:51529": {
+   "r": "pulado:periferico de PC",
+   "t": 1795264211
+  },
+  "fumotom:51530": {
+   "r": "gerado",
+   "t": 1795264289
+  },
+  "fumotom:51531": {
+   "r": "pulado:periferico de PC",
+   "t": 1795264211
+  },
+  "fumotom:51533": {
+   "r": "pulado:periferico de PC",
+   "t": 1795264211
+  },
+  "fumotom:51534": {
+   "r": "gerado",
+   "t": 1795264541
+  },
   "iuriindica:123964": {
    "r": "pulado:mesmo link",
    "t": 1795215974
@@ -450,6 +542,10 @@
    "r": "falha",
    "t": 1795262952
   },
+  "juaocupons:27583": {
+   "r": "esgotado_avisado",
+   "t": 1795264211
+  },
   "link:https://click.centauro.com.br/13Nl/3022r95u": {
    "r": "falha",
    "t": 1795214936
@@ -457,6 +553,18 @@
   "link:https://meli.la/12bGnkU": {
    "r": "duplicado",
    "t": 1795232418
+  },
+  "link:https://meli.la/14NN9ap": {
+   "r": "gerado",
+   "t": 1795263770
+  },
+  "link:https://meli.la/16T92Hm": {
+   "r": "falha",
+   "t": 1795263049
+  },
+  "link:https://meli.la/1FNUEvs": {
+   "r": "gerado",
+   "t": 1795264028
   },
   "link:https://meli.la/1G6Beyy": {
    "r": "falha",
@@ -470,9 +578,25 @@
    "r": "gerado",
    "t": 1795232248
   },
+  "link:https://meli.la/1cV18Wo": {
+   "r": "duplicado",
+   "t": 1795264156
+  },
   "link:https://meli.la/1hFeJAd": {
    "r": "gerado",
    "t": 1795232374
+  },
+  "link:https://meli.la/1sYJWmD": {
+   "r": "gerado",
+   "t": 1795263688
+  },
+  "link:https://meli.la/1swp7BE": {
+   "r": "gerado",
+   "t": 1795263855
+  },
+  "link:https://meli.la/1wTsHoU": {
+   "r": "duplicado",
+   "t": 1795264668
   },
   "link:https://meli.la/1xG1HRm": {
    "r": "gerado",
@@ -482,13 +606,41 @@
    "r": "falha",
    "t": 1795232449
   },
+  "link:https://meli.la/21wBXwQ": {
+   "r": "gerado",
+   "t": 1795264541
+  },
   "link:https://meli.la/2Bx7R4d": {
    "r": "duplicado",
    "t": 1795232296
   },
+  "link:https://meli.la/2D2TF2u": {
+   "r": "gerado",
+   "t": 1795264374
+  },
+  "link:https://meli.la/2FG9TyS": {
+   "r": "gerado",
+   "t": 1795263943
+  },
+  "link:https://meli.la/2HrW3K9": {
+   "r": "gerado",
+   "t": 1795264623
+  },
   "link:https://meli.la/2VQzJqw": {
    "r": "duplicado",
    "t": 1795232168
+  },
+  "link:https://meli.la/2eNiHzy": {
+   "r": "gerado",
+   "t": 1795264459
+  },
+  "link:https://meli.la/2pqfBs9": {
+   "r": "gerado",
+   "t": 1795263137
+  },
+  "link:https://meli.la/2yfUyms": {
+   "r": "gerado",
+   "t": 1795264116
   },
   "link:https://meli.la/2zwCHF8": {
    "r": "duplicado",
@@ -625,6 +777,10 @@
   "link:https://www.amazon.com.br/dp/B0D3QWBSX5": {
    "r": "gerado",
    "t": 1795239209
+  },
+  "link:https://www.amazon.com.br/dp/B0D41SDLTB": {
+   "r": "gerado",
+   "t": 1795264289
   },
   "link:https://www.amazon.com.br/dp/B0DLPX11ZS": {
    "r": "gerado",
@@ -942,6 +1098,110 @@
    "r": "pulado:sacola laranja (bloqueado)",
    "t": 1795262825
   },
+  "pincei:370240": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795263007
+  },
+  "pincei:370241": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795263007
+  },
+  "pincei:370242": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795263007
+  },
+  "pincei:370243": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795263007
+  },
+  "pincei:370244": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795263007
+  },
+  "pincei:370245": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795263608
+  },
+  "pincei:370246": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795263608
+  },
+  "pincei:370247": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795263608
+  },
+  "pincei:370248": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795263608
+  },
+  "pincei:370249": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795263608
+  },
+  "pincei:370250": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795263608
+  },
+  "pincei:370251": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795263608
+  },
+  "pincei:370252": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795263608
+  },
+  "pincei:370253": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795263608
+  },
+  "pincei:370254": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795263608
+  },
+  "pincei:370255": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795263608
+  },
+  "pincei:370256": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795264211
+  },
+  "pincei:370257": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795264211
+  },
+  "pincei:370258": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795264211
+  },
+  "pincei:370259": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795264211
+  },
+  "pincei:370260": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795264211
+  },
+  "pincei:370261": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795264211
+  },
+  "pincei:370262": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795264211
+  },
+  "pincei:370263": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795264211
+  },
+  "pincei:370264": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795264211
+  },
+  "pincei:370265": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795264211
+  },
   "promotom:115007": {
    "r": "pulado:sem link",
    "t": 1795203318
@@ -1090,6 +1350,74 @@
    "r": "pulado:periferico de PC",
    "t": 1795262825
   },
+  "promotom:115053": {
+   "r": "gerado",
+   "t": 1795263137
+  },
+  "promotom:115054": {
+   "r": "falha",
+   "t": 1795263049
+  },
+  "promotom:115055": {
+   "r": "pulado:repetido",
+   "t": 1795263008
+  },
+  "promotom:115056": {
+   "r": "pulado:periferico de PC",
+   "t": 1795263608
+  },
+  "promotom:115057": {
+   "r": "gerado",
+   "t": 1795263855
+  },
+  "promotom:115058": {
+   "r": "gerado",
+   "t": 1795264116
+  },
+  "promotom:115059": {
+   "r": "pulado:periferico de PC",
+   "t": 1795263608
+  },
+  "promotom:115060": {
+   "r": "duplicado",
+   "t": 1795264156
+  },
+  "promotom:115061": {
+   "r": "pulado:periferico de PC",
+   "t": 1795263608
+  },
+  "promotom:115062": {
+   "r": "pulado:periferico de PC",
+   "t": 1795263608
+  },
+  "promotom:115063": {
+   "r": "pulado:periferico de PC",
+   "t": 1795263608
+  },
+  "promotom:115064": {
+   "r": "gerado",
+   "t": 1795264459
+  },
+  "promotom:115065": {
+   "r": "pulado:periferico de PC",
+   "t": 1795264211
+  },
+  "promotom:115066": {
+   "r": "pulado:sem preco",
+   "t": 1795264211
+  },
+  "promotom:115067": {
+   "r": "duplicado",
+   "t": 1795264668
+  },
+  "promotom:115068": {
+   "r": "pulado:repetido",
+   "t": 1795264650
+  },
+  "promotom:115069": {
+   "r": "gerado",
+   "t": 1795264374
+  },
   "teniscertocupons:63531": {
    "r": "cancelado_teste",
    "t": 1795215823
@@ -1139,7 +1467,32 @@
    "t": 1795214936
   }
  },
- "fila": [],
+ "fila": [
+  {
+   "canal": "fumotom",
+   "id": 51519,
+   "t": 1795263198.0,
+   "txt": "Headset Gamer Redragon H510-pro Zeus Rgb Wireless 7.1 53mm\n\nR$ 247\n-CUPOM: MELIMAIS2111\n\nhttps://meli.la/25LXamt\n\n-Anúncio"
+  },
+  {
+   "canal": "fumotom",
+   "id": 51518,
+   "t": 1795263104.0,
+   "txt": "Teclado Gamer Magnético 8000hz Rapid Trigger 0,01mm Hot Swap Switch Shadow Dareu Cool68 Blazing Orange\n\nR$ 232\n-CUPOM: MELIMAIS2111\n\nhttps://meli.la/1tQCDTK\n\n-Anúncio"
+  },
+  {
+   "canal": "fumotom",
+   "id": 51524,
+   "t": 1795263567.0,
+   "txt": "Fonte Montech Beta 2, 850w, Preto - Beta2850w\n\nR$ 311\n-CUPOM: MELIMAIS2111\n\nhttps://meli.la/1wTsHoU\n\n-Anúncio"
+  },
+  {
+   "canal": "fumotom",
+   "id": 51532,
+   "t": 1795263976.0,
+   "txt": "Extratora Portátil Para Limpeza Estofados Elv400 Vonder\n\nR$ 295\n-CUPOM: MELIMAIS2111\n\nhttps://meli.la/2HvGDTe\n\n-Anúncio"
+  }
+ ],
  "perfil": {
   "faixas": [
    894,
@@ -4626,18 +4979,230 @@
    "w": [
     "resgate"
    ]
+  },
+  {
+   "ids": [],
+   "p": 271.0,
+   "t": 1795263075,
+   "w": [
+    "branco",
+    "cfi",
+    "controle",
+    "dualsense",
+    "playstation",
+    "sony",
+    "zct1w"
+   ]
+  },
+  {
+   "ids": [],
+   "p": 956.04,
+   "t": 1795263611,
+   "w": [
+    "bocas",
+    "cooktop",
+    "funcao",
+    "inducao",
+    "pctq1",
+    "philco",
+    "turbo"
+   ]
+  },
+  {
+   "ids": [],
+   "p": 188.0,
+   "t": 1795263714,
+   "w": [
+    "buds",
+    "cinza",
+    "claro",
+    "edge",
+    "fusion",
+    "moto",
+    "motorola",
+    "ram",
+    "smartphone",
+    "verde"
+   ]
+  },
+  {
+   "ids": [],
+   "p": 269.0,
+   "t": 1795263797,
+   "w": [
+    "bluetooth",
+    "controle",
+    "dualsense",
+    "fio",
+    "playstation",
+    "sony"
+   ]
+  },
+  {
+   "ids": [],
+   "p": 369.0,
+   "t": 1795263881,
+   "w": [
+    "15l",
+    "air",
+    "fryer",
+    "oven",
+    "paf15c",
+    "philco",
+    "preta"
+   ]
+  },
+  {
+   "ids": [],
+   "p": 265.0,
+   "t": 1795263970,
+   "w": [
+    "03ms",
+    "180hz",
+    "freesync",
+    "hdmi",
+    "monitor",
+    "odyssey",
+    "oled",
+    "qhd",
+    "samsung",
+    "sync"
+   ]
+  },
+  {
+   "ids": [],
+   "p": 238.0,
+   "t": 1795264056,
+   "w": [
+    "cambio",
+    "driving",
+    "force",
+    "logitech",
+    "preto",
+    "shifter"
+   ]
+  },
+  {
+   "ids": [],
+   "p": 311.0,
+   "t": 1795264143,
+   "w": [
+    "edicao",
+    "fisica",
+    "games",
+    "gta",
+    "padrao",
+    "ps5",
+    "rockstar"
+   ]
+  },
+  {
+   "ids": [
+    "B0D41SDLTB"
+   ],
+   "p": 62.0,
+   "t": 1795264211,
+   "w": [
+    "cabo",
+    "dpi",
+    "gamer",
+    "k1ng",
+    "m724",
+    "mouse",
+    "paw3327",
+    "preto",
+    "redragon",
+    "removivel",
+    "tipo",
+    "usb"
+   ]
+  },
+  {
+   "ids": [],
+   "p": 111.0,
+   "t": 1795264315,
+   "w": [
+    "100hz",
+    "display",
+    "gtg",
+    "hdmi",
+    "headphone",
+    "ls34c500galmzd",
+    "monitor",
+    "port",
+    "samsung",
+    "uwqhd",
+    "viewfinity"
+   ]
+  },
+  {
+   "ids": [],
+   "p": 271.0,
+   "t": 1795264400,
+   "w": [
+    "cabo",
+    "controle",
+    "fio",
+    "one",
+    "preto",
+    "series",
+    "usb"
+   ]
+  },
+  {
+   "ids": [],
+   "p": 275.0,
+   "t": 1795264485,
+   "w": [
+    "1080p",
+    "externa",
+    "hdr",
+    "ips",
+    "monitor",
+    "portatil",
+    "tela",
+    "ultrafino"
+   ]
+  },
+  {
+   "ids": [],
+   "p": 277.0,
+   "t": 1795264568,
+   "w": [
+    "1080p",
+    "60hz",
+    "dupla",
+    "fhd",
+    "hdmi",
+    "monitor",
+    "portatil",
+    "usb"
+   ]
+  },
+  {
+   "ids": [],
+   "p": 269.0,
+   "t": 1795264651,
+   "w": [
+    "850w",
+    "beta",
+    "beta2850w",
+    "fonte",
+    "montech",
+    "preto"
+   ]
   }
  ],
  "tpl_ultimo": 2032135,
- "ult_ciclo": 1795262222.1401608,
+ "ult_ciclo": 1795264693.0377378,
  "ultimo_id": {
-  "apromodaluh": 158777,
-  "fumotom": 51515,
+  "apromodaluh": 158783,
+  "fumotom": 51534,
   "iuriindica": 123965,
-  "juaocupons": 27582,
+  "juaocupons": 27583,
   "perfumepromo": 10077,
-  "pincei": 370239,
-  "promotom": 115052,
+  "pincei": 370265,
+  "promotom": 115069,
   "teniscertocupons": 66105,
   "teste": 1795214930
  }
