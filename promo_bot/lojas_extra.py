@@ -136,7 +136,12 @@ def resolver(url, timeout=10, voltas=6):
         r = resolver_navegador(url)          # o Pincei só revela a loja depois de rodar o JavaScript da página
         if r:
             return r
-    return _resolver_http(url, timeout, voltas)
+    final = _resolver_http(url, timeout, voltas)
+    if not loja(desembrulhar(final or "")) and parece_encurtado(url):
+        r = resolver_navegador(url)          # redireciona só com JavaScript (ex.: link.amazon)
+        if r:
+            return r
+    return final
 
 
 # ---------------- Pincei: abre num Chrome invisível ----------------
