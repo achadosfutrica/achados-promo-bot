@@ -1,5 +1,5 @@
 {
- "contagem_dia": 18,
+ "contagem_dia": 19,
  "dia": "2026-11-21",
  "feitos": {
   "apromodaluh:158768": {
@@ -366,6 +366,10 @@
    "r": "gerado",
    "t": 1795259216
   },
+  "fumotom:51495": {
+   "r": "pulado:repetido",
+   "t": 1795261618
+  },
   "fumotom:51496": {
    "r": "pulado:periferico de PC",
    "t": 1795261453
@@ -385,6 +389,18 @@
   "fumotom:51503": {
    "r": "pulado:periferico de PC",
    "t": 1795261453
+  },
+  "fumotom:51504": {
+   "r": "pulado:periferico de PC",
+   "t": 1795262825
+  },
+  "fumotom:51508": {
+   "r": "pulado:periferico de PC",
+   "t": 1795262825
+  },
+  "fumotom:51509": {
+   "r": "pulado:periferico de PC",
+   "t": 1795262825
   },
   "iuriindica:123964": {
    "r": "pulado:mesmo link",
@@ -430,6 +446,10 @@
    "r": "pulado:loja desconhecida",
    "t": 1795259140
   },
+  "juaocupons:27582": {
+   "r": "falha",
+   "t": 1795262952
+  },
   "link:https://click.centauro.com.br/13Nl/3022r95u": {
    "r": "falha",
    "t": 1795214936
@@ -473,6 +493,14 @@
   "link:https://meli.la/2zwCHF8": {
    "r": "duplicado",
    "t": 1795210086
+  },
+  "link:https://mercadolivre.com/sec/1ABhVBZ": {
+   "r": "falha",
+   "t": 1795262952
+  },
+  "link:https://mercadolivre.com/sec/2U6U32Q": {
+   "r": "gerado",
+   "t": 1795262920
   },
   "link:https://s.shopee.com.br/4fxwkyRuzp": {
    "r": "falha",
@@ -858,6 +886,62 @@
    "r": "pulado:loja desconhecida",
    "t": 1795261474
   },
+  "pincei:370226": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795261618
+  },
+  "pincei:370227": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795261618
+  },
+  "pincei:370228": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795262222
+  },
+  "pincei:370229": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795262222
+  },
+  "pincei:370230": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795262222
+  },
+  "pincei:370231": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795262222
+  },
+  "pincei:370232": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795262222
+  },
+  "pincei:370233": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795262222
+  },
+  "pincei:370234": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795262222
+  },
+  "pincei:370235": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795262825
+  },
+  "pincei:370236": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795262825
+  },
+  "pincei:370237": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795262825
+  },
+  "pincei:370238": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795262825
+  },
+  "pincei:370239": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795262825
+  },
   "promotom:115007": {
    "r": "pulado:sem link",
    "t": 1795203318
@@ -990,6 +1074,22 @@
    "r": "pulado:loja desconhecida",
    "t": 1795259140
   },
+  "promotom:115045": {
+   "r": "gerado",
+   "t": 1795262920
+  },
+  "promotom:115046": {
+   "r": "pulado:periferico de PC",
+   "t": 1795262825
+  },
+  "promotom:115050": {
+   "r": "pulado:periferico de PC",
+   "t": 1795262825
+  },
+  "promotom:115051": {
+   "r": "pulado:periferico de PC",
+   "t": 1795262825
+  },
   "teniscertocupons:63531": {
    "r": "cancelado_teste",
    "t": 1795215823
@@ -1039,14 +1139,7 @@
    "t": 1795214936
   }
  },
- "fila": [
-  {
-   "canal": "fumotom",
-   "id": 51495,
-   "t": 1795258172.0,
-   "txt": "Fonte Husky Sledger 650W, 80 Plus Bronze, Cybenetics Bronze, Pfc ativo, Bivolt - Hfn650pt\n\nR$ 199\n\nhttps://www.amazon.com.br/dp/B0F5D8XV1T?tag=promotom05-20\n\n-Anúncio"
-  }
- ],
+ "fila": [],
  "perfil": {
   "faixas": [
    894,
@@ -4525,17 +4618,26 @@
     "tinta",
     "uniball"
    ]
+  },
+  {
+   "ids": [],
+   "p": 20.0,
+   "t": 1795262826,
+   "w": [
+    "resgate"
+   ]
   }
  ],
  "tpl_ultimo": 2032135,
+ "ult_ciclo": 1795262222.1401608,
  "ultimo_id": {
   "apromodaluh": 158777,
-  "fumotom": 51503,
+  "fumotom": 51515,
   "iuriindica": 123965,
-  "juaocupons": 27581,
+  "juaocupons": 27582,
   "perfumepromo": 10077,
-  "pincei": 370225,
-  "promotom": 115043,
+  "pincei": 370239,
+  "promotom": 115052,
   "teniscertocupons": 66105,
   "teste": 1795214930
  }
