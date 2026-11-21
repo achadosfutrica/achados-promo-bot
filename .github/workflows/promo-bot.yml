@@ -14,6 +14,7 @@ on:
 
 permissions:
   contents: write
+  actions: write
 
 concurrency:
   group: promo-bot
@@ -39,6 +40,7 @@ jobs:
           DI_SENHA: ${{ secrets.DI_SENHA }}
           PROMO_MODE: ${{ github.event.inputs.mode || vars.PROMO_MODE || '' }}
           PROMO_TESTE_LINK: ${{ github.event.inputs.link || '' }}
+          GH_TOKEN: ${{ github.token }}
         run: python -m promo_bot.main
       - name: Salvar estado
         if: always()
