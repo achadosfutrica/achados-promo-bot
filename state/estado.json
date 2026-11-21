@@ -1,6 +1,6 @@
 {
- "contagem_dia": 17,
- "dia": "2026-11-20",
+ "contagem_dia": 2,
+ "dia": "2026-11-21",
  "feitos": {
   "fumotom:51408": {
    "r": "falha",
@@ -170,6 +170,74 @@
    "r": "duplicado",
    "t": 1795229110
   },
+  "fumotom:51455": {
+   "r": "pulado:periferico de PC",
+   "t": 1795232153
+  },
+  "fumotom:51456": {
+   "r": "pulado:periferico de PC",
+   "t": 1795232153
+  },
+  "fumotom:51457": {
+   "r": "pulado:repetido",
+   "t": 1795232274
+  },
+  "fumotom:51458": {
+   "r": "pulado:periferico de PC",
+   "t": 1795232153
+  },
+  "fumotom:51459": {
+   "r": "pulado:repetido",
+   "t": 1795232194
+  },
+  "fumotom:51460": {
+   "r": "pulado:repetido",
+   "t": 1795232199
+  },
+  "fumotom:51461": {
+   "r": "pulado:repetido",
+   "t": 1795232278
+  },
+  "fumotom:51462": {
+   "r": "pulado:periferico de PC",
+   "t": 1795232153
+  },
+  "fumotom:51463": {
+   "r": "duplicado",
+   "t": 1795232168
+  },
+  "fumotom:51464": {
+   "r": "gerado",
+   "t": 1795232374
+  },
+  "fumotom:51465": {
+   "r": "pulado:periferico de PC",
+   "t": 1795232153
+  },
+  "fumotom:51467": {
+   "r": "pulado:periferico de PC",
+   "t": 1795232153
+  },
+  "fumotom:51468": {
+   "r": "pulado:repetido",
+   "t": 1795232197
+  },
+  "fumotom:51469": {
+   "r": "gerado",
+   "t": 1795232248
+  },
+  "fumotom:51470": {
+   "r": "pulado:periferico de PC",
+   "t": 1795232153
+  },
+  "fumotom:51471": {
+   "r": "pulado:periferico de PC",
+   "t": 1795232153
+  },
+  "fumotom:51472": {
+   "r": "pulado:repetido",
+   "t": 1795232275
+  },
   "iuriindica:123964": {
    "r": "pulado:mesmo link",
    "t": 1795215974
@@ -202,13 +270,45 @@
    "r": "pulado:sem preco",
    "t": 1795229102
   },
+  "juaocupons:27579": {
+   "r": "falha",
+   "t": 1795232449
+  },
+  "juaocupons:27580": {
+   "r": "pulado:sem preco",
+   "t": 1795232153
+  },
   "link:https://click.centauro.com.br/13Nl/3022r95u": {
    "r": "falha",
    "t": 1795214936
   },
+  "link:https://meli.la/12bGnkU": {
+   "r": "duplicado",
+   "t": 1795232418
+  },
+  "link:https://meli.la/1KYLwXU": {
+   "r": "gerado",
+   "t": 1795232248
+  },
+  "link:https://meli.la/1hFeJAd": {
+   "r": "gerado",
+   "t": 1795232374
+  },
   "link:https://meli.la/1xG1HRm": {
    "r": "gerado",
    "t": 1795222286
+  },
+  "link:https://meli.la/1y8X22c": {
+   "r": "falha",
+   "t": 1795232449
+  },
+  "link:https://meli.la/2Bx7R4d": {
+   "r": "duplicado",
+   "t": 1795232296
+  },
+  "link:https://meli.la/2VQzJqw": {
+   "r": "duplicado",
+   "t": 1795232168
   },
   "link:https://meli.la/2zwCHF8": {
    "r": "duplicado",
@@ -366,6 +466,46 @@
    "r": "pulado:sem link",
    "t": 1795226215
   },
+  "pincei:370185": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795232153
+  },
+  "pincei:370186": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795232153
+  },
+  "pincei:370187": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795232153
+  },
+  "pincei:370188": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795232153
+  },
+  "pincei:370189": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795232153
+  },
+  "pincei:370190": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795232153
+  },
+  "pincei:370191": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795232153
+  },
+  "pincei:370192": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795232153
+  },
+  "pincei:370193": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795232153
+  },
+  "pincei:370194": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795232153
+  },
   "promotom:115007": {
    "r": "pulado:sem link",
    "t": 1795203318
@@ -446,6 +586,50 @@
    "r": "pulado:repetido",
    "t": 1795229135
   },
+  "promotom:115031": {
+   "r": "pulado:sem preco",
+   "t": 1795232153
+  },
+  "promotom:115032": {
+   "r": "pulado:sem preco",
+   "t": 1795232153
+  },
+  "promotom:115033": {
+   "r": "pulado:periferico de PC",
+   "t": 1795232153
+  },
+  "promotom:115034": {
+   "r": "pulado:periferico de PC",
+   "t": 1795232153
+  },
+  "promotom:115035": {
+   "r": "pulado:repetido",
+   "t": 1795232443
+  },
+  "promotom:115036": {
+   "r": "pulado:repetido",
+   "t": 1795232195
+  },
+  "promotom:115037": {
+   "r": "pulado:repetido",
+   "t": 1795232198
+  },
+  "promotom:115038": {
+   "r": "duplicado",
+   "t": 1795232418
+  },
+  "promotom:115039": {
+   "r": "pulado:repetido",
+   "t": 1795232277
+  },
+  "promotom:115040": {
+   "r": "duplicado",
+   "t": 1795232296
+  },
+  "promotom:115041": {
+   "r": "pulado:repetido",
+   "t": 1795232276
+  },
   "teniscertocupons:63531": {
    "r": "cancelado_teste",
    "t": 1795215823
@@ -495,7 +679,14 @@
    "t": 1795214936
   }
  },
- "fila": [],
+ "fila": [
+  {
+   "canal": "fumotom",
+   "id": 51466,
+   "t": 1795230803.0,
+   "txt": "Watercooler Deepcool Le360 V2 Argb Preto 360mm Preto\n\nR$ 281 - Desconto na Finalização\n\nhttps://meli.la/12bGnkU\n\n-Anúncio"
+  }
+ ],
  "perfil": {
   "faixas": [
    894,
@@ -3542,16 +3733,94 @@
     "quiet",
     "ray"
    ]
+  },
+  {
+   "ids": [],
+   "p": 95.0,
+   "t": 1795232154,
+   "w": [
+    "500ml",
+    "enrich",
+    "hidratacao",
+    "invigo",
+    "mascara",
+    "nutri",
+    "nutricao",
+    "pro",
+    "wella"
+   ]
+  },
+  {
+   "ids": [],
+   "p": 404.0,
+   "t": 1795232200,
+   "w": [
+    "essential",
+    "fhd",
+    "gamer",
+    "hdmi",
+    "monitor",
+    "preto",
+    "samsung"
+   ]
+  },
+  {
+   "ids": [],
+   "p": 461.0,
+   "t": 1795232279,
+   "w": [
+    "144hz",
+    "1ms",
+    "24g411a",
+    "amd",
+    "fhd",
+    "freesync",
+    "hdr10",
+    "mbr",
+    "monitor",
+    "nvidia",
+    "sync",
+    "ultragear"
+   ]
+  },
+  {
+   "ids": [],
+   "p": 229.0,
+   "t": 1795232322,
+   "w": [
+    "750w",
+    "ativo",
+    "bronze",
+    "fonte",
+    "mach1",
+    "pfc",
+    "plus",
+    "preto",
+    "steady"
+   ]
+  },
+  {
+   "ids": [],
+   "p": 281.0,
+   "t": 1795232401,
+   "w": [
+    "360mm",
+    "argb",
+    "deepcool",
+    "le360",
+    "preto",
+    "watercooler"
+   ]
   }
  ],
  "ultimo_id": {
   "apromodaluh": 158767,
-  "fumotom": 51454,
+  "fumotom": 51472,
   "iuriindica": 123965,
-  "juaocupons": 27578,
+  "juaocupons": 27580,
   "perfumepromo": 10077,
-  "pincei": 370184,
-  "promotom": 115030,
+  "pincei": 370194,
+  "promotom": 115041,
   "teniscertocupons": 66105,
   "teste": 1795214930
  }
