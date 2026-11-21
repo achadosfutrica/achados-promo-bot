@@ -1,5 +1,5 @@
 {
- "contagem_dia": 9,
+ "contagem_dia": 10,
  "dia": "2026-11-21",
  "feitos": {
   "fumotom:51408": {
@@ -282,6 +282,10 @@
    "r": "gerado",
    "t": 1795247393
   },
+  "fumotom:51483": {
+   "r": "gerado",
+   "t": 1795250237
+  },
   "iuriindica:123964": {
    "r": "pulado:mesmo link",
    "t": 1795215974
@@ -477,6 +481,10 @@
   "link:https://www.amazon.com.br/dp/B0F691QZM6": {
    "r": "gerado",
    "t": 1795210194
+  },
+  "link:https://www.amazon.com.br/dp/B0F6LKH3RZ": {
+   "r": "gerado",
+   "t": 1795250237
   },
   "link:https://www.amazon.com.br/dp/B0FLKGNYJ8": {
    "r": "duplicado",
@@ -4008,11 +4016,41 @@
     "pomba",
     "tuut"
    ]
+  },
+  {
+   "ids": [
+    "B0F6LKH3RZ"
+   ],
+   "p": 59.0,
+   "t": 1795250192,
+   "w": [
+    "adaptador",
+    "audio",
+    "auxiliar",
+    "avmax",
+    "cabo",
+    "cinza",
+    "dispositivos",
+    "femea",
+    "fone",
+    "macbook",
+    "ouvido",
+    "pixel",
+    "plus",
+    "s20",
+    "s21",
+    "s22",
+    "s23",
+    "s24",
+    "tipo",
+    "ultra",
+    "usb"
+   ]
   }
  ],
  "ultimo_id": {
   "apromodaluh": 158767,
-  "fumotom": 51482,
+  "fumotom": 51483,
   "iuriindica": 123965,
   "juaocupons": 27580,
   "perfumepromo": 10077,
