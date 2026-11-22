@@ -164,7 +164,7 @@ def segundos_para_dia(cfg, agora=None):
     return max(0, int(mins * 60 - t.second))
 
 
-def rodar_vigia(client, cfg, log, ciclo, salvar, dormir, a_cada_minuto=None):
+def rodar_vigia(client, cfg, log, ciclo, salvar, dormir, a_cada_minuto=None, parar=None):
     """Fica ligado até `duracao_min` ou até a madrugada. Roda o ciclo de promoções a cada `ciclo_min`."""
     vc = cfg.get("vigia") or {}
     v = Vigia(client, cfg, log)
@@ -185,6 +185,14 @@ def rodar_vigia(client, cfg, log, ciclo, salvar, dormir, a_cada_minuto=None):
                     ciclo()
                 except Exception as e:  # noqa
                     log("aviso: ciclo de promocoes falhou: %r" % e)
+            if time.time() >= prox_min and parar:
+                try:
+                    if parar():
+                        motivo = "atualizar"      # código novo publicado: sai para a próxima execução usar a versão nova
+                        log("codigo novo no GitHub: reiniciando para usar a versao nova")
+                        break
+                except Exception as e:  # noqa
+                    log("aviso: checagem de versao: %r" % e)
             if a_cada_minuto and time.time() >= prox_min:
                 prox_min = time.time() + 60
                 try:

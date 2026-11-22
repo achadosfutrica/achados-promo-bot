@@ -343,6 +343,22 @@ def usar_vigia(cfg, agora=None):
         and not vigia.noite(cfg, agora)
 
 
+_VERSAO = {"t": 0.0}
+
+
+def codigo_novo():
+    """True se alguém publicou código/config novo depois que esta execução começou (confere a cada 5 min)."""
+    if not os.environ.get("GITHUB_ACTIONS") or time.time() - _VERSAO["t"] < 300:
+        return False
+    _VERSAO["t"] = time.time()
+    r = subprocess.run(["git", "fetch", "-q", "origin", "main"], capture_output=True, text=True, timeout=60)
+    if r.returncode:
+        return False
+    r = subprocess.run(["git", "diff", "--quiet", "HEAD", "FETCH_HEAD", "--", "promo_bot", "config.yaml",
+                        "requirements.txt", ".github"], capture_output=True, text=True, timeout=60)
+    return r.returncode == 1
+
+
 def proxima_execucao(log):
     """Pede ao GitHub a próxima execução (fica na fila e começa assim que esta terminar)."""
     tok, repo = os.environ.get("GH_TOKEN"), os.environ.get("GITHUB_REPOSITORY")
@@ -450,7 +466,7 @@ def main():
             log("teste com o link informado: %s" % teste_link)
             ciclo({"teste": [(int(time.time()), "Produto de teste por R$ 99,90 no Pix\n" + teste_link)]})
         elif usar_vigia(cfg):
-            if vigia.rodar_vigia(client, cfg, log, ciclo, lambda: salvar_no_git(est, log), dormir, painel_agora) == "duracao":
+            if vigia.rodar_vigia(client, cfg, log, ciclo, lambda: salvar_no_git(est, log), dormir, painel_agora, codigo_novo) in ("duracao", "atualizar"):
                 proxima_execucao(log)          # não depende do agendamento do GitHub (que atrasa)
         elif vigia.noite(cfg) and not cfg.get("_manual"):
             intervalo = float((cfg.get("vigia") or {}).get("noite_ciclo_min", 30)) * 60
@@ -463,7 +479,7 @@ def main():
                 # perto das 07:00: esta execução espera e já liga o vigia (o agendamento do GitHub atrasa)
                 log("madrugada acabando: espero %d min e ligo o vigia" % (falta // 60 + 1))
                 dormir(falta + 5)
-                if vigia.rodar_vigia(client, cfg, log, ciclo, lambda: salvar_no_git(est, log), dormir, painel_agora) == "duracao":
+                if vigia.rodar_vigia(client, cfg, log, ciclo, lambda: salvar_no_git(est, log), dormir, painel_agora, codigo_novo) in ("duracao", "atualizar"):
                     proxima_execucao(log)
         else:
             ciclo()
