@@ -1,6 +1,6 @@
 {
  "cmd_ultimo": 2035551,
- "contagem_dia": 23,
+ "contagem_dia": 30,
  "dia": "2026-11-22",
  "feitos": {
   "apromodaluh:158768": {
@@ -318,6 +318,22 @@
   "apromodaluh:158860": {
    "r": "pulado:repetido",
    "t": 1795350089
+  },
+  "apromodaluh:158861": {
+   "r": "pulado:mesmo link",
+   "t": 1795350981
+  },
+  "apromodaluh:158862": {
+   "r": "pulado:mesmo link",
+   "t": 1795350981
+  },
+  "apromodaluh:158863": {
+   "r": "pulado:mesmo link",
+   "t": 1795350981
+  },
+  "apromodaluh:158864": {
+   "r": "pulado:so cupom (ignorado)",
+   "t": 1795351349
   },
   "esg:1ABHVBZ": {
    "r": "avisado",
@@ -1051,6 +1067,14 @@
    "r": "gerado",
    "t": 1795350131
   },
+  "fumotom:51635": {
+   "r": "gerado",
+   "t": 1795352048
+  },
+  "fumotom:51636": {
+   "r": "gerado",
+   "t": 1795351981
+  },
   "iuriindica:123964": {
    "r": "pulado:mesmo link",
    "t": 1795215974
@@ -1579,6 +1603,10 @@
    "r": "falha",
    "t": 1795348868
   },
+  "link:https://produto.mercadolivre.com.br/MLB-4096917772-short-masculino-bermuda-praia-2-bolsos-ziper-secagem-rapida-_JM": {
+   "r": "gerado",
+   "t": 1795350898
+  },
   "link:https://produto.mercadolivre.com.br/MLB-5857442960-tnis-kappa-pulse-supra-unissex-de-corrida-conforto-_JM": {
    "r": "falha",
    "t": 1795349482
@@ -1691,6 +1719,10 @@
    "r": "gerado",
    "t": 1795229180
   },
+  "link:https://www.amazon.com.br/dp/B07D5QH4QK": {
+   "r": "gerado",
+   "t": 1795351981
+  },
   "link:https://www.amazon.com.br/dp/B07D7P4SY4": {
    "r": "gerado",
    "t": 1795268509
@@ -1743,6 +1775,10 @@
    "r": "gerado",
    "t": 1795341655
   },
+  "link:https://www.amazon.com.br/dp/B098RQLFY5": {
+   "r": "gerado",
+   "t": 1795350790
+  },
   "link:https://www.amazon.com.br/dp/B09JT3YLML": {
    "r": "gerado",
    "t": 1795343538
@@ -1786,6 +1822,10 @@
   "link:https://www.amazon.com.br/dp/B0C2Z9NDNQ": {
    "r": "gerado",
    "t": 1795222212
+  },
+  "link:https://www.amazon.com.br/dp/B0CF57YJ4G": {
+   "r": "gerado",
+   "t": 1795352048
   },
   "link:https://www.amazon.com.br/dp/B0CJ9NVNW6": {
    "r": "gerado",
@@ -1955,6 +1995,10 @@
    "r": "duplicado",
    "t": 1795210118
   },
+  "link:https://www.amazon.com.br/dp/B0HHK9J94J": {
+   "r": "gerado",
+   "t": 1795351323
+  },
   "link:https://www.amazon.com.br/dp/B0HJBL8G54": {
    "r": "duplicado",
    "t": 1795267952
@@ -2023,9 +2067,17 @@
    "r": "falha",
    "t": 1795261510
   },
+  "link:https://www.mercadolivre.com.br/jogo-de-toalhas-4-pcs-fio-cardado-100-algodao-bosco-karsten-cinza-bosco/p/MLB53989572": {
+   "r": "gerado",
+   "t": 1795350742
+  },
   "link:https://www.mercadolivre.com.br/lavadora-de-alta-pressao-krcher-compacta-1500-psi-1400w-300lh-com-aplicador-de-detergente-e-lanca-regulavel/p/MLB40583845": {
    "r": "duplicado",
    "t": 1795296175
+  },
+  "link:https://www.mercadolivre.com.br/philips-oneblade-aparador-e-barbeador-eletrico-com-pente-ajustavel-5-em-1-raspa-apara-e-contorna-uso-seco-e-molhado-100-prova-dagua-sem-fio-bivolt-qp142510/p/MLB64322156": {
+   "r": "gerado",
+   "t": 1795350981
   },
   "link:https://www.mercadolivre.com.br/tenis-de-corrida-masculino-runfalcon-6-cloudfoam-adidas/up/MLBU3950203810": {
    "r": "gerado",
@@ -3090,6 +3142,46 @@
   "pincei:370551": {
    "r": "pulado:sem preco",
    "t": 1795350089
+  },
+  "pincei:370552": {
+   "r": "gerado",
+   "t": 1795350742
+  },
+  "pincei:370553": {
+   "r": "gerado",
+   "t": 1795350790
+  },
+  "pincei:370554": {
+   "r": "gerado",
+   "t": 1795350898
+  },
+  "pincei:370555": {
+   "r": "gerado",
+   "t": 1795350981
+  },
+  "pincei:370556": {
+   "r": "gerado",
+   "t": 1795351323
+  },
+  "pincei:370557": {
+   "r": "pulado:so cupom (ignorado)",
+   "t": 1795351349
+  },
+  "pincei:370558": {
+   "r": "pulado:so cupom (ignorado)",
+   "t": 1795351861
+  },
+  "pincei:370559": {
+   "r": "pulado:so cupom (ignorado)",
+   "t": 1795351888
+  },
+  "pincei:370560": {
+   "r": "pulado:sem preco",
+   "t": 1795351892
+  },
+  "pincei:370561": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795351938
   },
   "promotom:115007": {
    "r": "pulado:sem link",
@@ -8059,18 +8151,130 @@
     "weight",
     "with"
    ]
+  },
+  {
+   "ids": [
+    "53989572"
+   ],
+   "p": 84.91,
+   "t": 1795350670,
+   "w": [
+    "algodao",
+    "casa",
+    "macias",
+    "pra",
+    "sua",
+    "toalhas",
+    "verdade"
+   ]
+  },
+  {
+   "ids": [
+    "B098RQLFY5"
+   ],
+   "p": 94.96,
+   "t": 1795350747,
+   "w": [
+    "750ml",
+    "amarula",
+    "coffee",
+    "ethiopian",
+    "licor"
+   ]
+  },
+  {
+   "ids": [
+    "4096917772"
+   ],
+   "p": 22.27,
+   "t": 1795350816,
+   "w": [
+    "bermuda",
+    "bolsos",
+    "ziper"
+   ]
+  },
+  {
+   "ids": [
+    "64322156"
+   ],
+   "p": 131.49,
+   "t": 1795350925,
+   "w": [
+    "aparador",
+    "oneblade",
+    "pelos",
+    "pente",
+    "philips"
+   ]
+  },
+  {
+   "ids": [
+    "B0HHK9J94J"
+   ],
+   "p": 2518.43,
+   "t": 1795351254,
+   "w": [
+    "280w",
+    "caixa",
+    "jbl",
+    "partybox",
+    "som"
+   ]
+  },
+  {
+   "ids": [
+    "B07D5QH4QK"
+   ],
+   "p": 6.0,
+   "t": 1795351938,
+   "w": [
+    "branco",
+    "dupla",
+    "embalagem",
+    "folha",
+    "higienico",
+    "papel",
+    "personal",
+    "pode",
+    "variar",
+    "vip"
+   ]
+  },
+  {
+   "ids": [
+    "B0CF57YJ4G"
+   ],
+   "p": 233.0,
+   "t": 1795352006,
+   "w": [
+    "alca",
+    "algodao",
+    "armazenamento",
+    "azul",
+    "bercario",
+    "brinquedos",
+    "cesta",
+    "cobertores",
+    "corda",
+    "entrelacada",
+    "estar",
+    "grande",
+    "oiahomy",
+    "sala"
+   ]
   }
  ],
  "resumo_dia": "2026-11-21",
  "tpl_ultimo": 2032135,
- "ult_ciclo": 1795350156.8776839,
+ "ult_ciclo": 1795352073.980906,
  "ultimo_id": {
-  "apromodaluh": 158860,
-  "fumotom": 51634,
+  "apromodaluh": 158864,
+  "fumotom": 51636,
   "iuriindica": 124017,
   "juaocupons": 27621,
   "perfumepromo": 10098,
-  "pincei": 370551,
+  "pincei": 370561,
   "promotom": 115100,
   "teniscertocupons": 66139,
   "teste": 1795214930
