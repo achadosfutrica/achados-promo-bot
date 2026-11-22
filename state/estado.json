@@ -1,6 +1,6 @@
 {
  "cmd_ultimo": 2035551,
- "contagem_dia": 30,
+ "contagem_dia": 32,
  "dia": "2026-11-22",
  "feitos": {
   "apromodaluh:158768": {
@@ -334,6 +334,10 @@
   "apromodaluh:158864": {
    "r": "pulado:so cupom (ignorado)",
    "t": 1795351349
+  },
+  "apromodaluh:158865": {
+   "r": "pulado:so cupom (ignorado)",
+   "t": 1795353764
   },
   "esg:1ABHVBZ": {
    "r": "avisado",
@@ -1395,6 +1399,10 @@
    "r": "falha",
    "t": 1795348931
   },
+  "juaocupons:27622": {
+   "r": "pulado:sem preco",
+   "t": 1795353057
+  },
   "link:https://amzn.to/3YeTytk": {
    "r": "falha",
    "t": 1795346459
@@ -2071,6 +2079,10 @@
    "r": "gerado",
    "t": 1795350742
   },
+  "link:https://www.mercadolivre.com.br/kit-4-refletores-led-300w-uc68-branco-quente-3500k-ip67-externo/p/MLB62260642": {
+   "r": "gerado",
+   "t": 1795352738
+  },
   "link:https://www.mercadolivre.com.br/lavadora-de-alta-pressao-krcher-compacta-1500-psi-1400w-300lh-com-aplicador-de-detergente-e-lanca-regulavel/p/MLB40583845": {
    "r": "duplicado",
    "t": 1795296175
@@ -2138,6 +2150,10 @@
   "link:https://www.netshoes.com.br/p/tenis-olympikus-corre-turbo-preto+verde+limao-SE7-07ZZ-451-36": {
    "r": "duplicado",
    "t": 1795298414
+  },
+  "link:https://www.nike.com.br/tenis-nike-sb-malor-masculino-029484.html?af_channel=690943": {
+   "r": "gerado",
+   "t": 1795352639
   },
   "perfumepromo:10077": {
    "r": "pulado:sem link",
@@ -3182,6 +3198,34 @@
   "pincei:370561": {
    "r": "pulado:loja desconhecida",
    "t": 1795351938
+  },
+  "pincei:370562": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795352541
+  },
+  "pincei:370563": {
+   "r": "gerado",
+   "t": 1795352639
+  },
+  "pincei:370564": {
+   "r": "gerado",
+   "t": 1795352738
+  },
+  "pincei:370565": {
+   "r": "pulado:so cupom (ignorado)",
+   "t": 1795353084
+  },
+  "pincei:370566": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795353704
+  },
+  "pincei:370567": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795353751
+  },
+  "pincei:370568": {
+   "r": "pulado:loja desativada: aliexpress",
+   "t": 1795353764
   },
   "promotom:115007": {
    "r": "pulado:sem link",
@@ -8263,18 +8307,46 @@
     "oiahomy",
     "sala"
    ]
+  },
+  {
+   "ids": [],
+   "p": 229.99,
+   "t": 1795352544,
+   "w": [
+    "malor",
+    "nike",
+    "tenis"
+   ]
+  },
+  {
+   "ids": [
+    "62260642"
+   ],
+   "p": 56.25,
+   "t": 1795352666,
+   "w": [
+    "300w",
+    "3500k",
+    "branco",
+    "externo",
+    "ip67",
+    "led",
+    "quente",
+    "refletores",
+    "uc68"
+   ]
   }
  ],
  "resumo_dia": "2026-11-21",
  "tpl_ultimo": 2032135,
- "ult_ciclo": 1795352073.980906,
+ "ult_ciclo": 1795353764.6686776,
  "ultimo_id": {
-  "apromodaluh": 158864,
+  "apromodaluh": 158865,
   "fumotom": 51636,
   "iuriindica": 124017,
-  "juaocupons": 27621,
+  "juaocupons": 27622,
   "perfumepromo": 10098,
-  "pincei": 370561,
+  "pincei": 370568,
   "promotom": 115100,
   "teniscertocupons": 66139,
   "teste": 1795214930
