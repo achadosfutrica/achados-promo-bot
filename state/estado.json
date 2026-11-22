@@ -1,5 +1,5 @@
 {
- "cmd_ultimo": 2037776,
+ "cmd_ultimo": 2037788,
  "contagem_dia": 82,
  "dia": "2026-11-22",
  "feitos": {
@@ -2435,6 +2435,10 @@
    "r": "gerado",
    "t": 1795316970
   },
+  "link:https://www.amazon.com.br/dp/B07BB8NL42": {
+   "r": "falha",
+   "t": 1795389324
+  },
   "link:https://www.amazon.com.br/dp/B07CBLS785": {
    "r": "gerado",
    "t": 1795229180
@@ -4654,6 +4658,18 @@
   "pincei:370686": {
    "r": "falha",
    "t": 1795388179
+  },
+  "pincei:370687": {
+   "r": "pulado:sem preco",
+   "t": 1795388714
+  },
+  "pincei:370688": {
+   "r": "pulado:repetido",
+   "t": 1795388740
+  },
+  "pincei:370689": {
+   "r": "falha",
+   "t": 1795389324
   },
   "promotom:115007": {
    "r": "pulado:sem link",
@@ -9946,14 +9962,14 @@
  ],
  "resumo_dia": "2026-11-21",
  "tpl_ultimo": 2032135,
- "ult_ciclo": 1795388179.8996093,
+ "ult_ciclo": 1795389919.9305296,
  "ultimo_id": {
   "apromodaluh": 158909,
   "fumotom": 51676,
   "iuriindica": 124051,
   "juaocupons": 27647,
   "perfumepromo": 10107,
-  "pincei": 370686,
+  "pincei": 370689,
   "promotom": 115136,
   "teniscertocupons": 66163,
   "teste": 1795214930
