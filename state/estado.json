@@ -1,6 +1,6 @@
 {
  "cmd_ultimo": 2035329,
- "contagem_dia": 13,
+ "contagem_dia": 20,
  "dia": "2026-11-22",
  "feitos": {
   "apromodaluh:158768": {
@@ -206,6 +206,70 @@
   "apromodaluh:158832": {
    "r": "pulado:repetido",
    "t": 1795346484
+  },
+  "apromodaluh:158833": {
+   "r": "gerado",
+   "t": 1795347079
+  },
+  "apromodaluh:158834": {
+   "r": "gerado",
+   "t": 1795347176
+  },
+  "apromodaluh:158835": {
+   "r": "pulado:repetido",
+   "t": 1795347202
+  },
+  "apromodaluh:158836": {
+   "r": "pulado:repetido",
+   "t": 1795347105
+  },
+  "apromodaluh:158837": {
+   "r": "pulado:repetido",
+   "t": 1795347815
+  },
+  "apromodaluh:158838": {
+   "r": "pulado:repetido",
+   "t": 1795347105
+  },
+  "apromodaluh:158839": {
+   "r": "gerado",
+   "t": 1795347275
+  },
+  "apromodaluh:158840": {
+   "r": "pulado:repetido",
+   "t": 1795347203
+  },
+  "apromodaluh:158841": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795347815
+  },
+  "apromodaluh:158842": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795347815
+  },
+  "apromodaluh:158843": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795347815
+  },
+  "apromodaluh:158844": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795347815
+  },
+  "apromodaluh:158845": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795347815
+  },
+  "apromodaluh:158846": {
+   "r": "pulado:mesmo link",
+   "t": 1795347815
+  },
+  "apromodaluh:158847": {
+   "r": "pulado:repetido",
+   "t": 1795347815
+  },
+  "apromodaluh:158848": {
+   "r": "pulado:repetido",
+   "t": 1795347815
   },
   "esg:1ABHVBZ": {
    "r": "avisado",
@@ -923,6 +987,10 @@
    "r": "gerado",
    "t": 1795343538
   },
+  "fumotom:51631": {
+   "r": "pulado:repetido",
+   "t": 1795347815
+  },
   "iuriindica:123964": {
    "r": "pulado:mesmo link",
    "t": 1795215974
@@ -1267,6 +1335,10 @@
    "r": "duplicado",
    "t": 1795274908
   },
+  "link:https://meli.la/125GDbb": {
+   "r": "gerado",
+   "t": 1795347176
+  },
   "link:https://meli.la/12bGnkU": {
    "r": "duplicado",
    "t": 1795232418
@@ -1310,6 +1382,10 @@
   "link:https://meli.la/1cV18Wo": {
    "r": "duplicado",
    "t": 1795264156
+  },
+  "link:https://meli.la/1fK9VTu": {
+   "r": "gerado",
+   "t": 1795347275
   },
   "link:https://meli.la/1gfPq4n": {
    "r": "gerado",
@@ -1418,6 +1494,10 @@
   "link:https://meli.la/2zwCHF8": {
    "r": "duplicado",
    "t": 1795210086
+  },
+  "link:https://meli.la/32qS1LZ": {
+   "r": "gerado",
+   "t": 1795347079
   },
   "link:https://mercadolivre.com/sec/1ABhVBZ": {
    "r": "falha",
@@ -1559,6 +1639,10 @@
    "r": "gerado",
    "t": 1795271489
   },
+  "link:https://www.amazon.com.br/dp/B07Y5HMBD7": {
+   "r": "gerado",
+   "t": 1795347739
+  },
   "link:https://www.amazon.com.br/dp/B07YD3G568": {
    "r": "gerado",
    "t": 1795268089
@@ -1651,6 +1735,10 @@
    "r": "gerado",
    "t": 1795264289
   },
+  "link:https://www.amazon.com.br/dp/B0D84WRDBB": {
+   "r": "gerado",
+   "t": 1795348308
+  },
   "link:https://www.amazon.com.br/dp/B0D8PDQJPZ": {
    "r": "gerado",
    "t": 1795341723
@@ -1658,6 +1746,10 @@
   "link:https://www.amazon.com.br/dp/B0DGTV7X5D": {
    "r": "gerado",
    "t": 1795343470
+  },
+  "link:https://www.amazon.com.br/dp/B0DJFRYWK8": {
+   "r": "gerado",
+   "t": 1795348407
   },
   "link:https://www.amazon.com.br/dp/B0DLPX11ZS": {
    "r": "gerado",
@@ -1850,6 +1942,10 @@
   "link:https://www.mercadolivre.com.br/testo-essencial-formula-exclusiva-com-feno-grego-boro-arginina-zma-vitamina-b6-60-capsulas/p/MLB58582424": {
    "r": "duplicado",
    "t": 1795297238
+  },
+  "link:https://www.mercadolivre.com.br/top-puma-academia-fitness-original-nadador-alta-sustentacao/up/MLBU782175966": {
+   "r": "gerado",
+   "t": 1795347815
   },
   "link:https://www.mizuno.com.br/tenis-de-corrida-mizuno-hyperwarp-pro-102369003-004/p": {
    "r": "gerado",
@@ -2838,6 +2934,38 @@
   "pincei:370535": {
    "r": "gerado",
    "t": 1795346556
+  },
+  "pincei:370536": {
+   "r": "pulado:repetido",
+   "t": 1795347639
+  },
+  "pincei:370537": {
+   "r": "gerado",
+   "t": 1795347739
+  },
+  "pincei:370538": {
+   "r": "pulado:repetido",
+   "t": 1795347743
+  },
+  "pincei:370539": {
+   "r": "gerado",
+   "t": 1795347815
+  },
+  "pincei:370540": {
+   "r": "gerado",
+   "t": 1795348308
+  },
+  "pincei:370541": {
+   "r": "pulado:repetido",
+   "t": 1795348257
+  },
+  "pincei:370542": {
+   "r": "gerado",
+   "t": 1795348407
+  },
+  "pincei:370543": {
+   "r": "pulado:repetido",
+   "t": 1795348261
   },
   "promotom:115007": {
    "r": "pulado:sem link",
@@ -6293,69 +6421,6 @@
  "postados": [
   {
    "ids": [
-    "B0BR6SS9TX"
-   ],
-   "p": 280.0,
-   "t": 1795253193,
-   "w": [
-    "bolsa",
-    "bolsas",
-    "branco",
-    "classico",
-    "compartimento",
-    "fim",
-    "grande",
-    "higiene",
-    "mulheres",
-    "noturna",
-    "pcs",
-    "pessoal",
-    "sapatos",
-    "semana",
-    "transporte",
-    "viagem"
-   ]
-  },
-  {
-   "ids": [
-    "B0BQ6QBS64"
-   ],
-   "p": 317.0,
-   "t": 1795253263,
-   "w": [
-    "aderencia",
-    "antiruv",
-    "bloqueio",
-    "calor",
-    "casa",
-    "escritorio",
-    "estatica",
-    "janela",
-    "kespen",
-    "pelicula",
-    "privacidade",
-    "reflexivo",
-    "solar",
-    "uso"
-   ]
-  },
-  {
-   "ids": [
-    "B071RNK1TF"
-   ],
-   "p": 46.0,
-   "t": 1795253332,
-   "w": [
-    "baixo",
-    "cano",
-    "criancas",
-    "meias",
-    "pacote",
-    "puma"
-   ]
-  },
-  {
-   "ids": [
     "B00U85D3UG"
    ],
    "p": 244.0,
@@ -7768,18 +7833,115 @@
     "s26",
     "samsung"
    ]
+  },
+  {
+   "ids": [],
+   "p": 320.05,
+   "t": 1795347032,
+   "w": [
+    "antiaderente",
+    "baunilha",
+    "ceramica",
+    "free",
+    "inducao",
+    "jogo",
+    "panelas",
+    "pecas",
+    "pfoa",
+    "ppg"
+   ]
+  },
+  {
+   "ids": [],
+   "p": 359.09,
+   "t": 1795347106,
+   "w": [
+    "agile",
+    "atlas",
+    "bocas",
+    "chama",
+    "cooktop",
+    "gas",
+    "mega",
+    "preto"
+   ]
+  },
+  {
+   "ids": [],
+   "p": 451.05,
+   "t": 1795347203,
+   "w": [
+    "21l",
+    "branco",
+    "espelhado",
+    "facil",
+    "microondas",
+    "panasonic",
+    "pega",
+    "st27lwru",
+    "tecnologia"
+   ]
+  },
+  {
+   "ids": [
+    "B07Y5HMBD7"
+   ],
+   "p": 15.0,
+   "t": 1795347646,
+   "w": [
+    "bala",
+    "caixa",
+    "extra",
+    "forte",
+    "halls"
+   ]
+  },
+  {
+   "ids": [],
+   "p": 29.9,
+   "t": 1795347767,
+   "w": [
+    "alta",
+    "feminino",
+    "puma",
+    "sustentacao",
+    "top"
+   ]
+  },
+  {
+   "ids": [
+    "B0D84WRDBB"
+   ],
+   "p": 49.99,
+   "t": 1795348265,
+   "w": [
+    "cargas",
+    "gillette",
+    "mach3"
+   ]
+  },
+  {
+   "ids": [
+    "B0DJFRYWK8"
+   ],
+   "p": 4299.0,
+   "t": 1795348338,
+   "w": [
+    "apple",
+    "iphone"
+   ]
   }
  ],
  "resumo_dia": "2026-11-21",
  "tpl_ultimo": 2032135,
- "ult_ciclo": 1795346581.3379922,
+ "ult_ciclo": 1795348432.2575984,
  "ultimo_id": {
-  "apromodaluh": 158832,
-  "fumotom": 51630,
+  "apromodaluh": 158848,
+  "fumotom": 51631,
   "iuriindica": 124017,
   "juaocupons": 27620,
   "perfumepromo": 10098,
-  "pincei": 370535,
+  "pincei": 370543,
   "promotom": 115099,
   "teniscertocupons": 66139,
   "teste": 1795214930
