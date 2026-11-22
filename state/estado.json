@@ -1,6 +1,6 @@
 {
- "cmd_ultimo": 2035551,
- "contagem_dia": 35,
+ "cmd_ultimo": 2036067,
+ "contagem_dia": 42,
  "dia": "2026-11-22",
  "feitos": {
   "apromodaluh:158768": {
@@ -339,6 +339,90 @@
    "r": "pulado:so cupom (ignorado)",
    "t": 1795353764
   },
+  "apromodaluh:158866": {
+   "r": "esgotado_avisado",
+   "t": 1795356212
+  },
+  "apromodaluh:158867": {
+   "r": "pulado:repetido",
+   "t": 1795356683
+  },
+  "apromodaluh:158868": {
+   "r": "gerado",
+   "t": 1795356754
+  },
+  "apromodaluh:158869": {
+   "r": "pulado:mesmo link",
+   "t": 1795356779
+  },
+  "apromodaluh:158870": {
+   "r": "pulado:mesmo link",
+   "t": 1795356682
+  },
+  "apromodaluh:158871": {
+   "r": "pulado:mesmo link",
+   "t": 1795356683
+  },
+  "apromodaluh:158872": {
+   "r": "pulado:mesmo link",
+   "t": 1795356683
+  },
+  "apromodaluh:158873": {
+   "r": "pulado:mesmo link",
+   "t": 1795356682
+  },
+  "apromodaluh:158874": {
+   "r": "pulado:mesmo link",
+   "t": 1795356683
+  },
+  "apromodaluh:158875": {
+   "r": "pulado:mesmo link",
+   "t": 1795356683
+  },
+  "apromodaluh:158876": {
+   "r": "pulado:mesmo link",
+   "t": 1795356682
+  },
+  "apromodaluh:158877": {
+   "r": "pulado:mesmo link",
+   "t": 1795356779
+  },
+  "apromodaluh:158878": {
+   "r": "pulado:mesmo link",
+   "t": 1795356683
+  },
+  "apromodaluh:158879": {
+   "r": "pulado:mesmo link",
+   "t": 1795356682
+  },
+  "apromodaluh:158880": {
+   "r": "pulado:mesmo link",
+   "t": 1795356682
+  },
+  "apromodaluh:158881": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795357343
+  },
+  "apromodaluh:158882": {
+   "r": "pulado:mesmo link",
+   "t": 1795357343
+  },
+  "apromodaluh:158883": {
+   "r": "pulado:mesmo link",
+   "t": 1795357343
+  },
+  "apromodaluh:158884": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795357343
+  },
+  "apromodaluh:158885": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795357343
+  },
+  "apromodaluh:158886": {
+   "r": "pulado:mesmo link",
+   "t": 1795357343
+  },
   "esg:1ABHVBZ": {
    "r": "avisado",
    "t": 1795264211
@@ -346,6 +430,10 @@
   "esg:MELIMAIS2111": {
    "r": "avisado",
    "t": 1795264211
+  },
+  "esg:OFICIAIS2211": {
+   "r": "avisado",
+   "t": 1795356212
   },
   "fumotom:51408": {
    "r": "falha",
@@ -1083,6 +1171,14 @@
    "r": "gerado",
    "t": 1795355003
   },
+  "fumotom:51638": {
+   "r": "gerado",
+   "t": 1795357386
+  },
+  "fumotom:51639": {
+   "r": "gerado",
+   "t": 1795357454
+  },
   "iuriindica:123964": {
    "r": "pulado:mesmo link",
    "t": 1795215974
@@ -1451,6 +1547,14 @@
    "r": "pulado:sem preco",
    "t": 1795353057
   },
+  "juaocupons:27623": {
+   "r": "pulado:trava preco",
+   "t": 1795356212
+  },
+  "juaocupons:27624": {
+   "r": "pulado:aliexpress (bloqueado)",
+   "t": 1795357271
+  },
   "link:https://amzn.to/3YeTytk": {
    "r": "falha",
    "t": 1795346459
@@ -1627,6 +1731,10 @@
    "r": "falha",
    "t": 1795273895
   },
+  "link:https://meli.la/2cB9mNZ": {
+   "r": "gerado",
+   "t": 1795356754
+  },
   "link:https://meli.la/2eNiHzy": {
    "r": "gerado",
    "t": 1795264459
@@ -1791,6 +1899,10 @@
    "r": "gerado",
    "t": 1795272169
   },
+  "link:https://www.amazon.com.br/dp/B07MC9MKDK": {
+   "r": "gerado",
+   "t": 1795357454
+  },
   "link:https://www.amazon.com.br/dp/B07MJHJ4MF": {
    "r": "gerado",
    "t": 1795226394
@@ -1834,6 +1946,10 @@
   "link:https://www.amazon.com.br/dp/B098RQLFY5": {
    "r": "gerado",
    "t": 1795350790
+  },
+  "link:https://www.amazon.com.br/dp/B09B8VGCR8": {
+   "r": "gerado",
+   "t": 1795356828
   },
   "link:https://www.amazon.com.br/dp/B09JT3YLML": {
    "r": "gerado",
@@ -1967,6 +2083,10 @@
    "r": "gerado",
    "t": 1795250237
   },
+  "link:https://www.amazon.com.br/dp/B0F8KDMJQP": {
+   "r": "gerado",
+   "t": 1795356212
+  },
   "link:https://www.amazon.com.br/dp/B0FC62Y27J": {
    "r": "gerado",
    "t": 1795303263
@@ -2042,6 +2162,18 @@
   "link:https://www.amazon.com.br/dp/B0GKQX8ZPN": {
    "r": "duplicado",
    "t": 1795259248
+  },
+  "link:https://www.amazon.com.br/dp/B0GQJQ2MFF": {
+   "r": "gerado",
+   "t": 1795356139
+  },
+  "link:https://www.amazon.com.br/dp/B0GT1C8NJ6": {
+   "r": "gerado",
+   "t": 1795357343
+  },
+  "link:https://www.amazon.com.br/dp/B0GTBSKVL9": {
+   "r": "gerado",
+   "t": 1795357386
   },
   "link:https://www.amazon.com.br/dp/B0H127L18H": {
    "r": "duplicado",
@@ -3306,6 +3438,26 @@
   "pincei:370573": {
    "r": "pulado:sem preco",
    "t": 1795355466
+  },
+  "pincei:370574": {
+   "r": "gerado",
+   "t": 1795356139
+  },
+  "pincei:370575": {
+   "r": "gerado",
+   "t": 1795356212
+  },
+  "pincei:370576": {
+   "r": "gerado",
+   "t": 1795356828
+  },
+  "pincei:370577": {
+   "r": "pulado:so cupom (ignorado)",
+   "t": 1795356682
+  },
+  "pincei:370578": {
+   "r": "gerado",
+   "t": 1795357343
   },
   "promotom:115007": {
    "r": "pulado:sem link",
@@ -6765,72 +6917,6 @@
  "postados": [
   {
    "ids": [],
-   "p": 20.0,
-   "t": 1795262826,
-   "w": [
-    "resgate"
-   ]
-  },
-  {
-   "ids": [],
-   "p": 271.0,
-   "t": 1795263075,
-   "w": [
-    "branco",
-    "cfi",
-    "controle",
-    "dualsense",
-    "playstation",
-    "sony",
-    "zct1w"
-   ]
-  },
-  {
-   "ids": [],
-   "p": 956.04,
-   "t": 1795263611,
-   "w": [
-    "bocas",
-    "cooktop",
-    "funcao",
-    "inducao",
-    "pctq1",
-    "philco",
-    "turbo"
-   ]
-  },
-  {
-   "ids": [],
-   "p": 188.0,
-   "t": 1795263714,
-   "w": [
-    "buds",
-    "cinza",
-    "claro",
-    "edge",
-    "fusion",
-    "moto",
-    "motorola",
-    "ram",
-    "smartphone",
-    "verde"
-   ]
-  },
-  {
-   "ids": [],
-   "p": 269.0,
-   "t": 1795263797,
-   "w": [
-    "bluetooth",
-    "controle",
-    "dualsense",
-    "fio",
-    "playstation",
-    "sony"
-   ]
-  },
-  {
-   "ids": [],
    "p": 369.0,
    "t": 1795263881,
    "w": [
@@ -8400,18 +8486,124 @@
     "hugomasculino",
     "tropical"
    ]
+  },
+  {
+   "ids": [
+    "B0GQJQ2MFF"
+   ],
+   "p": 1994.05,
+   "t": 1795356072,
+   "w": [
+    "220v",
+    "410l",
+    "branca",
+    "cycle",
+    "defrost",
+    "duplex",
+    "geladeira",
+    "inverter",
+    "midea"
+   ]
+  },
+  {
+   "ids": [
+    "B0F8KDMJQP"
+   ],
+   "p": 134.83,
+   "t": 1795356144,
+   "w": [
+    "300ml",
+    "acafrao",
+    "baunilha",
+    "colonia",
+    "granado",
+    "vintage"
+   ]
+  },
+  {
+   "ids": [],
+   "p": 169.09,
+   "t": 1795356684,
+   "w": [
+    "black",
+    "body",
+    "carolina",
+    "herrera",
+    "men",
+    "spray",
+    "vip"
+   ]
+  },
+  {
+   "ids": [
+    "B09B8VGCR8"
+   ],
+   "p": 368.0,
+   "t": 1795356785,
+   "w": [
+    "alexa",
+    "aproveitem",
+    "demora",
+    "voltar"
+   ]
+  },
+  {
+   "ids": [
+    "B0GT1C8NJ6"
+   ],
+   "p": 7427.0,
+   "t": 1795357276,
+   "w": [
+    "btu",
+    "condicionado",
+    "frio",
+    "inverter",
+    "monofasico",
+    "split",
+    "teto",
+    "volts"
+   ]
+  },
+  {
+   "ids": [
+    "B0GTBSKVL9"
+   ],
+   "p": 229.0,
+   "t": 1795357343,
+   "w": [
+    "challenge",
+    "chuteira",
+    "pro",
+    "society",
+    "umbro",
+    "uptake"
+   ]
+  },
+  {
+   "ids": [
+    "B07MC9MKDK"
+   ],
+   "p": 4.0,
+   "t": 1795357411,
+   "w": [
+    "dac",
+    "fume",
+    "grampo",
+    "pasta",
+    "trilho"
+   ]
   }
  ],
  "resumo_dia": "2026-11-21",
  "tpl_ultimo": 2032135,
- "ult_ciclo": 1795355466.5503495,
+ "ult_ciclo": 1795357479.2041802,
  "ultimo_id": {
-  "apromodaluh": 158865,
-  "fumotom": 51637,
+  "apromodaluh": 158886,
+  "fumotom": 51639,
   "iuriindica": 124028,
-  "juaocupons": 27622,
+  "juaocupons": 27624,
   "perfumepromo": 10098,
-  "pincei": 370573,
+  "pincei": 370578,
   "promotom": 115100,
   "teniscertocupons": 66139,
   "teste": 1795214930
