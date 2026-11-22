@@ -1,5 +1,5 @@
 {
- "cmd_ultimo": 2037788,
+ "cmd_ultimo": 2037830,
  "contagem_dia": 82,
  "dia": "2026-11-22",
  "feitos": {
@@ -1419,6 +1419,14 @@
    "r": "falha",
    "t": 1795386509
   },
+  "fumotom:51677": {
+   "r": "falha",
+   "t": 1795391814
+  },
+  "fumotom:51678": {
+   "r": "falha",
+   "t": 1795391757
+  },
   "iuriindica:123964": {
    "r": "pulado:mesmo link",
    "t": 1795215974
@@ -2371,6 +2379,10 @@
    "r": "gerado",
    "t": 1795358023
   },
+  "link:https://www.amazon.com.br/dp/B003AUUD9U": {
+   "r": "falha",
+   "t": 1795391786
+  },
   "link:https://www.amazon.com.br/dp/B004CYZ7ZI": {
    "r": "gerado",
    "t": 1795372536
@@ -2430,6 +2442,10 @@
   "link:https://www.amazon.com.br/dp/B074D6KZM7": {
    "r": "gerado",
    "t": 1795207001
+  },
+  "link:https://www.amazon.com.br/dp/B074WB9PTQ": {
+   "r": "falha",
+   "t": 1795391729
   },
   "link:https://www.amazon.com.br/dp/B0779M2LK6": {
    "r": "gerado",
@@ -2599,6 +2615,10 @@
    "r": "gerado",
    "t": 1795270894
   },
+  "link:https://www.amazon.com.br/dp/B0CP6CJ8JG": {
+   "r": "falha",
+   "t": 1795391125
+  },
   "link:https://www.amazon.com.br/dp/B0CP6CVJSG": {
    "r": "duplicado",
    "t": 1795366427
@@ -2763,6 +2783,10 @@
    "r": "falha",
    "t": 1795373676
   },
+  "link:https://www.amazon.com.br/dp/B0G44Y34T8": {
+   "r": "falha",
+   "t": 1795391757
+  },
   "link:https://www.amazon.com.br/dp/B0G56BT2XF": {
    "r": "gerado",
    "t": 1795226258
@@ -2818,6 +2842,10 @@
   "link:https://www.amazon.com.br/dp/B0HFB2T6WW": {
    "r": "gerado",
    "t": 1795359743
+  },
+  "link:https://www.amazon.com.br/dp/B0HGDJGMDW": {
+   "r": "falha",
+   "t": 1795391814
   },
   "link:https://www.amazon.com.br/dp/B0HHK9J94J": {
    "r": "gerado",
@@ -5118,6 +5146,18 @@
   "promotom:115136": {
    "r": "pulado:repetido",
    "t": 1795387004
+  },
+  "promotom:115137": {
+   "r": "falha",
+   "t": 1795391125
+  },
+  "promotom:115138": {
+   "r": "falha",
+   "t": 1795391729
+  },
+  "promotom:115139": {
+   "r": "falha",
+   "t": 1795391786
   },
   "teniscertocupons:63531": {
    "r": "cancelado_teste",
@@ -9962,15 +10002,15 @@
  ],
  "resumo_dia": "2026-11-21",
  "tpl_ultimo": 2032135,
- "ult_ciclo": 1795389919.9305296,
+ "ult_ciclo": 1795391839.8733153,
  "ultimo_id": {
   "apromodaluh": 158909,
-  "fumotom": 51676,
+  "fumotom": 51678,
   "iuriindica": 124051,
   "juaocupons": 27647,
   "perfumepromo": 10107,
   "pincei": 370689,
-  "promotom": 115136,
+  "promotom": 115139,
   "teniscertocupons": 66163,
   "teste": 1795214930
  }
