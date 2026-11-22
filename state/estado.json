@@ -1,6 +1,6 @@
 {
  "cmd_ultimo": 2036757,
- "contagem_dia": 63,
+ "contagem_dia": 65,
  "dia": "2026-11-22",
  "feitos": {
   "apromodaluh:158768": {
@@ -1239,6 +1239,10 @@
    "r": "gerado",
    "t": 1795364570
   },
+  "fumotom:51645": {
+   "r": "pulado:repetido",
+   "t": 1795366418
+  },
   "iuriindica:123964": {
    "r": "pulado:mesmo link",
    "t": 1795215974
@@ -2127,6 +2131,10 @@
    "r": "gerado",
    "t": 1795270894
   },
+  "link:https://www.amazon.com.br/dp/B0CP6CVJSG": {
+   "r": "duplicado",
+   "t": 1795366427
+  },
   "link:https://www.amazon.com.br/dp/B0CQ8P17ZZ": {
    "r": "gerado",
    "t": 1795350131
@@ -2178,6 +2186,10 @@
   "link:https://www.amazon.com.br/dp/B0DLPX11ZS": {
    "r": "gerado",
    "t": 1795206932
+  },
+  "link:https://www.amazon.com.br/dp/B0DW1BTQNN": {
+   "r": "gerado",
+   "t": 1795367111
   },
   "link:https://www.amazon.com.br/dp/B0DW6X9K7P": {
    "r": "gerado",
@@ -2342,6 +2354,10 @@
   "link:https://www.amazon.com.br/dp/B0HLKNR6NY": {
    "r": "gerado",
    "t": 1795242920
+  },
+  "link:https://www.amazon.com.br/dp/B0HM7ZJXVG": {
+   "r": "gerado",
+   "t": 1795367184
   },
   "link:https://www.amazon.com.br/dp/B0HM84P595": {
    "r": "gerado",
@@ -3787,6 +3803,30 @@
    "r": "gerado",
    "t": 1795365723
   },
+  "pincei:370615": {
+   "r": "pulado:sem preco",
+   "t": 1795365813
+  },
+  "pincei:370616": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795365858
+  },
+  "pincei:370617": {
+   "r": "duplicado",
+   "t": 1795366427
+  },
+  "pincei:370618": {
+   "r": "pulado:sem preco",
+   "t": 1795366418
+  },
+  "pincei:370619": {
+   "r": "gerado",
+   "t": 1795367111
+  },
+  "pincei:370620": {
+   "r": "gerado",
+   "t": 1795367184
+  },
   "promotom:115007": {
    "r": "pulado:sem link",
    "t": 1795203318
@@ -4222,6 +4262,14 @@
   "teniscertocupons:66139": {
    "r": "duplicado",
    "t": 1795302627
+  },
+  "teniscertocupons:66140": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795367028
+  },
+  "teniscertocupons:66141": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795367039
   },
   "teste:1795203980": {
    "r": "cancelado_teste",
@@ -7264,65 +7312,6 @@
  },
  "postados": [
   {
-   "ids": [
-    "B07F19X4L7"
-   ],
-   "p": 10.0,
-   "t": 1795272125,
-   "w": [
-    "100ml",
-    "limpa",
-    "rodabrill",
-    "telas"
-   ]
-  },
-  {
-   "ids": [],
-   "p": 486.0,
-   "t": 1795272647,
-   "w": [
-    "120hz",
-    "1ms",
-    "aoc",
-    "gaming",
-    "monitor",
-    "polegadas",
-    "versao"
-   ]
-  },
-  {
-   "ids": [
-    "B00GIOSGIK"
-   ],
-   "p": 89.0,
-   "t": 1795272683,
-   "w": [
-    "alca",
-    "carvao",
-    "cristal",
-    "dentes",
-    "escova",
-    "nano",
-    "ouro"
-   ]
-  },
-  {
-   "ids": [],
-   "p": 1169.99,
-   "t": 1795273248,
-   "w": [
-    "necessidade"
-   ]
-  },
-  {
-   "ids": [],
-   "p": 10.0,
-   "t": 1795273402,
-   "w": [
-    "resgate"
-   ]
-  },
-  {
    "ids": [],
    "p": 159.0,
    "t": 1795273921,
@@ -8723,20 +8712,65 @@
     "som",
     "the"
    ]
+  },
+  {
+   "ids": [
+    "B0CP6CVJSG"
+   ],
+   "p": 3499.0,
+   "t": 1795366418,
+   "w": [
+    "apple",
+    "iphone"
+   ]
+  },
+  {
+   "ids": [
+    "B0DW1BTQNN"
+   ],
+   "p": 2222.9,
+   "t": 1795367044,
+   "w": [
+    "btu",
+    "condicionado",
+    "frio",
+    "inverter",
+    "philco",
+    "split",
+    "volts",
+    "wall"
+   ]
+  },
+  {
+   "ids": [
+    "B0HM7ZJXVG"
+   ],
+   "p": 4084.05,
+   "t": 1795367116,
+   "w": [
+    "bundle",
+    "kart",
+    "mario",
+    "meses",
+    "nintendo",
+    "online",
+    "switch",
+    "world"
+   ]
   }
  ],
  "resumo_dia": "2026-11-21",
  "tpl_ultimo": 2032135,
- "ult_ciclo": 1795365723.9818122,
+ "ult_ciclo": 1795367184.1295135,
  "ultimo_id": {
   "apromodaluh": 158896,
-  "fumotom": 51644,
+  "fumotom": 51645,
   "iuriindica": 124029,
   "juaocupons": 27629,
   "perfumepromo": 10098,
-  "pincei": 370614,
+  "pincei": 370620,
   "promotom": 115105,
-  "teniscertocupons": 66139,
+  "teniscertocupons": 66141,
   "teste": 1795214930
  }
 }
