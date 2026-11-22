@@ -1,5 +1,5 @@
 {
- "cmd_ultimo": 2037279,
+ "cmd_ultimo": 2037346,
  "contagem_dia": 82,
  "dia": "2026-11-22",
  "feitos": {
@@ -1267,6 +1267,14 @@
    "r": "pulado:aliexpress (bloqueado)",
    "t": 1795372435
   },
+  "fumotom:51652": {
+   "r": "falha",
+   "t": 1795373724
+  },
+  "fumotom:51653": {
+   "r": "falha",
+   "t": 1795374331
+  },
   "iuriindica:123964": {
    "r": "pulado:mesmo link",
    "t": 1795215974
@@ -1491,6 +1499,10 @@
    "r": "pulado:periferico de PC",
    "t": 1795370627
   },
+  "iuriindica:124032": {
+   "r": "pulado:aliexpress (bloqueado)",
+   "t": 1795373035
+  },
   "juaocupons:27573": {
    "r": "pulado:loja desconhecida",
    "t": 1795213187
@@ -1690,6 +1702,26 @@
   "juaocupons:27634": {
    "r": "pulado:sem link",
    "t": 1795372435
+  },
+  "juaocupons:27635": {
+   "r": "pulado:sem link",
+   "t": 1795374239
+  },
+  "juaocupons:27636": {
+   "r": "pulado:sem link",
+   "t": 1795374239
+  },
+  "juaocupons:27637": {
+   "r": "pulado:sem link",
+   "t": 1795374239
+  },
+  "juaocupons:27638": {
+   "r": "pulado:sem link",
+   "t": 1795374239
+  },
+  "juaocupons:27639": {
+   "r": "pulado:sem link",
+   "t": 1795374239
   },
   "link:https://amzn.to/3YeTytk": {
    "r": "falha",
@@ -1975,6 +2007,18 @@
    "r": "falha",
    "t": 1795218728
   },
+  "link:https://shopee.com.br/Ar-Condicionado-Split-Philco-Hi-Wall-Inverter-9.000-Btu-h-Frio-Monof%C3%A1sico-Branco-PAC9FT-220V-i.1388709282.58268803813?gads_t_sig=gqRjZGVrxHCFomtpsTE0MjUxOnRzc19zZGtfa2V5omt20QACpGFsZ2_SAAAAZKNkZWvAomN0xEAAAAAMc1TPTF0zl9lUk9doKYfbtNkYCBZaTm6dQ6q3WJIrnGYlyLtpSCE1-D6jy2YmlKEe_b7zxJZfI6lpwZ6fqmNpcGhlcnRleHTE6QAAAAwh4ZkvJEq85li9kaG9XQ2bjKVS0Gxn1tAa4pU3lAo0s5w_VPjJrRwbq4N1WuldO3N8Z9v0vS2Xtm9su4Gj_Av_U4p5XC6YI84UP5NugJuj-Vd1d-1WqfYRR23VLztKBcFmW9KvGbmTrafyS0Dbc7-NxSaCgPf9CFy7nMnaacGoPo7iy3VwUS09L_AHDyM80guimedTfHNUL6CwsOu6YpPHATIvj2nioXCvx0o4xw257R5nHVkbtRpKKYj_kzcNc427uDKcovYEJEktPZGV2PHgISicgj25oaxL1ygVlC4Se--fqVbs&mmp_pid=an_18376710595&uls_trackid=576k3qgt01c4&utm_campaign=id_002772862cc5b9c3&utm_content=Glenda----&utm_medium=affiliates&utm_source=an_18376710595&utm_term=fw2tg385a7om": {
+   "r": "falha",
+   "t": 1795373086
+  },
+  "link:https://shopee.com.br/Cervejeira-Frost-Free-82L-Prata-Midea-i.1736335904.58256601518?gads_t_sig=gqRjZGVrxHCFomtpsTE0MjUxOnRzc19zZGtfa2V5omt20QACpGFsZ2_SAAAAZKNkZWvAomN0xEAAAAAMc1TPTF0zl9lUk9doKYfbtNkYCBZaTm6dQ6q3WJIrnGYlyLtpSCE1-D6jy2YmlKEe_b7zxJZfI6lpwZ6fqmNpcGhlcnRleHTEsAAAAAx8NqfEf2MkcTUtWAx33G5VBR3IhN0sQV2wieCHLGhX5JNs84R1UfbmZBQULtAQ3wdKLjxl5FccoO0b6u2oMbO7nvOazOiqVkBv-AMv9KUV410f6IDI0ZGVbHc1IoN6I-enpPQMHVCuPEDah8zqIeA1Rd2uJNrlU2A9PI76NTmaXgr_8imHVcgTsW2ADSt5yZRhJWvvJTcNwrlPQb0R6ghZrbqvOplUKun88IvQ&mmp_pid=an_18376710595&uls_trackid=576k3pvp00cc&utm_campaign=id_c586dbb986326814&utm_content=Glenda----&utm_medium=affiliates&utm_source=an_18376710595&utm_term=fw2tfnb8wd83": {
+   "r": "falha",
+   "t": 1795373080
+  },
+  "link:https://shopee.com.br/Geladeira-Electrolux-Frost-Free-Inverter-484L-Efficient-AutoSense-3-Portas-Branca-%28IM7%29-i.1526836548.23298514535?gads_t_sig=gqRjZGVrxHCFomtpsTE0MjUxOnRzc19zZGtfa2V5omt20QACpGFsZ2_SAAAAZKNkZWvAomN0xEAAAAAMc1TPTF0zl9lUk9doKYfbtNkYCBZaTm6dQ6q3WJIrnGYlyLtpSCE1-D6jy2YmlKEe_b7zxJZfI6lpwZ6fqmNpcGhlcnRleHTE4gAAAAwCrex_XvlyDbi84mmPG77crhooyp-G3Ir-JPBZwlRsoODQm8wjmDhAwI38VhL20ls3_w8XOyYFJGZ4skCMzXtgR4qM4pIfKII7mWPaIOetOyGUva8oVpyHm-xeJzTaHza3NIoBWwddhYc1XbuWoLXIrMSl1Yh3tHvjSYzrFgjPX3sYVqTxWLP_wPBjSy7eHjvQmnNZWnl0Cx9jippr1rbT9VkcxV0sWYON1EAHzwKg_wIH1kZTjFNvWmXVAiVcaDmiQlmQwLORhb47riow0x0BM5E_ttmMt_BP6JPQa_Q&mmp_pid=an_18376710595&uls_trackid=576k3phm00c1&utm_campaign=id_df92f01b33d77c6b&utm_content=Glenda----&utm_medium=affiliates&utm_source=an_18376710595&utm_term=fw2tfa3d8c3q": {
+   "r": "falha",
+   "t": 1795373076
+  },
   "link:https://shopee.com.br/Qiaodan-TG-2.0-GT-Maratona-Homens-T%C3%AAnis-De-Corrida-Leve-Desempenho-Max-Almofada-QDB023264275-i.1883948371.49866024521?gads_t_sig=gqRjZGVrxHCFomtpsTE0MjUxOnRzc19zZGtfa2V5omt20QACpGFsZ2_SAAAAZKNkZWvAomN0xEAAAAAMc1TPTF0zl9lUk9doKYfbtNkYCBZaTm6dQ6q3WJIrnGYlyLtpSCE1-D6jy2YmlKEe_b7zxJZfI6lpwZ6fqmNpcGhlcnRleHTE6QAAAAzBE4BFFJdn_7bARmXQb1ftV0dwjq4KCnfUEcW5Pmqqe40mqdcnXu39KXExPeoV2hVWgCuUZRi12b9eCxbH8bCQK2aNqTDq9baQVJkblKDaoju1Q7PQhpwwPRhQLCF2GAoxMSI8LGZ-xQ4cpkRLWbBp8rCN0FptE5u_UXLPPJK9-UPhPYToMkdVBdkBJz03DMVlnrvQTDJH1XNhlNV5_dfCsOnwaUP8dHvQBv9ZpPbmqTBGEYyIIlkZsi31juuiFUFjglYmNqMzVRP-KXrnkOAckiyhgk6ehglxmqQ_sDYTMikSbuOY&mmp_pid=an_18104140006&uls_trackid=576a708c00s2&utm_campaign=id_5XNS8wETFTV&utm_content=TelegramQiaodanLeiliGT----&utm_medium=affiliates&utm_source=an_18104140006&utm_term=fvunmree5w6g": {
    "r": "gerado",
    "t": 1795269342
@@ -1986,6 +2030,10 @@
   "link:https://shopee.com.br/opaanlp/1556773662/44962295129?__mobile__=1&exp_group=rollout&gads_t_sig=gqRjZGVrxHCFomtpsTE0MjUxOnRzc19zZGtfa2V5omt20QACpGFsZ2_SAAAAZKNkZWvAomN0xEAAAAAMc1TPTF0zl9lUk9doKYfbtNkYCBZaTm6dQ6q3WJIrnGYlyLtpSCE1-D6jy2YmlKEe_b7zxJZfI6lpwZ6fqmNpcGhlcnRleHTEmQAAAAzSNdUT7qnMQKzjLERN5SWzZLKOuwY6Y9UAkNvrn1aA4j6FmPl-D7T31PNUA1HCUY-wtmRgnAWZxLfYtpnN4FQTz8lTNrxm5hrYhJvsL0xpRbIt9wFS2tMyDeU2vNcTmf8Uw8yUqdZIKLPS_BMX4IlBQhnXufZiDDa069YUL5JFxvxOMm_YuGYtF9m-gO3plSeQRo7iOw&mmp_pid=an_18376710595&uls_trackid=576jl39200f4&utm_campaign=id_ee6b80e5dd1a3548&utm_content=Glenda----&utm_medium=affiliates&utm_source=an_18376710595&utm_term=fw2h4qbpe2rj": {
    "r": "gerado",
    "t": 1795368303
+  },
+  "link:https://shopee.com.br/opaanlp/390307022/20599569632?__mobile__=1&exp_group=rollout&gads_t_sig=gqRjZGVrxHCFomtpsTE0MjUxOnRzc19zZGtfa2V5omt20QACpGFsZ2_SAAAAZKNkZWvAomN0xEAAAAAMc1TPTF0zl9lUk9doKYfbtNkYCBZaTm6dQ6q3WJIrnGYlyLtpSCE1-D6jy2YmlKEe_b7zxJZfI6lpwZ6fqmNpcGhlcnRleHTElwAAAAydABmHRrYAD18SzqnbPgd0QF7GyfPhX-qjA91z99lH_O7hy69JWj8P9eF6LnU7nh-bNMP1DkoXUQ4P3SpVyIxb-TW_r7RFAKD_WLmTFoEt1B6OqyzE8pAc-dTI0Qx86nJup9OT9xigXffjmYMX42kkly4H11xwNAXZD20ULnMUjjmZbo0SApjd-UHkMx3ralBHT_0&mmp_pid=an_18376710595&uls_trackid=576k3m2c00l1&utm_campaign=id_778dd17e9babd86a&utm_content=Glenda----&utm_medium=affiliates&utm_source=an_18376710595&utm_term=fw2tcfd66tko": {
+   "r": "falha",
+   "t": 1795373040
   },
   "link:https://www.adidas.com.br/bolsa-festival-adicolor-classic/JX0227.html?merchantid=79926&mmc=adiAffiliate_LAM_BR+_AFF_NA_httpwwwpinceicombr_NA_NA_Awin_NA__690943_Social+Content": {
    "r": "gerado",
@@ -2034,6 +2082,10 @@
   "link:https://www.amazon.com.br/dp/B00E0EUP66": {
    "r": "gerado",
    "t": 1795372489
+  },
+  "link:https://www.amazon.com.br/dp/B00GIEKDXQ": {
+   "r": "falha",
+   "t": 1795374331
   },
   "link:https://www.amazon.com.br/dp/B00GIOSGIK": {
    "r": "gerado",
@@ -2271,6 +2323,10 @@
    "r": "gerado",
    "t": 1795355003
   },
+  "link:https://www.amazon.com.br/dp/B0D7KHGBQ2": {
+   "r": "falha",
+   "t": 1795373724
+  },
   "link:https://www.amazon.com.br/dp/B0D84WRDBB": {
    "r": "gerado",
    "t": 1795348308
@@ -2396,8 +2452,8 @@
    "t": 1795298486
   },
   "link:https://www.amazon.com.br/dp/B0FY6Z7K5W": {
-   "r": "duplicado",
-   "t": 1795210046
+   "r": "falha",
+   "t": 1795373676
   },
   "link:https://www.amazon.com.br/dp/B0G56BT2XF": {
    "r": "gerado",
@@ -2563,6 +2619,10 @@
    "r": "gerado",
    "t": 1795350742
   },
+  "link:https://www.mercadolivre.com.br/kit-2-cameras-seguranca-ip-interna-externa-wifi-icsee-infravermelho-prova-dagua-hw/p/MLB46836439": {
+   "r": "falha",
+   "t": 1795373071
+  },
   "link:https://www.mercadolivre.com.br/kit-4-refletores-led-300w-uc68-branco-quente-3500k-ip67-externo/p/MLB62260642": {
    "r": "gerado",
    "t": 1795352738
@@ -2574,6 +2634,14 @@
   "link:https://www.mercadolivre.com.br/perfume-arabe-al-wataiah-shagaf-al-ward-edp-100ml/up/MLBU3874829264": {
    "r": "gerado",
    "t": 1795365318
+  },
+  "link:https://www.mercadolivre.com.br/perfume-arabe-armaf-club-de-nuit-woman-105ml-edp-feminino/up/MLBU5229568046": {
+   "r": "falha",
+   "t": 1795374297
+  },
+  "link:https://www.mercadolivre.com.br/perfume-arabe-asad-elixir-masculino-edp-100ml-com-nf/p/MLB80583488": {
+   "r": "falha",
+   "t": 1795374327
   },
   "link:https://www.mercadolivre.com.br/perfume-banderas-blue-seduction-eau-de-toilette-200-ml-masculino/p/MLB36512204": {
    "r": "gerado",
@@ -4115,6 +4183,66 @@
    "r": "pulado:sem preco",
    "t": 1795372645
   },
+  "pincei:370655": {
+   "r": "falha",
+   "t": 1795373040
+  },
+  "pincei:370656": {
+   "r": "falha",
+   "t": 1795373071
+  },
+  "pincei:370657": {
+   "r": "falha",
+   "t": 1795373076
+  },
+  "pincei:370658": {
+   "r": "falha",
+   "t": 1795373080
+  },
+  "pincei:370659": {
+   "r": "pulado:periferico de PC",
+   "t": 1795373081
+  },
+  "pincei:370660": {
+   "r": "falha",
+   "t": 1795373086
+  },
+  "pincei:370661": {
+   "r": "pulado:loja desativada: aliexpress",
+   "t": 1795373646
+  },
+  "pincei:370662": {
+   "r": "pulado:loja desativada: aliexpress",
+   "t": 1795373655
+  },
+  "pincei:370663": {
+   "r": "pulado:sem preco",
+   "t": 1795373659
+  },
+  "pincei:370664": {
+   "r": "pulado:loja desativada: aliexpress",
+   "t": 1795373668
+  },
+  "pincei:370665": {
+   "r": "falha",
+   "t": 1795373676
+  },
+  "pincei:370666": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795373721
+  },
+  "pincei:370667": {
+   "r": "pulado:so cupom (ignorado)",
+   "t": 1795374266
+  },
+  "pincei:370668": {
+   "r": "falha",
+   "t": 1795374297
+  },
+  "pincei:370669": {
+   "r": "falha",
+   "t": 1795374327
+  },
   "promotom:115007": {
    "r": "pulado:sem link",
    "t": 1795203318
@@ -4455,6 +4583,14 @@
    "r": "pulado:sem link",
    "t": 1795372435
   },
+  "promotom:115110": {
+   "r": "pulado:sem link",
+   "t": 1795374239
+  },
+  "promotom:115111": {
+   "r": "pulado:sem link",
+   "t": 1795374239
+  },
   "teniscertocupons:63531": {
    "r": "cancelado_teste",
    "t": 1795215823
@@ -4586,6 +4722,10 @@
   "teniscertocupons:66144": {
    "r": "gerado",
    "t": 1795371953
+  },
+  "teniscertocupons:66145": {
+   "r": "pulado:repetido",
+   "t": 1795373086
   },
   "teste:1795203980": {
    "r": "cancelado_teste",
@@ -9226,16 +9366,16 @@
  ],
  "resumo_dia": "2026-11-21",
  "tpl_ultimo": 2032135,
- "ult_ciclo": 1795372645.449963,
+ "ult_ciclo": 1795374356.1422157,
  "ultimo_id": {
   "apromodaluh": 158896,
-  "fumotom": 51651,
-  "iuriindica": 124031,
-  "juaocupons": 27634,
+  "fumotom": 51653,
+  "iuriindica": 124032,
+  "juaocupons": 27639,
   "perfumepromo": 10102,
-  "pincei": 370654,
-  "promotom": 115109,
-  "teniscertocupons": 66144,
+  "pincei": 370669,
+  "promotom": 115111,
+  "teniscertocupons": 66145,
   "teste": 1795214930
  }
 }
