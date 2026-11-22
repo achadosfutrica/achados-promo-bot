@@ -1275,6 +1275,14 @@
    "r": "falha",
    "t": 1795374331
   },
+  "fumotom:51654": {
+   "r": "pulado:repetido",
+   "t": 1795374873
+  },
+  "fumotom:51655": {
+   "r": "pulado:repetido",
+   "t": 1795375642
+  },
   "iuriindica:123964": {
    "r": "pulado:mesmo link",
    "t": 1795215974
@@ -4243,6 +4251,34 @@
    "r": "falha",
    "t": 1795374327
   },
+  "pincei:370670": {
+   "r": "pulado:sem preco",
+   "t": 1795374846
+  },
+  "pincei:370671": {
+   "r": "pulado:sem preco",
+   "t": 1795374849
+  },
+  "pincei:370672": {
+   "r": "pulado:sem preco",
+   "t": 1795374873
+  },
+  "pincei:370673": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795375495
+  },
+  "pincei:370674": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795375545
+  },
+  "pincei:370675": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795375595
+  },
+  "pincei:370676": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795375642
+  },
   "promotom:115007": {
    "r": "pulado:sem link",
    "t": 1795203318
@@ -4590,6 +4626,10 @@
   "promotom:115111": {
    "r": "pulado:sem link",
    "t": 1795374239
+  },
+  "promotom:115112": {
+   "r": "pulado:repetido",
+   "t": 1795374873
   },
   "teniscertocupons:63531": {
    "r": "cancelado_teste",
@@ -9366,15 +9406,15 @@
  ],
  "resumo_dia": "2026-11-21",
  "tpl_ultimo": 2032135,
- "ult_ciclo": 1795374356.1422157,
+ "ult_ciclo": 1795376046.9093952,
  "ultimo_id": {
   "apromodaluh": 158896,
-  "fumotom": 51653,
+  "fumotom": 51655,
   "iuriindica": 124032,
   "juaocupons": 27639,
   "perfumepromo": 10102,
-  "pincei": 370669,
-  "promotom": 115111,
+  "pincei": 370676,
+  "promotom": 115112,
   "teniscertocupons": 66145,
   "teste": 1795214930
  }
