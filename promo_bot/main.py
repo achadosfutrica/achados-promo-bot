@@ -420,7 +420,7 @@ def main():
                 return None
 
         def painel_agora():
-            painel.ler_comandos(client, est, log)
+            painel.ler_comandos(client, est, log, cfg)
             painel.resumo_se_hora(client, est, log)
 
         def ciclo(posts=None):

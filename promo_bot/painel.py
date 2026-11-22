@@ -4,6 +4,7 @@ Comandos (digite nas Mensagens Salvas, a conversa consigo mesmo):
   /trava desligar   /trava ligar    -> trava de preço (não gera se o preço ficar muito abaixo do "De")
   /resumo desligar  /resumo ligar   -> resumo diário das 23h
   /robo status                      -> mostra como está
+  /robo auditar [horas]             -> confere os posts do seu grupo (padrão 72 h) e lista os suspeitos
 O robô responde ali mesmo com ✅.
 """
 import time
@@ -32,8 +33,53 @@ def trava_bloqueia(est, cfg, preco, antigo):
 def _texto_cmd(txt):
     p = (txt or "").strip().lower().split()
     if len(p) >= 2 and p[0] in ("/trava", "/resumo", "/robo"):
+        if p[1] == "auditar":
+            return p[0][1:], "auditar:" + (p[2] if len(p) > 2 and p[2].isdigit() else "72")
         return p[0][1:], p[1]
     return None
+
+
+def _lojas_nome():
+    from .texto import _LOJAS_NOME
+    return _LOJAS_NOME
+
+
+def suspeitas_do_post(txt, pct=0.3):
+    """Lista os problemas de um post já publicado (preço muito abaixo do De, cupom que é nome de loja)."""
+    import re
+    from . import texto as T, inteligencia as I
+    prob = []
+    p = T.preco(txt or "")[0]
+    antigo = I.preco_antigo(txt or "")
+    if p and antigo and p < antigo * pct:
+        prob.append("preço R$ %s vs De R$ %s" % (T.formatar_preco(p), T.formatar_preco(antigo)))
+    m = re.search(r"cupom\W{0,3}\s*[:\-]?\s*`?([A-Za-z0-9]{3,25})", txt or "", re.I)
+    if m and m.group(1).upper() in _lojas_nome():
+        prob.append("cupom \"%s\" (nome de loja)" % m.group(1).upper())
+    return prob
+
+
+def auditar(client, cfg, horas=72, log=print):
+    grupo = (cfg.get("inteligencia") or {}).get("meu_grupo")
+    if not grupo:
+        return "⚠️ Grupo não configurado (inteligencia.meu_grupo)."
+    desde = time.time() - horas * 3600
+    achados, n = [], 0
+    for m in client.iter_messages(int(grupo), limit=5000):
+        if m.date and m.date.timestamp() < desde:
+            break
+        if not m.message:
+            continue
+        n += 1
+        pr = suspeitas_do_post(m.message, float(cfg.get("trava_preco_pct", 0.3)))
+        if pr:
+            tit = (m.message.strip().split("\n")[0])[:60]
+            cid = str(grupo).replace("-100", "", 1)
+            achados.append("• %s — %s\n  %s\n  https://t.me/c/%s/%s" % (
+                datetime.fromtimestamp(m.date.timestamp(), BRT).strftime("%d/%m %H:%M"), tit, "; ".join(pr), cid, m.id))
+    log("auditoria: %d posts, %d suspeitos" % (n, len(achados)))
+    cab = "🔎 Auditoria do grupo (últimas %d h): %d posts, %d suspeitos" % (horas, n, len(achados))
+    return cab + ("\n\n" + "\n".join(achados[:40]) if achados else "\n✅ Nenhum preço/cupom suspeito.")
 
 
 def aplicar_comando(est, nome, acao):
@@ -44,13 +90,14 @@ def aplicar_comando(est, nome, acao):
         rot = {"trava": "Trava de preço", "resumo": "Resumo diário das 23h"}[nome]
         return "✅ %s %s." % (rot, "LIGADA(O)" if f[nome] else "DESLIGADA(O)")
     if nome == "robo" and acao == "status":
-        return "🤖 Robô de promoções\nTrava de preço: %s\nResumo das 23h: %s\n\nComandos: /trava ligar|desligar · /resumo ligar|desligar" % (
+        return "🤖 Robô de promoções\nTrava de preço: %s\nResumo das 23h: %s\n\nComandos: /trava ligar|desligar · /resumo ligar|desligar · /robo auditar" % (
             "ligada" if f["trava"] else "desligada", "ligado" if f["resumo"] else "desligado")
     return None
 
 
-def ler_comandos(client, est, log):
+def ler_comandos(client, est, log, cfg=None):
     """Lê os comandos novos das Mensagens Salvas e responde."""
+    cfg = cfg or {}
     try:
         ult = int(est.d.get("cmd_ultimo") or 0)
         msgs = client.get_messages(CHAT, limit=15, min_id=ult) if ult else client.get_messages(CHAT, limit=1)
@@ -62,7 +109,10 @@ def ler_comandos(client, est, log):
             c = _texto_cmd(m.message)
             if not c:
                 continue
-            resp = aplicar_comando(est, *c)
+            if c[1].startswith("auditar:"):
+                resp = auditar(client, cfg, int(c[1].split(":")[1]), log)
+            else:
+                resp = aplicar_comando(est, *c)
             if resp:
                 log("comando: /%s %s" % c)
                 r = client.send_message(CHAT, resp)
