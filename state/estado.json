@@ -1,6 +1,6 @@
 {
- "cmd_ultimo": 2035126,
- "contagem_dia": 12,
+ "cmd_ultimo": 2035329,
+ "contagem_dia": 13,
  "dia": "2026-11-22",
  "feitos": {
   "apromodaluh:158768": {
@@ -170,6 +170,42 @@
   "apromodaluh:158823": {
    "r": "pulado:repetido",
    "t": 1795296374
+  },
+  "apromodaluh:158824": {
+   "r": "pulado:mesmo link",
+   "t": 1795346484
+  },
+  "apromodaluh:158825": {
+   "r": "falha",
+   "t": 1795346459
+  },
+  "apromodaluh:158826": {
+   "r": "pulado:repetido",
+   "t": 1795346484
+  },
+  "apromodaluh:158827": {
+   "r": "pulado:repetido",
+   "t": 1795346484
+  },
+  "apromodaluh:158828": {
+   "r": "pulado:repetido",
+   "t": 1795346484
+  },
+  "apromodaluh:158829": {
+   "r": "pulado:mesmo link",
+   "t": 1795346484
+  },
+  "apromodaluh:158830": {
+   "r": "pulado:mesmo link",
+   "t": 1795346484
+  },
+  "apromodaluh:158831": {
+   "r": "pulado:mesmo link",
+   "t": 1795346484
+  },
+  "apromodaluh:158832": {
+   "r": "pulado:repetido",
+   "t": 1795346484
   },
   "esg:1ABHVBZ": {
    "r": "avisado",
@@ -1199,9 +1235,13 @@
    "r": "pulado:loja desativada: magalu",
    "t": 1795344023
   },
+  "juaocupons:27620": {
+   "r": "pulado:loja desativada: magalu",
+   "t": 1795345829
+  },
   "link:https://amzn.to/3YeTytk": {
    "r": "falha",
-   "t": 1795268438
+   "t": 1795346459
   },
   "link:https://amzn.to/43L4rFd": {
    "r": "gerado",
@@ -1710,6 +1750,10 @@
   "link:https://www.amazon.com.br/dp/B0GFSJSPFT": {
    "r": "gerado",
    "t": 1795268021
+  },
+  "link:https://www.amazon.com.br/dp/B0GKQT7HPX": {
+   "r": "gerado",
+   "t": 1795346556
   },
   "link:https://www.amazon.com.br/dp/B0GKQX8ZPN": {
    "r": "duplicado",
@@ -2763,6 +2807,38 @@
    "r": "pulado:loja desconhecida",
    "t": 1795320535
   },
+  "pincei:370528": {
+   "r": "pulado:repetido",
+   "t": 1795345227
+  },
+  "pincei:370529": {
+   "r": "pulado:repetido",
+   "t": 1795345251
+  },
+  "pincei:370530": {
+   "r": "pulado:sem preco",
+   "t": 1795345256
+  },
+  "pincei:370531": {
+   "r": "pulado:repetido",
+   "t": 1795345834
+  },
+  "pincei:370532": {
+   "r": "pulado:so cupom (ignorado)",
+   "t": 1795345849
+  },
+  "pincei:370533": {
+   "r": "pulado:repetido",
+   "t": 1795345853
+  },
+  "pincei:370534": {
+   "r": "pulado:sem preco",
+   "t": 1795346450
+  },
+  "pincei:370535": {
+   "r": "gerado",
+   "t": 1795346556
+  },
   "promotom:115007": {
    "r": "pulado:sem link",
    "t": 1795203318
@@ -3054,6 +3130,14 @@
   "promotom:115097": {
    "r": "pulado:loja desativada: magalu",
    "t": 1795343427
+  },
+  "promotom:115098": {
+   "r": "pulado:loja desativada: magalu",
+   "t": 1795345827
+  },
+  "promotom:115099": {
+   "r": "pulado:loja desativada: magalu",
+   "t": 1795345828
   },
   "teniscertocupons:63531": {
    "r": "cancelado_teste",
@@ -6209,36 +6293,6 @@
  "postados": [
   {
    "ids": [
-    "B0F6LKH3RZ"
-   ],
-   "p": 59.0,
-   "t": 1795250192,
-   "w": [
-    "adaptador",
-    "audio",
-    "auxiliar",
-    "avmax",
-    "cabo",
-    "cinza",
-    "dispositivos",
-    "femea",
-    "fone",
-    "macbook",
-    "ouvido",
-    "pixel",
-    "plus",
-    "s20",
-    "s21",
-    "s22",
-    "s23",
-    "s24",
-    "tipo",
-    "ultra",
-    "usb"
-   ]
-  },
-  {
-   "ids": [
     "B0BR6SS9TX"
    ],
    "p": 280.0,
@@ -7697,19 +7751,36 @@
     "rodada",
     "rodas"
    ]
+  },
+  {
+   "ids": [
+    "B0GKQT7HPX"
+   ],
+   "p": 4498.2,
+   "t": 1795346488,
+   "w": [
+    "12gb",
+    "256gb",
+    "celular",
+    "galaxy",
+    "plus",
+    "ram",
+    "s26",
+    "samsung"
+   ]
   }
  ],
  "resumo_dia": "2026-11-21",
  "tpl_ultimo": 2032135,
- "ult_ciclo": 1795344622.7154646,
+ "ult_ciclo": 1795346581.3379922,
  "ultimo_id": {
-  "apromodaluh": 158823,
+  "apromodaluh": 158832,
   "fumotom": 51630,
   "iuriindica": 124017,
-  "juaocupons": 27619,
+  "juaocupons": 27620,
   "perfumepromo": 10098,
-  "pincei": 370527,
-  "promotom": 115097,
+  "pincei": 370535,
+  "promotom": 115099,
   "teniscertocupons": 66139,
   "teste": 1795214930
  }
