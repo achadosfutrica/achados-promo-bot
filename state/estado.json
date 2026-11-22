@@ -1,6 +1,6 @@
 {
  "cmd_ultimo": 2035126,
- "contagem_dia": 5,
+ "contagem_dia": 10,
  "dia": "2026-11-22",
  "feitos": {
   "apromodaluh:158768": {
@@ -851,6 +851,34 @@
    "r": "gerado",
    "t": 1795337145
   },
+  "fumotom:51622": {
+   "r": "pulado:periferico de PC",
+   "t": 1795340014
+  },
+  "fumotom:51623": {
+   "r": "gerado",
+   "t": 1795340057
+  },
+  "fumotom:51624": {
+   "r": "gerado",
+   "t": 1795341723
+  },
+  "fumotom:51625": {
+   "r": "gerado",
+   "t": 1795341655
+  },
+  "fumotom:51626": {
+   "r": "gerado",
+   "t": 1795341790
+  },
+  "fumotom:51627": {
+   "r": "pulado:so cupom (ignorado)",
+   "t": 1795341609
+  },
+  "fumotom:51628": {
+   "r": "gerado",
+   "t": 1795342253
+  },
   "iuriindica:123964": {
    "r": "pulado:mesmo link",
    "t": 1795215974
@@ -1415,6 +1443,10 @@
    "r": "gerado",
    "t": 1795317404
   },
+  "link:https://www.amazon.com.br/dp/B00LDYN8H4": {
+   "r": "gerado",
+   "t": 1795340057
+  },
   "link:https://www.amazon.com.br/dp/B00QYCJS42": {
    "r": "falha",
    "t": 1795216081
@@ -1434,6 +1466,10 @@
   "link:https://www.amazon.com.br/dp/B073HFH5BB": {
    "r": "gerado",
    "t": 1795235841
+  },
+  "link:https://www.amazon.com.br/dp/B0742B6T51": {
+   "r": "gerado",
+   "t": 1795342253
   },
   "link:https://www.amazon.com.br/dp/B074D6KZM7": {
    "r": "gerado",
@@ -1487,6 +1523,10 @@
    "r": "gerado",
    "t": 1795210014
   },
+  "link:https://www.amazon.com.br/dp/B09572LGGF": {
+   "r": "gerado",
+   "t": 1795341655
+  },
   "link:https://www.amazon.com.br/dp/B09T2X5QR8": {
    "r": "gerado",
    "t": 1795207097
@@ -1539,6 +1579,10 @@
    "r": "falha",
    "t": 1795207029
   },
+  "link:https://www.amazon.com.br/dp/B0D1YMTLNW": {
+   "r": "gerado",
+   "t": 1795341790
+  },
   "link:https://www.amazon.com.br/dp/B0D3PR672T": {
    "r": "gerado",
    "t": 1795256289
@@ -1550,6 +1594,10 @@
   "link:https://www.amazon.com.br/dp/B0D41SDLTB": {
    "r": "gerado",
    "t": 1795264289
+  },
+  "link:https://www.amazon.com.br/dp/B0D8PDQJPZ": {
+   "r": "gerado",
+   "t": 1795341723
   },
   "link:https://www.amazon.com.br/dp/B0DLPX11ZS": {
    "r": "gerado",
@@ -6137,45 +6185,6 @@
  "postados": [
   {
    "ids": [
-    "B07MTHFGTQ"
-   ],
-   "p": 161.0,
-   "t": 1795247347,
-   "w": [
-    "28x75",
-    "blue",
-    "bunk",
-    "campistas",
-    "colchao",
-    "conjuntos",
-    "lencois",
-    "light",
-    "microfibra",
-    "profundidade",
-    "size",
-    "solid",
-    "trailers",
-    "viagem"
-   ]
-  },
-  {
-   "ids": [
-    "B07XB7X52Q"
-   ],
-   "p": 26.0,
-   "t": 1795247418,
-   "w": [
-    "12cm",
-    "branca",
-    "enfeite",
-    "natal",
-    "plumas",
-    "pomba",
-    "tuut"
-   ]
-  },
-  {
-   "ids": [
     "B0F6LKH3RZ"
    ],
    "p": 59.0,
@@ -7497,14 +7506,130 @@
     "vine",
     "women"
    ]
+  },
+  {
+   "ids": [
+    "B00LDYN8H4"
+   ],
+   "p": 100.0,
+   "t": 1795340014,
+   "w": [
+    "linha",
+    "pesca",
+    "spiderwire",
+    "stealth",
+    "trancada"
+   ]
+  },
+  {
+   "ids": [
+    "B09572LGGF"
+   ],
+   "p": 364.0,
+   "t": 1795341609,
+   "w": [
+    "areia",
+    "azul",
+    "caixa",
+    "controle",
+    "dobravel",
+    "entrada",
+    "facil",
+    "frontal",
+    "gatinho",
+    "gatos",
+    "grande",
+    "limpar",
+    "medario",
+    "odor",
+    "saida",
+    "superior",
+    "tampa",
+    "tapete"
+   ]
+  },
+  {
+   "ids": [
+    "B0D8PDQJPZ"
+   ],
+   "p": 159.0,
+   "t": 1795341680,
+   "w": [
+    "bolsa",
+    "esportiva",
+    "expansivel",
+    "fim",
+    "ginastica",
+    "grande",
+    "mulheres",
+    "noite",
+    "ombro",
+    "rosa",
+    "semana",
+    "viagem"
+   ]
+  },
+  {
+   "ids": [
+    "B0D1YMTLNW"
+   ],
+   "p": 229.0,
+   "t": 1795341748,
+   "w": [
+    "aco",
+    "bico",
+    "bpa",
+    "canudo",
+    "copos",
+    "criancas",
+    "derramamentos",
+    "flexivel",
+    "infantis",
+    "inoxidavel",
+    "jar",
+    "lavavel",
+    "livre",
+    "mangas",
+    "mason",
+    "resistente",
+    "silicone",
+    "smoothie",
+    "tronco"
+   ]
+  },
+  {
+   "ids": [
+    "B0742B6T51"
+   ],
+   "p": 128.0,
+   "t": 1795342209,
+   "w": [
+    "ambos",
+    "apresentacao",
+    "cartaz",
+    "dupla",
+    "face",
+    "fino",
+    "folhas",
+    "folheto",
+    "fosco",
+    "foto",
+    "fotos",
+    "impressao",
+    "lados",
+    "mil",
+    "papel",
+    "revestido",
+    "uinkit"
+   ]
   }
  ],
  "resumo_dia": "2026-11-21",
  "tpl_ultimo": 2032135,
- "ult_ciclo": 1795337170.4747455,
+ "ult_ciclo": 1795342812.5776732,
  "ultimo_id": {
   "apromodaluh": 158823,
-  "fumotom": 51621,
+  "fumotom": 51628,
   "iuriindica": 124017,
   "juaocupons": 27618,
   "perfumepromo": 10098,
