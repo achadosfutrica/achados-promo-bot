@@ -1,6 +1,6 @@
 {
  "cmd_ultimo": 2035551,
- "contagem_dia": 32,
+ "contagem_dia": 35,
  "dia": "2026-11-22",
  "feitos": {
   "apromodaluh:158768": {
@@ -1079,6 +1079,10 @@
    "r": "gerado",
    "t": 1795351981
   },
+  "fumotom:51637": {
+   "r": "gerado",
+   "t": 1795355003
+  },
   "iuriindica:123964": {
    "r": "pulado:mesmo link",
    "t": 1795215974
@@ -1246,6 +1250,50 @@
   "iuriindica:124017": {
    "r": "pulado:repetido",
    "t": 1795317963
+  },
+  "iuriindica:124018": {
+   "r": "pulado:aliexpress (bloqueado)",
+   "t": 1795354259
+  },
+  "iuriindica:124019": {
+   "r": "pulado:aliexpress (bloqueado)",
+   "t": 1795354259
+  },
+  "iuriindica:124020": {
+   "r": "pulado:aliexpress (bloqueado)",
+   "t": 1795354259
+  },
+  "iuriindica:124021": {
+   "r": "gerado",
+   "t": 1795354341
+  },
+  "iuriindica:124022": {
+   "r": "pulado:aliexpress (bloqueado)",
+   "t": 1795354259
+  },
+  "iuriindica:124023": {
+   "r": "pulado:repetido",
+   "t": 1795354367
+  },
+  "iuriindica:124024": {
+   "r": "pulado:aliexpress (bloqueado)",
+   "t": 1795354259
+  },
+  "iuriindica:124025": {
+   "r": "pulado:repetido",
+   "t": 1795354367
+  },
+  "iuriindica:124026": {
+   "r": "pulado:so cupom (ignorado)",
+   "t": 1795354259
+  },
+  "iuriindica:124027": {
+   "r": "pulado:repetido",
+   "t": 1795354367
+  },
+  "iuriindica:124028": {
+   "r": "pulado:repetido",
+   "t": 1795354367
   },
   "juaocupons:27573": {
    "r": "pulado:loja desconhecida",
@@ -1867,6 +1915,10 @@
    "r": "gerado",
    "t": 1795264289
   },
+  "link:https://www.amazon.com.br/dp/B0D5CNKNGG": {
+   "r": "gerado",
+   "t": 1795355003
+  },
   "link:https://www.amazon.com.br/dp/B0D84WRDBB": {
    "r": "gerado",
    "t": 1795348308
@@ -1995,6 +2047,10 @@
    "r": "duplicado",
    "t": 1795296047
   },
+  "link:https://www.amazon.com.br/dp/B0H3CLV2VK": {
+   "r": "gerado",
+   "t": 1795354341
+  },
   "link:https://www.amazon.com.br/dp/B0H5G5BBWX": {
    "r": "duplicado",
    "t": 1795229110
@@ -2010,6 +2066,10 @@
   "link:https://www.amazon.com.br/dp/B0HJBL8G54": {
    "r": "duplicado",
    "t": 1795267952
+  },
+  "link:https://www.amazon.com.br/dp/B0HKP68Z62": {
+   "r": "gerado",
+   "t": 1795354960
   },
   "link:https://www.amazon.com.br/dp/B0HLKNR6NY": {
    "r": "gerado",
@@ -3226,6 +3286,26 @@
   "pincei:370568": {
    "r": "pulado:loja desativada: aliexpress",
    "t": 1795353764
+  },
+  "pincei:370569": {
+   "r": "pulado:loja desativada: aliexpress",
+   "t": 1795354270
+  },
+  "pincei:370570": {
+   "r": "pulado:so cupom (ignorado)",
+   "t": 1795354297
+  },
+  "pincei:370571": {
+   "r": "pulado:repetido",
+   "t": 1795354888
+  },
+  "pincei:370572": {
+   "r": "gerado",
+   "t": 1795354960
+  },
+  "pincei:370573": {
+   "r": "pulado:sem preco",
+   "t": 1795355466
   },
   "promotom:115007": {
    "r": "pulado:sem link",
@@ -6684,76 +6764,6 @@
  },
  "postados": [
   {
-   "ids": [
-    "B0DW6X9K7P"
-   ],
-   "p": 151.0,
-   "t": 1795259140,
-   "w": [
-    "1080p",
-    "acao",
-    "agua",
-    "bastao",
-    "camera",
-    "capturas",
-    "foto",
-    "gopro",
-    "gps",
-    "horizonte",
-    "hypersmooth",
-    "inv",
-    "live",
-    "max",
-    "prova",
-    "reenquadramento",
-    "timewarp",
-    "trava",
-    "video"
-   ]
-  },
-  {
-   "ids": [
-    "B0GKQGVXDJ",
-    "B0GKQT7HPX",
-    "B0GKQX8ZPN",
-    "B0GKR2PFSY"
-   ],
-   "p": 449.0,
-   "t": 1795259241,
-   "w": [
-    "12gb",
-    "256gb",
-    "camera",
-    "celular",
-    "galaxy",
-    "grande",
-    "ram",
-    "s26",
-    "samsung",
-    "tela",
-    "tripla"
-   ]
-  },
-  {
-   "ids": [
-    "B0013CQCTW"
-   ],
-   "p": 59.0,
-   "t": 1795259273,
-   "w": [
-    "canetas",
-    "conica",
-    "jetstream",
-    "ousada",
-    "pacote",
-    "ponta",
-    "preta",
-    "refil",
-    "tinta",
-    "uniball"
-   ]
-  },
-  {
    "ids": [],
    "p": 20.0,
    "t": 1795262826,
@@ -8335,18 +8345,73 @@
     "refletores",
     "uc68"
    ]
+  },
+  {
+   "ids": [
+    "B0H3CLV2VK"
+   ],
+   "p": 1946.0,
+   "t": 1795354297,
+   "w": [
+    "000btu",
+    "220v",
+    "branco",
+    "condicionado",
+    "d6dna3c",
+    "frio",
+    "gree",
+    "gwh12atcxb",
+    "inverter",
+    "quente",
+    "side",
+    "split",
+    "wall"
+   ]
+  },
+  {
+   "ids": [
+    "B0HKP68Z62"
+   ],
+   "p": 2749.4,
+   "t": 1795354892,
+   "w": [
+    "220v",
+    "btus",
+    "condicionado",
+    "frio",
+    "inverter",
+    "pro",
+    "quente",
+    "split",
+    "tcl",
+    "wall"
+   ]
+  },
+  {
+   "ids": [
+    "B0D5CNKNGG"
+   ],
+   "p": 198.0,
+   "t": 1795354960,
+   "w": [
+    "banho",
+    "calcao",
+    "calcoes",
+    "hugomasculino",
+    "tropical"
+   ]
   }
  ],
  "resumo_dia": "2026-11-21",
  "tpl_ultimo": 2032135,
- "ult_ciclo": 1795353764.6686776,
+ "ult_ciclo": 1795355466.5503495,
  "ultimo_id": {
   "apromodaluh": 158865,
-  "fumotom": 51636,
-  "iuriindica": 124017,
+  "fumotom": 51637,
+  "iuriindica": 124028,
   "juaocupons": 27622,
   "perfumepromo": 10098,
-  "pincei": 370568,
+  "pincei": 370573,
   "promotom": 115100,
   "teniscertocupons": 66139,
   "teste": 1795214930
