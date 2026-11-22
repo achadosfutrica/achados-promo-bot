@@ -1,6 +1,6 @@
 {
  "cmd_ultimo": 2035126,
- "contagem_dia": 10,
+ "contagem_dia": 12,
  "dia": "2026-11-22",
  "feitos": {
   "apromodaluh:158768": {
@@ -879,6 +879,14 @@
    "r": "gerado",
    "t": 1795342253
   },
+  "fumotom:51629": {
+   "r": "gerado",
+   "t": 1795343470
+  },
+  "fumotom:51630": {
+   "r": "gerado",
+   "t": 1795343538
+  },
   "iuriindica:123964": {
    "r": "pulado:mesmo link",
    "t": 1795215974
@@ -1186,6 +1194,10 @@
   "juaocupons:27618": {
    "r": "pulado:sem preco",
    "t": 1795319869
+  },
+  "juaocupons:27619": {
+   "r": "pulado:loja desativada: magalu",
+   "t": 1795344023
   },
   "link:https://amzn.to/3YeTytk": {
    "r": "falha",
@@ -1527,6 +1539,10 @@
    "r": "gerado",
    "t": 1795341655
   },
+  "link:https://www.amazon.com.br/dp/B09JT3YLML": {
+   "r": "gerado",
+   "t": 1795343538
+  },
   "link:https://www.amazon.com.br/dp/B09T2X5QR8": {
    "r": "gerado",
    "t": 1795207097
@@ -1598,6 +1614,10 @@
   "link:https://www.amazon.com.br/dp/B0D8PDQJPZ": {
    "r": "gerado",
    "t": 1795341723
+  },
+  "link:https://www.amazon.com.br/dp/B0DGTV7X5D": {
+   "r": "gerado",
+   "t": 1795343470
   },
   "link:https://www.amazon.com.br/dp/B0DLPX11ZS": {
    "r": "gerado",
@@ -3030,6 +3050,10 @@
   "promotom:115096": {
    "r": "falha",
    "t": 1795317048
+  },
+  "promotom:115097": {
+   "r": "pulado:loja desativada: magalu",
+   "t": 1795343427
   },
   "teniscertocupons:63531": {
    "r": "cancelado_teste",
@@ -7622,19 +7646,70 @@
     "revestido",
     "uinkit"
    ]
+  },
+  {
+   "ids": [
+    "B0DGTV7X5D"
+   ],
+   "p": 206.0,
+   "t": 1795343427,
+   "w": [
+    "5x5",
+    "arte",
+    "bolso",
+    "cada",
+    "capa",
+    "couro",
+    "diario",
+    "frio",
+    "funto",
+    "interno",
+    "material",
+    "midia",
+    "mista",
+    "pacote",
+    "paginas",
+    "papel",
+    "prensado",
+    "roxa",
+    "watercolor"
+   ]
+  },
+  {
+   "ids": [
+    "B09JT3YLML"
+   ],
+   "p": 844.0,
+   "t": 1795343495,
+   "w": [
+    "carry",
+    "cole",
+    "expansivel",
+    "inch",
+    "kenneth",
+    "leve",
+    "mala",
+    "mao",
+    "naval",
+    "reaction",
+    "renegade",
+    "rigida",
+    "rodada",
+    "rodas"
+   ]
   }
  ],
  "resumo_dia": "2026-11-21",
  "tpl_ultimo": 2032135,
- "ult_ciclo": 1795342812.5776732,
+ "ult_ciclo": 1795344622.7154646,
  "ultimo_id": {
   "apromodaluh": 158823,
-  "fumotom": 51628,
+  "fumotom": 51630,
   "iuriindica": 124017,
-  "juaocupons": 27618,
+  "juaocupons": 27619,
   "perfumepromo": 10098,
   "pincei": 370527,
-  "promotom": 115096,
+  "promotom": 115097,
   "teniscertocupons": 66139,
   "teste": 1795214930
  }
