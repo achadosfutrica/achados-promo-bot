@@ -1,6 +1,6 @@
 {
- "cmd_ultimo": 2036757,
- "contagem_dia": 68,
+ "cmd_ultimo": 2037108,
+ "contagem_dia": 73,
  "dia": "2026-11-22",
  "feitos": {
   "apromodaluh:158768": {
@@ -1247,6 +1247,10 @@
    "r": "pulado:repetido",
    "t": 1795368303
   },
+  "fumotom:51647": {
+   "r": "gerado",
+   "t": 1795370163
+  },
   "iuriindica:123964": {
    "r": "pulado:mesmo link",
    "t": 1795215974
@@ -1463,6 +1467,14 @@
    "r": "pulado:repetido",
    "t": 1795364188
   },
+  "iuriindica:124030": {
+   "r": "pulado:repetido",
+   "t": 1795370188
+  },
+  "iuriindica:124031": {
+   "r": "pulado:periferico de PC",
+   "t": 1795370627
+  },
   "juaocupons:27573": {
    "r": "pulado:loja desconhecida",
    "t": 1795213187
@@ -1643,6 +1655,18 @@
    "r": "pulado:sem preco",
    "t": 1795365204
   },
+  "juaocupons:27630": {
+   "r": "falha",
+   "t": 1795370799
+  },
+  "juaocupons:27631": {
+   "r": "pulado:sem link",
+   "t": 1795370627
+  },
+  "juaocupons:27632": {
+   "r": "pulado:sem link",
+   "t": 1795370627
+  },
   "link:https://amzn.to/3YeTytk": {
    "r": "falha",
    "t": 1795346459
@@ -1771,6 +1795,10 @@
    "r": "gerado",
    "t": 1795274731
   },
+  "link:https://meli.la/26aQf2S": {
+   "r": "falha",
+   "t": 1795370799
+  },
   "link:https://meli.la/29ExosW": {
    "r": "gerado",
    "t": 1795268591
@@ -1834,6 +1862,10 @@
   "link:https://meli.la/2eNiHzy": {
    "r": "gerado",
    "t": 1795264459
+  },
+  "link:https://meli.la/2eYptdb": {
+   "r": "gerado",
+   "t": 1795370765
   },
   "link:https://meli.la/2pqfBs9": {
    "r": "gerado",
@@ -2067,6 +2099,10 @@
    "r": "gerado",
    "t": 1795212971
   },
+  "link:https://www.amazon.com.br/dp/B0892K37BT": {
+   "r": "gerado",
+   "t": 1795370163
+  },
   "link:https://www.amazon.com.br/dp/B08DK5HD6C": {
    "r": "gerado",
    "t": 1795364335
@@ -2074,6 +2110,10 @@
   "link:https://www.amazon.com.br/dp/B08T6Q3KF4": {
    "r": "gerado",
    "t": 1795210014
+  },
+  "link:https://www.amazon.com.br/dp/B08YZ4CBG4": {
+   "r": "gerado",
+   "t": 1795369582
   },
   "link:https://www.amazon.com.br/dp/B09572LGGF": {
    "r": "gerado",
@@ -2367,6 +2407,10 @@
    "r": "gerado",
    "t": 1795354960
   },
+  "link:https://www.amazon.com.br/dp/B0HL93KBSC": {
+   "r": "gerado",
+   "t": 1795369529
+  },
   "link:https://www.amazon.com.br/dp/B0HLKNR6NY": {
    "r": "gerado",
    "t": 1795242920
@@ -2523,6 +2567,10 @@
    "r": "gerado",
    "t": 1795365723
   },
+  "link:https://www.netshoes.com.br/p/tenis-fila-speedrocker-skyfoam-feminino-SFK-07EB-784": {
+   "r": "falha",
+   "t": 1795370668
+  },
   "link:https://www.netshoes.com.br/p/tenis-olympikus-corre-5-bege+dourado-SE7-0803-884-36?sellerId=0": {
    "r": "duplicado",
    "t": 1795301484
@@ -2558,6 +2606,10 @@
   "link:https://www.netshoes.com.br/p/tenis-olympikus-corre-turbo-preto+verde+limao-SE7-07ZZ-451-36": {
    "r": "duplicado",
    "t": 1795298414
+  },
+  "link:https://www.nike.com.br/camiseta-corinthians-nike-crest-masculina-109927.html?af_channel=690943": {
+   "r": "gerado",
+   "t": 1795370114
   },
   "link:https://www.nike.com.br/tenis-nike-sb-malor-masculino-029484.html?af_channel=690943": {
    "r": "gerado",
@@ -3895,6 +3947,54 @@
    "r": "gerado",
    "t": 1795368979
   },
+  "pincei:370630": {
+   "r": "pulado:so cupom (ignorado)",
+   "t": 1795369452
+  },
+  "pincei:370631": {
+   "r": "pulado:repetido",
+   "t": 1795369456
+  },
+  "pincei:370632": {
+   "r": "gerado",
+   "t": 1795369529
+  },
+  "pincei:370633": {
+   "r": "pulado:sem preco",
+   "t": 1795369534
+  },
+  "pincei:370634": {
+   "r": "gerado",
+   "t": 1795369582
+  },
+  "pincei:370635": {
+   "r": "pulado:repetido",
+   "t": 1795369606
+  },
+  "pincei:370636": {
+   "r": "pulado:repetido",
+   "t": 1795370028
+  },
+  "pincei:370637": {
+   "r": "gerado",
+   "t": 1795370114
+  },
+  "pincei:370638": {
+   "r": "pulado:repetido",
+   "t": 1795370120
+  },
+  "pincei:370639": {
+   "r": "pulado:so cupom (ignorado)",
+   "t": 1795370633
+  },
+  "pincei:370640": {
+   "r": "pulado:sem preco",
+   "t": 1795370657
+  },
+  "pincei:370641": {
+   "r": "pulado:repetido",
+   "t": 1795370664
+  },
   "promotom:115007": {
    "r": "pulado:sem link",
    "t": 1795203318
@@ -4219,6 +4319,18 @@
    "r": "pulado:loja desativada: magalu",
    "t": 1795363926
   },
+  "promotom:115106": {
+   "r": "gerado",
+   "t": 1795370765
+  },
+  "promotom:115107": {
+   "r": "pulado:sem link",
+   "t": 1795370627
+  },
+  "promotom:115108": {
+   "r": "pulado:sem preco",
+   "t": 1795370627
+  },
   "teniscertocupons:63531": {
    "r": "cancelado_teste",
    "t": 1795215823
@@ -4338,6 +4450,14 @@
   "teniscertocupons:66141": {
    "r": "pulado:loja desconhecida",
    "t": 1795367039
+  },
+  "teniscertocupons:66142": {
+   "r": "pulado:repetido",
+   "t": 1795369606
+  },
+  "teniscertocupons:66143": {
+   "r": "falha",
+   "t": 1795370668
   },
   "teste:1795203980": {
    "r": "cancelado_teste",
@@ -8743,20 +8863,113 @@
     "moletom",
     "standard"
    ]
+  },
+  {
+   "ids": [
+    "B0HL93KBSC"
+   ],
+   "p": 4464.05,
+   "t": 1795369461,
+   "w": [
+    "btus",
+    "condicionado",
+    "eco",
+    "elgin",
+    "frio",
+    "high",
+    "iii",
+    "integrado",
+    "inverter",
+    "quente",
+    "split",
+    "wall"
+   ]
+  },
+  {
+   "ids": [
+    "B08YZ4CBG4"
+   ],
+   "p": 24.98,
+   "t": 1795369539,
+   "w": [
+    "100g",
+    "antissinais",
+    "care",
+    "creme",
+    "face",
+    "facial",
+    "hidratante",
+    "intensive",
+    "neutrogena"
+   ]
+  },
+  {
+   "ids": [],
+   "p": 69.99,
+   "t": 1795370034,
+   "w": [
+    "camiseta",
+    "corinthians",
+    "crest",
+    "masculina",
+    "nike"
+   ]
+  },
+  {
+   "ids": [
+    "B0892K37BT"
+   ],
+   "p": 266.0,
+   "t": 1795370120,
+   "w": [
+    "acessorios",
+    "acolchoamento",
+    "and",
+    "black",
+    "bolsa",
+    "cab55",
+    "capa",
+    "costura",
+    "extra",
+    "maquina",
+    "removivel",
+    "sacola",
+    "transporte",
+    "yellow"
+   ]
+  },
+  {
+   "ids": [],
+   "p": 481.0,
+   "t": 1795370693,
+   "w": [
+    "144hz",
+    "220v",
+    "27g50f",
+    "agon",
+    "aoc",
+    "g50",
+    "gamer",
+    "hdr10",
+    "ips",
+    "monitor",
+    "preto",
+    "sync"
+   ]
   }
  ],
  "resumo_dia": "2026-11-21",
  "tpl_ultimo": 2032135,
- "ult_ciclo": 1795368979.2498267,
+ "ult_ciclo": 1795370824.3517566,
  "ultimo_id": {
   "apromodaluh": 158896,
-  "fumotom": 51646,
-  "iuriindica": 124029,
-  "juaocupons": 27629,
+  "fumotom": 51647,
+  "iuriindica": 124031,
+  "juaocupons": 27632,
   "perfumepromo": 10102,
-  "pincei": 370629,
-  "promotom": 115105,
-  "teniscertocupons": 66141,
+  "pincei": 370641,
+  "promotom": 115108,
+  "teniscertocupons": 66143,
   "teste": 1795214930
  }
 }
