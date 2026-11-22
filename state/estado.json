@@ -751,6 +751,10 @@
    "r": "gerado",
    "t": 1795303263
   },
+  "fumotom:51585": {
+   "r": "pulado:periferico de PC",
+   "t": 1795306225
+  },
   "iuriindica:123964": {
    "r": "pulado:mesmo link",
    "t": 1795215974
@@ -846,6 +850,10 @@
   "iuriindica:123999": {
    "r": "falha",
    "t": 1795299140
+  },
+  "iuriindica:124000": {
+   "r": "pulado:periferico de PC",
+   "t": 1795306225
   },
   "juaocupons:27573": {
    "r": "pulado:loja desconhecida",
@@ -7344,11 +7352,11 @@
   }
  ],
  "tpl_ultimo": 2032135,
- "ult_ciclo": 1795304421.53797,
+ "ult_ciclo": 1795306225.8642125,
  "ultimo_id": {
   "apromodaluh": 158823,
-  "fumotom": 51584,
-  "iuriindica": 123999,
+  "fumotom": 51585,
+  "iuriindica": 124000,
   "juaocupons": 27613,
   "perfumepromo": 10097,
   "pincei": 370514,
