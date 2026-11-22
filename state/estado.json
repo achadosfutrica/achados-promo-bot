@@ -1,6 +1,6 @@
 {
- "cmd_ultimo": 2036273,
- "contagem_dia": 47,
+ "cmd_ultimo": 2036375,
+ "contagem_dia": 48,
  "dia": "2026-11-22",
  "feitos": {
   "apromodaluh:158768": {
@@ -430,6 +430,34 @@
   "apromodaluh:158888": {
    "r": "pulado:repetido",
    "t": 1795358529
+  },
+  "apromodaluh:158889": {
+   "r": "pulado:repetido",
+   "t": 1795359751
+  },
+  "apromodaluh:158890": {
+   "r": "pulado:mesmo link",
+   "t": 1795359751
+  },
+  "apromodaluh:158891": {
+   "r": "pulado:repetido",
+   "t": 1795359751
+  },
+  "apromodaluh:158892": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795359751
+  },
+  "apromodaluh:158893": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795359751
+  },
+  "apromodaluh:158894": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795359751
+  },
+  "apromodaluh:158895": {
+   "r": "pulado:repetido",
+   "t": 1795359751
   },
   "esg:1ABHVBZ": {
    "r": "avisado",
@@ -1567,6 +1595,10 @@
    "r": "pulado:aliexpress (bloqueado)",
    "t": 1795357271
   },
+  "juaocupons:27625": {
+   "r": "falha",
+   "t": 1795359759
+  },
   "link:https://amzn.to/3YeTytk": {
    "r": "falha",
    "t": 1795346459
@@ -1634,6 +1666,10 @@
   "link:https://meli.la/1KYLwXU": {
    "r": "gerado",
    "t": 1795232248
+  },
+  "link:https://meli.la/1VXsEkj": {
+   "r": "falha",
+   "t": 1795359759
   },
   "link:https://meli.la/1c2W61x": {
    "r": "duplicado",
@@ -2218,6 +2254,10 @@
   "link:https://www.amazon.com.br/dp/B0H7L24BPG": {
    "r": "duplicado",
    "t": 1795210118
+  },
+  "link:https://www.amazon.com.br/dp/B0HFB2T6WW": {
+   "r": "gerado",
+   "t": 1795359743
   },
   "link:https://www.amazon.com.br/dp/B0HHK9J94J": {
    "r": "gerado",
@@ -3531,6 +3571,26 @@
    "r": "gerado",
    "t": 1795359203
   },
+  "pincei:370589": {
+   "r": "gerado",
+   "t": 1795359743
+  },
+  "pincei:370590": {
+   "r": "pulado:repetido",
+   "t": 1795359751
+  },
+  "pincei:370591": {
+   "r": "pulado:sem preco",
+   "t": 1795360288
+  },
+  "pincei:370592": {
+   "r": "pulado:sem preco",
+   "t": 1795360292
+  },
+  "pincei:370593": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795360339
+  },
   "promotom:115007": {
    "r": "pulado:sem link",
    "t": 1795203318
@@ -3834,6 +3894,10 @@
   "promotom:115100": {
    "r": "pulado:sem preco",
    "t": 1795348836
+  },
+  "promotom:115101": {
+   "r": "pulado:sem preco",
+   "t": 1795359683
   },
   "teniscertocupons:63531": {
    "r": "cancelado_teste",
@@ -8516,19 +8580,35 @@
     "garrafa",
     "heineken"
    ]
+  },
+  {
+   "ids": [
+    "B0HFB2T6WW"
+   ],
+   "p": 4.06,
+   "t": 1795359691,
+   "w": [
+    "269ml",
+    "artois",
+    "cerveja",
+    "gold",
+    "lata",
+    "pure",
+    "stella"
+   ]
   }
  ],
  "resumo_dia": "2026-11-21",
  "tpl_ultimo": 2032135,
- "ult_ciclo": 1795359203.516153,
+ "ult_ciclo": 1795360339.7345,
  "ultimo_id": {
-  "apromodaluh": 158888,
+  "apromodaluh": 158895,
   "fumotom": 51640,
   "iuriindica": 124028,
-  "juaocupons": 27624,
+  "juaocupons": 27625,
   "perfumepromo": 10098,
-  "pincei": 370588,
-  "promotom": 115100,
+  "pincei": 370593,
+  "promotom": 115101,
   "teniscertocupons": 66139,
   "teste": 1795214930
  }
