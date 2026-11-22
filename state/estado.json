@@ -1,5 +1,5 @@
 {
- "cmd_ultimo": 2037346,
+ "cmd_ultimo": 2037459,
  "contagem_dia": 82,
  "dia": "2026-11-22",
  "feitos": {
@@ -1731,6 +1731,14 @@
    "r": "pulado:sem link",
    "t": 1795374239
   },
+  "juaocupons:27640": {
+   "r": "falha",
+   "t": 1795377870
+  },
+  "juaocupons:27641": {
+   "r": "pulado:sem link",
+   "t": 1795377856
+  },
   "link:https://amzn.to/3YeTytk": {
    "r": "falha",
    "t": 1795346459
@@ -1993,7 +2001,7 @@
   },
   "link:https://s.shopee.com.br/5q0DxVuTin": {
    "r": "falha",
-   "t": 1795274131
+   "t": 1795377870
   },
   "link:https://s.shopee.com.br/6VPcQjCiZk": {
    "r": "falha",
@@ -2639,6 +2647,10 @@
    "r": "duplicado",
    "t": 1795296175
   },
+  "link:https://www.mercadolivre.com.br/notebook-lenovo-ideapad-core-3-304-8gb-128gb-ssd153-fhd-w11/p/MLB80693418": {
+   "r": "falha",
+   "t": 1795377335
+  },
   "link:https://www.mercadolivre.com.br/perfume-arabe-al-wataiah-shagaf-al-ward-edp-100ml/up/MLBU3874829264": {
    "r": "gerado",
    "t": 1795365318
@@ -2658,6 +2670,10 @@
   "link:https://www.mercadolivre.com.br/philips-oneblade-aparador-e-barbeador-eletrico-com-pente-ajustavel-5-em-1-raspa-apara-e-contorna-uso-seco-e-molhado-100-prova-dagua-sem-fio-bivolt-qp142510/p/MLB64322156": {
    "r": "gerado",
    "t": 1795350981
+  },
+  "link:https://www.mercadolivre.com.br/prohibido-fuel-energy-drink-sabor-fruit-punch-pack-com-6-unidades-de-473ml-formula-exclusiva-e-inovadora-pre-treino-em-lata/p/MLB38485647": {
+   "r": "falha",
+   "t": 1795377283
   },
   "link:https://www.mercadolivre.com.br/sony-playstation-store-gift-card-r-300-digital/p/MLB50196683": {
    "r": "gerado",
@@ -4278,6 +4294,30 @@
   "pincei:370676": {
    "r": "pulado:loja desconhecida",
    "t": 1795375642
+  },
+  "pincei:370677": {
+   "r": "pulado:loja desativada: aliexpress",
+   "t": 1795376658
+  },
+  "pincei:370678": {
+   "r": "falha",
+   "t": 1795377283
+  },
+  "pincei:370679": {
+   "r": "pulado:repetido",
+   "t": 1795377307
+  },
+  "pincei:370680": {
+   "r": "falha",
+   "t": 1795377335
+  },
+  "pincei:370681": {
+   "r": "pulado:loja desativada: aliexpress",
+   "t": 1795377346
+  },
+  "pincei:370682": {
+   "r": "pulado:loja desativada: aliexpress",
+   "t": 1795377866
   },
   "promotom:115007": {
    "r": "pulado:sem link",
@@ -9406,14 +9446,14 @@
  ],
  "resumo_dia": "2026-11-21",
  "tpl_ultimo": 2032135,
- "ult_ciclo": 1795376046.9093952,
+ "ult_ciclo": 1795377895.4478528,
  "ultimo_id": {
   "apromodaluh": 158896,
   "fumotom": 51655,
   "iuriindica": 124032,
-  "juaocupons": 27639,
+  "juaocupons": 27641,
   "perfumepromo": 10102,
-  "pincei": 370676,
+  "pincei": 370682,
   "promotom": 115112,
   "teniscertocupons": 66145,
   "teste": 1795214930
