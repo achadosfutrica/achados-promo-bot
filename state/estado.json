@@ -1,6 +1,6 @@
 {
  "cmd_ultimo": 2035126,
- "contagem_dia": 3,
+ "contagem_dia": 4,
  "dia": "2026-11-22",
  "feitos": {
   "apromodaluh:158768": {
@@ -843,6 +843,10 @@
    "r": "pulado:repetido",
    "t": 1795320535
   },
+  "fumotom:51620": {
+   "r": "gerado",
+   "t": 1795329878
+  },
   "iuriindica:123964": {
    "r": "pulado:mesmo link",
    "t": 1795215974
@@ -1654,6 +1658,10 @@
   "link:https://www.amazon.com.br/dp/B0HLKNR6NY": {
    "r": "gerado",
    "t": 1795242920
+  },
+  "link:https://www.amazon.com.br/dp/B0HM84P595": {
+   "r": "gerado",
+   "t": 1795329878
   },
   "link:https://www.amazon.com.br/dp/B0HMX7CTSY": {
    "r": "falha",
@@ -6121,141 +6129,6 @@
  "postados": [
   {
    "ids": [
-    "B0H5G5BBWX"
-   ],
-   "p": 159.0,
-   "t": 1795229102,
-   "w": [
-    "evo",
-    "led",
-    "mini",
-    "polegadas",
-    "qned",
-    "qned85",
-    "smart"
-   ]
-  },
-  {
-   "ids": [
-    "B07CBLS785"
-   ],
-   "p": 144.0,
-   "t": 1795229135,
-   "w": [
-    "blu",
-    "place",
-    "quiet",
-    "ray"
-   ]
-  },
-  {
-   "ids": [],
-   "p": 95.0,
-   "t": 1795232154,
-   "w": [
-    "500ml",
-    "enrich",
-    "hidratacao",
-    "invigo",
-    "mascara",
-    "nutri",
-    "nutricao",
-    "pro",
-    "wella"
-   ]
-  },
-  {
-   "ids": [],
-   "p": 404.0,
-   "t": 1795232200,
-   "w": [
-    "essential",
-    "fhd",
-    "gamer",
-    "hdmi",
-    "monitor",
-    "preto",
-    "samsung"
-   ]
-  },
-  {
-   "ids": [],
-   "p": 461.0,
-   "t": 1795232279,
-   "w": [
-    "144hz",
-    "1ms",
-    "24g411a",
-    "amd",
-    "fhd",
-    "freesync",
-    "hdr10",
-    "mbr",
-    "monitor",
-    "nvidia",
-    "sync",
-    "ultragear"
-   ]
-  },
-  {
-   "ids": [],
-   "p": 229.0,
-   "t": 1795232322,
-   "w": [
-    "750w",
-    "ativo",
-    "bronze",
-    "fonte",
-    "mach1",
-    "pfc",
-    "plus",
-    "preto",
-    "steady"
-   ]
-  },
-  {
-   "ids": [],
-   "p": 281.0,
-   "t": 1795232401,
-   "w": [
-    "360mm",
-    "argb",
-    "deepcool",
-    "le360",
-    "preto",
-    "watercooler"
-   ]
-  },
-  {
-   "ids": [],
-   "p": 113.0,
-   "t": 1795235710,
-   "w": [
-    "delta",
-    "esportivo",
-    "liso",
-    "masculino",
-    "olympikus",
-    "tenis"
-   ]
-  },
-  {
-   "ids": [
-    "B073HFH5BB"
-   ],
-   "p": 375.0,
-   "t": 1795235798,
-   "w": [
-    "dressports",
-    "masculino",
-    "oxford",
-    "plain",
-    "rockport",
-    "toe"
-   ]
-  },
-  {
-   "ids": [
     "B0D3QWBSX5"
    ],
    "p": 243.0,
@@ -7641,14 +7514,29 @@
     "letterhead",
     "papers"
    ]
+  },
+  {
+   "ids": [
+    "B0HM84P595"
+   ],
+   "p": 10.0,
+   "t": 1795329835,
+   "w": [
+    "8mm",
+    "filtros",
+    "latina",
+    "mangueira",
+    "metro",
+    "purificadores"
+   ]
   }
  ],
  "resumo_dia": "2026-11-21",
  "tpl_ultimo": 2032135,
- "ult_ciclo": 1795326555.0532153,
+ "ult_ciclo": 1795329903.1234825,
  "ultimo_id": {
   "apromodaluh": 158823,
-  "fumotom": 51619,
+  "fumotom": 51620,
   "iuriindica": 124017,
   "juaocupons": 27618,
   "perfumepromo": 10098,
