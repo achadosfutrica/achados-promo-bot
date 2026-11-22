@@ -839,6 +839,10 @@
    "r": "pulado:repetido",
    "t": 1795317961
   },
+  "fumotom:51619": {
+   "r": "pulado:repetido",
+   "t": 1795320535
+  },
   "iuriindica:123964": {
    "r": "pulado:mesmo link",
    "t": 1795215974
@@ -1142,6 +1146,10 @@
   "juaocupons:27617": {
    "r": "pulado:sem preco",
    "t": 1795316755
+  },
+  "juaocupons:27618": {
+   "r": "pulado:sem preco",
+   "t": 1795319869
   },
   "link:https://amzn.to/3YeTytk": {
    "r": "falha",
@@ -2666,6 +2674,10 @@
   "pincei:370514": {
    "r": "pulado:repetido",
    "t": 1795300232
+  },
+  "pincei:370527": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795320535
   },
   "promotom:115007": {
    "r": "pulado:sem link",
@@ -7633,14 +7645,14 @@
  ],
  "resumo_dia": "2026-11-21",
  "tpl_ultimo": 2032135,
- "ult_ciclo": 1795317963.745625,
+ "ult_ciclo": 1795320535.0426018,
  "ultimo_id": {
   "apromodaluh": 158823,
-  "fumotom": 51618,
+  "fumotom": 51619,
   "iuriindica": 124017,
-  "juaocupons": 27617,
+  "juaocupons": 27618,
   "perfumepromo": 10098,
-  "pincei": 370526,
+  "pincei": 370527,
   "promotom": 115096,
   "teniscertocupons": 66139,
   "teste": 1795214930
