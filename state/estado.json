@@ -1,6 +1,6 @@
 {
  "cmd_ultimo": 2035126,
- "contagem_dia": 4,
+ "contagem_dia": 5,
  "dia": "2026-11-22",
  "feitos": {
   "apromodaluh:158768": {
@@ -847,6 +847,10 @@
    "r": "gerado",
    "t": 1795329878
   },
+  "fumotom:51621": {
+   "r": "gerado",
+   "t": 1795337145
+  },
   "iuriindica:123964": {
    "r": "pulado:mesmo link",
    "t": 1795215974
@@ -1498,6 +1502,10 @@
   "link:https://www.amazon.com.br/dp/B0B4PZL68N": {
    "r": "duplicado",
    "t": 1795213161
+  },
+  "link:https://www.amazon.com.br/dp/B0B4WZQTKX": {
+   "r": "gerado",
+   "t": 1795337145
   },
   "link:https://www.amazon.com.br/dp/B0BQ3MNNFQ": {
    "r": "duplicado",
@@ -6129,59 +6137,6 @@
  "postados": [
   {
    "ids": [
-    "B0D3QWBSX5"
-   ],
-   "p": 243.0,
-   "t": 1795239165,
-   "w": [
-    "digital",
-    "eletronico",
-    "invicta",
-    "men",
-    "mostrador",
-    "racing"
-   ]
-  },
-  {
-   "ids": [
-    "B0HLKNR6NY"
-   ],
-   "p": 11.0,
-   "t": 1795242875,
-   "w": [
-    "capim",
-    "comprimento",
-    "decoracao",
-    "desidratado",
-    "encaixe",
-    "hastes",
-    "natural",
-    "pampas",
-    "pluma",
-    "seco",
-    "solta",
-    "total",
-    "vasos"
-   ]
-  },
-  {
-   "ids": [
-    "B09WF6T43K"
-   ],
-   "p": 407.0,
-   "t": 1795242945,
-   "w": [
-    "bota",
-    "camuto",
-    "elvin",
-    "feminina",
-    "plataforma",
-    "tornozelo",
-    "vince"
-   ]
-  },
-  {
-   "ids": [
     "B07MTHFGTQ"
    ],
    "p": 161.0,
@@ -7529,14 +7484,27 @@
     "metro",
     "purificadores"
    ]
+  },
+  {
+   "ids": [
+    "B0B4WZQTKX"
+   ],
+   "p": 381.0,
+   "t": 1795337100,
+   "w": [
+    "clarks",
+    "laurieann",
+    "vine",
+    "women"
+   ]
   }
  ],
  "resumo_dia": "2026-11-21",
  "tpl_ultimo": 2032135,
- "ult_ciclo": 1795334208.4899242,
+ "ult_ciclo": 1795337170.4747455,
  "ultimo_id": {
   "apromodaluh": 158823,
-  "fumotom": 51620,
+  "fumotom": 51621,
   "iuriindica": 124017,
   "juaocupons": 27618,
   "perfumepromo": 10098,
