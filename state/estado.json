@@ -1,6 +1,6 @@
 {
- "cmd_ultimo": 2035329,
- "contagem_dia": 20,
+ "cmd_ultimo": 2035551,
+ "contagem_dia": 23,
  "dia": "2026-11-22",
  "feitos": {
   "apromodaluh:158768": {
@@ -270,6 +270,54 @@
   "apromodaluh:158848": {
    "r": "pulado:repetido",
    "t": 1795347815
+  },
+  "apromodaluh:158849": {
+   "r": "pulado:repetido",
+   "t": 1795350089
+  },
+  "apromodaluh:158850": {
+   "r": "pulado:periferico de PC",
+   "t": 1795350089
+  },
+  "apromodaluh:158851": {
+   "r": "pulado:mesmo link",
+   "t": 1795350089
+  },
+  "apromodaluh:158852": {
+   "r": "pulado:repetido",
+   "t": 1795350089
+  },
+  "apromodaluh:158853": {
+   "r": "pulado:mesmo link",
+   "t": 1795350089
+  },
+  "apromodaluh:158854": {
+   "r": "pulado:mesmo link",
+   "t": 1795350089
+  },
+  "apromodaluh:158855": {
+   "r": "pulado:mesmo link",
+   "t": 1795350089
+  },
+  "apromodaluh:158856": {
+   "r": "pulado:repetido",
+   "t": 1795350089
+  },
+  "apromodaluh:158857": {
+   "r": "pulado:repetido",
+   "t": 1795350089
+  },
+  "apromodaluh:158858": {
+   "r": "pulado:mesmo link",
+   "t": 1795350089
+  },
+  "apromodaluh:158859": {
+   "r": "pulado:repetido",
+   "t": 1795350089
+  },
+  "apromodaluh:158860": {
+   "r": "pulado:repetido",
+   "t": 1795350089
   },
   "esg:1ABHVBZ": {
    "r": "avisado",
@@ -991,6 +1039,18 @@
    "r": "pulado:repetido",
    "t": 1795347815
   },
+  "fumotom:51632": {
+   "r": "pulado:loja desativada: magalu",
+   "t": 1795349442
+  },
+  "fumotom:51633": {
+   "r": "gerado",
+   "t": 1795349525
+  },
+  "fumotom:51634": {
+   "r": "gerado",
+   "t": 1795350131
+  },
   "iuriindica:123964": {
    "r": "pulado:mesmo link",
    "t": 1795215974
@@ -1307,6 +1367,10 @@
    "r": "pulado:loja desativada: magalu",
    "t": 1795345829
   },
+  "juaocupons:27621": {
+   "r": "falha",
+   "t": 1795348931
+  },
   "link:https://amzn.to/3YeTytk": {
    "r": "falha",
    "t": 1795346459
@@ -1443,6 +1507,10 @@
    "r": "gerado",
    "t": 1795264374
   },
+  "link:https://meli.la/2DiFUdk": {
+   "r": "falha",
+   "t": 1795348931
+  },
   "link:https://meli.la/2FG9TyS": {
    "r": "gerado",
    "t": 1795263943
@@ -1506,6 +1574,14 @@
   "link:https://mercadolivre.com/sec/2U6U32Q": {
    "r": "falha",
    "t": 1795317048
+  },
+  "link:https://produto.mercadolivre.com.br/MLB-4039471005-capa-protetor-de-colcho-elastico-queen-impermeavel-matelado-_JM": {
+   "r": "falha",
+   "t": 1795348868
+  },
+  "link:https://produto.mercadolivre.com.br/MLB-5857442960-tnis-kappa-pulse-supra-unissex-de-corrida-conforto-_JM": {
+   "r": "falha",
+   "t": 1795349482
   },
   "link:https://s.shopee.com.br/3Vm0NWOBVq?lp=aff": {
    "r": "duplicado",
@@ -1619,6 +1695,10 @@
    "r": "gerado",
    "t": 1795268509
   },
+  "link:https://www.amazon.com.br/dp/B07DHSCLPR": {
+   "r": "gerado",
+   "t": 1795348920
+  },
   "link:https://www.amazon.com.br/dp/B07F19X4L7": {
    "r": "gerado",
    "t": 1795272169
@@ -1715,6 +1795,10 @@
    "r": "gerado",
    "t": 1795270894
   },
+  "link:https://www.amazon.com.br/dp/B0CQ8P17ZZ": {
+   "r": "gerado",
+   "t": 1795350131
+  },
   "link:https://www.amazon.com.br/dp/B0CT9VZHD6": {
    "r": "falha",
    "t": 1795207029
@@ -1762,6 +1846,10 @@
   "link:https://www.amazon.com.br/dp/B0DYVSGMT5": {
    "r": "gerado",
    "t": 1795210302
+  },
+  "link:https://www.amazon.com.br/dp/B0DZ344RFK": {
+   "r": "gerado",
+   "t": 1795349525
   },
   "link:https://www.amazon.com.br/dp/B0F2HM2LB5": {
    "r": "gerado",
@@ -1826,6 +1914,10 @@
   "link:https://www.amazon.com.br/dp/B0FQCRTG24": {
    "r": "gerado",
    "t": 1795216052
+  },
+  "link:https://www.amazon.com.br/dp/B0FQG1SWXN": {
+   "r": "duplicado",
+   "t": 1795350084
   },
   "link:https://www.amazon.com.br/dp/B0FY6RY66N": {
    "r": "gerado",
@@ -2967,6 +3059,38 @@
    "r": "pulado:repetido",
    "t": 1795348261
   },
+  "pincei:370544": {
+   "r": "falha",
+   "t": 1795348868
+  },
+  "pincei:370545": {
+   "r": "pulado:repetido",
+   "t": 1795348873
+  },
+  "pincei:370546": {
+   "r": "gerado",
+   "t": 1795348920
+  },
+  "pincei:370547": {
+   "r": "pulado:repetido",
+   "t": 1795349447
+  },
+  "pincei:370548": {
+   "r": "falha",
+   "t": 1795349482
+  },
+  "pincei:370549": {
+   "r": "pulado:so cupom (ignorado)",
+   "t": 1795350070
+  },
+  "pincei:370550": {
+   "r": "duplicado",
+   "t": 1795350084
+  },
+  "pincei:370551": {
+   "r": "pulado:sem preco",
+   "t": 1795350089
+  },
   "promotom:115007": {
    "r": "pulado:sem link",
    "t": 1795203318
@@ -3266,6 +3390,10 @@
   "promotom:115099": {
    "r": "pulado:loja desativada: magalu",
    "t": 1795345828
+  },
+  "promotom:115100": {
+   "r": "pulado:sem preco",
+   "t": 1795348836
   },
   "teniscertocupons:63531": {
    "r": "cancelado_teste",
@@ -6421,77 +6549,6 @@
  "postados": [
   {
    "ids": [
-    "B00U85D3UG"
-   ],
-   "p": 244.0,
-   "t": 1795256177,
-   "w": [
-    "abas",
-    "acolchoado",
-    "alternativo",
-    "azul",
-    "bege",
-    "cama",
-    "canto",
-    "claro",
-    "edredao",
-    "edredom",
-    "estacoes",
-    "modern",
-    "reversivel",
-    "roupa",
-    "solteiro",
-    "threads",
-    "todas"
-   ]
-  },
-  {
-   "ids": [
-    "B0D3PR672T"
-   ],
-   "p": 43.0,
-   "t": 1795256246,
-   "w": [
-    "azul",
-    "caneta",
-    "canetas",
-    "compativel",
-    "cruzada",
-    "esferografica",
-    "giratorias",
-    "media",
-    "mengran",
-    "ponta",
-    "recargas",
-    "tinta"
-   ]
-  },
-  {
-   "ids": [
-    "B0F2HM2LB5"
-   ],
-   "p": 318.0,
-   "t": 1795256314,
-   "w": [
-    "aco",
-    "armario",
-    "armazenamento",
-    "banheiro",
-    "cozinha",
-    "deslizante",
-    "despensa",
-    "inoxidavel",
-    "niveis",
-    "organizador",
-    "organizadores",
-    "pacotes",
-    "pia",
-    "prateleira",
-    "sob"
-   ]
-  },
-  {
-   "ids": [
     "B0DW6X9K7P"
    ],
    "p": 151.0,
@@ -7930,19 +7987,91 @@
     "apple",
     "iphone"
    ]
+  },
+  {
+   "ids": [
+    "B07DHSCLPR"
+   ],
+   "p": 28.59,
+   "t": 1795348878,
+   "w": [
+    "750ml",
+    "baby",
+    "johnson",
+    "shampoo"
+   ]
+  },
+  {
+   "ids": [
+    "B0DZ344RFK"
+   ],
+   "p": 55.0,
+   "t": 1795349482,
+   "w": [
+    "camiseta",
+    "daily",
+    "dry",
+    "insider",
+    "leaf",
+    "masculina",
+    "shirt"
+   ]
+  },
+  {
+   "ids": [
+    "B0FQG1SWXN"
+   ],
+   "p": 1710.09,
+   "t": 1795350078,
+   "w": [
+    "apple",
+    "gps",
+    "watch"
+   ]
+  },
+  {
+   "ids": [
+    "B0CQ8P17ZZ"
+   ],
+   "p": 331.0,
+   "t": 1795350089,
+   "w": [
+    "900lbs",
+    "adjustable",
+    "and",
+    "backyard",
+    "capacity",
+    "flying",
+    "for",
+    "hanging",
+    "heyzoo",
+    "inch",
+    "indoor",
+    "kids",
+    "multicolor",
+    "outdoor",
+    "playground",
+    "saucer",
+    "sets",
+    "straps",
+    "swing",
+    "tree",
+    "weight",
+    "with"
+   ]
   }
  ],
  "resumo_dia": "2026-11-21",
  "tpl_ultimo": 2032135,
- "ult_ciclo": 1795348432.2575984,
+ "ult_ciclo": 1795350156.8776839,
  "ultimo_id": {
-  "apromodaluh": 158848,
-  "fumotom": 51631,
+  "apromodaluh": 158860,
+  "fumotom": 51634,
   "iuriindica": 124017,
-  "juaocupons": 27620,
+  "juaocupons": 27621,
   "perfumepromo": 10098,
-  "pincei": 370543,
-  "promotom": 115099,
+  "pincei": 370551,
+  "promotom": 115100,
   "teniscertocupons": 66139,
   "teste": 1795214930
  }
