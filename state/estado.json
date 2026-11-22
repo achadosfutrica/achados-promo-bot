@@ -1,6 +1,6 @@
 {
- "cmd_ultimo": 2036375,
- "contagem_dia": 48,
+ "cmd_ultimo": 2036757,
+ "contagem_dia": 63,
  "dia": "2026-11-22",
  "feitos": {
   "apromodaluh:158768": {
@@ -458,6 +458,10 @@
   "apromodaluh:158895": {
    "r": "pulado:repetido",
    "t": 1795359751
+  },
+  "apromodaluh:158896": {
+   "r": "pulado:so cupom (ignorado)",
+   "t": 1795364187
   },
   "esg:1ABHVBZ": {
    "r": "avisado",
@@ -1219,6 +1223,22 @@
    "r": "pulado:repetido",
    "t": 1795358530
   },
+  "fumotom:51641": {
+   "r": "gerado",
+   "t": 1795364335
+  },
+  "fumotom:51642": {
+   "r": "gerado",
+   "t": 1795364231
+  },
+  "fumotom:51643": {
+   "r": "pulado:repetido",
+   "t": 1795364188
+  },
+  "fumotom:51644": {
+   "r": "gerado",
+   "t": 1795364570
+  },
   "iuriindica:123964": {
    "r": "pulado:mesmo link",
    "t": 1795215974
@@ -1431,6 +1451,10 @@
    "r": "pulado:repetido",
    "t": 1795354367
   },
+  "iuriindica:124029": {
+   "r": "pulado:repetido",
+   "t": 1795364188
+  },
   "juaocupons:27573": {
    "r": "pulado:loja desconhecida",
    "t": 1795213187
@@ -1599,6 +1623,18 @@
    "r": "falha",
    "t": 1795359759
   },
+  "juaocupons:27626": {
+   "r": "falha",
+   "t": 1795364267
+  },
+  "juaocupons:27628": {
+   "r": "falha",
+   "t": 1795364363
+  },
+  "juaocupons:27629": {
+   "r": "pulado:sem preco",
+   "t": 1795365204
+  },
   "link:https://amzn.to/3YeTytk": {
    "r": "falha",
    "t": 1795346459
@@ -1609,7 +1645,7 @@
   },
   "link:https://amzn.to/4kf5ZRs": {
    "r": "falha",
-   "t": 1795265642
+   "t": 1795364363
   },
   "link:https://click.centauro.com.br/13Nl/3022r95u": {
    "r": "falha",
@@ -1763,6 +1799,10 @@
    "r": "gerado",
    "t": 1795274630
   },
+  "link:https://meli.la/2QPuJUw": {
+   "r": "falha",
+   "t": 1795364267
+  },
   "link:https://meli.la/2TCX82v": {
    "r": "falha",
    "t": 1795273377
@@ -1811,6 +1851,10 @@
    "r": "falha",
    "t": 1795317048
   },
+  "link:https://produto.mercadolivre.com.br/MLB-3871592333-mala-viagem-bordo-10kg-compacta-premium-giratoria-cadeado-_JM": {
+   "r": "gerado",
+   "t": 1795364911
+  },
   "link:https://produto.mercadolivre.com.br/MLB-4039471005-capa-protetor-de-colcho-elastico-queen-impermeavel-matelado-_JM": {
    "r": "falha",
    "t": 1795348868
@@ -1818,6 +1862,10 @@
   "link:https://produto.mercadolivre.com.br/MLB-4096917772-short-masculino-bermuda-praia-2-bolsos-ziper-secagem-rapida-_JM": {
    "r": "gerado",
    "t": 1795350898
+  },
+  "link:https://produto.mercadolivre.com.br/MLB-5579548716-vestido-longo-tule-brilho-com-manga-e-fenda-casamento-_JM": {
+   "r": "gerado",
+   "t": 1795364804
   },
   "link:https://produto.mercadolivre.com.br/MLB-5857442960-tnis-kappa-pulse-supra-unissex-de-corrida-conforto-_JM": {
    "r": "falha",
@@ -1874,6 +1922,10 @@
   "link:https://www.amazon.com.br/dp/8578606574": {
    "r": "cancelado_teste",
    "t": 1795208765
+  },
+  "link:https://www.amazon.com.br/dp/B00005K40I": {
+   "r": "gerado",
+   "t": 1795364570
   },
   "link:https://www.amazon.com.br/dp/B0001XVUFA": {
    "r": "gerado",
@@ -1983,6 +2035,10 @@
    "r": "gerado",
    "t": 1795268089
   },
+  "link:https://www.amazon.com.br/dp/B07YXK85MW": {
+   "r": "gerado",
+   "t": 1795364231
+  },
   "link:https://www.amazon.com.br/dp/B083JG28TD": {
    "r": "gerado",
    "t": 1795226326
@@ -1990,6 +2046,10 @@
   "link:https://www.amazon.com.br/dp/B084BQ7FDW": {
    "r": "gerado",
    "t": 1795212971
+  },
+  "link:https://www.amazon.com.br/dp/B08DK5HD6C": {
+   "r": "gerado",
+   "t": 1795364335
   },
   "link:https://www.amazon.com.br/dp/B08T6Q3KF4": {
    "r": "gerado",
@@ -2111,6 +2171,10 @@
    "r": "gerado",
    "t": 1795348407
   },
+  "link:https://www.amazon.com.br/dp/B0DJFT8HZC": {
+   "r": "gerado",
+   "t": 1795364502
+  },
   "link:https://www.amazon.com.br/dp/B0DLPX11ZS": {
    "r": "gerado",
    "t": 1795206932
@@ -2150,6 +2214,10 @@
   "link:https://www.amazon.com.br/dp/B0F8KDMJQP": {
    "r": "gerado",
    "t": 1795356212
+  },
+  "link:https://www.amazon.com.br/dp/B0F8P16K2L": {
+   "r": "gerado",
+   "t": 1795365464
   },
   "link:https://www.amazon.com.br/dp/B0FC62Y27J": {
    "r": "gerado",
@@ -2311,6 +2379,10 @@
    "r": "cancelado_teste",
    "t": 1795211058
   },
+  "link:https://www.belezanaweb.com.br/produto/truss-uso-obrigatorio-tratamento-reconstrutor-260ml/": {
+   "r": "gerado",
+   "t": 1795364187
+  },
   "link:https://www.centauro.com.br/kit-3-pares-de-meias-de-corrida-asics-quarter-tamanho-34-a-38-adulto-987919.html?cor=O4&af_adset=teniscerto&af_click_lookback=1h&shortlink=3022r95u&deep_link_value=centauro%3A%2F%2Fpdp%3Fsku%3D987919O4&source_caller=api_v2&af_channel=network&c=social-com-divulgacao_teniscerto&af_dp=centauro%3A%2F%2Fpdp%3Fsku%3D987919O4&is_retargeting=true&onelink_id=13Nl&af_viewthrough_lookback=1h": {
    "r": "falha",
    "t": 1795215491
@@ -2335,6 +2407,22 @@
    "r": "falha",
    "t": 1795261510
   },
+  "link:https://www.mercadolivre.com.br/aspirador-de-po-e-agua-electrolux-acqua-power-1400w-11l-com-funcao-sopro-rodas-360-alta-succao-e-acessorios-para-limpeza-residencial-e-automotiva-aqp20/p/MLB6215149": {
+   "r": "duplicado",
+   "t": 1795364071
+  },
+  "link:https://www.mercadolivre.com.br/casinha-gato-toca-arranhador-madeira-mdf-carpete-30x47x36cm-acb-torneados-em-madeiras/p/MLB70377387": {
+   "r": "duplicado",
+   "t": 1795364970
+  },
+  "link:https://www.mercadolivre.com.br/cooktop-5-bocas-atlas-agile-up-com-mesa-de-vidro-a-gas-preto-bivolt/p/MLB49566471": {
+   "r": "gerado",
+   "t": 1795365415
+  },
+  "link:https://www.mercadolivre.com.br/fone-de-ouvido-bluetooth-dapon-h02d-bluetooth-51-modo-sem-fio-e-p2-35mm-dobravel-almofadas-maciasmicrofone-integrado-controle-no-fone-carregamento-tipo-c-preto/p/MLB24117280": {
+   "r": "gerado",
+   "t": 1795365540
+  },
   "link:https://www.mercadolivre.com.br/jogo-de-toalhas-4-pcs-fio-cardado-100-algodao-bosco-karsten-cinza-bosco/p/MLB53989572": {
    "r": "gerado",
    "t": 1795350742
@@ -2347,6 +2435,10 @@
    "r": "duplicado",
    "t": 1795296175
   },
+  "link:https://www.mercadolivre.com.br/perfume-arabe-al-wataiah-shagaf-al-ward-edp-100ml/up/MLBU3874829264": {
+   "r": "gerado",
+   "t": 1795365318
+  },
   "link:https://www.mercadolivre.com.br/perfume-banderas-blue-seduction-eau-de-toilette-200-ml-masculino/p/MLB36512204": {
    "r": "gerado",
    "t": 1795357971
@@ -2354,6 +2446,10 @@
   "link:https://www.mercadolivre.com.br/philips-oneblade-aparador-e-barbeador-eletrico-com-pente-ajustavel-5-em-1-raspa-apara-e-contorna-uso-seco-e-molhado-100-prova-dagua-sem-fio-bivolt-qp142510/p/MLB64322156": {
    "r": "gerado",
    "t": 1795350981
+  },
+  "link:https://www.mercadolivre.com.br/sony-playstation-store-gift-card-r-300-digital/p/MLB50196683": {
+   "r": "gerado",
+   "t": 1795364705
   },
   "link:https://www.mercadolivre.com.br/tenis-de-corrida-masculino-runfalcon-6-cloudfoam-adidas/up/MLBU3950203810": {
    "r": "gerado",
@@ -2367,6 +2463,10 @@
    "r": "gerado",
    "t": 1795347815
   },
+  "link:https://www.mercadolivre.com.br/watersy-canecas-e-copos-termicos-350ml-alta-qualidade/up/MLBU4558000949": {
+   "r": "gerado",
+   "t": 1795364034
+  },
   "link:https://www.mizuno.com.br/tenis-de-corrida-mizuno-hyperwarp-pro-102369003-004/p": {
    "r": "gerado",
    "t": 1795273343
@@ -2378,6 +2478,18 @@
   "link:https://www.netshoes.com.br/lst/afil-corre": {
    "r": "gerado",
    "t": 1795296485
+  },
+  "link:https://www.netshoes.com.br/p/caixa-de-som-bluetooth-jbl-go-5-branco-GKP-009W-014?af_sub1=43984&af_channel=Affiliates&af_media_type=web&af_adset_id=43984&af_sub_siteID=ahpmn6xeOx8-XcuriDG1STKQNyWJzavjBg&af_click_lookback=7d&is_retargeting=true&ranU1=glendapincei-20": {
+   "r": "falha",
+   "t": 1795365550
+  },
+  "link:https://www.netshoes.com.br/p/caixa-de-som-bluetooth-jbl-go-essential-2-preto-GKP-007F-N01?af_sub1=43984&af_channel=Affiliates&af_media_type=web&af_adset_id=43984&af_sub_siteID=ahpmn6xeOx8-4pZ0CHujhTfNtUhjkPP96g&af_click_lookback=7d&is_retargeting=true&ranU1=glendapincei-20": {
+   "r": "gerado",
+   "t": 1795365620
+  },
+  "link:https://www.netshoes.com.br/p/caixa-de-som-bluetooth-jbl-partybox-onthego-2-plus-preto-GKP-009X-006?af_sub1=43984&af_channel=Affiliates&af_media_type=web&af_adset_id=43984&af_sub_siteID=ahpmn6xeOx8-ys7coDVDB41jgrvePCw3sg&af_click_lookback=7d&is_retargeting=true&ranU1=glendapincei-20": {
+   "r": "gerado",
+   "t": 1795365723
   },
   "link:https://www.netshoes.com.br/p/tenis-olympikus-corre-5-bege+dourado-SE7-0803-884-36?sellerId=0": {
    "r": "duplicado",
@@ -3591,6 +3703,90 @@
    "r": "pulado:loja desconhecida",
    "t": 1795360339
   },
+  "pincei:370594": {
+   "r": "pulado:repetido",
+   "t": 1795363950
+  },
+  "pincei:370595": {
+   "r": "gerado",
+   "t": 1795364034
+  },
+  "pincei:370596": {
+   "r": "duplicado",
+   "t": 1795364071
+  },
+  "pincei:370597": {
+   "r": "gerado",
+   "t": 1795364502
+  },
+  "pincei:370598": {
+   "r": "pulado:so cupom (ignorado)",
+   "t": 1795364123
+  },
+  "pincei:370599": {
+   "r": "gerado",
+   "t": 1795364187
+  },
+  "pincei:370600": {
+   "r": "pulado:periferico de PC",
+   "t": 1795364608
+  },
+  "pincei:370601": {
+   "r": "gerado",
+   "t": 1795364705
+  },
+  "pincei:370602": {
+   "r": "pulado:so cupom (ignorado)",
+   "t": 1795364732
+  },
+  "pincei:370603": {
+   "r": "gerado",
+   "t": 1795364804
+  },
+  "pincei:370604": {
+   "r": "gerado",
+   "t": 1795364911
+  },
+  "pincei:370605": {
+   "r": "pulado:sem preco",
+   "t": 1795364935
+  },
+  "pincei:370606": {
+   "r": "duplicado",
+   "t": 1795364970
+  },
+  "pincei:370607": {
+   "r": "gerado",
+   "t": 1795365318
+  },
+  "pincei:370608": {
+   "r": "gerado",
+   "t": 1795365415
+  },
+  "pincei:370609": {
+   "r": "gerado",
+   "t": 1795365464
+  },
+  "pincei:370610": {
+   "r": "pulado:repetido",
+   "t": 1795365469
+  },
+  "pincei:370611": {
+   "r": "gerado",
+   "t": 1795365540
+  },
+  "pincei:370612": {
+   "r": "falha",
+   "t": 1795365550
+  },
+  "pincei:370613": {
+   "r": "gerado",
+   "t": 1795365620
+  },
+  "pincei:370614": {
+   "r": "gerado",
+   "t": 1795365723
+  },
   "promotom:115007": {
    "r": "pulado:sem link",
    "t": 1795203318
@@ -3898,6 +4094,22 @@
   "promotom:115101": {
    "r": "pulado:sem preco",
    "t": 1795359683
+  },
+  "promotom:115102": {
+   "r": "pulado:repetido",
+   "t": 1795364187
+  },
+  "promotom:115103": {
+   "r": "pulado:repetido",
+   "t": 1795364389
+  },
+  "promotom:115104": {
+   "r": "pulado:repetido",
+   "t": 1795364187
+  },
+  "promotom:115105": {
+   "r": "pulado:loja desativada: magalu",
+   "t": 1795363926
   },
   "teniscertocupons:63531": {
    "r": "cancelado_teste",
@@ -7053,326 +7265,6 @@
  "postados": [
   {
    "ids": [
-    "B0FMZMVD8B",
-    "B0FMZN9WNP"
-   ],
-   "p": 86.0,
-   "t": 1795267259,
-   "w": [
-    "branco",
-    "cross",
-    "jaqueta",
-    "masculina",
-    "preto",
-    "reebok",
-    "xadrez"
-   ]
-  },
-  {
-   "ids": [
-    "B0FN185QW9"
-   ],
-   "p": 69.0,
-   "t": 1795267328,
-   "w": [
-    "apparel",
-    "classico",
-    "feminino",
-    "meio",
-    "moletom",
-    "preto",
-    "reebok",
-    "ziper"
-   ]
-  },
-  {
-   "ids": [
-    "B0FN1BGHWW"
-   ],
-   "p": 38.0,
-   "t": 1795267398,
-   "w": [
-    "ajuste",
-    "apparel",
-    "blusa",
-    "comprida",
-    "elastico",
-    "feminina",
-    "gola",
-    "jersei",
-    "leve",
-    "manga",
-    "padrao",
-    "poliester",
-    "redonda",
-    "reebok",
-    "tecido"
-   ]
-  },
-  {
-   "ids": [],
-   "p": 65.0,
-   "t": 1795267846,
-   "w": [
-    "ainda",
-    "ativo",
-    "livre",
-    "mercado",
-    "selecionados"
-   ]
-  },
-  {
-   "ids": [
-    "B0HJBL8G54"
-   ],
-   "p": 158.0,
-   "t": 1795267945,
-   "w": [
-    "aluminio",
-    "apple",
-    "azul",
-    "caixa",
-    "esportiva",
-    "gps",
-    "marinho",
-    "meia",
-    "noite",
-    "pulseira",
-    "watch"
-   ]
-  },
-  {
-   "ids": [
-    "B0GFSJSPFT"
-   ],
-   "p": 87.0,
-   "t": 1795267977,
-   "w": [
-    "atleticos",
-    "compresn",
-    "conjunto",
-    "reebokmeninos",
-    "set",
-    "short",
-    "shorts"
-   ]
-  },
-  {
-   "ids": [
-    "B07YD3G568"
-   ],
-   "p": 366.0,
-   "t": 1795268046,
-   "w": [
-    "14tb",
-    "digital",
-    "elements",
-    "externo",
-    "hdd",
-    "usb",
-    "western"
-   ]
-  },
-  {
-   "ids": [
-    "B07D7P4SY4"
-   ],
-   "p": 111.0,
-   "t": 1795268463,
-   "w": [
-    "64ab",
-    "drive",
-    "fit",
-    "flash",
-    "muf",
-    "plus",
-    "samsung",
-    "usb"
-   ]
-  },
-  {
-   "ids": [],
-   "p": 379.0,
-   "t": 1795268535,
-   "w": [
-    "bluetooth",
-    "edition",
-    "fio",
-    "logitech",
-    "master",
-    "mouse"
-   ]
-  },
-  {
-   "ids": [
-    "B0FMZHLLTD"
-   ],
-   "p": 45.0,
-   "t": 1795268616,
-   "w": [
-    "apparel",
-    "camiseta",
-    "masculina",
-    "reebok",
-    "volt"
-   ]
-  },
-  {
-   "ids": [],
-   "p": 854.0,
-   "t": 1795269040,
-   "w": [
-    "25g64",
-    "300hz",
-    "full",
-    "gamer",
-    "hdmi",
-    "led",
-    "mini",
-    "monitor",
-    "mouse",
-    "pad",
-    "tcl"
-   ]
-  },
-  {
-   "ids": [
-    "B0FN111YFW"
-   ],
-   "p": 42.0,
-   "t": 1795269119,
-   "w": [
-    "apparel",
-    "blusa",
-    "estampa",
-    "feminina",
-    "linhas",
-    "reebok",
-    "topograficas"
-   ]
-  },
-  {
-   "ids": [
-    "B0FN4MNVYX"
-   ],
-   "p": 61.0,
-   "t": 1795269188,
-   "w": [
-    "brushback",
-    "legging",
-    "motum",
-    "reebokfeminino"
-   ]
-  },
-  {
-   "ids": [
-    "1883948371-49866024521"
-   ],
-   "p": 496.6,
-   "t": 1795269268,
-   "w": [
-    "impostos",
-    "inclusos"
-   ]
-  },
-  {
-   "ids": [
-    "B0FN2Q1KC2"
-   ],
-   "p": 48.0,
-   "t": 1795269642,
-   "w": [
-    "cruz",
-    "reebokmasculino",
-    "short",
-    "shorts"
-   ]
-  },
-  {
-   "ids": [
-    "B0FN4MY5HM"
-   ],
-   "p": 82.0,
-   "t": 1795269711,
-   "w": [
-    "calcas",
-    "pant",
-    "reebokfeminino",
-    "woven"
-   ]
-  },
-  {
-   "ids": [
-    "B0FN182R4D"
-   ],
-   "p": 76.0,
-   "t": 1795269781,
-   "w": [
-    "capuz",
-    "reebokfeminino",
-    "sueter",
-    "tricot",
-    "zip"
-   ]
-  },
-  {
-   "ids": [
-    "B0CMVBVFW2"
-   ],
-   "p": 18.0,
-   "t": 1795270850,
-   "w": [
-    "300g",
-    "colageno",
-    "formula",
-    "hidrolisado",
-    "lavitan",
-    "super",
-    "verisol"
-   ]
-  },
-  {
-   "ids": [
-    "B07XYH4Q1F"
-   ],
-   "p": 230.0,
-   "t": 1795271444,
-   "w": [
-    "ajustaveis",
-    "anos",
-    "balanco",
-    "comporta",
-    "corda",
-    "disco",
-    "escalada",
-    "multiuso",
-    "partir",
-    "quatro",
-    "resistente",
-    "sentar",
-    "suporte",
-    "swurfer",
-    "verde"
-   ]
-  },
-  {
-   "ids": [],
-   "p": 799.0,
-   "t": 1795272053,
-   "w": [
-    "alto",
-    "aoc",
-    "dci",
-    "falantes",
-    "ips",
-    "monitor",
-    "srgb",
-    "u27b3a",
-    "uhd"
-   ]
-  },
-  {
-   "ids": [
     "B07F19X4L7"
    ],
    "p": 10.0,
@@ -8596,19 +8488,254 @@
     "pure",
     "stella"
    ]
+  },
+  {
+   "ids": [],
+   "p": 19.17,
+   "t": 1795363977,
+   "w": [
+    "350ml",
+    "copo",
+    "cores",
+    "termico",
+    "watersy"
+   ]
+  },
+  {
+   "ids": [
+    "6215149"
+   ],
+   "p": 219.0,
+   "t": 1795364059,
+   "w": [
+    "11l",
+    "1400w",
+    "acqua",
+    "agua",
+    "aspirador",
+    "electrolux",
+    "power"
+   ]
+  },
+  {
+   "ids": [],
+   "p": 84.9,
+   "t": 1795364125,
+   "w": [
+    "260ml",
+    "obrigatorio",
+    "reconstrutor",
+    "tratamento",
+    "truss",
+    "uso"
+   ]
+  },
+  {
+   "ids": [
+    "B07YXK85MW"
+   ],
+   "p": 358.0,
+   "t": 1795364188,
+   "w": [
+    "calcanhar",
+    "fechado",
+    "feminino",
+    "jessica",
+    "rayli2",
+    "sandalia",
+    "simpson"
+   ]
+  },
+  {
+   "ids": [
+    "B08DK5HD6C"
+   ],
+   "p": 10.0,
+   "t": 1795364292,
+   "w": [
+    "300g",
+    "mel"
+   ]
+  },
+  {
+   "ids": [
+    "B0DJFT8HZC"
+   ],
+   "p": 4299.0,
+   "t": 1795364434,
+   "w": [
+    "apple",
+    "iphone"
+   ]
+  },
+  {
+   "ids": [
+    "B00005K40I"
+   ],
+   "p": 79.0,
+   "t": 1795364527,
+   "w": [
+    "brancos",
+    "chicago",
+    "girls",
+    "jovens",
+    "patins",
+    "rink",
+    "roller",
+    "skate",
+    "skates"
+   ]
+  },
+  {
+   "ids": [
+    "50196683"
+   ],
+   "p": 270.0,
+   "t": 1795364633,
+   "w": [
+    "grupo",
+    "pincei",
+    "tech"
+   ]
+  },
+  {
+   "ids": [
+    "5579548716"
+   ],
+   "p": 125.0,
+   "t": 1795364756,
+   "w": [
+    "brilho",
+    "fenda",
+    "longo",
+    "manga",
+    "tule",
+    "vestido"
+   ]
+  },
+  {
+   "ids": [
+    "3871592333"
+   ],
+   "p": 145.27,
+   "t": 1795364831,
+   "w": [
+    "10kg",
+    "bordo",
+    "mala",
+    "viagem"
+   ]
+  },
+  {
+   "ids": [
+    "70377387"
+   ],
+   "p": 24.9,
+   "t": 1795364959,
+   "w": [
+    "arranhador",
+    "casinha",
+    "gato",
+    "madeira",
+    "toca"
+   ]
+  },
+  {
+   "ids": [],
+   "p": 126.88,
+   "t": 1795365228,
+   "w": [
+    "100ml",
+    "arabe",
+    "edp",
+    "perfume",
+    "shagaf",
+    "ward",
+    "wataiah"
+   ]
+  },
+  {
+   "ids": [
+    "49566471"
+   ],
+   "p": 367.99,
+   "t": 1795365342,
+   "w": [
+    "agile",
+    "atlas",
+    "bivolt",
+    "bocas",
+    "cooktop",
+    "gas",
+    "mesa",
+    "vidro"
+   ]
+  },
+  {
+   "ids": [
+    "B0F8P16K2L"
+   ],
+   "p": 89.0,
+   "t": 1795365420,
+   "w": [
+    "grupo",
+    "perfumes",
+    "pincei"
+   ]
+  },
+  {
+   "ids": [
+    "24117280"
+   ],
+   "p": 70.9,
+   "t": 1795365493,
+   "w": [
+    "bluetooth",
+    "dapon",
+    "fone",
+    "h02d",
+    "ouvido",
+    "preto"
+   ]
+  },
+  {
+   "ids": [],
+   "p": 137.97,
+   "t": 1795365552,
+   "w": [
+    "bluetooth",
+    "caixa",
+    "essential",
+    "jbl",
+    "preto",
+    "som"
+   ]
+  },
+  {
+   "ids": [],
+   "p": 1375.92,
+   "t": 1795365626,
+   "w": [
+    "caixa",
+    "jbl",
+    "partybox",
+    "plus",
+    "som",
+    "the"
+   ]
   }
  ],
  "resumo_dia": "2026-11-21",
  "tpl_ultimo": 2032135,
- "ult_ciclo": 1795360339.7345,
+ "ult_ciclo": 1795365723.9818122,
  "ultimo_id": {
-  "apromodaluh": 158895,
-  "fumotom": 51640,
-  "iuriindica": 124028,
-  "juaocupons": 27625,
+  "apromodaluh": 158896,
+  "fumotom": 51644,
+  "iuriindica": 124029,
+  "juaocupons": 27629,
   "perfumepromo": 10098,
-  "pincei": 370593,
-  "promotom": 115101,
+  "pincei": 370614,
+  "promotom": 115105,
   "teniscertocupons": 66139,
   "teste": 1795214930
  }
