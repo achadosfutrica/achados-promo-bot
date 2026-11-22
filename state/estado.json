@@ -1,6 +1,6 @@
 {
- "cmd_ultimo": 2037108,
- "contagem_dia": 73,
+ "cmd_ultimo": 2037279,
+ "contagem_dia": 82,
  "dia": "2026-11-22",
  "feitos": {
   "apromodaluh:158768": {
@@ -1251,6 +1251,22 @@
    "r": "gerado",
    "t": 1795370163
   },
+  "fumotom:51648": {
+   "r": "duplicado",
+   "t": 1795371434
+  },
+  "fumotom:51649": {
+   "r": "gerado",
+   "t": 1795372091
+  },
+  "fumotom:51650": {
+   "r": "gerado",
+   "t": 1795372021
+  },
+  "fumotom:51651": {
+   "r": "pulado:aliexpress (bloqueado)",
+   "t": 1795372435
+  },
   "iuriindica:123964": {
    "r": "pulado:mesmo link",
    "t": 1795215974
@@ -1667,6 +1683,14 @@
    "r": "pulado:sem link",
    "t": 1795370627
   },
+  "juaocupons:27633": {
+   "r": "pulado:sem link",
+   "t": 1795372435
+  },
+  "juaocupons:27634": {
+   "r": "pulado:sem link",
+   "t": 1795372435
+  },
   "link:https://amzn.to/3YeTytk": {
    "r": "falha",
    "t": 1795346459
@@ -1963,6 +1987,14 @@
    "r": "gerado",
    "t": 1795368303
   },
+  "link:https://www.adidas.com.br/bolsa-festival-adicolor-classic/JX0227.html?merchantid=79926&mmc=adiAffiliate_LAM_BR+_AFF_NA_httpwwwpinceicombr_NA_NA_Awin_NA__690943_Social+Content": {
+   "r": "gerado",
+   "t": 1795371422
+  },
+  "link:https://www.adidas.com.br/bolsa-organizadora-tiro_nster-infantil/KT2063.html?merchantid=79926&mmc=adiAffiliate_LAM_BR+_AFF_NA_httpwwwpinceicombr_NA_NA_Awin_NA__690943_Social+Content": {
+   "r": "gerado",
+   "t": 1795371355
+  },
   "link:https://www.amazon.com.br/b?ie=UTF8&node=223186559011&linkCode=sl2&tag=promotom05-20&linkId=f155ce5d9728807146c12d5bf6aec8c2&ref_=as_li_ss_tl&ascsubtag=srctok-20b45474d2408a6b&btn_type=ss&btn_ref=srctok-20b45474d2408a6b": {
    "r": "falha",
    "t": 1795268122
@@ -1991,6 +2023,18 @@
    "r": "gerado",
    "t": 1795358023
   },
+  "link:https://www.amazon.com.br/dp/B004CYZ7ZI": {
+   "r": "gerado",
+   "t": 1795372536
+  },
+  "link:https://www.amazon.com.br/dp/B007EBUB66": {
+   "r": "duplicado",
+   "t": 1795371434
+  },
+  "link:https://www.amazon.com.br/dp/B00E0EUP66": {
+   "r": "gerado",
+   "t": 1795372489
+  },
   "link:https://www.amazon.com.br/dp/B00GIOSGIK": {
    "r": "gerado",
    "t": 1795272727
@@ -2010,6 +2054,10 @@
   "link:https://www.amazon.com.br/dp/B00U85D3UG": {
    "r": "gerado",
    "t": 1795256221
+  },
+  "link:https://www.amazon.com.br/dp/B00Z8JDIUC": {
+   "r": "gerado",
+   "t": 1795372021
   },
   "link:https://www.amazon.com.br/dp/B015RKWZY6": {
    "r": "gerado",
@@ -2178,6 +2226,10 @@
   "link:https://www.amazon.com.br/dp/B0CF57YJ4G": {
    "r": "gerado",
    "t": 1795352048
+  },
+  "link:https://www.amazon.com.br/dp/B0CGF9HQB1": {
+   "r": "gerado",
+   "t": 1795372091
   },
   "link:https://www.amazon.com.br/dp/B0CJ9NVNW6": {
    "r": "gerado",
@@ -2383,6 +2435,10 @@
    "r": "gerado",
    "t": 1795354341
   },
+  "link:https://www.amazon.com.br/dp/B0H5D9YQ1W": {
+   "r": "gerado",
+   "t": 1795372609
+  },
   "link:https://www.amazon.com.br/dp/B0H5G5BBWX": {
    "r": "duplicado",
    "t": 1795229110
@@ -2471,6 +2527,10 @@
    "r": "falha",
    "t": 1795215311
   },
+  "link:https://www.dafiti.com.br/Bolsa-Grande-Feminina-Santa-Lolla-Nylon-Preta-15007202.html?adj_t=pou776n&adj_campaign=awin&adj_adgroup=690943&adj_creative=20261122&awin_click_id=17697_1795372615_08c9c7860f85c867adb669c612462a85&awin_program_code=17697": {
+   "r": "falha",
+   "t": 1795372621
+  },
   "link:https://www.kabum.com.br/produto/1006946/mouse-gamer-sem-fio-logitech-g-pro-x2-superstrike-lightspeed-61g-cliques-tateis-personalizaveis-usb-c-preto-e-branco-910-007775": {
    "r": "gerado",
    "t": 1795215949
@@ -2551,6 +2611,10 @@
    "r": "duplicado",
    "t": 1795274058
   },
+  "link:https://www.mizuno.com.br/tenis-de-corrida-mizuno-hyperwarp-pro-unissex-laranja-11554/p": {
+   "r": "gerado",
+   "t": 1795371953
+  },
   "link:https://www.netshoes.com.br/lst/afil-corre": {
    "r": "gerado",
    "t": 1795296485
@@ -2614,6 +2678,10 @@
   "link:https://www.nike.com.br/tenis-nike-sb-malor-masculino-029484.html?af_channel=690943": {
    "r": "gerado",
    "t": 1795352639
+  },
+  "link:https://www.paguemenos.com.br/kit-seda-mega-crescimento-shampoo-300ml-condicionador-250ml-mascara-de-tratamento-90g-creme-par/p": {
+   "r": "gerado",
+   "t": 1795371285
   },
   "perfumepromo:10077": {
    "r": "pulado:sem link",
@@ -3995,6 +4063,58 @@
    "r": "pulado:repetido",
    "t": 1795370664
   },
+  "pincei:370642": {
+   "r": "gerado",
+   "t": 1795371285
+  },
+  "pincei:370643": {
+   "r": "gerado",
+   "t": 1795371355
+  },
+  "pincei:370644": {
+   "r": "gerado",
+   "t": 1795371422
+  },
+  "pincei:370645": {
+   "r": "pulado:so cupom (ignorado)",
+   "t": 1795371428
+  },
+  "pincei:370646": {
+   "r": "pulado:so cupom (ignorado)",
+   "t": 1795371840
+  },
+  "pincei:370647": {
+   "r": "pulado:so cupom (ignorado)",
+   "t": 1795371845
+  },
+  "pincei:370648": {
+   "r": "pulado:so cupom (ignorado)",
+   "t": 1795371851
+  },
+  "pincei:370649": {
+   "r": "pulado:so cupom (ignorado)",
+   "t": 1795372441
+  },
+  "pincei:370650": {
+   "r": "gerado",
+   "t": 1795372489
+  },
+  "pincei:370651": {
+   "r": "gerado",
+   "t": 1795372536
+  },
+  "pincei:370652": {
+   "r": "gerado",
+   "t": 1795372609
+  },
+  "pincei:370653": {
+   "r": "falha",
+   "t": 1795372621
+  },
+  "pincei:370654": {
+   "r": "pulado:sem preco",
+   "t": 1795372645
+  },
   "promotom:115007": {
    "r": "pulado:sem link",
    "t": 1795203318
@@ -4331,6 +4451,10 @@
    "r": "pulado:sem preco",
    "t": 1795370627
   },
+  "promotom:115109": {
+   "r": "pulado:sem link",
+   "t": 1795372435
+  },
   "teniscertocupons:63531": {
    "r": "cancelado_teste",
    "t": 1795215823
@@ -4458,6 +4582,10 @@
   "teniscertocupons:66143": {
    "r": "falha",
    "t": 1795370668
+  },
+  "teniscertocupons:66144": {
+   "r": "gerado",
+   "t": 1795371953
   },
   "teste:1795203980": {
    "r": "cancelado_teste",
@@ -8956,20 +9084,158 @@
     "preto",
     "sync"
    ]
+  },
+  {
+   "ids": [],
+   "p": 48.28,
+   "t": 1795371237,
+   "w": [
+    "250ml",
+    "300ml",
+    "90g",
+    "condicionador",
+    "creme",
+    "crescimento",
+    "mascara",
+    "mega",
+    "pentear",
+    "seda",
+    "shampoo"
+   ]
+  },
+  {
+   "ids": [],
+   "p": 59.99,
+   "t": 1795371288,
+   "w": [
+    "adidas",
+    "bolsa",
+    "infantil",
+    "nster",
+    "organizadora",
+    "tiro"
+   ]
+  },
+  {
+   "ids": [],
+   "p": 64.99,
+   "t": 1795371358,
+   "w": [
+    "adicolor",
+    "adidas",
+    "bolsa",
+    "classic",
+    "festival"
+   ]
+  },
+  {
+   "ids": [
+    "B007EBUB66"
+   ],
+   "p": 99.0,
+   "t": 1795371428,
+   "w": [
+    "casio",
+    "f108wh",
+    "series"
+   ]
+  },
+  {
+   "ids": [],
+   "p": 1169.99,
+   "t": 1795371851,
+   "w": [
+    "necessidade"
+   ]
+  },
+  {
+   "ids": [
+    "B00Z8JDIUC"
+   ],
+   "p": 73.0,
+   "t": 1795371978,
+   "w": [
+    "black",
+    "boxer",
+    "brief",
+    "men",
+    "puma",
+    "small"
+   ]
+  },
+  {
+   "ids": [
+    "B0CGF9HQB1"
+   ],
+   "p": 213.0,
+   "t": 1795372046,
+   "w": [
+    "edicao",
+    "padrao",
+    "persona",
+    "playstation",
+    "reload",
+    "sega"
+   ]
+  },
+  {
+   "ids": [
+    "B00E0EUP66"
+   ],
+   "p": 79.9,
+   "t": 1795372446,
+   "w": [
+    "750ml",
+    "anos",
+    "old",
+    "parr",
+    "whisky"
+   ]
+  },
+  {
+   "ids": [
+    "B004CYZ7ZI"
+   ],
+   "p": 67.73,
+   "t": 1795372493,
+   "w": [
+    "750ml",
+    "canela",
+    "fireball",
+    "licor",
+    "whisky"
+   ]
+  },
+  {
+   "ids": [
+    "B0H5D9YQ1W"
+   ],
+   "p": 104.31,
+   "t": 1795372541,
+   "w": [
+    "2und",
+    "750ml",
+    "alcoolico",
+    "coquetel",
+    "cream",
+    "don",
+    "dulce",
+    "leche"
+   ]
   }
  ],
  "resumo_dia": "2026-11-21",
  "tpl_ultimo": 2032135,
- "ult_ciclo": 1795370824.3517566,
+ "ult_ciclo": 1795372645.449963,
  "ultimo_id": {
   "apromodaluh": 158896,
-  "fumotom": 51647,
+  "fumotom": 51651,
   "iuriindica": 124031,
-  "juaocupons": 27632,
+  "juaocupons": 27634,
   "perfumepromo": 10102,
-  "pincei": 370641,
-  "promotom": 115108,
-  "teniscertocupons": 66143,
+  "pincei": 370654,
+  "promotom": 115109,
+  "teniscertocupons": 66144,
   "teste": 1795214930
  }
 }
