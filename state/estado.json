@@ -1,7 +1,7 @@
 {
- "cmd_ultimo": 2035021,
- "contagem_dia": 72,
- "dia": "2026-11-21",
+ "cmd_ultimo": 2035126,
+ "contagem_dia": 3,
+ "dia": "2026-11-22",
  "feitos": {
   "apromodaluh:158768": {
    "r": "pulado:repetido",
@@ -755,6 +755,90 @@
    "r": "pulado:periferico de PC",
    "t": 1795306225
   },
+  "fumotom:51597": {
+   "r": "pulado:repetido",
+   "t": 1795316889
+  },
+  "fumotom:51598": {
+   "r": "pulado:periferico de PC",
+   "t": 1795316755
+  },
+  "fumotom:51599": {
+   "r": "pulado:periferico de PC",
+   "t": 1795316755
+  },
+  "fumotom:51600": {
+   "r": "pulado:periferico de PC",
+   "t": 1795316755
+  },
+  "fumotom:51601": {
+   "r": "duplicado",
+   "t": 1795316902
+  },
+  "fumotom:51602": {
+   "r": "pulado:repetido",
+   "t": 1795317360
+  },
+  "fumotom:51603": {
+   "r": "gerado",
+   "t": 1795316970
+  },
+  "fumotom:51605": {
+   "r": "gerado",
+   "t": 1795316864
+  },
+  "fumotom:51606": {
+   "r": "pulado:repetido",
+   "t": 1795316889
+  },
+  "fumotom:51607": {
+   "r": "pulado:repetido",
+   "t": 1795317359
+  },
+  "fumotom:51608": {
+   "r": "pulado:repetido",
+   "t": 1795317360
+  },
+  "fumotom:51609": {
+   "r": "pulado:repetido",
+   "t": 1795317360
+  },
+  "fumotom:51610": {
+   "r": "gerado",
+   "t": 1795317404
+  },
+  "fumotom:51611": {
+   "r": "pulado:repetido",
+   "t": 1795317360
+  },
+  "fumotom:51612": {
+   "r": "pulado:periferico de PC",
+   "t": 1795317357
+  },
+  "fumotom:51613": {
+   "r": "pulado:periferico de PC",
+   "t": 1795317959
+  },
+  "fumotom:51614": {
+   "r": "pulado:repetido",
+   "t": 1795317963
+  },
+  "fumotom:51615": {
+   "r": "pulado:repetido",
+   "t": 1795317962
+  },
+  "fumotom:51616": {
+   "r": "pulado:periferico de PC",
+   "t": 1795317959
+  },
+  "fumotom:51617": {
+   "r": "pulado:repetido",
+   "t": 1795317960
+  },
+  "fumotom:51618": {
+   "r": "pulado:repetido",
+   "t": 1795317961
+  },
   "iuriindica:123964": {
    "r": "pulado:mesmo link",
    "t": 1795215974
@@ -854,6 +938,74 @@
   "iuriindica:124000": {
    "r": "pulado:periferico de PC",
    "t": 1795306225
+  },
+  "iuriindica:124001": {
+   "r": "pulado:aliexpress (bloqueado)",
+   "t": 1795316755
+  },
+  "iuriindica:124002": {
+   "r": "pulado:aliexpress (bloqueado)",
+   "t": 1795316755
+  },
+  "iuriindica:124003": {
+   "r": "pulado:repetido",
+   "t": 1795316889
+  },
+  "iuriindica:124004": {
+   "r": "duplicado",
+   "t": 1795316765
+  },
+  "iuriindica:124005": {
+   "r": "pulado:periferico de PC",
+   "t": 1795316755
+  },
+  "iuriindica:124006": {
+   "r": "pulado:periferico de PC",
+   "t": 1795316755
+  },
+  "iuriindica:124007": {
+   "r": "pulado:periferico de PC",
+   "t": 1795316755
+  },
+  "iuriindica:124008": {
+   "r": "pulado:repetido",
+   "t": 1795317357
+  },
+  "iuriindica:124009": {
+   "r": "pulado:repetido",
+   "t": 1795317357
+  },
+  "iuriindica:124010": {
+   "r": "pulado:repetido",
+   "t": 1795317360
+  },
+  "iuriindica:124011": {
+   "r": "pulado:repetido",
+   "t": 1795317360
+  },
+  "iuriindica:124012": {
+   "r": "pulado:repetido",
+   "t": 1795317360
+  },
+  "iuriindica:124013": {
+   "r": "pulado:repetido",
+   "t": 1795317360
+  },
+  "iuriindica:124014": {
+   "r": "pulado:periferico de PC",
+   "t": 1795317959
+  },
+  "iuriindica:124015": {
+   "r": "pulado:repetido",
+   "t": 1795317963
+  },
+  "iuriindica:124016": {
+   "r": "pulado:periferico de PC",
+   "t": 1795317959
+  },
+  "iuriindica:124017": {
+   "r": "pulado:repetido",
+   "t": 1795317963
   },
   "juaocupons:27573": {
    "r": "pulado:loja desconhecida",
@@ -975,6 +1127,22 @@
    "r": "pulado:mesmo link",
    "t": 1795303290
   },
+  "juaocupons:27614": {
+   "r": "pulado:mesmo link",
+   "t": 1795317031
+  },
+  "juaocupons:27615": {
+   "r": "pulado:sem preco",
+   "t": 1795316755
+  },
+  "juaocupons:27616": {
+   "r": "falha",
+   "t": 1795317006
+  },
+  "juaocupons:27617": {
+   "r": "pulado:sem preco",
+   "t": 1795316755
+  },
   "link:https://amzn.to/3YeTytk": {
    "r": "falha",
    "t": 1795268438
@@ -994,6 +1162,10 @@
   "link:https://meli.la/11V3TKU": {
    "r": "duplicado",
    "t": 1795274020
+  },
+  "link:https://meli.la/11ZFdno": {
+   "r": "gerado",
+   "t": 1795316864
   },
   "link:https://meli.la/11eKGLa": {
    "r": "duplicado",
@@ -1075,6 +1247,10 @@
    "r": "falha",
    "t": 1795232449
   },
+  "link:https://meli.la/21kK5Sq": {
+   "r": "falha",
+   "t": 1795317006
+  },
   "link:https://meli.la/21wBXwQ": {
    "r": "gerado",
    "t": 1795264541
@@ -1123,6 +1299,10 @@
    "r": "duplicado",
    "t": 1795232168
   },
+  "link:https://meli.la/2VmuXtL": {
+   "r": "duplicado",
+   "t": 1795316902
+  },
   "link:https://meli.la/2ZeTaW5": {
    "r": "falha",
    "t": 1795273895
@@ -1148,8 +1328,8 @@
    "t": 1795262952
   },
   "link:https://mercadolivre.com/sec/2U6U32Q": {
-   "r": "gerado",
-   "t": 1795262920
+   "r": "falha",
+   "t": 1795317048
   },
   "link:https://s.shopee.com.br/3Vm0NWOBVq?lp=aff": {
    "r": "duplicado",
@@ -1215,6 +1395,10 @@
    "r": "gerado",
    "t": 1795272727
   },
+  "link:https://www.amazon.com.br/dp/B00K3MGDT2": {
+   "r": "gerado",
+   "t": 1795317404
+  },
   "link:https://www.amazon.com.br/dp/B00QYCJS42": {
    "r": "falha",
    "t": 1795216081
@@ -1238,6 +1422,10 @@
   "link:https://www.amazon.com.br/dp/B074D6KZM7": {
    "r": "gerado",
    "t": 1795207001
+  },
+  "link:https://www.amazon.com.br/dp/B0779M2LK6": {
+   "r": "gerado",
+   "t": 1795316970
   },
   "link:https://www.amazon.com.br/dp/B07CBLS785": {
    "r": "gerado",
@@ -1506,6 +1694,10 @@
   "link:https://www.kabum.com.br/produto/1006946/mouse-gamer-sem-fio-logitech-g-pro-x2-superstrike-lightspeed-61g-cliques-tateis-personalizaveis-usb-c-preto-e-branco-910-007775": {
    "r": "gerado",
    "t": 1795215949
+  },
+  "link:https://www.kabum.com.br/produto/1059447/fonte-xpg-coreshift-ii-ve-850w-80-plus-gold-preto-coreshiftiive850gd-bkcbr": {
+   "r": "duplicado",
+   "t": 1795316765
   },
   "link:https://www.kabum.com.br/produto/592319": {
    "r": "falha",
@@ -2750,6 +2942,18 @@
   "promotom:115093": {
    "r": "gerado",
    "t": 1795300954
+  },
+  "promotom:115094": {
+   "r": "pulado:mesmo link",
+   "t": 1795317073
+  },
+  "promotom:115095": {
+   "r": "pulado:sem preco",
+   "t": 1795316755
+  },
+  "promotom:115096": {
+   "r": "falha",
+   "t": 1795317048
   },
   "teniscertocupons:63531": {
    "r": "cancelado_teste",
@@ -7349,19 +7553,95 @@
     "sapatos",
     "sob"
    ]
+  },
+  {
+   "ids": [],
+   "p": 365.0,
+   "t": 1795316755,
+   "w": [
+    "850w",
+    "atx",
+    "bkcbr",
+    "coreshift",
+    "coreshiftiive850gd",
+    "fonte",
+    "gold",
+    "pcie",
+    "plus",
+    "preto",
+    "xpg"
+   ]
+  },
+  {
+   "ids": [],
+   "p": 265.0,
+   "t": 1795316792,
+   "w": [
+    "80m",
+    "diretor",
+    "dynamica",
+    "est",
+    "mesa",
+    "onix",
+    "preta",
+    "preto"
+   ]
+  },
+  {
+   "ids": [],
+   "p": 112.0,
+   "t": 1795316890,
+   "w": [
+    "90cm",
+    "aco",
+    "aparador",
+    "escrivaninha",
+    "estudo",
+    "industrial",
+    "mdf",
+    "mesa"
+   ]
+  },
+  {
+   "ids": [
+    "B0779M2LK6"
+   ],
+   "p": 95.0,
+   "t": 1795316927,
+   "w": [
+    "aluminio",
+    "anis",
+    "cadeira",
+    "mor",
+    "posicoes",
+    "reclinavel"
+   ]
+  },
+  {
+   "ids": [
+    "B00K3MGDT2"
+   ],
+   "p": 21.0,
+   "t": 1795317360,
+   "w": [
+    "great",
+    "horizon",
+    "letterhead",
+    "papers"
+   ]
   }
  ],
  "resumo_dia": "2026-11-21",
  "tpl_ultimo": 2032135,
- "ult_ciclo": 1795315804.0512152,
+ "ult_ciclo": 1795317963.745625,
  "ultimo_id": {
   "apromodaluh": 158823,
-  "fumotom": 51593,
-  "iuriindica": 124000,
-  "juaocupons": 27613,
+  "fumotom": 51618,
+  "iuriindica": 124017,
+  "juaocupons": 27617,
   "perfumepromo": 10098,
   "pincei": 370526,
-  "promotom": 115093,
+  "promotom": 115096,
   "teniscertocupons": 66139,
   "teste": 1795214930
  }
