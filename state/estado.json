@@ -1,6 +1,6 @@
 {
- "cmd_ultimo": 2036067,
- "contagem_dia": 42,
+ "cmd_ultimo": 2036273,
+ "contagem_dia": 47,
  "dia": "2026-11-22",
  "feitos": {
   "apromodaluh:158768": {
@@ -422,6 +422,14 @@
   "apromodaluh:158886": {
    "r": "pulado:mesmo link",
    "t": 1795357343
+  },
+  "apromodaluh:158887": {
+   "r": "pulado:trava preco",
+   "t": 1795358529
+  },
+  "apromodaluh:158888": {
+   "r": "pulado:repetido",
+   "t": 1795358529
   },
   "esg:1ABHVBZ": {
    "r": "avisado",
@@ -1179,6 +1187,10 @@
    "r": "gerado",
    "t": 1795357454
   },
+  "fumotom:51640": {
+   "r": "pulado:repetido",
+   "t": 1795358530
+  },
   "iuriindica:123964": {
    "r": "pulado:mesmo link",
    "t": 1795215974
@@ -1835,6 +1847,10 @@
    "r": "gerado",
    "t": 1795259316
   },
+  "link:https://www.amazon.com.br/dp/B001TP3GCE": {
+   "r": "gerado",
+   "t": 1795358023
+  },
   "link:https://www.amazon.com.br/dp/B00GIOSGIK": {
    "r": "gerado",
    "t": 1795272727
@@ -1915,6 +1931,10 @@
    "r": "gerado",
    "t": 1795247462
   },
+  "link:https://www.amazon.com.br/dp/B07XS8WKYL": {
+   "r": "gerado",
+   "t": 1795359203
+  },
   "link:https://www.amazon.com.br/dp/B07XYH4Q1F": {
    "r": "gerado",
    "t": 1795271489
@@ -1954,6 +1974,10 @@
   "link:https://www.amazon.com.br/dp/B09JT3YLML": {
    "r": "gerado",
    "t": 1795343538
+  },
+  "link:https://www.amazon.com.br/dp/B09SGPQ2J7": {
+   "r": "gerado",
+   "t": 1795358070
   },
   "link:https://www.amazon.com.br/dp/B09T2X5QR8": {
    "r": "gerado",
@@ -2070,6 +2094,10 @@
   "link:https://www.amazon.com.br/dp/B0F2HM2LB5": {
    "r": "gerado",
    "t": 1795256356
+  },
+  "link:https://www.amazon.com.br/dp/B0F3XRNDMK": {
+   "r": "gerado",
+   "t": 1795359156
   },
   "link:https://www.amazon.com.br/dp/B0F493DZMH": {
    "r": "gerado",
@@ -2278,6 +2306,10 @@
   "link:https://www.mercadolivre.com.br/lavadora-de-alta-pressao-krcher-compacta-1500-psi-1400w-300lh-com-aplicador-de-detergente-e-lanca-regulavel/p/MLB40583845": {
    "r": "duplicado",
    "t": 1795296175
+  },
+  "link:https://www.mercadolivre.com.br/perfume-banderas-blue-seduction-eau-de-toilette-200-ml-masculino/p/MLB36512204": {
+   "r": "gerado",
+   "t": 1795357971
   },
   "link:https://www.mercadolivre.com.br/philips-oneblade-aparador-e-barbeador-eletrico-com-pente-ajustavel-5-em-1-raspa-apara-e-contorna-uso-seco-e-molhado-100-prova-dagua-sem-fio-bivolt-qp142510/p/MLB64322156": {
    "r": "gerado",
@@ -3458,6 +3490,46 @@
   "pincei:370578": {
    "r": "gerado",
    "t": 1795357343
+  },
+  "pincei:370579": {
+   "r": "gerado",
+   "t": 1795357971
+  },
+  "pincei:370580": {
+   "r": "pulado:repetido",
+   "t": 1795357976
+  },
+  "pincei:370581": {
+   "r": "gerado",
+   "t": 1795358023
+  },
+  "pincei:370582": {
+   "r": "gerado",
+   "t": 1795358070
+  },
+  "pincei:370583": {
+   "r": "pulado:repetido",
+   "t": 1795358498
+  },
+  "pincei:370584": {
+   "r": "pulado:repetido",
+   "t": 1795358524
+  },
+  "pincei:370585": {
+   "r": "pulado:repetido",
+   "t": 1795358529
+  },
+  "pincei:370586": {
+   "r": "pulado:sem preco",
+   "t": 1795359083
+  },
+  "pincei:370587": {
+   "r": "gerado",
+   "t": 1795359156
+  },
+  "pincei:370588": {
+   "r": "gerado",
+   "t": 1795359203
   },
   "promotom:115007": {
    "r": "pulado:sem link",
@@ -6916,223 +6988,6 @@
  },
  "postados": [
   {
-   "ids": [],
-   "p": 369.0,
-   "t": 1795263881,
-   "w": [
-    "15l",
-    "air",
-    "fryer",
-    "oven",
-    "paf15c",
-    "philco",
-    "preta"
-   ]
-  },
-  {
-   "ids": [],
-   "p": 265.0,
-   "t": 1795263970,
-   "w": [
-    "03ms",
-    "180hz",
-    "freesync",
-    "hdmi",
-    "monitor",
-    "odyssey",
-    "oled",
-    "qhd",
-    "samsung",
-    "sync"
-   ]
-  },
-  {
-   "ids": [],
-   "p": 238.0,
-   "t": 1795264056,
-   "w": [
-    "cambio",
-    "driving",
-    "force",
-    "logitech",
-    "preto",
-    "shifter"
-   ]
-  },
-  {
-   "ids": [],
-   "p": 311.0,
-   "t": 1795264143,
-   "w": [
-    "edicao",
-    "fisica",
-    "games",
-    "gta",
-    "padrao",
-    "ps5",
-    "rockstar"
-   ]
-  },
-  {
-   "ids": [
-    "B0D41SDLTB"
-   ],
-   "p": 62.0,
-   "t": 1795264211,
-   "w": [
-    "cabo",
-    "dpi",
-    "gamer",
-    "k1ng",
-    "m724",
-    "mouse",
-    "paw3327",
-    "preto",
-    "redragon",
-    "removivel",
-    "tipo",
-    "usb"
-   ]
-  },
-  {
-   "ids": [],
-   "p": 111.0,
-   "t": 1795264315,
-   "w": [
-    "100hz",
-    "display",
-    "gtg",
-    "hdmi",
-    "headphone",
-    "ls34c500galmzd",
-    "monitor",
-    "port",
-    "samsung",
-    "uwqhd",
-    "viewfinity"
-   ]
-  },
-  {
-   "ids": [],
-   "p": 271.0,
-   "t": 1795264400,
-   "w": [
-    "cabo",
-    "controle",
-    "fio",
-    "one",
-    "preto",
-    "series",
-    "usb"
-   ]
-  },
-  {
-   "ids": [],
-   "p": 275.0,
-   "t": 1795264485,
-   "w": [
-    "1080p",
-    "externa",
-    "hdr",
-    "ips",
-    "monitor",
-    "portatil",
-    "tela",
-    "ultrafino"
-   ]
-  },
-  {
-   "ids": [],
-   "p": 277.0,
-   "t": 1795264568,
-   "w": [
-    "1080p",
-    "60hz",
-    "dupla",
-    "fhd",
-    "hdmi",
-    "monitor",
-    "portatil",
-    "usb"
-   ]
-  },
-  {
-   "ids": [],
-   "p": 269.0,
-   "t": 1795264651,
-   "w": [
-    "850w",
-    "beta",
-    "beta2850w",
-    "fonte",
-    "montech",
-    "preto"
-   ]
-  },
-  {
-   "ids": [],
-   "p": 232.0,
-   "t": 1795264837,
-   "w": [
-    "01mm",
-    "8000hz",
-    "blazing",
-    "cool68",
-    "dareu",
-    "gamer",
-    "hot",
-    "magnetico",
-    "orange",
-    "rapid",
-    "shadow",
-    "swap",
-    "switch",
-    "teclado",
-    "trigger"
-   ]
-  },
-  {
-   "ids": [],
-   "p": 295.0,
-   "t": 1795264923,
-   "w": [
-    "elv400",
-    "estofados",
-    "extratora",
-    "limpeza",
-    "portatil",
-    "vonder"
-   ]
-  },
-  {
-   "ids": [],
-   "p": 100.0,
-   "t": 1795265421,
-   "w": [
-    "cupons",
-    "livre",
-    "mercado",
-    "novos"
-   ]
-  },
-  {
-   "ids": [
-    "B0BTYCRJSS"
-   ],
-   "p": 103.0,
-   "t": 1795265561,
-   "w": [
-    "anker",
-    "anuncio",
-    "cores",
-    "fone",
-    "outras",
-    "ouvido",
-    "p20i",
-    "soundcore"
-   ]
-  },
-  {
    "ids": [
     "B0FMZMVD8B",
     "B0FMZN9WNP"
@@ -8592,18 +8447,87 @@
     "pasta",
     "trilho"
    ]
+  },
+  {
+   "ids": [
+    "36512204"
+   ],
+   "p": 169.99,
+   "t": 1795357898,
+   "w": [
+    "200ml",
+    "banderas",
+    "blue",
+    "eau",
+    "masculino",
+    "perfume",
+    "seduction",
+    "toilette"
+   ]
+  },
+  {
+   "ids": [
+    "B001TP3GCE"
+   ],
+   "p": 71.68,
+   "t": 1795357980,
+   "w": [
+    "750ml",
+    "bombay",
+    "gin",
+    "sapphire"
+   ]
+  },
+  {
+   "ids": [
+    "B09SGPQ2J7"
+   ],
+   "p": 89.99,
+   "t": 1795358028,
+   "w": [
+    "750ml",
+    "ballena",
+    "licor",
+    "morango"
+   ]
+  },
+  {
+   "ids": [
+    "B0F3XRNDMK"
+   ],
+   "p": 3.41,
+   "t": 1795359088,
+   "w": [
+    "269ml",
+    "cerveja",
+    "corona",
+    "lata"
+   ]
+  },
+  {
+   "ids": [
+    "B07XS8WKYL"
+   ],
+   "p": 10.88,
+   "t": 1795359160,
+   "w": [
+    "600ml",
+    "cerveja",
+    "garrafa",
+    "heineken"
+   ]
   }
  ],
  "resumo_dia": "2026-11-21",
  "tpl_ultimo": 2032135,
- "ult_ciclo": 1795357479.2041802,
+ "ult_ciclo": 1795359203.516153,
  "ultimo_id": {
-  "apromodaluh": 158886,
-  "fumotom": 51639,
+  "apromodaluh": 158888,
+  "fumotom": 51640,
   "iuriindica": 124028,
   "juaocupons": 27624,
   "perfumepromo": 10098,
-  "pincei": 370578,
+  "pincei": 370588,
   "promotom": 115100,
   "teniscertocupons": 66139,
   "teste": 1795214930
