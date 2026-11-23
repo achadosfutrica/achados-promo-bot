@@ -37,6 +37,36 @@ class Tela:
         return any(T.norm(t) in n for t in trechos)
 
 
+_GENERICAS = set("""para com sem kit unid unidades und cor tamanho preto preta branco branca azul verde rosa cinza
+vermelho vermelha novo nova original oficial promo oferta loja frete gratis produto masculino feminino infantil adulto
+the and pack caixa ml litro litros""".split())
+
+
+def _palavras_fortes(s):
+    import re
+    n = T.norm(s or "")
+    return {w for w in re.findall(r"[a-z0-9]{4,}", n) if w not in _GENERICAS and not w.isdigit()}
+
+
+def produto_confere(texto_tela, titulo_post):
+    """True = a tela mostra o produto do post · False = é OUTRO produto · None = não dá para saber.
+    Compara as palavras fortes do título do post com o texto da tela de revisão."""
+    pp = _palavras_fortes(titulo_post)
+    if len(pp) < 2:
+        return None
+    tt = _palavras_fortes(texto_tela)
+    if len(tt) < 3:
+        return None
+    comuns = pp & tt
+    # nenhuma palavra em comum (nem prefixo de 5 letras) = produto trocado
+    if comuns:
+        return True
+    pre_t = {w[:5] for w in tt if len(w) >= 5}
+    if any(w[:5] in pre_t for w in pp if len(w) >= 5):
+        return True
+    return False
+
+
 class Falha(Exception):
     pass
 
@@ -153,6 +183,8 @@ class Driver:
         try:
             if hasattr(self.conv, "limpar"):
                 self.conv.limpar()          # fecha pergunta que ficou aberta (sua ou de outra execução)
+            if hasattr(self.conv, "zerar"):
+                self.conv.zerar()           # e manda /cancelar: nenhuma pergunta antiga recebe os dados deste produto
             tela = self.conv.enviar(link)
             tela = self._plataforma(tela, loja)
             if (not tela.achar("gerar promo") and tela.tem_texto("informe os dados", "nao e de produto", "não é de produto")
@@ -176,6 +208,9 @@ class Driver:
                 return "duplicado", tela.texto[:120]
             if not tela.achar("gerar promo"):
                 raise Falha("tela de revisao nao reconhecida: %r | botoes=%s" % (tela.texto[:200], tela.botoes))
+            confere = produto_confere(tela.texto, (dados or {}).get("titulo"))
+            if confere is False:
+                raise Falha("o produto da tela do Divulgador nao e o do post (%r x %r)" % (tela.texto[:120], (dados or {}).get("titulo", "")[:80]))
 
             # 1) CUPOM PRIMEIRO (ele recalcula desconto sozinho)
             if cupom and any(T.norm(cupom) in T.norm(b) for b in tela.botoes):

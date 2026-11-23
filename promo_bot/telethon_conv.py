@@ -126,6 +126,23 @@ class ConvTelethon:
             return True
         return self._run(f())
 
+    def zerar(self):
+        """Zera a conversa com o bot ANTES de cada produto: manda /cancelar e espera a resposta.
+        Sem isso, uma pergunta que ficou aberta (ex.: 'Qual o preço?' do produto que falhou)
+        recebia os dados do PRÓXIMO produto (foi assim que o tênis Asics saiu por R$ 14)."""
+        async def f():
+            _, antes = await self._assinatura()
+            enviada = await self.c.send_message(self.bot, "/cancelar")
+            try:
+                await self._esperar_mudanca(antes, min_id=getattr(enviada, "id", None), timeout=8)
+            except TimeoutError:
+                pass
+            return True
+        try:
+            return self._run(f())
+        except Exception:  # noqa
+            return False
+
     def limpar(self):
         """Antes de cada produto: se ficou uma pergunta aberta (ex.: 'Deseja gerar novamente?'), fecha."""
         try:
