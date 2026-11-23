@@ -408,6 +408,10 @@
    "r": "pulado:repetido",
    "t": 1795447851
   },
+  "apromodaluh:158958": {
+   "r": "falha",
+   "t": 1795448689
+  },
   "apromodaluh:158959": {
    "r": "falha",
    "t": 1795447883
@@ -432,9 +436,17 @@
    "r": "pulado:trava preco",
    "t": 1795447794
   },
+  "apromodaluh:158965": {
+   "r": "pulado:mesmo link",
+   "t": 1795448657
+  },
   "apromodaluh:158966": {
    "r": "pulado:mesmo link",
    "t": 1795447851
+  },
+  "apromodaluh:158967": {
+   "r": "pulado:mesmo link",
+   "t": 1795448657
   },
   "apromodaluh:158968": {
    "r": "pulado:mesmo link",
@@ -443,6 +455,22 @@
   "apromodaluh:158969": {
    "r": "pulado:mesmo link",
    "t": 1795447965
+  },
+  "apromodaluh:158971": {
+   "r": "pulado:mesmo link",
+   "t": 1795448657
+  },
+  "apromodaluh:158972": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795448544
+  },
+  "apromodaluh:158973": {
+   "r": "falha",
+   "t": 1795448575
+  },
+  "apromodaluh:158974": {
+   "r": "pulado:so cupom (ignorado)",
+   "t": 1795448544
   },
   "esg:OFICIAIS2211": {
    "r": "avisado",
@@ -1304,6 +1332,86 @@
    "r": "pulado:loja desativada: magalu",
    "t": 1795446719
   },
+  "fumotom:51956": {
+   "r": "pulado:loja desativada: magalu",
+   "t": 1795448272
+  },
+  "fumotom:51959": {
+   "r": "pulado:loja desativada: magalu",
+   "t": 1795448274
+  },
+  "fumotom:51960": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795448275
+  },
+  "fumotom:51961": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795448276
+  },
+  "fumotom:51962": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795448277
+  },
+  "fumotom:51963": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795448278
+  },
+  "fumotom:51964": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795448278
+  },
+  "fumotom:51965": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795448279
+  },
+  "fumotom:51967": {
+   "r": "pulado:loja desativada: magalu",
+   "t": 1795448280
+  },
+  "fumotom:51969": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795448281
+  },
+  "fumotom:51970": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795448282
+  },
+  "fumotom:51971": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795448283
+  },
+  "fumotom:51972": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795448284
+  },
+  "fumotom:51973": {
+   "r": "pulado:periferico de PC",
+   "t": 1795448284
+  },
+  "fumotom:51978": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795448285
+  },
+  "fumotom:51979": {
+   "r": "pulado:loja desativada: magalu",
+   "t": 1795448286
+  },
+  "fumotom:51980": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795448287
+  },
+  "fumotom:51981": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795448288
+  },
+  "fumotom:51983": {
+   "r": "falha",
+   "t": 1795448748
+  },
+  "fumotom:51986": {
+   "r": "pulado:repetido",
+   "t": 1795448773
+  },
   "iuriindica:124018": {
    "r": "pulado:aliexpress (bloqueado)",
    "t": 1795354259
@@ -1704,6 +1812,46 @@
    "r": "pulado:periferico de PC",
    "t": 1795439522
   },
+  "iuriindica:124147": {
+   "r": "pulado:periferico de PC",
+   "t": 1795448346
+  },
+  "iuriindica:124150": {
+   "r": "falha",
+   "t": 1795448863
+  },
+  "iuriindica:124151": {
+   "r": "pulado:repetido",
+   "t": 1795448715
+  },
+  "iuriindica:124156": {
+   "r": "pulado:periferico de PC",
+   "t": 1795448346
+  },
+  "iuriindica:124158": {
+   "r": "falha",
+   "t": 1795448977
+  },
+  "iuriindica:124163": {
+   "r": "falha",
+   "t": 1795448805
+  },
+  "iuriindica:124166": {
+   "r": "pulado:repetido",
+   "t": 1795448831
+  },
+  "iuriindica:124170": {
+   "r": "pulado:sem link",
+   "t": 1795448346
+  },
+  "iuriindica:124172": {
+   "r": "pulado:aliexpress (bloqueado)",
+   "t": 1795448346
+  },
+  "iuriindica:124173": {
+   "r": "pulado:repetido",
+   "t": 1795448716
+  },
   "juaocupons:27623": {
    "r": "pulado:trava preco",
    "t": 1795356212
@@ -1900,6 +2048,14 @@
    "r": "falha",
    "t": 1795364363
   },
+  "link:https://meli.la/16XsvJC": {
+   "r": "falha",
+   "t": 1795448863
+  },
+  "link:https://meli.la/186Wy9s": {
+   "r": "falha",
+   "t": 1795448689
+  },
   "link:https://meli.la/19LEdCZ": {
    "r": "gerado",
    "t": 1795438940
@@ -1947,6 +2103,10 @@
   "link:https://meli.la/1M4yad2": {
    "r": "falha",
    "t": 1795392361
+  },
+  "link:https://meli.la/1RPqNhE": {
+   "r": "falha",
+   "t": 1795448575
   },
   "link:https://meli.la/1VXsEkj": {
    "r": "falha",
@@ -2004,6 +2164,10 @@
    "r": "gerado",
    "t": 1795439387
   },
+  "link:https://meli.la/1swp7BE": {
+   "r": "falha",
+   "t": 1795448920
+  },
   "link:https://meli.la/1vQNHrR": {
    "r": "falha",
    "t": 1795386541
@@ -2031,6 +2195,10 @@
   "link:https://meli.la/27JPv3t": {
    "r": "falha",
    "t": 1795447883
+  },
+  "link:https://meli.la/2CMz8Qw": {
+   "r": "falha",
+   "t": 1795448977
   },
   "link:https://meli.la/2Fgvdfs": {
    "r": "falha",
@@ -2076,6 +2244,10 @@
    "r": "gerado",
    "t": 1795444623
   },
+  "link:https://meli.la/2rAu3qC": {
+   "r": "falha",
+   "t": 1795448748
+  },
   "link:https://meli.la/2uUnP9H": {
    "r": "gerado",
    "t": 1795434004
@@ -2095,6 +2267,10 @@
   "link:https://meli.la/31wKtqf": {
    "r": "falha",
    "t": 1795381563
+  },
+  "link:https://meli.la/34fV8Q2": {
+   "r": "falha",
+   "t": 1795448805
   },
   "link:https://mercadolivre.com/sec/1ABhVBZ": {
    "r": "falha",
@@ -2784,6 +2960,10 @@
    "r": "gerado",
    "t": 1795434978
   },
+  "link:https://www.epocacosmeticos.com.br/coach-love-perfume-feminino-eau-de-parfum/p": {
+   "r": "falha",
+   "t": 1795448632
+  },
   "link:https://www.epocacosmeticos.com.br/nina-ricci-nina-illusion-perfume-feminino-eau-de-parfum/p": {
    "r": "falha",
    "t": 1795386358
@@ -2855,6 +3035,10 @@
   "link:https://www.mercadolivre.com.br/casinha-gato-toca-arranhador-madeira-mdf-carpete-30x47x36cm-acb-torneados-em-madeiras/p/MLB70377387": {
    "r": "duplicado",
    "t": 1795364970
+  },
+  "link:https://www.mercadolivre.com.br/celular-samsung-galaxy-a17-5g-com-ia-128gb-4gb-ram-cam-de-50mp-tela-de-67-nfc-ip54-preto/p/MLB63335606": {
+   "r": "falha",
+   "t": 1795448459
   },
   "link:https://www.mercadolivre.com.br/controle-sem-fio-sony-dualsense-hyperpop-ps5-techno-red/up/MLBU5174443154": {
    "r": "gerado",
@@ -2935,6 +3119,10 @@
   "link:https://www.mercadolivre.com.br/smart-tv-65-4k-uhd-philips-65pug723178-google-tv-dolby/p/MLB2112103819": {
    "r": "gerado",
    "t": 1795438628
+  },
+  "link:https://www.mercadolivre.com.br/smart-tv-aoc-dled-32-pole-wi-fi-roku-tv-quadcore-32s515578g/up/MLBU3430183470": {
+   "r": "falha",
+   "t": 1795448517
   },
   "link:https://www.mercadolivre.com.br/smartphone-samsung-galaxy-a27-5g-128gb-6gb-super-amoled-67-camera-tripla-50mp-selfie-12mp-5000-mah-ip67-nfc-dual-sim-recursos-ia-azul/p/MLB75638608": {
    "r": "gerado",
@@ -3155,6 +3343,10 @@
   "perfumepromo:10126": {
    "r": "falha",
    "t": 1795447940
+  },
+  "perfumepromo:10127": {
+   "r": "falha",
+   "t": 1795448632
   },
   "pincei:370566": {
    "r": "pulado:loja desconhecida",
@@ -4636,6 +4828,26 @@
    "r": "falha",
    "t": 1795447794
   },
+  "pincei:370960": {
+   "r": "pulado:repetido",
+   "t": 1795448373
+  },
+  "pincei:370961": {
+   "r": "pulado:so cupom (ignorado)",
+   "t": 1795448400
+  },
+  "pincei:370962": {
+   "r": "falha",
+   "t": 1795448459
+  },
+  "pincei:370963": {
+   "r": "falha",
+   "t": 1795448517
+  },
+  "pincei:370964": {
+   "r": "pulado:periferico de PC",
+   "t": 1795448544
+  },
   "promotom:115101": {
    "r": "pulado:sem preco",
    "t": 1795359683
@@ -4908,6 +5120,30 @@
    "r": "pulado:loja desativada: magalu",
    "t": 1795446749
   },
+  "promotom:115187": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795448289
+  },
+  "promotom:115188": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795448290
+  },
+  "promotom:115190": {
+   "r": "falha",
+   "t": 1795448920
+  },
+  "promotom:115191": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795448332
+  },
+  "promotom:115193": {
+   "r": "pulado:repetido",
+   "t": 1795448831
+  },
+  "promotom:115194": {
+   "r": "pulado:repetido",
+   "t": 1795448715
+  },
   "teniscertocupons:66140": {
    "r": "pulado:loja desconhecida",
    "t": 1795367028
@@ -5011,26 +5247,22 @@
   "teniscertocupons:66167": {
    "r": "falha",
    "t": 1795448055
+  },
+  "teniscertocupons:66170": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795448339
+  },
+  "teniscertocupons:66171": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795448346
   }
  },
  "fila": [
   {
-   "canal": "apromodaluh",
-   "id": 158965,
-   "t": 1795446043.0,
-   "txt": "AÇO INOX COM FUNDO TRIPLO! 😍🤩\n\n✨ Tramontina Jogo de Panelas de Aço Inox com Fundo Triplo 6 peças Solar\n\n~de R$ 901,55~\n🔥 *por R$ 586,15 no pix* 😱\n\n🛒 https://link.amazon/B0g5YxwAI\n\n📌 Assine PRIME por 30 dias GRATIS aqui: https://amzn.to/3YeTytk"
-  },
-  {
-   "canal": "apromodaluh",
-   "id": 158967,
-   "t": 1795446043.0,
-   "txt": "ELECTROLUX 31 LITROS!🆘🆘\n\n✨ Micro-ondas Electrolux 31L cor Inox Espelhado com Painel Integrado e Função Tira Odor (MI41S) - 220V\n\n~de R$ 999,00~\n🔥 *por R$ 652,67 no pix* 😱\n\n🛒 https://link.amazon/B07evGacL\n\n📌 Assine PRIME por 30 dias GRATIS aqui: https://amzn.to/3YeTytk"
-  },
-  {
-   "canal": "apromodaluh",
-   "id": 158958,
-   "t": 1795444679.0,
-   "txt": "OLHA O PREÇO DESSE ADIDAS!! 🆘\n\n✨ Tênis Ultimashow 2.0 adidas\n\n~de R$ 379,99~\n🔥 *por R$ 220,80 no pix* \n💳 6x R$ 40 sem juros\n\n`\n\n✅ Loja Oficial ADIDAS no ML\n\n🛒 https://meli.la/186Wy9s"
+   "canal": "iuriindica",
+   "id": 124152,
+   "t": 1795447240.0,
+   "txt": "Samsung Galaxy Buds4,fone De Ouvido,galaxy Ai,gemini,branco\n\n💵  R$ 719\n🎟  Cupom: TVSCELULARES2311\n✅  https://meli.la/2vQqk2T\n\n🤑 Grupos de promoções: https://iuriindica.com.br"
   },
   {
    "canal": "promotom",
@@ -5046,15 +5278,39 @@
   },
   {
    "canal": "fumotom",
+   "id": 51985,
+   "t": 1795447090.0,
+   "txt": "Lg UltraGear Monitor Gamer 32\"- Va 165Hz 1ms (Mbr) Qhd 2K (2560x1440) Hdr10 Amd FreeSync, Preto - 32Gn600\n\nR$ 899\n-CUPOM: TVSCELULARES2311\n\nhttps://meli.la/1xUFe4g\n\n-Anúncio"
+  },
+  {
+   "canal": "iuriindica",
+   "id": 124165,
+   "t": 1795447283.0,
+   "txt": "Lg UltraGear Monitor Gamer 32\"- Va 165Hz 1ms (Mbr) Qhd 2K (2560x1440) Hdr10 Amd FreeSync, Preto - 32Gn600\n\n💵  R$ 899\n🎟  Cupom: TVSCELULARES2311\n✅  https://meli.la/2xyHGLN\n\n🤑 Grupos de promoções: https://iuriindica.com.br"
+  },
+  {
+   "canal": "fumotom",
    "id": 51931,
    "t": 1795443391.0,
    "txt": "Electrolux, Pote Hermetico, 12 unidades, A23122901, cinza\n\nR$ 61\n-CUPOM: PRIME15BLACK\n\nhttps://www.amazon.com.br/dp/B09XJL4B9H?tag=promotom05-20\n\n-15% nesta lista\nhttps://cutt.ly/yyDpDhd8\n\n-Anúncio"
+  },
+  {
+   "canal": "promotom",
+   "id": 115195,
+   "t": 1795448129.0,
+   "txt": "Invicta Relógio masculino especial de aço inoxidável\n\nR$ 194\n\nhttps://www.amazon.com.br/dp/B085T72YJX?tag=promotom05-20\n\n-Anúncio"
   },
   {
    "canal": "fumotom",
    "id": 51951,
    "t": 1795446541.0,
    "txt": "Ar Condicionado 12.000 Btus Frio Split Elite Gv Inverter Tcl Branco\n\nR$ 1599\n-CUPOM: TVSCELULARES2311\n\nhttps://meli.la/1xupnjV\n\n-Anúncio"
+  },
+  {
+   "canal": "iuriindica",
+   "id": 124148,
+   "t": 1795447222.0,
+   "txt": "Ar Condicionado 12.000 Btus Frio Split Elite Gv Inverter Tcl Branco\n\n💵  R$ 1599\n🎟  Cupom: TVSCELULARES2311\n✅  https://meli.la/1kqx9eQ\n\n🤑 Grupos de promoções: https://iuriindica.com.br"
   },
   {
    "canal": "fumotom",
@@ -5069,16 +5325,22 @@
    "txt": "Mor - Cadeira Alta Aço Sortido\n\nR$ 55\n-CUPOM: PRIME15BLACK\n\nhttps://www.amazon.com.br/dp/B075XM6DKH?smid=A1ZZFT5FULY4LN&tag=promotom05-20\n\n-Anúncio"
   },
   {
-   "canal": "fumotom",
-   "id": 51910,
-   "t": 1795441334.0,
-   "txt": "Monitor Lg Ultragear™ 24G411a-B 24\",Fhd, 144Hz, 1Ms (Mbr), Nvidia G-Sync, Amd Freesync, Hdr10\n\nR$ 497\n-CUPOM: MELIMAISXPT1122\n\nhttps://meli.la/2Bx7R4d\n\n-Anúncio"
-  },
-  {
    "canal": "teniscertocupons",
    "id": 66169,
    "t": 1795446122.0,
    "txt": "🔤🔤🔤🔤🔤\n\n💢ADIDAS ADIZERO DRIVE RC \n\nde R$ 899,99 por R$ 599,99*\n\n*️⃣No Pix ou em até 8x de R$ 75,00\n\n🔗 (FEM) https://tenis.cc/48hmXY6\n\n🔗 (MASC) https://tenis.cc/3V48f3w\n\n🎟 sem necessidade de cupom\n\n🛒 Promoção válida para produtos vendidos e entregues pela Netshoes\n\nNÍVEL DE AMORTECIMENTO:\n🟦🟦🟦🟦⬜️⬜️ (7 - Macio)\n\n🔎 adidas Adizero Drive RC\n▫️Categoria: Super Treinos \n▫️Drop: 6 mm \n▫️Peso: 225g (40M)\n▫️Conta com Energy Rods\n▫️Entressola usa Lightstrike\n▫️Indicado para treinos diários, treinos de velocidade e provas\n\n❗️Recomendamos escolher um número maior que seu tamanho casual\n\n📱 Review no Youtube:\nhttps://tenis.cc/3YqbUI1\n\n🚚 Consulte a condição de frete para a sua região"
+  },
+  {
+   "canal": "fumotom",
+   "id": 51957,
+   "t": 1795446718.0,
+   "txt": "Smartphone Samsung Galaxy A36 5G 128Gb 6Gb Ram Câmera Tripla de até 50Mp Selfie de 12Mp Ip67 Super Amoled 6.7'' Nfc Recursos Ai Android e Segurança Snapdragon - Branco\n\nR$ 1139\n-CUPOM: TVSCELULARES2311\n\nhttps://meli.la/2Qs4Qgj\n\n-Anúncio"
+  },
+  {
+   "canal": "iuriindica",
+   "id": 124154,
+   "t": 1795447247.0,
+   "txt": "Smartphone Samsung Galaxy A36 5G 128Gb 6Gb Ram Câmera Tripla de até 50Mp Selfie de 12Mp Ip67 Super Amoled 6.7'' Nfc Recursos Ai Android e Segurança Snapdragon - Branco\n\n💵  R$ 1139\n🎟  Cupom: TVSCELULARES2311\n✅  https://meli.la/1HqBFVy\n\n🤑 Grupos de promoções: https://iuriindica.com.br"
   },
   {
    "canal": "fumotom",
@@ -5093,16 +5355,94 @@
    "txt": "Sanduicheira Elétrica Cadence Click - 127V\n\nR$ 65\n-CUPOM: PRIME15BLACK\n\nhttps://www.amazon.com.br/dp/B0CDJ4L7CZ?tag=promotom05-20\n\n-Anúncio"
   },
   {
-   "canal": "perfumepromo",
-   "id": 10122,
-   "t": 1795441820.0,
-   "txt": "CEBOLINHA POR 19 CONTO CADA \n\nKit com 3 Perfumes Cebolinha Jequiti 25ml\n\nde R$ 119 por R$ 59 no Pix\n\nLoja Oficial: https://meli.la/2txFeta"
+   "canal": "fumotom",
+   "id": 51958,
+   "t": 1795446720.0,
+   "txt": "Ar-condicionado Split 9000 Btu/h Prime Air 9fc Frio Branco\n\nR$ 1366\n-CUPOM: MELIGARANTE\n\nhttps://meli.la/2vYCa6u\n\n-Anúncio"
+  },
+  {
+   "canal": "iuriindica",
+   "id": 124153,
+   "t": 1795447246.0,
+   "txt": "Ar-condicionado Split 9000 Btu/h Prime Air 9fc Frio Branco\n\n💵  R$ 1366\n🎟  Cupom: MELIGARANTE\n✅  https://meli.la/1ccBzSd\n\n🤑 Grupos de promoções: https://iuriindica.com.br"
+  },
+  {
+   "canal": "fumotom",
+   "id": 51975,
+   "t": 1795446946.0,
+   "txt": "Smart Tv Aoc Dled 32 Wi-fi Roku Tv Quad Core 32s5155/78g\n\nR$ 719\n-CUPOM: TVSCELULARES2311\n\nhttps://meli.la/2gS1UjJ\n\n-Anúncio"
+  },
+  {
+   "canal": "iuriindica",
+   "id": 124159,
+   "t": 1795447264.0,
+   "txt": "Smart Tv Aoc Dled 32 Wi-fi Roku Tv Quad Core 32s5155/78g\n\n💵  R$ 719\n🎟  Cupom: TVSCELULARES2311\n✅  https://meli.la/1CPLSZU\n\n🤑 Grupos de promoções: https://iuriindica.com.br"
   },
   {
    "canal": "promotom",
    "id": 115180,
    "t": 1795446204.0,
    "txt": "Monitor Gamer Tcl 25 Polegadas Qd-Mini Led Full Hd G64 300hz 1ms (Gtg) Freesync Hdr 600 Nits 25g64\n\nR$ 809\n-CUPOM: TVSCELULARES2311\n\nhttps://meli.la/2Y4esUG\n\n-Anúncio"
+  },
+  {
+   "canal": "iuriindica",
+   "id": 124146,
+   "t": 1795447217.0,
+   "txt": "Eitaa Monitor Gamer Tcl 25 Polegadas Qd-Mini Led Full Hd G64 300hz 1ms (Gtg) Freesync Hdr 600 Nits 25g64\n\n💵  R$ 809\n🎟  Cupom: TVSCELULARES2311\n✅  https://meli.la/2MVM2RK\n\n🤑 Grupos de promoções: https://iuriindica.com.br"
+  },
+  {
+   "canal": "iuriindica",
+   "id": 124167,
+   "t": 1795447296.0,
+   "txt": "Monitor Gamer Curvo Samsung Odyssey G5, VA (32 POLEGADAS)\n\n-32 POL\n-165Hz\n-1ms\n\n💵  R$ 864\n🎟  Cupom: TVSCELULARES2311\n✅  https://meli.la/2v8QxNt\n\n🤑 Grupos de promoções: https://iuriindica.com.br"
+  },
+  {
+   "canal": "fumotom",
+   "id": 51988,
+   "t": 1795447355.0,
+   "txt": "Mochila Lenovo B510 Everyday 15.6\" Preta - GX40Q75214 | Compartimentos espaçosos com bolsos bem posicionados e tecido resistente à água para mais segurança no dia a dia\n\nR$ 77\n\nhttps://www.amazon.com.br/dp/B07J2KB76W?tag=promotom05-20\n\n-Anúncio"
+  },
+  {
+   "canal": "iuriindica",
+   "id": 124171,
+   "t": 1795447403.0,
+   "txt": "Mochila Lenovo B510 Everyday 15.6\" Preta - GX40Q75214 | Compartimentos espaçosos com bolsos bem posicionados e tecido resistente à água para mais segurança no dia a dia\n\n💵  R$ 77\n✅  https://www.amazon.com.br/dp/B07J2KB76W/?tag=afiliado333-20\n\n🤑 Grupos de promoções: https://iuriindica.com.br"
+  },
+  {
+   "canal": "fumotom",
+   "id": 51982,
+   "t": 1795447066.0,
+   "txt": "Controle Sem Fio Sony Dualsense Hyperpop, Ps5, Techno Red\n\nR$ 313\n-CUPOM: LIVROSJOGOS2311\n\nhttps://meli.la/263KyCn\n\n-Anúncio"
+  },
+  {
+   "canal": "iuriindica",
+   "id": 124162,
+   "t": 1795447277.0,
+   "txt": "Controle Sem Fio Sony Dualsense Hyperpop, Ps5, Techno Red\n\n💵  R$ 313\n🎟  Cupom: LIVROSJOGOS2311\n✅  https://meli.la/29FSvig\n\n🤑 Grupos de promoções: https://iuriindica.com.br"
+  },
+  {
+   "canal": "fumotom",
+   "id": 51974,
+   "t": 1795446891.0,
+   "txt": "Monitor Gamer Aoc Agon G4s 24,5 310Hz 0.3ms Hdr10 Ips Base Ajustável 25G4s/P\n\nR$ 809\n-CUPOM: TVSCELULARES2311\n\nhttps://meli.la/1zqnXCf\n\n-Anúncio"
+  },
+  {
+   "canal": "promotom",
+   "id": 115192,
+   "t": 1795447232.0,
+   "txt": "Monitor Gamer Asus Tuf 27 255hz Quad Hd 0.3ms Fast Ips Hdr10\n\nR$ 1090\n-CUPOM: TVSCELULARES2311\n\nhttps://meli.la/1WUetrL\n\n-Anúncio"
+  },
+  {
+   "canal": "iuriindica",
+   "id": 124157,
+   "t": 1795447253.0,
+   "txt": "Monitor Gamer Aoc Agon G4s 24,5 310Hz 0.3ms Hdr10 Ips Base Ajustável 25G4s/P\n\n💵  R$ 809\n🎟  Cupom: TVSCELULARES2311\n✅  https://meli.la/2W7BG8o\n\n🤑 Grupos de promoções: https://iuriindica.com.br"
+  },
+  {
+   "canal": "iuriindica",
+   "id": 124168,
+   "t": 1795447302.0,
+   "txt": "Monitor Gamer Asus Tuf 27 255hz QUAD HD 0.3ms Fast Ips Hdr10\n\n💵  R$ 1090\n🎟  Cupom: TVSCELULARES2311\n✅  https://meli.la/2JwHUhc\n\n🤑 Grupos de promoções: https://iuriindica.com.br"
   },
   {
    "canal": "fumotom",
@@ -5124,9 +5464,15 @@
   },
   {
    "canal": "fumotom",
-   "id": 51915,
-   "t": 1795442403.0,
-   "txt": "Origem Shampoo Infantil Xô Embaraço 2 Em 1 Grupy Kids 500 Ml | Desembaraço infantil dois em um\n\nR$ 9\n\nhttps://www.amazon.com.br/dp/B084GY29LG?tag=promotom05-20\n\n-Anúncio"
+   "id": 51976,
+   "t": 1795446948.0,
+   "txt": "Monitor Aoc 27\" 4K Uhd Ips 125% sRGB 97% Dci-P3 Alto-falantes U27b3a\n\nR$ 904 - Sem Juros\n-CUPOM: TVSCELULARES2311\n\nhttps://meli.la/1nY5kNX\n\n-Anúncio"
+  },
+  {
+   "canal": "iuriindica",
+   "id": 124160,
+   "t": 1795447270.0,
+   "txt": "Monitor Aoc 27\" 4K Uhd Ips 125% sRGB 97% Dci-P3 Alto-falantes U27b3a\n\n💵  R$ 904\n🎟  Cupom: TVSCELULARES2311\n✅  https://meli.la/1cDuRd8\n\n🤑 Grupos de promoções: https://iuriindica.com.br"
   },
   {
    "canal": "promotom",
@@ -5135,16 +5481,22 @@
    "txt": "Controle Sony Dualsense  Wolverine Edição Limitada\n\nR$ 369\n-CUPOM: LIVROSJOGOS2311\n\nCinza\nhttps://meli.la/1FE3uKe\n\nAmarelo \nhttps://meli.la/2hmkMqa\n\n-Anúncio"
   },
   {
-   "canal": "fumotom",
-   "id": 51917,
-   "t": 1795442435.0,
-   "txt": "Mala Wilson Viagem Rodinhas 19' Rodas Removíveis 10kg Anac\n\nR$ 195\n-CUPOM: OFERTAML\n\nhttps://meli.la/25Yo7LN\n\n-Anúncio"
+   "canal": "iuriindica",
+   "id": 124149,
+   "t": 1795447228.0,
+   "txt": "Controle Sony Dualsense Wolverine Edição Limitada\n\n💵  R$ 369\n🎟  Cupom: LIVROSJOGOS2311\n✅  https://meli.la/2ELBKPk\n\n🤑 Grupos de promoções: https://iuriindica.com.br"
   },
   {
    "canal": "fumotom",
-   "id": 51918,
-   "t": 1795442731.0,
-   "txt": "Truss Uso Obrigatório Kit Sh + Cond + Masc + Reconstrutor\n\nR$ 295\n-CUPOM: OFERTAML\n\nhttps://meli.la/2Db7e8R\n\n-Anúncio"
+   "id": 51984,
+   "t": 1795447080.0,
+   "txt": "Grand Theft Auto Vi (Xbox Series X|S)\n\nR$ 369\n-CUPOM: LIVROSJOGOS2311\n\nhttps://meli.la/2t6TU7J\n\n-Anúncio"
+  },
+  {
+   "canal": "iuriindica",
+   "id": 124164,
+   "t": 1795447282.0,
+   "txt": "Grand Theft Auto Vi (Xbox Series X|S)\n\n💵  R$ 369\n🎟  Cupom: LIVROSJOGOS2311\n✅  https://meli.la/1k32WwW\n\n🤑 Grupos de promoções: https://iuriindica.com.br"
   },
   {
    "canal": "fumotom",
@@ -5159,6 +5511,24 @@
    "txt": "Câmera de Ação GoPro Max 360 à Prova d'água Vídeo 5.6K Gps\n\nR$ 1519 - Sem Juros\n\nhttps://www.amazon.com.br/dp/B0DW6X9K7P?tag=promotom05-20\n\n-Anúncio"
   },
   {
+   "canal": "promotom",
+   "id": 115189,
+   "t": 1795446821.0,
+   "txt": "Monitor Aoc Curvo 34'' Ultrawide Wqhd 180hz U34g4c\n\nR$ 1268\n-CUPOM: TVSCELULARES2311\n\nhttps://meli.la/2b1b5We\n\n-Anúncio"
+  },
+  {
+   "canal": "iuriindica",
+   "id": 124155,
+   "t": 1795447252.0,
+   "txt": "Monitor Aoc Curvo 34'' Ultrawide Wqhd 180hz U34g4c\n\n💵  R$ 1268\n🎟  Cupom: TVSCELULARES2311\n✅  https://meli.la/2RaZ1HH\n\n🤑 Grupos de promoções: https://iuriindica.com.br"
+  },
+  {
+   "canal": "apromodaluh",
+   "id": 158970,
+   "t": 1795447697.0,
+   "txt": "✨ Spray Fixador Multifuncional Mac - Fix +\n\n~de R$ 144,31~\n🔥 *por R$ 137,09 no Pix* \n\n`\n\n✅ Loja Oficial MAC no ML.\n\n🛒 https://meli.la/2ahXTtc"
+  },
+  {
    "canal": "fumotom",
    "id": 51946,
    "t": 1795444660.0,
@@ -5169,6 +5539,18 @@
    "id": 51943,
    "t": 1795444068.0,
    "txt": "MamyPoko Lenços Umedecidos Dia&Noite 200 Unidades\n\nR$ 22\n\nhttps://www.amazon.com.br/dp/B09BBDVPB1?smid=A1ZZFT5FULY4LN&tag=promotom05-20\n\n-Anúncio"
+  },
+  {
+   "canal": "fumotom",
+   "id": 51987,
+   "t": 1795447234.0,
+   "txt": "Nintendo Switch Oled Bundle Mario Bros. Wonder + Nso 3 Meses\n\nR$ 1655\n-CUPOM: TVSCELULARES2311\n\nhttps://meli.la/2xEsoAP\n\n-Anúncio"
+  },
+  {
+   "canal": "iuriindica",
+   "id": 124169,
+   "t": 1795447308.0,
+   "txt": "Nintendo Switch Oled Bundle Mario Bros. Wonder + Nso 3 Meses\n\n💵  R$ 1655\n🎟  Cupom: TVSCELULARES2311\n✅  https://meli.la/2ysGdaC\n\n🤑 Grupos de promoções: https://iuriindica.com.br"
   },
   {
    "canal": "fumotom",
@@ -5189,6 +5571,18 @@
    "txt": "Leite em Pó Integral Ninho 380g\n\nR$ 14\n-CUPOM: PRIME15BLACK\n\nhttps://www.amazon.com.br/dp/B0964S52NM?tag=promotom05-20\n\n-Anúncio"
   },
   {
+   "canal": "fumotom",
+   "id": 51977,
+   "t": 1795446950.0,
+   "txt": "iPhone 16e (128Gb)\n\nR$ 2969\n-CUPOM: TVSCELULARES2311\n\nhttps://meli.la/32xB2q7\n\n-Anúncio"
+  },
+  {
+   "canal": "iuriindica",
+   "id": 124161,
+   "t": 1795447271.0,
+   "txt": "iPhone 16e (128Gb)\n\n💵  R$ 2969\n🎟  Cupom: TVSCELULARES2311\n✅  https://meli.la/26tBQf3\n\n🤑 Grupos de promoções: https://iuriindica.com.br"
+  },
+  {
    "canal": "juaocupons",
    "id": 27671,
    "t": 1795443067.0,
@@ -5202,15 +5596,15 @@
   },
   {
    "canal": "fumotom",
-   "id": 51913,
-   "t": 1795441623.0,
-   "txt": "Hamnet - Collector's Edition [DVD]\n\nR$ 57\n\nhttps://www.amazon.com.br/dp/B0GH2423H3?tag=promotom05-20\n\n-Anúncio"
+   "id": 51968,
+   "t": 1795446808.0,
+   "txt": "4 Formas Pequena Bolo Pudim N 16 Furo No Meio Modelo Padaria\n\nR$ 56\n\nhttps://meli.la/296Sdi3\n\n-Anúncio"
   },
   {
    "canal": "fumotom",
-   "id": 51916,
-   "t": 1795442409.0,
-   "txt": "COELHINHO MUSICAL\n\nR$ 5\n\nhttps://www.amazon.com.br/dp/B08YZ6LD5C?tag=promotom05-20\n\n-Anúncio"
+   "id": 51989,
+   "t": 1795447450.0,
+   "txt": "Pneu Pretinho 1,5L\n\nR$ 18\n\nhttps://www.amazon.com.br/dp/B09X67LZNQ?tag=promotom05-20\n\n-Anúncio"
   },
   {
    "canal": "teniscertocupons",
@@ -11556,16 +11950,16 @@
  ],
  "resumo_dia": "2026-11-22",
  "tpl_ultimo": 2032135,
- "ult_ciclo": 1795448250.5363505,
+ "ult_ciclo": 1795449002.2514007,
  "ultimo_id": {
-  "apromodaluh": 158969,
-  "fumotom": 51955,
-  "iuriindica": 124145,
+  "apromodaluh": 158974,
+  "fumotom": 51989,
+  "iuriindica": 124173,
   "juaocupons": 27674,
-  "perfumepromo": 10126,
-  "pincei": 370959,
-  "promotom": 115186,
-  "teniscertocupons": 66169,
+  "perfumepromo": 10127,
+  "pincei": 370964,
+  "promotom": 115195,
+  "teniscertocupons": 66171,
   "teste": 1795214930
  }
 }
