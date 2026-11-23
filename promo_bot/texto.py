@@ -109,6 +109,10 @@ def preco(texto):
             continue  # parcela
         if "frete" in antes[-12:]:
             continue
+        if re.match(r"\s*(off\b|de\s+desconto|desconto\b|de\s+cashback|cashback\b|de\s+volta)", depois):
+            continue  # "R$ 50 OFF" é o valor do CUPOM, não o preço (GTA VI saiu por R$ 50 em 23/11)
+        if re.search(r"(acima\s+de|a\s+partir\s+de|compras?\s+(minima\s+)?de|minimo\s+de|off\s+em|off\s+nas?\s+compras?\s+de)\s*:?\s*$", antes):
+            continue  # valor mínimo do cupom ("acima de R$ 199", "R$ 20 OFF em R$ 99")
         if _OLD_ANTES.search(antes) or texto[max(0, m.start() - 1):m.start()] == "~":
             continue  # preço antigo
         item = (_para_float(m.group(1), m.group(2)), m.group(0), m.group(2) is not None)
