@@ -1,12 +1,12 @@
 {
- "cmd_ultimo": 2043881,
+ "cmd_ultimo": 2043962,
  "contagem_dia": 163,
  "cupom_min": {
   "2U6U32Q": {
-   "min": 2499.0,
-   "t": 1795451512.5699966,
+   "min": 1999.0,
+   "t": 1795468454.5329304,
    "tipo": "fixed",
-   "valor": 300.0
+   "valor": 200.0
   },
   "BLACKTAQUETA": {
    "min": 50.0,
@@ -44,11 +44,23 @@
    "tipo": "fixed",
    "valor": 300.0
   },
+  "KERASTASE60": {
+   "min": 349.0,
+   "t": 1795470050.461303,
+   "tipo": "fixed",
+   "valor": 60.0
+  },
   "LIVROSJOGOS2311": {
    "min": 200.0,
    "t": 1795446011.2709794,
    "tipo": "percent",
    "valor": 20.0
+  },
+  "MAGALUTECH": {
+   "min": 1999.0,
+   "t": 1795468517.7319248,
+   "tipo": "fixed",
+   "valor": 200.0
   },
   "OFERTAPARAVOCE": {
    "min": 79.0,
@@ -109,7 +121,8 @@
    22508,
    22555,
    22634,
-   22687
+   22687,
+   22782
   ]
  },
  "dia": "2026-11-23",
@@ -1186,6 +1199,22 @@
    "r": "pulado:periferico de PC",
    "t": 1795467147
   },
+  "fumotom:52101": {
+   "r": "pulado:periferico de PC",
+   "t": 1795468370
+  },
+  "fumotom:52102": {
+   "r": "pulado:aliexpress (bloqueado)",
+   "t": 1795468370
+  },
+  "fumotom:52106": {
+   "r": "pulado:periferico de PC",
+   "t": 1795468974
+  },
+  "fumotom:52108": {
+   "r": "pulado:aliexpress (bloqueado)",
+   "t": 1795468974
+  },
   "iuriindica:124128": {
    "r": "pulado:sem link",
    "t": 1795439520
@@ -1530,6 +1559,14 @@
    "r": "pulado:so cupom (ignorado)",
    "t": 1795466541
   },
+  "iuriindica:124232": {
+   "r": "pulado:periferico de PC",
+   "t": 1795468974
+  },
+  "iuriindica:124233": {
+   "r": "pulado:aliexpress (bloqueado)",
+   "t": 1795468974
+  },
   "juaocupons:27663": {
    "r": "pulado:sem preco",
    "t": 1795439520
@@ -1653,6 +1690,10 @@
   "juaocupons:27697": {
    "r": "pulado:sem preco",
    "t": 1795462893
+  },
+  "juaocupons:27698": {
+   "r": "pulado:sem preco",
+   "t": 1795468974
   },
   "link:https://meli.la/12v8YNH": {
    "r": "falha",
@@ -2182,6 +2223,10 @@
    "r": "falha",
    "t": 1795463371
   },
+  "link:https://www.amazon.com.br/dp/B076M6GT59": {
+   "r": "falha",
+   "t": 1795469066
+  },
   "link:https://www.amazon.com.br/dp/B0776VVJXT": {
    "r": "falha",
    "t": 1795462843
@@ -2545,6 +2590,10 @@
   "link:https://www.mercadolivre.com.br/antena-starlink-mini-internet-via-satelite-spacex-kit-compacto-e-portatil/p/MLB79489248": {
    "r": "falha",
    "t": 1795460322
+  },
+  "link:https://www.mercadolivre.com.br/ar-condicionado-hi-wall-philco-eco-24000-btus-inverter-frio/p/MLB57675048": {
+   "r": "falha",
+   "t": 1795468455
   },
   "link:https://www.mercadolivre.com.br/ar-condicionado-hw-aufit-inverter-connect-wi-fi-9k-frio-220v/up/MLBU5251800415": {
    "r": "falha",
@@ -4102,6 +4151,34 @@
    "r": "falha",
    "t": 1795467902
   },
+  "pincei:371151": {
+   "r": "pulado:repetido",
+   "t": 1795468396
+  },
+  "pincei:371152": {
+   "r": "falha",
+   "t": 1795468455
+  },
+  "pincei:371153": {
+   "r": "pulado:repetido",
+   "t": 1795468460
+  },
+  "pincei:371154": {
+   "r": "pulado:repetido",
+   "t": 1795469002
+  },
+  "pincei:371155": {
+   "r": "pulado:repetido",
+   "t": 1795469029
+  },
+  "pincei:371156": {
+   "r": "falha",
+   "t": 1795469066
+  },
+  "pincei:371157": {
+   "r": "pulado:so cupom (ignorado)",
+   "t": 1795469120
+  },
   "promosdaluh:323920": {
    "r": "pulado:sacola laranja (bloqueado)",
    "t": 1795452853
@@ -5230,6 +5307,62 @@
    "r": "pulado:sacola laranja (bloqueado)",
    "t": 1795467902
   },
+  "promosdaluh:324203": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795468461
+  },
+  "promosdaluh:324204": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795468461
+  },
+  "promosdaluh:324205": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795468461
+  },
+  "promosdaluh:324206": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795468461
+  },
+  "promosdaluh:324207": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795468461
+  },
+  "promosdaluh:324208": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795468461
+  },
+  "promosdaluh:324209": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795468461
+  },
+  "promosdaluh:324210": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795468461
+  },
+  "promosdaluh:324211": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795468461
+  },
+  "promosdaluh:324212": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795469120
+  },
+  "promosdaluh:324213": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795469120
+  },
+  "promosdaluh:324214": {
+   "r": "pulado:so cupom (ignorado)",
+   "t": 1795469205
+  },
+  "promosdaluh:324215": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795469205
+  },
+  "promosdaluh:324216": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795469205
+  },
   "promotom:115171": {
    "r": "pulado:loja desconhecida",
    "t": 1795441355
@@ -5398,6 +5531,10 @@
    "r": "pulado:sem link",
    "t": 1795464737
   },
+  "promotom:115227": {
+   "r": "pulado:sem preco",
+   "t": 1795468974
+  },
   "teniscertocupons:66164": {
    "r": "gerado",
    "t": 1795442936
@@ -5486,6 +5623,12 @@
  "fila": [
   {
    "canal": "apromodaluh",
+   "id": 159028,
+   "t": 1795468272.0,
+   "txt": "COMBINA COM TUDO! 👟\n\n✨Tênis Nike Court Vision Low Next Nature - Feminino\n\n~de R$ 599,99~\n🔥 *por R$ 271,99 no Pix* \n💳 ou 3x de R$ 95,43 sem juros\n\n🏷️ *Cupom: MARCAS15*\n\n🛒 https://apromodaluh.com.br/p/Ghh7uuoL1C?r=1"
+  },
+  {
+   "canal": "apromodaluh",
    "id": 159020,
    "t": 1795465618.0,
    "txt": "SÃO 100 ML DO IDÔLE + BRINDE! 🤩❤️‍🔥\n\n✨Perfume Idôle Lancôme L'Eau de Toilette Feminino Eau de Toilette 100ml\n\n~de R$ 959,00~\n🔥 *por R$ 495,02 no pix* \n💳 ou 7x de R$ 72,90\n\n🎁 Ganhe Sérum Full Size Ácido Hialurônico Vult Facial 30ml de brinde! 🥳\n\n🛒 https://apromodaluh.com.br/p/eFR6znNYVm?r=1\n\n 🚨 _válido somente por esse LINK em produtos vendidos e entregue por ÉPOCA COSMÉTICOS!_"
@@ -5501,6 +5644,30 @@
    "id": 159022,
    "t": 1795465618.0,
    "txt": "100 ML + BRINDE!! 🆘\n\n✨Perfume Vintage Aurora Granado Eau de Toillete 100ml\n\n~de R$ 205,00~\n🔥 *por R$ 134,22 no pix* \n\n🎁 Ganhe Sérum Full Size Ácido Hialurônico Vult Facial 30ml de brinde! 🥳\n\n🛒 https://apromodaluh.com.br/p/vgZmoG2iQP?r=1\n\n 🚨 _válido somente por esse LINK em produtos vendidos e entregue por ÉPOCA COSMÉTICOS!_"
+  },
+  {
+   "canal": "apromodaluh",
+   "id": 159027,
+   "t": 1795468272.0,
+   "txt": "VANS COM DESCONTO! 😎\n\n✨Tênis Vans Brooklyn Ls Masculino\n\n~de R$ 379,99~\n🔥 *por R$ 251,99 no Pix* \n💳 ou 4x de R$ 70,00\n\n🏷️ *Cupom: APROMODALUH*\n\n🛒 https://apromodaluh.com.br/p/zSkXtu3xQg?r=1"
+  },
+  {
+   "canal": "apromodaluh",
+   "id": 159029,
+   "t": 1795468272.0,
+   "txt": "✨ Whey Protein Concentrado +Mu em pó sabor Paçoquinha x 900g\n\n~de R$ 279,99~\n🔥 *por R$ 169,20* \n💳 ou 12x de R$ 17,04\n\n🏷️ Cupom: `OFERTAPARAVOCE`\n\n✅ Loja Oficial +MU no ML\n\n🛒 https://meli.la/1yyb63J"
+  },
+  {
+   "canal": "teniscertocupons",
+   "id": 66194,
+   "t": 1795468204.0,
+   "txt": "⚡️ EXTREMAMENTE LEVE E RÁPIDO!!\n\n💢FILA KR7 PRO \n\n🔥 de R$ 599,99 por R$ 300,88 no Pix\n\n🔗 (FEM) - https://tenis.cc/4ClmmCG\n\n🔗 (MASC) - https://tenis.cc/4Clmh1Q\n\n🎟 use o cupom LIVETC12\n\n✔️ Tênis para treinos e provas de corrida\n\n❗️Cupom válido somente até às 23:59 de hoje"
+  },
+  {
+   "canal": "apromodaluh",
+   "id": 159025,
+   "t": 1795468272.0,
+   "txt": "COM STRASS! 🤩\n\n✨Tênis Sambae W Feminino\n\n~de R$899,99~\n🔥 *por R$549,99* \n💳 ou 5x de R$110,00 sem juros\n\n🛒 https://apromodaluh.com.br/p/BmpDXBzktq?r=1"
   },
   {
    "canal": "teniscertocupons",
@@ -5525,6 +5692,12 @@
    "id": 159024,
    "t": 1795465620.0,
    "txt": "✨ EUCERIN Protetor Solar Facial Oil Control FPS60 50ml, Antioleosidade, Rosto, Proteção UVA, UVB e Luz Visível\n\n~de R$ 94,90~\n🔥 *por R$ 59,90* 😱\n🔄 R$ 56,90 na recorrência\n\n🛒 https://link.amazon/B0hjOUcaQ\n\n📌 Assine PRIME por 30 dias GRATIS aqui: https://amzn.to/3YeTytk"
+  },
+  {
+   "canal": "apromodaluh",
+   "id": 159026,
+   "t": 1795468272.0,
+   "txt": "UM CLÁSSICO! 😎👟\n\n✨Tênis Campus 00s masculino\n\n~de R$699,99~\n🔥 *por R$499,99* \n💳 ou 5x de R$100,00 sem juros\n\n🛒 https://apromodaluh.com.br/p/IxicgKY2eU?r=1"
   },
   {
    "canal": "teniscertocupons",
@@ -5552,12 +5725,6 @@
   },
   {
    "canal": "fumotom",
-   "id": 52070,
-   "t": 1795463276.0,
-   "txt": "L’Oréal Paris Elseve Bond Repair Kit Tratamento Completo Reparação Molecular com Ácido Cítrico, Reconstrói Ligações e Devolve Força aos Cabelos Danificados (Pré-Shampoo + Shampoo +\n\nR$ 76\n-CUPOM: 20BF26PRIME\n\nhttps://www.amazon.com.br/dp/B0F6NTL27W?tag=promotom05-20\n\n-Anúncio"
-  },
-  {
-   "canal": "fumotom",
    "id": 52082,
    "t": 1795464867.0,
    "txt": "Teclado Mecânico Gamer Sem Fio Tri Mode Gasket Hot Swapp 75% Led Rgb Switch Pegasus Dareu Flex 75 Preto e Cinza\n\nR$ 238\n-CUPOM: MELIGARANTE\n\nhttps://meli.la/1M1V6jX\n\n-Anúncio"
@@ -5570,9 +5737,9 @@
   },
   {
    "canal": "fumotom",
-   "id": 52072,
-   "t": 1795463295.0,
-   "txt": "Kit de Facas Tefal Ice Force com 4 Peças + Cepo Preto com Aço Inox Resfriado Alemão, Corte Preciso e Design Sofisticado\n\nR$ 189\n\nhttps://www.amazon.com.br/dp/B0DT9V8ZB4?tag=promotom05-20\n\n-Anúncio"
+   "id": 52103,
+   "t": 1795468421.0,
+   "txt": "Monitor Gamer Superframe Vision 23.8 Pol Fhd Ips 240hz Preto\n\nR$ 562\n-CUPOM: MELIGARANTE\n\nhttps://meli.la/2RyMe3v\n\n-Anúncio"
   },
   {
    "canal": "fumotom",
@@ -5594,27 +5761,15 @@
   },
   {
    "canal": "fumotom",
-   "id": 52075,
-   "t": 1795463490.0,
-   "txt": "Wap Secador de Cabelo Intense Travel Bivolt Chaveado Ws1300 Com Cabo Dobrável e Bico Concentrador\n\nR$ 71\n-CUPOM: 20BF26PRIME\n\nhttps://www.amazon.com.br/dp/B0G5QYJR44?tag=promotom05-20\n\n-Anúncio"
-  },
-  {
-   "canal": "fumotom",
-   "id": 52067,
-   "t": 1795463185.0,
-   "txt": "Loft7, Conjunto Kit 4 Cadeiras Design Allegra Polipropileno Injetado Alta Densidade Empilhável Sala Cozinha Jantar Bar Jardim Varanda Branco\n\nR$ 156\n\nhttps://www.amazon.com.br/dp/B083R162LK?tag=promotom05-20\n\n-Anúncio"
-  },
-  {
-   "canal": "promotom",
-   "id": 115221,
-   "t": 1795463228.0,
-   "txt": "Loft7, Conjunto Kit 4 Cadeiras Design Allegra Polipropileno Injetado Alta Densidade Empilhável Sala Cozinha Jantar Bar Jardim Varanda Branco\n\nR$ 156\n\nhttps://www.amazon.com.br/dp/B083R162LK?tag=promotom05-20\n\n-Anúncio"
-  },
-  {
-   "canal": "fumotom",
    "id": 52081,
    "t": 1795464652.0,
    "txt": "Micro-ondas Electrolux Efficient 34L Branco Função Descongelar e Receitas Pré-Programadas (ME34B)\n\nR$ 485\n-CUPOM: MELIGARANTE\n\nhttps://meli.la/32xjjTT\n\n-Anúncio"
+  },
+  {
+   "canal": "fumotom",
+   "id": 52100,
+   "t": 1795468042.0,
+   "txt": "Fone de Ouvido Headset Havit Fuxi-H3 Plus Black, 5 Modos de Conexão, 2.4GHz, Bluetooth, Cabo Usb e 3,5mm\n\nR$ 169 - Sem Juros\n\nhttps://www.amazon.com.br/dp/B0H2JSCX82?tag=promotom05-20\n\n-Anúncio"
   },
   {
    "canal": "promotom",
@@ -5627,6 +5782,12 @@
    "id": 52089,
    "t": 1795465277.0,
    "txt": "Mondial, Cafeteira Automatic Latte Preta, Moagem na Hora, 20 Bares, Design Sofisticado, 4 Níveis de Moagem, 9 Programações, Painel Inteligente - Mce-01-Al - 220V\n\nR$ 2299\n-CUPOM: 20BF26PRIME\n\nhttps://www.amazon.com.br/dp/B0GFBM9D4P?tag=promotom05-20\n\n-Anúncio"
+  },
+  {
+   "canal": "fumotom",
+   "id": 52098,
+   "t": 1795467862.0,
+   "txt": "Elg Power Bank 20000mAh Carregador Portátil Turbo 22,5W com Display | Pd 20W na Usb-C, Qc 3.0 nas Usb-A, Recarga por Usb-C ou Micro Usb, Até 300 Ciclos, Cabo Usb-C Incluso, Modelo\n\nR$ 108 - Sem Juros\n\nhttps://www.amazon.com.br/dp/B07DHSHXVP?tag=promotom05-20\n\n-Anúncio"
   },
   {
    "canal": "iuriindica",
@@ -5647,12 +5808,6 @@
    "txt": "Smart Tv 65 4k Uhd Philips 65pug7231/78 Google Tv Dolby\n\nR$ 2601\n-CUPOM: OFFPRATECH\n\nhttps://meli.la/222VGwU\n\n-Anúncio"
   },
   {
-   "canal": "fumotom",
-   "id": 52064,
-   "t": 1795462965.0,
-   "txt": "Refrigeração preta Deepcool Le360 V2 Zero Black 3400 Rpm\n\nR$ 377\n-CUPOM: OFERTASEMPREML\n\nhttps://meli.la/1KDXq2s\n\n-Anúncio"
-  },
-  {
    "canal": "iuriindica",
    "id": 124223,
    "t": 1795463728.0,
@@ -5666,9 +5821,9 @@
   },
   {
    "canal": "fumotom",
-   "id": 52063,
-   "t": 1795462931.0,
-   "txt": "Smartphone Motorola Moto G Max 5g - 256Gb 8Gb Ram, Câmera 200mp, Ois, Tela 1.5k Extreme Amoled 120hz, Ip68 E Ip69 - Grafite\n\nR$ 1439\n-CUPOM: OFERTASEMPREML\n\nhttps://meli.la/1c2W61x\n\n-Anúncio"
+   "id": 52099,
+   "t": 1795467883.0,
+   "txt": "Peugeot Relógio feminino clássico banhado a ouro 14 quilates, caixa retangular em forma de tanque com pulseira de couro e mostrador fácil de ler\n\nR$ 400\n\nhttps://www.amazon.com.br/dp/B00FFBSVPK?tag=promotom05-20\n\n-Anúncio"
   },
   {
    "canal": "iuriindica",
@@ -5701,6 +5856,12 @@
    "txt": "kit 10 Máquina De Cortar Cabelo Para Barba Masculina Designer Aleatório Elétrico Profissional\n\nR$ 14\n\nhttps://s.shopee.com.br/3B9DVmlWLc\n\n-Anúncio"
   },
   {
+   "canal": "fumotom",
+   "id": 52107,
+   "t": 1795468870.0,
+   "txt": "Copos para Armazenamento de Leite Materno Philips Avent 10 peças Transparente 180 ml\n\nR$ 56\n\nhttps://www.amazon.com.br/dp/B07D2FRG8B?tag=promotom05-20\n\n-Anúncio"
+  },
+  {
    "canal": "iuriindica",
    "id": 124219,
    "t": 1795463720.0,
@@ -5726,9 +5887,9 @@
   },
   {
    "canal": "fumotom",
-   "id": 52071,
-   "t": 1795463286.0,
-   "txt": "Galaxy Quest [4K UHD + Digital Copy]\n\nR$ 159\n\nhttps://www.amazon.com.br/dp/B0DGY6258P?tag=promotom05-20\n\n-Anúncio"
+   "id": 52097,
+   "t": 1795467771.0,
+   "txt": "Câmbio Logitech G Driving Force - Compatível com Volantes Logitech G29, G920 e G923 para Ps5, Ps4, Xbox Series X|S, Xbox One e Pc\n\nR$ 269\n\nhttps://www.amazon.com.br/dp/B00Z0UWV3O?tag=promotom05-20\n\n-Anúncio"
   },
   {
    "canal": "promosdaluh",
@@ -5744,6 +5905,12 @@
   },
   {
    "canal": "fumotom",
+   "id": 52104,
+   "t": 1795468729.0,
+   "txt": "Playset Mini Torre de Aventura Sunny, Patrulha Canina | Com 1 Mini Figura Chase\n\nR$ 29\n\nhttps://www.amazon.com.br/dp/B0F6ZKKZZT?tag=promotom05-20\n\n-Anúncio"
+  },
+  {
+   "canal": "fumotom",
    "id": 52085,
    "t": 1795465065.0,
    "txt": "Fossil Óculos de sol redondos FOS3078s, Havana escuro, 53 mm\n\nR$ 293\n\nhttps://www.amazon.com.br/dp/B0783Q4MZY?tag=promotom05-20\n\n-Anúncio"
@@ -5756,27 +5923,15 @@
   },
   {
    "canal": "fumotom",
-   "id": 52069,
-   "t": 1795463236.0,
-   "txt": "Lampada Halogena Classica 100W\n\nR$ 3\n\nhttps://www.amazon.com.br/dp/B077VTKLRW?tag=promotom05-20\n\n-Anúncio"
-  },
-  {
-   "canal": "fumotom",
    "id": 52087,
    "t": 1795465088.0,
    "txt": "Polaroid P8317 0BM LA 58 - Havana/Marrom Gradiente\n\nR$ 293\n\nhttps://www.amazon.com.br/dp/B00ARLFRHS?tag=promotom05-20\n\n-Anúncio"
   },
   {
    "canal": "fumotom",
-   "id": 52073,
-   "t": 1795463301.0,
-   "txt": "Massa de Modelar Estrela, Kit Unicórnios, Multicolor\n\nR$ 11\n\nhttps://www.amazon.com.br/dp/B0CV8X7TDS?tag=promotom05-20\n\n-Anúncio"
-  },
-  {
-   "canal": "promotom",
-   "id": 115220,
-   "t": 1795462728.0,
-   "txt": "Liberou mais cupons! Cupom R$ 20 em R$ 60 Amazon\n\n1 https://link.amazon/B09hdoRq2\n2 https://link.amazon/B06oEQbwQ"
+   "id": 52105,
+   "t": 1795468747.0,
+   "txt": "Scooby-Doo! Figura Colecionavel Piloto , Sunny\n\nR$ 27\n\nhttps://www.amazon.com.br/dp/B091D5CG5C?tag=promotom05-20\n\n-Anúncio"
   }
  ],
  "flags": {
@@ -11821,17 +11976,17 @@
  ],
  "resumo_dia": "2026-11-22",
  "tpl_ultimo": 2032135,
- "ult_ciclo": 1795467923.4850407,
+ "ult_ciclo": 1795469205.651365,
  "ultimo_id": {
-  "apromodaluh": 159024,
-  "fumotom": 52096,
-  "iuriindica": 124231,
-  "juaocupons": 27697,
+  "apromodaluh": 159029,
+  "fumotom": 52108,
+  "iuriindica": 124233,
+  "juaocupons": 27698,
   "perfumepromo": 10152,
-  "pincei": 371150,
-  "promosdaluh": 324202,
-  "promotom": 115226,
-  "teniscertocupons": 66193,
+  "pincei": 371157,
+  "promosdaluh": 324216,
+  "promotom": 115227,
+  "teniscertocupons": 66194,
   "teste": 1795214930
  }
 }
