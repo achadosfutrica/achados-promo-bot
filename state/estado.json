@@ -1,6 +1,6 @@
 {
  "cmd_ultimo": 2037846,
- "contagem_dia": 86,
+ "contagem_dia": 87,
  "dia": "2026-11-22",
  "feitos": {
   "apromodaluh:158768": {
@@ -2815,6 +2815,10 @@
    "r": "duplicado",
    "t": 1795350084
   },
+  "link:https://www.amazon.com.br/dp/B0FW7G2QBJ": {
+   "r": "gerado",
+   "t": 1795396011
+  },
   "link:https://www.amazon.com.br/dp/B0FY6RY66N": {
    "r": "gerado",
    "t": 1795298486
@@ -3198,6 +3202,10 @@
   "perfumepromo:10107": {
    "r": "falha",
    "t": 1795386388
+  },
+  "perfumepromo:10108": {
+   "r": "pulado:sem link",
+   "t": 1795395938
   },
   "pincei:370185": {
    "r": "pulado:sacola laranja (bloqueado)",
@@ -4742,6 +4750,10 @@
   "pincei:370689": {
    "r": "falha",
    "t": 1795389324
+  },
+  "pincei:370690": {
+   "r": "gerado",
+   "t": 1795396011
   },
   "promotom:115007": {
    "r": "pulado:sem link",
@@ -8454,14 +8466,6 @@
   {
    "ids": [],
    "p": 449.99,
-   "t": 1795302017,
-   "w": [
-    "necessidade"
-   ]
-  },
-  {
-   "ids": [],
-   "p": 449.99,
    "t": 1795302615,
    "w": [
     "necessidade"
@@ -9960,18 +9964,34 @@
     "praia",
     "toys"
    ]
+  },
+  {
+   "ids": [
+    "B0FW7G2QBJ"
+   ],
+   "p": 710.5,
+   "t": 1795395943,
+   "w": [
+    "220w",
+    "bluetooth",
+    "boombox",
+    "caixa",
+    "pulse",
+    "rms",
+    "som"
+   ]
   }
  ],
  "resumo_dia": "2026-11-21",
  "tpl_ultimo": 2032135,
- "ult_ciclo": 1795395401.636738,
+ "ult_ciclo": 1795397146.5998666,
  "ultimo_id": {
   "apromodaluh": 158909,
   "fumotom": 51682,
   "iuriindica": 124051,
   "juaocupons": 27648,
-  "perfumepromo": 10107,
-  "pincei": 370689,
+  "perfumepromo": 10108,
+  "pincei": 370690,
   "promotom": 115140,
   "teniscertocupons": 66163,
   "teste": 1795214930
