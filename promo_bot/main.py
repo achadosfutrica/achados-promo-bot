@@ -7,7 +7,7 @@ import sys
 import time
 
 from . import config as C
-from . import filtro, inteligencia, links, lojas_extra, ml_vendedor, repetidos, templates, texto as T, vigia, painel
+from . import filtro, inteligencia, links, lojas_extra, ml_vendedor, repetidos, templates, texto as T, vigia, painel, sentinela
 from .driver import Driver, Falha
 from .estado import Estado
 
@@ -397,6 +397,10 @@ def salvar_no_git(est, log):
         log("aviso: nao salvei o estado no git: %r" % e)
 
 
+def teste_link_env():
+    return bool(os.environ.get("PROMO_TESTE_LINK", "").strip())
+
+
 def main():
     cfg = C.carregar()
     cfg["_manual"] = os.environ.get("GITHUB_EVENT_NAME") == "workflow_dispatch"
@@ -424,6 +428,14 @@ def main():
                 log("aviso: nao consegui avisar o robo de cupons: %s" % e)
                 notificar("⚠️ Robô de promoções: não consegui avisar @%s:\n%s" % (cfg["robo_cupons"], msg))
         dormir = lambda seg: client.loop.run_until_complete(asyncio.sleep(seg))   # o vigia continua ouvindo
+        sent = None
+        if cfg["mode"] == "live" and not teste_link_env():
+            try:                       # v74: apaga do grupo e avisa quando o Divulgador aplica cupom abaixo do mínimo
+                canais_s = list(dict.fromkeys(list(cfg.get("canais") or []) + list((cfg.get("vigia") or {}).get("canais") or [])))
+                sent = sentinela.Sentinela(client, cfg, log, canais_s, memoria=est.d.setdefault("cupom_min", {}))
+                sent.ligar()
+            except Exception as e:  # noqa
+                log("aviso: sentinela nao ligou: %r" % e)
         from .divulgador_api import Divulgador
         teste_link = os.environ.get("PROMO_TESTE_LINK", "").strip()
         def midia(canal, pid):
@@ -483,6 +495,8 @@ def main():
                     proxima_execucao(log)
         else:
             ciclo()
+        if sent:
+            sent.desligar()
     est.salvar()
     return 0
 
