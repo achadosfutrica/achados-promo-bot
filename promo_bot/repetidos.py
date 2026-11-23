@@ -43,12 +43,20 @@ def registro(texto, link="", preco=None, t=None):
             "w": sorted(palavras(texto)), "p": preco}
 
 
+def inicio_do_dia(agora):
+    """00:01 (Brasilia) de hoje: so o que saiu de hoje em diante conta como repetido; o de ontem pode repetir."""
+    from datetime import datetime, timedelta, timezone
+    brt = timezone(timedelta(hours=-3))
+    d = datetime.fromtimestamp(agora, brt).replace(hour=0, minute=1, second=0, microsecond=0)
+    return d.timestamp()
+
+
 def ja_postado(reg, historico, desconto_min=0.15, horas=24, agora=None):
     """Devolve (True, motivo) se o produto já saiu nas últimas `horas` e o preço não caiu >= desconto_min."""
     agora = agora or time.time()
     w, i = set(reg["w"]), set(reg["ids"])
     for h in historico:
-        if agora - h.get("t", 0) > horas * 3600:
+        if h.get("t", 0) < inicio_do_dia(agora):
             continue
         mesmo = (i and i & set(h.get("ids") or [])) or parecido(w, set(h.get("w") or []))
         if not mesmo:
