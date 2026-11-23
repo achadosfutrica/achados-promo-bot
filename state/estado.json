@@ -1,6 +1,6 @@
 {
  "cmd_ultimo": 2038038,
- "contagem_dia": 90,
+ "contagem_dia": 94,
  "dia": "2026-11-22",
  "feitos": {
   "apromodaluh:158768": {
@@ -1443,13 +1443,29 @@
    "r": "gerado",
    "t": 1795395376
   },
+  "fumotom:51683": {
+   "r": "gerado",
+   "t": 1795401395
+  },
   "fumotom:51684": {
    "r": "gerado",
    "t": 1795400863
   },
+  "fumotom:51685": {
+   "r": "gerado",
+   "t": 1795401533
+  },
   "fumotom:51686": {
    "r": "gerado",
    "t": 1795400795
+  },
+  "fumotom:51687": {
+   "r": "gerado",
+   "t": 1795401464
+  },
+  "fumotom:51688": {
+   "r": "gerado",
+   "t": 1795402011
   },
   "fumotom:51689": {
    "r": "gerado",
@@ -1754,6 +1770,38 @@
   "iuriindica:124051": {
    "r": "pulado:sem link",
    "t": 1795386352
+  },
+  "iuriindica:124052": {
+   "r": "pulado:repetido",
+   "t": 1795401963
+  },
+  "iuriindica:124053": {
+   "r": "pulado:aliexpress (bloqueado)",
+   "t": 1795401955
+  },
+  "iuriindica:124054": {
+   "r": "pulado:aliexpress (bloqueado)",
+   "t": 1795401955
+  },
+  "iuriindica:124055": {
+   "r": "pulado:repetido",
+   "t": 1795401966
+  },
+  "iuriindica:124056": {
+   "r": "pulado:repetido",
+   "t": 1795401964
+  },
+  "iuriindica:124057": {
+   "r": "pulado:periferico de PC",
+   "t": 1795401961
+  },
+  "iuriindica:124058": {
+   "r": "pulado:aliexpress (bloqueado)",
+   "t": 1795401961
+  },
+  "iuriindica:124059": {
+   "r": "pulado:aliexpress (bloqueado)",
+   "t": 1795401961
   },
   "juaocupons:27573": {
    "r": "pulado:loja desconhecida",
@@ -2731,6 +2779,10 @@
    "r": "gerado",
    "t": 1795343470
   },
+  "link:https://www.amazon.com.br/dp/B0DHW68P8F": {
+   "r": "gerado",
+   "t": 1795401464
+  },
   "link:https://www.amazon.com.br/dp/B0DJFRYWK8": {
    "r": "gerado",
    "t": 1795348407
@@ -2759,6 +2811,10 @@
    "r": "gerado",
    "t": 1795349525
   },
+  "link:https://www.amazon.com.br/dp/B0F1NJ1D13": {
+   "r": "gerado",
+   "t": 1795401533
+  },
   "link:https://www.amazon.com.br/dp/B0F2HM2LB5": {
    "r": "gerado",
    "t": 1795256356
@@ -2786,6 +2842,10 @@
   "link:https://www.amazon.com.br/dp/B0F8P16K2L": {
    "r": "gerado",
    "t": 1795365464
+  },
+  "link:https://www.amazon.com.br/dp/B0F9NQLDBX": {
+   "r": "gerado",
+   "t": 1795401395
   },
   "link:https://www.amazon.com.br/dp/B0FC62Y27J": {
    "r": "gerado",
@@ -2886,6 +2946,10 @@
   "link:https://www.amazon.com.br/dp/B0GTBSKVL9": {
    "r": "gerado",
    "t": 1795357386
+  },
+  "link:https://www.amazon.com.br/dp/B0GXLPCG9Y": {
+   "r": "gerado",
+   "t": 1795402011
   },
   "link:https://www.amazon.com.br/dp/B0H127L18H": {
    "r": "duplicado",
@@ -5468,32 +5532,7 @@
    "t": 1795214936
   }
  },
- "fila": [
-  {
-   "canal": "fumotom",
-   "id": 51683,
-   "t": 1795400455.0,
-   "txt": "Cotiled Tapete 6x9 para Sala de Estar, Lavável, Tradicional, Azul Desgastado\n\nR$ 560\n\nhttps://www.amazon.com.br/dp/B0F9NQLDBX?tag=promotom05-20\n\n-Anúncio"
-  },
-  {
-   "canal": "fumotom",
-   "id": 51687,
-   "t": 1795400464.0,
-   "txt": "Fluido Restaurador Multibenefícios 180ml | Amend Essencial | Reconstrói, reduz o tempo de secagem e protege contra altas temperaturas.\n\nR$ 45\n\nhttps://www.amazon.com.br/dp/B0DHW68P8F?tag=promotom05-20\n\n-Anúncio"
-  },
-  {
-   "canal": "fumotom",
-   "id": 51685,
-   "t": 1795400462.0,
-   "txt": "DAN DA DAN: Season One [Blu-ray]\n\nR$ 179\n\nhttps://www.amazon.com.br/dp/B0F1NJ1D13?tag=promotom05-20\n\n-Anúncio"
-  },
-  {
-   "canal": "fumotom",
-   "id": 51688,
-   "t": 1795400469.0,
-   "txt": "LUMAI Kit Potes Herméticos, 3 Recipientes com Travas e Vedação Silicone\n\nR$ 43\n\nhttps://www.amazon.com.br/dp/B0GXLPCG9Y?tag=promotom05-20\n\n-Anúncio"
-  }
- ],
+ "fila": [],
  "flags": {
   "resumo": true,
   "trava": true
@@ -10071,15 +10110,86 @@
     "resistencia",
     "vegetal"
    ]
+  },
+  {
+   "ids": [
+    "B0F9NQLDBX"
+   ],
+   "p": 560.0,
+   "t": 1795401352,
+   "w": [
+    "6x9",
+    "azul",
+    "cotiled",
+    "desgastado",
+    "estar",
+    "lavavel",
+    "sala",
+    "tapete",
+    "tradicional"
+   ]
+  },
+  {
+   "ids": [
+    "B0DHW68P8F"
+   ],
+   "p": 45.0,
+   "t": 1795401420,
+   "w": [
+    "180ml",
+    "altas",
+    "amend",
+    "contra",
+    "essencial",
+    "fluido",
+    "multibeneficios",
+    "protege",
+    "reconstroi",
+    "reduz",
+    "restaurador",
+    "secagem",
+    "temperaturas",
+    "tempo"
+   ]
+  },
+  {
+   "ids": [
+    "B0F1NJ1D13"
+   ],
+   "p": 179.0,
+   "t": 1795401489,
+   "w": [
+    "blu",
+    "dan",
+    "one",
+    "ray",
+    "season"
+   ]
+  },
+  {
+   "ids": [
+    "B0GXLPCG9Y"
+   ],
+   "p": 43.0,
+   "t": 1795401966,
+   "w": [
+    "hermeticos",
+    "lumai",
+    "potes",
+    "recipientes",
+    "silicone",
+    "travas",
+    "vedacao"
+   ]
   }
  ],
  "resumo_dia": "2026-11-22",
  "tpl_ultimo": 2032135,
- "ult_ciclo": 1795400956.6615968,
+ "ult_ciclo": 1795402555.8999448,
  "ultimo_id": {
   "apromodaluh": 158909,
   "fumotom": 51689,
-  "iuriindica": 124051,
+  "iuriindica": 124059,
   "juaocupons": 27648,
   "perfumepromo": 10108,
   "pincei": 370691,
