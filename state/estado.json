@@ -1,6 +1,6 @@
 {
- "cmd_ultimo": 2037830,
- "contagem_dia": 82,
+ "cmd_ultimo": 2037846,
+ "contagem_dia": 84,
  "dia": "2026-11-22",
  "feitos": {
   "apromodaluh:158768": {
@@ -1427,6 +1427,14 @@
    "r": "falha",
    "t": 1795391757
   },
+  "fumotom:51679": {
+   "r": "gerado",
+   "t": 1795393570
+  },
+  "fumotom:51680": {
+   "r": "gerado",
+   "t": 1795393663
+  },
   "iuriindica:123964": {
    "r": "pulado:mesmo link",
    "t": 1795215974
@@ -1975,6 +1983,10 @@
    "r": "falha",
    "t": 1795387068
   },
+  "juaocupons:27648": {
+   "r": "falha",
+   "t": 1795392331
+  },
   "link:https://amzn.to/3YeTytk": {
    "r": "falha",
    "t": 1795346459
@@ -2023,6 +2035,10 @@
    "r": "gerado",
    "t": 1795273983
   },
+  "link:https://meli.la/1Bax8UG": {
+   "r": "falha",
+   "t": 1795392331
+  },
   "link:https://meli.la/1EiX2ts": {
    "r": "falha",
    "t": 1795381534
@@ -2050,6 +2066,10 @@
   "link:https://meli.la/1KYLwXU": {
    "r": "gerado",
    "t": 1795232248
+  },
+  "link:https://meli.la/1M4yad2": {
+   "r": "falha",
+   "t": 1795392361
   },
   "link:https://meli.la/1VXsEkj": {
    "r": "falha",
@@ -2414,6 +2434,10 @@
   "link:https://www.amazon.com.br/dp/B00QYCJS42": {
    "r": "falha",
    "t": 1795216081
+  },
+  "link:https://www.amazon.com.br/dp/B00T831TBY": {
+   "r": "gerado",
+   "t": 1795393570
   },
   "link:https://www.amazon.com.br/dp/B00U85D3UG": {
    "r": "gerado",
@@ -2802,6 +2826,10 @@
   "link:https://www.amazon.com.br/dp/B0GKQX8ZPN": {
    "r": "duplicado",
    "t": 1795259248
+  },
+  "link:https://www.amazon.com.br/dp/B0GMJVXT2K": {
+   "r": "gerado",
+   "t": 1795393663
   },
   "link:https://www.amazon.com.br/dp/B0GQJQ2MFF": {
    "r": "gerado",
@@ -5158,6 +5186,10 @@
   "promotom:115139": {
    "r": "falha",
    "t": 1795391786
+  },
+  "promotom:115140": {
+   "r": "falha",
+   "t": 1795392361
   },
   "teniscertocupons:63531": {
    "r": "cancelado_teste",
@@ -8404,142 +8436,6 @@
  },
  "postados": [
   {
-   "ids": [
-    "B0H127L18H"
-   ],
-   "p": 1996.65,
-   "t": 1795296040,
-   "w": [
-    "boombox",
-    "caixa",
-    "jbl",
-    "preta",
-    "som"
-   ]
-  },
-  {
-   "ids": [
-    "40583845"
-   ],
-   "p": 242.19,
-   "t": 1795296163,
-   "w": [
-    "alta",
-    "compacta",
-    "karcher",
-    "lavadora",
-    "pressao"
-   ]
-  },
-  {
-   "ids": [],
-   "p": 539.99,
-   "t": 1795296253,
-   "w": [
-    "asics",
-    "pela",
-    "produto",
-    "vendido"
-   ]
-  },
-  {
-   "ids": [],
-   "p": 409.99,
-   "t": 1795296374,
-   "w": [
-    "necessidade"
-   ]
-  },
-  {
-   "ids": [
-    "B0F493DZMH"
-   ],
-   "p": 21.0,
-   "t": 1795296511,
-   "w": [
-    "iluminador",
-    "mari",
-    "maria",
-    "splendid"
-   ]
-  },
-  {
-   "ids": [],
-   "p": 277.39,
-   "t": 1795296618,
-   "w": [
-    "adidas",
-    "cloudfoam",
-    "corrida",
-    "masculino",
-    "runfalcon",
-    "tenis"
-   ]
-  },
-  {
-   "ids": [
-    "58582424"
-   ],
-   "p": 36.18,
-   "t": 1795297226,
-   "w": [
-    "essencial",
-    "exclusiva",
-    "formula",
-    "testo"
-   ]
-  },
-  {
-   "ids": [],
-   "p": 499.99,
-   "t": 1795297289,
-   "w": [
-    "necessidade"
-   ]
-  },
-  {
-   "ids": [],
-   "p": 499.99,
-   "t": 1795297822,
-   "w": [
-    "necessidade"
-   ]
-  },
-  {
-   "ids": [],
-   "p": 499.99,
-   "t": 1795298402,
-   "w": [
-    "necessidade"
-   ]
-  },
-  {
-   "ids": [
-    "B0FY6RY66N"
-   ],
-   "p": 1996.0,
-   "t": 1795298442,
-   "w": [
-    "220v",
-    "btus",
-    "condicionado",
-    "frio",
-    "inverter",
-    "q12ja31e",
-    "smart",
-    "split",
-    "voice"
-   ]
-  },
-  {
-   "ids": [],
-   "p": 499.99,
-   "t": 1795299056,
-   "w": [
-    "necessidade"
-   ]
-  },
-  {
    "ids": [],
    "p": 449.99,
    "t": 1795300813,
@@ -9998,19 +9894,65 @@
     "dulce",
     "leche"
    ]
+  },
+  {
+   "ids": [
+    "B00T831TBY"
+   ],
+   "p": 77.0,
+   "t": 1795393526,
+   "w": [
+    "aluminio",
+    "anodizado",
+    "arame",
+    "armadura",
+    "artesanato",
+    "bonsai",
+    "calibre",
+    "colorido",
+    "crafts",
+    "dobravel",
+    "dourado",
+    "embrulho",
+    "escultura",
+    "fabricacao",
+    "fio",
+    "flexivel",
+    "joias",
+    "mandala"
+   ]
+  },
+  {
+   "ids": [
+    "B07DHRL34V",
+    "B07MT9LCV1",
+    "B085CZ2F4J",
+    "B0D84MB72K",
+    "B0DJBVL2S5",
+    "B0FXN957HN",
+    "B0G3QFG9M4",
+    "B0GMJVXT2K"
+   ],
+   "p": 15.0,
+   "t": 1795393595,
+   "w": [
+    "johnson",
+    "ofertas",
+    "produtos"
+   ]
   }
  ],
  "resumo_dia": "2026-11-21",
  "tpl_ultimo": 2032135,
- "ult_ciclo": 1795391839.8733153,
+ "ult_ciclo": 1795393688.24811,
  "ultimo_id": {
   "apromodaluh": 158909,
-  "fumotom": 51678,
+  "fumotom": 51680,
   "iuriindica": 124051,
-  "juaocupons": 27647,
+  "juaocupons": 27648,
   "perfumepromo": 10107,
   "pincei": 370689,
-  "promotom": 115139,
+  "promotom": 115140,
   "teniscertocupons": 66163,
   "teste": 1795214930
  }
