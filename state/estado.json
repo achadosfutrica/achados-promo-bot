@@ -1,6 +1,6 @@
 {
- "cmd_ultimo": 2039023,
- "contagem_dia": 49,
+ "cmd_ultimo": 2039357,
+ "contagem_dia": 64,
  "cupom_min": {
   "INFLU100BLACK": {
    "min": 1100.0,
@@ -497,6 +497,30 @@
   "apromodaluh:158909": {
    "r": "esgotado_avisado",
    "t": 1795386905
+  },
+  "apromodaluh:158910": {
+   "r": "gerado",
+   "t": 1795433802
+  },
+  "apromodaluh:158911": {
+   "r": "pulado:repetido",
+   "t": 1795433726
+  },
+  "apromodaluh:158912": {
+   "r": "gerado",
+   "t": 1795433903
+  },
+  "apromodaluh:158913": {
+   "r": "gerado",
+   "t": 1795434004
+  },
+  "apromodaluh:158914": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795433725
+  },
+  "apromodaluh:158915": {
+   "r": "falha",
+   "t": 1795434271
   },
   "esg:1ABHVBZ": {
    "r": "avisado",
@@ -1234,6 +1258,54 @@
    "r": "gerado",
    "t": 1795431123
   },
+  "fumotom:51770": {
+   "r": "gerado",
+   "t": 1795434077
+  },
+  "fumotom:51771": {
+   "r": "pulado:repetido",
+   "t": 1795434398
+  },
+  "fumotom:51772": {
+   "r": "pulado:repetido",
+   "t": 1795434296
+  },
+  "fumotom:51773": {
+   "r": "gerado",
+   "t": 1795434372
+  },
+  "fumotom:51774": {
+   "r": "pulado:repetido",
+   "t": 1795434398
+  },
+  "fumotom:51775": {
+   "r": "falha",
+   "t": 1795434447
+  },
+  "fumotom:51776": {
+   "r": "pulado:repetido",
+   "t": 1795435053
+  },
+  "fumotom:51777": {
+   "r": "gerado",
+   "t": 1795435182
+  },
+  "fumotom:51778": {
+   "r": "pulado:repetido",
+   "t": 1795435055
+  },
+  "fumotom:51779": {
+   "r": "gerado",
+   "t": 1795435026
+  },
+  "fumotom:51780": {
+   "r": "pulado:repetido",
+   "t": 1795434980
+  },
+  "fumotom:51781": {
+   "r": "pulado:repetido",
+   "t": 1795435136
+  },
   "iuriindica:123966": {
    "r": "pulado:so cupom (ignorado)",
    "t": 1795265420
@@ -1882,9 +1954,13 @@
    "r": "pulado:loja desativada: magalu",
    "t": 1795428616
   },
+  "juaocupons:27654": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795434111
+  },
   "link:https://amzn.to/3YeTytk": {
    "r": "falha",
-   "t": 1795346459
+   "t": 1795434271
   },
   "link:https://amzn.to/43L4rFd": {
    "r": "gerado",
@@ -1978,6 +2054,10 @@
    "r": "falha",
    "t": 1795386479
   },
+  "link:https://meli.la/1mx3dYL": {
+   "r": "gerado",
+   "t": 1795433903
+  },
   "link:https://meli.la/1p3Cncf": {
    "r": "falha",
    "t": 1795386449
@@ -2009,6 +2089,10 @@
   "link:https://meli.la/21wBXwQ": {
    "r": "gerado",
    "t": 1795264541
+  },
+  "link:https://meli.la/22nR7Lz": {
+   "r": "gerado",
+   "t": 1795433802
   },
   "link:https://meli.la/25p87Pr": {
    "r": "falha",
@@ -2081,6 +2165,10 @@
   "link:https://meli.la/2eYptdb": {
    "r": "gerado",
    "t": 1795370765
+  },
+  "link:https://meli.la/2uUnP9H": {
+   "r": "gerado",
+   "t": 1795434004
   },
   "link:https://meli.la/2vF9fpt": {
    "r": "falha",
@@ -2185,6 +2273,10 @@
   "link:https://s.shopee.com.br/70LsWuSJlz": {
    "r": "gerado",
    "t": 1795272100
+  },
+  "link:https://s.shopee.com.br/7VIC7fQxsq": {
+   "r": "falha",
+   "t": 1795434447
   },
   "link:https://s.shopee.com.br/7pv2THupeT": {
    "r": "falha",
@@ -2386,6 +2478,10 @@
    "r": "gerado",
    "t": 1795403271
   },
+  "link:https://www.amazon.com.br/dp/B07Q96TZF2": {
+   "r": "gerado",
+   "t": 1795434912
+  },
   "link:https://www.amazon.com.br/dp/B07TBHLGQT": {
    "r": "duplicado",
    "t": 1795411369
@@ -2425,6 +2521,10 @@
   "link:https://www.amazon.com.br/dp/B08937VBT7": {
    "r": "gerado",
    "t": 1795411700
+  },
+  "link:https://www.amazon.com.br/dp/B089WC378C": {
+   "r": "gerado",
+   "t": 1795434077
   },
   "link:https://www.amazon.com.br/dp/B08DK5HD6C": {
    "r": "gerado",
@@ -2477,6 +2577,10 @@
   "link:https://www.amazon.com.br/dp/B09SGPQ2J7": {
    "r": "gerado",
    "t": 1795358070
+  },
+  "link:https://www.amazon.com.br/dp/B09WNFQGX3": {
+   "r": "gerado",
+   "t": 1795435182
   },
   "link:https://www.amazon.com.br/dp/B09ZTP9S4J": {
    "r": "gerado",
@@ -2590,6 +2694,10 @@
    "r": "gerado",
    "t": 1795364502
   },
+  "link:https://www.amazon.com.br/dp/B0DTLDYH91": {
+   "r": "gerado",
+   "t": 1795434776
+  },
   "link:https://www.amazon.com.br/dp/B0DW1BTQNN": {
    "r": "gerado",
    "t": 1795367111
@@ -2621,6 +2729,10 @@
   "link:https://www.amazon.com.br/dp/B0F4Q58VDB": {
    "r": "gerado",
    "t": 1795432277
+  },
+  "link:https://www.amazon.com.br/dp/B0F6DFZTD7": {
+   "r": "gerado",
+   "t": 1795434253
   },
   "link:https://www.amazon.com.br/dp/B0F8KDMJQP": {
    "r": "gerado",
@@ -2706,6 +2818,10 @@
    "r": "falha",
    "t": 1795391757
   },
+  "link:https://www.amazon.com.br/dp/B0G98TNJLJ": {
+   "r": "gerado",
+   "t": 1795435026
+  },
   "link:https://www.amazon.com.br/dp/B0GFSJSPFT": {
    "r": "gerado",
    "t": 1795268021
@@ -2761,6 +2877,10 @@
   "link:https://www.amazon.com.br/dp/B0H5D9YQ1W": {
    "r": "gerado",
    "t": 1795372609
+  },
+  "link:https://www.amazon.com.br/dp/B0HCX16JPM": {
+   "r": "gerado",
+   "t": 1795433562
   },
   "link:https://www.amazon.com.br/dp/B0HFB2T6WW": {
    "r": "gerado",
@@ -2822,13 +2942,33 @@
    "r": "gerado",
    "t": 1795364187
   },
+  "link:https://www.carrefour.com.br/produto/maquina-de-lavar-smart-sensor-14kg-automatica-bwf14abana-brastemp-220v-338321033?utmi_cp=awc_17665_1795433625_a1aa927d33a336eacefd27cd98a46a2f": {
+   "r": "gerado",
+   "t": 1795433719
+  },
   "link:https://www.dafiti.com.br/Bolsa-Grande-Feminina-Santa-Lolla-Nylon-Preta-15007202.html?adj_t=pou776n&adj_campaign=awin&adj_adgroup=690943&adj_creative=20261122&awin_click_id=17697_1795372615_08c9c7860f85c867adb669c612462a85&awin_program_code=17697": {
    "r": "falha",
    "t": 1795372621
   },
+  "link:https://www.drogasil.com.br/cetaphil-creme-hidratante-para-o-corpo-especifico-para-areas-extremamente-secas-com-453-gramas.html": {
+   "r": "gerado",
+   "t": 1795434859
+  },
+  "link:https://www.drogasil.com.br/lavitan-melatonina-0-21mg-maracuja-150-comprimidos.html": {
+   "r": "gerado",
+   "t": 1795435111
+  },
+  "link:https://www.drogasil.com.br/natz-composto-de-mel-propolis-e-abacaxi-300g.html": {
+   "r": "gerado",
+   "t": 1795434978
+  },
   "link:https://www.epocacosmeticos.com.br/nina-ricci-nina-illusion-perfume-feminino-eau-de-parfum/p": {
    "r": "falha",
    "t": 1795386358
+  },
+  "link:https://www.kabum.com.br/produto/1051619/jogo-grand-theft-auto-gta-vi-6-ps5-tt000272ps5": {
+   "r": "gerado",
+   "t": 1795434372
   },
   "link:https://www.kabum.com.br/produto/1059447/fonte-xpg-coreshift-ii-ve-850w-80-plus-gold-preto-coreshiftiive850gd-bkcbr": {
    "r": "duplicado",
@@ -4641,6 +4781,130 @@
   "pincei:370774": {
    "r": "pulado:loja desconhecida",
    "t": 1795432993
+  },
+  "pincei:370775": {
+   "r": "pulado:repetido",
+   "t": 1795433437
+  },
+  "pincei:370776": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795433485
+  },
+  "pincei:370777": {
+   "r": "gerado",
+   "t": 1795433562
+  },
+  "pincei:370778": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795433613
+  },
+  "pincei:370779": {
+   "r": "pulado:repetido",
+   "t": 1795433618
+  },
+  "pincei:370780": {
+   "r": "pulado:mesmo link",
+   "t": 1795433618
+  },
+  "pincei:370781": {
+   "r": "pulado:repetido",
+   "t": 1795433621
+  },
+  "pincei:370782": {
+   "r": "pulado:mesmo link",
+   "t": 1795433621
+  },
+  "pincei:370783": {
+   "r": "gerado",
+   "t": 1795433719
+  },
+  "pincei:370784": {
+   "r": "pulado:sem preco",
+   "t": 1795433725
+  },
+  "pincei:370785": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795434159
+  },
+  "pincei:370786": {
+   "r": "pulado:sem preco",
+   "t": 1795434164
+  },
+  "pincei:370787": {
+   "r": "pulado:sem preco",
+   "t": 1795434170
+  },
+  "pincei:370788": {
+   "r": "pulado:sem preco",
+   "t": 1795434175
+  },
+  "pincei:370789": {
+   "r": "gerado",
+   "t": 1795434253
+  },
+  "pincei:370790": {
+   "r": "pulado:repetido",
+   "t": 1795434258
+  },
+  "pincei:370791": {
+   "r": "pulado:repetido",
+   "t": 1795434258
+  },
+  "pincei:370792": {
+   "r": "pulado:sem preco",
+   "t": 1795434264
+  },
+  "pincei:370793": {
+   "r": "pulado:so cupom (ignorado)",
+   "t": 1795434724
+  },
+  "pincei:370794": {
+   "r": "gerado",
+   "t": 1795434776
+  },
+  "pincei:370795": {
+   "r": "gerado",
+   "t": 1795435111
+  },
+  "pincei:370796": {
+   "r": "pulado:sem preco",
+   "t": 1795434790
+  },
+  "pincei:370797": {
+   "r": "pulado:repetido",
+   "t": 1795434795
+  },
+  "pincei:370798": {
+   "r": "pulado:repetido",
+   "t": 1795434800
+  },
+  "pincei:370799": {
+   "r": "pulado:repetido",
+   "t": 1795434800
+  },
+  "pincei:370800": {
+   "r": "gerado",
+   "t": 1795434859
+  },
+  "pincei:370801": {
+   "r": "gerado",
+   "t": 1795434912
+  },
+  "pincei:370802": {
+   "r": "pulado:repetido",
+   "t": 1795434917
+  },
+  "pincei:370803": {
+   "r": "pulado:mesmo link",
+   "t": 1795434917
+  },
+  "pincei:370804": {
+   "r": "pulado:sem preco",
+   "t": 1795434921
+  },
+  "pincei:370805": {
+   "r": "gerado",
+   "t": 1795434978
   },
   "promotom:115056": {
    "r": "pulado:periferico de PC",
@@ -8184,20 +8448,6 @@
  "postados": [
   {
    "ids": [
-    "B00LDYN8H4"
-   ],
-   "p": 100.0,
-   "t": 1795340014,
-   "w": [
-    "linha",
-    "pesca",
-    "spiderwire",
-    "stealth",
-    "trancada"
-   ]
-  },
-  {
-   "ids": [
     "B09572LGGF"
    ],
    "p": 364.0,
@@ -10588,18 +10838,252 @@
     "s26",
     "samsung"
    ]
+  },
+  {
+   "ids": [
+    "B0HCX16JPM"
+   ],
+   "p": 1519.06,
+   "t": 1795433490,
+   "w": [
+    "220v",
+    "btus",
+    "condicionado",
+    "efficiency",
+    "frio",
+    "hisense",
+    "inverter",
+    "split",
+    "wall"
+   ]
+  },
+  {
+   "ids": [],
+   "p": 1899.0,
+   "t": 1795433625,
+   "w": [
+    "14kg",
+    "220v",
+    "automatica",
+    "brastemp",
+    "lavar",
+    "maquina",
+    "sensor",
+    "smart"
+   ]
+  },
+  {
+   "ids": [],
+   "p": 585.19,
+   "t": 1795433727,
+   "w": [
+    "100ml",
+    "centifolia",
+    "chipre",
+    "damascena",
+    "eau",
+    "feminino",
+    "floral",
+    "idole",
+    "jasmim",
+    "lancome",
+    "parfum",
+    "perfume",
+    "rosas"
+   ]
+  },
+  {
+   "ids": [],
+   "p": 64.37,
+   "t": 1795433828,
+   "w": [
+    "40ml",
+    "baume",
+    "cicaplast",
+    "creme",
+    "multirreparador",
+    "pele",
+    "posay",
+    "roche",
+    "sensivel"
+   ]
+  },
+  {
+   "ids": [],
+   "p": 188.9,
+   "t": 1795433929,
+   "w": [
+    "30ml",
+    "antimanchas",
+    "ativo",
+    "dia",
+    "mela",
+    "melasyl",
+    "noite",
+    "patenteado",
+    "posay",
+    "roche",
+    "serum"
+   ]
+  },
+  {
+   "ids": [
+    "B089WC378C"
+   ],
+   "p": 193.0,
+   "t": 1795434029,
+   "w": [
+    "almofada",
+    "capa",
+    "extra",
+    "larga",
+    "passar",
+    "queimaduras",
+    "resistente",
+    "roupa",
+    "tabua"
+   ]
+  },
+  {
+   "ids": [
+    "B0F6DFZTD7"
+   ],
+   "p": 344.01,
+   "t": 1795434181,
+   "w": [
+    "breath",
+    "jogo",
+    "legend",
+    "nintendo",
+    "switch",
+    "the",
+    "wild",
+    "zelda"
+   ]
+  },
+  {
+   "ids": [],
+   "p": 50.0,
+   "t": 1795434296,
+   "w": [
+    "ativo"
+   ]
+  },
+  {
+   "ids": [
+    "B0DTLDYH91"
+   ],
+   "p": 63.48,
+   "t": 1795434729,
+   "w": [
+    "473ml",
+    "cerveja",
+    "lata",
+    "malte",
+    "puro",
+    "spaten"
+   ]
+  },
+  {
+   "ids": [],
+   "p": 74.99,
+   "t": 1795434808,
+   "w": [
+    "453g",
+    "cetaphil",
+    "corporal",
+    "creme",
+    "extremamente",
+    "hidratante",
+    "pele",
+    "seca"
+   ]
+  },
+  {
+   "ids": [
+    "B07Q96TZF2"
+   ],
+   "p": 38.23,
+   "t": 1795434865,
+   "w": [
+    "alcool",
+    "bucal",
+    "colgate",
+    "enxaguante",
+    "mint",
+    "plax",
+    "soft"
+   ]
+  },
+  {
+   "ids": [],
+   "p": 17.51,
+   "t": 1795434927,
+   "w": [
+    "300g",
+    "abacaxi",
+    "composto",
+    "mel",
+    "natz",
+    "propolis"
+   ]
+  },
+  {
+   "ids": [
+    "B0G98TNJLJ"
+   ],
+   "p": 47.0,
+   "t": 1795434980,
+   "w": [
+    "camiseta",
+    "cinza",
+    "masculino",
+    "mescl",
+    "mizuno",
+    "spark"
+   ]
+  },
+  {
+   "ids": [],
+   "p": 24.3,
+   "t": 1795435061,
+   "w": [
+    "alimentar",
+    "comprimidos",
+    "lavitan",
+    "maracuja",
+    "melatonina",
+    "suplemento"
+   ]
+  },
+  {
+   "ids": [
+    "B09WNFQGX3"
+   ],
+   "p": 170.0,
+   "t": 1795435136,
+   "w": [
+    "5cm",
+    "arauco",
+    "brasil",
+    "conjunto",
+    "organico",
+    "porto",
+    "pratos",
+    "sobremesa"
+   ]
   }
  ],
  "resumo_dia": "2026-11-22",
  "tpl_ultimo": 2032135,
- "ult_ciclo": 1795433093.8428833,
+ "ult_ciclo": 1795435207.6772144,
  "ultimo_id": {
-  "apromodaluh": 158909,
-  "fumotom": 51769,
+  "apromodaluh": 158915,
+  "fumotom": 51781,
   "iuriindica": 124093,
-  "juaocupons": 27653,
+  "juaocupons": 27654,
   "perfumepromo": 10108,
-  "pincei": 370774,
+  "pincei": 370805,
   "promotom": 115152,
   "teniscertocupons": 66163,
   "teste": 1795214930
