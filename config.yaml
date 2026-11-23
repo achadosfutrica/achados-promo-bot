@@ -101,6 +101,9 @@ bloquear_sacola_laranja: true   # qualquer post com 🛍 (sacola)
 sacola_liberada_canais: [pincei]   # o Pincei usa a sacola em todo post (PEGAR PROMOCAO), nao e anuncio
 bloquear_texto:                 # se o texto tiver qualquer uma destas frases (sem acento, minúsculas)
   - aliexpress
+  - usado             # 23/11: sempre pular produtos usados
+  - seminovo
+  - recondicionado
 
 preco:
   centavos_quando_inteiro: "00"   # 21/11: sem casa decimal = reais inteiros (1889 vira 1889,00)
