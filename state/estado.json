@@ -1,6 +1,6 @@
 {
- "cmd_ultimo": 2038374,
- "contagem_dia": 14,
+ "cmd_ultimo": 2038442,
+ "contagem_dia": 19,
  "dia": "2026-11-23",
  "feitos": {
   "apromodaluh:158768": {
@@ -1539,6 +1539,18 @@
    "r": "pulado:periferico de PC",
    "t": 1795404364
   },
+  "fumotom:51745": {
+   "r": "gerado",
+   "t": 1795411630
+  },
+  "fumotom:51746": {
+   "r": "gerado",
+   "t": 1795411768
+  },
+  "fumotom:51747": {
+   "r": "pulado:repetido",
+   "t": 1795411866
+  },
   "iuriindica:123964": {
    "r": "pulado:mesmo link",
    "t": 1795215974
@@ -1954,6 +1966,18 @@
   "iuriindica:124080": {
    "r": "pulado:repetido",
    "t": 1795404738
+  },
+  "iuriindica:124091": {
+   "r": "gerado",
+   "t": 1795411840
+  },
+  "iuriindica:124092": {
+   "r": "pulado:repetido",
+   "t": 1795411866
+  },
+  "iuriindica:124093": {
+   "r": "pulado:repetido",
+   "t": 1795411794
   },
   "juaocupons:27573": {
    "r": "pulado:loja desconhecida",
@@ -2807,6 +2831,10 @@
    "r": "gerado",
    "t": 1795403271
   },
+  "link:https://www.amazon.com.br/dp/B07TBHLGQT": {
+   "r": "duplicado",
+   "t": 1795411369
+  },
   "link:https://www.amazon.com.br/dp/B07XB7X52Q": {
    "r": "gerado",
    "t": 1795247462
@@ -2843,6 +2871,10 @@
    "r": "gerado",
    "t": 1795370163
   },
+  "link:https://www.amazon.com.br/dp/B08937VBT7": {
+   "r": "gerado",
+   "t": 1795411700
+  },
   "link:https://www.amazon.com.br/dp/B08DK5HD6C": {
    "r": "gerado",
    "t": 1795364335
@@ -2854,6 +2886,10 @@
   "link:https://www.amazon.com.br/dp/B08YZ4CBG4": {
    "r": "gerado",
    "t": 1795369582
+  },
+  "link:https://www.amazon.com.br/dp/B093ZMF9JP": {
+   "r": "gerado",
+   "t": 1795411443
   },
   "link:https://www.amazon.com.br/dp/B09572LGGF": {
    "r": "gerado",
@@ -2974,6 +3010,10 @@
   "link:https://www.amazon.com.br/dp/B0D5CNKNGG": {
    "r": "gerado",
    "t": 1795355003
+  },
+  "link:https://www.amazon.com.br/dp/B0D6C4BRGM": {
+   "r": "gerado",
+   "t": 1795411768
   },
   "link:https://www.amazon.com.br/dp/B0D7KHGBQ2": {
    "r": "falha",
@@ -3110,6 +3150,10 @@
   "link:https://www.amazon.com.br/dp/B0FQG1SWXN": {
    "r": "duplicado",
    "t": 1795350084
+  },
+  "link:https://www.amazon.com.br/dp/B0FTCYVMVC": {
+   "r": "gerado",
+   "t": 1795411840
   },
   "link:https://www.amazon.com.br/dp/B0FW7G2QBJ": {
    "r": "gerado",
@@ -3403,6 +3447,10 @@
    "r": "gerado",
    "t": 1795365723
   },
+  "link:https://www.netshoes.com.br/p/tenis-asics-gelcumulus-28-feminino-azul+verde-SG4-01QL-818?af_sub1=43984&af_channel=Affiliates&af_media_type=web&af_adset_id=43984&af_sub_siteID=ahpmn6xeOx8-C5FHcZO2L78TRjxv0fRz8Q&af_click_lookback=7d&is_retargeting=true&ranU1=glendapincei-20": {
+   "r": "falha",
+   "t": 1795411449
+  },
   "link:https://www.netshoes.com.br/p/tenis-fila-speedrocker-skyfoam-feminino-SFK-07EB-784": {
    "r": "falha",
    "t": 1795370668
@@ -3490,6 +3538,10 @@
   "link:https://www.paguemenos.com.br/pre-worhout-max-titanium-horus-7belo-300g/p": {
    "r": "gerado",
    "t": 1795404640
+  },
+  "link:https://www.paguemenos.com.br/protetor-solar-sunless-toque-seco-fps60-120g/p": {
+   "r": "gerado",
+   "t": 1795411630
   },
   "link:https://www.paguemenos.com.br/shampoo-ox-reparacao-completa-200ml/p": {
    "r": "gerado",
@@ -5139,6 +5191,86 @@
    "r": "falha",
    "t": 1795404521
   },
+  "pincei:370720": {
+   "r": "duplicado",
+   "t": 1795411369
+  },
+  "pincei:370721": {
+   "r": "gerado",
+   "t": 1795411443
+  },
+  "pincei:370722": {
+   "r": "falha",
+   "t": 1795411449
+  },
+  "pincei:370723": {
+   "r": "pulado:sem preco",
+   "t": 1795411455
+  },
+  "pincei:370724": {
+   "r": "pulado:so cupom (ignorado)",
+   "t": 1795411460
+  },
+  "pincei:370725": {
+   "r": "pulado:sem preco",
+   "t": 1795411464
+  },
+  "pincei:370726": {
+   "r": "pulado:repetido",
+   "t": 1795411466
+  },
+  "pincei:370727": {
+   "r": "pulado:repetido",
+   "t": 1795411469
+  },
+  "pincei:370728": {
+   "r": "pulado:repetido",
+   "t": 1795411472
+  },
+  "pincei:370729": {
+   "r": "pulado:repetido",
+   "t": 1795411474
+  },
+  "pincei:370731": {
+   "r": "pulado:so cupom (ignorado)",
+   "t": 1795411480
+  },
+  "pincei:370732": {
+   "r": "pulado:so cupom (ignorado)",
+   "t": 1795411486
+  },
+  "pincei:370733": {
+   "r": "pulado:so cupom (ignorado)",
+   "t": 1795411491
+  },
+  "pincei:370734": {
+   "r": "pulado:so cupom (ignorado)",
+   "t": 1795411497
+  },
+  "pincei:370735": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795411549
+  },
+  "pincei:370736": {
+   "r": "pulado:loja desativada: aliexpress",
+   "t": 1795411563
+  },
+  "pincei:370737": {
+   "r": "pulado:loja desativada: aliexpress",
+   "t": 1795411574
+  },
+  "pincei:370738": {
+   "r": "pulado:loja desativada: aliexpress",
+   "t": 1795411583
+  },
+  "pincei:370739": {
+   "r": "pulado:repetido",
+   "t": 1795411867
+  },
+  "pincei:370740": {
+   "r": "pulado:repetido",
+   "t": 1795411867
+  },
   "promotom:115007": {
    "r": "pulado:sem link",
    "t": 1795203318
@@ -5635,6 +5767,10 @@
    "r": "gerado",
    "t": 1795404860
   },
+  "promotom:115151": {
+   "r": "gerado",
+   "t": 1795411700
+  },
   "teniscertocupons:63531": {
    "r": "cancelado_teste",
    "t": 1795215823
@@ -5856,194 +5992,7 @@
    "t": 1795214936
   }
  },
- "fila": [
-  {
-   "canal": "fumotom",
-   "id": 51730,
-   "t": 1795403883.0,
-   "txt": "Tênis Nike Air Max Excee Masculino\n\nR$ 349\n\nhttps://meli.la/31tKvmU\n\n-Anúncio - Dica Neto"
-  },
-  {
-   "canal": "fumotom",
-   "id": 51712,
-   "t": 1795403181.0,
-   "txt": "24\" Monitor Gamer Philips Evnia 23.8 Full Hd Ips 200Hz Preto 127/220V\n\nR$ 551\n-Resgate todos os cupons desta página:\nhttps://s.shopee.com.br/8KrIXpcdrL\n\n-Link produto:\nhttps://s.shopee.com.br/5q9xZEuxTT\n\n-Anúncio"
-  },
-  {
-   "canal": "fumotom",
-   "id": 51737,
-   "t": 1795404210.0,
-   "txt": "Monitor Gamer Aoc Agon G50 27' 144hz Ips Hdr10 G-sync 27g50f Preto 127/220v\n\nR$ 481\n-Resgate cupom do anúncio\n\nhttps://meli.la/2eYptdb\n\n-Anúncio"
-  },
-  {
-   "canal": "fumotom",
-   "id": 51733,
-   "t": 1795404019.0,
-   "txt": "Basike Caixa de Som Sem Fio Basike 160W Bluetooth 5.4 Rgb Bateria 10000mAh Tws Ipx6\n\nR$ 397\n-Resgate todos os cupons desta página:\nhttps://s.shopee.com.br/7fbblZCPCk\n\n-Link produto:\nhttps://s.shopee.com.br/9fMg9F8qbm\n\n-Anúncio"
-  },
-  {
-   "canal": "fumotom",
-   "id": 51727,
-   "t": 1795403800.0,
-   "txt": "Monitor Gamer Tcl 25\" Qled Mini Led 300Hz Full Hd G64 1ms (GtG) Freesync Hdr 600 nits 25G64\n\nR$ 953\n-CUPOM: SITETODO2211\n\nhttps://meli.la/12j59rP\n\n-Anúncio"
-  },
-  {
-   "canal": "fumotom",
-   "id": 51726,
-   "t": 1795403773.0,
-   "txt": "Fonte Gamer Rise Mode Elektra, 650W, Bronze, Full Modular, Pfc Ativo, Branco - Rm-Psu-Elkm-650-W\n\nR$ 283\n-Resgate todos os cupons desta página:\nhttps://s.shopee.com.br/9AQPY2a6OU\n\n-Link produto:\nhttps://s.shopee.com.br/9zzWXZfFQv\n\n-Anúncio"
-  },
-  {
-   "canal": "fumotom",
-   "id": 51728,
-   "t": 1795403817.0,
-   "txt": "Fonte Duex Pulse Pro 850w Gold Pcf Ativo Full Modular Cor Preto\n\nR$ 514\n-Resgate todos os cupons desta página:\nhttps://s.shopee.com.br/9V3Fwhkkfl\n\n-Link produto:\nhttps://s.shopee.com.br/9KjpkOu7JA\n\n-Anúncio"
-  },
-  {
-   "canal": "fumotom",
-   "id": 51690,
-   "t": 1795402805.0,
-   "txt": "Mimo Style Cafeteira Italiana Moka de Aluminio Com Alça Café Expresso Para 12 Cafézinhos, Capacidade 600 ml, Feita de Materiais Leves e de Alta Qualidade Ideal Para Sua Cozinha\n\nR$ 50\n\nhttps://www.amazon.com.br/dp/B07TCJWSRP?tag=promotom05-20\n\n-Anúncio"
-  },
-  {
-   "canal": "fumotom",
-   "id": 51724,
-   "t": 1795403540.0,
-   "txt": "Gel para Cicatrizes e Estrias Cicatricure 30g\n\nR$ 6\n\nhttps://tidd.ly/4l7Kz93\n\n-Anúncio"
-  },
-  {
-   "canal": "fumotom",
-   "id": 51734,
-   "t": 1795404079.0,
-   "txt": "Fonte Msi Mag Bn65a, 650W, 80 Plus Bronze, Pfc Ativo, Com Cabo, Preto - Mag Bn65a\n\nR$ 266\n-Resgate todos os cupons desta página:\nhttps://s.shopee.com.br/3LScbfixDV\n\n-Link produto:\nhttps://s.shopee.com.br/8pnZ9mS0Fp\n\n-Anúncio"
-  },
-  {
-   "canal": "fumotom",
-   "id": 51711,
-   "t": 1795403174.0,
-   "txt": "Sanremo - Caixa Organizadora Plástica de 4,3 Litros e Tampa com Travas, Linha Top Stock\n\nR$ 15\n\nhttps://www.amazon.com.br/dp/B0788PY5PP?tag=promotom05-20\n\n-Anúncio"
-  },
-  {
-   "canal": "fumotom",
-   "id": 51701,
-   "t": 1795402982.0,
-   "txt": "Fruteira Confins para Micro-ondas 1 Porta 2 Cestos Branco Benfácil\n\nR$ 200\n\nhttps://www.amazon.com.br/dp/B0BT288CJK?tag=promotom05-20\n\n-Anúncio"
-  },
-  {
-   "canal": "fumotom",
-   "id": 51731,
-   "t": 1795403899.0,
-   "txt": "Smart Tv Lg 55\" 4K Uhd Hdr10 Pro Ai Gen8 Webos 25\n\nR$ 2069\n-Resgate todos os cupons desta página:\nhttps://s.shopee.com.br/AAIwk1SWRA\n\n-Link produto:\nhttps://s.shopee.com.br/9AQPYBajFa\n\n-Anúncio"
-  },
-  {
-   "canal": "fumotom",
-   "id": 51706,
-   "t": 1795403092.0,
-   "txt": "Monitor Aoc 27\" 120Hz 1ms Gaming Ips Adaptive-Sync 27B35h\n\nR$ 455\n-Resgate todos os cupons desta página:\nhttps://s.shopee.com.br/6L6EA3dOlT\n\n-Link produto:\nhttps://s.shopee.com.br/qlESLIbcg\n\n-Anúncio"
-  },
-  {
-   "canal": "fumotom",
-   "id": 51704,
-   "t": 1795403085.0,
-   "txt": "ESPUMANTE ALMADEN BRANCO DEMI SEC 750ML\n\nR$ 10\n\nhttps://www.amazon.com.br/dp/B07YMJXJ82?tag=promotom05-20\n\n-Anúncio"
-  },
-  {
-   "canal": "fumotom",
-   "id": 51713,
-   "t": 1795403274.0,
-   "txt": "Smart Tv 50\" Philco Qled Uhd Roku P50cra\n\nR$ 1655\n-Resgate todos os cupons desta página:\nhttps://s.shopee.com.br/114hoSsrb3\n\n-Link produto:\nhttps://s.shopee.com.br/1qdlOlVOcu\n\n-Anúncio"
-  },
-  {
-   "canal": "fumotom",
-   "id": 51697,
-   "t": 1795402883.0,
-   "txt": "Tênis Puma Retaliate 3 Unissex\n\nR$ 132\n\nhttps://www.amazon.com.br/dp/B0FD1DRH6W?tag=promotom05-20\n\n-Anúncio"
-  },
-  {
-   "canal": "fumotom",
-   "id": 51710,
-   "t": 1795403166.0,
-   "txt": "Monitor Gamer Aoc Agon Quad 27\" Qhd 180Hz 0,5ms Ips Hdr10 Base Ajustável Q27g4f\n\nR$ 899\n-Resgate todos os cupons desta página:\nhttps://s.shopee.com.br/7VIBYHtLek\n\n-Link produto:\nhttps://s.shopee.com.br/6fj2yrFVVC\n\n-Anúncio"
-  },
-  {
-   "canal": "fumotom",
-   "id": 51691,
-   "t": 1795402809.0,
-   "txt": "Camiseta Dry HUPI Brasa 2 Masculina\n\nR$ 47\n\nhttps://www.amazon.com.br/dp/B0G2BRY3GR?tag=promotom05-20\n\n-Anúncio"
-  },
-  {
-   "canal": "fumotom",
-   "id": 51694,
-   "t": 1795402812.0,
-   "txt": "Espátula de Silicone - Preto, Mimo Style | Silicone\n\nR$ 6\n\nhttps://www.amazon.com.br/dp/B07D1K5BVP?tag=promotom05-20\n\n-Anúncio"
-  },
-  {
-   "canal": "fumotom",
-   "id": 51714,
-   "t": 1795403347.0,
-   "txt": "Monitor Gamer Aoc Agon G4s 25\" 310Hz 0.3ms Hdr400 Ips Base Ajustável 25G4s/P\n\nR$ 873\n-Resgate todos os cupons desta página:\nhttps://s.shopee.com.br/9AQPXYQDp3\n\n-Link produto:\nhttps://s.shopee.com.br/5AuDQy8pin\n\n-Anúncio"
-  },
-  {
-   "canal": "fumotom",
-   "id": 51721,
-   "t": 1795403490.0,
-   "txt": "Smart Tv 43\" Philco Qled Hdr10 Tv P43krb\n\nR$ 1223\n-Resgate todos os cupons desta página:\nhttps://s.shopee.com.br/2La5P9qb2T\n\n-Link produto:\nhttps://s.shopee.com.br/3LScazvWKQ\n\n-Anúncio"
-  },
-  {
-   "canal": "fumotom",
-   "id": 51736,
-   "t": 1795404114.0,
-   "txt": "Celular Samsung Galaxy S25 Ultra 5G, 512GB, 12GB RAM, Câmera Quádrupla de 200+50+10+50, Tela Grande de 6.9\"\n\nR$ 4836\n\nhttps://s.shopee.com.br/8KrIYlx8pg\n\n-Anúncio"
-  },
-  {
-   "canal": "fumotom",
-   "id": 51692,
-   "t": 1795402809.0,
-   "txt": "Mimo Style Cafeteira Prensa Francesa, Capacidade para 350 ml, Com Haste e Alça, Resistente, Suporta Altas e Baixas Temperaturas (-20 °C a 180 °C), Excelente Sistema de Filtragem\n\nR$ 17\n\nhttps://www.amazon.com.br/dp/B07TBHLGQT?tag=promotom05-20\n\n-Anúncio"
-  },
-  {
-   "canal": "fumotom",
-   "id": 51693,
-   "t": 1795402810.0,
-   "txt": "Mimo Style Porta Talheres Ecokitchen, Produzido em Bambu de , Resistente, Durável e 100% Ecológico, Possui 5 Compartimentos Para Organizar Seu Ambiente\n\nR$ 31\n\nhttps://www.amazon.com.br/dp/B07BJK1HCR?tag=promotom05-20\n\n-Anúncio"
-  },
-  {
-   "canal": "fumotom",
-   "id": 51703,
-   "t": 1795403081.0,
-   "txt": "Frigideira 20cm Style Cook Mármol - Cabo Soft - Touch\n\nR$ 40\n\nhttps://www.amazon.com.br/dp/B0BV921VMS?tag=promotom05-20\n\n-Anúncio"
-  },
-  {
-   "canal": "fumotom",
-   "id": 51695,
-   "t": 1795402812.0,
-   "txt": "Short Venum Treino Essential NAVY\n\nR$ 58\n\nhttps://www.amazon.com.br/dp/B0FFPHMQJL?tag=promotom05-20\n\n-Anúncio"
-  },
-  {
-   "canal": "fumotom",
-   "id": 51735,
-   "t": 1795404108.0,
-   "txt": "Monitor Gamer AOC AGON G50 24\" 144Hz 0,5ms IPS HDR10 G-SYNC 24G50F\n\nR$ 463\n-Resgate todos os cupons desta página:\nhttps://s.shopee.com.br/30fk4tl3lu\n\n-Link produto: https://s.shopee.com.br/70LuyJXQ1p\n\n-Anúncio"
-  },
-  {
-   "canal": "fumotom",
-   "id": 51709,
-   "t": 1795403152.0,
-   "txt": "Sanremo - Lixeira Plástica Quadrada de 7 Litros com Pedal, Linha Casablanca\n\nR$ 19\n\nhttps://www.amazon.com.br/dp/B0C2J3KYSX?tag=promotom05-20\n\n-Anúncio"
-  },
-  {
-   "canal": "fumotom",
-   "id": 51696,
-   "t": 1795402846.0,
-   "txt": "Sanremo - Lixeira Plástica Basculante de 30 Litros, Linha Casablanca\n\nR$ 34\n\nhttps://www.amazon.com.br/dp/B07BYGC56C?tag=promotom05-20\n\n-Anúncio"
-  },
-  {
-   "canal": "fumotom",
-   "id": 51700,
-   "t": 1795402971.0,
-   "txt": "Xícara Chá com Pires Ritz Alleanza 250 ml 6 un\n\nR$ 83\n\nhttps://www.amazon.com.br/dp/B0824DB5PR?tag=promotom05-20\n\n-Anúncio"
-  }
- ],
+ "fila": [],
  "flags": {
   "resumo": true,
   "trava": true
@@ -9067,82 +9016,6 @@
  },
  "postados": [
   {
-   "ids": [],
-   "p": 365.0,
-   "t": 1795316755,
-   "w": [
-    "850w",
-    "atx",
-    "bkcbr",
-    "coreshift",
-    "coreshiftiive850gd",
-    "fonte",
-    "gold",
-    "pcie",
-    "plus",
-    "preto",
-    "xpg"
-   ]
-  },
-  {
-   "ids": [],
-   "p": 265.0,
-   "t": 1795316792,
-   "w": [
-    "80m",
-    "diretor",
-    "dynamica",
-    "est",
-    "mesa",
-    "onix",
-    "preta",
-    "preto"
-   ]
-  },
-  {
-   "ids": [],
-   "p": 112.0,
-   "t": 1795316890,
-   "w": [
-    "90cm",
-    "aco",
-    "aparador",
-    "escrivaninha",
-    "estudo",
-    "industrial",
-    "mdf",
-    "mesa"
-   ]
-  },
-  {
-   "ids": [
-    "B0779M2LK6"
-   ],
-   "p": 95.0,
-   "t": 1795316927,
-   "w": [
-    "aluminio",
-    "anis",
-    "cadeira",
-    "mor",
-    "posicoes",
-    "reclinavel"
-   ]
-  },
-  {
-   "ids": [
-    "B00K3MGDT2"
-   ],
-   "p": 21.0,
-   "t": 1795317360,
-   "w": [
-    "great",
-    "horizon",
-    "letterhead",
-    "papers"
-   ]
-  },
-  {
    "ids": [
     "B0HM84P595"
    ],
@@ -10919,19 +10792,123 @@
     "duracell",
     "pilha"
    ]
+  },
+  {
+   "ids": [
+    "B07TBHLGQT"
+   ],
+   "p": 17.88,
+   "t": 1795411362,
+   "w": [
+    "350ml",
+    "cafeteira",
+    "capacidade",
+    "francesa",
+    "mimo",
+    "prensa",
+    "style"
+   ]
+  },
+  {
+   "ids": [
+    "B093ZMF9JP"
+   ],
+   "p": 130.15,
+   "t": 1795411374,
+   "w": [
+    "100ml",
+    "attar",
+    "edp",
+    "perfume",
+    "wataniah",
+    "wesal"
+   ]
+  },
+  {
+   "ids": [],
+   "p": 14.0,
+   "t": 1795411584,
+   "w": [
+    "120g",
+    "fps60",
+    "protetor",
+    "seco",
+    "solar",
+    "sunless",
+    "toque"
+   ]
+  },
+  {
+   "ids": [
+    "B08937VBT7"
+   ],
+   "p": 12.0,
+   "t": 1795411655,
+   "w": [
+    "90g",
+    "alivio",
+    "cada",
+    "creme",
+    "dental",
+    "duradoura",
+    "fluor",
+    "instantaneo",
+    "leve",
+    "pague",
+    "protecao",
+    "rapido",
+    "sensibilidade",
+    "sensodyne"
+   ]
+  },
+  {
+   "ids": [
+    "B0D6C4BRGM"
+   ],
+   "p": 54.0,
+   "t": 1795411725,
+   "w": [
+    "cabide",
+    "caixa",
+    "closet",
+    "emborrachado",
+    "linha",
+    "ordene",
+    "pecas",
+    "preta"
+   ]
+  },
+  {
+   "ids": [
+    "B0FTCYVMVC"
+   ],
+   "p": 2553.0,
+   "t": 1795411795,
+   "w": [
+    "128gb",
+    "8gb",
+    "azul",
+    "camera",
+    "celular",
+    "galaxy",
+    "marinho",
+    "s25",
+    "samsung",
+    "tripla"
+   ]
   }
  ],
  "resumo_dia": "2026-11-22",
  "tpl_ultimo": 2032135,
- "ult_ciclo": 1795404885.1075766,
+ "ult_ciclo": 1795411867.6371095,
  "ultimo_id": {
   "apromodaluh": 158909,
-  "fumotom": 51738,
-  "iuriindica": 124080,
+  "fumotom": 51747,
+  "iuriindica": 124093,
   "juaocupons": 27652,
   "perfumepromo": 10108,
-  "pincei": 370700,
-  "promotom": 115149,
+  "pincei": 370740,
+  "promotom": 115151,
   "teniscertocupons": 66163,
   "teste": 1795214930
  }
