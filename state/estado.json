@@ -1,6 +1,6 @@
 {
- "cmd_ultimo": 2038776,
- "contagem_dia": 39,
+ "cmd_ultimo": 2039023,
+ "contagem_dia": 49,
  "cupom_min": {
   "INFLU100BLACK": {
    "min": 1100.0,
@@ -2186,6 +2186,14 @@
    "r": "gerado",
    "t": 1795272100
   },
+  "link:https://s.shopee.com.br/7pv2THupeT": {
+   "r": "falha",
+   "t": 1795431920
+  },
+  "link:https://s.shopee.com.br/7pv2TcHcVw": {
+   "r": "falha",
+   "t": 1795432513
+  },
   "link:https://s.shopee.com.br/8pnZ9HaTC5": {
    "r": "falha",
    "t": 1795404243
@@ -2390,6 +2398,10 @@
    "r": "gerado",
    "t": 1795359203
   },
+  "link:https://www.amazon.com.br/dp/B07XSHSCGN": {
+   "r": "gerado",
+   "t": 1795432393
+  },
   "link:https://www.amazon.com.br/dp/B07XYH4Q1F": {
    "r": "gerado",
    "t": 1795271489
@@ -2518,6 +2530,10 @@
    "r": "gerado",
    "t": 1795350131
   },
+  "link:https://www.amazon.com.br/dp/B0CXFZBFT1": {
+   "r": "gerado",
+   "t": 1795432578
+  },
   "link:https://www.amazon.com.br/dp/B0CYZBZTKL": {
    "r": "gerado",
    "t": 1795415807
@@ -2578,9 +2594,17 @@
    "r": "gerado",
    "t": 1795367111
   },
+  "link:https://www.amazon.com.br/dp/B0DWPSKYXS": {
+   "r": "gerado",
+   "t": 1795432445
+  },
   "link:https://www.amazon.com.br/dp/B0DZ344RFK": {
    "r": "gerado",
    "t": 1795349525
+  },
+  "link:https://www.amazon.com.br/dp/B0DZDVTJVZ": {
+   "r": "gerado",
+   "t": 1795432342
   },
   "link:https://www.amazon.com.br/dp/B0F1NJ1D13": {
    "r": "gerado",
@@ -2593,6 +2617,10 @@
   "link:https://www.amazon.com.br/dp/B0F493DZMH": {
    "r": "gerado",
    "t": 1795296557
+  },
+  "link:https://www.amazon.com.br/dp/B0F4Q58VDB": {
+   "r": "gerado",
+   "t": 1795432277
   },
   "link:https://www.amazon.com.br/dp/B0F8KDMJQP": {
    "r": "gerado",
@@ -2609,6 +2637,10 @@
   "link:https://www.amazon.com.br/dp/B0FC62Y27J": {
    "r": "gerado",
    "t": 1795303263
+  },
+  "link:https://www.amazon.com.br/dp/B0FCMLD36T": {
+   "r": "gerado",
+   "t": 1795431717
   },
   "link:https://www.amazon.com.br/dp/B0FMZHLLTD": {
    "r": "gerado",
@@ -2658,6 +2690,10 @@
    "r": "gerado",
    "t": 1795396011
   },
+  "link:https://www.amazon.com.br/dp/B0FY66Q9MP": {
+   "r": "gerado",
+   "t": 1795432946
+  },
   "link:https://www.amazon.com.br/dp/B0FY6RY66N": {
    "r": "gerado",
    "t": 1795298486
@@ -2673,6 +2709,10 @@
   "link:https://www.amazon.com.br/dp/B0GFSJSPFT": {
    "r": "gerado",
    "t": 1795268021
+  },
+  "link:https://www.amazon.com.br/dp/B0GKQPFCXS": {
+   "r": "gerado",
+   "t": 1795433068
   },
   "link:https://www.amazon.com.br/dp/B0GKQT7HPX": {
    "r": "gerado",
@@ -2697,6 +2737,10 @@
   "link:https://www.amazon.com.br/dp/B0GXLPCG9Y": {
    "r": "gerado",
    "t": 1795402011
+  },
+  "link:https://www.amazon.com.br/dp/B0GZJCK22M": {
+   "r": "gerado",
+   "t": 1795431800
   },
   "link:https://www.amazon.com.br/dp/B0H127L18H": {
    "r": "duplicado",
@@ -2961,6 +3005,10 @@
   "link:https://www.paguemenos.com.br/bebida-lactea-uht-nescau-protein-250ml/p": {
    "r": "gerado",
    "t": 1795429875
+  },
+  "link:https://www.paguemenos.com.br/body-splash-giovanna-baby-blue-body-hair-100ml/p": {
+   "r": "gerado",
+   "t": 1795431870
   },
   "link:https://www.paguemenos.com.br/capsula-de-tratamento-l-oreal-paris-elseve-longo-dos-sonhos-15g/p": {
    "r": "gerado",
@@ -4477,6 +4525,122 @@
   "pincei:370745": {
    "r": "pulado:sem link",
    "t": 1795431077
+  },
+  "pincei:370746": {
+   "r": "pulado:repetido",
+   "t": 1795431634
+  },
+  "pincei:370747": {
+   "r": "pulado:sem preco",
+   "t": 1795431640
+  },
+  "pincei:370748": {
+   "r": "gerado",
+   "t": 1795431717
+  },
+  "pincei:370749": {
+   "r": "pulado:sem preco",
+   "t": 1795431723
+  },
+  "pincei:370750": {
+   "r": "gerado",
+   "t": 1795431800
+  },
+  "pincei:370751": {
+   "r": "pulado:repetido",
+   "t": 1795431920
+  },
+  "pincei:370752": {
+   "r": "gerado",
+   "t": 1795431870
+  },
+  "pincei:370753": {
+   "r": "falha",
+   "t": 1795431920
+  },
+  "pincei:370754": {
+   "r": "gerado",
+   "t": 1795432277
+  },
+  "pincei:370755": {
+   "r": "pulado:loja desativada: aliexpress",
+   "t": 1795432289
+  },
+  "pincei:370756": {
+   "r": "gerado",
+   "t": 1795432342
+  },
+  "pincei:370757": {
+   "r": "gerado",
+   "t": 1795432393
+  },
+  "pincei:370758": {
+   "r": "gerado",
+   "t": 1795432445
+  },
+  "pincei:370759": {
+   "r": "pulado:sem preco",
+   "t": 1795432451
+  },
+  "pincei:370760": {
+   "r": "pulado:loja desativada: aliexpress",
+   "t": 1795432463
+  },
+  "pincei:370761": {
+   "r": "falha",
+   "t": 1795432513
+  },
+  "pincei:370762": {
+   "r": "pulado:sem preco",
+   "t": 1795432519
+  },
+  "pincei:370763": {
+   "r": "pulado:sem preco",
+   "t": 1795432524
+  },
+  "pincei:370764": {
+   "r": "gerado",
+   "t": 1795432578
+  },
+  "pincei:370765": {
+   "r": "pulado:sem preco",
+   "t": 1795432836
+  },
+  "pincei:370766": {
+   "r": "pulado:repetido",
+   "t": 1795432837
+  },
+  "pincei:370767": {
+   "r": "pulado:sem preco",
+   "t": 1795432842
+  },
+  "pincei:370768": {
+   "r": "pulado:loja desativada: aliexpress",
+   "t": 1795432854
+  },
+  "pincei:370769": {
+   "r": "pulado:sem preco",
+   "t": 1795432860
+  },
+  "pincei:370770": {
+   "r": "gerado",
+   "t": 1795433068
+  },
+  "pincei:370771": {
+   "r": "pulado:repetido",
+   "t": 1795432860
+  },
+  "pincei:370772": {
+   "r": "pulado:repetido",
+   "t": 1795432866
+  },
+  "pincei:370773": {
+   "r": "gerado",
+   "t": 1795432946
+  },
+  "pincei:370774": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795432993
   },
   "promotom:115056": {
    "r": "pulado:periferico de PC",
@@ -10273,18 +10437,169 @@
     "viagem",
     "wowelife"
    ]
+  },
+  {
+   "ids": [
+    "B0FCMLD36T"
+   ],
+   "p": 663.35,
+   "t": 1795431645,
+   "w": [
+    "200w",
+    "basike",
+    "boombox",
+    "caixa",
+    "som"
+   ]
+  },
+  {
+   "ids": [
+    "B0GZJCK22M"
+   ],
+   "p": 61.64,
+   "t": 1795431728,
+   "w": [
+    "750ml",
+    "doce",
+    "gran",
+    "leite",
+    "licor",
+    "peregrino",
+    "premium"
+   ]
+  },
+  {
+   "ids": [],
+   "p": 11.49,
+   "t": 1795431819,
+   "w": [
+    "100ml",
+    "baby",
+    "blue",
+    "body",
+    "giovanna",
+    "hair",
+    "splash"
+   ]
+  },
+  {
+   "ids": [
+    "B0F4Q58VDB"
+   ],
+   "p": 30.9,
+   "t": 1795432230,
+   "w": [
+    "350ml",
+    "baden",
+    "cerveja",
+    "cristal",
+    "latas"
+   ]
+  },
+  {
+   "ids": [
+    "B0DZDVTJVZ"
+   ],
+   "p": 49.9,
+   "t": 1795432295,
+   "w": [
+    "700ml",
+    "ballantine",
+    "baunilha",
+    "blend",
+    "caramelo",
+    "licor",
+    "seco",
+    "sweet",
+    "whisky"
+   ]
+  },
+  {
+   "ids": [
+    "B07XSHSCGN"
+   ],
+   "p": 17.87,
+   "t": 1795432347,
+   "w": [
+    "acucar",
+    "avela",
+    "cacau",
+    "creme",
+    "flormel",
+    "gramas",
+    "zero"
+   ]
+  },
+  {
+   "ids": [
+    "B0DWPSKYXS"
+   ],
+   "p": 70.9,
+   "t": 1795432399,
+   "w": [
+    "350ml",
+    "cerveja",
+    "ipa",
+    "lagunitas",
+    "lata"
+   ]
+  },
+  {
+   "ids": [
+    "B0CXFZBFT1"
+   ],
+   "p": 30.11,
+   "t": 1795432529,
+   "w": [
+    "750ml",
+    "espumante",
+    "germain",
+    "prosecco",
+    "saint"
+   ]
+  },
+  {
+   "ids": [
+    "B0FY66Q9MP"
+   ],
+   "p": 375.81,
+   "t": 1795432872,
+   "w": [
+    "chroma",
+    "controle",
+    "dualsense",
+    "fio",
+    "indigo",
+    "playstation"
+   ]
+  },
+  {
+   "ids": [
+    "B0GKQPFCXS"
+   ],
+   "p": 3998.7,
+   "t": 1795432995,
+   "w": [
+    "12gb",
+    "256gb",
+    "celular",
+    "galaxy",
+    "ram",
+    "s26",
+    "samsung"
+   ]
   }
  ],
  "resumo_dia": "2026-11-22",
  "tpl_ultimo": 2032135,
- "ult_ciclo": 1795431148.6563659,
+ "ult_ciclo": 1795433093.8428833,
  "ultimo_id": {
   "apromodaluh": 158909,
   "fumotom": 51769,
   "iuriindica": 124093,
   "juaocupons": 27653,
   "perfumepromo": 10108,
-  "pincei": 370745,
+  "pincei": 370774,
   "promotom": 115152,
   "teniscertocupons": 66163,
   "teste": 1795214930
