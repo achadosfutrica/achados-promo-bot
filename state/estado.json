@@ -1,6 +1,6 @@
 {
  "cmd_ultimo": 2037846,
- "contagem_dia": 84,
+ "contagem_dia": 86,
  "dia": "2026-11-22",
  "feitos": {
   "apromodaluh:158768": {
@@ -1435,6 +1435,14 @@
    "r": "gerado",
    "t": 1795393663
   },
+  "fumotom:51681": {
+   "r": "gerado",
+   "t": 1795394173
+  },
+  "fumotom:51682": {
+   "r": "gerado",
+   "t": 1795395376
+  },
   "iuriindica:123964": {
    "r": "pulado:mesmo link",
    "t": 1795215974
@@ -2451,6 +2459,10 @@
    "r": "gerado",
    "t": 1795213071
   },
+  "link:https://www.amazon.com.br/dp/B01KVXLOTG": {
+   "r": "gerado",
+   "t": 1795395376
+  },
   "link:https://www.amazon.com.br/dp/B071RNK1TF": {
    "r": "gerado",
    "t": 1795253375
@@ -2474,6 +2486,10 @@
   "link:https://www.amazon.com.br/dp/B0779M2LK6": {
    "r": "gerado",
    "t": 1795316970
+  },
+  "link:https://www.amazon.com.br/dp/B079K5X79D": {
+   "r": "gerado",
+   "t": 1795394173
   },
   "link:https://www.amazon.com.br/dp/B07BB8NL42": {
    "r": "falha",
@@ -8438,34 +8454,6 @@
   {
    "ids": [],
    "p": 449.99,
-   "t": 1795300813,
-   "w": [
-    "necessidade"
-   ]
-  },
-  {
-   "ids": [
-    "B0001XVUFA"
-   ],
-   "p": 99.0,
-   "t": 1795300910,
-   "w": [
-    "casio",
-    "mq24",
-    "serie"
-   ]
-  },
-  {
-   "ids": [],
-   "p": 449.99,
-   "t": 1795301472,
-   "w": [
-    "necessidade"
-   ]
-  },
-  {
-   "ids": [],
-   "p": 449.99,
    "t": 1795302017,
    "w": [
     "necessidade"
@@ -9940,14 +9928,46 @@
     "ofertas",
     "produtos"
    ]
+  },
+  {
+   "ids": [
+    "B079K5X79D"
+   ],
+   "p": 7.0,
+   "t": 1795394129,
+   "w": [
+    "acabamento",
+    "dentes",
+    "duro",
+    "fresa",
+    "metal",
+    "reta",
+    "vonder"
+   ]
+  },
+  {
+   "ids": [
+    "B01KVXLOTG"
+   ],
+   "p": 170.0,
+   "t": 1795395333,
+   "w": [
+    "azul",
+    "bolsa",
+    "cadeira",
+    "claro",
+    "portatil",
+    "praia",
+    "toys"
+   ]
   }
  ],
  "resumo_dia": "2026-11-21",
  "tpl_ultimo": 2032135,
- "ult_ciclo": 1795393688.24811,
+ "ult_ciclo": 1795395401.636738,
  "ultimo_id": {
   "apromodaluh": 158909,
-  "fumotom": 51680,
+  "fumotom": 51682,
   "iuriindica": 124051,
   "juaocupons": 27648,
   "perfumepromo": 10107,
