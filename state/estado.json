@@ -1,6 +1,6 @@
 {
- "cmd_ultimo": 2038472,
- "contagem_dia": 33,
+ "cmd_ultimo": 2038776,
+ "contagem_dia": 39,
  "cupom_min": {
   "INFLU100BLACK": {
    "min": 1100.0,
@@ -20,7 +20,9 @@
    "tipo": "fixed",
    "valor": 300.0
   },
-  "__avisados": []
+  "__avisados": [
+   21816
+  ]
  },
  "dia": "2026-11-23",
  "feitos": {
@@ -1220,6 +1222,18 @@
    "r": "gerado",
    "t": 1795428199
   },
+  "fumotom:51767": {
+   "r": "gerado",
+   "t": 1795430586
+  },
+  "fumotom:51768": {
+   "r": "gerado",
+   "t": 1795430657
+  },
+  "fumotom:51769": {
+   "r": "gerado",
+   "t": 1795431123
+  },
   "iuriindica:123966": {
    "r": "pulado:so cupom (ignorado)",
    "t": 1795265420
@@ -2296,6 +2310,10 @@
    "r": "gerado",
    "t": 1795400863
   },
+  "link:https://www.amazon.com.br/dp/B072MGR5J3": {
+   "r": "gerado",
+   "t": 1795431123
+  },
   "link:https://www.amazon.com.br/dp/B0742B6T51": {
    "r": "gerado",
    "t": 1795342253
@@ -2456,6 +2474,10 @@
    "r": "gerado",
    "t": 1795337145
   },
+  "link:https://www.amazon.com.br/dp/B0B8QHWQ6H": {
+   "r": "gerado",
+   "t": 1795430657
+  },
   "link:https://www.amazon.com.br/dp/B0BTDCRCXF": {
    "r": "falha",
    "t": 1795386388
@@ -2503,6 +2525,10 @@
   "link:https://www.amazon.com.br/dp/B0D1YMTLNW": {
    "r": "gerado",
    "t": 1795341790
+  },
+  "link:https://www.amazon.com.br/dp/B0D3BQKC6V": {
+   "r": "gerado",
+   "t": 1795430586
   },
   "link:https://www.amazon.com.br/dp/B0D3XSXHXR": {
    "r": "gerado",
@@ -2932,6 +2958,10 @@
    "r": "gerado",
    "t": 1795404712
   },
+  "link:https://www.paguemenos.com.br/bebida-lactea-uht-nescau-protein-250ml/p": {
+   "r": "gerado",
+   "t": 1795429875
+  },
   "link:https://www.paguemenos.com.br/capsula-de-tratamento-l-oreal-paris-elseve-longo-dos-sonhos-15g/p": {
    "r": "gerado",
    "t": 1795404101
@@ -2947,6 +2977,10 @@
   "link:https://www.paguemenos.com.br/formula-infantil-plura-de-1-a-3-anos-800g/p": {
    "r": "gerado",
    "t": 1795404027
+  },
+  "link:https://www.paguemenos.com.br/kit-nivea-sun-protetor-solar-facial-antissinais-fps70-40ml-mais-creme-facial-antissinais-5-em-1-100g/p": {
+   "r": "gerado",
+   "t": 1795430539
   },
   "link:https://www.paguemenos.com.br/kit-protetor-solar-fps-70-neutrogena-sun-fresh-200ml-gratis-protetor-solar-facial-fps-70-40g/p": {
    "r": "gerado",
@@ -2975,6 +3009,10 @@
   "link:https://www.paguemenos.com.br/suplemento-alimentar-excellence-vital-care-50mais-neutro-740g/p": {
    "r": "gerado",
    "t": 1795404172
+  },
+  "link:https://www.paguemenos.com.br/yopro-bebida-lactea-uht-chocolate-15g-de-proteinas-250ml/p": {
+   "r": "gerado",
+   "t": 1795430480
   },
   "perfumepromo:10078": {
    "r": "pulado:so cupom (ignorado)",
@@ -4419,6 +4457,26 @@
   "pincei:370740": {
    "r": "pulado:repetido",
    "t": 1795411867
+  },
+  "pincei:370741": {
+   "r": "gerado",
+   "t": 1795429875
+  },
+  "pincei:370742": {
+   "r": "gerado",
+   "t": 1795430480
+  },
+  "pincei:370743": {
+   "r": "gerado",
+   "t": 1795430539
+  },
+  "pincei:370744": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795431077
+  },
+  "pincei:370745": {
+   "r": "pulado:sem link",
+   "t": 1795431077
   },
   "promotom:115056": {
    "r": "pulado:periferico de PC",
@@ -7962,19 +8020,6 @@
  "postados": [
   {
    "ids": [
-    "B0B4WZQTKX"
-   ],
-   "p": 381.0,
-   "t": 1795337100,
-   "w": [
-    "clarks",
-    "laurieann",
-    "vine",
-    "women"
-   ]
-  },
-  {
-   "ids": [
     "B00LDYN8H4"
    ],
    "p": 100.0,
@@ -10118,18 +10163,128 @@
     "seccionais",
     "sofa"
    ]
+  },
+  {
+   "ids": [],
+   "p": 6.46,
+   "t": 1795429824,
+   "w": [
+    "250ml",
+    "bebida",
+    "lactea",
+    "nescau",
+    "protein",
+    "uht"
+   ]
+  },
+  {
+   "ids": [],
+   "p": 5.99,
+   "t": 1795430429,
+   "w": [
+    "15g",
+    "250ml",
+    "bebida",
+    "chocolate",
+    "lactea",
+    "proteinas",
+    "uht",
+    "yopro"
+   ]
+  },
+  {
+   "ids": [],
+   "p": 34.9,
+   "t": 1795430488,
+   "w": [
+    "100g",
+    "40ml",
+    "antissinais",
+    "creme",
+    "facial",
+    "fps70",
+    "nivea",
+    "protetor",
+    "solar",
+    "sun"
+   ]
+  },
+  {
+   "ids": [
+    "B0D3BQKC6V"
+   ],
+   "p": 200.0,
+   "t": 1795430539,
+   "w": [
+    "brinquedo",
+    "brinquedos",
+    "caixa",
+    "caixas",
+    "dobravel",
+    "extragrande",
+    "extragrandes",
+    "infantis",
+    "minimalista",
+    "multiuso",
+    "organizadoras",
+    "resistente",
+    "tampa",
+    "yoloxo"
+   ]
+  },
+  {
+   "ids": [
+    "B0B8QHWQ6H"
+   ],
+   "p": 256.0,
+   "t": 1795430611,
+   "w": [
+    "bolsa",
+    "carry",
+    "colorida",
+    "compartimento",
+    "esportiva",
+    "fim",
+    "mulheres",
+    "pernoite",
+    "sapatos",
+    "semana",
+    "viagem",
+    "weekender"
+   ]
+  },
+  {
+   "ids": [
+    "B072MGR5J3"
+   ],
+   "p": 209.0,
+   "t": 1795431077,
+   "w": [
+    "amigos",
+    "bolsa",
+    "carretel",
+    "familia",
+    "filha",
+    "haste",
+    "organizadora",
+    "pai",
+    "pesca",
+    "presente",
+    "viagem",
+    "wowelife"
+   ]
   }
  ],
  "resumo_dia": "2026-11-22",
  "tpl_ultimo": 2032135,
- "ult_ciclo": 1795429214.5058203,
+ "ult_ciclo": 1795431148.6563659,
  "ultimo_id": {
   "apromodaluh": 158909,
-  "fumotom": 51766,
+  "fumotom": 51769,
   "iuriindica": 124093,
   "juaocupons": 27653,
   "perfumepromo": 10108,
-  "pincei": 370740,
+  "pincei": 370745,
   "promotom": 115152,
   "teniscertocupons": 66163,
   "teste": 1795214930
