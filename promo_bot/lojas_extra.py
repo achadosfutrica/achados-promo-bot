@@ -59,7 +59,7 @@ _RASTREIO = re.compile(r"^(utm_.*|awc|ranmid|raneaid|ransiteid|siteid|clickref|a
 ENCURTADORES = ("bit.ly", "tinyurl.com", "cutt.ly", "tidd.ly", "awin1.com", "awin.com", "linksynergy.com",
                 "click.linksynergy", "afilio.com.br", "rdir.", "lmd.re", "is.gd", "ow.ly", "t.co", "rebrand.ly",
                 "abre.ai", "encurtador", "l.wl.co", "shorturl.at", "go.", "s.", "app.", "onelink.me", "linktr.ee",
-                "divulgador.link", "di.link", "promo.", "clk.", "trk.", "pincei.co", "pincei.com.br", "link.amazon")
+                "apromodaluh.com.br", "divulgador.link", "di.link", "promo.", "clk.", "trk.", "pincei.co", "pincei.com.br", "link.amazon")
 
 
 def host(url):
