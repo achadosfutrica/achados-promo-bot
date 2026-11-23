@@ -1,6 +1,27 @@
 {
  "cmd_ultimo": 2038472,
- "contagem_dia": 25,
+ "contagem_dia": 33,
+ "cupom_min": {
+  "INFLU100BLACK": {
+   "min": 1100.0,
+   "t": 1795428103.096939,
+   "tipo": "fixed",
+   "valor": 100.0
+  },
+  "INFLU200BLACK": {
+   "min": 2200.0,
+   "t": 1795428103.0969403,
+   "tipo": "fixed",
+   "valor": 200.0
+  },
+  "INFLU300BLACK": {
+   "min": 3300.0,
+   "t": 1795428103.096941,
+   "tipo": "fixed",
+   "valor": 300.0
+  },
+  "__avisados": []
+ },
  "dia": "2026-11-23",
  "feitos": {
   "apromodaluh:158778": {
@@ -1159,9 +1180,45 @@
    "r": "gerado",
    "t": 1795421424
   },
+  "fumotom:51755": {
+   "r": "pulado:repetido",
+   "t": 1795426231
+  },
+  "fumotom:51756": {
+   "r": "gerado",
+   "t": 1795426206
+  },
   "fumotom:51758": {
    "r": "gerado",
    "t": 1795421492
+  },
+  "fumotom:51759": {
+   "r": "gerado",
+   "t": 1795426282
+  },
+  "fumotom:51760": {
+   "r": "gerado",
+   "t": 1795426354
+  },
+  "fumotom:51762": {
+   "r": "gerado",
+   "t": 1795428127
+  },
+  "fumotom:51763": {
+   "r": "gerado",
+   "t": 1795428662
+  },
+  "fumotom:51764": {
+   "r": "gerado",
+   "t": 1795428734
+  },
+  "fumotom:51765": {
+   "r": "gerado",
+   "t": 1795428056
+  },
+  "fumotom:51766": {
+   "r": "gerado",
+   "t": 1795428199
   },
   "iuriindica:123966": {
    "r": "pulado:so cupom (ignorado)",
@@ -1807,6 +1864,10 @@
    "r": "pulado:sem preco",
    "t": 1795404367
   },
+  "juaocupons:27653": {
+   "r": "pulado:loja desativada: magalu",
+   "t": 1795428616
+  },
   "link:https://amzn.to/3YeTytk": {
    "r": "falha",
    "t": 1795346459
@@ -2179,6 +2240,10 @@
    "r": "gerado",
    "t": 1795300954
   },
+  "link:https://www.amazon.com.br/dp/B001N2MLYM": {
+   "r": "gerado",
+   "t": 1795426206
+  },
   "link:https://www.amazon.com.br/dp/B001TP3GCE": {
    "r": "gerado",
    "t": 1795358023
@@ -2242,6 +2307,10 @@
   "link:https://www.amazon.com.br/dp/B075QHV5LD": {
    "r": "gerado",
    "t": 1795404474
+  },
+  "link:https://www.amazon.com.br/dp/B0767B5PT2": {
+   "r": "gerado",
+   "t": 1795428127
   },
   "link:https://www.amazon.com.br/dp/B0779M2LK6": {
    "r": "gerado",
@@ -2331,6 +2400,10 @@
    "r": "gerado",
    "t": 1795364335
   },
+  "link:https://www.amazon.com.br/dp/B08NYXRNJG": {
+   "r": "gerado",
+   "t": 1795426282
+  },
   "link:https://www.amazon.com.br/dp/B08YZ4CBG4": {
    "r": "gerado",
    "t": 1795369582
@@ -2359,6 +2432,14 @@
    "r": "gerado",
    "t": 1795400931
   },
+  "link:https://www.amazon.com.br/dp/B09NVVLZRB": {
+   "r": "gerado",
+   "t": 1795428662
+  },
+  "link:https://www.amazon.com.br/dp/B09RG2L65C": {
+   "r": "gerado",
+   "t": 1795426354
+  },
   "link:https://www.amazon.com.br/dp/B09S664XTW": {
    "r": "gerado",
    "t": 1795415875
@@ -2366,6 +2447,10 @@
   "link:https://www.amazon.com.br/dp/B09SGPQ2J7": {
    "r": "gerado",
    "t": 1795358070
+  },
+  "link:https://www.amazon.com.br/dp/B09ZTP9S4J": {
+   "r": "gerado",
+   "t": 1795428056
   },
   "link:https://www.amazon.com.br/dp/B0B4WZQTKX": {
    "r": "gerado",
@@ -2378,6 +2463,10 @@
   "link:https://www.amazon.com.br/dp/B0BTYCRJSS": {
    "r": "gerado",
    "t": 1795265614
+  },
+  "link:https://www.amazon.com.br/dp/B0C1NQ1KMG": {
+   "r": "gerado",
+   "t": 1795428199
   },
   "link:https://www.amazon.com.br/dp/B0CF57YJ4G": {
    "r": "gerado",
@@ -2414,6 +2503,10 @@
   "link:https://www.amazon.com.br/dp/B0D1YMTLNW": {
    "r": "gerado",
    "t": 1795341790
+  },
+  "link:https://www.amazon.com.br/dp/B0D3XSXHXR": {
+   "r": "gerado",
+   "t": 1795428734
   },
   "link:https://www.amazon.com.br/dp/B0D41SDLTB": {
    "r": "gerado",
@@ -4667,6 +4760,10 @@
    "r": "gerado",
    "t": 1795411700
   },
+  "promotom:115152": {
+   "r": "pulado:loja desativada: magalu",
+   "t": 1795428614
+  },
   "teniscertocupons:66106": {
    "r": "gerado",
    "t": 1795269342
@@ -4840,56 +4937,7 @@
    "t": 1795386352
   }
  },
- "fila": [
-  {
-   "canal": "fumotom",
-   "id": 51756,
-   "t": 1795420810.0,
-   "txt": "Helly Hansen Camisa masculina padrão HH LIFA listrada, camada de base, preta\n\nR$ 295\n\nhttps://www.amazon.com.br/dp/B001N2MLYM?tag=promotom05-20\n\n-Anúncio"
-  },
-  {
-   "canal": "fumotom",
-   "id": 51755,
-   "t": 1795420810.0,
-   "txt": "Helly Hansen Calça feminina impermeável musgo à prova de vento\n\nR$ 359\n\nhttps://www.amazon.com.br/dp/B07F2S3RWS?tag=promotom05-20\n\n-Anúncio"
-  },
-  {
-   "canal": "fumotom",
-   "id": 51759,
-   "t": 1795420819.0,
-   "txt": "Helly Hansen Bolsa de cintura unissex com logotipo HH\n\nR$ 147\n\nhttps://www.amazon.com.br/dp/B08NYXRNJG?tag=promotom05-20\n\n-Anúncio"
-  },
-  {
-   "canal": "fumotom",
-   "id": 51760,
-   "t": 1795420828.0,
-   "txt": "National Tree Company Guirlanda artificial de primavera, base de ramo tecido, decorada com morangos, flores de petúnia, folhas verdes, coleção de primavera, 55 cm\n\nR$ 196\n\nhttps://www.amazon.com.br/dp/B09RG2L65C?tag=promotom05-20\n\n-Anúncio"
-  },
-  {
-   "canal": "fumotom",
-   "id": 51757,
-   "t": 1795420810.0,
-   "txt": "Camiseta Meia listrada Hh Lifa Helly-HansenMasculino\n\nR$ 295\n\nhttps://www.amazon.com.br/dp/B001N2MLS8?tag=promotom05-20\n\n-Anúncio"
-  },
-  {
-   "canal": "fumotom",
-   "id": 51761,
-   "t": 1795420872.0,
-   "txt": "Norpro Mini Stainless Steel Measuring Spoons, Set of 5 (tad, dash, pinch, smidgen and drop)\n\nR$ 48\n\nhttps://www.amazon.com.br/dp/B0009X1P9S?tag=promotom05-20\n\n-Anúncio"
-  },
-  {
-   "canal": "fumotom",
-   "id": 51752,
-   "t": 1795420804.0,
-   "txt": "Boné com logotipo Helly Hansen HH\n\nR$ 173\n\nhttps://www.amazon.com.br/dp/B001N2MGY2?tag=promotom05-20\n\n-Anúncio"
-  },
-  {
-   "canal": "fumotom",
-   "id": 51753,
-   "t": 1795420809.0,
-   "txt": "Clarks\n\nR$ 359\n\nhttps://www.amazon.com.br/dp/B01MRVU8WD?tag=promotom05-20\n\n-Anúncio"
-  }
- ],
+ "fila": [],
  "flags": {
   "resumo": true,
   "trava": true
@@ -7914,21 +7962,6 @@
  "postados": [
   {
    "ids": [
-    "B0HM84P595"
-   ],
-   "p": 10.0,
-   "t": 1795329835,
-   "w": [
-    "8mm",
-    "filtros",
-    "latina",
-    "mangueira",
-    "metro",
-    "purificadores"
-   ]
-  },
-  {
-   "ids": [
     "B0B4WZQTKX"
    ],
    "p": 381.0,
@@ -9910,19 +9943,194 @@
     "prova",
     "vento"
    ]
+  },
+  {
+   "ids": [
+    "B001N2MLYM"
+   ],
+   "p": 295.0,
+   "t": 1795426159,
+   "w": [
+    "base",
+    "camada",
+    "camisa",
+    "hansen",
+    "helly",
+    "lifa",
+    "listrada",
+    "masculina",
+    "padrao",
+    "preta"
+   ]
+  },
+  {
+   "ids": [
+    "B08NYXRNJG"
+   ],
+   "p": 147.0,
+   "t": 1795426231,
+   "w": [
+    "bolsa",
+    "cintura",
+    "hansen",
+    "helly",
+    "logotipo",
+    "unissex"
+   ]
+  },
+  {
+   "ids": [
+    "B09RG2L65C"
+   ],
+   "p": 196.0,
+   "t": 1795426307,
+   "w": [
+    "artificial",
+    "base",
+    "colecao",
+    "company",
+    "decorada",
+    "flores",
+    "folhas",
+    "guirlanda",
+    "morangos",
+    "national",
+    "petunia",
+    "primavera",
+    "ramo",
+    "tecido",
+    "tree",
+    "verdes"
+   ]
+  },
+  {
+   "ids": [
+    "B09ZTP9S4J"
+   ],
+   "p": 196.0,
+   "t": 1795428009,
+   "w": [
+    "55l",
+    "bolsa",
+    "duravel",
+    "esportes",
+    "esportiva",
+    "fitness",
+    "ginastica",
+    "grande",
+    "inch",
+    "marmore",
+    "masculina",
+    "preta",
+    "preto",
+    "treino",
+    "uarition",
+    "viagens"
+   ]
+  },
+  {
+   "ids": [
+    "B0767B5PT2"
+   ],
+   "p": 225.0,
+   "t": 1795428081,
+   "w": [
+    "bolso",
+    "certificado",
+    "cuidar",
+    "dupla",
+    "escovada",
+    "estampa",
+    "facil",
+    "jogo",
+    "king",
+    "lencois",
+    "lencol",
+    "linen",
+    "macio",
+    "market",
+    "oeko",
+    "pecas",
+    "profundo",
+    "resfriamento",
+    "respiravel",
+    "rugas",
+    "tex",
+    "ultra"
+   ]
+  },
+  {
+   "ids": [
+    "B0C1NQ1KMG"
+   ],
+   "p": 211.0,
+   "t": 1795428152,
+   "w": [
+    "azuis",
+    "barraca",
+    "caes",
+    "cama",
+    "caverna",
+    "gatos",
+    "gdanes",
+    "grande",
+    "internos",
+    "macio",
+    "pequenos",
+    "tapete"
+   ]
+  },
+  {
+   "ids": [
+    "B09NVVLZRB"
+   ],
+   "p": 200.0,
+   "t": 1795428616,
+   "w": [
+    "adulto",
+    "caminhada",
+    "mochila",
+    "speedparkunissex",
+    "ytc1099"
+   ]
+  },
+  {
+   "ids": [
+    "B0D3XSXHXR"
+   ],
+   "p": 207.0,
+   "t": 1795428687,
+   "w": [
+    "almofada",
+    "animais",
+    "assentos",
+    "capas",
+    "confortaveis",
+    "estimacao",
+    "estiramento",
+    "forma",
+    "lavaveis",
+    "macias",
+    "moveis",
+    "protetores",
+    "qianmew",
+    "resistentes",
+    "seccionais",
+    "sofa"
+   ]
   }
  ],
  "resumo_dia": "2026-11-22",
  "tpl_ultimo": 2032135,
- "ult_ciclo": 1795421517.4055984,
+ "ult_ciclo": 1795429214.5058203,
  "ultimo_id": {
   "apromodaluh": 158909,
-  "fumotom": 51761,
+  "fumotom": 51766,
   "iuriindica": 124093,
-  "juaocupons": 27652,
+  "juaocupons": 27653,
   "perfumepromo": 10108,
   "pincei": 370740,
-  "promotom": 115151,
+  "promotom": 115152,
   "teniscertocupons": 66163,
   "teste": 1795214930
  }
