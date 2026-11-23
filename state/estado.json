@@ -1,6 +1,6 @@
 {
  "cmd_ultimo": 2038472,
- "contagem_dia": 22,
+ "contagem_dia": 25,
  "dia": "2026-11-23",
  "feitos": {
   "apromodaluh:158778": {
@@ -1151,6 +1151,18 @@
    "r": "gerado",
    "t": 1795415945
   },
+  "fumotom:51751": {
+   "r": "gerado",
+   "t": 1795421355
+  },
+  "fumotom:51754": {
+   "r": "gerado",
+   "t": 1795421424
+  },
+  "fumotom:51758": {
+   "r": "gerado",
+   "t": 1795421492
+  },
   "iuriindica:123966": {
    "r": "pulado:so cupom (ignorado)",
    "t": 1795265420
@@ -2263,6 +2275,14 @@
    "r": "gerado",
    "t": 1795272169
   },
+  "link:https://www.amazon.com.br/dp/B07F314G31": {
+   "r": "gerado",
+   "t": 1795421492
+  },
+  "link:https://www.amazon.com.br/dp/B07KRF3LYM": {
+   "r": "gerado",
+   "t": 1795421424
+  },
   "link:https://www.amazon.com.br/dp/B07MC9MKDK": {
    "r": "gerado",
    "t": 1795357454
@@ -2274,6 +2294,10 @@
   "link:https://www.amazon.com.br/dp/B07TBHLGQT": {
    "r": "duplicado",
    "t": 1795411369
+  },
+  "link:https://www.amazon.com.br/dp/B07XLCBWYG": {
+   "r": "gerado",
+   "t": 1795421355
   },
   "link:https://www.amazon.com.br/dp/B07XS8WKYL": {
    "r": "gerado",
@@ -4816,7 +4840,56 @@
    "t": 1795386352
   }
  },
- "fila": [],
+ "fila": [
+  {
+   "canal": "fumotom",
+   "id": 51756,
+   "t": 1795420810.0,
+   "txt": "Helly Hansen Camisa masculina padrão HH LIFA listrada, camada de base, preta\n\nR$ 295\n\nhttps://www.amazon.com.br/dp/B001N2MLYM?tag=promotom05-20\n\n-Anúncio"
+  },
+  {
+   "canal": "fumotom",
+   "id": 51755,
+   "t": 1795420810.0,
+   "txt": "Helly Hansen Calça feminina impermeável musgo à prova de vento\n\nR$ 359\n\nhttps://www.amazon.com.br/dp/B07F2S3RWS?tag=promotom05-20\n\n-Anúncio"
+  },
+  {
+   "canal": "fumotom",
+   "id": 51759,
+   "t": 1795420819.0,
+   "txt": "Helly Hansen Bolsa de cintura unissex com logotipo HH\n\nR$ 147\n\nhttps://www.amazon.com.br/dp/B08NYXRNJG?tag=promotom05-20\n\n-Anúncio"
+  },
+  {
+   "canal": "fumotom",
+   "id": 51760,
+   "t": 1795420828.0,
+   "txt": "National Tree Company Guirlanda artificial de primavera, base de ramo tecido, decorada com morangos, flores de petúnia, folhas verdes, coleção de primavera, 55 cm\n\nR$ 196\n\nhttps://www.amazon.com.br/dp/B09RG2L65C?tag=promotom05-20\n\n-Anúncio"
+  },
+  {
+   "canal": "fumotom",
+   "id": 51757,
+   "t": 1795420810.0,
+   "txt": "Camiseta Meia listrada Hh Lifa Helly-HansenMasculino\n\nR$ 295\n\nhttps://www.amazon.com.br/dp/B001N2MLS8?tag=promotom05-20\n\n-Anúncio"
+  },
+  {
+   "canal": "fumotom",
+   "id": 51761,
+   "t": 1795420872.0,
+   "txt": "Norpro Mini Stainless Steel Measuring Spoons, Set of 5 (tad, dash, pinch, smidgen and drop)\n\nR$ 48\n\nhttps://www.amazon.com.br/dp/B0009X1P9S?tag=promotom05-20\n\n-Anúncio"
+  },
+  {
+   "canal": "fumotom",
+   "id": 51752,
+   "t": 1795420804.0,
+   "txt": "Boné com logotipo Helly Hansen HH\n\nR$ 173\n\nhttps://www.amazon.com.br/dp/B001N2MGY2?tag=promotom05-20\n\n-Anúncio"
+  },
+  {
+   "canal": "fumotom",
+   "id": 51753,
+   "t": 1795420809.0,
+   "txt": "Clarks\n\nR$ 359\n\nhttps://www.amazon.com.br/dp/B01MRVU8WD?tag=promotom05-20\n\n-Anúncio"
+  }
+ ],
  "flags": {
   "resumo": true,
   "trava": true
@@ -9779,14 +9852,72 @@
     "ruby",
     "sun"
    ]
+  },
+  {
+   "ids": [
+    "B07XLCBWYG"
+   ],
+   "p": 29.0,
+   "t": 1795421311,
+   "w": [
+    "camiseta",
+    "hering",
+    "longa",
+    "manga",
+    "masculino",
+    "regular",
+    "world"
+   ]
+  },
+  {
+   "ids": [
+    "B07KRF3LYM"
+   ],
+   "p": 295.0,
+   "t": 1795421380,
+   "w": [
+    "base",
+    "camada",
+    "gola",
+    "hansen",
+    "helly",
+    "lifa",
+    "listrado",
+    "longa",
+    "manga",
+    "masculino",
+    "redonda",
+    "termica",
+    "top"
+   ]
+  },
+  {
+   "ids": [
+    "B07F314G31"
+   ],
+   "p": 345.0,
+   "t": 1795421449,
+   "w": [
+    "calca",
+    "chuva",
+    "hansen",
+    "helly",
+    "impermeavel",
+    "masculina",
+    "musgo",
+    "pequena",
+    "preta",
+    "prova",
+    "vento"
+   ]
   }
  ],
  "resumo_dia": "2026-11-22",
  "tpl_ultimo": 2032135,
- "ult_ciclo": 1795415970.4032955,
+ "ult_ciclo": 1795421517.4055984,
  "ultimo_id": {
   "apromodaluh": 158909,
-  "fumotom": 51750,
+  "fumotom": 51761,
   "iuriindica": 124093,
   "juaocupons": 27652,
   "perfumepromo": 10108,
