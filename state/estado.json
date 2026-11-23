@@ -1,5 +1,5 @@
 {
- "cmd_ultimo": 2043767,
+ "cmd_ultimo": 2043881,
  "contagem_dia": 163,
  "cupom_min": {
   "2U6U32Q": {
@@ -7,6 +7,12 @@
    "t": 1795451512.5699966,
    "tipo": "fixed",
    "valor": 300.0
+  },
+  "BLACKTAQUETA": {
+   "min": 50.0,
+   "t": 1795467657.9226124,
+   "tipo": "percent",
+   "valor": 15.0
   },
   "D14B0MC0MCUP0M": {
    "min": 60.0,
@@ -440,13 +446,25 @@
    "r": "avisado",
    "t": 1795450553
   },
+  "esg:ESGOTA": {
+   "r": "avisado",
+   "t": 1795466663
+  },
   "esg:ESGOTANDOOO": {
    "r": "avisado",
    "t": 1795450553
   },
+  "esg:GRUPOS": {
+   "r": "avisado",
+   "t": 1795466663
+  },
   "esg:ITENS": {
    "r": "avisado",
    "t": 1795450553
+  },
+  "esg:MAQUIADORAS": {
+   "r": "avisado",
+   "t": 1795466663
   },
   "esg:OFERTAPARAVOCE": {
    "r": "avisado",
@@ -459,6 +477,14 @@
   "esg:PRIME15BLACK": {
    "r": "avisado",
    "t": 1795447332
+  },
+  "esg:QUERIDINHOO": {
+   "r": "avisado",
+   "t": 1795466663
+  },
+  "esg:RAPIDO": {
+   "r": "avisado",
+   "t": 1795466663
   },
   "esg:STANLEY": {
    "r": "avisado",
@@ -1148,6 +1174,18 @@
    "r": "pulado:loja desativada: magalu",
    "t": 1795465942
   },
+  "fumotom:52091": {
+   "r": "pulado:aliexpress (bloqueado)",
+   "t": 1795466541
+  },
+  "fumotom:52093": {
+   "r": "pulado:periferico de PC",
+   "t": 1795466541
+  },
+  "fumotom:52095": {
+   "r": "pulado:periferico de PC",
+   "t": 1795467147
+  },
   "iuriindica:124128": {
    "r": "pulado:sem link",
    "t": 1795439520
@@ -1483,6 +1521,14 @@
   "iuriindica:124225": {
    "r": "pulado:periferico de PC",
    "t": 1795463805
+  },
+  "iuriindica:124230": {
+   "r": "pulado:periferico de PC",
+   "t": 1795466541
+  },
+  "iuriindica:124231": {
+   "r": "pulado:so cupom (ignorado)",
+   "t": 1795466541
   },
   "juaocupons:27663": {
    "r": "pulado:sem preco",
@@ -2116,6 +2162,10 @@
    "r": "falha",
    "t": 1795455926
   },
+  "link:https://www.amazon.com.br/dp/B000GKUEVE": {
+   "r": "falha",
+   "t": 1795466663
+  },
   "link:https://www.amazon.com.br/dp/B009UWD34O": {
    "r": "gerado",
    "t": 1795440067
@@ -2235,6 +2285,10 @@
   "link:https://www.amazon.com.br/dp/B0B8PXK3WR": {
    "r": "falha",
    "t": 1795462403
+  },
+  "link:https://www.amazon.com.br/dp/B0B94SLNXK": {
+   "r": "falha",
+   "t": 1795467902
   },
   "link:https://www.amazon.com.br/dp/B0BTDCRCXF": {
    "r": "gerado",
@@ -2508,6 +2562,10 @@
    "r": "falha",
    "t": 1795465486
   },
+  "link:https://www.mercadolivre.com.br/batedeira-planetaria-mondial-700w-bp-03-p/p/MLB18623993": {
+   "r": "falha",
+   "t": 1795466598
+  },
   "link:https://www.mercadolivre.com.br/bicicleta-ergometrica-bike-spinning-para-exercicios-com-volante-e-display-lcd/p/MLB78878036": {
    "r": "gerado",
    "t": 1795441679
@@ -2560,6 +2618,10 @@
    "r": "falha",
    "t": 1795455115
   },
+  "link:https://www.mercadolivre.com.br/jogo-de-chaves-e-soquetes-allen-kit-46-ferramentas-com-maleta/p/MLB45123280": {
+   "r": "falha",
+   "t": 1795467210
+  },
   "link:https://www.mercadolivre.com.br/kit-12-cuecas-boxer-reebok-classic-microfibra-sem-costura/up/MLBU5386518659": {
    "r": "falha",
    "t": 1795455175
@@ -2579,6 +2641,10 @@
   "link:https://www.mercadolivre.com.br/mixer-vertical-elgin-turbo-chef-3-em-1-200w/p/MLB18709030": {
    "r": "falha",
    "t": 1795447298
+  },
+  "link:https://www.mercadolivre.com.br/natura-kaiak-k-edp-100ml-para-masculino/p/MLB18424884": {
+   "r": "falha",
+   "t": 1795467805
   },
   "link:https://www.mercadolivre.com.br/notebook-asus-vivobook-go-15-br1376ws-celeron-dual-core-8gb-ram-128gb-e-mmc-windows-11-home-156-led-hd/p/MLB80308457": {
    "r": "duplicado",
@@ -2603,6 +2669,10 @@
   "link:https://www.mercadolivre.com.br/smartphone-samsung-galaxy-a27-5g-128gb-6gb-super-amoled-67-camera-tripla-50mp-selfie-12mp-5000-mah-ip67-nfc-dual-sim-recursos-ia-azul/p/MLB75638608": {
    "r": "gerado",
    "t": 1795443498
+  },
+  "link:https://www.mercadolivre.com.br/tenis-casual-masculino-rebound-v6-low-puma/up/MLBU3146623097": {
+   "r": "falha",
+   "t": 1795467865
   },
   "link:https://www.mercadolivre.com.br/tenis-olympikus-voa-3/p/MLB62990474": {
    "r": "falha",
@@ -3992,6 +4062,46 @@
    "r": "pulado:repetido",
    "t": 1795465970
   },
+  "pincei:371141": {
+   "r": "falha",
+   "t": 1795466598
+  },
+  "pincei:371142": {
+   "r": "pulado:repetido",
+   "t": 1795466626
+  },
+  "pincei:371143": {
+   "r": "falha",
+   "t": 1795466663
+  },
+  "pincei:371144": {
+   "r": "pulado:so cupom (ignorado)",
+   "t": 1795467153
+  },
+  "pincei:371145": {
+   "r": "falha",
+   "t": 1795467210
+  },
+  "pincei:371146": {
+   "r": "pulado:repetido",
+   "t": 1795467238
+  },
+  "pincei:371147": {
+   "r": "pulado:repetido",
+   "t": 1795467266
+  },
+  "pincei:371148": {
+   "r": "falha",
+   "t": 1795467805
+  },
+  "pincei:371149": {
+   "r": "falha",
+   "t": 1795467865
+  },
+  "pincei:371150": {
+   "r": "falha",
+   "t": 1795467902
+  },
   "promosdaluh:323920": {
    "r": "pulado:sacola laranja (bloqueado)",
    "t": 1795452853
@@ -4976,6 +5086,150 @@
    "r": "pulado:sacola laranja (bloqueado)",
    "t": 1795465265
   },
+  "promosdaluh:324166": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795466663
+  },
+  "promosdaluh:324167": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795466663
+  },
+  "promosdaluh:324168": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795466663
+  },
+  "promosdaluh:324169": {
+   "r": "esgotado_avisado",
+   "t": 1795466663
+  },
+  "promosdaluh:324170": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795466663
+  },
+  "promosdaluh:324171": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795466663
+  },
+  "promosdaluh:324172": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795466663
+  },
+  "promosdaluh:324173": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795466663
+  },
+  "promosdaluh:324174": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795466663
+  },
+  "promosdaluh:324175": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795466663
+  },
+  "promosdaluh:324176": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795466663
+  },
+  "promosdaluh:324177": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795466663
+  },
+  "promosdaluh:324178": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795466663
+  },
+  "promosdaluh:324179": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795466663
+  },
+  "promosdaluh:324180": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795466663
+  },
+  "promosdaluh:324181": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795466663
+  },
+  "promosdaluh:324182": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795466663
+  },
+  "promosdaluh:324183": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795467266
+  },
+  "promosdaluh:324184": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795467266
+  },
+  "promosdaluh:324185": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795467266
+  },
+  "promosdaluh:324186": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795467266
+  },
+  "promosdaluh:324187": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795467266
+  },
+  "promosdaluh:324188": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795467266
+  },
+  "promosdaluh:324189": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795467266
+  },
+  "promosdaluh:324190": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795467266
+  },
+  "promosdaluh:324191": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795467266
+  },
+  "promosdaluh:324192": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795467266
+  },
+  "promosdaluh:324193": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795467266
+  },
+  "promosdaluh:324194": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795467902
+  },
+  "promosdaluh:324195": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795467902
+  },
+  "promosdaluh:324196": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795467902
+  },
+  "promosdaluh:324197": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795467902
+  },
+  "promosdaluh:324198": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795467902
+  },
+  "promosdaluh:324199": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795467902
+  },
+  "promosdaluh:324200": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795467902
+  },
+  "promosdaluh:324201": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795467902
+  },
   "promotom:115171": {
    "r": "pulado:loja desconhecida",
    "t": 1795441355
@@ -5261,10 +5515,34 @@
    "txt": "⚠️ ÚLTIMOS PARES!!\n\n💢 FILA RACER CARBON 3 masc.\n\n🔥 de R$ 1.199,90 por R$ 578,08*\n\n*️⃣No Pix ou em até 9x de R$ 71,37\n\n🔗 https://tenis.cc/4zbKlkA\n\n🎟 use o cupom LIVETC12\n\n🚹 Tamanhos: 38, 42, 44\n\n🛒 Produto vendido por FutFanatics\n\nNÍVEL DE AMORTECIMENTO:\n🟦🟦🟦🟦⬜️⬜️ (8 - Macio)\n\n❗️Recomendamos escolher um número maior que seu tamanho casual\n\n📱  Unboxing no YouTube:\nhttps://tenis.cc/43HKLCZ\n\n🚚 Consulte a condição de frete para a sua região\n\n❗️Cupom válido somente até às 23:59 de hoje"
   },
   {
+   "canal": "perfumepromo",
+   "id": 10152,
+   "t": 1795467127.0,
+   "txt": "CHEIRO DE RICA NO PRECINHO\n\nPerfume Lancôme Idôle EDP 25ml\n\nde R$ 519 por R$ 263 no Pix\n\nLoja Oficial Lancôme: https://meli.la/1dMS6TM"
+  },
+  {
    "canal": "apromodaluh",
    "id": 159024,
    "t": 1795465620.0,
    "txt": "✨ EUCERIN Protetor Solar Facial Oil Control FPS60 50ml, Antioleosidade, Rosto, Proteção UVA, UVB e Luz Visível\n\n~de R$ 94,90~\n🔥 *por R$ 59,90* 😱\n🔄 R$ 56,90 na recorrência\n\n🛒 https://link.amazon/B0hjOUcaQ\n\n📌 Assine PRIME por 30 dias GRATIS aqui: https://amzn.to/3YeTytk"
+  },
+  {
+   "canal": "teniscertocupons",
+   "id": 66191,
+   "t": 1795466408.0,
+   "txt": "🔤🔤🔤🔤🔤\n\n💢NEW BALANCE REBEL v5 \n\n de R$ 1.099,90 por R$ 633,52*\n\n*️⃣No Pix ou em até 10x de R$ 70,39\n\n🚺 https://tenis.cc/3WcfXJd\n\n🚹️️️️ https://tenis.cc/4yCFpoA\n\n🎟 use o cupom LIVETC12\n\n🛒 Promoção válida apenas para produtos vendidos e entregues pela FutFanatics\n\nNÍVEL DE AMORTECIMENTO:\n🟦🟦🟦🟦🟦⬜️ (9 - Muito Macio)\n\n❗️Recomendamos escolher um número maior que seu tamanho casual\n\n📱 Review no YouTube:\nhttp://tenis.cc/3GngnVA\n\n🚚 Consulte a condição de frete para a sua região"
+  },
+  {
+   "canal": "teniscertocupons",
+   "id": 66192,
+   "t": 1795466706.0,
+   "txt": "🔤🔤🔤🔤🔤\n\n💢NEW BALANCE REBEL v5 fem.\n\n de R$ 1.099,90 por R$ 633,52*\n\n*️⃣No Pix ou em até 10x de R$ 70,39\n\n🔗 https://tenis.cc/4iAfkk6\n\n🎟 use o cupom LIVETC12\n\n🚺 Tamanhos: 34, 35, 36, 37, 38, 39\n\n🛒 Promoção válida apenas para produtos vendidos e entregues pela FutFanatics\n\nNÍVEL DE AMORTECIMENTO:\n🟦🟦🟦🟦🟦⬜️ (9 - Muito Macio)\n\n❗️Recomendamos escolher um número maior que seu tamanho casual\n\n📱 Review no YouTube:\nhttp://tenis.cc/3GngnVA\n\n🚚 Consulte a condição de frete para a sua região"
+  },
+  {
+   "canal": "teniscertocupons",
+   "id": 66193,
+   "t": 1795467004.0,
+   "txt": "🔤🔤🔤🔤🔤\n\n💢NEW BALANCE REBEL v5 masc.\n\nde R$ 1.099,90 por R$ 633,52*\n\n*️⃣No Pix ou em até 10x de R$ 70,39\n\n🔗 https://tenis.cc/4zU4Ovm\n\n🎟 use o cupom LIVETC12\n\n🚹 Tamanhos: 39, 40, 41, 42, 43, 44\n\n🛒 Promoção válida apenas para produtos vendidos e entregues pela FutFanatics\n\nNÍVEL DE AMORTECIMENTO:\n🟦🟦🟦🟦🟦⬜️ (9 - Muito Macio)\n\n❗️Recomendamos escolher um número maior que seu tamanho casual\n\n📱 Review no YouTube:\nhttp://tenis.cc/3GngnVA\n\n🚚 Consulte a condição de frete para a sua região\n\n❗️Cupom válido somente até às 23:59 de hoje"
   },
   {
    "canal": "apromodaluh",
@@ -5291,12 +5569,6 @@
    "txt": "Teclado Mecânico Gamer Sem Fio Tri Mode Gasket Hot Swapp 75% Led Rgb Switch Pegasus Dareu Flex 75 Preto e Cinza\n\n💵 R$ 238\n🎟️ Cupom: MELIGARANTE\n✅ https://meli.la/2mnEqLe\n\n🤑 Grupos de ofertas: https://iuriindica.com.br"
   },
   {
-   "canal": "apromodaluh",
-   "id": 159014,
-   "t": 1795461864.0,
-   "txt": "400 ML! 🗣️\n\n✨ Loção Corporal Hidratante Eucerin Anti-pigment 400 Ml\n\n~de R$ 159,90~\n🔥 *por R$ 143,91 no Pix* \n\n`\n\n✅ Loja Oficial EUCERIN no ML.\n\n🛒 https://meli.la/1FceHbc"
-  },
-  {
    "canal": "fumotom",
    "id": 52072,
    "t": 1795463295.0,
@@ -5313,6 +5585,12 @@
    "id": 124228,
    "t": 1795465077.0,
    "txt": "Teclado Mecanico Gamer F75 Sem Fio Tri Mode Rgb Free Wolf Black Reef Inglês Uk\n\n💵 R$ 234\n🎟️ Cupom: MELIGARANTE\n✅ https://meli.la/1D6oDud\n\n🤑 Grupos de ofertas: https://iuriindica.com.br"
+  },
+  {
+   "canal": "fumotom",
+   "id": 52092,
+   "t": 1795466409.0,
+   "txt": "Monitor Gamer Phillips de 23.8\" Full Hd Ips com 200Hz\n\nR$ 548\n-CUPOM: MELIGARANTE\n\nhttps://meli.la/1HezMS3\n\n-Anúncio"
   },
   {
    "canal": "fumotom",
@@ -5364,6 +5642,12 @@
   },
   {
    "canal": "fumotom",
+   "id": 52094,
+   "t": 1795466670.0,
+   "txt": "Smart Tv 65 4k Uhd Philips 65pug7231/78 Google Tv Dolby\n\nR$ 2601\n-CUPOM: OFFPRATECH\n\nhttps://meli.la/222VGwU\n\n-Anúncio"
+  },
+  {
+   "canal": "fumotom",
    "id": 52064,
    "t": 1795462965.0,
    "txt": "Refrigeração preta Deepcool Le360 V2 Zero Black 3400 Rpm\n\nR$ 377\n-CUPOM: OFERTASEMPREML\n\nhttps://meli.la/1KDXq2s\n\n-Anúncio"
@@ -5373,6 +5657,12 @@
    "id": 124223,
    "t": 1795463728.0,
    "txt": "Refrigeração preta Deepcool Le360 V2 Zero Black 3400 Rpm\n\n💵  R$ 377\n🎟  Cupom: OFERTASEMPREML\n✅  https://meli.la/2EW1Tf3\n\n🤑 Grupos de promoções: https://iuriindica.com.br"
+  },
+  {
+   "canal": "fumotom",
+   "id": 52096,
+   "t": 1795467520.0,
+   "txt": "Smart Tv 4k Tcl Advanced Qd-mini Led 98 Polegadas Com Googl\n\nR$ 10699\n-CUPOM: OFFPRATECH\n\nhttps://meli.la/228XSHw\n\n-Anúncio"
   },
   {
    "canal": "fumotom",
@@ -5423,12 +5713,6 @@
    "txt": "Notebook Asus Vivobook Bq301 Core 5 Série 3 8gb 256gb Linux\n\nR$ 2676\n-CUPOM: OFFPRATECH\n\nhttps://meli.la/2wxRB67\n\n-Anúncio"
   },
   {
-   "canal": "apromodaluh",
-   "id": 159015,
-   "t": 1795461864.0,
-   "txt": "É MEDICUBEEEEE! 😱🆘\n\n✨ Creme Medicube Collagen Jelly 50ml\n\n🔥 *por R$ 85,18* \n\n`\n\n✅ Loja Oficial MERCADO COSMÉTICOS no ML.\n\n🛒 https://meli.la/1eQBuEu"
-  },
-  {
    "canal": "fumotom",
    "id": 52076,
    "t": 1795463577.0,
@@ -5447,16 +5731,16 @@
    "txt": "Galaxy Quest [4K UHD + Digital Copy]\n\nR$ 159\n\nhttps://www.amazon.com.br/dp/B0DGY6258P?tag=promotom05-20\n\n-Anúncio"
   },
   {
+   "canal": "promosdaluh",
+   "id": 324202,
+   "t": 1795467654.0,
+   "txt": "🚨 ALERTA CUPOM AMAZON 🚨\n\nUse o cupom 🎟️BLACKTAQUETA e garanta 15% OFF em compras acima de R$50, limite R$150!\n🏷️ *Só no app*\n\n🔗 Acesse aqui: https://promosdaluh.com/p/ek3upn/\n\n⚠️ A oferta pode acabar a qualquer momento!\n\n📍 GRUPOS COM VAGAS: https://promosdaluh.com/bio"
+  },
+  {
    "canal": "promotom",
    "id": 115224,
    "t": 1795463980.0,
    "txt": "Razer Wolverine V3 Tournament Edition XBOX/PC, 6 Remappable Buttons to Outplay Them All, 1000Hz Polling Rate for Competitive Play on PC, Wired Esports Controller - Black\n\nR$ 356\n\nhttps://www.amazon.com.br/dp/B0D7W8JVPQ?tag=promotom05-20\n\n-Anúncio"
-  },
-  {
-   "canal": "juaocupons",
-   "id": 27695,
-   "t": 1795462338.0,
-   "txt": "🔥 Cupom Amazon em Selecionados\n\n⚠️ Exclusivo Prime\n\n🏷️ 20% OFF, limitado a R$ 400: 20BF26PRIME\n\n✔️ Lista: https://link.amazon/B0g6VhkVu\n\n🔗 Torne-se Prime (30 dias de teste Grátis)\nhttps://amzlink.to/az0Od0e73begY"
   },
   {
    "canal": "fumotom",
@@ -5487,12 +5771,6 @@
    "id": 52073,
    "t": 1795463301.0,
    "txt": "Massa de Modelar Estrela, Kit Unicórnios, Multicolor\n\nR$ 11\n\nhttps://www.amazon.com.br/dp/B0CV8X7TDS?tag=promotom05-20\n\n-Anúncio"
-  },
-  {
-   "canal": "juaocupons",
-   "id": 27694,
-   "t": 1795460565.0,
-   "txt": "🔥 Cupom Mercado Livre\n\n🏷 10% OFF acima de R$199 limite R$200: OFERTASEMPREML\n\n🔗 Ative aqui para ajudar o grupo\nhttps://mercadolivre.com/sec/1ABhVBZ"
   },
   {
    "canal": "promotom",
@@ -11543,17 +11821,17 @@
  ],
  "resumo_dia": "2026-11-22",
  "tpl_ultimo": 2032135,
- "ult_ciclo": 1795465971.7326598,
+ "ult_ciclo": 1795467923.4850407,
  "ultimo_id": {
   "apromodaluh": 159024,
-  "fumotom": 52090,
-  "iuriindica": 124229,
+  "fumotom": 52096,
+  "iuriindica": 124231,
   "juaocupons": 27697,
-  "perfumepromo": 10151,
-  "pincei": 371140,
-  "promosdaluh": 324165,
+  "perfumepromo": 10152,
+  "pincei": 371150,
+  "promosdaluh": 324202,
   "promotom": 115226,
-  "teniscertocupons": 66190,
+  "teniscertocupons": 66193,
   "teste": 1795214930
  }
 }
