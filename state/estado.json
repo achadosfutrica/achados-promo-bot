@@ -4755,6 +4755,10 @@
    "r": "gerado",
    "t": 1795396011
   },
+  "pincei:370691": {
+   "r": "pulado:repetido",
+   "t": 1795398354
+  },
   "promotom:115007": {
    "r": "pulado:sem link",
    "t": 1795203318
@@ -9984,14 +9988,14 @@
  ],
  "resumo_dia": "2026-11-21",
  "tpl_ultimo": 2032135,
- "ult_ciclo": 1795397146.5998666,
+ "ult_ciclo": 1795398949.6139753,
  "ultimo_id": {
   "apromodaluh": 158909,
   "fumotom": 51682,
   "iuriindica": 124051,
   "juaocupons": 27648,
   "perfumepromo": 10108,
-  "pincei": 370690,
+  "pincei": 370691,
   "promotom": 115140,
   "teniscertocupons": 66163,
   "teste": 1795214930
