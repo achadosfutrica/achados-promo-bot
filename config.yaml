@@ -17,6 +17,7 @@ canais:
   - perfumepromo      # beleza/perfumes (Época, Amobeleza) ~5 mil inscritos
   - pincei            # Pincei Ofertas (links pincei.co -> Mercado Livre) ~11 mil inscritos
   - apromodaluh       # A Promo da Luh (também no Monitorar Grupos; o robô não repete o que já saiu no grupo)
+  - promosdaluh       # Promos da Luh (t.me/promosdaluh)
 
 bot_divulgador: "divulgadorinteligente2bot"
 
