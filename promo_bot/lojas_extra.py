@@ -59,7 +59,7 @@ _RASTREIO = re.compile(r"^(utm_.*|awc|ranmid|raneaid|ransiteid|siteid|clickref|a
 ENCURTADORES = ("bit.ly", "tinyurl.com", "cutt.ly", "tidd.ly", "awin1.com", "awin.com", "linksynergy.com",
                 "click.linksynergy", "afilio.com.br", "rdir.", "lmd.re", "is.gd", "ow.ly", "t.co", "rebrand.ly",
                 "abre.ai", "encurtador", "l.wl.co", "shorturl.at", "go.", "s.", "app.", "onelink.me", "linktr.ee",
-                "apromodaluh.com.br", "divulgador.link", "di.link", "promo.", "clk.", "trk.", "pincei.co", "pincei.com.br", "link.amazon")
+                "promosdaluh.com", "apromodaluh.com.br", "divulgador.link", "di.link", "promo.", "clk.", "trk.", "pincei.co", "pincei.com.br", "link.amazon")
 
 
 def host(url):
@@ -206,7 +206,18 @@ def _abrir_no_navegador(url, espera=20):
         pg = _navegador().new_page(user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
                                    "(KHTML, like Gecko) Chrome/131.0 Safari/537.36", locale="pt-BR")
         pg.goto(url, wait_until="domcontentloaded", timeout=espera * 1000)
-        pg.wait_for_url(lambda u: "pincei" not in (urlparse(u).hostname or ""), timeout=espera * 1000)
+        orig = urlparse(url).hostname or ""
+        try:
+            pg.wait_for_url(lambda u: "pincei" not in (urlparse(u).hostname or "") and (urlparse(u).hostname or "") != orig, timeout=espera * 1000)
+        except Exception:  # noqa
+            # pagina intermediaria (ex.: promosdaluh.com/p/xxx) com botao "Ir para a oferta": clica no destino
+            hrefs = pg.eval_on_selector_all("a[href]", "as => as.map(a => [a.href, a.textContent || ''])")
+            for h, t in hrefs:
+                if re.search(r"oferta|comprar|ir para", (t or "").lower()) and (urlparse(h).hostname or "") != orig:
+                    pg.goto(h, wait_until="domcontentloaded", timeout=espera * 1000)
+                    break
+            else:
+                return None
         final = pg.url
         if "mercadolivre.com" in (urlparse(final).hostname or "") and "/social/" in final:
             try:
