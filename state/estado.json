@@ -1,6 +1,6 @@
 {
- "cmd_ultimo": 2037846,
- "contagem_dia": 87,
+ "cmd_ultimo": 2038038,
+ "contagem_dia": 90,
  "dia": "2026-11-22",
  "feitos": {
   "apromodaluh:158768": {
@@ -1443,6 +1443,18 @@
    "r": "gerado",
    "t": 1795395376
   },
+  "fumotom:51684": {
+   "r": "gerado",
+   "t": 1795400863
+  },
+  "fumotom:51686": {
+   "r": "gerado",
+   "t": 1795400795
+  },
+  "fumotom:51689": {
+   "r": "gerado",
+   "t": 1795400931
+  },
   "iuriindica:123964": {
    "r": "pulado:mesmo link",
    "t": 1795215974
@@ -2463,6 +2475,10 @@
    "r": "gerado",
    "t": 1795395376
   },
+  "link:https://www.amazon.com.br/dp/B0713TJNJ5": {
+   "r": "gerado",
+   "t": 1795400863
+  },
   "link:https://www.amazon.com.br/dp/B071RNK1TF": {
    "r": "gerado",
    "t": 1795253375
@@ -2486,6 +2502,10 @@
   "link:https://www.amazon.com.br/dp/B0779M2LK6": {
    "r": "gerado",
    "t": 1795316970
+  },
+  "link:https://www.amazon.com.br/dp/B077BY8V14": {
+   "r": "gerado",
+   "t": 1795400795
   },
   "link:https://www.amazon.com.br/dp/B079K5X79D": {
    "r": "gerado",
@@ -2590,6 +2610,10 @@
   "link:https://www.amazon.com.br/dp/B09JT3YLML": {
    "r": "gerado",
    "t": 1795343538
+  },
+  "link:https://www.amazon.com.br/dp/B09M64WMK3": {
+   "r": "gerado",
+   "t": 1795400931
   },
   "link:https://www.amazon.com.br/dp/B09SGPQ2J7": {
    "r": "gerado",
@@ -5444,7 +5468,32 @@
    "t": 1795214936
   }
  },
- "fila": [],
+ "fila": [
+  {
+   "canal": "fumotom",
+   "id": 51683,
+   "t": 1795400455.0,
+   "txt": "Cotiled Tapete 6x9 para Sala de Estar, Lavável, Tradicional, Azul Desgastado\n\nR$ 560\n\nhttps://www.amazon.com.br/dp/B0F9NQLDBX?tag=promotom05-20\n\n-Anúncio"
+  },
+  {
+   "canal": "fumotom",
+   "id": 51687,
+   "t": 1795400464.0,
+   "txt": "Fluido Restaurador Multibenefícios 180ml | Amend Essencial | Reconstrói, reduz o tempo de secagem e protege contra altas temperaturas.\n\nR$ 45\n\nhttps://www.amazon.com.br/dp/B0DHW68P8F?tag=promotom05-20\n\n-Anúncio"
+  },
+  {
+   "canal": "fumotom",
+   "id": 51685,
+   "t": 1795400462.0,
+   "txt": "DAN DA DAN: Season One [Blu-ray]\n\nR$ 179\n\nhttps://www.amazon.com.br/dp/B0F1NJ1D13?tag=promotom05-20\n\n-Anúncio"
+  },
+  {
+   "canal": "fumotom",
+   "id": 51688,
+   "t": 1795400469.0,
+   "txt": "LUMAI Kit Potes Herméticos, 3 Recipientes com Travas e Vedação Silicone\n\nR$ 43\n\nhttps://www.amazon.com.br/dp/B0GXLPCG9Y?tag=promotom05-20\n\n-Anúncio"
+  }
+ ],
  "flags": {
   "resumo": true,
   "trava": true
@@ -8469,36 +8518,6 @@
  "postados": [
   {
    "ids": [],
-   "p": 449.99,
-   "t": 1795302615,
-   "w": [
-    "necessidade"
-   ]
-  },
-  {
-   "ids": [
-    "B0FC62Y27J"
-   ],
-   "p": 302.0,
-   "t": 1795303220,
-   "w": [
-    "ajustavel",
-    "altura",
-    "armazenamento",
-    "cama",
-    "etiqueta",
-    "janela",
-    "kitstorack",
-    "organizador",
-    "pacotes",
-    "recipientes",
-    "rodas",
-    "sapatos",
-    "sob"
-   ]
-  },
-  {
-   "ids": [],
    "p": 365.0,
    "t": 1795316755,
    "w": [
@@ -9984,14 +10003,82 @@
     "rms",
     "som"
    ]
+  },
+  {
+   "ids": [
+    "B077BY8V14"
+   ],
+   "p": 22.0,
+   "t": 1795400752,
+   "w": [
+    "amend",
+    "brilho",
+    "condicionador",
+    "fabulous",
+    "intensa",
+    "marula",
+    "nutricao",
+    "nutrition",
+    "nutritivo"
+   ]
+  },
+  {
+   "ids": [
+    "B0713TJNJ5"
+   ],
+   "p": 22.0,
+   "t": 1795400820,
+   "w": [
+    "300g",
+    "amend",
+    "amino",
+    "areas",
+    "bio",
+    "complete",
+    "deixando",
+    "fibra",
+    "fios",
+    "fortes",
+    "fragilizadas",
+    "intensiva",
+    "macios",
+    "mascara",
+    "reconstroi",
+    "reconstrutora",
+    "repair"
+   ]
+  },
+  {
+   "ids": [
+    "B09M64WMK3"
+   ],
+   "p": 25.0,
+   "t": 1795400888,
+   "w": [
+    "180ml",
+    "amend",
+    "aumentando",
+    "blonde",
+    "cabelos",
+    "care",
+    "contra",
+    "emborrachados",
+    "fluido",
+    "quebra",
+    "queratina",
+    "reconstrutor",
+    "recupera",
+    "resistencia",
+    "vegetal"
+   ]
   }
  ],
- "resumo_dia": "2026-11-21",
+ "resumo_dia": "2026-11-22",
  "tpl_ultimo": 2032135,
- "ult_ciclo": 1795398949.6139753,
+ "ult_ciclo": 1795400956.6615968,
  "ultimo_id": {
   "apromodaluh": 158909,
-  "fumotom": 51682,
+  "fumotom": 51689,
   "iuriindica": 124051,
   "juaocupons": 27648,
   "perfumepromo": 10108,
