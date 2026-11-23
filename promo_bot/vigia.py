@@ -185,6 +185,7 @@ def rodar_vigia(client, cfg, log, ciclo, salvar, dormir, a_cada_minuto=None, par
                     ciclo()
                 except Exception as e:  # noqa
                     log("aviso: ciclo de promocoes falhou: %r" % e)
+                    prox = time.time() + 90      # falha passageira (ex.: Telegram fora do ar): tenta de novo em 90 s, nao em 10 min
             if time.time() >= prox_min and parar:
                 try:
                     if parar():
