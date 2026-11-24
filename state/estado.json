@@ -1,5 +1,5 @@
 {
- "cmd_ultimo": 2049459,
+ "cmd_ultimo": 2050976,
  "contagem_dia": 61,
  "cupom_min": {
   "1124MAISME": {
@@ -581,65 +581,13 @@
    "r": "pulado:repetido",
    "t": 1795546601
   },
-  "apromodaluh:159151": {
-   "r": "pulado:repetido",
-   "t": 1795546349
+  "esg:2BWKUQM": {
+   "r": "avisado",
+   "t": 1795554931
   },
-  "apromodaluh:159152": {
-   "r": "pulado:repetido",
-   "t": 1795546349
-  },
-  "apromodaluh:159153": {
-   "r": "pulado:repetido",
-   "t": 1795546479
-  },
-  "apromodaluh:159154": {
-   "r": "pulado:repetido",
-   "t": 1795546538
-  },
-  "apromodaluh:159155": {
-   "r": "pulado:repetido",
-   "t": 1795546479
-  },
-  "apromodaluh:159156": {
-   "r": "pulado:repetido",
-   "t": 1795546349
-  },
-  "apromodaluh:159157": {
-   "r": "pulado:repetido",
-   "t": 1795546349
-  },
-  "apromodaluh:159159": {
-   "r": "pulado:periferico de PC",
-   "t": 1795547383
-  },
-  "apromodaluh:159160": {
-   "r": "pulado:periferico de PC",
-   "t": 1795547383
-  },
-  "apromodaluh:159161": {
-   "r": "pulado:mesmo link",
-   "t": 1795547632
-  },
-  "apromodaluh:159162": {
-   "r": "pulado:mesmo link",
-   "t": 1795547542
-  },
-  "apromodaluh:159163": {
-   "r": "pulado:mesmo link",
-   "t": 1795547632
-  },
-  "apromodaluh:159164": {
-   "r": "pulado:repetido",
-   "t": 1795547542
-  },
-  "apromodaluh:159165": {
-   "r": "pulado:mesmo link",
-   "t": 1795547542
-  },
-  "apromodaluh:159166": {
-   "r": "pulado:mesmo link",
-   "t": 1795547691
+  "esg:AUTOMOVEIS": {
+   "r": "avisado",
+   "t": 1795512532
   },
   "esg:COMPRAR": {
    "r": "avisado",
@@ -668,6 +616,10 @@
   "esg:TODOSITE2411": {
    "r": "avisado",
    "t": 1795536044
+  },
+  "esg:VEMPROMP": {
+   "r": "avisado",
+   "t": 1795554931
   },
   "esg:VOCEDEZ": {
    "r": "avisado",
@@ -1149,6 +1101,58 @@
    "r": "pulado:texto bloqueado: usado",
    "t": 1795535701
   },
+  "fumotom:52378": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795554919
+  },
+  "fumotom:52384": {
+   "r": "pulado:periferico de PC",
+   "t": 1795554919
+  },
+  "fumotom:52385": {
+   "r": "pulado:periferico de PC",
+   "t": 1795554919
+  },
+  "fumotom:52395": {
+   "r": "pulado:loja desativada: magalu",
+   "t": 1795554923
+  },
+  "fumotom:52396": {
+   "r": "pulado:periferico de PC",
+   "t": 1795554923
+  },
+  "fumotom:52397": {
+   "r": "pulado:periferico de PC",
+   "t": 1795554923
+  },
+  "fumotom:52401": {
+   "r": "pulado:periferico de PC",
+   "t": 1795554923
+  },
+  "fumotom:52408": {
+   "r": "pulado:periferico de PC",
+   "t": 1795554923
+  },
+  "fumotom:52411": {
+   "r": "pulado:periferico de PC",
+   "t": 1795554923
+  },
+  "fumotom:52416": {
+   "r": "pulado:periferico de PC",
+   "t": 1795554923
+  },
+  "fumotom:52417": {
+   "r": "pulado:periferico de PC",
+   "t": 1795554923
+  },
+  "fumotom:52421": {
+   "r": "pulado:periferico de PC",
+   "t": 1795554923
+  },
+  "fumotom:52424": {
+   "r": "pulado:periferico de PC",
+   "t": 1795554931
+  },
   "iuriindica:124222": {
    "r": "pulado:periferico de PC",
    "t": 1795534147
@@ -1613,41 +1617,45 @@
    "r": "pulado:sem preco",
    "t": 1795543168
   },
-  "juaocupons:27751": {
+  "juaocupons:27762": {
+   "r": "pulado:so cupom (ignorado)",
+   "t": 1795554931
+  },
+  "juaocupons:27763": {
+   "r": "pulado:sem link",
+   "t": 1795554931
+  },
+  "juaocupons:27764": {
+   "r": "pulado:so cupom (ignorado)",
+   "t": 1795554931
+  },
+  "juaocupons:27765": {
+   "r": "pulado:sem link",
+   "t": 1795554931
+  },
+  "juaocupons:27766": {
+   "r": "pulado:sem link",
+   "t": 1795554931
+  },
+  "juaocupons:27767": {
    "r": "pulado:sem preco",
-   "t": 1795545689
+   "t": 1795554931
   },
-  "juaocupons:27752": {
-   "r": "pulado:sem link",
-   "t": 1795545689
-  },
-  "juaocupons:27753": {
-   "r": "pulado:sem link",
-   "t": 1795545689
-  },
-  "juaocupons:27754": {
+  "juaocupons:27768": {
    "r": "pulado:sem preco",
-   "t": 1795545689
+   "t": 1795554931
   },
-  "juaocupons:27755": {
+  "juaocupons:27769": {
    "r": "pulado:sem link",
-   "t": 1795545689
+   "t": 1795554931
   },
-  "juaocupons:27756": {
-   "r": "pulado:sem link",
-   "t": 1795545689
-  },
-  "juaocupons:27757": {
-   "r": "pulado:sem link",
-   "t": 1795546967
-  },
-  "juaocupons:27758": {
-   "r": "pulado:sem link",
-   "t": 1795546967
-  },
-  "juaocupons:27759": {
+  "juaocupons:27770": {
    "r": "pulado:sem preco",
-   "t": 1795546967
+   "t": 1795554931
+  },
+  "juaocupons:27772": {
+   "r": "esgotado_avisado",
+   "t": 1795554931
   },
   "link:https://amzn.to/3YeTytk": {
    "r": "falha",
@@ -4856,6 +4864,46 @@
   "promotom:115285": {
    "r": "pulado:sem preco",
    "t": 1795535703
+  },
+  "promotom:115303": {
+   "r": "pulado:sem preco",
+   "t": 1795554931
+  },
+  "promotom:115304": {
+   "r": "pulado:sem preco",
+   "t": 1795554931
+  },
+  "promotom:115305": {
+   "r": "pulado:aliexpress (bloqueado)",
+   "t": 1795554931
+  },
+  "promotom:115306": {
+   "r": "pulado:sem preco",
+   "t": 1795554931
+  },
+  "promotom:115308": {
+   "r": "pulado:periferico de PC",
+   "t": 1795554931
+  },
+  "promotom:115309": {
+   "r": "pulado:periferico de PC",
+   "t": 1795554931
+  },
+  "promotom:115310": {
+   "r": "pulado:periferico de PC",
+   "t": 1795554931
+  },
+  "promotom:115323": {
+   "r": "pulado:periferico de PC",
+   "t": 1795554931
+  },
+  "promotom:115334": {
+   "r": "pulado:periferico de PC",
+   "t": 1795554931
+  },
+  "promotom:115336": {
+   "r": "pulado:sem link",
+   "t": 1795554931
   },
   "teniscertocupons:66187": {
    "r": "pulado:loja desconhecida",
@@ -10227,15 +10275,15 @@
  "tpl_ultimo": 2032135,
  "ult_ciclo": 1795545659.8137615,
  "ultimo_id": {
-  "apromodaluh": 159148,
-  "fumotom": 52330,
-  "iuriindica": 124365,
-  "juaocupons": 27749,
-  "perfumepromo": 10167,
-  "pincei": 371397,
-  "promosdaluh": 324798,
-  "promotom": 115293,
-  "teniscertocupons": 66209,
+  "apromodaluh": 159195,
+  "fumotom": 52424,
+  "iuriindica": 124453,
+  "juaocupons": 27775,
+  "perfumepromo": 10181,
+  "pincei": 371516,
+  "promosdaluh": 324973,
+  "promotom": 115337,
+  "teniscertocupons": 66221,
   "teste": 1795214930
  }
 }
