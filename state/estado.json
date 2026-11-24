@@ -1,5 +1,5 @@
 {
- "cmd_ultimo": 2044995,
+ "cmd_ultimo": 2045080,
  "contagem_dia": 0,
  "cupom_min": {
   "2U6U32Q": {
@@ -971,6 +971,18 @@
    "r": "falha",
    "t": 1795491773
   },
+  "fumotom:52168": {
+   "r": "falha",
+   "t": 1795496012
+  },
+  "fumotom:52169": {
+   "r": "falha",
+   "t": 1795496126
+  },
+  "fumotom:52174": {
+   "r": "falha",
+   "t": 1795496069
+  },
   "iuriindica:124146": {
    "r": "pulado:repetido",
    "t": 1795452125
@@ -1330,6 +1342,10 @@
   "iuriindica:124256": {
    "r": "pulado:periferico de PC",
    "t": 1795491347
+  },
+  "iuriindica:124257": {
+   "r": "pulado:repetido",
+   "t": 1795496151
   },
   "iuriindica:124258": {
    "r": "pulado:sem preco",
@@ -1931,6 +1947,10 @@
    "r": "falha",
    "t": 1795491611
   },
+  "link:https://www.amazon.com.br/dp/B06XHD12FR": {
+   "r": "falha",
+   "t": 1795496069
+  },
   "link:https://www.amazon.com.br/dp/B0719S9TPB": {
    "r": "falha",
    "t": 1795463371
@@ -1942,6 +1962,10 @@
   "link:https://www.amazon.com.br/dp/B0776VVJXT": {
    "r": "falha",
    "t": 1795462843
+  },
+  "link:https://www.amazon.com.br/dp/B079ZKQ26W": {
+   "r": "falha",
+   "t": 1795496126
   },
   "link:https://www.amazon.com.br/dp/B07FRKJRRP": {
    "r": "falha",
@@ -2002,6 +2026,10 @@
   "link:https://www.amazon.com.br/dp/B097BT4R97": {
    "r": "falha",
    "t": 1795462117
+  },
+  "link:https://www.amazon.com.br/dp/B09B8VGCR8": {
+   "r": "falha",
+   "t": 1795496192
   },
   "link:https://www.amazon.com.br/dp/B09LD48ZZ4": {
    "r": "falha",
@@ -2155,6 +2183,10 @@
    "r": "falha",
    "t": 1795462666
   },
+  "link:https://www.amazon.com.br/dp/B0GGV1K1XF": {
+   "r": "falha",
+   "t": 1795496012
+  },
   "link:https://www.amazon.com.br/dp/B0GKBJXJYF": {
    "r": "falha",
    "t": 1795451671
@@ -2254,6 +2286,10 @@
   "link:https://www.belezanaweb.com.br/produto/moschino-fresh-couture-eau-de-toilette-perfume-feminino/": {
    "r": "falha",
    "t": 1795451582
+  },
+  "link:https://www.belezanaweb.com.br/produto/versace-perfume-masculino-versus-blue-jeans-man-eau-de-toilette": {
+   "r": "falha",
+   "t": 1795495961
   },
   "link:https://www.centauro.com.br/camisa-park-26-nike-masculina-9974IJ.html": {
    "r": "gerado",
@@ -2515,9 +2551,21 @@
    "r": "falha",
    "t": 1795450830
   },
+  "link:https://www.paguemenos.com.br/composto-lacteo-zero-lactose-ninho-700g/p": {
+   "r": "falha",
+   "t": 1795495886
+  },
   "link:https://www.paguemenos.com.br/creme-dental-colgate-luminous-white-glow-70g/p": {
    "r": "falha",
    "t": 1795456084
+  },
+  "link:https://www.paguemenos.com.br/formula-infantil-nestonutri-1mais-800g/p": {
+   "r": "falha",
+   "t": 1795495833
+  },
+  "link:https://www.paguemenos.com.br/fralda-infantil-calca-mamypoko-dia-noite-giga-g-60-unidades/p": {
+   "r": "falha",
+   "t": 1795495926
   },
   "link:https://www.paguemenos.com.br/massageol-aerosol-120ml/p": {
    "r": "falha",
@@ -3722,6 +3770,46 @@
   "pincei:371222": {
    "r": "falha",
    "t": 1795491656
+  },
+  "pincei:371223": {
+   "r": "pulado:sem preco",
+   "t": 1795495787
+  },
+  "pincei:371224": {
+   "r": "falha",
+   "t": 1795496192
+  },
+  "pincei:371225": {
+   "r": "falha",
+   "t": 1795495833
+  },
+  "pincei:371226": {
+   "r": "falha",
+   "t": 1795495886
+  },
+  "pincei:371227": {
+   "r": "falha",
+   "t": 1795495926
+  },
+  "pincei:371228": {
+   "r": "falha",
+   "t": 1795495961
+  },
+  "pincei:371229": {
+   "r": "pulado:so cupom (ignorado)",
+   "t": 1795495972
+  },
+  "pincei:371230": {
+   "r": "pulado:sem preco",
+   "t": 1795495975
+  },
+  "pincei:371231": {
+   "r": "pulado:sem preco",
+   "t": 1795495977
+  },
+  "pincei:371232": {
+   "r": "pulado:sem preco",
+   "t": 1795495980
   },
   "promosdaluh:323920": {
    "r": "pulado:sacola laranja (bloqueado)",
@@ -5755,195 +5843,27 @@
  "fila": [
   {
    "canal": "fumotom",
-   "id": 52163,
-   "t": 1795488274.0,
-   "txt": "Pipoqueira Mallory Stitch – Pipocas Sequinhas e Sem Óleo, Bocal Expedidor, Copo Medidor para Manteiga e Pés Antiderrapantes - 127V\n\nR$ 79\n-CUPOM: 25BF26PRIME\n\nhttps://www.amazon.com.br/dp/B0CV1SRZ59?tag=promotom05-20\n\n-Anúncio"
+   "id": 52171,
+   "t": 1795492047.0,
+   "txt": "Fritadeira DiamondTech Oster 6L com Visor Transparente - 220V\n\nR$ 359\n\nhttps://www.amazon.com.br/dp/B0DKY6272P?tag=promotom05-20\n\n-Anúncio"
   },
   {
    "canal": "fumotom",
-   "id": 52142,
-   "t": 1795487745.0,
-   "txt": "Micro-ondas 33L Philco PMO39B Limpa Fácil 1400W 127V\n\nR$ 400\n-CUPOM: 25BF26PRIME\n\nhttps://www.amazon.com.br/dp/B0H56PMJF1?smid=A1ZZFT5FULY4LN&tag=promotom05-20\n\n-Anúncio"
+   "id": 52173,
+   "t": 1795494967.0,
+   "txt": "Hartwii Película transparente para jato de tinta, 60 folhas, 21 x 28 cm, seca rapidamente aplicável a projetores aéreos de impressora jato de tinta\n\nR$ 133\n\nhttps://www.amazon.com.br/dp/B0CTTFJP38?tag=promotom05-20\n\n-Anúncio"
   },
   {
    "canal": "fumotom",
-   "id": 52162,
-   "t": 1795488147.0,
-   "txt": "Tramontina Pipoqueira Loreto em Alumínio com Revestimento em Antiaderente Starflon Max Vermelho 20 cm 3,5 L\n\nR$ 65\n-CUPOM: 25BF26PRIME\n\nhttps://www.amazon.com.br/dp/B09W4CSX53?tag=promotom05-20\n\n-Anúncio"
+   "id": 52170,
+   "t": 1795492045.0,
+   "txt": "Cafeteira Espresso Oster PrimaLatte Touch Red - 220V\n\nR$ 735\n\nhttps://www.amazon.com.br/dp/B0C7D72S7Z?tag=promotom05-20\n\n-Anúncio"
   },
   {
    "canal": "fumotom",
-   "id": 52155,
-   "t": 1795488007.0,
-   "txt": "Panela De Pressão 4,4L Antiaderente Cerâmico Indução - Oikos\n\nR$ 113\n-CUPOM: 25BF26PRIME\n\nhttps://www.amazon.com.br/dp/B0GHP5N83Q?smid=A1ZZFT5FULY4LN&tag=promotom05-20\n\n-Anúncio"
-  },
-  {
-   "canal": "fumotom",
-   "id": 52166,
-   "t": 1795489607.0,
-   "txt": "Tênis Flyer Runner Mesh Bdp Puma\n\nR$ 154 - Sem Juros\n-CUPOM: FULL2411\n\nhttps://meli.la/1ERjWRB\n\n-Anúncio"
-  },
-  {
-   "canal": "fumotom",
-   "id": 52154,
-   "t": 1795487930.0,
-   "txt": "Oikos - Jogo 7 Panelas Antiaderente Cerâmico em Alumínio Bege Terrara\n\nR$ 252\n-CUPOM: 25BF26PRIME\n\nhttps://www.amazon.com.br/dp/B0GHPF6M7Z?smid=A1ZZFT5FULY4LN&tag=promotom05-20\n\n-Anúncio"
-  },
-  {
-   "canal": "fumotom",
-   "id": 52158,
-   "t": 1795488032.0,
-   "txt": "Churu Display Para Gato Sabor Atum Com Frango 24 Tubos de 14g\n\nR$ 70\n-CUPOM: 25BF26PRIME\n\nhttps://www.amazon.com.br/dp/B07DVRNQ5L?smid=A1ZZFT5FULY4LN&tag=promotom05-20\n\n-Anúncio"
-  },
-  {
-   "canal": "fumotom",
-   "id": 52138,
-   "t": 1795487637.0,
-   "txt": "Monitor Portátil Aoc 15.6\" Fhd Ips Usb-C Capa Magnética Alto-falantes 16T20e2\n\nR$ 364 - Sem Juros\n-Resgate cupom do anúncio\n\nhttps://www.amazon.com.br/dp/B0GS6H87T9?smid=A1ZZFT5FULY4LN&tag=promotom05-20\n\n-Anúncio"
-  },
-  {
-   "canal": "iuriindica",
-   "id": 124248,
-   "t": 1795487993.0,
-   "txt": "Hisense Smart TV 4K 65\" Polegadas 65U6QV Mini LED\n\n💵  R$ 3299\n🎟  Cupom: 25BF26PRIME\n✅  https://www.amazon.com.br/dp/B0FQWCGQMV/?tag=afiliado333-20\n\n🤑 Grupos de promoções: https://iuriindica.com.br"
-  },
-  {
-   "canal": "fumotom",
-   "id": 52140,
-   "t": 1795487725.0,
-   "txt": "Jogo de Panelas Brinox Wooden, Cinza, 7 Peças\n\nR$ 299 - Sem Juros\n-Resgate cupom do anúncio\n\nhttps://www.amazon.com.br/dp/B0G3RGMZ3T?smid=A1ZZFT5FULY4LN&tag=promotom05-20\n\n-Anúncio"
-  },
-  {
-   "canal": "fumotom",
-   "id": 52159,
-   "t": 1795488051.0,
-   "txt": "Philips Secador de Cabelo Série 8000 Secagem Ultrarrápida\n\nR$ 524 - Sem Juros\n-CUPOM: 25BF26PRIME\n\nhttps://www.amazon.com.br/dp/B0FQCRXQ73?smid=A1ZZFT5FULY4LN&tag=promotom05-20\n\n-Anúncio"
-  },
-  {
-   "canal": "fumotom",
-   "id": 52168,
-   "t": 1795490521.0,
-   "txt": "Kit 3 Cuecas Slip Polo Star Cotton 100% Algodão Penteado Masculina Adulto Tradicional\n\nR$ 29\n\nhttps://www.amazon.com.br/dp/B0GGV1K1XF?tag=promotom05-20\n\n-Anúncio"
-  },
-  {
-   "canal": "fumotom",
-   "id": 52145,
-   "t": 1795487790.0,
-   "txt": "3 Corações TRES Cafeteira Espresso e Multibebida Touch Vermelha - 220V\n\nR$ 292\n-CUPOM: 25BF26PRIME\n\nhttps://www.amazon.com.br/dp/B08JR464LB?smid=A1ZZFT5FULY4LN&tag=promotom05-20\n\n-Anúncio"
-  },
-  {
-   "canal": "fumotom",
-   "id": 52144,
-   "t": 1795487780.0,
-   "txt": "Apple Watch SE 3 GPS, Caixa Meia-Noite de Alumínio de 40 mm, Pulseira Esportiva Azul-Marinho - P/M\n\nR$ 1479\n-CUPOM: 25BF26PRIME\n\nhttps://www.amazon.com.br/dp/B0HJBL8G54?tag=promotom05-20\n\n-Anúncio - Dica João B"
-  },
-  {
-   "canal": "fumotom",
-   "id": 52153,
-   "t": 1795487917.0,
-   "txt": "Furadeira Parafusadeira Impacto Sem Fio Gsb 185-Li 18V com Maleta Bosch\n\nR$ 444\n-CUPOM: 25BF26PRIME\n\nhttps://www.amazon.com.br/dp/B0BS77VG1X?smid=A1ZZFT5FULY4LN&tag=promotom05-20\n\n-Anúncio"
-  },
-  {
-   "canal": "fumotom",
-   "id": 52156,
-   "t": 1795488015.0,
-   "txt": "Apple Watch SE 3 GPS, Caixa em alumínio luz das estrelas de 44 mm com Bracelete desportiva luz das estrelas - M/G\n\nR$ 1610\n-CUPOM: 25BF26PRIME\n\nhttps://www.amazon.com.br/dp/B0FQG1SWXN?tag=promotom05-20\n\n-Anúncio"
-  },
-  {
-   "canal": "fumotom",
-   "id": 52146,
-   "t": 1795487798.0,
-   "txt": "Stanley Copo Quencher Cream 1.18L\n\nR$ 116\n-CUPOM: 25BF26PRIME\n\nhttps://www.amazon.com.br/dp/B0BTHPGVWZ?smid=A1ZZFT5FULY4LN&tag=promotom05-20\n\n-Anúncio"
-  },
-  {
-   "canal": "fumotom",
-   "id": 52164,
-   "t": 1795489249.0,
-   "txt": "Capa para iPhone 17 Pro Gshield, Transparente, Antiderrapante | Lateral\n\nR$ 51\n\nhttps://www.amazon.com.br/dp/B0FD83H9QC?tag=promotom05-20\n\n-Anúncio"
-  },
-  {
-   "canal": "fumotom",
-   "id": 52137,
-   "t": 1795487635.0,
-   "txt": "Fonte 650W Redragon Charge, 80 Plus Bronze, FRC-650\n\nR$ 200\n-CUPOM: 25BF26PRIME\n\nhttps://www.amazon.com.br/dp/B0GBXT62NM?smid=A1ZZFT5FULY4LN&tag=promotom05-20\n\n-Anúncio"
-  },
-  {
-   "canal": "iuriindica",
-   "id": 124244,
-   "t": 1795485971.0,
-   "txt": "Preço bom, 200Hz 25\" e 1ms GTG voltando e nao mais MBR\n\nMonitor LG UltraGear -Tela IPS de 25”, 200Hz, 1ms (GtG), NVIDIA G-SYNC e AMD FreeSync Premium, HDR10, sRGB 99%, Preto - 25G523B\n\n💵  R$ 551\n🎟  Cupom: 20BF26PRIME\n✅  https://www.amazon.com.br/dp/B0HB7FQ67Y/?tag=afiliado333-20\n\n🤑 Grupos de promoções: https://iuriindica.com.br"
-  },
-  {
-   "canal": "fumotom",
-   "id": 52149,
-   "t": 1795487872.0,
-   "txt": "TP-Link Deco X10 (3 un.) Roteador Mesh Wi-Fi 6 AX1500 Dual Band, Cobertura de até 520 m², Conexão para até 120 Dispositivos, 2 Portas Gigabit por Unidade e Mesh Gerenciado por IA\n\nR$ 470\n-CUPOM: 25BF26PRIME\n\nhttps://www.amazon.com.br/dp/B0DXN1BRXP?smid=A1ZZFT5FULY4LN&tag=promotom05-20\n\n-Anúncio"
-  },
-  {
-   "canal": "iuriindica",
-   "id": 124254,
-   "t": 1795488000.0,
-   "txt": "TP-Link Deco X10 (3 un.) Roteador Mesh Wi-Fi 6 AX1500 Dual Band, Cobertura de até 520 m², Conexão para até 120 Dispositivos, 2 Portas Gigabit por Unidade e Mesh Gerenciado por IA\n\n💵  R$ 470\n🎟  Cupom: 25BF26PRIME\n✅  https://www.amazon.com.br/dp/B0DXN1BRXP/?tag=afiliado333-20\n\n🤑 Grupos de promoções: https://iuriindica.com.br"
-  },
-  {
-   "canal": "promosdaluh",
-   "id": 324354,
-   "t": 1795489254.0,
-   "txt": "🚨 ALERTA CUPOM MERCADO LIVRE 🚨\n\nUse o cupom 🎟️FULL2411 e garanta 25% OFF em compras acima de R$159, limite R$45!\n\n✅ Válido na seleção: https://promosdaluh.com/p/ct3g01/\n\n⚠️ A oferta pode acabar a qualquer momento!\n\n📍 GRUPOS COM VAGAS: https://promosdaluh.com/bio"
-  },
-  {
-   "canal": "iuriindica",
-   "id": 124257,
-   "t": 1795490865.0,
-   "txt": "Apple iPhone 17e de 512 GB Branco\n\nRESGATE TODOS CUPONS NO ANUNCIO!\n\n💵  R$ 4630\n✅  https://www.amazon.com.br/dp/B0GTRPYH9M/?tag=afiliado333-20\n\n🤑 Grupos de promoções: https://iuriindica.com.br"
-  },
-  {
-   "canal": "fumotom",
-   "id": 52148,
-   "t": 1795487864.0,
-   "txt": "Hellmann's Pack Maionese Light 2 Unidades de 500g\n\nR$ 10\n\nhttps://www.amazon.com.br/dp/B0H1J4HS4Z?tag=promotom05-20\n\n-Anúncio"
-  },
-  {
-   "canal": "fumotom",
-   "id": 52134,
-   "t": 1795486662.0,
-   "txt": "Dickies Calça jeans masculina estilo carpinteiro de pato lixado\n\nR$ 220\n\nhttps://www.amazon.com.br/dp/B002ECF372?tag=promotom05-20\n\n-Anúncio"
-  },
-  {
-   "canal": "promosdaluh",
-   "id": 324352,
-   "t": 1795487460.0,
-   "txt": "🚨 ALERTA CUPOM AMAZON 🚨\n\nUse o cupom 🎟️20BLACKPRIME e garanta 20% OFF, limite R$400!\n🏷️ *Exclusivo Prime*\n\n🔗 Acesse aqui: https://promosdaluh.com/p/0klpcp/\n\n⚠️ A oferta pode acabar a qualquer momento!\n\n📍 GRUPOS COM VAGAS: https://promosdaluh.com/bio"
-  },
-  {
-   "canal": "promosdaluh",
-   "id": 324353,
-   "t": 1795487483.0,
-   "txt": "🚨 ALERTA CUPOM AMAZON 🚨\n\nUse o cupom 🎟️25BF26PRIME e garanta 20% OFF, limite R$400!\n🏷️ *Exclusivo Prime*\n\n🔗 Acesse aqui: https://promosdaluh.com/p/jxb3os/\n\n⚠️ A oferta pode acabar a qualquer momento!\n\n📍 GRUPOS COM VAGAS: https://promosdaluh.com/bio"
-  },
-  {
-   "canal": "fumotom",
-   "id": 52147,
-   "t": 1795487831.0,
-   "txt": "Bosch Martelete Perfurador Gbh 2-24 D 820W 220V Com Maleta\n\nR$ 539\n\nhttps://www.amazon.com.br/dp/B076KRB8LP?smid=A1ZZFT5FULY4LN&tag=promotom05-20\n\n-Anúncio"
-  },
-  {
-   "canal": "fumotom",
-   "id": 52143,
-   "t": 1795487767.0,
-   "txt": "Elg, N01v4, Suporte Fixo de Parede para TVs de 32\" a 77\"\n\nR$ 26\n-Resgate cupom do anúncio\n\nhttps://www.amazon.com.br/dp/B0767QQG67?tag=promotom05-20\n\n-Anúncio"
-  },
-  {
-   "canal": "fumotom",
-   "id": 52139,
-   "t": 1795487715.0,
-   "txt": "BOSCH Esmerilhadeira Angular 4.1/2POL 710W GWS 700\n\nR$ 174\n-CUPOM: 25BF26PRIME\n\nhttps://www.amazon.com.br/dp/B09QRCRYJF?smid=A1ZZFT5FULY4LN&tag=promotom05-20\n\n-Anúncio"
-  },
-  {
-   "canal": "promotom",
-   "id": 115238,
-   "t": 1795487400.0,
-   "txt": "Cupom Amazon\n\n25% OFF adicional, limitado a R$ 500.00: 25BF26PRIME\n\n-Resgate o cupom aqui: https://link.amazon/B0fEoOqJu\n\n-Anúncio"
+   "id": 52172,
+   "t": 1795494597.0,
+   "txt": "Flash Limp - Limpa Vidros com Cabo Extensível 180º - FLP6391\n\nR$ 40\n\nhttps://www.amazon.com.br/dp/B0779L3ZQ4?tag=promotom05-20\n\n-Anúncio"
   }
  ],
  "flags": {
@@ -12272,14 +12192,14 @@
  ],
  "resumo_dia": "2026-11-23",
  "tpl_ultimo": 2032135,
- "ult_ciclo": 1795492202.5427036,
+ "ult_ciclo": 1795496217.3812356,
  "ultimo_id": {
   "apromodaluh": 159045,
-  "fumotom": 52168,
+  "fumotom": 52174,
   "iuriindica": 124258,
   "juaocupons": 27716,
   "perfumepromo": 10153,
-  "pincei": 371222,
+  "pincei": 371232,
   "promosdaluh": 324354,
   "promotom": 115249,
   "teniscertocupons": 66199,
