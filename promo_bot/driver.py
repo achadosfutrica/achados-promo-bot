@@ -68,6 +68,12 @@ def produto_confere(texto_tela, titulo_post):
     return False
 
 
+def eh_resposta_cancelar(tela):
+    """Resposta do bot ao /cancelar ('Cancelado. Envie um link...' / 'Nada pra cancelar no momento')."""
+    n = T.norm(tela.texto)
+    return (not tela.botoes) and len(n) < 160 and ("cancelad" in n or "nada pra cancelar" in n or "nada para cancelar" in n)
+
+
 class Falha(Exception):
     pass
 
@@ -76,6 +82,20 @@ class Driver:
     def __init__(self, conv, cfg, log=print):
         """conv: objeto com enviar(txt)->Tela, clicar(rotulo)->Tela, responder(txt)->Tela, cancelar_tudo()"""
         self.conv, self.cfg, self.log = conv, cfg, log
+        if hasattr(conv, "timeout_link"):
+            conv.log = log          # a conversa avisa quando ignora tela atrasada do Divulgador
+
+    @staticmethod
+    def _aceitar_link(dados):
+        """Filtro da 1ª resposta ao link: ignora resposta atrasada de OUTRO pedido (Divulgador lento)
+        - sobra do /cancelar ou tela de outro produto - e espera a do nosso link."""
+        titulo = (dados or {}).get("titulo")
+
+        def ok(tela):
+            if eh_resposta_cancelar(tela):
+                return False
+            return produto_confere(tela.texto, titulo) is not False
+        return ok
 
     # --- helpers
     def _clicar(self, tela, *trechos, obrigatorio=True):
@@ -222,7 +242,7 @@ class Driver:
                 self.conv.zerar()           # e manda /cancelar: nenhuma pergunta antiga recebe os dados deste produto
             for _tent in (1, 2, 3):
                 try:
-                    tela = self.conv.enviar(link)
+                    tela = self.conv.enviar(link, timeout=getattr(self.conv, "timeout_link", None), aceitar=self._aceitar_link(dados))
                     tela = self._plataforma(tela, loja)
                     if (not tela.achar("gerar promo") and tela.tem_texto("informe os dados", "nao e de produto", "não é de produto")
                             and not tela.tem_texto("qual a foto", "qual o titulo", "qual o título") and hasattr(self.conv, "esperar")):
