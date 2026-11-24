@@ -105,6 +105,14 @@ def problema(texto, minimos):
     return None
 
 
+def _exec(loop, x):
+    """Roda no loop se for corrotina; se o cliente ja devolveu o resultado (telethon.sync), usa direto."""
+    import inspect
+    if inspect.isawaitable(x):
+        return loop.run_until_complete(x)
+    return x
+
+
 class Sentinela:
     def __init__(self, client, cfg, log, canais, memoria=None):
         sc = cfg.get("sentinela") or {}
@@ -178,15 +186,15 @@ class Sentinela:
         loop = self.c.loop
         for canal in self.canais:          # aprende o que já está nos canais (últimos posts)
             try:
-                msgs = loop.run_until_complete(self.c.get_messages(canal, limit=60))
+                msgs = _exec(loop, self.c.get_messages(canal, limit=60))
                 for m in msgs or []:
                     if m and m.message:
                         self.aprender(m.message)
             except Exception as e:  # noqa
                 self.log("aviso: sentinela: nao li %s: %r" % (canal, e))
         try:                                  # o que o Divulgador postou nos últimos minutos também é conferido
-            for m in loop.run_until_complete(self.c.get_messages(int(self.grupo), limit=30)) or []:
-                loop.run_until_complete(self.conferir(m))
+            for m in _exec(loop, self.c.get_messages(int(self.grupo), limit=30)) or []:
+                _exec(loop, self.conferir(m))
         except Exception as e:  # noqa
             self.log("aviso: sentinela: nao li o grupo: %r" % e)
         h1, h2 = self._ev_canal, self._ev_grupo
