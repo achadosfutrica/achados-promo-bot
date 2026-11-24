@@ -3,7 +3,7 @@ import asyncio
 import time
 
 from . import texto as T
-from .driver import Tela
+from .driver import Tela, eh_resposta_cancelar
 
 
 def _tela(msg):
@@ -18,10 +18,12 @@ def _tela(msg):
 class ConvTelethon:
     """Versão síncrona sobre o loop do Telethon (simples de testar e de ler)."""
 
-    def __init__(self, client, bot_user, timeout=45, intervalo=1.5):
+    def __init__(self, client, bot_user, timeout=90, intervalo=1.5, timeout_link=150):
         self.c, self.bot, self.timeout, self.intervalo = client, bot_user, timeout, intervalo
+        self.timeout_link = timeout_link
         self.loop = client.loop
         self._ultima = None
+        self.log = lambda s: None            # o Driver troca por log de verdade
 
     def _run(self, coro):
         return self.loop.run_until_complete(coro)
@@ -34,10 +36,14 @@ class ConvTelethon:
             return None, ()
         return m, (m.id, m.message, tuple(b.text for l in (m.buttons or []) for b in l), m.edit_date)
 
-    async def _esperar_mudanca(self, antes, min_id=None, timeout=None):
-        """Espera a resposta do bot. min_id: só vale mensagem do bot DEPOIS da nossa (evita ler uma tela velha)."""
+    async def _esperar_mudanca(self, antes, min_id=None, timeout=None, aceitar=None):
+        """Espera a resposta do bot. min_id: só vale mensagem do bot DEPOIS da nossa (evita ler uma tela velha).
+        aceitar(tela)->bool: o Divulgador responde UM pedido por vez e pode atrasar minutos; uma resposta
+        atrasada de OUTRO pedido chega depois da nossa mensagem e parecia ser a nossa. Se aceitar() recusa,
+        ignora essa tela e continua esperando a certa."""
         fim = time.time() + (timeout or self.timeout)
         estavel, ult = 0, None
+        ignorada = None
         while time.time() < fim:
             await asyncio.sleep(self.intervalo)
             m, ass = await self._assinatura()
@@ -51,17 +57,27 @@ class ConvTelethon:
                         t = _tela(m)
                         if t.carregando():      # "processando..." -> continua esperando
                             continue
+                        if aceitar is not None and not aceitar(t):
+                            ignorada = (t.texto or "")[:90].replace("\n", " ")
+                            try:
+                                self.log("  ignorei tela de outro pedido (Divulgador atrasado): %r" % ignorada)
+                            except Exception:  # noqa
+                                pass
+                            antes, ult, estavel = ass, None, 0
+                            continue
                         self._ultima = m
                         return t
                 else:
                     ult, estavel = ass, 0
+        if ignorada:
+            raise TimeoutError("o bot nao respondeu a tempo com o produto certo em %ss (so chegaram telas de outro pedido, ultima: %r)" % (timeout or self.timeout, ignorada))
         raise TimeoutError("o bot nao respondeu em %ss" % (timeout or self.timeout))
 
-    def enviar(self, txt):
+    def enviar(self, txt, timeout=None, aceitar=None):
         async def f():
             _, antes = await self._assinatura()
             enviada = await self.c.send_message(self.bot, txt)
-            return await self._esperar_mudanca(antes, min_id=getattr(enviada, "id", None))
+            return await self._esperar_mudanca(antes, min_id=getattr(enviada, "id", None), timeout=timeout, aceitar=aceitar)
         return self._run(f())
 
     def responder(self, txt):
@@ -126,17 +142,25 @@ class ConvTelethon:
             return True
         return self._run(f())
 
-    def zerar(self):
-        """Zera a conversa com o bot ANTES de cada produto: manda /cancelar e espera a resposta.
-        Sem isso, uma pergunta que ficou aberta (ex.: 'Qual o preço?' do produto que falhou)
-        recebia os dados do PRÓXIMO produto (foi assim que o tênis Asics saiu por R$ 14)."""
+    def zerar(self, espera=90):
+        """Zera a conversa com o bot ANTES de cada produto: manda /cancelar e ESPERA a resposta DELE ao /cancelar.
+        Como o Divulgador responde um pedido por vez, essa resposta so chega depois de ele terminar tudo que
+        ainda devia (e atrasar minutos e comum): e uma BARREIRA - depois dela a fila esta vazia e o proximo link
+        recebe a resposta dele, nao a de um link antigo. Tambem fecha qualquer pergunta aberta
+        (ex.: 'Qual o preço?' do produto que falhou recebia os dados do PRÓXIMO: o tênis Asics saiu por R$ 14)."""
         async def f():
             _, antes = await self._assinatura()
             enviada = await self.c.send_message(self.bot, "/cancelar")
+            t0 = time.time()
             try:
-                await self._esperar_mudanca(antes, min_id=getattr(enviada, "id", None), timeout=8)
+                await self._esperar_mudanca(antes, min_id=getattr(enviada, "id", None), timeout=espera, aceitar=eh_resposta_cancelar)
+                if time.time() - t0 > 12:
+                    self.log("  Divulgador demorou %ds para responder ao /cancelar (fila lenta)" % (time.time() - t0))
             except TimeoutError:
-                pass
+                try:
+                    self.log("  aviso: o Divulgador nao respondeu ao /cancelar em %ss (fila lenta)" % espera)
+                except Exception:  # noqa
+                    pass
             return True
         try:
             return self._run(f())
