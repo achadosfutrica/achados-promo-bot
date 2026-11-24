@@ -1,6 +1,6 @@
 {
  "cmd_ultimo": 2045332,
- "contagem_dia": 3,
+ "contagem_dia": 5,
  "cupom_min": {
   "2U6U32Q": {
    "min": 1999.0,
@@ -269,9 +269,21 @@
    "r": "avisado",
    "t": 1795512532
   },
+  "esg:COMPRAR": {
+   "r": "avisado",
+   "t": 1795518712
+  },
+  "esg:COMPROU": {
+   "r": "avisado",
+   "t": 1795518712
+  },
   "esg:ESGOTA": {
    "r": "avisado",
    "t": 1795466663
+  },
+  "esg:ESGOTAR": {
+   "r": "avisado",
+   "t": 1795518712
   },
   "esg:ESPECIAL": {
    "r": "avisado",
@@ -280,6 +292,14 @@
   "esg:GRUPOS": {
    "r": "avisado",
    "t": 1795466663
+  },
+  "esg:GUERLAIN": {
+   "r": "avisado",
+   "t": 1795518712
+  },
+  "esg:HORA": {
+   "r": "avisado",
+   "t": 1795518712
   },
   "esg:MAQUIADORAS": {
    "r": "avisado",
@@ -1845,6 +1865,10 @@
    "r": "falha",
    "t": 1795466598
   },
+  "link:https://www.mercadolivre.com.br/batedeira-planetaria-philco-900w-5l-preta-12-velocidades-turbo-pbp90a/p/MLB49822923": {
+   "r": "gerado",
+   "t": 1795519422
+  },
   "link:https://www.mercadolivre.com.br/cadeira-gamer-wells-preta-healer/up/MLBU4456581321": {
    "r": "falha",
    "t": 1795453662
@@ -1972,6 +1996,10 @@
   "link:https://www.paguemenos.com.br/creme-dental-colgate-luminous-white-glow-70g/p": {
    "r": "falha",
    "t": 1795456084
+  },
+  "link:https://www.paguemenos.com.br/descongestionante-vick-vaporub-30g/p": {
+   "r": "gerado",
+   "t": 1795518088
   },
   "link:https://www.paguemenos.com.br/formula-infantil-nestonutri-1mais-800g/p": {
    "r": "falha",
@@ -2968,6 +2996,34 @@
   "pincei:371236": {
    "r": "pulado:mesmo link",
    "t": 1795516268
+  },
+  "pincei:371237": {
+   "r": "gerado",
+   "t": 1795518088
+  },
+  "pincei:371238": {
+   "r": "pulado:sem preco",
+   "t": 1795518135
+  },
+  "pincei:371239": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795518682
+  },
+  "pincei:371240": {
+   "r": "pulado:repetido",
+   "t": 1795518712
+  },
+  "pincei:371241": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795519312
+  },
+  "pincei:371242": {
+   "r": "gerado",
+   "t": 1795519422
+  },
+  "pincei:371243": {
+   "r": "pulado:periferico de PC",
+   "t": 1795519437
   },
   "promosdaluh:323928": {
    "r": "falha",
@@ -4792,6 +4848,78 @@
   "promosdaluh:324410": {
    "r": "pulado:sacola laranja (bloqueado)",
    "t": 1795517423
+  },
+  "promosdaluh:324411": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795518135
+  },
+  "promosdaluh:324412": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795518135
+  },
+  "promosdaluh:324413": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795518135
+  },
+  "promosdaluh:324414": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795518135
+  },
+  "promosdaluh:324415": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795518135
+  },
+  "promosdaluh:324416": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795518135
+  },
+  "promosdaluh:324417": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795518712
+  },
+  "promosdaluh:324418": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795518712
+  },
+  "promosdaluh:324419": {
+   "r": "esgotado_avisado",
+   "t": 1795518712
+  },
+  "promosdaluh:324420": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795518712
+  },
+  "promosdaluh:324421": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795518712
+  },
+  "promosdaluh:324422": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795518712
+  },
+  "promosdaluh:324423": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795518712
+  },
+  "promosdaluh:324424": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795518712
+  },
+  "promosdaluh:324425": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795519437
+  },
+  "promosdaluh:324426": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795519437
+  },
+  "promosdaluh:324427": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795519437
+  },
+  "promosdaluh:324428": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795519437
   },
   "promotom:115200": {
    "r": "pulado:periferico de PC",
@@ -8055,64 +8183,6 @@
  "postados": [
   {
    "ids": [
-    "B07XLCBWYG"
-   ],
-   "p": 29.0,
-   "t": 1795421311,
-   "w": [
-    "camiseta",
-    "hering",
-    "longa",
-    "manga",
-    "masculino",
-    "regular",
-    "world"
-   ]
-  },
-  {
-   "ids": [
-    "B07KRF3LYM"
-   ],
-   "p": 295.0,
-   "t": 1795421380,
-   "w": [
-    "base",
-    "camada",
-    "gola",
-    "hansen",
-    "helly",
-    "lifa",
-    "listrado",
-    "longa",
-    "manga",
-    "masculino",
-    "redonda",
-    "termica",
-    "top"
-   ]
-  },
-  {
-   "ids": [
-    "B07F314G31"
-   ],
-   "p": 345.0,
-   "t": 1795421449,
-   "w": [
-    "calca",
-    "chuva",
-    "hansen",
-    "helly",
-    "impermeavel",
-    "masculina",
-    "musgo",
-    "pequena",
-    "preta",
-    "prova",
-    "vento"
-   ]
-  },
-  {
-   "ids": [
     "B001N2MLYM"
    ],
    "p": 295.0,
@@ -10882,19 +10952,48 @@
     "sports",
     "uv400"
    ]
+  },
+  {
+   "ids": [],
+   "p": 27.12,
+   "t": 1795518036,
+   "w": [
+    "30g",
+    "congestao",
+    "gripe",
+    "nasal",
+    "pomada",
+    "vaporub",
+    "vick"
+   ]
+  },
+  {
+   "ids": [
+    "49822923"
+   ],
+   "p": 260.1,
+   "t": 1795519346,
+   "w": [
+    "900w",
+    "batedeira",
+    "philco",
+    "planetaria",
+    "turbo",
+    "velocidades"
+   ]
   }
  ],
  "resumo_dia": "2026-11-23",
  "tpl_ultimo": 2032135,
- "ult_ciclo": 1795517423.2767453,
+ "ult_ciclo": 1795519437.372011,
  "ultimo_id": {
   "apromodaluh": 159045,
   "fumotom": 52186,
   "iuriindica": 124258,
   "juaocupons": 27718,
   "perfumepromo": 10153,
-  "pincei": 371236,
-  "promosdaluh": 324410,
+  "pincei": 371243,
+  "promosdaluh": 324428,
   "promotom": 115250,
   "teniscertocupons": 66199,
   "teste": 1795214930
