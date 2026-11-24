@@ -431,7 +431,7 @@ def main():
         return 0
     from telethon.sync import TelegramClient
     from telethon.sessions import StringSession
-    from .telethon_conv import ConvTelethon
+    from .telethon_conv import ConvTelethon, MultiConv, resolver_bots
 
     api_id, api_hash, sess = os.environ["TG_API_ID"], os.environ["TG_API_HASH"], os.environ["TG_SESSION"]
     est = Estado(os.environ.get("PROMO_STATE", "state/estado.json"))
@@ -468,6 +468,19 @@ def main():
                 log("aviso: nao peguei a foto de %s:%s: %r" % (canal, pid, e))
                 return None
 
+        _conv = {}
+
+        def conv_divulgador():
+            """UM conjunto de bots do Divulgador por execucao: o rodizio e o 'castigo' dos bots lentos valem entre os ciclos."""
+            if "c" not in _conv:
+                bots = resolver_bots(client, cfg.get("bots_divulgador") or [cfg["bot_divulgador"]], log)
+                if not bots:
+                    bots = [cfg["bot_divulgador"]]
+                log("bots do Divulgador (rodizio): %s" % ", ".join("@" + x for x in bots))
+                convs = [ConvTelethon(client, x) for x in bots]
+                _conv["c"] = convs[0] if len(convs) == 1 else MultiConv(convs)
+            return _conv["c"]
+
         def painel_agora():
             painel.ler_comandos(client, est, log, cfg)
             painel.resumo_se_hora(client, est, log)
@@ -477,7 +490,7 @@ def main():
             templates.encaminhar_manuais(client, cfg, est, log, cfg["mode"])   # @di48291bot -> não vira arte
             if posts is None:
                 posts = _ler_canais(client, cfg, est, log)
-            drv = Driver(ConvTelethon(client, cfg["bot_divulgador"]), cfg, log)
+            drv = Driver(conv_divulgador(), cfg, log)
             perfil = atualizar_perfil(client, cfg, est, log)
             est.d["_grupo_hoje"] = grupo_hoje(client, cfg, log)
             cont = rodar(cfg, posts, est, drv, log, notificar, dormir=dormir, avisar_robo=avisar_robo,
