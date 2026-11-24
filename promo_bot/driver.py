@@ -6,6 +6,7 @@ Regras de segurança:
  - nunca toca em 'parcel' (Add parcelamento).
 """
 import re
+import time
 
 from . import texto as T
 
@@ -219,32 +220,46 @@ class Driver:
                 self.conv.limpar()          # fecha pergunta que ficou aberta (sua ou de outra execução)
             if hasattr(self.conv, "zerar"):
                 self.conv.zerar()           # e manda /cancelar: nenhuma pergunta antiga recebe os dados deste produto
-            tela = self.conv.enviar(link)
-            tela = self._plataforma(tela, loja)
-            if (not tela.achar("gerar promo") and tela.tem_texto("informe os dados", "nao e de produto", "não é de produto")
-                    and not tela.tem_texto("qual a foto", "qual o titulo", "qual o título") and hasattr(self.conv, "esperar")):
+            for _tent in (1, 2, 3):
                 try:
-                    tela = self.conv.esperar()       # o bot manda a 1ª pergunta do cadastro manual logo depois
-                except Exception:  # noqa
-                    pass
-            if not tela.achar("gerar promo") and tela.tem_texto("qual a foto", "foto do produto", "qual o titulo", "qual o título", "nome do produto"):
-                self.log("  Divulgador nao leu a loja: cadastro manual com os dados do post")
-                d = dict(dados or {})
-                d.setdefault("preco_txt", preco_txt)
-                d.setdefault("cupom", cupom)
-                d.setdefault("link", link)
-                tela = self._manual(tela, d)
-                if d.get("_cupom_ok"):
-                    cupom = None                 # já respondido no cadastro manual
-            tela = self._revisar(tela)
-            if tela.tem_texto("ja foi gerado", "já foi gerado", "ja gerou", "duplicad", "produto ja gerado", "deseja gerar novamente"):
-                self.conv.cancelar_tudo()
-                return "duplicado", tela.texto[:120]
-            if not tela.achar("gerar promo"):
-                raise Falha("tela de revisao nao reconhecida: %r | botoes=%s" % (tela.texto[:200], tela.botoes))
-            confere = produto_confere(tela.texto, (dados or {}).get("titulo"))
-            if confere is False:
-                raise Falha("o produto da tela do Divulgador nao e o do post (%r x %r)" % (tela.texto[:120], (dados or {}).get("titulo", "")[:80]))
+                    tela = self.conv.enviar(link)
+                    tela = self._plataforma(tela, loja)
+                    if (not tela.achar("gerar promo") and tela.tem_texto("informe os dados", "nao e de produto", "não é de produto")
+                            and not tela.tem_texto("qual a foto", "qual o titulo", "qual o título") and hasattr(self.conv, "esperar")):
+                        try:
+                            tela = self.conv.esperar()       # o bot manda a 1ª pergunta do cadastro manual logo depois
+                        except Exception:  # noqa
+                            pass
+                    if not tela.achar("gerar promo") and tela.tem_texto("qual a foto", "foto do produto", "qual o titulo", "qual o título", "nome do produto"):
+                        self.log("  Divulgador nao leu a loja: cadastro manual com os dados do post")
+                        d = dict(dados or {})
+                        d.setdefault("preco_txt", preco_txt)
+                        d.setdefault("cupom", cupom)
+                        d.setdefault("link", link)
+                        tela = self._manual(tela, d)
+                        if d.get("_cupom_ok"):
+                            cupom = None                 # já respondido no cadastro manual
+                    tela = self._revisar(tela)
+                    if tela.tem_texto("ja foi gerado", "já foi gerado", "ja gerou", "duplicad", "produto ja gerado", "deseja gerar novamente"):
+                        self.conv.cancelar_tudo()
+                        return "duplicado", tela.texto[:120]
+                    if not tela.achar("gerar promo"):
+                        raise Falha("tela de revisao nao reconhecida: %r | botoes=%s" % (tela.texto[:200], tela.botoes))
+                    confere = produto_confere(tela.texto, (dados or {}).get("titulo"))
+                    if confere is False:
+                        raise Falha("o produto da tela do Divulgador nao e o do post (%r x %r)" % (tela.texto[:120], (dados or {}).get("titulo", "")[:80]))
+                    break
+                except (Falha, TimeoutError, RuntimeError) as e_t:
+                    m_t = str(e_t)
+                    if _tent == 3 or not re.search(r"nao e o do post|revisao nao reconhecida|nao respondeu|botao sumiu|cadastro manual nao terminou|perdi o botao", m_t):
+                        raise
+                    self.log("  tentativa %d/3 falhou (%s): reinicio a conversa com o bot e tento de novo" % (_tent, m_t[:110]))
+                    for fn in ("cancelar_tudo", "zerar"):
+                        try:
+                            getattr(self.conv, fn)()
+                        except Exception:  # noqa
+                            pass
+                    time.sleep(8 * _tent)
 
             base_loja = self._ler_loja(tela)      # preco REAL da loja, lido ANTES do cupom
             self.log("  loja (antes do cupom): atual=%s antigo=%s | post=%s" % (base_loja[0], base_loja[1], preco_txt))
