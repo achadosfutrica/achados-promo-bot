@@ -1,6 +1,6 @@
 {
- "cmd_ultimo": 2045172,
- "contagem_dia": 0,
+ "cmd_ultimo": 2045280,
+ "contagem_dia": 3,
  "cupom_min": {
   "2U6U32Q": {
    "min": 1999.0,
@@ -91,6 +91,12 @@
    "t": 1795460488.8255868,
    "tipo": "percent",
    "valor": 10.0
+  },
+  "PODERA": {
+   "min": 999.0,
+   "t": 1795515265.167105,
+   "tipo": "fixed",
+   "valor": 100.0
   },
   "PRIMEBLACK50": {
    "min": 80.0,
@@ -411,6 +417,10 @@
    "r": "avisado",
    "t": 1795450553
   },
+  "esg:AUTOMOVEIS": {
+   "r": "avisado",
+   "t": 1795512532
+  },
   "esg:CORREEE": {
    "r": "avisado",
    "t": 1795450553
@@ -422,6 +432,10 @@
   "esg:ESGOTANDOOO": {
    "r": "avisado",
    "t": 1795450553
+  },
+  "esg:ESPECIAL": {
+   "r": "avisado",
+   "t": 1795512532
   },
   "esg:GRUPOS": {
    "r": "avisado",
@@ -435,6 +449,10 @@
    "r": "avisado",
    "t": 1795466663
   },
+  "esg:MOTOCICLETAS": {
+   "r": "avisado",
+   "t": 1795512532
+  },
   "esg:OFERTAPARAVOCE": {
    "r": "avisado",
    "t": 1795460374
@@ -447,6 +465,10 @@
    "r": "avisado",
    "t": 1795447794
   },
+  "esg:PNEUS": {
+   "r": "avisado",
+   "t": 1795512532
+  },
   "esg:QUERIDINHOO": {
    "r": "avisado",
    "t": 1795466663
@@ -458,6 +480,10 @@
   "esg:STANLEY": {
    "r": "avisado",
    "t": 1795450553
+  },
+  "esg:TECNOLOGIA": {
+   "r": "avisado",
+   "t": 1795512532
   },
   "fumotom:51935": {
    "r": "pulado:repetido",
@@ -1014,6 +1040,26 @@
   "fumotom:52180": {
    "r": "falha",
    "t": 1795507938
+  },
+  "fumotom:52182": {
+   "r": "gerado",
+   "t": 1795512723
+  },
+  "fumotom:52183": {
+   "r": "gerado",
+   "t": 1795512651
+  },
+  "fumotom:52184": {
+   "r": "gerado",
+   "t": 1795512578
+  },
+  "fumotom:52185": {
+   "r": "falha",
+   "t": 1795515060
+  },
+  "fumotom:52186": {
+   "r": "falha",
+   "t": 1795515133
   },
   "iuriindica:124146": {
    "r": "pulado:repetido",
@@ -1835,6 +1881,14 @@
    "r": "falha",
    "t": 1795451239
   },
+  "link:https://s.shopee.com.br/50asBS7tER": {
+   "r": "falha",
+   "t": 1795515133
+  },
+  "link:https://s.shopee.com.br/6fj6Ain584": {
+   "r": "falha",
+   "t": 1795515060
+  },
   "link:https://shopee.com.br/Cadiveu-Professional-Quartzo-Shine-KIT-de-Limpeza-Shampoo-250ml-Condicioandor-250ml-e-S%C3%A9rum-65ml-i.477051595.50461239655?gads_t_sig=gqRjZGVrxHCFomtpsTE0MjUxOnRzc19zZGtfa2V5omt20QACpGFsZ2_SAAAAZKNkZWvAomN0xEAAAAAMc1TPTF0zl9lUk9doKYfbtNkYCBZaTm6dQ6q3WJIrnGYlyLtpSCE1-D6jy2YmlKEe_b7zxJZfI6lpwZ6fqmNpcGhlcnRleHTE6wAAAAzNkOs-nb4kV8AAFeE5OgNZsmpqNf4cBwoSts5sUxHp3Nkp4mKULm1UZwJx-dyNloB1_eP-PPbH5qBdUYC_VE_wPcvgPWZkE2wqyfFcM4u2mCQL-u0L1wN07Ifr4pqX7M64rjtZRp_JuNZN7pSU7JuYzrt_MYwqlJ0A0bNYUxqbDP4alUH9sCEHMBjE_Eejtxt3y9KjuyBMtrXT09akpLuU8gZ5khWpiKe4rnu2Ccu1Uyx0z3XaM2EoVxvvg7f84tUcySe5NelQyFWX2QO9ZX8fcWwZ8dWsNi7iQW0KMP6fXeJLfvUWEZs&mmp_pid=an_18376710595&uls_trackid=576si8s400br&utm_campaign=id_f5eeed2acad4d03d&utm_content=Leticia----&utm_medium=affiliates&utm_source=an_18376710595&utm_term=fw8xky74emio": {
    "r": "falha",
    "t": 1795461736
@@ -1986,6 +2040,10 @@
   "link:https://www.amazon.com.br/dp/B000GKUEVE": {
    "r": "falha",
    "t": 1795466663
+  },
+  "link:https://www.amazon.com.br/dp/B001CSMN54": {
+   "r": "gerado",
+   "t": 1795512651
   },
   "link:https://www.amazon.com.br/dp/B009UWD34O": {
    "r": "falha",
@@ -2202,6 +2260,14 @@
   "link:https://www.amazon.com.br/dp/B0DPGLPJHJ": {
    "r": "falha",
    "t": 1795453835
+  },
+  "link:https://www.amazon.com.br/dp/B0DR9JDRRK": {
+   "r": "gerado",
+   "t": 1795512723
+  },
+  "link:https://www.amazon.com.br/dp/B0DTKHXJK8": {
+   "r": "gerado",
+   "t": 1795512578
   },
   "link:https://www.amazon.com.br/dp/B0DXR7GNWJ": {
    "r": "falha",
@@ -3890,6 +3956,10 @@
   "pincei:371233": {
    "r": "pulado:loja desconhecida",
    "t": 1795503829
+  },
+  "pincei:371234": {
+   "r": "pulado:so cupom (ignorado)",
+   "t": 1795515627
   },
   "promosdaluh:323920": {
    "r": "pulado:sacola laranja (bloqueado)",
@@ -5614,6 +5684,150 @@
   "promosdaluh:324354": {
    "r": "falha",
    "t": 1795491159
+  },
+  "promosdaluh:324355": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795512531
+  },
+  "promosdaluh:324356": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795512531
+  },
+  "promosdaluh:324357": {
+   "r": "esgotado_avisado",
+   "t": 1795512532
+  },
+  "promosdaluh:324358": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795512532
+  },
+  "promosdaluh:324359": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795512532
+  },
+  "promosdaluh:324360": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795512532
+  },
+  "promosdaluh:324361": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795512532
+  },
+  "promosdaluh:324362": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795512532
+  },
+  "promosdaluh:324363": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795512532
+  },
+  "promosdaluh:324364": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795512532
+  },
+  "promosdaluh:324365": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795512532
+  },
+  "promosdaluh:324366": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795514411
+  },
+  "promosdaluh:324367": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795514411
+  },
+  "promosdaluh:324368": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795514411
+  },
+  "promosdaluh:324369": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795514411
+  },
+  "promosdaluh:324370": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795514411
+  },
+  "promosdaluh:324371": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795514411
+  },
+  "promosdaluh:324372": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795514411
+  },
+  "promosdaluh:324373": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795514411
+  },
+  "promosdaluh:324374": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795514411
+  },
+  "promosdaluh:324375": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795514411
+  },
+  "promosdaluh:324376": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795514411
+  },
+  "promosdaluh:324377": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795514411
+  },
+  "promosdaluh:324378": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795514411
+  },
+  "promosdaluh:324379": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795514411
+  },
+  "promosdaluh:324380": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795514411
+  },
+  "promosdaluh:324381": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795514411
+  },
+  "promosdaluh:324382": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795515011
+  },
+  "promosdaluh:324383": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795515011
+  },
+  "promosdaluh:324384": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795515011
+  },
+  "promosdaluh:324385": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795515011
+  },
+  "promosdaluh:324386": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795515627
+  },
+  "promosdaluh:324387": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795515627
+  },
+  "promosdaluh:324388": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795515627
+  },
+  "promosdaluh:324389": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795515627
+  },
+  "promosdaluh:324390": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795515627
   },
   "promotom:115180": {
    "r": "pulado:repetido",
@@ -8949,535 +9163,6 @@
  "postados": [
   {
    "ids": [
-    "B077BY8V14"
-   ],
-   "p": 22.0,
-   "t": 1795400752,
-   "w": [
-    "amend",
-    "brilho",
-    "condicionador",
-    "fabulous",
-    "intensa",
-    "marula",
-    "nutricao",
-    "nutrition",
-    "nutritivo"
-   ]
-  },
-  {
-   "ids": [
-    "B0713TJNJ5"
-   ],
-   "p": 22.0,
-   "t": 1795400820,
-   "w": [
-    "300g",
-    "amend",
-    "amino",
-    "areas",
-    "bio",
-    "complete",
-    "deixando",
-    "fibra",
-    "fios",
-    "fortes",
-    "fragilizadas",
-    "intensiva",
-    "macios",
-    "mascara",
-    "reconstroi",
-    "reconstrutora",
-    "repair"
-   ]
-  },
-  {
-   "ids": [
-    "B09M64WMK3"
-   ],
-   "p": 25.0,
-   "t": 1795400888,
-   "w": [
-    "180ml",
-    "amend",
-    "aumentando",
-    "blonde",
-    "cabelos",
-    "care",
-    "contra",
-    "emborrachados",
-    "fluido",
-    "quebra",
-    "queratina",
-    "reconstrutor",
-    "recupera",
-    "resistencia",
-    "vegetal"
-   ]
-  },
-  {
-   "ids": [
-    "B0F9NQLDBX"
-   ],
-   "p": 560.0,
-   "t": 1795401352,
-   "w": [
-    "6x9",
-    "azul",
-    "cotiled",
-    "desgastado",
-    "estar",
-    "lavavel",
-    "sala",
-    "tapete",
-    "tradicional"
-   ]
-  },
-  {
-   "ids": [
-    "B0DHW68P8F"
-   ],
-   "p": 45.0,
-   "t": 1795401420,
-   "w": [
-    "180ml",
-    "altas",
-    "amend",
-    "contra",
-    "essencial",
-    "fluido",
-    "multibeneficios",
-    "protege",
-    "reconstroi",
-    "reduz",
-    "restaurador",
-    "secagem",
-    "temperaturas",
-    "tempo"
-   ]
-  },
-  {
-   "ids": [
-    "B0F1NJ1D13"
-   ],
-   "p": 179.0,
-   "t": 1795401489,
-   "w": [
-    "blu",
-    "dan",
-    "one",
-    "ray",
-    "season"
-   ]
-  },
-  {
-   "ids": [
-    "B0GXLPCG9Y"
-   ],
-   "p": 43.0,
-   "t": 1795401966,
-   "w": [
-    "hermeticos",
-    "lumai",
-    "potes",
-    "recipientes",
-    "silicone",
-    "travas",
-    "vedacao"
-   ]
-  },
-  {
-   "ids": [
-    "B07P7XDQ44"
-   ],
-   "p": 25.0,
-   "t": 1795403228,
-   "w": [
-    "aco",
-    "bicos",
-    "bronze",
-    "conjunto",
-    "facil",
-    "ingredientes",
-    "inox",
-    "leve",
-    "liquidos",
-    "manusear",
-    "material",
-    "medidoras",
-    "mimo",
-    "possui",
-    "produto",
-    "proprias",
-    "secos",
-    "style",
-    "vazao",
-    "xicaras"
-   ]
-  },
-  {
-   "ids": [
-    "B0HLQYL654"
-   ],
-   "p": 1104.0,
-   "t": 1795403296,
-   "w": [
-    "atualizacao",
-    "botoes",
-    "fio",
-    "gamer",
-    "khz",
-    "lightspeed",
-    "logitech",
-    "mac",
-    "mouse",
-    "preto",
-    "pro",
-    "programaveis",
-    "superstrike",
-    "taxa",
-    "tecnologia",
-    "ultraleve"
-   ]
-  },
-  {
-   "ids": [],
-   "p": 30.0,
-   "t": 1795403765,
-   "w": [
-    "200ml",
-    "40g",
-    "care",
-    "derm",
-    "facial",
-    "fps70",
-    "fresh",
-    "neutrogena",
-    "protetor",
-    "solar",
-    "sun"
-   ]
-  },
-  {
-   "ids": [],
-   "p": 7.0,
-   "t": 1795403836,
-   "w": [
-    "15g",
-    "ampola",
-    "coco",
-    "elseve",
-    "extraordinario",
-    "nutricao",
-    "oleo",
-    "tratamento"
-   ]
-  },
-  {
-   "ids": [],
-   "p": 11.0,
-   "t": 1795403909,
-   "w": [
-    "cores",
-    "dental",
-    "escova",
-    "extra",
-    "limpeza",
-    "macia",
-    "profunda",
-    "sensodyne",
-    "sortidas"
-   ]
-  },
-  {
-   "ids": [],
-   "p": 9.0,
-   "t": 1795403981,
-   "w": [
-    "800g",
-    "anos",
-    "formula",
-    "infantil",
-    "plura"
-   ]
-  },
-  {
-   "ids": [],
-   "p": 7.0,
-   "t": 1795404052,
-   "w": [
-    "15g",
-    "ampola",
-    "elseve",
-    "longo",
-    "reconstrucao",
-    "sonhos",
-    "tratamento"
-   ]
-  },
-  {
-   "ids": [],
-   "p": 9.0,
-   "t": 1795404126,
-   "w": [
-    "740g",
-    "alimentar",
-    "care",
-    "excellence",
-    "neutro",
-    "suplemento",
-    "vital"
-   ]
-  },
-  {
-   "ids": [
-    "616222685-12782096688"
-   ],
-   "p": 46.99,
-   "t": 1795404376,
-   "w": [
-    "condicionador",
-    "hidratacao",
-    "line",
-    "litrao",
-    "oleo",
-    "ricino",
-    "salon",
-    "shampoo"
-   ]
-  },
-  {
-   "ids": [
-    "B075QHV5LD"
-   ],
-   "p": 89.9,
-   "t": 1795404429,
-   "w": [
-    "anos",
-    "blended",
-    "chivas",
-    "escoces",
-    "litro",
-    "regal",
-    "whisky"
-   ]
-  },
-  {
-   "ids": [],
-   "p": 8.0,
-   "t": 1795404521,
-   "w": [
-    "200ml",
-    "cabelos",
-    "completa",
-    "danificados",
-    "reparacao",
-    "shampoo"
-   ]
-  },
-  {
-   "ids": [],
-   "p": 43.0,
-   "t": 1795404594,
-   "w": [
-    "300g",
-    "7belo",
-    "horus",
-    "max",
-    "pre",
-    "titanium",
-    "worhout"
-   ]
-  },
-  {
-   "ids": [],
-   "p": 4.0,
-   "t": 1795404666,
-   "w": [
-    "45g",
-    "assadura",
-    "babymed",
-    "menina",
-    "pomada",
-    "rosa"
-   ]
-  },
-  {
-   "ids": [],
-   "p": 9.0,
-   "t": 1795404810,
-   "w": [
-    "aaa",
-    "alcalina",
-    "duracell",
-    "pilha"
-   ]
-  },
-  {
-   "ids": [
-    "B07TBHLGQT"
-   ],
-   "p": 17.88,
-   "t": 1795411362,
-   "w": [
-    "350ml",
-    "cafeteira",
-    "capacidade",
-    "francesa",
-    "mimo",
-    "prensa",
-    "style"
-   ]
-  },
-  {
-   "ids": [
-    "B093ZMF9JP"
-   ],
-   "p": 130.15,
-   "t": 1795411374,
-   "w": [
-    "100ml",
-    "attar",
-    "edp",
-    "perfume",
-    "wataniah",
-    "wesal"
-   ]
-  },
-  {
-   "ids": [],
-   "p": 14.0,
-   "t": 1795411584,
-   "w": [
-    "120g",
-    "fps60",
-    "protetor",
-    "seco",
-    "solar",
-    "sunless",
-    "toque"
-   ]
-  },
-  {
-   "ids": [
-    "B08937VBT7"
-   ],
-   "p": 12.0,
-   "t": 1795411655,
-   "w": [
-    "90g",
-    "alivio",
-    "cada",
-    "creme",
-    "dental",
-    "duradoura",
-    "fluor",
-    "instantaneo",
-    "leve",
-    "pague",
-    "protecao",
-    "rapido",
-    "sensibilidade",
-    "sensodyne"
-   ]
-  },
-  {
-   "ids": [
-    "B0D6C4BRGM"
-   ],
-   "p": 54.0,
-   "t": 1795411725,
-   "w": [
-    "cabide",
-    "caixa",
-    "closet",
-    "emborrachado",
-    "linha",
-    "ordene",
-    "pecas",
-    "preta"
-   ]
-  },
-  {
-   "ids": [
-    "B0FTCYVMVC"
-   ],
-   "p": 2553.0,
-   "t": 1795411795,
-   "w": [
-    "128gb",
-    "8gb",
-    "azul",
-    "camera",
-    "celular",
-    "galaxy",
-    "marinho",
-    "s25",
-    "samsung",
-    "tripla"
-   ]
-  },
-  {
-   "ids": [
-    "B0CYZBZTKL"
-   ],
-   "p": 170.0,
-   "t": 1795415764,
-   "w": [
-    "a19",
-    "base",
-    "degnju",
-    "dia",
-    "e26",
-    "equivalentes",
-    "estar",
-    "horas",
-    "lampadas",
-    "led",
-    "luz",
-    "nao",
-    "padrao",
-    "quarto",
-    "regulaveis",
-    "sala",
-    "watts"
-   ]
-  },
-  {
-   "ids": [
-    "B09S664XTW"
-   ],
-   "p": 123.0,
-   "t": 1795415832,
-   "w": [
-    "blu",
-    "infinite",
-    "ray",
-    "uhd"
-   ]
-  },
-  {
-   "ids": [
-    "B0H34T7PKW"
-   ],
-   "p": 8.0,
-   "t": 1795415900,
-   "w": [
-    "baked",
-    "bfs50",
-    "blow",
-    "bronzer",
-    "epicenter",
-    "feels",
-    "hbm203",
-    "like",
-    "rose",
-    "ruby",
-    "sun"
-   ]
-  },
-  {
-   "ids": [
     "B07XLCBWYG"
    ],
    "p": 29.0,
@@ -12247,19 +11932,77 @@
     "nao",
     "voltando"
    ]
+  },
+  {
+   "ids": [
+    "B0DTKHXJK8"
+   ],
+   "p": 257.0,
+   "t": 1795512532,
+   "w": [
+    "bolsa",
+    "demand",
+    "dourada",
+    "dourado",
+    "esportiva",
+    "preta",
+    "preto",
+    "puma"
+   ]
+  },
+  {
+   "ids": [
+    "B001CSMN54"
+   ],
+   "p": 86.0,
+   "t": 1795512603,
+   "w": [
+    "ano",
+    "cachorro",
+    "caes",
+    "caixas",
+    "camas",
+    "for",
+    "garantia",
+    "gatos",
+    "homes",
+    "ideais",
+    "lavavel",
+    "luxo",
+    "maquina",
+    "midwest",
+    "pelucia",
+    "pets",
+    "secadora"
+   ]
+  },
+  {
+   "ids": [
+    "B0DR9JDRRK"
+   ],
+   "p": 9.0,
+   "t": 1795512676,
+   "w": [
+    "ciclismo",
+    "luke",
+    "oculos",
+    "polarizado",
+    "sports",
+    "uv400"
+   ]
   }
  ],
  "resumo_dia": "2026-11-23",
  "tpl_ultimo": 2032135,
- "ult_ciclo": 1795508075.6523738,
+ "ult_ciclo": 1795515627.7135417,
  "ultimo_id": {
   "apromodaluh": 159045,
-  "fumotom": 52180,
+  "fumotom": 52186,
   "iuriindica": 124258,
   "juaocupons": 27718,
   "perfumepromo": 10153,
-  "pincei": 371233,
-  "promosdaluh": 324354,
+  "pincei": 371234,
+  "promosdaluh": 324390,
   "promotom": 115250,
   "teniscertocupons": 66199,
   "teste": 1795214930
