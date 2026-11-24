@@ -74,6 +74,22 @@ def eh_resposta_cancelar(tela):
     return (not tela.botoes) and len(n) < 160 and ("cancelad" in n or "nada pra cancelar" in n or "nada para cancelar" in n)
 
 
+def botao_confirmar_cancelamento(botoes):
+    """Na tela 'Tem certeza que deseja cancelar?' escolhe o botao que CONFIRMA (Sim); nunca 'Nao'/'Voltar'."""
+    cands = [b for b in botoes if not re.search(r"(?<![a-z0-9])(nao|voltar|continuar|manter)(?![a-z0-9])", T.norm(b))]
+    for pred in (lambda n: re.search(r"(?<![a-z0-9])sim(?![a-z0-9])", n), lambda n: "confirm" in n, lambda n: "cancel" in n):
+        for b in cands:
+            if pred(T.norm(b)):
+                return b
+    return None
+
+
+def eh_confirmacao_cancelar(tela):
+    """O Divulgador, ao receber /cancelar (ou clique em Cancelar) com uma tela de produto aberta, NAO cancela:
+    edita a tela para 'Tem certeza que deseja cancelar?' e espera a confirmacao."""
+    return "certeza" in T.norm(tela.texto) and botao_confirmar_cancelamento(tela.botoes) is not None
+
+
 class Falha(Exception):
     pass
 
@@ -92,7 +108,7 @@ class Driver:
         titulo = (dados or {}).get("titulo")
 
         def ok(tela):
-            if eh_resposta_cancelar(tela):
+            if eh_resposta_cancelar(tela) or eh_confirmacao_cancelar(tela):
                 return False
             return produto_confere(tela.texto, titulo) is not False
         return ok
