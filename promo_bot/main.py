@@ -39,6 +39,9 @@ def processar_post(post_id, canal, texto, cfg, est, driver, modo, log, notificar
     chave = "%s:%s" % (canal, post_id)
     if est.ja_fez(chave):
         return "repetido"
+    _ant = next((x for x in (est.d.get("retry") or []) if x.get("canal") == canal and x.get("id") == post_id), None)
+    if _ant:
+        est.d["retry"] = [x for x in est.d["retry"] if x is not _ant]
     if cfg.get("avisar_esgotado", True):
         r = avisar_esgotado(chave, canal, texto, cfg, est, modo, log, avisar_robo)
         if r:
@@ -138,7 +141,22 @@ def processar_post(post_id, canal, texto, cfg, est, driver, modo, log, notificar
             driver.conv.cancelar_tudo()
         except Exception:  # noqa
             pass
-        notificar("⚠️ Robô de promoções: falha em %s\n%s\nLink: %s" % (chave, e, link))
+        msg_e = str(e)
+        definitiva = bool(re.search(r"VALOR NAO|cupom desconhecido|recusei clicar|nao tem foto|FloodWait", msg_e))
+        tents = est.d.setdefault("tentativas", {})
+        if len(tents) > 400:
+            tents.clear()
+        tent = tents.get(chave, 0) + 1
+        if modo == "live" and not definitiva and tent < 3:
+            # falha passageira (tela velha, bot lento...): NAO perde a promocao, tenta de novo em ~8 min (ate 3 vezes)
+            tents[chave] = tent
+            est.d["feitos"].pop(chave, None)
+            est.d["feitos"].pop(chave_link, None)
+            est.d["retry"] = (est.d.get("retry") or []) + [{"canal": canal, "id": post_id, "txt": texto, "t": (_ant or {}).get("t", time.time()), "quando": time.time() + 480, "n": tent}]
+            log("  vai tentar de novo %s (tentativa %d de 3) em ~8 min" % (chave, tent + 1))
+            est.salvar()
+            return "falha"
+        notificar("⚠️ Robô de promoções: NAO gerei %s%s\n%s\nLink: %s" % (chave, (" (depois de %d tentativas)" % tent) if tent > 1 else "", e, link))
         est.marcar(chave, "falha")
         est.marcar(chave_link, "falha")
         est.salvar()
@@ -183,6 +201,9 @@ def rodar(cfg, posts_por_canal, est, driver, log=print, notificar=lambda m: None
     max_idade = lim.get("max_idade_min", 90) * 60
     for f in (est.d.get("fila") or []):
         if not max_idade or agora - f.get("t", agora) <= max_idade:
+            itens.append((f["canal"], f["id"], f["txt"], f.get("t", agora)))
+    for f in (est.d.get("retry") or []):          # promocoes que falharam por motivo passageiro e voltam para nova tentativa
+        if agora >= f.get("quando", 0) and (not max_idade or agora - f.get("t", agora) <= max_idade * 2):
             itens.append((f["canal"], f["id"], f["txt"], f.get("t", agora)))
     vistos = {(c, i) for c, i, _, _ in itens}
     for canal, posts in posts_por_canal.items():
