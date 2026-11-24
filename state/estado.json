@@ -1,6 +1,6 @@
 {
  "cmd_ultimo": 2044233,
- "contagem_dia": 163,
+ "contagem_dia": 165,
  "cupom_min": {
   "2U6U32Q": {
    "min": 1999.0,
@@ -1331,6 +1331,10 @@
    "r": "pulado:sem preco",
    "t": 1795475408
   },
+  "juaocupons:27706": {
+   "r": "pulado:sem preco",
+   "t": 1795478392
+  },
   "link:https://meli.la/12v8YNH": {
    "r": "falha",
    "t": 1795463314
@@ -1839,6 +1843,10 @@
    "r": "falha",
    "t": 1795448168
   },
+  "link:https://www.amazon.com.br/dp/B0B6LG6C73": {
+   "r": "gerado",
+   "t": 1795477322
+  },
   "link:https://www.amazon.com.br/dp/B0B8PXK3WR": {
    "r": "falha",
    "t": 1795462403
@@ -1878,6 +1886,10 @@
   "link:https://www.amazon.com.br/dp/B0D79DXNHH": {
    "r": "falha",
    "t": 1795458714
+  },
+  "link:https://www.amazon.com.br/dp/B0DB9LTXD4": {
+   "r": "gerado",
+   "t": 1795478456
   },
   "link:https://www.amazon.com.br/dp/B0DFRWHLBQ": {
    "r": "falha",
@@ -2138,6 +2150,10 @@
   "link:https://www.mercadolivre.com.br/oleo-chroma-absolu-kerastase-chroma-eclat-oleo-capilar-recarregavel-75ml/p/MLB50004317": {
    "r": "falha",
    "t": 1795461419
+  },
+  "link:https://www.mercadolivre.com.br/perfume-masculino-eau-de-toilette-ralph-lauren-polo-black-200-ml/p/MLB6153186": {
+   "r": "duplicado",
+   "t": 1795477271
   },
   "link:https://www.mercadolivre.com.br/pre-treino-evolution-300g-termogenico-blueberry-soldiers-nutrition/p/MLB29220995": {
    "r": "falha",
@@ -3278,6 +3294,18 @@
   "pincei:371186": {
    "r": "pulado:so cupom (ignorado)",
    "t": 1795476680
+  },
+  "pincei:371187": {
+   "r": "duplicado",
+   "t": 1795477271
+  },
+  "pincei:371188": {
+   "r": "gerado",
+   "t": 1795477322
+  },
+  "pincei:371189": {
+   "r": "gerado",
+   "t": 1795478456
   },
   "promosdaluh:323920": {
    "r": "pulado:sacola laranja (bloqueado)",
@@ -5139,12 +5167,6 @@
  "fila": [
   {
    "canal": "apromodaluh",
-   "id": 159040,
-   "t": 1795472118.0,
-   "txt": "RARO EM PROMOÇÃO! 🆘\n\n✨ Máscara Capilar Reparadora de Preenchimento Anti-Quebra para Cabelos Danificados, Première, Kérastase, 200ml\n\n~de R$ 549,90~\n🔥 *por R$ 334,00* \n💳 ou 12x de R$ 33,54\n\n🏷️ Cupom: `KERASTASE60`\n\n✅ Loja Oficial KERASTASE no ML\n\n🛒 https://meli.la/1qzVxaQ"
-  },
-  {
-   "canal": "apromodaluh",
    "id": 159044,
    "t": 1795473872.0,
    "txt": "500 ML! 🚨\n\n✨ Máscara Tratamento Hidratante Intensivo Cabelo Seco All Soft 500 Ml Redken\n\n~de R$ 262~\n🔥 *por R$ 134,23* \n\n🏷️ Cupom: `Resgate desconto de R$20 OFF abaixo do preço`\n\n✅ Loja Oficial REDKEN no ML.\n\n🛒 https://meli.la/1D82qjF"
@@ -5162,24 +5184,6 @@
    "txt": "É DO GRANDE, 453G!! 😱\n\n✨ Creme Hidratante Corporal para Pele Seca e Sensível Cetaphil 453g - Hidratação 48h\n\n~de R$ 104,90~\n🔥 *por R$ 69,90* 😱\n\n🛒 https://link.amazon/B013B10Xv\n\n📌 Assine PRIME por 30 dias GRATIS aqui: https://amzn.to/3YeTytk"
   },
   {
-   "canal": "apromodaluh",
-   "id": 159042,
-   "t": 1795472445.0,
-   "txt": "✨ Máscara Kérastase Blond Absolu Cicaextreme, Cabelos Loiros, Danificados ou com Mechas, 200ml\n\n~de R$ 429,90~\n🔥 *por R$ 300,27* \n💳 ou 12x de R$ 30,24\n\n🏷️ Cupom: `KERASTASE60`\n\n✅ Loja Oficial KERASTASE no ML\n\n🛒 https://meli.la/27yHND8"
-  },
-  {
-   "canal": "apromodaluh",
-   "id": 159039,
-   "t": 1795472118.0,
-   "txt": "100 ML COM DESCONTOOOO!! 🆘\n\n✨Perfume La Vie Est Belle L'Elixir Lancôme Feminino L'Eau de Parfum 100ml\n\n~de R$ 598,99~\n🔥 *por R$ 638,67 no pix* \n💳 ou 5x de R$ 76,18\n\n🎁 Ganhe FULL SIZE VULT de brinde! 🥳\n\n🛒 https://apromodaluh.com.br/p/Dv35BWqoHQ?r=1\n\n 🚨 _válido somente por esse LINK em produtos vendidos e entregue por ÉPOCA COSMÉTICOS!_"
-  },
-  {
-   "canal": "apromodaluh",
-   "id": 159041,
-   "t": 1795472445.0,
-   "txt": "PARA CABELOS LOIROS, DESCOLORIDOS OU COM MECHAS!! 😍\n\n✨ Óleo Capilar Kérastase L'Huile Cicagloss Blond Absolu Refilável, Para Cabelos Loiros Danificados, 75 ml\n\n~de R$ 486,90~\n🔥 *por R$ 386,00* \n💳 ou 8x de R$ 48,25\n\n🏷️ Cupom: `KERASTASE60`\n\n✅ Loja Oficial KERASTASE no ML\n\n🛒 https://meli.la/2iLyWcB"
-  },
-  {
    "canal": "fumotom",
    "id": 52124,
    "t": 1795475481.0,
@@ -5190,12 +5194,6 @@
    "id": 52126,
    "t": 1795475529.0,
    "txt": "Monitor Lg 24\" Ips 144Hz 1Ms 24U411b-B.Awzm\n\nR$ 472\n-CUPOM: CUPOMAMAZON\n\nhttps://www.amazon.com.br/dp/B0HCVW2HPS?tag=promotom05-20\n\n-Anúncio"
-  },
-  {
-   "canal": "fumotom",
-   "id": 52115,
-   "t": 1795471824.0,
-   "txt": "Mesa Diretor 1,80m Dynamica Cor Preto Ônix / Est.Preta\n\nR$ 253 - Sem Juros\n-Resgate cupom do anúncio\n\nhttps://meli.la/11ZFdno\n\n-Anúncio"
   },
   {
    "canal": "fumotom",
@@ -5210,28 +5208,16 @@
    "txt": "Zeroll Colher de sorvete original exclusiva com alça condutora de calor preenchida com líquido, design simples de alumínio, fácil liberação feita nos EUA, 75 g, prata\n\nR$ 98\n\nhttps://www.amazon.com.br/dp/B0002U34EM?tag=promotom05-20\n\n-Anúncio"
   },
   {
-   "canal": "fumotom",
-   "id": 52114,
-   "t": 1795471403.0,
-   "txt": "SCOTCH 3M Protetor Anti-Impacto Redondo Extrapequeno Transparente 28 Un. | Fixação adesiva resistente, Amortece impacto e ruído, Impermeável, Protege contra batidas e riscos, Aplicação forte e rápida\n\nR$ 10\n\nhttps://www.amazon.com.br/dp/B0070FLW00?tag=promotom05-20\n\n-Anúncio"
-  },
-  {
-   "canal": "fumotom",
-   "id": 52117,
-   "t": 1795472308.0,
-   "txt": "Play-Doh, Massinha de Modelar Infantil, Brincando de Dentista - Conjunto de Brinquedo com 9 Acessórios e 6 Potes - A partir de 3 Anos\n\nR$ 61\n\nhttps://www.amazon.com.br/dp/B08T1KT63Y?tag=promotom05-20\n\n-Anúncio"
-  },
-  {
    "canal": "iuriindica",
    "id": 124240,
    "t": 1795474504.0,
    "txt": "Fone De Ouvido Soundcore by Anker P20i\n\n💵  R$ 100\n🎟  Cupom: 15ELETRO\n✅  https://www.amazon.com.br/dp/B0BTYCJXBK/?tag=afiliado333-20\n\n🤑 Grupos de promoções: https://iuriindica.com.br"
   },
   {
-   "canal": "promotom",
-   "id": 115232,
-   "t": 1795472546.0,
-   "txt": "Invicta Speedway Stainless Steel Men’s Quartz Watch 42mm\n\nR$ 219 - Sem Juros - Desconto na Finalização\n\nhttps://www.amazon.com.br/dp/B0CK2MD3F7?tag=promotom05-20\n\n-Anúncio"
+   "canal": "fumotom",
+   "id": 52128,
+   "t": 1795477613.0,
+   "txt": "Copo Antivazamento 360 Graus NUK Magic Cup, Rosa\n\nR$ 26\n\nhttps://www.amazon.com.br/dp/B07FQ69758?tag=promotom05-20\n\n-Anúncio"
   },
   {
    "canal": "fumotom",
@@ -5240,16 +5226,16 @@
    "txt": "Ghost Of Tsushima Edição Padrão - PlayStation 4\n\nR$ 55\n\nhttps://www.amazon.com.br/dp/B086BT95SH?tag=promotom05-20\n\n-Mais jogos\nhttps://link.amazon/B02bjWMbB\n\n-Anúncio"
   },
   {
-   "canal": "promosdaluh",
-   "id": 324275,
-   "t": 1795472185.0,
-   "txt": "🚨 ALERTA CUPOM MERCADO LIVRE 🚨\n\nUse o cupom 🎟️ESPORTES10 e garanta 10% OFF em compras acima de R$399, limite R$60!\n🏷️ *Válido em Esportes*\n\n✅ Válido na seleção: https://promosdaluh.com/p/v4mhm4/\n\n⚠️ A oferta pode acabar a qualquer momento!\n\n📍 GRUPOS COM VAGAS: https://promosdaluh.com/bio"
-  },
-  {
    "canal": "fumotom",
    "id": 52121,
    "t": 1795474066.0,
    "txt": "Super7 ULTIMATES! Toho HeiSei Godzilla - 8\" Toho Godzilla Action Figure with Accessories Classic Movie Collectibles and Retro Toys\n\nR$ 393\n\nhttps://www.amazon.com.br/dp/B09VWB8SY3?tag=promotom05-20\n\n-Anúncio"
+  },
+  {
+   "canal": "fumotom",
+   "id": 52127,
+   "t": 1795477608.0,
+   "txt": "Pelúcia Disney Stitch Sleep - BR2431\n\nR$ 99\n\nhttps://www.amazon.com.br/dp/B0F236FT8N?tag=promotom05-20\n\n-Anúncio"
   },
   {
    "canal": "promosdaluh",
@@ -8293,89 +8279,6 @@
  },
  "postados": [
   {
-   "ids": [],
-   "p": 1169.99,
-   "t": 1795371851,
-   "w": [
-    "necessidade"
-   ]
-  },
-  {
-   "ids": [
-    "B00Z8JDIUC"
-   ],
-   "p": 73.0,
-   "t": 1795371978,
-   "w": [
-    "black",
-    "boxer",
-    "brief",
-    "men",
-    "puma",
-    "small"
-   ]
-  },
-  {
-   "ids": [
-    "B0CGF9HQB1"
-   ],
-   "p": 213.0,
-   "t": 1795372046,
-   "w": [
-    "edicao",
-    "padrao",
-    "persona",
-    "playstation",
-    "reload",
-    "sega"
-   ]
-  },
-  {
-   "ids": [
-    "B00E0EUP66"
-   ],
-   "p": 79.9,
-   "t": 1795372446,
-   "w": [
-    "750ml",
-    "anos",
-    "old",
-    "parr",
-    "whisky"
-   ]
-  },
-  {
-   "ids": [
-    "B004CYZ7ZI"
-   ],
-   "p": 67.73,
-   "t": 1795372493,
-   "w": [
-    "750ml",
-    "canela",
-    "fireball",
-    "licor",
-    "whisky"
-   ]
-  },
-  {
-   "ids": [
-    "B0H5D9YQ1W"
-   ],
-   "p": 104.31,
-   "t": 1795372541,
-   "w": [
-    "2und",
-    "750ml",
-    "alcoolico",
-    "coquetel",
-    "cream",
-    "don",
-    "dulce",
-    "leche"
-   ]
-  },
-  {
    "ids": [
     "B00T831TBY"
    ],
@@ -11308,18 +11211,64 @@
     "usb",
     "verde"
    ]
+  },
+  {
+   "ids": [
+    "6153186"
+   ],
+   "p": 521.99,
+   "t": 1795477256,
+   "w": [
+    "200ml",
+    "black",
+    "edt",
+    "lauren",
+    "perfume",
+    "polo",
+    "ralph"
+   ]
+  },
+  {
+   "ids": [
+    "B0B6LG6C73"
+   ],
+   "p": 15.38,
+   "t": 1795477275,
+   "w": [
+    "acucar",
+    "brigadeiro",
+    "colher",
+    "flormel",
+    "gramas",
+    "zero"
+   ]
+  },
+  {
+   "ids": [
+    "B0DB9LTXD4"
+   ],
+   "p": 370.0,
+   "t": 1795478401,
+   "w": [
+    "bicicleta",
+    "ergometrica",
+    "fitness",
+    "its",
+    "mecanica",
+    "spinning"
+   ]
   }
  ],
  "resumo_dia": "2026-11-22",
  "tpl_ultimo": 2032135,
- "ult_ciclo": 1795476680.2384791,
+ "ult_ciclo": 1795478456.3612971,
  "ultimo_id": {
   "apromodaluh": 159045,
-  "fumotom": 52126,
+  "fumotom": 52128,
   "iuriindica": 124240,
-  "juaocupons": 27705,
+  "juaocupons": 27706,
   "perfumepromo": 10152,
-  "pincei": 371186,
+  "pincei": 371189,
   "promosdaluh": 324325,
   "promotom": 115232,
   "teniscertocupons": 66199,
