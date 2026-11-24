@@ -1,5 +1,5 @@
 {
- "cmd_ultimo": 2044233,
+ "cmd_ultimo": 2044595,
  "contagem_dia": 172,
  "cupom_min": {
   "2U6U32Q": {
@@ -3417,6 +3417,14 @@
    "r": "pulado:repetido",
    "t": 1795484007
   },
+  "pincei:371202": {
+   "r": "pulado:sem preco",
+   "t": 1795484399
+  },
+  "pincei:371203": {
+   "r": "pulado:repetido",
+   "t": 1795484404
+  },
   "promosdaluh:323920": {
    "r": "pulado:sacola laranja (bloqueado)",
    "t": 1795452853
@@ -5113,6 +5121,22 @@
    "r": "pulado:sacola laranja (bloqueado)",
    "t": 1795482133
   },
+  "promosdaluh:324348": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795484404
+  },
+  "promosdaluh:324349": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795484404
+  },
+  "promosdaluh:324350": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795484404
+  },
+  "promosdaluh:324351": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795484404
+  },
   "promotom:115180": {
    "r": "pulado:repetido",
    "t": 1795452125
@@ -5371,36 +5395,6 @@
   }
  },
  "fila": [
-  {
-   "canal": "fumotom",
-   "id": 52129,
-   "t": 1795479669.0,
-   "txt": "Good Sleep Bedding Jogo de lençóis de algodão Twin GG com 4 peças, lençóis extralongos - cinza claro, respirável, bolso profundo de 40,6 cm\n\nR$ 359\n\nhttps://www.amazon.com.br/dp/B0CRDXWZD1?tag=promotom05-20\n\n-Anúncio"
-  },
-  {
-   "canal": "iuriindica",
-   "id": 124242,
-   "t": 1795479738.0,
-   "txt": "Smartwatch Samsung Galaxy Fit3 Display 1.6\" Grafite\n\nRESGATE TODOS CUPONS NO ANUNCIO!\n\n💵  R$ 175\n✅  https://www.amazon.com.br/dp/B0CVCLGV1W/?tag=afiliado333-20\n\n🤑 Grupos de promoções: https://iuriindica.com.br"
-  },
-  {
-   "canal": "promosdaluh",
-   "id": 324326,
-   "t": 1795478392.0,
-   "txt": "🚨 ALERTA CUPOM MERCADO LIVRE 🚨\n\nUse o cupom 🎟️MAISQUEOFERTA e garanta 25% OFF, limite R$500!\n\n✅ Válido na seleção: https://promosdaluh.com/p/8en65c/\n\n⚠️ A oferta pode acabar a qualquer momento!\n\n📍 GRUPOS COM VAGAS: https://promosdaluh.com/bio"
-  },
-  {
-   "canal": "iuriindica",
-   "id": 124241,
-   "t": 1795479190.0,
-   "txt": "Console Nintendo Switch OLED Bundle Super Mario Bros Wonder\n\nRESGATE TODOS CUPONS DESSA PAGINA: https://s.shopee.com.br/2gCxCQ1Vug\n\n💵  R$ 1655\n🎟  Cupom: DE 100 AQUI\n✅  https://s.shopee.com.br/6L6FZ9rXd3?lp=aff\n\n🤑 Grupos de promoções: https://iuriindica.com.br"
-  },
-  {
-   "canal": "fumotom",
-   "id": 52130,
-   "t": 1795479696.0,
-   "txt": "Churrasqueira Elétrica PCQ1500D, 220 volts\n\nR$ 149\n\nhttps://www.amazon.com.br/dp/B08KSTJDBB?tag=promotom05-20\n\n-Anúncio"
-  },
   {
    "canal": "fumotom",
    "id": 52132,
@@ -11531,17 +11525,17 @@
    ]
   }
  ],
- "resumo_dia": "2026-11-22",
+ "resumo_dia": "2026-11-23",
  "tpl_ultimo": 2032135,
- "ult_ciclo": 1795484007.4396718,
+ "ult_ciclo": 1795485597.7539222,
  "ultimo_id": {
   "apromodaluh": 159045,
   "fumotom": 52132,
   "iuriindica": 124243,
   "juaocupons": 27709,
   "perfumepromo": 10153,
-  "pincei": 371201,
-  "promosdaluh": 324347,
+  "pincei": 371203,
+  "promosdaluh": 324351,
   "promotom": 115236,
   "teniscertocupons": 66199,
   "teste": 1795214930
