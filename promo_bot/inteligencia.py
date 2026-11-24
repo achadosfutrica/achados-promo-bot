@@ -37,10 +37,16 @@ def _gatilho(s):
 def titulo(texto):
     """Nome do produto: 1ª linha que não é link, preço, cupom nem chamada em MAIÚSCULAS."""
     candidatas = []
+    for l in (texto or "").splitlines():       # Pechinchou: a linha do produto comeca com "•"
+        ls = l.replace("\u2060", "").strip()
+        if ls.startswith("•"):
+            cand = T.URL_RE.sub("", ls.lstrip("• ")).strip()
+            if len(cand) >= 8 and not T.PRECO_RE.search(cand):
+                return cand
     for l in (texto or "").splitlines():
         s = T.URL_RE.sub("", l).strip()
         n = T.norm(s)
-        if len(re.sub(r"\W", "", s)) < 4 or T.PRECO_RE.search(s) or re.match(r"^\W*(cupom|codigo|link|compre)\b", n):
+        if len(re.sub(r"\W", "", s)) < 4 or T.PRECO_RE.search(s) or re.match(r"^\W*(cupom|codigo|link|compre|frete|achado)\b", n) or s.startswith("📦"):
             continue
         candidatas.append(s)
     for s in candidatas:
