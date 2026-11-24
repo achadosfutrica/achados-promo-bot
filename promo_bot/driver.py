@@ -178,26 +178,36 @@ class Driver:
         raise Falha("cadastro manual nao terminou")
 
     @staticmethod
-    def _trava_valor(tela, preco_txt):
+    def _ler_loja(tela):
+        """(preco_atual, preco_antigo) que o Divulgador leu NA LOJA; 0 se nao leu."""
+        atual = antigo = 0.0
         try:
-            ours = T._para_float(*re.match(r"\s*([0-9.]+)(?:,([0-9]{1,2}))?", preco_txt.replace(".", "")).groups())
             linhas = [x for x in ((tela.texto or "").split("\n") + list(tela.botoes or [])) if x]
-            atual = antigo = 0.0
             for ln in linhas:
                 n = T.norm(ln).strip(" *_`:-")
                 m = T.PRECO_RE.search(ln)
                 if not m:
                     continue
                 v = T._para_float(m.group(1), m.group(2))
-                if re.match(r"(por|preco|valor|💸)", n) and not re.search(r"\d+\s*x|parcel|pix|vista", n) and not atual:
+                if re.match(r"(por|preco|valor|💸)", n) and not re.search(r"\d+\s*x|parcel|pix|vista|cupom", n) and not atual:
                     atual = v
                 elif re.match(r"(de|antes|preco antigo|preco de)\b", n) and not antigo:
                     antigo = v
         except Exception:  # noqa
+            pass
+        return atual, antigo
+
+    @staticmethod
+    def _trava_valor(base, preco_txt):
+        """base = (atual, antigo) lido ANTES de aplicar cupom. Cancela se o preco do post nao bater com a loja."""
+        try:
+            ours = T._para_float(*re.match(r"\s*([0-9.]+)(?:,([0-9]{1,2}))?", preco_txt.replace(".", "")).groups())
+        except Exception:  # noqa
             return
+        atual, antigo = base
         if atual and ours:
             if ours < atual * 0.85 or ours > atual * 1.05:
-                raise Falha("VALOR NAO BATE: post R$ %s x loja R$ %s - nao gerei" % (preco_txt, ("%.2f" % atual).replace(".", ",")))
+                raise Falha("VALOR NAO BATE: post R$ %s x loja R$ %s (lido antes do cupom) - nao gerei" % (preco_txt, ("%.2f" % atual).replace(".", ",")))
         elif antigo and ours and ours < antigo * 0.3:
             raise Falha("VALOR NAO CONFERIDO: o Divulgador nao leu o preco atual da loja; post R$ %s vs De R$ %s - nao gerei" % (preco_txt, ("%.2f" % antigo).replace(".", ",")))
 
@@ -236,6 +246,9 @@ class Driver:
             if confere is False:
                 raise Falha("o produto da tela do Divulgador nao e o do post (%r x %r)" % (tela.texto[:120], (dados or {}).get("titulo", "")[:80]))
 
+            base_loja = self._ler_loja(tela)      # preco REAL da loja, lido ANTES do cupom
+            self.log("  loja (antes do cupom): atual=%s antigo=%s | post=%s" % (base_loja[0], base_loja[1], preco_txt))
+
             # 1) CUPOM PRIMEIRO (ele recalcula desconto sozinho)
             if cupom and any(T.norm(cupom) in T.norm(b) for b in tela.botoes):
                 cupom = None                     # o Divulgador já colocou este cupom (ex.: botão "🎟️ TENISCERTO")
@@ -255,7 +268,7 @@ class Driver:
 
             # 2a) TRAVA DE VALOR: so cancela se o preco do post NAO bater com o preco REAL da loja (lido pelo Divulgador).
             #     Se bater (mesmo sendo bug/preco baixo), segue normal.
-            self._trava_valor(tela, preco_txt)
+            self._trava_valor(base_loja, preco_txt)
 
             # 2) PREÇO POR ÚLTIMO
             tela = self._clicar(tela, "por", "preco", "preço", "valor")
