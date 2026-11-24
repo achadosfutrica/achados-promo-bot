@@ -212,6 +212,16 @@ class Driver:
             if confere is False:
                 raise Falha("o produto da tela do Divulgador nao e o do post (%r x %r)" % (tela.texto[:120], (dados or {}).get("titulo", "")[:80]))
 
+            # 0b) TRAVA DE VALOR: se o preco do post for menos de 30% do maior valor que o Divulgador leu na loja, cancela e avisa
+            try:
+                vals = [T._para_float(m.group(1), m.group(2)) for m in T.PRECO_RE.finditer(tela.texto or "")]
+                ref = max([x for x in vals if x], default=0)
+                ours = T._para_float(*re.match(r"\s*([0-9.]+)(?:,([0-9]{1,2}))?", preco_txt.replace(".", "")).groups()) if preco_txt else 0
+            except Exception:  # noqa
+                ref = ours = 0
+            if ref and ours and ours < ref * 0.3:
+                raise Falha("VALOR SUSPEITO: post diz R$ %s mas a loja mostra R$ %s (menos de 30%%) - nao gerei" % (preco_txt, ("%.2f" % ref).replace(".", ",")))
+
             # 1) CUPOM PRIMEIRO (ele recalcula desconto sozinho)
             if cupom and any(T.norm(cupom) in T.norm(b) for b in tela.botoes):
                 cupom = None                     # o Divulgador já colocou este cupom (ex.: botão "🎟️ TENISCERTO")
