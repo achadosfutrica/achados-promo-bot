@@ -4,15 +4,39 @@
  "cupom_min": {
   "1124MAISME": {
    "min": 499.0,
-   "t": 1795533652.8985083,
+   "t": 1795555013.9550369,
    "tipo": "fixed",
-   "valor": 80.0
+   "valor": 70.0
+  },
+  "2STTRTE": {
+   "min": 150.0,
+   "t": 1795555013.9524484,
+   "tipo": "percent",
+   "valor": 20.0
   },
   "2U6U32Q": {
    "min": 2699.0,
-   "t": 1795535586.6422033,
+   "t": 1795555012.4650223,
    "tipo": "fixed",
    "valor": 300.0
+  },
+  "50NABLACK": {
+   "min": 249.0,
+   "t": 1795555013.9585185,
+   "tipo": "fixed",
+   "valor": 50.0
+  },
+  "BLACK150": {
+   "min": 1499.0,
+   "t": 1795555013.95368,
+   "tipo": "fixed",
+   "valor": 150.0
+  },
+  "BLACKCOM50": {
+   "min": 249.0,
+   "t": 1795555013.9584043,
+   "tipo": "fixed",
+   "valor": 50.0
   },
   "BLACKTAQUETA": {
    "min": 50.0,
@@ -20,22 +44,46 @@
    "tipo": "percent",
    "valor": 15.0
   },
+  "CUP0MD04DM2026": {
+   "min": 120.0,
+   "t": 1795555013.953012,
+   "tipo": "fixed",
+   "valor": 50.0
+  },
   "CUPOMAMAZON": {
    "min": 99.0,
    "t": 1795474916.5981412,
    "tipo": "percent",
    "valor": 10.0
   },
+  "CUPOMBLACK99": {
+   "min": 199.0,
+   "t": 1795555013.958248,
+   "tipo": "fixed",
+   "valor": 99.0
+  },
   "CURTAMELI": {
    "min": 199.0,
-   "t": 1795546840.8831444,
+   "t": 1795555014.1543987,
    "tipo": "percent",
    "valor": 10.0
   },
   "D14B0MC0MCUP0M": {
    "min": 60.0,
-   "t": 1795525331.7363496,
+   "t": 1795555013.9568357,
    "tipo": "fixed",
+   "valor": 20.0
+  },
+  "ESPETACULO50": {
+   "min": 249.0,
+   "t": 1795555013.9529436,
+   "tipo": "fixed",
+   "valor": 50.0
+  },
+  "ESPORTE2311": {
+   "min": 299.0,
+   "t": 1795555013.9572759,
+   "tipo": "percent",
    "valor": 20.0
   },
   "ESPORTES10": {
@@ -44,15 +92,27 @@
    "tipo": "percent",
    "valor": 10.0
   },
+  "ESPORTES15": {
+   "min": 159.0,
+   "t": 1795555014.1564784,
+   "tipo": "percent",
+   "valor": 15.0
+  },
   "ESQUENTABF": {
    "min": 27.0,
-   "t": 1795458635.2641807,
+   "t": 1795555013.9561846,
+   "tipo": "fixed",
+   "valor": 12.0
+  },
+  "FOMEBLACK": {
+   "min": 27.0,
+   "t": 1795555013.9587715,
    "tipo": "fixed",
    "valor": 12.0
   },
   "FULL2411": {
    "min": 159.0,
-   "t": 1795489265.8349566,
+   "t": 1795555013.9550889,
    "tipo": "percent",
    "valor": 25.0
   },
@@ -82,19 +142,19 @@
   },
   "LIVROSJOGOS2311": {
    "min": 200.0,
-   "t": 1795446011.2709794,
+   "t": 1795555013.9566069,
    "tipo": "percent",
    "valor": 20.0
   },
   "M0D4TUHS": {
-   "min": 159.0,
-   "t": 1795543325.8863175,
+   "min": 259.0,
+   "t": 1795555014.156477,
    "tipo": "percent",
    "valor": 15.0
   },
   "M3LH0R4PP": {
    "min": 60.0,
-   "t": 1795525255.8179128,
+   "t": 1795555013.9544034,
    "tipo": "fixed",
    "valor": 20.0
   },
@@ -103,6 +163,12 @@
    "t": 1795468517.7319248,
    "tipo": "fixed",
    "valor": 200.0
+  },
+  "MELIMAISXPT1122": {
+   "min": 499.0,
+   "t": 1795555013.9572546,
+   "tipo": "percent",
+   "valor": 15.0
   },
   "MELIUZDECOR": {
    "min": 259.0,
@@ -118,7 +184,7 @@
   },
   "OFERTAPRATECH": {
    "min": 2699.0,
-   "t": 1795536082.377335,
+   "t": 1795555013.5777586,
    "tipo": "fixed",
    "valor": 300.0
   },
@@ -128,21 +194,39 @@
    "tipo": "percent",
    "valor": 10.0
   },
-  "OFICIAIS2411": {
+  "OFICIAIS2311": {
    "min": 89.0,
-   "t": 1795522109.3370812,
+   "t": 1795555013.95727,
    "tipo": "percent",
    "valor": 10.0
   },
+  "OFICIAIS2411": {
+   "min": 89.0,
+   "t": 1795555013.9550366,
+   "tipo": "percent",
+   "valor": 10.0
+  },
+  "PECHINCHOULAR": {
+   "min": 150.0,
+   "t": 1795555014.1507711,
+   "tipo": "percent",
+   "valor": 20.0
+  },
   "PODERA": {
    "min": 399.0,
-   "t": 1795546681.6283796,
+   "t": 1795555013.396931,
    "tipo": "fixed",
    "valor": 40.0
   },
+  "PREBLACK": {
+   "min": 27.0,
+   "t": 1795555012.6197653,
+   "tipo": "fixed",
+   "valor": 12.0
+  },
   "PRIME70OFF": {
    "min": 499.0,
-   "t": 1795522338.184275,
+   "t": 1795555013.9544642,
    "tipo": "fixed",
    "valor": 70.0
   },
@@ -164,45 +248,75 @@
    "tipo": "percent",
    "valor": 80.0
   },
+  "S3M4N4BL4CKSH0P33": {
+   "min": 60.0,
+   "t": 1795555013.9568982,
+   "tipo": "fixed",
+   "valor": 20.0
+  },
   "SITE2311TODO": {
    "min": 999.0,
-   "t": 1795456878.00307,
+   "t": 1795555013.9562798,
    "tipo": "fixed",
    "valor": 120.0
   },
+  "SITETODO2211": {
+   "min": 1099.0,
+   "t": 1795555013.9580228,
+   "tipo": "fixed",
+   "valor": 150.0
+  },
   "SITETODO2311": {
    "min": 150.0,
-   "t": 1795456878.0030692,
+   "t": 1795555013.9562795,
    "tipo": "fixed",
    "valor": 30.0
   },
   "SITETODO2411": {
    "min": 399.0,
-   "t": 1795533652.8985136,
+   "t": 1795555013.9541821,
    "tipo": "fixed",
    "valor": 50.0
   },
   "TECH2411": {
    "min": 1599.0,
-   "t": 1795522864.8309906,
+   "t": 1795555013.955037,
    "tipo": "fixed",
    "valor": 200.0
   },
+  "TODO2211SITE": {
+   "min": 1499.0,
+   "t": 1795555013.958028,
+   "tipo": "fixed",
+   "valor": 230.0
+  },
   "TODO2311SITE": {
    "min": 399.0,
-   "t": 1795456878.0030677,
+   "t": 1795555013.956279,
    "tipo": "fixed",
    "valor": 50.0
   },
   "TODO2411SITE": {
    "min": 1499.0,
-   "t": 1795532438.9523487,
+   "t": 1795555013.9541812,
    "tipo": "fixed",
    "valor": 230.0
   },
+  "TODOSITE2211": {
+   "min": 159.0,
+   "t": 1795555013.9580092,
+   "tipo": "fixed",
+   "valor": 30.0
+  },
+  "TODOSITE2311": {
+   "min": 199.0,
+   "t": 1795555013.9576237,
+   "tipo": "fixed",
+   "valor": 40.0
+  },
   "TODOSITE2411": {
    "min": 159.0,
-   "t": 1795533652.8985126,
+   "t": 1795555013.9541833,
    "tipo": "fixed",
    "valor": 30.0
   },
@@ -214,9 +328,15 @@
   },
   "TVSCELULARES2311": {
    "min": 899.0,
-   "t": 1795446011.2709777,
+   "t": 1795555013.9566064,
    "tipo": "percent",
    "valor": 20.0
+  },
+  "VEMPROMP": {
+   "min": 500.0,
+   "t": 1795555014.1522079,
+   "tipo": "fixed",
+   "valor": 150.0
   },
   "VOCEDEZ": {
    "min": 79.0,
@@ -1481,10 +1601,6 @@
    "r": "pulado:aliexpress (bloqueado)",
    "t": 1795535703
   },
-  "juaocupons:27698": {
-   "r": "pulado:sem preco",
-   "t": 1795468974
-  },
   "iuriindica:124376": {
    "r": "falha",
    "t": 1795546576
@@ -1512,6 +1628,10 @@
   "iuriindica:124382": {
    "r": "pulado:aliexpress (bloqueado)",
    "t": 1795546967
+  },
+  "juaocupons:27698": {
+   "r": "pulado:sem preco",
+   "t": 1795468974
   },
   "juaocupons:27719": {
    "r": "pulado:so cupom (ignorado)",
@@ -4545,30 +4665,6 @@
    "r": "pulado:sacola laranja (bloqueado)",
    "t": 1795536044
   },
-  "promotom:115225": {
-   "r": "pulado:loja desativada: magalu",
-   "t": 1795464737
-  },
-  "promotom:115234": {
-   "r": "pulado:periferico de PC",
-   "t": 1795482028
-  },
-  "promotom:115235": {
-   "r": "pulado:loja desconhecida",
-   "t": 1795482640
-  },
-  "promotom:115236": {
-   "r": "pulado:sem link",
-   "t": 1795483233
-  },
-  "promotom:115237": {
-   "r": "pulado:sem preco",
-   "t": 1795487403
-  },
-  "promotom:115239": {
-   "r": "falha",
-   "t": 1795546794
-  },
   "promosdaluh:324826": {
    "r": "pulado:sacola laranja (bloqueado)",
    "t": 1795546328
@@ -4736,6 +4832,30 @@
   "promosdaluh:324867": {
    "r": "pulado:sacola laranja (bloqueado)",
    "t": 1795547426
+  },
+  "promotom:115225": {
+   "r": "pulado:loja desativada: magalu",
+   "t": 1795464737
+  },
+  "promotom:115234": {
+   "r": "pulado:periferico de PC",
+   "t": 1795482028
+  },
+  "promotom:115235": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795482640
+  },
+  "promotom:115236": {
+   "r": "pulado:sem link",
+   "t": 1795483233
+  },
+  "promotom:115237": {
+   "r": "pulado:sem preco",
+   "t": 1795487403
+  },
+  "promotom:115239": {
+   "r": "falha",
+   "t": 1795546794
   },
   "promotom:115251": {
    "r": "pulado:so cupom (ignorado)",
@@ -4938,14 +5058,7 @@
    "t": 1795545704
   }
  },
- "fila": [
-  {
-   "canal": "fumotom",
-   "id": 52351,
-   "t": 1795542468.0,
-   "txt": "Deer Stags\n\nR$ 232\n\nhttps://www.amazon.com.br/dp/B001BXMZSA?tag=promotom05-20\n\n-Anúncio"
-  }
- ],
+ "fila": [],
  "flags": {
   "resumo": true,
   "trava": true
@@ -10273,7 +10386,7 @@
  ],
  "resumo_dia": "2026-11-23",
  "tpl_ultimo": 2032135,
- "ult_ciclo": 1795545659.8137615,
+ "ult_ciclo": 1795555018.9500768,
  "ultimo_id": {
   "apromodaluh": 159195,
   "fumotom": 52424,
