@@ -1,6 +1,6 @@
 {
  "cmd_ultimo": 2044233,
- "contagem_dia": 165,
+ "contagem_dia": 167,
  "cupom_min": {
   "2U6U32Q": {
    "min": 1999.0,
@@ -91,6 +91,12 @@
    "t": 1795460477.1093268,
    "tipo": "percent",
    "valor": 50.0
+  },
+  "QUERO50": {
+   "min": 599.0,
+   "t": 1795479348.805878,
+   "tipo": "percent",
+   "valor": 80.0
   },
   "SITE2311TODO": {
    "min": 999.0,
@@ -1335,6 +1341,10 @@
    "r": "pulado:sem preco",
    "t": 1795478392
   },
+  "juaocupons:27707": {
+   "r": "pulado:sem preco",
+   "t": 1795480239
+  },
   "link:https://meli.la/12v8YNH": {
    "r": "falha",
    "t": 1795463314
@@ -1963,6 +1973,10 @@
    "r": "falha",
    "t": 1795452496
   },
+  "link:https://www.amazon.com.br/dp/B0HGZJZN3L": {
+   "r": "gerado",
+   "t": 1795480315
+  },
   "link:https://www.amazon.com.br/dp/B0HHT9W4L9": {
    "r": "falha",
    "t": 1795473189
@@ -2110,6 +2124,10 @@
   "link:https://www.mercadolivre.com.br/geladeira-electrolux-frost-free-431l-bivolt-inox-es40s/p/MLB66364006": {
    "r": "falha",
    "t": 1795455115
+  },
+  "link:https://www.mercadolivre.com.br/jogo-de-chave-boca-e-estrela-combinada-12-pcs-aco-6-22-mm-cromada-profissional-tkch12-the-black-tools/p/MLB65763694": {
+   "r": "gerado",
+   "t": 1795479080
   },
   "link:https://www.mercadolivre.com.br/jogo-de-chaves-e-soquetes-allen-kit-46-ferramentas-com-maleta/p/MLB45123280": {
    "r": "falha",
@@ -3306,6 +3324,26 @@
   "pincei:371189": {
    "r": "gerado",
    "t": 1795478456
+  },
+  "pincei:371190": {
+   "r": "pulado:so cupom (ignorado)",
+   "t": 1795479002
+  },
+  "pincei:371191": {
+   "r": "gerado",
+   "t": 1795479080
+  },
+  "pincei:371192": {
+   "r": "pulado:repetido",
+   "t": 1795479085
+  },
+  "pincei:371193": {
+   "r": "pulado:sem preco",
+   "t": 1795479090
+  },
+  "pincei:371194": {
+   "r": "gerado",
+   "t": 1795480315
   },
   "promosdaluh:323920": {
    "r": "pulado:sacola laranja (bloqueado)",
@@ -4919,6 +4957,54 @@
    "r": "pulado:sacola laranja (bloqueado)",
    "t": 1795476079
   },
+  "promosdaluh:324327": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795479132
+  },
+  "promosdaluh:324328": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795479132
+  },
+  "promosdaluh:324329": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795479132
+  },
+  "promosdaluh:324330": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795479132
+  },
+  "promosdaluh:324331": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795479132
+  },
+  "promosdaluh:324332": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795479132
+  },
+  "promosdaluh:324333": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795479132
+  },
+  "promosdaluh:324334": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795479132
+  },
+  "promosdaluh:324335": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795479640
+  },
+  "promosdaluh:324336": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795479640
+  },
+  "promosdaluh:324337": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795479640
+  },
+  "promosdaluh:324338": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795479640
+  },
   "promotom:115180": {
    "r": "pulado:repetido",
    "t": 1795452125
@@ -5166,24 +5252,6 @@
  },
  "fila": [
   {
-   "canal": "apromodaluh",
-   "id": 159044,
-   "t": 1795473872.0,
-   "txt": "500 ML! 🚨\n\n✨ Máscara Tratamento Hidratante Intensivo Cabelo Seco All Soft 500 Ml Redken\n\n~de R$ 262~\n🔥 *por R$ 134,23* \n\n🏷️ Cupom: `Resgate desconto de R$20 OFF abaixo do preço`\n\n✅ Loja Oficial REDKEN no ML.\n\n🛒 https://meli.la/1D82qjF"
-  },
-  {
-   "canal": "apromodaluh",
-   "id": 159045,
-   "t": 1795473872.0,
-   "txt": "✨ Kérastase Nutritive Masquintense Máscara de Nutrição Profunda, Cabelo Seco de Fino a Médio, Complexo Vitamínico, Proteínas de Origem Vegetal e Niacina...\n\n~de R$ 399,90~\n🔥 *por R$ 240,35* \n💳 ou 6x de R$ 40,06\n\n🏷️ Cupom: `KERASTASE15`\n\n✅ Loja Oficial KERASTASE no ML.\n\n🛒 https://meli.la/1JwtptN"
-  },
-  {
-   "canal": "apromodaluh",
-   "id": 159043,
-   "t": 1795473872.0,
-   "txt": "É DO GRANDE, 453G!! 😱\n\n✨ Creme Hidratante Corporal para Pele Seca e Sensível Cetaphil 453g - Hidratação 48h\n\n~de R$ 104,90~\n🔥 *por R$ 69,90* 😱\n\n🛒 https://link.amazon/B013B10Xv\n\n📌 Assine PRIME por 30 dias GRATIS aqui: https://amzn.to/3YeTytk"
-  },
-  {
    "canal": "fumotom",
    "id": 52124,
    "t": 1795475481.0,
@@ -5197,21 +5265,21 @@
   },
   {
    "canal": "fumotom",
+   "id": 52129,
+   "t": 1795479669.0,
+   "txt": "Good Sleep Bedding Jogo de lençóis de algodão Twin GG com 4 peças, lençóis extralongos - cinza claro, respirável, bolso profundo de 40,6 cm\n\nR$ 359\n\nhttps://www.amazon.com.br/dp/B0CRDXWZD1?tag=promotom05-20\n\n-Anúncio"
+  },
+  {
+   "canal": "fumotom",
    "id": 52125,
    "t": 1795475527.0,
    "txt": "Smartwatch Samsung Galaxy Fit3 Display 1.6\" Grafite\n\nR$ 175\n-Resgate cupom do anúncio\n\nhttps://www.amazon.com.br/dp/B0CVCLGV1W?tag=promotom05-20\n\n-Anúncio"
   },
   {
-   "canal": "fumotom",
-   "id": 52122,
-   "t": 1795474076.0,
-   "txt": "Zeroll Colher de sorvete original exclusiva com alça condutora de calor preenchida com líquido, design simples de alumínio, fácil liberação feita nos EUA, 75 g, prata\n\nR$ 98\n\nhttps://www.amazon.com.br/dp/B0002U34EM?tag=promotom05-20\n\n-Anúncio"
-  },
-  {
    "canal": "iuriindica",
-   "id": 124240,
-   "t": 1795474504.0,
-   "txt": "Fone De Ouvido Soundcore by Anker P20i\n\n💵  R$ 100\n🎟  Cupom: 15ELETRO\n✅  https://www.amazon.com.br/dp/B0BTYCJXBK/?tag=afiliado333-20\n\n🤑 Grupos de promoções: https://iuriindica.com.br"
+   "id": 124242,
+   "t": 1795479738.0,
+   "txt": "Smartwatch Samsung Galaxy Fit3 Display 1.6\" Grafite\n\nRESGATE TODOS CUPONS NO ANUNCIO!\n\n💵  R$ 175\n✅  https://www.amazon.com.br/dp/B0CVCLGV1W/?tag=afiliado333-20\n\n🤑 Grupos de promoções: https://iuriindica.com.br"
   },
   {
    "canal": "fumotom",
@@ -5220,16 +5288,22 @@
    "txt": "Copo Antivazamento 360 Graus NUK Magic Cup, Rosa\n\nR$ 26\n\nhttps://www.amazon.com.br/dp/B07FQ69758?tag=promotom05-20\n\n-Anúncio"
   },
   {
-   "canal": "fumotom",
-   "id": 52120,
-   "t": 1795473105.0,
-   "txt": "Ghost Of Tsushima Edição Padrão - PlayStation 4\n\nR$ 55\n\nhttps://www.amazon.com.br/dp/B086BT95SH?tag=promotom05-20\n\n-Mais jogos\nhttps://link.amazon/B02bjWMbB\n\n-Anúncio"
+   "canal": "promosdaluh",
+   "id": 324326,
+   "t": 1795478392.0,
+   "txt": "🚨 ALERTA CUPOM MERCADO LIVRE 🚨\n\nUse o cupom 🎟️MAISQUEOFERTA e garanta 25% OFF, limite R$500!\n\n✅ Válido na seleção: https://promosdaluh.com/p/8en65c/\n\n⚠️ A oferta pode acabar a qualquer momento!\n\n📍 GRUPOS COM VAGAS: https://promosdaluh.com/bio"
+  },
+  {
+   "canal": "iuriindica",
+   "id": 124241,
+   "t": 1795479190.0,
+   "txt": "Console Nintendo Switch OLED Bundle Super Mario Bros Wonder\n\nRESGATE TODOS CUPONS DESSA PAGINA: https://s.shopee.com.br/2gCxCQ1Vug\n\n💵  R$ 1655\n🎟  Cupom: DE 100 AQUI\n✅  https://s.shopee.com.br/6L6FZ9rXd3?lp=aff\n\n🤑 Grupos de promoções: https://iuriindica.com.br"
   },
   {
    "canal": "fumotom",
-   "id": 52121,
-   "t": 1795474066.0,
-   "txt": "Super7 ULTIMATES! Toho HeiSei Godzilla - 8\" Toho Godzilla Action Figure with Accessories Classic Movie Collectibles and Retro Toys\n\nR$ 393\n\nhttps://www.amazon.com.br/dp/B09VWB8SY3?tag=promotom05-20\n\n-Anúncio"
+   "id": 52130,
+   "t": 1795479696.0,
+   "txt": "Churrasqueira Elétrica PCQ1500D, 220 volts\n\nR$ 149\n\nhttps://www.amazon.com.br/dp/B08KSTJDBB?tag=promotom05-20\n\n-Anúncio"
   },
   {
    "canal": "fumotom",
@@ -5242,18 +5316,6 @@
    "id": 324316,
    "t": 1795474915.0,
    "txt": "🚨 ALERTA CUPOM AMAZON 🚨\n\nUse o cupom 🎟️CUPOMAMAZON e garanta 10% OFF em compras acima de R$99, limite R$50!\n\n🔗 Acesse aqui: https://promosdaluh.com/p/0vq45i/\n\n⚠️ A oferta pode acabar a qualquer momento!\n\n📍 GRUPOS COM VAGAS: https://promosdaluh.com/bio"
-  },
-  {
-   "canal": "fumotom",
-   "id": 52123,
-   "t": 1795474090.0,
-   "txt": "Candide, Boneco, Funko POP! Hello Kitty como Foca, Sanrio - 6 cm\n\nR$ 70\n\nhttps://www.amazon.com.br/dp/B0F9Q87772?tag=promotom05-20\n\n-Anúncio"
-  },
-  {
-   "canal": "teniscertocupons",
-   "id": 66199,
-   "t": 1795473608.0,
-   "txt": "🏆 INDICADO MELHORES TÊNIS DO ANO!!\n\n💢QIAODAN LEILI 2.0 masc.\n\npor R$ 367,28 no Pix*\n\n*️⃣Impostos já inclusos\n\n🔗 https://tenis.cc/4BYRp79\n\n🎟 sem necessidade de cupom\n\n🚹 Tamanhos: 37, 38, 39, 40, 41, 42, 42.5, 43\n\n🛒 Produto vendido pela Shopee\n\nNÍVEL DE AMORTECIMENTO:\n🟦🟦🟦🟦🟦🟦 (10 - Máximo)\n\n✈️ Compra internacional"
   }
  ],
  "flags": {
@@ -11257,19 +11319,53 @@
     "mecanica",
     "spinning"
    ]
+  },
+  {
+   "ids": [
+    "65763694"
+   ],
+   "p": 54.0,
+   "t": 1795479027,
+   "w": [
+    "boca",
+    "chave",
+    "combinada",
+    "estrela",
+    "jogo",
+    "pcs"
+   ]
+  },
+  {
+   "ids": [
+    "B0HGZJZN3L"
+   ],
+   "p": 797.05,
+   "t": 1795480244,
+   "w": [
+    "aspirador",
+    "k800",
+    "kabum",
+    "ksar800br",
+    "laser",
+    "mapeia",
+    "pano",
+    "passa",
+    "robo",
+    "smart"
+   ]
   }
  ],
  "resumo_dia": "2026-11-22",
  "tpl_ultimo": 2032135,
- "ult_ciclo": 1795478456.3612971,
+ "ult_ciclo": 1795480315.85273,
  "ultimo_id": {
   "apromodaluh": 159045,
-  "fumotom": 52128,
-  "iuriindica": 124240,
-  "juaocupons": 27706,
+  "fumotom": 52130,
+  "iuriindica": 124242,
+  "juaocupons": 27707,
   "perfumepromo": 10152,
-  "pincei": 371189,
-  "promosdaluh": 324325,
+  "pincei": 371194,
+  "promosdaluh": 324338,
   "promotom": 115232,
   "teniscertocupons": 66199,
   "teste": 1795214930
