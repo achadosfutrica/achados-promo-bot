@@ -22,6 +22,14 @@ canais:
 
 bot_divulgador: "divulgadorinteligente2bot"
 
+# VARIOS bots do Divulgador (mesma conta/configuracoes/destino): as promocoes sao divididas em rodizio entre eles
+# (uma promocao inteira em cada bot) e, se um bot demorar a responder, o robo pula para o proximo na hora.
+# Nao inclua o @di48291bot: ele e o seu, para gerar a mao.
+bots_divulgador:
+  - divulgadorinteligente2bot
+  - divulgadorinteligente3bot
+  - divulgadorinteligentebot
+
 # robô de cupons que recebe o aviso "/cupomacabou CODIGO" quando um canal avisa que o cupom esgotou
 # (ele pergunta para você se posta que acabou ou não)
 robo_cupons: "AchadosFutricaBot"
