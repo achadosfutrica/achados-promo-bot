@@ -4,8 +4,8 @@ on:
   workflow_dispatch:
     inputs:
       mode:
-        description: "off | dry | test | live"
-        default: "dry"
+        description: "off | dry | test | live (vazio = usa o config.yaml / PROMO_MODE: o robo se relanca sozinho sem informar modo)"
+        default: ""
       link:
         description: "(opcional, só no modo test) link de um produto para testar"
         default: ""
