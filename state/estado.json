@@ -1,6 +1,6 @@
 {
  "cmd_ultimo": 2044595,
- "contagem_dia": 172,
+ "contagem_dia": 4,
  "cupom_min": {
   "2U6U32Q": {
    "min": 1999.0,
@@ -37,6 +37,12 @@
    "t": 1795458635.2641807,
    "tipo": "fixed",
    "valor": 12.0
+  },
+  "FULL2411": {
+   "min": 159.0,
+   "t": 1795489265.8349566,
+   "tipo": "percent",
+   "valor": 25.0
   },
   "INFLU100BLACK": {
    "min": 1100.0,
@@ -143,7 +149,7 @@
    22782
   ]
  },
- "dia": "2026-11-23",
+ "dia": "2026-11-24",
  "feitos": {
   "apromodaluh:158956": {
    "r": "esgotado_avisado",
@@ -921,6 +927,22 @@
    "r": "pulado:texto bloqueado: usado",
    "t": 1795486200
   },
+  "fumotom:52136": {
+   "r": "pulado:periferico de PC",
+   "t": 1795488005
+  },
+  "fumotom:52157": {
+   "r": "duplicado",
+   "t": 1795489456
+  },
+  "fumotom:52160": {
+   "r": "gerado",
+   "t": 1795489596
+  },
+  "fumotom:52161": {
+   "r": "gerado",
+   "t": 1795489345
+  },
   "iuriindica:124146": {
    "r": "pulado:repetido",
    "t": 1795452125
@@ -1241,6 +1263,26 @@
    "r": "pulado:sem preco",
    "t": 1795486200
   },
+  "iuriindica:124246": {
+   "r": "pulado:periferico de PC",
+   "t": 1795488023
+  },
+  "iuriindica:124247": {
+   "r": "pulado:periferico de PC",
+   "t": 1795488023
+  },
+  "iuriindica:124250": {
+   "r": "pulado:periferico de PC",
+   "t": 1795488023
+  },
+  "iuriindica:124251": {
+   "r": "gerado",
+   "t": 1795489771
+  },
+  "iuriindica:124253": {
+   "r": "duplicado",
+   "t": 1795489491
+  },
   "juaocupons:27675": {
    "r": "pulado:sem preco",
    "t": 1795450520
@@ -1376,6 +1418,18 @@
   "juaocupons:27710": {
    "r": "pulado:sem preco",
    "t": 1795487403
+  },
+  "juaocupons:27711": {
+   "r": "pulado:sem preco",
+   "t": 1795488015
+  },
+  "juaocupons:27712": {
+   "r": "pulado:sem preco",
+   "t": 1795488023
+  },
+  "juaocupons:27714": {
+   "r": "pulado:sem preco",
+   "t": 1795489257
   },
   "link:https://meli.la/12v8YNH": {
    "r": "falha",
@@ -1889,6 +1943,10 @@
    "r": "falha",
    "t": 1795448168
   },
+  "link:https://www.amazon.com.br/dp/B0B4PZL68N": {
+   "r": "duplicado",
+   "t": 1795489666
+  },
   "link:https://www.amazon.com.br/dp/B0B6LG6C73": {
    "r": "gerado",
    "t": 1795477322
@@ -1933,9 +1991,17 @@
    "r": "gerado",
    "t": 1795483982
   },
+  "link:https://www.amazon.com.br/dp/B0D2RY5LFK": {
+   "r": "gerado",
+   "t": 1795489345
+  },
   "link:https://www.amazon.com.br/dp/B0D79DXNHH": {
    "r": "falha",
    "t": 1795458714
+  },
+  "link:https://www.amazon.com.br/dp/B0D9HWL3T7": {
+   "r": "gerado",
+   "t": 1795489596
   },
   "link:https://www.amazon.com.br/dp/B0DB9LTXD4": {
    "r": "gerado",
@@ -1960,6 +2026,10 @@
   "link:https://www.amazon.com.br/dp/B0F8P16K2L": {
    "r": "falha",
    "t": 1795461701
+  },
+  "link:https://www.amazon.com.br/dp/B0FGZ6FCGY": {
+   "r": "duplicado",
+   "t": 1795489491
   },
   "link:https://www.amazon.com.br/dp/B0FLRQWH96": {
    "r": "falha",
@@ -1993,6 +2063,10 @@
    "r": "falha",
    "t": 1795459610
   },
+  "link:https://www.amazon.com.br/dp/B0GV63ZK3N": {
+   "r": "duplicado",
+   "t": 1795489456
+  },
   "link:https://www.amazon.com.br/dp/B0GVKYW2C5": {
    "r": "falha",
    "t": 1795458775
@@ -2005,6 +2079,10 @@
    "r": "gerado",
    "t": 1795482770
   },
+  "link:https://www.amazon.com.br/dp/B0H5MN9Z7M": {
+   "r": "gerado",
+   "t": 1795489771
+  },
   "link:https://www.amazon.com.br/dp/B0H7TD1GHQ": {
    "r": "falha",
    "t": 1795458653
@@ -2012,6 +2090,10 @@
   "link:https://www.amazon.com.br/dp/B0H9ZDHXG2": {
    "r": "falha",
    "t": 1795463038
+  },
+  "link:https://www.amazon.com.br/dp/B0HB7RVZWQ": {
+   "r": "duplicado",
+   "t": 1795489631
   },
   "link:https://www.amazon.com.br/dp/B0HC8D7RDR": {
    "r": "falha",
@@ -2112,6 +2194,10 @@
   "link:https://www.kabum.com.br/produto/169595/suporte-articulado-nzxt-boom-arm-para-microfone-gamer-capsule-ap-booma-b1": {
    "r": "gerado",
    "t": 1795455515
+  },
+  "link:https://www.kabum.com.br/produto/700253/cabeca-de-impressao-hp-72-c9384a-preto-amarelo": {
+   "r": "gerado",
+   "t": 1795489421
   },
   "link:https://www.mercadolivre.com.br/antena-starlink-mini-internet-via-satelite-spacex-kit-compacto-e-portatil/p/MLB79489248": {
    "r": "falha",
@@ -3436,6 +3522,22 @@
   "pincei:371203": {
    "r": "pulado:repetido",
    "t": 1795484404
+  },
+  "pincei:371204": {
+   "r": "pulado:repetido",
+   "t": 1795488665
+  },
+  "pincei:371205": {
+   "r": "pulado:sem preco",
+   "t": 1795488670
+  },
+  "pincei:371206": {
+   "r": "pulado:sem preco",
+   "t": 1795488675
+  },
+  "pincei:371207": {
+   "r": "pulado:periferico de PC",
+   "t": 1795489265
   },
   "promosdaluh:323920": {
    "r": "pulado:sacola laranja (bloqueado)",
@@ -5321,6 +5423,42 @@
    "r": "pulado:sem preco",
    "t": 1795487403
   },
+  "promotom:115239": {
+   "r": "duplicado",
+   "t": 1795489666
+  },
+  "promotom:115240": {
+   "r": "duplicado",
+   "t": 1795489631
+  },
+  "promotom:115241": {
+   "r": "pulado:periferico de PC",
+   "t": 1795488008
+  },
+  "promotom:115243": {
+   "r": "pulado:periferico de PC",
+   "t": 1795488008
+  },
+  "promotom:115244": {
+   "r": "pulado:repetido",
+   "t": 1795489656
+  },
+  "promotom:115245": {
+   "r": "pulado:periferico de PC",
+   "t": 1795488655
+  },
+  "promotom:115246": {
+   "r": "pulado:sem link",
+   "t": 1795488655
+  },
+  "promotom:115247": {
+   "r": "gerado",
+   "t": 1795489421
+  },
+  "promotom:115248": {
+   "r": "pulado:sem preco",
+   "t": 1795489257
+  },
   "teniscertocupons:66167": {
    "r": "falha",
    "t": 1795448055
@@ -5412,10 +5550,178 @@
  },
  "fila": [
   {
+   "canal": "fumotom",
+   "id": 52150,
+   "t": 1795487901.0,
+   "txt": "Brinox-Jogo Panelas 8P Ceramic Life Smart Style Tampa Flat - Argila\n\nR$ 266\n-CUPOM: 25BF26PRIME\n\nhttps://www.amazon.com.br/dp/B0GS2H1K5C?smid=A1ZZFT5FULY4LN&tag=promotom05-20\n\n-Anúncio"
+  },
+  {
+   "canal": "fumotom",
+   "id": 52152,
+   "t": 1795487913.0,
+   "txt": "WAP Secador de Cabelo Intense Travel Bivolt Chaveado WS1300 Com Cabo Dobrável e Bic0 Concentrador\n\nR$ 64\n-CUPOM: 25BF26PRIME\n\nhttps://www.amazon.com.br/dp/B0G5QYJR44?smid=A1ZZFT5FULY4LN&tag=promotom05-20\n\n-Anúncio"
+  },
+  {
+   "canal": "fumotom",
+   "id": 52141,
+   "t": 1795487735.0,
+   "txt": "Micro-ondas Philco 20L Espelhado Pintura Limpa Fácil PMO24E 127v\n\nR$ 364\n-CUPOM: 25BF26PRIME\n\nhttps://www.amazon.com.br/dp/B0H5MN9Z7M?smid=A1ZZFT5FULY4LN&tag=promotom05-20\n\n-Anúncio"
+  },
+  {
+   "canal": "fumotom",
+   "id": 52151,
+   "t": 1795487904.0,
+   "txt": "WAP Furadeira Parafusadeira de Impacto WF 1000FE 1/2\" com Seletor de Velocidade e Limitador de Profundidade 22Nm 1000W 220V\n\nR$ 129\n-CUPOM: 25BF26PRIME\n\nhttps://www.amazon.com.br/dp/B0FMYWKPPS?smid=A1ZZFT5FULY4LN&tag=promotom05-20\n\n-Anúncio"
+  },
+  {
+   "canal": "fumotom",
+   "id": 52135,
+   "t": 1795487544.0,
+   "txt": "Monitor Philips 24\" 100Hz 1ms Gaming Alto-falantes\n\nR$ 378\n-CUPOM: 25BF26PRIME\n\nhttps://www.amazon.com.br/dp/B0F691QZM6?smid=A1ZZFT5FULY4LN&tag=promotom05-20\n\n-Anúncio"
+  },
+  {
+   "canal": "fumotom",
+   "id": 52163,
+   "t": 1795488274.0,
+   "txt": "Pipoqueira Mallory Stitch – Pipocas Sequinhas e Sem Óleo, Bocal Expedidor, Copo Medidor para Manteiga e Pés Antiderrapantes - 127V\n\nR$ 79\n-CUPOM: 25BF26PRIME\n\nhttps://www.amazon.com.br/dp/B0CV1SRZ59?tag=promotom05-20\n\n-Anúncio"
+  },
+  {
+   "canal": "juaocupons",
+   "id": 27713,
+   "t": 1795488307.0,
+   "txt": "🔥 Cupom Amazon em Selecionados\n\n⚠️ Exclusivo Prime, em produtos vendidos e entregues pela Amazon\n\n🏷 Ganhe 25% off adicional, limitado a R$ 500\n\nLista https://link.amazon/B0iFgkddQ\n\n🔗 Torne-se Prime (30 dias de teste Grátis)\nhttps://amzlink.to/az0Od0e73begY"
+  },
+  {
+   "canal": "fumotom",
+   "id": 52142,
+   "t": 1795487745.0,
+   "txt": "Micro-ondas 33L Philco PMO39B Limpa Fácil 1400W 127V\n\nR$ 400\n-CUPOM: 25BF26PRIME\n\nhttps://www.amazon.com.br/dp/B0H56PMJF1?smid=A1ZZFT5FULY4LN&tag=promotom05-20\n\n-Anúncio"
+  },
+  {
+   "canal": "iuriindica",
+   "id": 124252,
+   "t": 1795487999.0,
+   "txt": "Micro-ondas 33L Philco PMO39B Limpa Fácil 1400W 127V\n\n💵  R$ 400\n🎟  Cupom: 25BF26PRIME\n✅  https://www.amazon.com.br/dp/B0H56PMJF1/?tag=afiliado333-20\n\n🤑 Grupos de promoções: https://iuriindica.com.br"
+  },
+  {
+   "canal": "fumotom",
+   "id": 52162,
+   "t": 1795488147.0,
+   "txt": "Tramontina Pipoqueira Loreto em Alumínio com Revestimento em Antiaderente Starflon Max Vermelho 20 cm 3,5 L\n\nR$ 65\n-CUPOM: 25BF26PRIME\n\nhttps://www.amazon.com.br/dp/B09W4CSX53?tag=promotom05-20\n\n-Anúncio"
+  },
+  {
+   "canal": "fumotom",
+   "id": 52155,
+   "t": 1795488007.0,
+   "txt": "Panela De Pressão 4,4L Antiaderente Cerâmico Indução - Oikos\n\nR$ 113\n-CUPOM: 25BF26PRIME\n\nhttps://www.amazon.com.br/dp/B0GHP5N83Q?smid=A1ZZFT5FULY4LN&tag=promotom05-20\n\n-Anúncio"
+  },
+  {
+   "canal": "fumotom",
+   "id": 52154,
+   "t": 1795487930.0,
+   "txt": "Oikos - Jogo 7 Panelas Antiaderente Cerâmico em Alumínio Bege Terrara\n\nR$ 252\n-CUPOM: 25BF26PRIME\n\nhttps://www.amazon.com.br/dp/B0GHPF6M7Z?smid=A1ZZFT5FULY4LN&tag=promotom05-20\n\n-Anúncio"
+  },
+  {
+   "canal": "fumotom",
+   "id": 52158,
+   "t": 1795488032.0,
+   "txt": "Churu Display Para Gato Sabor Atum Com Frango 24 Tubos de 14g\n\nR$ 70\n-CUPOM: 25BF26PRIME\n\nhttps://www.amazon.com.br/dp/B07DVRNQ5L?smid=A1ZZFT5FULY4LN&tag=promotom05-20\n\n-Anúncio"
+  },
+  {
+   "canal": "fumotom",
+   "id": 52138,
+   "t": 1795487637.0,
+   "txt": "Monitor Portátil Aoc 15.6\" Fhd Ips Usb-C Capa Magnética Alto-falantes 16T20e2\n\nR$ 364 - Sem Juros\n-Resgate cupom do anúncio\n\nhttps://www.amazon.com.br/dp/B0GS6H87T9?smid=A1ZZFT5FULY4LN&tag=promotom05-20\n\n-Anúncio"
+  },
+  {
+   "canal": "iuriindica",
+   "id": 124249,
+   "t": 1795487993.0,
+   "txt": "Monitor Portátil Aoc 15.6\" Fhd Ips Usb-C Capa Magnética Alto-falantes 16T20e2\n\nRESGATE TODOS CUPONS NO ANUNCIO!\n\n💵  R$ 364\n✅  https://www.amazon.com.br/dp/B0GS6H87T9/?tag=afiliado333-20\n\n🤑 Grupos de promoções: https://iuriindica.com.br"
+  },
+  {
+   "canal": "promotom",
+   "id": 115242,
+   "t": 1795487597.0,
+   "txt": "Hisense Smart TV 4K 65\" Polegadas 65U6QV Mini LED\n\nR$ 3299\n-CUPOM: 25BF26PRIME\n\nhttps://www.amazon.com.br/dp/B0FQWCGQMV?smid=A1ZZFT5FULY4LN&tag=promotom05-20\n\n-Anúncio"
+  },
+  {
+   "canal": "iuriindica",
+   "id": 124248,
+   "t": 1795487993.0,
+   "txt": "Hisense Smart TV 4K 65\" Polegadas 65U6QV Mini LED\n\n💵  R$ 3299\n🎟  Cupom: 25BF26PRIME\n✅  https://www.amazon.com.br/dp/B0FQWCGQMV/?tag=afiliado333-20\n\n🤑 Grupos de promoções: https://iuriindica.com.br"
+  },
+  {
+   "canal": "fumotom",
+   "id": 52140,
+   "t": 1795487725.0,
+   "txt": "Jogo de Panelas Brinox Wooden, Cinza, 7 Peças\n\nR$ 299 - Sem Juros\n-Resgate cupom do anúncio\n\nhttps://www.amazon.com.br/dp/B0G3RGMZ3T?smid=A1ZZFT5FULY4LN&tag=promotom05-20\n\n-Anúncio"
+  },
+  {
+   "canal": "fumotom",
+   "id": 52159,
+   "t": 1795488051.0,
+   "txt": "Philips Secador de Cabelo Série 8000 Secagem Ultrarrápida\n\nR$ 524 - Sem Juros\n-CUPOM: 25BF26PRIME\n\nhttps://www.amazon.com.br/dp/B0FQCRXQ73?smid=A1ZZFT5FULY4LN&tag=promotom05-20\n\n-Anúncio"
+  },
+  {
+   "canal": "fumotom",
+   "id": 52145,
+   "t": 1795487790.0,
+   "txt": "3 Corações TRES Cafeteira Espresso e Multibebida Touch Vermelha - 220V\n\nR$ 292\n-CUPOM: 25BF26PRIME\n\nhttps://www.amazon.com.br/dp/B08JR464LB?smid=A1ZZFT5FULY4LN&tag=promotom05-20\n\n-Anúncio"
+  },
+  {
+   "canal": "fumotom",
+   "id": 52144,
+   "t": 1795487780.0,
+   "txt": "Apple Watch SE 3 GPS, Caixa Meia-Noite de Alumínio de 40 mm, Pulseira Esportiva Azul-Marinho - P/M\n\nR$ 1479\n-CUPOM: 25BF26PRIME\n\nhttps://www.amazon.com.br/dp/B0HJBL8G54?tag=promotom05-20\n\n-Anúncio"
+  },
+  {
+   "canal": "fumotom",
+   "id": 52153,
+   "t": 1795487917.0,
+   "txt": "Furadeira Parafusadeira Impacto Sem Fio Gsb 185-Li 18V com Maleta Bosch\n\nR$ 444\n-CUPOM: 25BF26PRIME\n\nhttps://www.amazon.com.br/dp/B0BS77VG1X?smid=A1ZZFT5FULY4LN&tag=promotom05-20\n\n-Anúncio"
+  },
+  {
+   "canal": "fumotom",
+   "id": 52156,
+   "t": 1795488015.0,
+   "txt": "Apple Watch SE 3 GPS, Caixa em alumínio luz das estrelas de 44 mm com Bracelete desportiva luz das estrelas - M/G\n\nR$ 1610\n-CUPOM: 25BF26PRIME\n\nhttps://www.amazon.com.br/dp/B0FQG1SWXN?tag=promotom05-20\n\n-Anúncio"
+  },
+  {
+   "canal": "fumotom",
+   "id": 52146,
+   "t": 1795487798.0,
+   "txt": "Stanley Copo Quencher Cream 1.18L\n\nR$ 116\n-CUPOM: 25BF26PRIME\n\nhttps://www.amazon.com.br/dp/B0BTHPGVWZ?smid=A1ZZFT5FULY4LN&tag=promotom05-20\n\n-Anúncio"
+  },
+  {
+   "canal": "fumotom",
+   "id": 52137,
+   "t": 1795487635.0,
+   "txt": "Fonte 650W Redragon Charge, 80 Plus Bronze, FRC-650\n\nR$ 200\n-CUPOM: 25BF26PRIME\n\nhttps://www.amazon.com.br/dp/B0GBXT62NM?smid=A1ZZFT5FULY4LN&tag=promotom05-20\n\n-Anúncio"
+  },
+  {
    "canal": "iuriindica",
    "id": 124244,
    "t": 1795485971.0,
    "txt": "Preço bom, 200Hz 25\" e 1ms GTG voltando e nao mais MBR\n\nMonitor LG UltraGear -Tela IPS de 25”, 200Hz, 1ms (GtG), NVIDIA G-SYNC e AMD FreeSync Premium, HDR10, sRGB 99%, Preto - 25G523B\n\n💵  R$ 551\n🎟  Cupom: 20BF26PRIME\n✅  https://www.amazon.com.br/dp/B0HB7FQ67Y/?tag=afiliado333-20\n\n🤑 Grupos de promoções: https://iuriindica.com.br"
+  },
+  {
+   "canal": "fumotom",
+   "id": 52149,
+   "t": 1795487872.0,
+   "txt": "TP-Link Deco X10 (3 un.) Roteador Mesh Wi-Fi 6 AX1500 Dual Band, Cobertura de até 520 m², Conexão para até 120 Dispositivos, 2 Portas Gigabit por Unidade e Mesh Gerenciado por IA\n\nR$ 470\n-CUPOM: 25BF26PRIME\n\nhttps://www.amazon.com.br/dp/B0DXN1BRXP?smid=A1ZZFT5FULY4LN&tag=promotom05-20\n\n-Anúncio"
+  },
+  {
+   "canal": "iuriindica",
+   "id": 124254,
+   "t": 1795488000.0,
+   "txt": "TP-Link Deco X10 (3 un.) Roteador Mesh Wi-Fi 6 AX1500 Dual Band, Cobertura de até 520 m², Conexão para até 120 Dispositivos, 2 Portas Gigabit por Unidade e Mesh Gerenciado por IA\n\n💵  R$ 470\n🎟  Cupom: 25BF26PRIME\n✅  https://www.amazon.com.br/dp/B0DXN1BRXP/?tag=afiliado333-20\n\n🤑 Grupos de promoções: https://iuriindica.com.br"
+  },
+  {
+   "canal": "fumotom",
+   "id": 52148,
+   "t": 1795487864.0,
+   "txt": "Hellmann's Pack Maionese Light 2 Unidades de 500g\n\nR$ 10\n\nhttps://www.amazon.com.br/dp/B0H1J4HS4Z?tag=promotom05-20\n\n-Anúncio"
   },
   {
    "canal": "fumotom",
@@ -5424,10 +5730,40 @@
    "txt": "Dickies Calça jeans masculina estilo carpinteiro de pato lixado\n\nR$ 220\n\nhttps://www.amazon.com.br/dp/B002ECF372?tag=promotom05-20\n\n-Anúncio"
   },
   {
+   "canal": "promosdaluh",
+   "id": 324352,
+   "t": 1795487460.0,
+   "txt": "🚨 ALERTA CUPOM AMAZON 🚨\n\nUse o cupom 🎟️20BLACKPRIME e garanta 20% OFF, limite R$400!\n🏷️ *Exclusivo Prime*\n\n🔗 Acesse aqui: https://promosdaluh.com/p/0klpcp/\n\n⚠️ A oferta pode acabar a qualquer momento!\n\n📍 GRUPOS COM VAGAS: https://promosdaluh.com/bio"
+  },
+  {
+   "canal": "promosdaluh",
+   "id": 324353,
+   "t": 1795487483.0,
+   "txt": "🚨 ALERTA CUPOM AMAZON 🚨\n\nUse o cupom 🎟️25BF26PRIME e garanta 20% OFF, limite R$400!\n🏷️ *Exclusivo Prime*\n\n🔗 Acesse aqui: https://promosdaluh.com/p/jxb3os/\n\n⚠️ A oferta pode acabar a qualquer momento!\n\n📍 GRUPOS COM VAGAS: https://promosdaluh.com/bio"
+  },
+  {
    "canal": "fumotom",
-   "id": 52132,
-   "t": 1795482371.0,
-   "txt": "5x Pokémon Tcg: Mega Evolution - Reinado Delta - 3-Pack Blister - Português\n\n-Add 5x no carrinho\n\nR$ 119 (R$ 7 cada)\n-Resgate cupom do anúncio\n\nhttps://www.amazon.com.br/dp/B0HK1CGPFT?smid=A1ZZFT5FULY4LN&tag=promotom05-20\n\n-Anúncio"
+   "id": 52147,
+   "t": 1795487831.0,
+   "txt": "Bosch Martelete Perfurador Gbh 2-24 D 820W 220V Com Maleta\n\nR$ 539\n\nhttps://www.amazon.com.br/dp/B076KRB8LP?smid=A1ZZFT5FULY4LN&tag=promotom05-20\n\n-Anúncio"
+  },
+  {
+   "canal": "fumotom",
+   "id": 52143,
+   "t": 1795487767.0,
+   "txt": "Elg, N01v4, Suporte Fixo de Parede para TVs de 32\" a 77\"\n\nR$ 26\n-Resgate cupom do anúncio\n\nhttps://www.amazon.com.br/dp/B0767QQG67?tag=promotom05-20\n\n-Anúncio"
+  },
+  {
+   "canal": "fumotom",
+   "id": 52139,
+   "t": 1795487715.0,
+   "txt": "BOSCH Esmerilhadeira Angular 4.1/2POL 710W GWS 700\n\nR$ 174\n-CUPOM: 25BF26PRIME\n\nhttps://www.amazon.com.br/dp/B09QRCRYJF?smid=A1ZZFT5FULY4LN&tag=promotom05-20\n\n-Anúncio"
+  },
+  {
+   "canal": "promotom",
+   "id": 115238,
+   "t": 1795487400.0,
+   "txt": "Cupom Amazon\n\n25% OFF adicional, limitado a R$ 500.00: 25BF26PRIME\n\n-Resgate o cupom aqui: https://link.amazon/B0fEoOqJu\n\n-Anúncio"
   }
  ],
  "flags": {
@@ -8454,100 +8790,6 @@
  "postados": [
   {
    "ids": [
-    "B00T831TBY"
-   ],
-   "p": 77.0,
-   "t": 1795393526,
-   "w": [
-    "aluminio",
-    "anodizado",
-    "arame",
-    "armadura",
-    "artesanato",
-    "bonsai",
-    "calibre",
-    "colorido",
-    "crafts",
-    "dobravel",
-    "dourado",
-    "embrulho",
-    "escultura",
-    "fabricacao",
-    "fio",
-    "flexivel",
-    "joias",
-    "mandala"
-   ]
-  },
-  {
-   "ids": [
-    "B07DHRL34V",
-    "B07MT9LCV1",
-    "B085CZ2F4J",
-    "B0D84MB72K",
-    "B0DJBVL2S5",
-    "B0FXN957HN",
-    "B0G3QFG9M4",
-    "B0GMJVXT2K"
-   ],
-   "p": 15.0,
-   "t": 1795393595,
-   "w": [
-    "johnson",
-    "ofertas",
-    "produtos"
-   ]
-  },
-  {
-   "ids": [
-    "B079K5X79D"
-   ],
-   "p": 7.0,
-   "t": 1795394129,
-   "w": [
-    "acabamento",
-    "dentes",
-    "duro",
-    "fresa",
-    "metal",
-    "reta",
-    "vonder"
-   ]
-  },
-  {
-   "ids": [
-    "B01KVXLOTG"
-   ],
-   "p": 170.0,
-   "t": 1795395333,
-   "w": [
-    "azul",
-    "bolsa",
-    "cadeira",
-    "claro",
-    "portatil",
-    "praia",
-    "toys"
-   ]
-  },
-  {
-   "ids": [
-    "B0FW7G2QBJ"
-   ],
-   "p": 710.5,
-   "t": 1795395943,
-   "w": [
-    "220w",
-    "bluetooth",
-    "boombox",
-    "caixa",
-    "pulse",
-    "rms",
-    "som"
-   ]
-  },
-  {
-   "ids": [
     "B077BY8V14"
    ],
    "p": 22.0,
@@ -11539,20 +11781,183 @@
     "samsung",
     "smartband"
    ]
+  },
+  {
+   "ids": [
+    "B0D2RY5LFK"
+   ],
+   "p": 211.0,
+   "t": 1795489265,
+   "w": [
+    "aluminio",
+    "antiaderente",
+    "externo",
+    "interno",
+    "jogo",
+    "max",
+    "panelas",
+    "pecas",
+    "preto",
+    "revestimento",
+    "starflon",
+    "tramontina",
+    "turim"
+   ]
+  },
+  {
+   "ids": [],
+   "p": 1.0,
+   "t": 1795489371,
+   "w": [
+    "amarelo",
+    "c9384a",
+    "cabeca",
+    "impressao",
+    "preto"
+   ]
+  },
+  {
+   "ids": [
+    "B0GV63ZK3N"
+   ],
+   "p": 203.0,
+   "t": 1795489446,
+   "w": [
+    "antiaderente",
+    "black",
+    "ceramic",
+    "ceramica",
+    "compativel",
+    "decker",
+    "fogao",
+    "inducao",
+    "jogo",
+    "line",
+    "panelas",
+    "pecas",
+    "revestimento",
+    "silicone",
+    "tampa",
+    "utensilios",
+    "vidro"
+   ]
+  },
+  {
+   "ids": [
+    "B0FGZ6FCGY"
+   ],
+   "p": 287.0,
+   "t": 1795489481,
+   "w": [
+    "110v",
+    "20l",
+    "branco",
+    "mastercook",
+    "micro",
+    "midea",
+    "ondas"
+   ]
+  },
+  {
+   "ids": [
+    "B0D9HWL3T7"
+   ],
+   "p": 72.0,
+   "t": 1795489516,
+   "w": [
+    "110v",
+    "2000w",
+    "cabelos",
+    "lilas",
+    "mondial",
+    "secador",
+    "shine",
+    "space"
+   ]
+  },
+  {
+   "ids": [
+    "B0HB7RVZWQ"
+   ],
+   "p": 953.0,
+   "t": 1795489621,
+   "w": [
+    "1ms",
+    "27g550b",
+    "300hz",
+    "amd",
+    "fhd",
+    "freesync",
+    "gtg",
+    "hdmi",
+    "hdr10",
+    "ips",
+    "monitor",
+    "nvidia",
+    "premium",
+    "preto",
+    "srgb",
+    "sync",
+    "tela",
+    "ultragear"
+   ]
+  },
+  {
+   "ids": [
+    "B0B4PZL68N"
+   ],
+   "p": 277.0,
+   "t": 1795489656,
+   "w": [
+    "127v",
+    "digital",
+    "display",
+    "eletrica",
+    "midea",
+    "niveis",
+    "panela",
+    "pre",
+    "pressao",
+    "programadas",
+    "receitas",
+    "recursos",
+    "segura",
+    "seguranca",
+    "silenciosa"
+   ]
+  },
+  {
+   "ids": [
+    "B0H5MN9Z7M"
+   ],
+   "p": 364.0,
+   "t": 1795489691,
+   "w": [
+    "127v",
+    "20l",
+    "espelhado",
+    "facil",
+    "limpa",
+    "micro",
+    "ondas",
+    "philco",
+    "pintura",
+    "pmo24e"
+   ]
   }
  ],
  "resumo_dia": "2026-11-23",
  "tpl_ultimo": 2032135,
- "ult_ciclo": 1795487403.1595993,
+ "ult_ciclo": 1795489796.3356771,
  "ultimo_id": {
   "apromodaluh": 159045,
-  "fumotom": 52134,
-  "iuriindica": 124245,
-  "juaocupons": 27710,
+  "fumotom": 52163,
+  "iuriindica": 124254,
+  "juaocupons": 27714,
   "perfumepromo": 10153,
-  "pincei": 371203,
-  "promosdaluh": 324351,
-  "promotom": 115237,
+  "pincei": 371207,
+  "promosdaluh": 324353,
+  "promotom": 115248,
   "teniscertocupons": 66199,
   "teste": 1795214930
  }
