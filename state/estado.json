@@ -917,6 +917,10 @@
    "r": "pulado:periferico de PC",
    "t": 1795473595
   },
+  "fumotom:52133": {
+   "r": "pulado:texto bloqueado: usado",
+   "t": 1795486200
+  },
   "iuriindica:124146": {
    "r": "pulado:repetido",
    "t": 1795452125
@@ -1233,6 +1237,10 @@
    "r": "pulado:aliexpress (bloqueado)",
    "t": 1795482640
   },
+  "iuriindica:124245": {
+   "r": "pulado:sem preco",
+   "t": 1795486200
+  },
   "juaocupons:27675": {
    "r": "pulado:sem preco",
    "t": 1795450520
@@ -1364,6 +1372,10 @@
   "juaocupons:27709": {
    "r": "pulado:loja desconhecida",
    "t": 1795483240
+  },
+  "juaocupons:27710": {
+   "r": "pulado:sem preco",
+   "t": 1795487403
   },
   "link:https://meli.la/12v8YNH": {
    "r": "falha",
@@ -5305,6 +5317,10 @@
    "r": "pulado:sem link",
    "t": 1795483233
   },
+  "promotom:115237": {
+   "r": "pulado:sem preco",
+   "t": 1795487403
+  },
   "teniscertocupons:66167": {
    "r": "falha",
    "t": 1795448055
@@ -5396,22 +5412,22 @@
  },
  "fila": [
   {
+   "canal": "iuriindica",
+   "id": 124244,
+   "t": 1795485971.0,
+   "txt": "Preço bom, 200Hz 25\" e 1ms GTG voltando e nao mais MBR\n\nMonitor LG UltraGear -Tela IPS de 25”, 200Hz, 1ms (GtG), NVIDIA G-SYNC e AMD FreeSync Premium, HDR10, sRGB 99%, Preto - 25G523B\n\n💵  R$ 551\n🎟  Cupom: 20BF26PRIME\n✅  https://www.amazon.com.br/dp/B0HB7FQ67Y/?tag=afiliado333-20\n\n🤑 Grupos de promoções: https://iuriindica.com.br"
+  },
+  {
+   "canal": "fumotom",
+   "id": 52134,
+   "t": 1795486662.0,
+   "txt": "Dickies Calça jeans masculina estilo carpinteiro de pato lixado\n\nR$ 220\n\nhttps://www.amazon.com.br/dp/B002ECF372?tag=promotom05-20\n\n-Anúncio"
+  },
+  {
    "canal": "fumotom",
    "id": 52132,
    "t": 1795482371.0,
    "txt": "5x Pokémon Tcg: Mega Evolution - Reinado Delta - 3-Pack Blister - Português\n\n-Add 5x no carrinho\n\nR$ 119 (R$ 7 cada)\n-Resgate cupom do anúncio\n\nhttps://www.amazon.com.br/dp/B0HK1CGPFT?smid=A1ZZFT5FULY4LN&tag=promotom05-20\n\n-Anúncio"
-  },
-  {
-   "canal": "promotom",
-   "id": 115233,
-   "t": 1795481248.0,
-   "txt": "Kit 2 Achocolatados Pó Original Toddy 740g Copo Exclusivo\n\nR$ 17\n\nhttps://www.amazon.com.br/dp/B0GV5V4KW7?tag=promotom05-20\n\n-Anúncio"
-  },
-  {
-   "canal": "fumotom",
-   "id": 52131,
-   "t": 1795481311.0,
-   "txt": "Sunny, Sasuke VS Itachi, Playmobil Naruto\n\nR$ 95\n\nhttps://www.amazon.com.br/dp/B0CH1KCST5?tag=promotom05-20\n\n-Anúncio"
   }
  ],
  "flags": {
@@ -11527,16 +11543,16 @@
  ],
  "resumo_dia": "2026-11-23",
  "tpl_ultimo": 2032135,
- "ult_ciclo": 1795485597.7539222,
+ "ult_ciclo": 1795487403.1595993,
  "ultimo_id": {
   "apromodaluh": 159045,
-  "fumotom": 52132,
-  "iuriindica": 124243,
-  "juaocupons": 27709,
+  "fumotom": 52134,
+  "iuriindica": 124245,
+  "juaocupons": 27710,
   "perfumepromo": 10153,
   "pincei": 371203,
   "promosdaluh": 324351,
-  "promotom": 115236,
+  "promotom": 115237,
   "teniscertocupons": 66199,
   "teste": 1795214930
  }
