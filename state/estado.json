@@ -1,5 +1,5 @@
 {
- "cmd_ultimo": 2045080,
+ "cmd_ultimo": 2045139,
  "contagem_dia": 0,
  "cupom_min": {
   "2U6U32Q": {
@@ -979,9 +979,21 @@
    "r": "falha",
    "t": 1795496126
   },
+  "fumotom:52172": {
+   "r": "falha",
+   "t": 1795499275
+  },
+  "fumotom:52173": {
+   "r": "falha",
+   "t": 1795499218
+  },
   "fumotom:52174": {
    "r": "falha",
    "t": 1795496069
+  },
+  "fumotom:52175": {
+   "r": "falha",
+   "t": 1795499160
   },
   "iuriindica:124146": {
    "r": "pulado:repetido",
@@ -1511,6 +1523,14 @@
    "r": "pulado:sem preco",
    "t": 1795491347
   },
+  "juaocupons:27717": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795499127
+  },
+  "juaocupons:27718": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795499127
+  },
   "link:https://meli.la/12v8YNH": {
    "r": "falha",
    "t": 1795463314
@@ -1963,9 +1983,17 @@
    "r": "falha",
    "t": 1795462843
   },
+  "link:https://www.amazon.com.br/dp/B0779L3ZQ4": {
+   "r": "falha",
+   "t": 1795499275
+  },
   "link:https://www.amazon.com.br/dp/B079ZKQ26W": {
    "r": "falha",
    "t": 1795496126
+  },
+  "link:https://www.amazon.com.br/dp/B07DT1HPFN": {
+   "r": "falha",
+   "t": 1795499160
   },
   "link:https://www.amazon.com.br/dp/B07FRKJRRP": {
    "r": "falha",
@@ -2090,6 +2118,10 @@
   "link:https://www.amazon.com.br/dp/B0CP6CVJSG": {
    "r": "falha",
    "t": 1795460223
+  },
+  "link:https://www.amazon.com.br/dp/B0CTTFJP38": {
+   "r": "falha",
+   "t": 1795499218
   },
   "link:https://www.amazon.com.br/dp/B0CV1SRZ59": {
    "r": "falha",
@@ -5840,32 +5872,7 @@
    "t": 1795473030
   }
  },
- "fila": [
-  {
-   "canal": "fumotom",
-   "id": 52171,
-   "t": 1795492047.0,
-   "txt": "Fritadeira DiamondTech Oster 6L com Visor Transparente - 220V\n\nR$ 359\n\nhttps://www.amazon.com.br/dp/B0DKY6272P?tag=promotom05-20\n\n-Anúncio"
-  },
-  {
-   "canal": "fumotom",
-   "id": 52173,
-   "t": 1795494967.0,
-   "txt": "Hartwii Película transparente para jato de tinta, 60 folhas, 21 x 28 cm, seca rapidamente aplicável a projetores aéreos de impressora jato de tinta\n\nR$ 133\n\nhttps://www.amazon.com.br/dp/B0CTTFJP38?tag=promotom05-20\n\n-Anúncio"
-  },
-  {
-   "canal": "fumotom",
-   "id": 52170,
-   "t": 1795492045.0,
-   "txt": "Cafeteira Espresso Oster PrimaLatte Touch Red - 220V\n\nR$ 735\n\nhttps://www.amazon.com.br/dp/B0C7D72S7Z?tag=promotom05-20\n\n-Anúncio"
-  },
-  {
-   "canal": "fumotom",
-   "id": 52172,
-   "t": 1795494597.0,
-   "txt": "Flash Limp - Limpa Vidros com Cabo Extensível 180º - FLP6391\n\nR$ 40\n\nhttps://www.amazon.com.br/dp/B0779L3ZQ4?tag=promotom05-20\n\n-Anúncio"
-  }
- ],
+ "fila": [],
  "flags": {
   "resumo": true,
   "trava": true
@@ -12192,12 +12199,12 @@
  ],
  "resumo_dia": "2026-11-23",
  "tpl_ultimo": 2032135,
- "ult_ciclo": 1795496217.3812356,
+ "ult_ciclo": 1795499300.7874367,
  "ultimo_id": {
   "apromodaluh": 159045,
-  "fumotom": 52174,
+  "fumotom": 52175,
   "iuriindica": 124258,
-  "juaocupons": 27716,
+  "juaocupons": 27718,
   "perfumepromo": 10153,
   "pincei": 371232,
   "promosdaluh": 324354,
