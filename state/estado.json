@@ -1,6 +1,6 @@
 {
  "cmd_ultimo": 2044233,
- "contagem_dia": 167,
+ "contagem_dia": 168,
  "cupom_min": {
   "2U6U32Q": {
    "min": 1999.0,
@@ -397,6 +397,10 @@
    "r": "pulado:so cupom (ignorado)",
    "t": 1795472092
   },
+  "esg:14AETEJ": {
+   "r": "avisado",
+   "t": 1795481424
+  },
   "esg:ALGUNS": {
    "r": "avisado",
    "t": 1795450553
@@ -428,6 +432,10 @@
   "esg:OFERTAPARAVOCE": {
    "r": "avisado",
    "t": 1795460374
+  },
+  "esg:OFFPRATECH": {
+   "r": "avisado",
+   "t": 1795481424
   },
   "esg:OFICIAIS2311": {
    "r": "avisado",
@@ -1345,6 +1353,10 @@
    "r": "pulado:sem preco",
    "t": 1795480239
   },
+  "juaocupons:27708": {
+   "r": "esgotado_avisado",
+   "t": 1795481424
+  },
   "link:https://meli.la/12v8YNH": {
    "r": "falha",
    "t": 1795463314
@@ -1972,6 +1984,10 @@
   "link:https://www.amazon.com.br/dp/B0HC8D7RDR": {
    "r": "falha",
    "t": 1795452496
+  },
+  "link:https://www.amazon.com.br/dp/B0HCVW2HPS": {
+   "r": "gerado",
+   "t": 1795482133
   },
   "link:https://www.amazon.com.br/dp/B0HGZJZN3L": {
    "r": "gerado",
@@ -3344,6 +3360,10 @@
   "pincei:371194": {
    "r": "gerado",
    "t": 1795480315
+  },
+  "pincei:371195": {
+   "r": "gerado",
+   "t": 1795482133
   },
   "promosdaluh:323920": {
    "r": "pulado:sacola laranja (bloqueado)",
@@ -5005,6 +5025,42 @@
    "r": "pulado:sacola laranja (bloqueado)",
    "t": 1795479640
   },
+  "promosdaluh:324339": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795480821
+  },
+  "promosdaluh:324340": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795480821
+  },
+  "promosdaluh:324341": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795481424
+  },
+  "promosdaluh:324342": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795481424
+  },
+  "promosdaluh:324343": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795481424
+  },
+  "promosdaluh:324344": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795481424
+  },
+  "promosdaluh:324345": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795482133
+  },
+  "promosdaluh:324346": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795482133
+  },
+  "promosdaluh:324347": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795482133
+  },
   "promotom:115180": {
    "r": "pulado:repetido",
    "t": 1795452125
@@ -5161,6 +5217,10 @@
    "r": "pulado:loja desconhecida",
    "t": 1795472376
   },
+  "promotom:115234": {
+   "r": "pulado:periferico de PC",
+   "t": 1795482028
+  },
   "teniscertocupons:66167": {
    "r": "falha",
    "t": 1795448055
@@ -5253,27 +5313,9 @@
  "fila": [
   {
    "canal": "fumotom",
-   "id": 52124,
-   "t": 1795475481.0,
-   "txt": "Monitor Gamer Samsung 24\" Fhd, 120 Hz, Hdmi, Preto, S3\n\nR$ 433\n-CUPOM: CUPOMAMAZON\n\nhttps://www.amazon.com.br/dp/B0FBRZ1ZPB?tag=promotom05-20\n\n-Anúncio"
-  },
-  {
-   "canal": "fumotom",
-   "id": 52126,
-   "t": 1795475529.0,
-   "txt": "Monitor Lg 24\" Ips 144Hz 1Ms 24U411b-B.Awzm\n\nR$ 472\n-CUPOM: CUPOMAMAZON\n\nhttps://www.amazon.com.br/dp/B0HCVW2HPS?tag=promotom05-20\n\n-Anúncio"
-  },
-  {
-   "canal": "fumotom",
    "id": 52129,
    "t": 1795479669.0,
    "txt": "Good Sleep Bedding Jogo de lençóis de algodão Twin GG com 4 peças, lençóis extralongos - cinza claro, respirável, bolso profundo de 40,6 cm\n\nR$ 359\n\nhttps://www.amazon.com.br/dp/B0CRDXWZD1?tag=promotom05-20\n\n-Anúncio"
-  },
-  {
-   "canal": "fumotom",
-   "id": 52125,
-   "t": 1795475527.0,
-   "txt": "Smartwatch Samsung Galaxy Fit3 Display 1.6\" Grafite\n\nR$ 175\n-Resgate cupom do anúncio\n\nhttps://www.amazon.com.br/dp/B0CVCLGV1W?tag=promotom05-20\n\n-Anúncio"
   },
   {
    "canal": "iuriindica",
@@ -5306,16 +5348,22 @@
    "txt": "Churrasqueira Elétrica PCQ1500D, 220 volts\n\nR$ 149\n\nhttps://www.amazon.com.br/dp/B08KSTJDBB?tag=promotom05-20\n\n-Anúncio"
   },
   {
+   "canal": "promotom",
+   "id": 115233,
+   "t": 1795481248.0,
+   "txt": "Kit 2 Achocolatados Pó Original Toddy 740g Copo Exclusivo\n\nR$ 17\n\nhttps://www.amazon.com.br/dp/B0GV5V4KW7?tag=promotom05-20\n\n-Anúncio"
+  },
+  {
    "canal": "fumotom",
    "id": 52127,
    "t": 1795477608.0,
    "txt": "Pelúcia Disney Stitch Sleep - BR2431\n\nR$ 99\n\nhttps://www.amazon.com.br/dp/B0F236FT8N?tag=promotom05-20\n\n-Anúncio"
   },
   {
-   "canal": "promosdaluh",
-   "id": 324316,
-   "t": 1795474915.0,
-   "txt": "🚨 ALERTA CUPOM AMAZON 🚨\n\nUse o cupom 🎟️CUPOMAMAZON e garanta 10% OFF em compras acima de R$99, limite R$50!\n\n🔗 Acesse aqui: https://promosdaluh.com/p/0vq45i/\n\n⚠️ A oferta pode acabar a qualquer momento!\n\n📍 GRUPOS COM VAGAS: https://promosdaluh.com/bio"
+   "canal": "fumotom",
+   "id": 52131,
+   "t": 1795481311.0,
+   "txt": "Sunny, Sasuke VS Itachi, Playmobil Naruto\n\nR$ 95\n\nhttps://www.amazon.com.br/dp/B0CH1KCST5?tag=promotom05-20\n\n-Anúncio"
   }
  ],
  "flags": {
@@ -11353,20 +11401,33 @@
     "robo",
     "smart"
    ]
+  },
+  {
+   "ids": [
+    "B0HCVW2HPS"
+   ],
+   "p": 479.0,
+   "t": 1795482037,
+   "w": [
+    "144hz",
+    "1ms",
+    "ips",
+    "monitor"
+   ]
   }
  ],
  "resumo_dia": "2026-11-22",
  "tpl_ultimo": 2032135,
- "ult_ciclo": 1795480315.85273,
+ "ult_ciclo": 1795482133.507862,
  "ultimo_id": {
   "apromodaluh": 159045,
-  "fumotom": 52130,
+  "fumotom": 52131,
   "iuriindica": 124242,
-  "juaocupons": 27707,
+  "juaocupons": 27708,
   "perfumepromo": 10152,
-  "pincei": 371194,
-  "promosdaluh": 324338,
-  "promotom": 115232,
+  "pincei": 371195,
+  "promosdaluh": 324347,
+  "promotom": 115234,
   "teniscertocupons": 66199,
   "teste": 1795214930
  }
