@@ -1,10 +1,10 @@
 {
- "cmd_ultimo": 2048383,
- "contagem_dia": 54,
+ "cmd_ultimo": 2047896,
+ "contagem_dia": 61,
  "cupom_min": {
   "1124MAISME": {
    "min": 499.0,
-   "t": 1795531134.0246434,
+   "t": 1795533652.8985083,
    "tipo": "fixed",
    "valor": 80.0
   },
@@ -152,6 +152,12 @@
    "tipo": "fixed",
    "valor": 30.0
   },
+  "SITETODO2411": {
+   "min": 399.0,
+   "t": 1795533652.8985136,
+   "tipo": "fixed",
+   "valor": 50.0
+  },
   "TECH2411": {
    "min": 1599.0,
    "t": 1795522864.8309906,
@@ -164,6 +170,18 @@
    "tipo": "fixed",
    "valor": 50.0
   },
+  "TODO2411SITE": {
+   "min": 1499.0,
+   "t": 1795532438.9523487,
+   "tipo": "fixed",
+   "valor": 230.0
+  },
+  "TODOSITE2411": {
+   "min": 159.0,
+   "t": 1795533652.8985126,
+   "tipo": "fixed",
+   "valor": 30.0
+  },
   "TORCIDA50": {
    "min": 80.0,
    "t": 1795460477.109361,
@@ -175,6 +193,12 @@
    "t": 1795446011.2709777,
    "tipo": "percent",
    "valor": 20.0
+  },
+  "VOCEDEZ": {
+   "min": 79.0,
+   "t": 1795531483.5981786,
+   "tipo": "percent",
+   "valor": 10.0
   },
   "__avisados": [
    21816,
@@ -191,7 +215,12 @@
    22782,
    23319,
    23330,
-   23557
+   23557,
+   23637,
+   23652,
+   23653,
+   23668,
+   23685
   ]
  },
  "dia": "2026-11-24",
@@ -478,107 +507,47 @@
   },
   "apromodaluh:159116": {
    "r": "pulado:mesmo link",
-   "t": 1795535353
+   "t": 1795531635
   },
   "apromodaluh:159117": {
    "r": "pulado:repetido",
-   "t": 1795535353
+   "t": 1795531635
+  },
+  "apromodaluh:159118": {
+   "r": "falha",
+   "t": 1795531787
   },
   "apromodaluh:159119": {
    "r": "esgotado_avisado",
-   "t": 1795534999
+   "t": 1795531634
   },
   "apromodaluh:159120": {
    "r": "pulado:so cupom (ignorado)",
-   "t": 1795534999
+   "t": 1795532337
   },
   "apromodaluh:159121": {
    "r": "pulado:repetido",
-   "t": 1795535124
+   "t": 1795532380
   },
   "apromodaluh:159122": {
    "r": "pulado:repetido",
-   "t": 1795535354
+   "t": 1795532586
   },
   "apromodaluh:159123": {
-   "r": "falha",
-   "t": 1795535270
+   "r": "gerado",
+   "t": 1795532455
   },
   "apromodaluh:159124": {
-   "r": "pulado:repetido",
-   "t": 1795535412
+   "r": "pulado:mesmo link",
+   "t": 1795532586
+  },
+  "apromodaluh:159125": {
+   "r": "pulado:mesmo link",
+   "t": 1795533786
   },
   "apromodaluh:159126": {
-   "r": "pulado:repetido",
-   "t": 1795535353
-  },
-  "apromodaluh:159127": {
-   "r": "pulado:loja desconhecida",
-   "t": 1795534999
-  },
-  "apromodaluh:159128": {
-   "r": "pulado:loja desconhecida",
-   "t": 1795534999
-  },
-  "apromodaluh:159129": {
-   "r": "pulado:loja desconhecida",
-   "t": 1795534999
-  },
-  "apromodaluh:159130": {
-   "r": "pulado:loja desconhecida",
-   "t": 1795534999
-  },
-  "apromodaluh:159131": {
-   "r": "pulado:loja desconhecida",
-   "t": 1795534999
-  },
-  "apromodaluh:159132": {
-   "r": "pulado:loja desconhecida",
-   "t": 1795534999
-  },
-  "apromodaluh:159133": {
-   "r": "pulado:loja desconhecida",
-   "t": 1795534999
-  },
-  "apromodaluh:159134": {
-   "r": "pulado:so cupom (ignorado)",
-   "t": 1795534999
-  },
-  "apromodaluh:159135": {
-   "r": "pulado:repetido",
-   "t": 1795536264
-  },
-  "apromodaluh:159136": {
    "r": "gerado",
-   "t": 1795536238
-  },
-  "apromodaluh:159137": {
-   "r": "gerado",
-   "t": 1795536128
-  },
-  "apromodaluh:159138": {
-   "r": "pulado:repetido",
-   "t": 1795536367
-  },
-  "apromodaluh:159139": {
-   "r": "pulado:repetido",
-   "t": 1795536367
-  },
-  "apromodaluh:159140": {
-   "r": "gerado",
-   "t": 1795536569
-  },
-  "apromodaluh:159141": {
-   "r": "pulado:mesmo link",
-   "t": 1795536263
-  },
-  "apromodaluh:159142": {
-   "r": "pulado:mesmo link",
-   "t": 1795536263
-  },
-  "apromodaluh:159143": {
-   "r": "esgotado_avisado",
-   "t": 1795536044
+   "t": 1795532560
   },
   "esg:14AETEJ": {
    "r": "avisado",
@@ -622,7 +591,7 @@
   },
   "esg:OFICIAIS2411": {
    "r": "avisado",
-   "t": 1795534999
+   "t": 1795531634
   },
   "esg:PNEUS": {
    "r": "avisado",
@@ -1138,17 +1107,53 @@
   },
   "fumotom:52288": {
    "r": "pulado:mesmo link",
-   "t": 1795535411
+   "t": 1795531635
   },
   "fumotom:52289": {
-   "r": "falha",
-   "t": 1795535505
+   "r": "duplicado",
+   "t": 1795532770
   },
   "fumotom:52290": {
-   "r": "pulado:repetido",
-   "t": 1795536682
+   "r": "gerado",
+   "t": 1795532842
+  },
+  "fumotom:52291": {
+   "r": "gerado",
+   "t": 1795533677
   },
   "fumotom:52292": {
+   "r": "pulado:periferico de PC",
+   "t": 1795532057
+  },
+  "fumotom:52293": {
+   "r": "gerado",
+   "t": 1795532648
+  },
+  "fumotom:52294": {
+   "r": "pulado:repetido",
+   "t": 1795533630
+  },
+  "fumotom:52295": {
+   "r": "pulado:repetido",
+   "t": 1795533628
+  },
+  "fumotom:52296": {
+   "r": "pulado:mesmo link",
+   "t": 1795533629
+  },
+  "fumotom:52297": {
+   "r": "duplicado",
+   "t": 1795533760
+  },
+  "fumotom:52298": {
+   "r": "pulado:repetido",
+   "t": 1795533629
+  },
+  "fumotom:52299": {
+   "r": "duplicado",
+   "t": 1795533717
+  },
+  "iuriindica:124222": {
    "r": "pulado:periferico de PC",
    "t": 1795534147
   },
@@ -1517,8 +1522,68 @@
    "t": 1795530160
   },
   "iuriindica:124324": {
+   "r": "falha",
+   "t": 1795531729
+  },
+  "iuriindica:124325": {
+   "r": "pulado:sem preco",
+   "t": 1795531452
+  },
+  "iuriindica:124326": {
+   "r": "falha",
+   "t": 1795531672
+  },
+  "iuriindica:124327": {
+   "r": "pulado:periferico de PC",
+   "t": 1795531452
+  },
+  "iuriindica:124328": {
+   "r": "pulado:repetido",
+   "t": 1795531640
+  },
+  "iuriindica:124329": {
+   "r": "pulado:repetido",
+   "t": 1795532796
+  },
+  "iuriindica:124330": {
+   "r": "pulado:periferico de PC",
+   "t": 1795532104
+  },
+  "iuriindica:124331": {
+   "r": "pulado:mesmo link",
+   "t": 1795532586
+  },
+  "iuriindica:124332": {
    "r": "gerado",
-   "t": 1795536657
+   "t": 1795532733
+  },
+  "iuriindica:124333": {
+   "r": "pulado:repetido",
+   "t": 1795533861
+  },
+  "iuriindica:124334": {
+   "r": "pulado:so cupom (ignorado)",
+   "t": 1795533127
+  },
+  "iuriindica:124335": {
+   "r": "pulado:repetido",
+   "t": 1795533631
+  },
+  "iuriindica:124336": {
+   "r": "pulado:so cupom (ignorado)",
+   "t": 1795533127
+  },
+  "iuriindica:124337": {
+   "r": "pulado:so cupom (ignorado)",
+   "t": 1795533127
+  },
+  "iuriindica:124338": {
+   "r": "pulado:repetido",
+   "t": 1795533786
+  },
+  "juaocupons:27698": {
+   "r": "pulado:sem preco",
+   "t": 1795468974
   },
   "iuriindica:124325": {
    "r": "pulado:sem preco",
@@ -1710,43 +1775,39 @@
   },
   "juaocupons:27734": {
    "r": "pulado:sem preco",
-   "t": 1795534171
+   "t": 1795531452
   },
   "juaocupons:27735": {
    "r": "pulado:sem link",
-   "t": 1795534171
+   "t": 1795531452
   },
   "juaocupons:27736": {
    "r": "pulado:sem preco",
-   "t": 1795534171
+   "t": 1795531452
   },
   "juaocupons:27737": {
    "r": "pulado:sem preco",
-   "t": 1795534171
+   "t": 1795533122
   },
   "juaocupons:27738": {
    "r": "pulado:sem link",
-   "t": 1795534171
+   "t": 1795533122
   },
   "juaocupons:27739": {
    "r": "pulado:sem link",
-   "t": 1795534171
+   "t": 1795533122
   },
   "juaocupons:27740": {
    "r": "pulado:sem link",
-   "t": 1795534171
+   "t": 1795533122
   },
   "juaocupons:27741": {
    "r": "pulado:sem link",
-   "t": 1795534171
+   "t": 1795533122
   },
   "juaocupons:27743": {
    "r": "pulado:sem preco",
-   "t": 1795534173
-  },
-  "juaocupons:27744": {
-   "r": "pulado:sem preco",
-   "t": 1795534173
+   "t": 1795533124
   },
   "link:https://amzn.to/3YeTytk": {
    "r": "falha",
@@ -1804,6 +1865,10 @@
    "r": "gerado",
    "t": 1795523922
   },
+  "link:https://meli.la/1PQjiE1": {
+   "r": "gerado",
+   "t": 1795532733
+  },
   "link:https://meli.la/1QEPQbX": {
    "r": "gerado",
    "t": 1795520515
@@ -1847,6 +1912,10 @@
   "link:https://meli.la/1aaxsYS": {
    "r": "falha",
    "t": 1795526678
+  },
+  "link:https://meli.la/1c1Q5dN": {
+   "r": "falha",
+   "t": 1795531787
   },
   "link:https://meli.la/1c2W61x": {
    "r": "gerado",
@@ -1896,6 +1965,10 @@
    "r": "gerado",
    "t": 1795520189
   },
+  "link:https://meli.la/273tVAB": {
+   "r": "duplicado",
+   "t": 1795533717
+  },
   "link:https://meli.la/2BfsRtS": {
    "r": "falha",
    "t": 1795530613
@@ -1920,13 +1993,13 @@
    "r": "falha",
    "t": 1795523182
   },
-  "link:https://meli.la/2SHqZH6": {
-   "r": "falha",
-   "t": 1795535386
-  },
   "link:https://meli.la/2SmAPxK": {
-   "r": "gerado",
-   "t": 1795536657
+   "r": "falha",
+   "t": 1795531729
+  },
+  "link:https://meli.la/2T88Hz4": {
+   "r": "duplicado",
+   "t": 1795533760
   },
   "link:https://meli.la/2Updvkz": {
    "r": "falha",
@@ -1945,16 +2018,8 @@
    "t": 1795522484
   },
   "link:https://meli.la/2ajSBD5": {
-   "r": "falha",
-   "t": 1795535270
-  },
-  "link:https://meli.la/2b1b5We": {
    "r": "gerado",
-   "t": 1795536432
-  },
-  "link:https://meli.la/2con9h9": {
-   "r": "gerado",
-   "t": 1795536569
+   "t": 1795532455
   },
   "link:https://meli.la/2dVPio5": {
    "r": "falha",
@@ -1986,7 +2051,7 @@
   },
   "link:https://meli.la/2qTn7nz": {
    "r": "falha",
-   "t": 1795535448
+   "t": 1795531672
   },
   "link:https://meli.la/2s32UsQ": {
    "r": "falha",
@@ -2000,13 +2065,21 @@
    "r": "gerado",
    "t": 1795526165
   },
+  "link:https://meli.la/2x7LyKa": {
+   "r": "gerado",
+   "t": 1795532560
+  },
   "link:https://meli.la/2yGbzD7": {
-   "r": "falha",
-   "t": 1795535505
+   "r": "duplicado",
+   "t": 1795532770
   },
   "link:https://meli.la/2yPbZ2i": {
    "r": "gerado",
    "t": 1795525399
+  },
+  "link:https://meli.la/31Hdrk1": {
+   "r": "gerado",
+   "t": 1795532648
   },
   "link:https://meli.la/32kbNwS": {
    "r": "falha",
@@ -2024,9 +2097,21 @@
    "r": "falha",
    "t": 1795491159
   },
+  "link:https://produto.mercadolivre.com.br/MLB-5755197830-kit-3-shorts-masculino-bermuda-linho-vero-envio-imediato-_JM": {
+   "r": "falha",
+   "t": 1795471826
+  },
+  "link:https://produto.mercadolivre.com.br/MLB-6190932534-tnis-asics-sonicblast-feminino-brancoverde-_JM": {
+   "r": "falha",
+   "t": 1795532901
+  },
   "link:https://produto.mercadolivre.com.br/MLB-6191023244-tnis-asics-sonicblast-masculino-azulazul-_JM": {
    "r": "gerado",
    "t": 1795530815
+  },
+  "link:https://produto.mercadolivre.com.br/MLB-6191165622-tnis-asics-sonicblast-masculino-verdepreto-_JM": {
+   "r": "gerado",
+   "t": 1795533045
   },
   "link:https://produto.mercadolivre.com.br/MLB-867751670-porta-lisa-210x80-batente-fechadura-comum-dobradica-_JM": {
    "r": "falha",
@@ -2116,6 +2201,18 @@
    "r": "gerado",
    "t": 1795526239
   },
+  "link:https://www.amazon.com.br/dp/B074L9L5KZ": {
+   "r": "gerado",
+   "t": 1795533413
+  },
+  "link:https://www.amazon.com.br/dp/B074LSL2VG": {
+   "r": "gerado",
+   "t": 1795531574
+  },
+  "link:https://www.amazon.com.br/dp/B076M6GT59": {
+   "r": "falha",
+   "t": 1795469066
+  },
   "link:https://www.amazon.com.br/dp/B0779L3ZQ4": {
    "r": "falha",
    "t": 1795499275
@@ -2154,11 +2251,15 @@
   },
   "link:https://www.amazon.com.br/dp/B07RK4HST7": {
    "r": "falha",
-   "t": 1795534476
+   "t": 1795532239
   },
   "link:https://www.amazon.com.br/dp/B07W8X4F48": {
    "r": "gerado",
    "t": 1795525310
+  },
+  "link:https://www.amazon.com.br/dp/B0842ZCSMV": {
+   "r": "gerado",
+   "t": 1795532842
   },
   "link:https://www.amazon.com.br/dp/B0851GH9TH": {
    "r": "gerado",
@@ -2212,6 +2313,10 @@
    "r": "falha",
    "t": 1795503917
   },
+  "link:https://www.amazon.com.br/dp/B0BPYTJ9KW": {
+   "r": "gerado",
+   "t": 1795533677
+  },
   "link:https://www.amazon.com.br/dp/B0BVSTCXZY": {
    "r": "falha",
    "t": 1795503861
@@ -2234,7 +2339,7 @@
   },
   "link:https://www.amazon.com.br/dp/B0CVSBKF4N": {
    "r": "falha",
-   "t": 1795534567
+   "t": 1795532332
   },
   "link:https://www.amazon.com.br/dp/B0CYC1Q8ZW": {
    "r": "falha",
@@ -2324,6 +2429,14 @@
    "r": "falha",
    "t": 1795492177
   },
+  "link:https://www.amazon.com.br/dp/B0FR49NFLT": {
+   "r": "gerado",
+   "t": 1795465249
+  },
+  "link:https://www.amazon.com.br/dp/B0FR6PC1FB": {
+   "r": "gerado",
+   "t": 1795533833
+  },
   "link:https://www.amazon.com.br/dp/B0FTMN9SN1": {
    "r": "falha",
    "t": 1795529629
@@ -2338,7 +2451,7 @@
   },
   "link:https://www.amazon.com.br/dp/B0GFXSBTB4": {
    "r": "falha",
-   "t": 1795534384
+   "t": 1795532146
   },
   "link:https://www.amazon.com.br/dp/B0GGV1K1XF": {
    "r": "falha",
@@ -2347,6 +2460,10 @@
   "link:https://www.amazon.com.br/dp/B0GQW2J4SK": {
    "r": "duplicado",
    "t": 1795524316
+  },
+  "link:https://www.amazon.com.br/dp/B0GR1DZZZX": {
+   "r": "gerado",
+   "t": 1795531508
   },
   "link:https://www.amazon.com.br/dp/B0GS2H1K5C": {
    "r": "falha",
@@ -2361,12 +2478,8 @@
    "t": 1795491539
   },
   "link:https://www.amazon.com.br/dp/B0GWN59JB6": {
-   "r": "falha",
-   "t": 1795534608
-  },
-  "link:https://www.amazon.com.br/dp/B0H1F4TQ7C": {
    "r": "gerado",
-   "t": 1795536044
+   "t": 1795533181
   },
   "link:https://www.amazon.com.br/dp/B0H3C12CL1": {
    "r": "falha",
@@ -2378,7 +2491,7 @@
   },
   "link:https://www.amazon.com.br/dp/B0H4RKHSKM": {
    "r": "falha",
-   "t": 1795534266
+   "t": 1795531520
   },
   "link:https://www.amazon.com.br/dp/B0H56PMJF1": {
    "r": "gerado",
@@ -2409,8 +2522,8 @@
    "t": 1795482133
   },
   "link:https://www.amazon.com.br/dp/B0HD89CYTS": {
-   "r": "falha",
-   "t": 1795534732
+   "r": "gerado",
+   "t": 1795533465
   },
   "link:https://www.amazon.com.br/dp/B0HGZJZN3L": {
    "r": "gerado",
@@ -2453,8 +2566,8 @@
    "t": 1795520088
   },
   "link:https://www.epocacosmeticos.com.br/perfume-iconic-guess-feminino-eau-de-parfum/p?idsku=273326": {
-   "r": "falha",
-   "t": 1795535327
+   "r": "gerado",
+   "t": 1795533602
   },
   "link:https://www.kabum.com.br/produto/514896/fonte-xpg-core-reactor-ii-ve-850w-80-plus-gold-modular-pfc-ativo-preto-75261436": {
    "r": "falha",
@@ -2495,6 +2608,22 @@
   "link:https://www.mercadolivre.com.br/extensao-de-audio-intelbras-1010-ea-para-video-porteiro-cor-branco/p/MLB24100063": {
    "r": "falha",
    "t": 1795534329
+  },
+  "link:https://www.mercadolivre.com.br/camera-inteligente-im3-c-black-intelbras/p/MLB18596029": {
+   "r": "falha",
+   "t": 1795532295
+  },
+  "link:https://www.mercadolivre.com.br/escova-progressiva-500g-fashion-gold/p/MLB21458473": {
+   "r": "falha",
+   "t": 1795533939
+  },
+  "link:https://www.mercadolivre.com.br/escova-secadora-gama-eleganza-plus-bivolt/p/MLB36190759": {
+   "r": "gerado",
+   "t": 1795533361
+  },
+  "link:https://www.mercadolivre.com.br/extensao-de-audio-intelbras-1010-ea-para-video-porteiro-cor-branco/p/MLB24100063": {
+   "r": "duplicado",
+   "t": 1795531613
   },
   "link:https://www.mercadolivre.com.br/faqueiro-tramontina-buzios-cem-aco-inox-com-detalhe-24-pecas/p/MLB29913761": {
    "r": "falha",
@@ -2540,9 +2669,17 @@
    "r": "falha",
    "t": 1795534668
   },
-  "link:https://www.mercadolivre.com.br/o-boticario-egeo-bomb-black-masculino/p/MLB19325384": {
+  "link:https://www.mercadolivre.com.br/multivitaminico-growth-supplements-em-capsula-sem-sabor-x-100g-de-120-un/p/MLB21555776": {
+   "r": "gerado",
+   "t": 1795533261
+  },
+  "link:https://www.mercadolivre.com.br/natura-deo-parfum-homem-identidad-masculino-100ml/p/MLB70173320": {
    "r": "falha",
    "t": 1795534440
+  },
+  "link:https://www.mercadolivre.com.br/o-boticario-egeo-bomb-black-masculino/p/MLB19325384": {
+   "r": "falha",
+   "t": 1795532202
   },
   "link:https://www.mercadolivre.com.br/parafusadeira-e-furadeira-de-impacto-38-wap-k21-id02-2000-mah/p/MLB28765604": {
    "r": "falha",
@@ -2575,6 +2712,10 @@
   "link:https://www.netshoes.com.br/p/tenis-adidas-breaknet-feminino-off white rosa-NQQ-4379-B73": {
    "r": "falha",
    "t": 1795524919
+  },
+  "link:https://www.netshoes.com.br/p/tenis-adidas-gamechaser-masculino-branco-FBA-7419-014?af_sub1=43984&af_channel=Affiliates&af_media_type=web&af_adset_id=43984&af_sub_siteID=ahpmn6xeOx8-AL_1B52OP4L.wWP2Y7F.aw&af_click_lookback=7d&is_retargeting=true&ranU1=leticiapincei-20": {
+   "r": "falha",
+   "t": 1795531634
   },
   "link:https://www.netshoes.com.br/p/tenis-new-balance-ellipse-masculino-vermelho claro preto-39V-25OA-679": {
    "r": "gerado",
@@ -2661,6 +2802,14 @@
    "t": 1795530160
   },
   "perfumepromo:10162": {
+   "r": "pulado:sem preco",
+   "t": 1795531456
+  },
+  "perfumepromo:10163": {
+   "r": "gerado",
+   "t": 1795533602
+  },
+  "pincei:371106": {
    "r": "pulado:sem preco",
    "t": 1795534225
   },
@@ -3265,10 +3414,90 @@
    "t": 1795531157
   },
   "pincei:371321": {
-   "r": "pulado:repetido",
-   "t": 1795534230
+   "r": "gerado",
+   "t": 1795531508
   },
   "pincei:371322": {
+   "r": "falha",
+   "t": 1795531520
+  },
+  "pincei:371323": {
+   "r": "pulado:sem preco",
+   "t": 1795531523
+  },
+  "pincei:371324": {
+   "r": "gerado",
+   "t": 1795531574
+  },
+  "pincei:371325": {
+   "r": "duplicado",
+   "t": 1795531613
+  },
+  "pincei:371326": {
+   "r": "pulado:sem preco",
+   "t": 1795531619
+  },
+  "pincei:371327": {
+   "r": "pulado:sem preco",
+   "t": 1795531624
+  },
+  "pincei:371328": {
+   "r": "falha",
+   "t": 1795531634
+  },
+  "pincei:371329": {
+   "r": "pulado:sem preco",
+   "t": 1795532110
+  },
+  "pincei:371330": {
+   "r": "falha",
+   "t": 1795532146
+  },
+  "pincei:371331": {
+   "r": "falha",
+   "t": 1795532202
+  },
+  "pincei:371332": {
+   "r": "falha",
+   "t": 1795532239
+  },
+  "pincei:371333": {
+   "r": "falha",
+   "t": 1795532295
+  },
+  "pincei:371334": {
+   "r": "falha",
+   "t": 1795532332
+  },
+  "pincei:371335": {
+   "r": "pulado:sem preco",
+   "t": 1795532337
+  },
+  "pincei:371336": {
+   "r": "gerado",
+   "t": 1795533181
+  },
+  "pincei:371337": {
+   "r": "pulado:sem preco",
+   "t": 1795533186
+  },
+  "pincei:371338": {
+   "r": "gerado",
+   "t": 1795533261
+  },
+  "pincei:371339": {
+   "r": "gerado",
+   "t": 1795533361
+  },
+  "pincei:371340": {
+   "r": "gerado",
+   "t": 1795533413
+  },
+  "pincei:371341": {
+   "r": "gerado",
+   "t": 1795533465
+  },
+  "promosdaluh:324149": {
    "r": "falha",
    "t": 1795534266
   },
@@ -4870,7 +5099,127 @@
   },
   "promosdaluh:324665": {
    "r": "pulado:sacola laranja (bloqueado)",
-   "t": 1795534999
+   "t": 1795531634
+  },
+  "promosdaluh:324666": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795531634
+  },
+  "promosdaluh:324667": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795531634
+  },
+  "promosdaluh:324668": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795531634
+  },
+  "promosdaluh:324669": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795531634
+  },
+  "promosdaluh:324670": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795531634
+  },
+  "promosdaluh:324671": {
+   "r": "falha",
+   "t": 1795533939
+  },
+  "promosdaluh:324672": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795532379
+  },
+  "promosdaluh:324673": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795532379
+  },
+  "promosdaluh:324674": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795532379
+  },
+  "promosdaluh:324675": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795532379
+  },
+  "promosdaluh:324676": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795532379
+  },
+  "promosdaluh:324677": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795532379
+  },
+  "promosdaluh:324678": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795532379
+  },
+  "promosdaluh:324679": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795532379
+  },
+  "promosdaluh:324680": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795532379
+  },
+  "promosdaluh:324681": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795532379
+  },
+  "promosdaluh:324682": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795532379
+  },
+  "promosdaluh:324683": {
+   "r": "pulado:sem preco",
+   "t": 1795533549
+  },
+  "promosdaluh:324684": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795533549
+  },
+  "promosdaluh:324685": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795533549
+  },
+  "promosdaluh:324686": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795533549
+  },
+  "promosdaluh:324687": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795533549
+  },
+  "promosdaluh:324688": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795533549
+  },
+  "promosdaluh:324689": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795533549
+  },
+  "promosdaluh:324690": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795533549
+  },
+  "promosdaluh:324691": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795533549
+  },
+  "promosdaluh:324692": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795533549
+  },
+  "promosdaluh:324693": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795533549
+  },
+  "promosdaluh:324694": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795533549
+  },
+  "promotom:115225": {
+   "r": "pulado:loja desativada: magalu",
+   "t": 1795464737
   },
   "promosdaluh:324666": {
    "r": "pulado:sacola laranja (bloqueado)",
@@ -5378,7 +5727,55 @@
   },
   "promotom:115267": {
    "r": "pulado:sem preco",
-   "t": 1795534147
+   "t": 1795531452
+  },
+  "promotom:115268": {
+   "r": "pulado:mesmo link",
+   "t": 1795531636
+  },
+  "promotom:115269": {
+   "r": "pulado:periferico de PC",
+   "t": 1795531452
+  },
+  "promotom:115270": {
+   "r": "pulado:sem preco",
+   "t": 1795531452
+  },
+  "promotom:115271": {
+   "r": "pulado:loja desativada: magalu",
+   "t": 1795532059
+  },
+  "promotom:115272": {
+   "r": "pulado:periferico de PC",
+   "t": 1795532060
+  },
+  "promotom:115273": {
+   "r": "pulado:sem link",
+   "t": 1795533122
+  },
+  "promotom:115274": {
+   "r": "pulado:sem preco",
+   "t": 1795533122
+  },
+  "promotom:115275": {
+   "r": "pulado:repetido",
+   "t": 1795533787
+  },
+  "promotom:115276": {
+   "r": "pulado:repetido",
+   "t": 1795533743
+  },
+  "promotom:115277": {
+   "r": "pulado:sem link",
+   "t": 1795533122
+  },
+  "promotom:115278": {
+   "r": "gerado",
+   "t": 1795533833
+  },
+  "teniscertocupons:66187": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795463793
   },
   "promotom:115268": {
    "r": "pulado:mesmo link",
@@ -5440,161 +5837,21 @@
    "r": "gerado",
    "t": 1795530815
   },
-  "teniscertocupons:66204": {
+  "teniscertocupons:66202": {
    "r": "falha",
-   "t": 1795535386
+   "t": 1795532901
   },
-  "teniscertocupons:66206": {
+  "teniscertocupons:66203": {
    "r": "gerado",
-   "t": 1795536341
-  },
-  "teniscertocupons:66207": {
-   "r": "falha",
-   "t": 1795536714
-  },
-  "teniscertocupons:66208": {
-   "r": "falha",
-   "t": 1795536771
+   "t": 1795533045
   }
  },
  "fila": [
   {
    "canal": "fumotom",
-   "id": 52291,
-   "t": 1795531575.0,
-   "txt": "LYOR - Garrafa Térmica de Aço Inox Explorer Azul 650ml\n\nR$ 32\n\nhttps://www.amazon.com.br/dp/B0BPYTJ9KW?tag=promotom05-20\n\n-Anúncio"
-  },
-  {
-   "canal": "fumotom",
-   "id": 52299,
-   "t": 1795532879.0,
-   "txt": "Monitor Gamer Curvo Asus Tuf Vg34wqml5a Wqhd 250hz 0.5ms\n\nR$ 1646\n-CUPOM: TODO2411SITE\n\nhttps://meli.la/273tVAB\n\n-Anúncio"
-  },
-  {
-   "canal": "iuriindica",
-   "id": 124342,
-   "t": 1795533207.0,
-   "txt": "Monitor Gamer Curvo Asus Tuf Vg34wqml5a Wqhd 250hz 0.5ms\n\n💵  R$ 1646\n🎟  Cupom: TODO2411SITE\n✅  https://meli.la/2Btm3gs\n\n🤑 Grupos de promoções: https://iuriindica.com.br"
-  },
-  {
-   "canal": "fumotom",
-   "id": 52301,
-   "t": 1795533076.0,
-   "txt": "Projetor Hy300 Bivolt 4K com Wi-fi e Bluetooth compatível com Android e iOs\n\nR$ 142\n-Resgate todos os cupons desta página:\nhttps://s.shopee.com.br/AUvpWUBMvI\n\n-Link produto:\nhttps://s.shopee.com.br/1gKR0FivX3\n\n-Anúncio"
-  },
-  {
-   "canal": "iuriindica",
-   "id": 124341,
-   "t": 1795533200.0,
-   "txt": "Projetor Hy300 Bivolt 4K com Wi-fi e Bluetooth compatível com Android e iOs\n\nRESGATE TODOS CUPONS DESSA PAGINA: https://s.shopee.com.br/5LDjN8nGKs\n\n💵  R$ 142\n✅  https://s.shopee.com.br/1CD1L7ZBM?lp=aff\n\n🤑 Grupos de promoções: https://iuriindica.com.br"
-  },
-  {
-   "canal": "teniscertocupons",
-   "id": 66202,
-   "t": 1795531923.0,
-   "txt": "❗️ ALERTA DE REPOSIÇÃO!!\n\n💢ASICS SONICBLAST fem.\n\nde R$ 1.399,90 por R$ 589,99*\n\n*️⃣No Pix ou em até 10x de R$ 60,00\n\n🔗 https://tenis.cc/4iXrLbj\n\n🚺 Tamanhos: 34, 35, 36, 37, 38, 39, 40\n\n🛒 Produto vendido pela loja oficial da ASICS via Mercado Livre\n\nNÍVEL DE AMORTECIMENTO:\n🟦🟦🟦🟦⬜️⬜️ (8 - Macio)\n\n🔎 ASICS Sonicblast\n▫️Categoria: Super Treinos\n▫️Drop: 8 mm (46 / 38 mm)\n▫️Peso: 246g (40M)\n▫️Placa ASTROPLATE (Pebax)\n▫️FF TURBO 2 + FF BLAST MAX\n▫️Modelo indicado para treinos diários, treinos de velocidade e provas\n\n❗️Recomendamos escolher um número maior que seu tamanho casual\n\n📱 Vídeo no YouTube:\nhttp://tenis.cc/41xo4ju\n\n🚚 Consulte a condição de frete para a sua região"
-  },
-  {
-   "canal": "teniscertocupons",
-   "id": 66203,
-   "t": 1795531993.0,
-   "txt": "❗️ ALERTA DE REPOSIÇÃO!!\n\n💢ASICS SONICBLAST masc.\n\nde R$ 1.399,90 por R$ 589,99*\n\n*️⃣No Pix ou em até 10x de R$ 60,00\n\n🔗 https://tenis.cc/4CkwxHj\n\n🚹️️ Tamanhos: 39, 40, 41, 42, 43, 44\n\n🛒 Produto vendido pela loja oficial da ASICS via Mercado Livre\n\nNÍVEL DE AMORTECIMENTO:\n🟦🟦🟦🟦⬜️⬜️ (8 - Macio)\n\n🔎 ASICS Sonicblast\n▫️Categoria: Super Treinos\n▫️Drop: 8 mm (46 / 38 mm)\n▫️Peso: 246g (40M)\n▫️Placa ASTROPLATE (Pebax)\n▫️FF TURBO 2 + FF BLAST MAX\n▫️Modelo indicado para treinos diários, treinos de velocidade e provas\n\n❗️Recomendamos escolher um número maior que seu tamanho casual\n\n📱 Vídeo no YouTube:\nhttp://tenis.cc/41xo4ju\n\n🚚 Consulte a condição de frete para a sua região"
-  },
-  {
-   "canal": "apromodaluh",
-   "id": 159118,
-   "t": 1795530853.0,
-   "txt": "50 POLEGADAS NESSE PREÇO!! 😱🆘\n\n✨ Smart Tv Hisense 4k 50 Polegadas 50qd6sf Hi-qled\n\n🔥 *por R$ 1.889,00* \n💳 ou 10x de R$ 188,99\n\n🏷️ Cupom: `TECHHOME`\n\n✅ Loja Oficial SELECTKASA no ML\n\n🛒 https://meli.la/1c1Q5dN"
-  },
-  {
-   "canal": "promotom",
-   "id": 115276,
-   "t": 1795532570.0,
-   "txt": "Volante Gamer Logitech G920 Driving Force Xbox e PC Preto\n\nR$ 1329\n-CUPOM: TODO2411SITE\n\nhttps://meli.la/2hkBmh1\n\n-Anúncio"
-  },
-  {
-   "canal": "fumotom",
-   "id": 52297,
-   "t": 1795532820.0,
-   "txt": "Monitor Gamer Asus Rog Strix 27 , Qhd, 220hz, 0.3ms,\n\nR$ 1254\n-CUPOM: TODO2411SITE\n\nhttps://meli.la/2T88Hz4\n\n-Anúncio"
-  },
-  {
-   "canal": "iuriindica",
-   "id": 124338,
-   "t": 1795533046.0,
-   "txt": "Monitor Gamer Asus Rog Strix 27 , Qhd, 220hz, 0.3ms,\n\n💵 R$ 1254\n🎟️ Cupom: TODO2411SITE\n✅ https://meli.la/1R9E7zR\n\n🤑 Grupos de ofertas: https://iuriindica.com.br"
-  },
-  {
-   "canal": "promotom",
-   "id": 115284,
-   "t": 1795534900.0,
-   "txt": "Robô Aspirador Kabum Smart K800 Pro Mapeamento Laser Autolimpante 13000Pa\n\nR$ 839\n-CUPOM: TECHHOME ou DESCONTOSMELI\n\n-110v\nhttps://meli.la/2Mm4oXm\nhttps://meli.la/1sHKwd2\n\n-220v\nhttps://meli.la/13cEGzN\nhttps://meli.la/24atD8L\n\n-Anúncio"
-  },
-  {
-   "canal": "fumotom",
    "id": 52300,
    "t": 1795533058.0,
    "txt": "Controle Nintendo Switch Pro\n\nR$ 257\n\nhttps://www.amazon.com.br/dp/B08M141D9N?tag=promotom05-20\n\n-Anúncio"
-  },
-  {
-   "canal": "iuriindica",
-   "id": 124340,
-   "t": 1795533197.0,
-   "txt": "Controle Nintendo Switch Pro\n\n💵  R$ 257\n✅  https://www.amazon.com.br/dp/B08M141D9N/?tag=afiliado333-20\n\n🤑 Grupos de promoções: https://iuriindica.com.br"
-  },
-  {
-   "canal": "apromodaluh",
-   "id": 159125,
-   "t": 1795531907.0,
-   "txt": "AIR PODS 5! 😱🆘\n\n✨ Apple AirPods 5 com Caixa de Carregamento Wireless ​​​​​​​\n\n~de R$ 1.699,00~\n🔥 *por R$ 1.419,00* 😱\n💳 ou 10x de R$ 141,90 sem juros\n\n🛒 https://link.amazon/B034Wc38P\n\n📌 Assine PRIME por 30 dias GRATIS aqui: https://amzn.to/3YeTytk"
-  },
-  {
-   "canal": "fumotom",
-   "id": 52306,
-   "t": 1795533580.0,
-   "txt": "Monitor Gamer Curvo AOC AGON QUAD 32\" 180Hz 0,5ms HDR10 CQ32G4E\n\nR$ 890\n\nhttps://www.amazon.com.br/dp/B0FGDJTN6V?tag=promotom05-20\n\n-Anúncio"
-  },
-  {
-   "canal": "iuriindica",
-   "id": 124347,
-   "t": 1795533720.0,
-   "txt": "Monitor Gamer Curvo AOC AGON QUAD 32\" 180Hz 0,5ms HDR10 CQ32G4E\n\n💵  R$ 890\n✅  https://www.amazon.com.br/dp/B0FGDJTN6V/?tag=afiliado333-20\n\n🤑 Grupos de promoções: https://iuriindica.com.br"
-  },
-  {
-   "canal": "promotom",
-   "id": 115275,
-   "t": 1795532520.0,
-   "txt": "Volante Gamer G29 Driving Force Logitech G\n\nR$ 1369 - Sem Juros\n-CUPOM: TODO2411SITE\n\nhttps://meli.la/29izzGX\n\n•R$ 1319 - PIX\nhttps://cutt.ly/DyDmmHBm\n\n-Anúncio"
-  },
-  {
-   "canal": "promotom",
-   "id": 115278,
-   "t": 1795532636.0,
-   "txt": "Bundle Nintendo Switch Oled + Super Mario Bros Wonder + 3 Meses de Assinatura Nintendo Switch Online\n\nR$ 1598\n\nhttps://www.amazon.com.br/dp/B0FR6PC1FB?tag=promotom05-20\n\n-Anúncio"
-  },
-  {
-   "canal": "iuriindica",
-   "id": 124333,
-   "t": 1795533036.0,
-   "txt": "Bundle Nintendo Switch OLED + Super Mario Bros Wonder + 3 Meses de Assinatura Nintendo Switch Online\n\n💵 R$ 1598 no PIX\n✅ https://aoferta.net/003gMMbS-Amazon\n\n🤑 Grupos de ofertas: https://iuriindica.com.br"
-  },
-  {
-   "canal": "fumotom",
-   "id": 52304,
-   "t": 1795533473.0,
-   "txt": "Legging Motum Brushback Legging ReebokFeminino\n\nR$ 99\n\nhttps://www.amazon.com.br/dp/B0FN4S3PYP?tag=promotom05-20\n\n-Anúncio"
-  },
-  {
-   "canal": "promosdaluh",
-   "id": 324671,
-   "t": 1795531482.0,
-   "txt": "🚨 ALERTA CUPOM MERCADO LIVRE 🚨\n\nUse o cupom 🎟️VOCEDEZ e garanta 10% OFF em compras acima de R$79, limite R$30!\n\n🔗 Acesse aqui: https://promosdaluh.com/p/phogpy/\n\n⚠️ A oferta pode acabar a qualquer momento!\n\n📍 GRUPOS COM VAGAS: https://promosdaluh.com/bio"
-  },
-  {
-   "canal": "teniscertocupons",
-   "id": 66205,
-   "t": 1795534000.0,
-   "txt": "🔝 TÊNIS CHINÊS COM ALTO AMORTECIMENTO!!\n\n💢QIAODAN TG 1.0 unissex\n\n🔥 por R$ 302,17 no Pix* \n\n*️⃣Impostos já inclusos\n\n🔗 https://tenis.cc/4BZJS83\n\n🎟 sem necessidade de cupom\n\n🚻 Tamanhos: 37, 38, 39, 40, 41, 42, 43\n\n🛒 Produto vendido pela Shopee\n\nNÍVEL DE AMORTECIMENTO:\n🟦🟦🟦🟦⬜️⬜️ (8 - Macio)\n\n🔎 Qiaodan TG 1.0\n▫️Categoria: Amortecimento\n▫️Drop: 7 mm \n▫️Peso: 251g (40M)\n▫️Amortecimento em Kung Fu Pro\n▫️Modelo indicado para rodagens e treinos diários\n\n❗️Recomendamos escolher um número maior que seu tamanho casual\n\n✈️ Compra internacional"
   }
  ],
  "flags": {
@@ -8620,6 +8877,423 @@
  },
  "postados": [
   {
+   "ids": [
+    "B0H343PT2X"
+   ],
+   "p": 39.9,
+   "t": 1795440297,
+   "w": [
+    "700ml",
+    "aperitivo",
+    "ramazzotti",
+    "rosato"
+   ]
+  },
+  {
+   "ids": [
+    "B0GTBH7JDG"
+   ],
+   "p": 39.48,
+   "t": 1795440347,
+   "w": [
+    "350ml",
+    "cerveja",
+    "fish",
+    "flying",
+    "lata"
+   ]
+  },
+  {
+   "ids": [],
+   "p": 129.0,
+   "t": 1795440405,
+   "w": [
+    "fone",
+    "ouvido",
+    "preto",
+    "soundcore"
+   ]
+  },
+  {
+   "ids": [],
+   "p": 810.96,
+   "t": 1795440508,
+   "w": [
+    "branco",
+    "buds4",
+    "fone",
+    "galaxy",
+    "gemini",
+    "ouvido",
+    "samsung"
+   ]
+  },
+  {
+   "ids": [],
+   "p": 194.0,
+   "t": 1795440616,
+   "w": [
+    "600w",
+    "7zp6b22",
+    "a600dn",
+    "ativo",
+    "cabo",
+    "fonte",
+    "mag",
+    "msi",
+    "pfc",
+    "plus",
+    "preto",
+    "white"
+   ]
+  },
+  {
+   "ids": [],
+   "p": 160.0,
+   "t": 1795440733,
+   "w": [
+    "500w",
+    "ativo",
+    "fonte",
+    "gamer",
+    "mode",
+    "pfc",
+    "preto",
+    "psu",
+    "rise",
+    "zeus"
+   ]
+  },
+  {
+   "ids": [],
+   "p": 228.0,
+   "t": 1795440834,
+   "w": [
+    "650w",
+    "ativo",
+    "bn65a",
+    "bronze",
+    "cabo",
+    "fonte",
+    "mag",
+    "msi",
+    "pfc",
+    "plus",
+    "preto"
+   ]
+  },
+  {
+   "ids": [],
+   "p": 245.0,
+   "t": 1795440933,
+   "w": [
+    "1cbrr",
+    "650w",
+    "ativo",
+    "fonte",
+    "gigabyte",
+    "gold",
+    "p650g",
+    "p65g5",
+    "pfc",
+    "pg5",
+    "plus",
+    "preto"
+   ]
+  },
+  {
+   "ids": [],
+   "p": 466.0,
+   "t": 1795441032,
+   "w": [
+    "850w",
+    "ativo",
+    "core",
+    "fonte",
+    "gold",
+    "modular",
+    "pfc",
+    "plus",
+    "preto",
+    "reactor",
+    "xpg"
+   ]
+  },
+  {
+   "ids": [],
+   "p": 168.8,
+   "t": 1795441134,
+   "w": [
+    "900g",
+    "grego",
+    "maracuja",
+    "mousse",
+    "nutrata",
+    "pote",
+    "whey"
+   ]
+  },
+  {
+   "ids": [],
+   "p": 729.0,
+   "t": 1795441281,
+   "w": [
+    "240hz",
+    "272pf",
+    "5ms",
+    "ajuste",
+    "altura",
+    "freesync",
+    "full",
+    "gamer",
+    "ips",
+    "mag",
+    "monitor",
+    "msi",
+    "premium",
+    "preto",
+    "rapid",
+    "speakers",
+    "x24"
+   ]
+  },
+  {
+   "ids": [],
+   "p": 104.41,
+   "t": 1795441363,
+   "w": [
+    "1000w",
+    "aspirador",
+    "clean",
+    "easy",
+    "philco",
+    "vertical"
+   ]
+  },
+  {
+   "ids": [
+    "984950642-50364066070"
+   ],
+   "p": 54.89,
+   "t": 1795441437,
+   "w": [
+    "220v",
+    "chaleira",
+    "eletrica",
+    "moderno",
+    "oliverhome",
+    "termica"
+   ]
+  },
+  {
+   "ids": [
+    "B08YZF9RK5"
+   ],
+   "p": 23.66,
+   "t": 1795441495,
+   "w": [
+    "400ml",
+    "body",
+    "care",
+    "corporal",
+    "hidratante",
+    "intensive",
+    "neutrogena"
+   ]
+  },
+  {
+   "ids": [
+    "78878036"
+   ],
+   "p": 323.0,
+   "t": 1795441579,
+   "w": [
+    "bicicleta",
+    "bike",
+    "display",
+    "ergometrica",
+    "exercicios",
+    "lcd",
+    "spinning",
+    "volante"
+   ]
+  },
+  {
+   "ids": [],
+   "p": 349.0,
+   "t": 1795441706,
+   "w": [
+    "controle",
+    "dualsense",
+    "fio",
+    "hyperpop",
+    "ps5",
+    "red",
+    "sony",
+    "techno"
+   ]
+  },
+  {
+   "ids": [],
+   "p": 53.85,
+   "t": 1795441875,
+   "w": [
+    "casual",
+    "conjunto",
+    "feminino",
+    "fitness"
+   ]
+  },
+  {
+   "ids": [],
+   "p": 28.99,
+   "t": 1795441962,
+   "w": [
+    "180kg",
+    "balanca",
+    "bioimpedancia",
+    "bluetooth",
+    "corporal",
+    "profissional"
+   ]
+  },
+  {
+   "ids": [
+    "17512826"
+   ],
+   "p": 465.8,
+   "t": 1795442036,
+   "w": [
+    "125ml",
+    "eau",
+    "gaultier",
+    "jean",
+    "male",
+    "masculino",
+    "parfum",
+    "paul"
+   ]
+  },
+  {
+   "ids": [],
+   "p": 141.55,
+   "t": 1795442161,
+   "w": [
+    "chunta",
+    "corrida",
+    "tenis"
+   ]
+  },
+  {
+   "ids": [],
+   "p": 389.22,
+   "t": 1795442316,
+   "w": [
+    "controle",
+    "dualsense",
+    "fio",
+    "marvel",
+    "ps5",
+    "sony",
+    "wolverine"
+   ]
+  },
+  {
+   "ids": [],
+   "p": 251.96,
+   "t": 1795442467,
+   "w": [
+    "attack",
+    "masculino",
+    "oakley",
+    "tenis"
+   ]
+  },
+  {
+   "ids": [],
+   "p": 82.0,
+   "t": 1795442577,
+   "w": [
+    "50ml",
+    "deo",
+    "ilia",
+    "jardim",
+    "natura",
+    "parfum",
+    "secreto"
+   ]
+  },
+  {
+   "ids": [],
+   "p": 549.0,
+   "t": 1795442659,
+   "w": [
+    "90ml",
+    "edp",
+    "paradoxe",
+    "perfume",
+    "prada"
+   ]
+  },
+  {
+   "ids": [],
+   "p": 2815.0,
+   "t": 1795442742,
+   "w": [
+    "03ms",
+    "240hz",
+    "ajustavel",
+    "altura",
+    "freesync",
+    "gamer",
+    "gigabyte",
+    "go27q24",
+    "hdr",
+    "monitor",
+    "oled",
+    "preto",
+    "qhd",
+    "sync",
+    "usb"
+   ]
+  },
+  {
+   "ids": [],
+   "p": 539.99,
+   "t": 1795442841,
+   "w": [
+    "asics",
+    "pela",
+    "produto",
+    "vendido"
+   ]
+  },
+  {
+   "ids": [],
+   "p": 3079.0,
+   "t": 1795442961,
+   "w": [
+    "1ms",
+    "240hz",
+    "400hz",
+    "488hz",
+    "asus",
+    "fhd",
+    "gamer",
+    "hdr10",
+    "mode",
+    "monitor",
+    "preto",
+    "qhd",
+    "rog",
+    "strix",
+    "sync",
+    "triple",
+    "usb",
+    "xg27ucmg"
+   ]
+  },
+  {
    "ids": [],
    "p": 1275.0,
    "t": 1795443063,
@@ -10634,185 +11308,352 @@
   },
   {
    "ids": [
-    "63335606"
+    "B0GR1DZZZX"
    ],
-   "p": 850.41,
-   "t": 1795535730,
+   "p": 233.0,
+   "t": 1795531461,
    "w": [
-    "128gb",
-    "4gb",
-    "a17",
-    "galaxy",
-    "ram",
-    "samsung",
-    "smartphone"
-   ]
-  },
-  {
-   "ids": [
-    "B0FY6PBWWJ"
-   ],
-   "p": 358.89,
-   "t": 1795535749,
-   "w": [
-    "controle",
-    "dualsense",
-    "fio",
-    "galactic",
-    "playstation",
-    "purple"
-   ]
-  },
-  {
-   "ids": [
-    "64809074"
-   ],
-   "p": 58.0,
-   "t": 1795535844,
-   "w": [
-    "bowls",
-    "bumper",
-    "conjunto",
-    "inox",
-    "tampa",
-    "tigela"
-   ]
-  },
-  {
-   "ids": [
-    "B0H1F4TQ7C"
-   ],
-   "p": 242.99,
-   "t": 1795535994,
-   "w": [
-    "agua",
+    "730bt",
+    "azul",
     "bluetooth",
-    "branca",
-    "caixa",
+    "ear",
+    "fio",
+    "fone",
     "jbl",
-    "portatil",
-    "prova",
-    "som"
+    "over",
+    "tune"
+   ]
+  },
+  {
+   "ids": [
+    "B074LSL2VG"
+   ],
+   "p": 22.54,
+   "t": 1795531528,
+   "w": [
+    "250ml",
+    "capilar",
+    "cosmetics",
+    "lola",
+    "morte",
+    "reparacao",
+    "spray",
+    "subita",
+    "total"
+   ]
+  },
+  {
+   "ids": [
+    "24100063"
+   ],
+   "p": 77.44,
+   "t": 1795531599,
+   "w": [
+    "audio",
+    "extensao",
+    "intelbras",
+    "porteiro",
+    "video"
    ]
   },
   {
    "ids": [],
-   "p": 144.99,
-   "t": 1795536044,
+   "p": 262.64,
+   "t": 1795532380,
    "w": [
-    "700ml",
-    "blender",
+    "adidas",
+    "corrida",
+    "liso",
+    "masculino",
+    "musgo",
+    "questar",
+    "tenis",
+    "verde"
+   ]
+  },
+  {
+   "ids": [],
+   "p": 224.99,
+   "t": 1795532481,
+   "w": [
+    "adidas",
+    "azul",
+    "feminino",
+    "liso",
+    "response",
+    "runner",
+    "tenis"
+   ]
+  },
+  {
+   "ids": [],
+   "p": 457.0,
+   "t": 1795532587,
+   "w": [
+    "120hz",
+    "1ms",
+    "acer",
+    "acervisioncare",
+    "adaptive",
+    "design",
+    "entradas",
+    "full",
+    "game",
+    "gamer",
+    "hdmi",
+    "ips",
+    "kg3",
+    "mode",
+    "monitor",
+    "nitro",
+    "protecao",
+    "resposta",
+    "sync",
+    "tecnologia",
+    "tela",
+    "visual",
+    "vrb",
+    "zeroframe"
+   ]
+  },
+  {
+   "ids": [],
+   "p": 452.0,
+   "t": 1795532674,
+   "w": [
+    "144hz",
+    "1ms",
+    "acer",
+    "displayport",
+    "full",
+    "gamer",
+    "hdmi",
+    "ips",
+    "kg243y",
+    "monitor",
+    "nitro",
+    "p1bip",
+    "vrb",
+    "zeroframe"
+   ]
+  },
+  {
+   "ids": [],
+   "p": 452.0,
+   "t": 1795532759,
+   "w": [
+    "144hz",
+    "1ms",
+    "acer",
+    "fhd",
+    "gamer",
+    "kg243y",
+    "led",
+    "monitor",
+    "nitro"
+   ]
+  },
+  {
+   "ids": [
+    "B0842ZCSMV"
+   ],
+   "p": 63.0,
+   "t": 1795532796,
+   "w": [
+    "aco",
+    "casamento",
+    "cozinha",
+    "decoracao",
+    "enxoval",
+    "faqueiro",
     "inox",
-    "laminas",
-    "liquidificador",
-    "portatil",
-    "seguranca",
-    "trava",
-    "wap",
-    "wbg600"
-   ]
-  },
-  {
-   "ids": [],
-   "p": 429.99,
-   "t": 1795536153,
-   "w": [
-    "antiaderente",
-    "areia",
-    "brinox",
-    "cabo",
-    "ceramic",
-    "inducao",
-    "jogo",
-    "life",
-    "panelas",
+    "jogos",
+    "lyor",
+    "mesa",
     "pecas",
-    "plus",
-    "smart",
-    "soft",
-    "touch"
+    "positano",
+    "posta",
+    "rose",
+    "talheres",
+    "utensilios"
    ]
   },
   {
-   "ids": [],
-   "p": 549.99,
-   "t": 1795536264,
+   "ids": [
+    "6191165622"
+   ],
+   "p": 589.99,
+   "t": 1795532948,
    "w": [
     "tamanhos"
    ]
   },
   {
-   "ids": [],
-   "p": 1349.0,
-   "t": 1795536370,
+   "ids": [
+    "B0GWN59JB6"
+   ],
+   "p": 107.39,
+   "t": 1795533133,
    "w": [
-    "180hz",
+    "bowls",
+    "conjunto",
+    "inox",
+    "plastica",
+    "tampa",
+    "tigelas"
+   ]
+  },
+  {
+   "ids": [
+    "21555776"
+   ],
+   "p": 47.9,
+   "t": 1795533210,
+   "w": [
+    "caps",
+    "growth",
+    "multivitaminico",
+    "supplements"
+   ]
+  },
+  {
+   "ids": [
+    "36190759"
+   ],
+   "p": 121.25,
+   "t": 1795533285,
+   "w": [
+    "bivolt",
+    "eleganza",
+    "escova",
+    "plus",
+    "secadora"
+   ]
+  },
+  {
+   "ids": [
+    "B074L9L5KZ"
+   ],
+   "p": 40.41,
+   "t": 1795533367,
+   "w": [
+    "ambidestro",
+    "compacto",
+    "design",
+    "fio",
+    "logitech",
+    "m170",
+    "mouse"
+   ]
+  },
+  {
+   "ids": [
+    "B0HD89CYTS"
+   ],
+   "p": 56.99,
+   "t": 1795533418,
+   "w": [
+    "10a",
+    "filtro",
+    "linha",
+    "tomadas",
+    "usb"
+   ]
+  },
+  {
+   "ids": [],
+   "p": 306.0,
+   "t": 1795533549,
+   "w": [
+    "30ml",
+    "edp",
+    "guess",
+    "iconic",
+    "perfume"
+   ]
+  },
+  {
+   "ids": [
+    "B0BPYTJ9KW"
+   ],
+   "p": 32.0,
+   "t": 1795533631,
+   "w": [
+    "650ml",
+    "aco",
+    "azul",
+    "explorer",
+    "garrafa",
+    "inox",
+    "lyor",
+    "termica"
+   ]
+  },
+  {
+   "ids": [],
+   "p": 1646.0,
+   "t": 1795533703,
+   "w": [
+    "250hz",
     "5ms",
-    "adaptive",
-    "agon",
-    "ajustavel",
-    "altura",
-    "aoc",
+    "asus",
     "curvo",
-    "fast",
+    "gamer",
     "monitor",
-    "preto",
-    "sync",
-    "u34g4c",
-    "ultrawide",
+    "tuf",
+    "vg34wqml5a",
     "wqhd"
    ]
   },
   {
    "ids": [],
-   "p": 269.91,
-   "t": 1795536458,
+   "p": 1254.0,
+   "t": 1795533744,
    "w": [
-    "biona",
-    "ceramica",
-    "donna",
-    "jantar",
-    "jogo",
-    "margaridas",
-    "pecas"
+    "220hz",
+    "3ms",
+    "asus",
+    "gamer",
+    "monitor",
+    "qhd",
+    "rog",
+    "strix"
    ]
   },
   {
-   "ids": [],
-   "p": 873.0,
-   "t": 1795536596,
+   "ids": [
+    "B0FR6PC1FB"
+   ],
+   "p": 1598.0,
+   "t": 1795533787,
    "w": [
-    "1ms",
-    "25g64",
-    "300hz",
-    "freesync",
-    "full",
-    "g64",
-    "gamer",
-    "gtg",
-    "hdr",
-    "led",
-    "mini",
-    "monitor",
-    "nits",
-    "polegadas",
-    "tcl"
+    "assinatura",
+    "bros",
+    "bundle",
+    "mario",
+    "meses",
+    "nintendo",
+    "oled",
+    "online",
+    "super",
+    "switch",
+    "wonder"
    ]
   }
  ],
  "resumo_dia": "2026-11-23",
  "tpl_ultimo": 2032135,
- "ult_ciclo": 1795536796.216442,
+ "ult_ciclo": 1795533964.157496,
  "ultimo_id": {
-  "apromodaluh": 159143,
-  "fumotom": 52313,
-  "iuriindica": 124349,
-  "juaocupons": 27744,
-  "perfumepromo": 10166,
-  "pincei": 371354,
-  "promosdaluh": 324762,
-  "promotom": 115285,
-  "teniscertocupons": 66208,
+  "apromodaluh": 159126,
+  "fumotom": 52300,
+  "iuriindica": 124338,
+  "juaocupons": 27743,
+  "perfumepromo": 10163,
+  "pincei": 371341,
+  "promosdaluh": 324694,
+  "promotom": 115278,
+  "teniscertocupons": 66203,
   "teste": 1795214930
  }
 }

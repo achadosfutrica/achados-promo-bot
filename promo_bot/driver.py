@@ -177,6 +177,30 @@ class Driver:
                 raise Falha("pergunta do cadastro manual nao reconhecida: %r | botoes=%s" % (tela.texto[:200], tela.botoes))
         raise Falha("cadastro manual nao terminou")
 
+    @staticmethod
+    def _trava_valor(tela, preco_txt):
+        try:
+            ours = T._para_float(*re.match(r"\s*([0-9.]+)(?:,([0-9]{1,2}))?", preco_txt.replace(".", "")).groups())
+            linhas = [x for x in ((tela.texto or "").split("\n") + list(tela.botoes or [])) if x]
+            atual = antigo = 0.0
+            for ln in linhas:
+                n = T.norm(ln).strip(" *_`:-")
+                m = T.PRECO_RE.search(ln)
+                if not m:
+                    continue
+                v = T._para_float(m.group(1), m.group(2))
+                if re.match(r"(por|preco|valor|💸)", n) and not re.search(r"\d+\s*x|parcel|pix|vista", n) and not atual:
+                    atual = v
+                elif re.match(r"(de|antes|preco antigo|preco de)\b", n) and not antigo:
+                    antigo = v
+        except Exception:  # noqa
+            return
+        if atual and ours:
+            if ours < atual * 0.85 or ours > atual * 1.05:
+                raise Falha("VALOR NAO BATE: post R$ %s x loja R$ %s - nao gerei" % (preco_txt, ("%.2f" % atual).replace(".", ",")))
+        elif antigo and ours and ours < antigo * 0.3:
+            raise Falha("VALOR NAO CONFERIDO: o Divulgador nao leu o preco atual da loja; post R$ %s vs De R$ %s - nao gerei" % (preco_txt, ("%.2f" % antigo).replace(".", ",")))
+
     # --- fluxo
     def gerar(self, link, preco_txt, cupom=None, extra=None, modo="live", loja=None, dados=None):
         """Retorna ('gerado'|'cancelado_teste', detalhe). Levanta Falha em qualquer anomalia."""
@@ -228,6 +252,10 @@ class Driver:
                 tela = self.conv.clicar(b_de)
                 tela = self.conv.responder(dados["preco_antigo"])
                 tela = self._revisar(tela)
+
+            # 2a) TRAVA DE VALOR: so cancela se o preco do post NAO bater com o preco REAL da loja (lido pelo Divulgador).
+            #     Se bater (mesmo sendo bug/preco baixo), segue normal.
+            self._trava_valor(tela, preco_txt)
 
             # 2) PREÇO POR ÚLTIMO
             tela = self._clicar(tela, "por", "preco", "preço", "valor")
