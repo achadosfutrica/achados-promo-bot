@@ -1,40 +1,52 @@
 {
- "cmd_ultimo": 2050976,
+ "cmd_ultimo": 2051230,
  "contagem_dia": 62,
  "cupom_min": {
   "1124MAISME": {
    "min": 499.0,
-   "t": 1795555341.7578793,
+   "t": 1795556711.9317212,
    "tipo": "fixed",
    "valor": 70.0
   },
   "2STTRTE": {
    "min": 150.0,
-   "t": 1795555341.7565756,
+   "t": 1795556711.9304059,
    "tipo": "percent",
    "valor": 20.0
   },
   "2U6U32Q": {
    "min": 2699.0,
-   "t": 1795555339.6622195,
+   "t": 1795556710.0729313,
    "tipo": "fixed",
    "valor": 300.0
   },
   "50NABLACK": {
    "min": 249.0,
-   "t": 1795555341.7594934,
+   "t": 1795556711.9333332,
    "tipo": "fixed",
    "valor": 50.0
   },
+  "BEMVINDOZAP": {
+   "min": 90.0,
+   "t": 1795556709.8626454,
+   "tipo": "fixed",
+   "valor": 40.0
+  },
   "BLACK150": {
    "min": 1499.0,
-   "t": 1795555341.7571957,
+   "t": 1795556711.9310133,
    "tipo": "fixed",
    "valor": 150.0
   },
+  "BLACK40": {
+   "min": 199.0,
+   "t": 1795557602.3755305,
+   "tipo": "fixed",
+   "valor": 40.0
+  },
   "BLACKCOM50": {
    "min": 249.0,
-   "t": 1795555341.759458,
+   "t": 1795556711.9332979,
    "tipo": "fixed",
    "valor": 50.0
   },
@@ -46,7 +58,7 @@
   },
   "CUP0MD04DM2026": {
    "min": 120.0,
-   "t": 1795555341.7568195,
+   "t": 1795556711.9306455,
    "tipo": "fixed",
    "valor": 50.0
   },
@@ -58,31 +70,37 @@
   },
   "CUPOMBLACK99": {
    "min": 199.0,
-   "t": 1795555341.7594147,
+   "t": 1795556711.9332542,
    "tipo": "fixed",
    "valor": 99.0
   },
+  "CUPOMMAGALU150": {
+   "min": 399.0,
+   "t": 1795558078.7190764,
+   "tipo": "fixed",
+   "valor": 150.0
+  },
   "CURTAMELI": {
    "min": 199.0,
-   "t": 1795555341.9572763,
+   "t": 1795556712.1219037,
    "tipo": "percent",
    "valor": 10.0
   },
   "D14B0MC0MCUP0M": {
    "min": 60.0,
-   "t": 1795555341.7588964,
+   "t": 1795556711.932745,
    "tipo": "fixed",
    "valor": 20.0
   },
   "ESPETACULO50": {
    "min": 249.0,
-   "t": 1795555341.7567809,
+   "t": 1795556711.9306061,
    "tipo": "fixed",
    "valor": 50.0
   },
   "ESPORTE2311": {
    "min": 299.0,
-   "t": 1795555341.759082,
+   "t": 1795556711.9329176,
    "tipo": "percent",
    "valor": 20.0
   },
@@ -93,26 +111,26 @@
    "valor": 10.0
   },
   "ESPORTES15": {
-   "min": 159.0,
-   "t": 1795555341.9585,
+   "min": 299.0,
+   "t": 1795556710.2585933,
    "tipo": "percent",
    "valor": 15.0
   },
   "ESQUENTABF": {
    "min": 27.0,
-   "t": 1795555341.7585337,
+   "t": 1795556711.9323678,
    "tipo": "fixed",
    "valor": 12.0
   },
   "FOMEBLACK": {
    "min": 27.0,
-   "t": 1795555341.759587,
+   "t": 1795556711.933435,
    "tipo": "fixed",
    "valor": 12.0
   },
   "FULL2411": {
    "min": 159.0,
-   "t": 1795555341.757908,
+   "t": 1795556711.9317503,
    "tipo": "percent",
    "valor": 25.0
   },
@@ -142,19 +160,19 @@
   },
   "LIVROSJOGOS2311": {
    "min": 200.0,
-   "t": 1795555341.758766,
+   "t": 1795556711.9326127,
    "tipo": "percent",
    "valor": 20.0
   },
   "M0D4TUHS": {
-   "min": 259.0,
-   "t": 1795555341.958499,
+   "min": 159.0,
+   "t": 1795556711.930974,
    "tipo": "percent",
    "valor": 15.0
   },
   "M3LH0R4PP": {
    "min": 60.0,
-   "t": 1795555341.7575235,
+   "t": 1795556711.931345,
    "tipo": "fixed",
    "valor": 20.0
   },
@@ -166,7 +184,7 @@
   },
   "MELIMAISXPT1122": {
    "min": 499.0,
-   "t": 1795555341.7590811,
+   "t": 1795556711.9329166,
    "tipo": "percent",
    "valor": 15.0
   },
@@ -184,7 +202,7 @@
   },
   "OFERTAPRATECH": {
    "min": 2699.0,
-   "t": 1795555341.067843,
+   "t": 1795556711.338124,
    "tipo": "fixed",
    "valor": 300.0
   },
@@ -196,19 +214,25 @@
   },
   "OFICIAIS2311": {
    "min": 89.0,
-   "t": 1795555341.7590818,
+   "t": 1795556711.9329174,
    "tipo": "percent",
    "valor": 10.0
   },
   "OFICIAIS2411": {
    "min": 89.0,
-   "t": 1795555341.757879,
+   "t": 1795556711.931721,
    "tipo": "percent",
    "valor": 10.0
   },
+  "P1XDAY15AF": {
+   "min": 999.0,
+   "t": 1795556711.725419,
+   "tipo": "fixed",
+   "valor": 100.0
+  },
   "PECHINCHOULAR": {
    "min": 150.0,
-   "t": 1795555341.9553103,
+   "t": 1795556712.120118,
    "tipo": "percent",
    "valor": 20.0
   },
@@ -220,13 +244,13 @@
   },
   "PREBLACK": {
    "min": 27.0,
-   "t": 1795555339.8445184,
+   "t": 1795556710.258428,
    "tipo": "fixed",
    "valor": 12.0
   },
   "PRIME70OFF": {
    "min": 499.0,
-   "t": 1795555341.7575586,
+   "t": 1795556711.9313805,
    "tipo": "fixed",
    "valor": 70.0
   },
@@ -250,73 +274,73 @@
   },
   "S3M4N4BL4CKSH0P33": {
    "min": 60.0,
-   "t": 1795555341.758932,
+   "t": 1795556711.932781,
    "tipo": "fixed",
    "valor": 20.0
   },
   "SITE2311TODO": {
    "min": 999.0,
-   "t": 1795555341.7585895,
+   "t": 1795556711.9324307,
    "tipo": "fixed",
    "valor": 120.0
   },
   "SITETODO2211": {
    "min": 1099.0,
-   "t": 1795555341.759344,
+   "t": 1795556711.9331832,
    "tipo": "fixed",
    "valor": 150.0
   },
   "SITETODO2311": {
    "min": 150.0,
-   "t": 1795555341.7585893,
+   "t": 1795556711.9324303,
    "tipo": "fixed",
    "valor": 30.0
   },
   "SITETODO2411": {
    "min": 399.0,
-   "t": 1795555341.757411,
+   "t": 1795556711.9312289,
    "tipo": "fixed",
    "valor": 50.0
   },
   "TECH2411": {
    "min": 1599.0,
-   "t": 1795555341.7578793,
+   "t": 1795556711.9317212,
    "tipo": "fixed",
    "valor": 200.0
   },
   "TODO2211SITE": {
    "min": 1499.0,
-   "t": 1795555341.759344,
+   "t": 1795556711.9331832,
    "tipo": "fixed",
    "valor": 230.0
   },
   "TODO2311SITE": {
    "min": 399.0,
-   "t": 1795555341.758588,
+   "t": 1795556711.9324298,
    "tipo": "fixed",
    "valor": 50.0
   },
   "TODO2411SITE": {
    "min": 1499.0,
-   "t": 1795555341.7574105,
+   "t": 1795556711.9312282,
    "tipo": "fixed",
    "valor": 230.0
   },
   "TODOSITE2211": {
    "min": 159.0,
-   "t": 1795555341.7593436,
+   "t": 1795556711.9331827,
    "tipo": "fixed",
    "valor": 30.0
   },
   "TODOSITE2311": {
    "min": 199.0,
-   "t": 1795555341.7591913,
+   "t": 1795556711.9330277,
    "tipo": "fixed",
    "valor": 40.0
   },
   "TODOSITE2411": {
    "min": 159.0,
-   "t": 1795555341.7574122,
+   "t": 1795556711.9312296,
    "tipo": "fixed",
    "valor": 30.0
   },
@@ -328,13 +352,13 @@
   },
   "TVSCELULARES2311": {
    "min": 899.0,
-   "t": 1795555341.758765,
+   "t": 1795556711.932612,
    "tipo": "percent",
    "valor": 20.0
   },
   "VEMPROMP": {
    "min": 500.0,
-   "t": 1795555341.9561305,
+   "t": 1795556712.1208594,
    "tipo": "fixed",
    "valor": 150.0
   },
@@ -364,7 +388,11 @@
    23652,
    23653,
    23668,
-   23685
+   23685,
+   24301,
+   24342,
+   24346,
+   24349
   ]
  },
  "dia": "2026-11-24",
@@ -4888,6 +4916,10 @@
   "promosdaluh:324981": {
    "r": "falha",
    "t": 1795555887
+  },
+  "promosdaluh:324983": {
+   "r": "em_andamento",
+   "t": 1795559075
   },
   "promotom:115225": {
    "r": "pulado:loja desativada: magalu",
@@ -10163,38 +10195,6 @@
  "resumo_dia": "2026-11-23",
  "retry": [
   {
-   "canal": "pincei",
-   "id": 371517,
-   "n": 1,
-   "quando": 1795555950.2215562,
-   "t": 1795555470.221556,
-   "txt": "Perfume Natura Kaiak K EDP 100ml\n\n🔥 R$ 119,96\n👉Preço exclusivo MELI+\n\n🛍️ PEGAR PROMOÇÃO:\nhttps://pincei.co/e/63Xj4V8VAAv_m4\n\n⚪️ Grupo Pincei Perfumes:\nhttps://join.pincei.co/perfumes"
-  },
-  {
-   "canal": "promosdaluh",
-   "id": 324979,
-   "n": 1,
-   "quando": 1795556299.1547673,
-   "t": 1795555819.154767,
-   "txt": "🛍️ Perfume Ralph's Club New York Eau de Parfum Masculino Ralph Lauren 60ml\n\nde R$ 708,90\n💸por R$ 526,02 no pix 🔥\n\n🎟️CUPOM50\n\nCompre aqui 🔗\nhttps://promosdaluh.com/p/7jn98w/\n\n📍 GRUPOS COM VAGAS: https://promosdaluh.com/bio"
-  },
-  {
-   "canal": "promosdaluh",
-   "id": 324982,
-   "n": 1,
-   "quando": 1795556445.395328,
-   "t": 1795555965.3953278,
-   "txt": "🛍️ Cadeira de Escritório Diretor Giratória Preta\n\nde R$ 254,08\n💸por R$ 249,00 🔥\n\nCompre aqui 🔗\nhttps://promosdaluh.com/p/6s8r3j/\n\n📍 GRUPOS COM VAGAS: https://promosdaluh.com/bio"
-  },
-  {
-   "canal": "promosdaluh",
-   "id": 324983,
-   "n": 1,
-   "quando": 1795556525.9359214,
-   "t": 1795556045.9359214,
-   "txt": "🛍️ Medicube Vita A Retinal Volume Booster Serum 15ml\n\nde R$ 170,90\n💸por R$ 136,80 🔥\n\nCompre aqui 🔗\nhttps://promosdaluh.com/p/ccnl8p/\n\n📍 GRUPOS COM VAGAS: https://promosdaluh.com/bio"
-  },
-  {
    "canal": "promosdaluh",
    "id": 324984,
    "n": 1,
@@ -10233,13 +10233,37 @@
    "quando": 1795556911.695772,
    "t": 1795556431.6957717,
    "txt": "Escova Sanitária com Suporte e Limpa Bordas Condor | Higienização e limpeza do vaso sanitário com escova circular e tufo limpa bordas Condor\n\nR$ 22\n\nhttps://www.amazon.com.br/dp/B07G5KYG3T?tag=promotom05-20\n\n-Anúncio"
+  },
+  {
+   "canal": "pincei",
+   "id": 371517,
+   "n": 2,
+   "quando": 1795557988.3673804,
+   "t": 1795555470.221556,
+   "txt": "Perfume Natura Kaiak K EDP 100ml\n\n🔥 R$ 119,96\n👉Preço exclusivo MELI+\n\n🛍️ PEGAR PROMOÇÃO:\nhttps://pincei.co/e/63Xj4V8VAAv_m4\n\n⚪️ Grupo Pincei Perfumes:\nhttps://join.pincei.co/perfumes"
+  },
+  {
+   "canal": "promosdaluh",
+   "id": 324979,
+   "n": 2,
+   "quando": 1795558768.4204688,
+   "t": 1795555819.154767,
+   "txt": "🛍️ Perfume Ralph's Club New York Eau de Parfum Masculino Ralph Lauren 60ml\n\nde R$ 708,90\n💸por R$ 526,02 no pix 🔥\n\n🎟️CUPOM50\n\nCompre aqui 🔗\nhttps://promosdaluh.com/p/7jn98w/\n\n📍 GRUPOS COM VAGAS: https://promosdaluh.com/bio"
+  },
+  {
+   "canal": "promosdaluh",
+   "id": 324982,
+   "n": 2,
+   "quando": 1795559551.1038742,
+   "t": 1795555965.3953278,
+   "txt": "🛍️ Cadeira de Escritório Diretor Giratória Preta\n\nde R$ 254,08\n💸por R$ 249,00 🔥\n\nCompre aqui 🔗\nhttps://promosdaluh.com/p/6s8r3j/\n\n📍 GRUPOS COM VAGAS: https://promosdaluh.com/bio"
   }
  ],
  "tentativas": {
   "fumotom:52425": 1,
-  "pincei:371517": 1,
-  "promosdaluh:324979": 1,
-  "promosdaluh:324982": 1,
+  "pincei:371517": 2,
+  "promosdaluh:324979": 2,
+  "promosdaluh:324982": 2,
   "promosdaluh:324983": 1,
   "promosdaluh:324984": 1,
   "promosdaluh:324985": 1,
@@ -10249,16 +10273,16 @@
  "tpl_ultimo": 2032135,
  "ult_ciclo": 1795556456.704503,
  "ultimo_id": {
-  "apromodaluh": 159195,
-  "fumotom": 52426,
-  "iuriindica": 124454,
+  "apromodaluh": 159201,
+  "fumotom": 52435,
+  "iuriindica": 124456,
   "juaocupons": 27775,
-  "pechinchou": 240387,
+  "pechinchou": 240402,
   "perfumepromo": 10181,
-  "pincei": 371517,
-  "promosdaluh": 324987,
-  "promotom": 115337,
-  "teniscertocupons": 66222,
+  "pincei": 371521,
+  "promosdaluh": 325010,
+  "promotom": 115338,
+  "teniscertocupons": 66224,
   "teste": 1795214930
  }
 }
