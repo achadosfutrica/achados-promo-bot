@@ -59,7 +59,7 @@ _RASTREIO = re.compile(r"^(utm_.*|awc|ranmid|raneaid|ransiteid|siteid|clickref|a
 ENCURTADORES = ("bit.ly", "tinyurl.com", "cutt.ly", "tidd.ly", "awin1.com", "awin.com", "linksynergy.com",
                 "click.linksynergy", "afilio.com.br", "rdir.", "lmd.re", "is.gd", "ow.ly", "t.co", "rebrand.ly",
                 "abre.ai", "encurtador", "l.wl.co", "shorturl.at", "go.", "s.", "app.", "onelink.me", "linktr.ee",
-                "promosdaluh.com", "apromodaluh.com.br", "divulgador.link", "di.link", "promo.", "clk.", "trk.", "pincei.co", "pincei.com.br", "link.amazon")
+                "promosdaluh.com", "apromodaluh.com.br", "divulgador.link", "di.link", "promo.", "clk.", "trk.", "pincei.co", "pincei.com.br", "link.amazon", "pechin.co", "pechinchou.com.br")
 
 
 def host(url):
@@ -132,6 +132,9 @@ class _SemRedirecionar(__import__("urllib.request").request.HTTPRedirectHandler)
 
 
 def resolver(url, timeout=10, voltas=6):
+    if host(url).endswith(("pechin.co", "pechinchou.com.br")):
+        # Pechinchou: pagina intermediaria com botao "Ir a <loja>". NUNCA pelo HTTP (a pagina tem links de outras ofertas)
+        return resolver_navegador(url) or url
     if host(url).endswith(("pincei.co", "pincei.com.br")):
         r = resolver_navegador(url)          # o Pincei só revela a loja depois de rodar o JavaScript da página
         if r:
@@ -200,6 +203,34 @@ def _fechar_navegador():
         pass
 
 
+def _clicar_botao_loja(pg, espera):
+    """Pagina intermediaria sem link (Pechinchou): clica em 'Ir a <loja>' e devolve o endereco da loja (abre em nova aba)."""
+    def fora(u):
+        return bool(u) and u.startswith("http") and "pechinchou" not in (urlparse(u).hostname or "")
+    try:
+        btn = pg.query_selector("button[data-testid*='go-to-store'], button:has-text('Ir à'), button:has-text('Ir para'), a:has-text('Ir à')")
+        if not btn:
+            return None
+        try:
+            with pg.context.expect_page(timeout=espera * 1000) as ni:
+                btn.click()
+            np_ = ni.value
+        except Exception:  # noqa
+            return pg.url if fora(pg.url) else None          # navegou na mesma aba
+        try:
+            np_.wait_for_url(fora, timeout=espera * 1000)
+        except Exception:  # noqa
+            pass
+        u = np_.url
+        try:
+            np_.close()
+        except Exception:  # noqa
+            pass
+        return u if fora(u) else None
+    except Exception:  # noqa
+        return None
+
+
 def _abrir_no_navegador(url, espera=20):
     pg = None
     try:
@@ -208,7 +239,9 @@ def _abrir_no_navegador(url, espera=20):
         pg.goto(url, wait_until="domcontentloaded", timeout=espera * 1000)
         orig = urlparse(url).hostname or ""
         try:
-            pg.wait_for_url(lambda u: "pincei" not in (urlparse(u).hostname or "") and (urlparse(u).hostname or "") != orig, timeout=espera * 1000)
+            if "pechinchou" in (urlparse(pg.url).hostname or ""):
+                raise Exception("pagina intermediaria do Pechinchou")
+            pg.wait_for_url(lambda u: "pincei" not in (urlparse(u).hostname or "") and "pechinchou" not in (urlparse(u).hostname or "") and (urlparse(u).hostname or "") != orig, timeout=espera * 1000)
         except Exception:  # noqa
             # pagina intermediaria (ex.: promosdaluh.com/p/xxx) com botao "Ir para a oferta": clica no destino
             hrefs = pg.eval_on_selector_all("a[href]", "as => as.map(a => [a.href, a.textContent || ''])")
@@ -217,7 +250,7 @@ def _abrir_no_navegador(url, espera=20):
                     pg.goto(h, wait_until="domcontentloaded", timeout=espera * 1000)
                     break
             else:
-                return None
+                return _clicar_botao_loja(pg, espera)
         final = pg.url
         if "mercadolivre.com" in (urlparse(final).hostname or "") and "/social/" in final:
             try:
