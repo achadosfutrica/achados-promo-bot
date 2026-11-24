@@ -5,6 +5,7 @@ PADRAO = {
     "mode": "off",
     "canais": ["fumotom", "promotom", "juaocupons"],
     "bot_divulgador": "di48291bot",
+    "bots_divulgador": [],
     "robo_cupons": "AchadosFutricaBot",
     "lojas": {"amazon": True, "mercadolivre": False, "shopee": False, "magalu": False, "aliexpress": False},
     "avisar_esgotado": True,
