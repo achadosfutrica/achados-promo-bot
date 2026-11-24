@@ -47,7 +47,7 @@ lojas:
   amazon: true
   mercadolivre: true   # LIGADO 20/11 (com "📌 Vendido por" na informação extra)
   shopee: true         # LIGADO 20/11 (clique de teste confirmado no relatório)
-  magalu: false
+  magalu: true         # LIGADO 24/11 (Black Friday): o Divulgador ja tem a loja magazinedooscar configurada
   aliexpress: false    # você pediu para NÃO gerar AliExpress
   # --- outras lojas (20/11): o link vai ao Divulgador, que converte no seu afiliado
   belezanaweb: true
@@ -120,12 +120,12 @@ preco:
   politica_suspeito: "publicar"   # publicar | pular
 
 limites:
-  max_por_execucao: 8             # no máximo N promoções por execução
+  max_por_execucao: 15            # 24/11 (Black Friday): no maximo N promocoes por execucao (as de maior nota saem primeiro)
   pausa_entre_promocoes_seg: 25   # pausa entre uma promoção e outra (evita bloqueio da conta)
-  max_por_dia: 150
+  max_por_dia: 400                # 24/11 (Black Friday)
   primeira_vez_ler_ultimos: 0     # ao ligar, NÃO posta o passado (0). Coloque 5 para ler os 5 últimos.
   max_idade_min: 90               # posts com mais de 90 min são ignorados (evita postar promoção vencida)
-  max_por_canal: 3                # no máximo N de cada canal por execução (o fumotom não ocupa tudo)
+  max_por_canal: 6                # 24/11 (Black Friday): no maximo N de cada canal por execucao (o fumotom nao ocupa tudo)
   fila_max: 200                   # promoções boas que sobraram esperam a próxima execução
 
 # INTELIGÊNCIA: nota para cada promoção com base no que VOCÊ posta (seu grupo do Telegram, últimos 7 dias)
