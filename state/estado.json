@@ -1,10 +1,10 @@
 {
- "cmd_ultimo": 2045778,
- "contagem_dia": 14,
+ "cmd_ultimo": 2046142,
+ "contagem_dia": 16,
  "cupom_min": {
   "1124MAISME": {
    "min": 499.0,
-   "t": 1795521610.0336502,
+   "t": 1795522109.3370788,
    "tipo": "fixed",
    "valor": 70.0
   },
@@ -100,7 +100,7 @@
   },
   "OFICIAIS2411": {
    "min": 89.0,
-   "t": 1795521610.033652,
+   "t": 1795522109.3370812,
    "tipo": "percent",
    "valor": 10.0
   },
@@ -109,6 +109,12 @@
    "t": 1795515265.167105,
    "tipo": "fixed",
    "valor": 100.0
+  },
+  "PRIME70OFF": {
+   "min": 499.0,
+   "t": 1795522338.184275,
+   "tipo": "fixed",
+   "valor": 70.0
   },
   "PRIMEBLACK50": {
    "min": 80.0,
@@ -136,7 +142,7 @@
   },
   "TECH2411": {
    "min": 1599.0,
-   "t": 1795521610.033651,
+   "t": 1795522864.8309906,
    "tipo": "fixed",
    "valor": 200.0
   },
@@ -171,7 +177,8 @@
    22634,
    22687,
    22782,
-   23319
+   23319,
+   23330
   ]
  },
  "dia": "2026-11-24",
@@ -335,6 +342,14 @@
   "apromodaluh:159059": {
    "r": "gerado",
    "t": 1795520725
+  },
+  "apromodaluh:159060": {
+   "r": "pulado:so cupom (ignorado)",
+   "t": 1795521757
+  },
+  "apromodaluh:159061": {
+   "r": "pulado:so cupom (ignorado)",
+   "t": 1795522937
   },
   "esg:14AETEJ": {
    "r": "avisado",
@@ -820,13 +835,89 @@
    "r": "gerado",
    "t": 1795521224
   },
+  "fumotom:52192": {
+   "r": "gerado",
+   "t": 1795521845
+  },
   "fumotom:52193": {
    "r": "gerado",
    "t": 1795521296
   },
+  "fumotom:52194": {
+   "r": "falha",
+   "t": 1795522003
+  },
   "fumotom:52195": {
    "r": "gerado",
    "t": 1795521153
+  },
+  "fumotom:52196": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795521658
+  },
+  "fumotom:52197": {
+   "r": "pulado:repetido",
+   "t": 1795521799
+  },
+  "fumotom:52198": {
+   "r": "falha",
+   "t": 1795522484
+  },
+  "fumotom:52199": {
+   "r": "pulado:periferico de PC",
+   "t": 1795522243
+  },
+  "fumotom:52200": {
+   "r": "pulado:periferico de PC",
+   "t": 1795522243
+  },
+  "fumotom:52201": {
+   "r": "pulado:periferico de PC",
+   "t": 1795522243
+  },
+  "fumotom:52202": {
+   "r": "pulado:periferico de PC",
+   "t": 1795522243
+  },
+  "fumotom:52203": {
+   "r": "pulado:periferico de PC",
+   "t": 1795522243
+  },
+  "fumotom:52204": {
+   "r": "falha",
+   "t": 1795522369
+  },
+  "fumotom:52205": {
+   "r": "pulado:periferico de PC",
+   "t": 1795522243
+  },
+  "fumotom:52208": {
+   "r": "pulado:periferico de PC",
+   "t": 1795522243
+  },
+  "fumotom:52209": {
+   "r": "falha",
+   "t": 1795523182
+  },
+  "fumotom:52210": {
+   "r": "pulado:periferico de PC",
+   "t": 1795522243
+  },
+  "fumotom:52211": {
+   "r": "falha",
+   "t": 1795522599
+  },
+  "fumotom:52214": {
+   "r": "pulado:repetido",
+   "t": 1795522979
+  },
+  "fumotom:52222": {
+   "r": "falha",
+   "t": 1795523068
+  },
+  "fumotom:52225": {
+   "r": "falha",
+   "t": 1795523010
   },
   "iuriindica:124174": {
    "r": "falha",
@@ -1076,6 +1167,58 @@
    "r": "pulado:sem preco",
    "t": 1795491347
   },
+  "iuriindica:124259": {
+   "r": "falha",
+   "t": 1795522541
+  },
+  "iuriindica:124260": {
+   "r": "falha",
+   "t": 1795523330
+  },
+  "iuriindica:124261": {
+   "r": "falha",
+   "t": 1795522657
+  },
+  "iuriindica:124262": {
+   "r": "pulado:periferico de PC",
+   "t": 1795522248
+  },
+  "iuriindica:124263": {
+   "r": "pulado:periferico de PC",
+   "t": 1795522248
+  },
+  "iuriindica:124264": {
+   "r": "pulado:periferico de PC",
+   "t": 1795522248
+  },
+  "iuriindica:124265": {
+   "r": "falha",
+   "t": 1795522427
+  },
+  "iuriindica:124266": {
+   "r": "pulado:periferico de PC",
+   "t": 1795522248
+  },
+  "iuriindica:124268": {
+   "r": "pulado:periferico de PC",
+   "t": 1795522248
+  },
+  "iuriindica:124269": {
+   "r": "pulado:mesmo link",
+   "t": 1795522979
+  },
+  "iuriindica:124270": {
+   "r": "pulado:repetido",
+   "t": 1795522979
+  },
+  "iuriindica:124273": {
+   "r": "falha",
+   "t": 1795523273
+  },
+  "iuriindica:124277": {
+   "r": "falha",
+   "t": 1795523125
+  },
   "juaocupons:27680": {
    "r": "pulado:sem preco",
    "t": 1795453574
@@ -1228,6 +1371,22 @@
    "r": "pulado:so cupom (ignorado)",
    "t": 1795521039
   },
+  "juaocupons:27720": {
+   "r": "pulado:sem preco",
+   "t": 1795521658
+  },
+  "juaocupons:27721": {
+   "r": "pulado:sem preco",
+   "t": 1795522244
+  },
+  "juaocupons:27722": {
+   "r": "pulado:sem preco",
+   "t": 1795522248
+  },
+  "juaocupons:27723": {
+   "r": "pulado:sem preco",
+   "t": 1795522891
+  },
   "link:https://amzn.to/3YeTytk": {
    "r": "falha",
    "t": 1795520221
@@ -1244,6 +1403,14 @@
    "r": "gerado",
    "t": 1795458071
   },
+  "link:https://meli.la/16XsvJC": {
+   "r": "falha",
+   "t": 1795522541
+  },
+  "link:https://meli.la/16aGRRq": {
+   "r": "falha",
+   "t": 1795522369
+  },
   "link:https://meli.la/188gvuo": {
    "r": "falha",
    "t": 1795461828
@@ -1259,6 +1426,10 @@
   "link:https://meli.la/1DRJoZw": {
    "r": "falha",
    "t": 1795459874
+  },
+  "link:https://meli.la/1HqBFVy": {
+   "r": "falha",
+   "t": 1795522657
   },
   "link:https://meli.la/1L9x6Nm": {
    "r": "falha",
@@ -1292,6 +1463,10 @@
    "r": "falha",
    "t": 1795462001
   },
+  "link:https://meli.la/1ccBzSd": {
+   "r": "falha",
+   "t": 1795523330
+  },
   "link:https://meli.la/1ggvZAi": {
    "r": "falha",
    "t": 1795463487
@@ -1311,6 +1486,10 @@
   "link:https://meli.la/1ki41eu": {
    "r": "falha",
    "t": 1795461148
+  },
+  "link:https://meli.la/1kyFmRB": {
+   "r": "falha",
+   "t": 1795523125
   },
   "link:https://meli.la/1mquiWS": {
    "r": "gerado",
@@ -1368,6 +1547,10 @@
    "r": "gerado",
    "t": 1795457982
   },
+  "link:https://meli.la/2Qs4Qgj": {
+   "r": "falha",
+   "t": 1795523182
+  },
   "link:https://meli.la/2RdEpJm": {
    "r": "falha",
    "t": 1795461262
@@ -1375,6 +1558,10 @@
   "link:https://meli.la/2X35s9R": {
    "r": "falha",
    "t": 1795461886
+  },
+  "link:https://meli.la/2ZeTaW5": {
+   "r": "falha",
+   "t": 1795522484
   },
   "link:https://meli.la/2aDFZJ8": {
    "r": "falha",
@@ -1387,6 +1574,14 @@
   "link:https://meli.la/2g3wA3n": {
    "r": "falha",
    "t": 1795462728
+  },
+  "link:https://meli.la/2i61mpN": {
+   "r": "falha",
+   "t": 1795523068
+  },
+  "link:https://meli.la/2jDBDqs": {
+   "r": "falha",
+   "t": 1795522427
   },
   "link:https://meli.la/2jL6Ccd": {
    "r": "falha",
@@ -1420,6 +1615,10 @@
    "r": "falha",
    "t": 1795461090
   },
+  "link:https://produto.mercadolivre.com.br/MLB-4119262869-tenis-branco-feminino-casual-academia-bordado-confortavel-_JM": {
+   "r": "falha",
+   "t": 1795521947
+  },
   "link:https://produto.mercadolivre.com.br/MLB-5532075156-tnis-kappa-pulse-rx-unissex-corrida-conforto-_JM": {
    "r": "falha",
    "t": 1795491159
@@ -1431,6 +1630,10 @@
   "link:https://produto.mercadolivre.com.br/MLB-5755197830-kit-3-shorts-masculino-bermuda-linho-vero-envio-imediato-_JM": {
    "r": "falha",
    "t": 1795471826
+  },
+  "link:https://produto.mercadolivre.com.br/MLB-867751670-porta-lisa-210x80-batente-fechadura-comum-dobradica-_JM": {
+   "r": "falha",
+   "t": 1795522855
   },
   "link:https://s.shopee.com.br/50asBS7tER": {
    "r": "falha",
@@ -1664,6 +1867,10 @@
    "r": "falha",
    "t": 1795454349
   },
+  "link:https://www.amazon.com.br/dp/B088VTF7WJ": {
+   "r": "gerado",
+   "t": 1795521845
+  },
   "link:https://www.amazon.com.br/dp/B08BZT8GFF": {
    "r": "gerado",
    "t": 1795521224
@@ -1683,6 +1890,10 @@
   "link:https://www.amazon.com.br/dp/B09B8VGCR8": {
    "r": "falha",
    "t": 1795496192
+  },
+  "link:https://www.amazon.com.br/dp/B09CSGYMTX": {
+   "r": "falha",
+   "t": 1795522003
   },
   "link:https://www.amazon.com.br/dp/B09HL524RJ": {
    "r": "gerado",
@@ -1812,6 +2023,10 @@
    "r": "falha",
    "t": 1795492003
   },
+  "link:https://www.amazon.com.br/dp/B0F81WGSYP": {
+   "r": "falha",
+   "t": 1795523273
+  },
   "link:https://www.amazon.com.br/dp/B0F8P16K2L": {
    "r": "falha",
    "t": 1795461701
@@ -1819,6 +2034,10 @@
   "link:https://www.amazon.com.br/dp/B0FGZ6FCGY": {
    "r": "falha",
    "t": 1795491831
+  },
+  "link:https://www.amazon.com.br/dp/B0FLKL7DHZ": {
+   "r": "falha",
+   "t": 1795522599
   },
   "link:https://www.amazon.com.br/dp/B0FLRQWH96": {
    "r": "falha",
@@ -1912,6 +2131,10 @@
    "r": "gerado",
    "t": 1795490599
   },
+  "link:https://www.amazon.com.br/dp/B0HB7NS9RM": {
+   "r": "falha",
+   "t": 1795523010
+  },
   "link:https://www.amazon.com.br/dp/B0HB7RVZWQ": {
    "r": "duplicado",
    "t": 1795489631
@@ -1939,6 +2162,10 @@
   "link:https://www.amazon.com.br/promotion/psp/A1J1P1NCNL3C5F?redirectAsin=B0DD8H1XQY&redirectMerchantId=A1ZZFT5FULY4LN&linkCode=ll1&tag=promodacla002-20&linkId=c63bd3e95de30436036a596f1d34b3a7&ref_=as_li_ss_tl&ascsubtag=srctok-2c09d744dbd41333&btn_type=ss&btn_ref=srctok-7fe65884be72c065&ref=psp_pc_cart_collapse&language=pt-BR": {
    "r": "gerado",
    "t": 1795456504
+  },
+  "link:https://www.amazon.com.br/promotion/psp/A7EM3QJWZUT03?btn_type=ss&linkCode=sl2&tag=promotom05-20&linkId=c4ef969df8a8c4cfda00a0834452c922&ref_=as_li_ss_tl&ascsubtag=srctok-4236943d2dc6f206&btn_ref=srctok-4236943d2dc6f206": {
+   "r": "gerado",
+   "t": 1795523406
   },
   "link:https://www.belezanaweb.com.br/produto/la-bomba-carolina-herrera-eau-de-parfum-perfume-feminino-10ml/": {
    "r": "falha",
@@ -2055,6 +2282,10 @@
   "link:https://www.mercadolivre.com.br/kit-12-cuecas-boxer-reebok-classic-microfibra-sem-costura/up/MLBU5386518659": {
    "r": "falha",
    "t": 1795455175
+  },
+  "link:https://www.mercadolivre.com.br/kit-body-splash-masculino-barbarius-e-midtown-200ml-primacial-perfume-fresco-amadeirado/p/MLB61856977": {
+   "r": "falha",
+   "t": 1795522756
   },
   "link:https://www.mercadolivre.com.br/kit-gelatina-oleo-definicao-natural/p/MLB53207645": {
    "r": "falha",
@@ -3187,6 +3418,18 @@
   "pincei:371246": {
    "r": "falha",
    "t": 1795521104
+  },
+  "pincei:371247": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795521757
+  },
+  "pincei:371248": {
+   "r": "pulado:sem preco",
+   "t": 1795522253
+  },
+  "pincei:371249": {
+   "r": "pulado:mesmo link",
+   "t": 1795522937
   },
   "promosdaluh:323928": {
    "r": "falha",
@@ -5172,6 +5415,86 @@
    "r": "pulado:sacola laranja (bloqueado)",
    "t": 1795521104
   },
+  "promosdaluh:324451": {
+   "r": "falha",
+   "t": 1795521947
+  },
+  "promosdaluh:324452": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795521798
+  },
+  "promosdaluh:324453": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795521798
+  },
+  "promosdaluh:324454": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795521798
+  },
+  "promosdaluh:324455": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795521798
+  },
+  "promosdaluh:324456": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795522253
+  },
+  "promosdaluh:324457": {
+   "r": "falha",
+   "t": 1795522756
+  },
+  "promosdaluh:324458": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795522295
+  },
+  "promosdaluh:324459": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795522295
+  },
+  "promosdaluh:324460": {
+   "r": "falha",
+   "t": 1795522855
+  },
+  "promosdaluh:324461": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795522937
+  },
+  "promosdaluh:324462": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795522937
+  },
+  "promosdaluh:324463": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795522937
+  },
+  "promosdaluh:324464": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795522937
+  },
+  "promosdaluh:324465": {
+   "r": "pulado:so cupom (ignorado)",
+   "t": 1795522979
+  },
+  "promosdaluh:324466": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795522979
+  },
+  "promosdaluh:324467": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795522979
+  },
+  "promosdaluh:324468": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795522979
+  },
+  "promosdaluh:324469": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795522979
+  },
+  "promosdaluh:324470": {
+   "r": "pulado:sacola laranja (bloqueado)",
+   "t": 1795522979
+  },
   "promotom:115200": {
    "r": "pulado:periferico de PC",
    "t": 1795453572
@@ -5340,6 +5663,18 @@
    "r": "falha",
    "t": 1795508050
   },
+  "promotom:115251": {
+   "r": "pulado:so cupom (ignorado)",
+   "t": 1795521658
+  },
+  "promotom:115253": {
+   "r": "pulado:sem preco",
+   "t": 1795521658
+  },
+  "promotom:115255": {
+   "r": "gerado",
+   "t": 1795523406
+  },
   "teniscertocupons:66173": {
    "r": "falha",
    "t": 1795455790
@@ -5412,15 +5747,135 @@
  "fila": [
   {
    "canal": "fumotom",
-   "id": 52192,
-   "t": 1795520719.0,
-   "txt": "Westpress Lâmina de Cortador Circular 45mm - Aço Inoxidável - Artesanato Patchwork\n\nR$ 0\n\nhttps://www.amazon.com.br/dp/B088VTF7WJ?tag=promotom05-20\n\n-Anúncio"
+   "id": 52206,
+   "t": 1795522070.0,
+   "txt": "Celular Samsung Galaxy S26 Fe 128Gb, 8Gb Ram Tela 6,7\" - Grafite\n\nR$ 2973\n-CUPOM: QUEROOFFHOJE\n\n-Grafite\nhttps://meli.la/1bZJP3u\n\n-Azul Cobalto\nhttps://meli.la/1pYySfH\n\n-Verde Pistache\nhttps://meli.la/2nAeFyo\n\n-Anúncio"
   },
   {
    "canal": "fumotom",
-   "id": 52194,
-   "t": 1795520720.0,
-   "txt": "02 Passador Coloca Colocador De Linha Agulha Manual Costura\n\nR$ 0\n\nhttps://www.amazon.com.br/dp/B09CSGYMTX?tag=promotom05-20\n\n-Anúncio"
+   "id": 52218,
+   "t": 1795522499.0,
+   "txt": "Monitor Aoc 27\" 120Hz 1ms Gaming (Versão 27 Polegadas)\n\nR$ 479 - Sem Juros\n-CUPOM: PRIME70OFF + Resgate cupom do anúncio\n\nhttps://www.amazon.com.br/dp/B0F81WGSYP?smid=A1ZZFT5FULY4LN&tag=promotom05-20\n\n-Anúncio"
+  },
+  {
+   "canal": "fumotom",
+   "id": 52219,
+   "t": 1795522500.0,
+   "txt": "Monitor Gamer Samsung Odyssey G5 27\", Qhd, 165Hz, 1ms, Freesync, Hdmi, Dp\n\nR$ 884 - Sem Juros\n-CUPOM: DESCONTOSMELI\n\nhttps://meli.la/1NFjg88\n\n-Anúncio"
+  },
+  {
+   "canal": "iuriindica",
+   "id": 124275,
+   "t": 1795522567.0,
+   "txt": "Monitor Gamer Samsung Odyssey G5 27\", Qhd, 165Hz, 1ms, Freesync, Hdmi, Dp\n\n💵  R$ 884\n🎟  Cupom: DESCONTOSMELI\n✅  https://meli.la/2KG33JM\n\n🤑 Grupos de promoções: https://iuriindica.com.br"
+  },
+  {
+   "canal": "fumotom",
+   "id": 52207,
+   "t": 1795522073.0,
+   "txt": "Celular Samsung Galaxy A57 5g 128gb, 8gb Ram, Recursos Ai\n\nR$ 1569\n-CUPOM: TECH2411\n\n-Cinza\nhttps://meli.la/1s9fWRQ\n\n-Azul\nhttps://meli.la/1B1XDiE\n\n-Lilas\nhttps://meli.la/1iavz3i\n\n-Anúncio"
+  },
+  {
+   "canal": "fumotom",
+   "id": 52226,
+   "t": 1795522732.0,
+   "txt": "Monitor Gamer Asus Tuf 27 255hz Quad Hd 0.3ms Fast Ips Hdr10\n\nR$ 1090\n-CUPOM: 1124MAISME\n\nhttps://meli.la/1WUetrL\n\n-Anúncio"
+  },
+  {
+   "canal": "fumotom",
+   "id": 52223,
+   "t": 1795522624.0,
+   "txt": "Smart Tv 65 4k Uhd Philips 65pug7231/78 Google Tv Dolby\n\nR$ 2648\n-CUPOM: QUEROOFFHOJE\n\nhttps://meli.la/222VGwU\n\n-Anúncio"
+  },
+  {
+   "canal": "iuriindica",
+   "id": 124276,
+   "t": 1795522644.0,
+   "txt": "Smart Tv 65 4k Uhd Philips 65pug7231/78 Google Tv Dolby\n\n💵  R$ 2648\n🎟  Cupom: QUEROOFFHOJE\n✅  https://meli.la/2rHdwqS\n\n🤑 Grupos de promoções: https://iuriindica.com.br"
+  },
+  {
+   "canal": "fumotom",
+   "id": 52215,
+   "t": 1795522345.0,
+   "txt": "Tablet Galaxy Tab S10 Lite, 128Gb, Tela 10.9\", Wifi - Vermelho\n\nR$ 2129\n-CUPOM: PRIME70OFF\n\nhttps://www.amazon.com.br/dp/B0FMFTWHJJ?tag=promotom05-20\n\n-Anúncio"
+  },
+  {
+   "canal": "iuriindica",
+   "id": 124271,
+   "t": 1795522559.0,
+   "txt": "Tablet Galaxy Tab S10 Lite, 128Gb, Tela 10.9\", Wifi - Vermelho\n\n💵  R$ 2129\n🎟  Cupom: PRIME70OFF\n✅  https://www.amazon.com.br/dp/B0FMFTWHJJ/?tag=afiliado333-20\n\n🤑 Grupos de promoções: https://iuriindica.com.br"
+  },
+  {
+   "canal": "fumotom",
+   "id": 52224,
+   "t": 1795522665.0,
+   "txt": "Celular Samsung Galaxy S25 Ultra 5g, 256gb, 12gb, Câm. Quád\n\nR$ 4393\n-CUPOM: QUEROOFFHOJE + MAGALUTECH\n\nhttps://meli.la/2UTHpyN\n\n-Anúncio"
+  },
+  {
+   "canal": "iuriindica",
+   "id": 124280,
+   "t": 1795522693.0,
+   "txt": "Celular Samsung Galaxy S25 Ultra 5g, 256gb, 12gb, Câm. Quád\n\n💵  R$ 4393\n🎟  Cupom: QUEROOFFHOJE + MAGALUTECH\n✅  https://meli.la/1RC2J86\n\n🤑 Grupos de promoções: https://iuriindica.com.br"
+  },
+  {
+   "canal": "iuriindica",
+   "id": 124267,
+   "t": 1795522115.0,
+   "txt": "Fonte Husky Sledger 650W, 80 Plus Bronze, Cybenetics Bronze, Pfc ativo, Bivolt Hfn650pt\n\n💵  R$ 199\n✅  https://www.amazon.com.br/dp/B0F5D8XV1T/?tag=afiliado333-20\n\n🤑 Grupos de promoções: https://iuriindica.com.br"
+  },
+  {
+   "canal": "fumotom",
+   "id": 52212,
+   "t": 1795522264.0,
+   "txt": "Samsung Odyssey G5 2.7 Qhd 180 Hz 0,03 ms G-sync Freesync\n\nR$ 2599 - PIX\nR$ 2749 - Sem Juros\n-CUPOM: QUEROOFFHOJE\n\nhttps://meli.la/1FNUEvs\n\n-Anúncio"
+  },
+  {
+   "canal": "iuriindica",
+   "id": 124272,
+   "t": 1795522561.0,
+   "txt": "Samsung Odyssey G5 2.7 Qhd 180 Hz 0,03 ms G-sync Freesync\n\n💵  R$ 2749\n🎟  Cupom: QUEROOFFHOJE\n✅  https://meli.la/2kmeEK2\n\n🤑 Grupos de promoções: https://iuriindica.com.br"
+  },
+  {
+   "canal": "fumotom",
+   "id": 52217,
+   "t": 1795522496.0,
+   "txt": "iPhone 16e (128 GB) - Preto\n\nR$ 2789\n-CUPOM: TECH2411 + MAGALUTECH\n\nhttps://meli.la/32xB2q7\n\n-Anúncio"
+  },
+  {
+   "canal": "iuriindica",
+   "id": 124274,
+   "t": 1795522567.0,
+   "txt": "iPhone 16e (128 GB) - Preto\n\n💵  R$ 2789\n🎟  Cupom: TECH2411 + MAGALUTECH\n✅  https://meli.la/26tBQf3\n\n🤑 Grupos de promoções: https://iuriindica.com.br"
+  },
+  {
+   "canal": "fumotom",
+   "id": 52216,
+   "t": 1795522464.0,
+   "txt": "Água Sanitária Ypê 2 Litros\n\nR$ 5\n\nhttps://www.amazon.com.br/dp/B07HZKLRCK?tag=promotom05-20\n\n-Anúncio"
+  },
+  {
+   "canal": "fumotom",
+   "id": 52221,
+   "t": 1795522583.0,
+   "txt": "Nintendo Switch Console Oled 64gb\n\nR$ 1655\n-CUPOM: TECH2411\n\nhttps://meli.la/2YyP9pD\n\n-Anúncio"
+  },
+  {
+   "canal": "iuriindica",
+   "id": 124278,
+   "t": 1795522680.0,
+   "txt": "Nintendo Switch Console Oled 64gb\n\n💵  R$ 1655\n🎟  Cupom: TECH2411\n✅  https://meli.la/1HHGTAi\n\n🤑 Grupos de promoções: https://iuriindica.com.br"
+  },
+  {
+   "canal": "fumotom",
+   "id": 52220,
+   "t": 1795522575.0,
+   "txt": "Volante Gamer G29 Driving Force Logitech G\n\nR$ 1399 - Sem Juros\n-CUPOM: TECH2411\n\nhttps://meli.la/29izzGX\n\n-Anúncio"
+  },
+  {
+   "canal": "iuriindica",
+   "id": 124279,
+   "t": 1795522686.0,
+   "txt": "Volante Gamer G29 Driving Force Logitech G\n\n💵  R$ 1399\n🎟  Cupom: TECH2411\n✅  https://meli.la/32R9PBZ\n\n🤑 Grupos de promoções: https://iuriindica.com.br"
   }
  ],
  "flags": {
@@ -8446,122 +8901,6 @@
  },
  "postados": [
   {
-   "ids": [
-    "B09ZTP9S4J"
-   ],
-   "p": 196.0,
-   "t": 1795428009,
-   "w": [
-    "55l",
-    "bolsa",
-    "duravel",
-    "esportes",
-    "esportiva",
-    "fitness",
-    "ginastica",
-    "grande",
-    "inch",
-    "marmore",
-    "masculina",
-    "preta",
-    "preto",
-    "treino",
-    "uarition",
-    "viagens"
-   ]
-  },
-  {
-   "ids": [
-    "B0767B5PT2"
-   ],
-   "p": 225.0,
-   "t": 1795428081,
-   "w": [
-    "bolso",
-    "certificado",
-    "cuidar",
-    "dupla",
-    "escovada",
-    "estampa",
-    "facil",
-    "jogo",
-    "king",
-    "lencois",
-    "lencol",
-    "linen",
-    "macio",
-    "market",
-    "oeko",
-    "pecas",
-    "profundo",
-    "resfriamento",
-    "respiravel",
-    "rugas",
-    "tex",
-    "ultra"
-   ]
-  },
-  {
-   "ids": [
-    "B0C1NQ1KMG"
-   ],
-   "p": 211.0,
-   "t": 1795428152,
-   "w": [
-    "azuis",
-    "barraca",
-    "caes",
-    "cama",
-    "caverna",
-    "gatos",
-    "gdanes",
-    "grande",
-    "internos",
-    "macio",
-    "pequenos",
-    "tapete"
-   ]
-  },
-  {
-   "ids": [
-    "B09NVVLZRB"
-   ],
-   "p": 200.0,
-   "t": 1795428616,
-   "w": [
-    "adulto",
-    "caminhada",
-    "mochila",
-    "speedparkunissex",
-    "ytc1099"
-   ]
-  },
-  {
-   "ids": [
-    "B0D3XSXHXR"
-   ],
-   "p": 207.0,
-   "t": 1795428687,
-   "w": [
-    "almofada",
-    "animais",
-    "assentos",
-    "capas",
-    "confortaveis",
-    "estimacao",
-    "estiramento",
-    "forma",
-    "lavaveis",
-    "macias",
-    "moveis",
-    "protetores",
-    "qianmew",
-    "resistentes",
-    "seccionais",
-    "sofa"
-   ]
-  },
-  {
    "ids": [],
    "p": 6.46,
    "t": 1795429824,
@@ -11331,20 +11670,44 @@
     "regua",
     "scrapbook"
    ]
+  },
+  {
+   "ids": [
+    "B088VTF7WJ"
+   ],
+   "p": 0.0,
+   "t": 1795521799,
+   "w": [
+    "45mm",
+    "aco",
+    "artesanato",
+    "circular",
+    "cortador",
+    "inoxidavel",
+    "lamina",
+    "patchwork",
+    "westpress"
+   ]
+  },
+  {
+   "ids": [],
+   "p": 70.0,
+   "t": 1795523357,
+   "w": []
   }
  ],
  "resumo_dia": "2026-11-23",
  "tpl_ultimo": 2032135,
- "ult_ciclo": 1795521321.2592316,
+ "ult_ciclo": 1795523431.6979797,
  "ultimo_id": {
-  "apromodaluh": 159059,
-  "fumotom": 52195,
-  "iuriindica": 124258,
-  "juaocupons": 27719,
+  "apromodaluh": 159061,
+  "fumotom": 52226,
+  "iuriindica": 124280,
+  "juaocupons": 27723,
   "perfumepromo": 10153,
-  "pincei": 371246,
-  "promosdaluh": 324450,
-  "promotom": 115250,
+  "pincei": 371249,
+  "promosdaluh": 324470,
+  "promotom": 115255,
   "teniscertocupons": 66199,
   "teste": 1795214930
  }
