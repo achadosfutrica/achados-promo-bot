@@ -1,4 +1,8 @@
-"""Evita postar o MESMO produto 2x no mesmo dia (24 h), a não ser que o preço tenha caído bastante.
+"""Evita postar o MESMO produto 2x no mesmo dia, a não ser que o preço tenha caído bastante.
+
+Queda mínima exigida para repostar (regra do Oscar, 25/11/2026), pela faixa do preço NOVO:
+  até R$ 100 -> 20%  |  até R$ 500 -> 15%  |  até R$ 1.000 -> 12%  |  até R$ 5.000 -> 10%
+  até R$ 10.000 -> 5%  |  acima de R$ 10.000 -> 5%
 
 Compara com:
   - o que o robô já gerou (estado), e
@@ -51,9 +55,23 @@ def inicio_do_dia(agora):
     return d.timestamp()
 
 
-def ja_postado(reg, historico, desconto_min=0.15, horas=24, agora=None):
-    """Devolve (True, motivo) se o produto já saiu nas últimas `horas` e o preço não caiu >= desconto_min."""
+FAIXAS = [(100, 0.20), (500, 0.15), (1000, 0.12), (5000, 0.10), (10000, 0.05)]
+ACIMA = 0.05
+
+
+def desconto_exigido(preco, faixas=None, acima=ACIMA):
+    """Queda mínima (0.20 = 20%) para repostar um produto que agora custa `preco` (faixa pelo preço novo)."""
+    for teto, d in sorted((float(a), float(b)) for a, b in (faixas or FAIXAS)):
+        if preco <= teto:
+            return d
+    return float(acima)
+
+
+def ja_postado(reg, historico, faixas=None, horas=24, agora=None, acima=ACIMA):
+    """Devolve (True, motivo) se o MESMO produto já saiu hoje e o preço não caiu o mínimo da faixa."""
     agora = agora or time.time()
+    if isinstance(faixas, (int, float)) and not isinstance(faixas, bool):
+        faixas = [(float("inf"), float(faixas))]        # config/main antigos: um desconto fixo para todos os precos
     w, i = set(reg["w"]), set(reg["ids"])
     for h in historico:
         if h.get("t", 0) < inicio_do_dia(agora):
@@ -62,9 +80,12 @@ def ja_postado(reg, historico, desconto_min=0.15, horas=24, agora=None):
         if not mesmo:
             continue
         p_novo, p_ant = reg.get("p"), h.get("p")
-        if p_novo and p_ant and p_novo <= p_ant * (1 - desconto_min):
-            continue                    # caiu bastante: pode postar de novo
-        return True, "ja postado hoje (antes R$ %s, agora R$ %s)" % (p_ant, p_novo)
+        if p_novo and p_ant:
+            exigido = desconto_exigido(p_novo, faixas, acima)
+            if p_novo <= p_ant * (1 - exigido) + 0.005:
+                continue                # caiu o suficiente para a faixa: pode postar de novo
+            return True, "ja postado hoje (antes R$ %s, agora R$ %s: precisa cair %d%% nessa faixa)" % (p_ant, p_novo, round(exigido * 100))
+        return True, "ja postado hoje (antes R$ %s, agora R$ %s: sem preco para comparar)" % (p_ant, p_novo)
     return False, ""
 
 
