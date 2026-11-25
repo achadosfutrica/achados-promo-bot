@@ -1,5 +1,5 @@
 {
- "cmd_ultimo": 2057190,
+ "cmd_ultimo": 2057846,
  "contagem_dia": 112,
  "cupom_min": {
   "1124MAISME": {
@@ -229,6 +229,12 @@
    "t": 1795470131.9390144,
    "tipo": "fixed",
    "valor": 60.0
+  },
+  "LIVREOFF": {
+   "min": 199.0,
+   "t": 1795633272.0999901,
+   "tipo": "percent",
+   "valor": 10.0
   },
   "LIVROSJOGOS2311": {
    "min": 200.0,
@@ -563,7 +569,9 @@
    25307,
    25332,
    25383,
-   25407
+   25407,
+   25649,
+   25684
   ]
  },
  "dia": "2026-11-25",
@@ -13170,15 +13178,15 @@
  "ult_ciclo": 1795624180.661412,
  "ultimo_id": {
   "apromodaluh": 159309,
-  "fumotom": 52761,
-  "iuriindica": 124684,
-  "juaocupons": 27819,
-  "pechinchou": 240674,
-  "perfumepromo": 10192,
-  "pincei": 371863,
-  "promosdaluh": 325505,
-  "promotom": 115399,
-  "teniscertocupons": 66258,
+  "fumotom": 52767,
+  "iuriindica": 124691,
+  "juaocupons": 27820,
+  "pechinchou": 240685,
+  "perfumepromo": 10198,
+  "pincei": 371880,
+  "promosdaluh": 325510,
+  "promotom": 115401,
+  "teniscertocupons": 66260,
   "teste": 1795214930
  }
 }
