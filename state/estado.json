@@ -112,7 +112,7 @@
   },
   "CUP0MD04DM2026": {
    "min": 120.0,
-   "t": 1795624197.7752051,
+   "t": 1795636223.9342527,
    "tipo": "fixed",
    "valor": 50.0
   },
@@ -181,6 +181,12 @@
    "t": 1795611632.5217798,
    "tipo": "percent",
    "valor": 15.0
+  },
+  "ESPORTIVO10": {
+   "min": 299.0,
+   "t": 1795636142.8069992,
+   "tipo": "percent",
+   "valor": 10.0
   },
   "ESQUENTABF": {
    "min": 27.0,
@@ -13177,16 +13183,16 @@
  "tpl_ultimo": 2032135,
  "ult_ciclo": 1795624180.661412,
  "ultimo_id": {
-  "apromodaluh": 159309,
-  "fumotom": 52767,
-  "iuriindica": 124691,
-  "juaocupons": 27820,
-  "pechinchou": 240685,
-  "perfumepromo": 10198,
-  "pincei": 371880,
-  "promosdaluh": 325510,
-  "promotom": 115401,
-  "teniscertocupons": 66260,
+  "apromodaluh": 159310,
+  "fumotom": 52771,
+  "iuriindica": 124694,
+  "juaocupons": 27826,
+  "pechinchou": 240699,
+  "perfumepromo": 10202,
+  "pincei": 371904,
+  "promosdaluh": 325533,
+  "promotom": 115410,
+  "teniscertocupons": 66266,
   "teste": 1795214930
  }
 }
