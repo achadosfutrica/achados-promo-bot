@@ -1,5 +1,5 @@
 {
- "cmd_ultimo": 2057962,
+ "cmd_ultimo": 2058148,
  "contagem_dia": 112,
  "cupom_min": {
   "1124MAISME": {
@@ -55,6 +55,12 @@
    "t": 1795624197.2603097,
    "tipo": "percent",
    "valor": 35.0
+  },
+  "BELEZABLACK": {
+   "min": 19.0,
+   "t": 1795638789.5514653,
+   "tipo": "percent",
+   "valor": 15.0
   },
   "BEMVINDOZAP": {
    "min": 100.0,
@@ -374,6 +380,12 @@
    "tipo": "percent",
    "valor": 20.0
   },
+  "PM52MP66": {
+   "min": 3500.0,
+   "t": 1795640410.415694,
+   "tipo": "fixed",
+   "valor": 1000.0
+  },
   "PODERA": {
    "min": 399.0,
    "t": 1795555340.7786665,
@@ -578,7 +590,8 @@
    25407,
    25649,
    25684,
-   25733
+   25733,
+   25793
   ]
  },
  "dia": "2026-11-25",
@@ -13184,16 +13197,16 @@
  "tpl_ultimo": 2032135,
  "ult_ciclo": 1795624180.661412,
  "ultimo_id": {
-  "apromodaluh": 159316,
-  "fumotom": 52786,
-  "iuriindica": 124702,
-  "juaocupons": 27830,
-  "pechinchou": 240712,
-  "perfumepromo": 10202,
-  "pincei": 371924,
-  "promosdaluh": 325551,
-  "promotom": 115414,
-  "teniscertocupons": 66273,
+  "apromodaluh": 159319,
+  "fumotom": 52789,
+  "iuriindica": 124705,
+  "juaocupons": 27832,
+  "pechinchou": 240723,
+  "perfumepromo": 10203,
+  "pincei": 371948,
+  "promosdaluh": 325565,
+  "promotom": 115415,
+  "teniscertocupons": 66282,
   "teste": 1795214930
  }
 }
