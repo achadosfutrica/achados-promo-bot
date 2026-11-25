@@ -19,7 +19,7 @@ PADRAO = {
               "min_entre_seg": 20, "poll_seg": 20, "duracao_min": 330, "ciclo_min": 10,
               "noite_inicio": "00:30", "noite_fim": "07:00", "noite_ciclo_min": 30},
     "templates": {"ligado": True, "bot_manual": "di48291bot", "robo_templates": "achadosfutricatemplatesbot"},
-    "repetidos": {"ligado": True, "horas": 24, "desconto_min": 0.15},
+    "repetidos": {"ligado": True, "horas": 24, "faixas": [[100, 0.20], [500, 0.15], [1000, 0.12], [5000, 0.10], [10000, 0.05]], "acima": 0.05},
     "bloquear_sacola_laranja": True,
     "sacola_liberada_canais": [],
     "trava_preco_pct": 0.3,
