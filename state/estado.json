@@ -8,6 +8,12 @@
    "tipo": "fixed",
    "valor": 70.0
   },
+  "15ELUX": {
+   "min": 100.0,
+   "t": 1795631687.9577992,
+   "tipo": "percent",
+   "valor": 15.0
+  },
   "2STTRTE": {
    "min": 150.0,
    "t": 1795624197.7747858,
@@ -56,6 +62,12 @@
    "tipo": "fixed",
    "valor": 40.0
   },
+  "BFWEEKFOOD": {
+   "min": 27.0,
+   "t": 1795631434.4086561,
+   "tipo": "fixed",
+   "valor": 12.0
+  },
   "BLACK150": {
    "min": 1499.0,
    "t": 1795624197.7760322,
@@ -64,13 +76,13 @@
   },
   "BLACK20LIMPEZA": {
    "min": 99.0,
-   "t": 1795630844.4844818,
+   "t": 1795631687.9577966,
    "tipo": "percent",
    "valor": 20.0
   },
   "BLACK25BABY": {
    "min": 99.0,
-   "t": 1795630811.1069481,
+   "t": 1795631687.9577985,
    "tipo": "percent",
    "valor": 25.0
   },
@@ -13158,15 +13170,15 @@
  "ult_ciclo": 1795624180.661412,
  "ultimo_id": {
   "apromodaluh": 159309,
-  "fumotom": 52738,
-  "iuriindica": 124668,
-  "juaocupons": 27817,
-  "pechinchou": 240665,
-  "perfumepromo": 10188,
-  "pincei": 371843,
-  "promosdaluh": 325468,
-  "promotom": 115398,
-  "teniscertocupons": 66255,
+  "fumotom": 52761,
+  "iuriindica": 124684,
+  "juaocupons": 27819,
+  "pechinchou": 240674,
+  "perfumepromo": 10192,
+  "pincei": 371863,
+  "promosdaluh": 325505,
+  "promotom": 115399,
+  "teniscertocupons": 66258,
   "teste": 1795214930
  }
 }
