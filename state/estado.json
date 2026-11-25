@@ -1,6 +1,6 @@
 {
- "cmd_ultimo": 2052723,
- "contagem_dia": 103,
+ "cmd_ultimo": 2053027,
+ "contagem_dia": 0,
  "cupom_min": {
   "1124MAISME": {
    "min": 499.0,
@@ -350,6 +350,12 @@
    "tipo": "fixed",
    "valor": 30.0
   },
+  "TODOSITE251126": {
+   "min": 199.0,
+   "t": 1795575675.998411,
+   "tipo": "fixed",
+   "valor": 40.0
+  },
   "TORCIDA50": {
    "min": 80.0,
    "t": 1795460477.109361,
@@ -405,7 +411,7 @@
    24588
   ]
  },
- "dia": "2026-11-24",
+ "dia": "2026-11-25",
  "feitos": {
   "apromodaluh:159070": {
    "r": "gerado",
@@ -714,6 +720,10 @@
   "esg:2BWKUQM": {
    "r": "avisado",
    "t": 1795554931
+  },
+  "esg:DDR5": {
+   "r": "avisado",
+   "t": 1795576424
   },
   "esg:OFICIAIS2411": {
    "r": "avisado",
@@ -1211,6 +1221,14 @@
    "r": "gerado",
    "t": 1795574629
   },
+  "fumotom:52466": {
+   "r": "duplicado",
+   "t": 1795577957
+  },
+  "fumotom:52467": {
+   "r": "falha",
+   "t": 1795577362
+  },
   "iuriindica:124222": {
    "r": "pulado:periferico de PC",
    "t": 1795534147
@@ -1539,6 +1557,18 @@
    "r": "pulado:repetido",
    "t": 1795570623
   },
+  "iuriindica:124476": {
+   "r": "pulado:sem preco",
+   "t": 1795576423
+  },
+  "iuriindica:124477": {
+   "r": "pulado:periferico de PC",
+   "t": 1795576423
+  },
+  "iuriindica:124478": {
+   "r": "esgotado_avisado",
+   "t": 1795576424
+  },
   "juaocupons:27724": {
    "r": "falha",
    "t": 1795526381
@@ -1679,6 +1709,10 @@
    "r": "pulado:loja desativada: magalu",
    "t": 1795559958
   },
+  "juaocupons:27781": {
+   "r": "pulado:sem preco",
+   "t": 1795576423
+  },
   "link:https://meli.la/11rci6P": {
    "r": "falha",
    "t": 1795530555
@@ -1818,6 +1852,10 @@
   "link:https://meli.la/2JZB5HN": {
    "r": "falha",
    "t": 1795528573
+  },
+  "link:https://meli.la/2KmX5cz": {
+   "r": "duplicado",
+   "t": 1795577957
   },
   "link:https://meli.la/2MwJBC8": {
    "r": "falha",
@@ -2015,6 +2053,10 @@
    "r": "gerado",
    "t": 1795531203
   },
+  "link:https://www.amazon.com.br/dp/B00J082PVU": {
+   "r": "falha",
+   "t": 1795577362
+  },
   "link:https://www.amazon.com.br/dp/B01IDEPBU8": {
    "r": "falha",
    "t": 1795546930
@@ -2087,6 +2129,10 @@
    "r": "gerado",
    "t": 1795525310
   },
+  "link:https://www.amazon.com.br/dp/B081DJTHY1": {
+   "r": "duplicado",
+   "t": 1795577265
+  },
   "link:https://www.amazon.com.br/dp/B0842ZCSMV": {
    "r": "gerado",
    "t": 1795532842
@@ -2110,6 +2156,10 @@
   "link:https://www.amazon.com.br/dp/B08Y9CVNNQ": {
    "r": "falha",
    "t": 1795546635
+  },
+  "link:https://www.amazon.com.br/dp/B093ZMF9JP": {
+   "r": "duplicado",
+   "t": 1795577401
   },
   "link:https://www.amazon.com.br/dp/B097BT4R97": {
    "r": "falha",
@@ -2359,6 +2409,10 @@
    "r": "falha",
    "t": 1795530291
   },
+  "link:https://www.mercadolivre.com.br/aspirador-vertical-wap-power-speed-max-ci10-3-em-1-1600w-220v/p/MLB62021470": {
+   "r": "falha",
+   "t": 1795575248
+  },
   "link:https://www.mercadolivre.com.br/body-splash-masculino-blunn-200ml-by-primacial-perfume-floral-citrico/p/MLB70511371": {
    "r": "falha",
    "t": 1795534944
@@ -2442,6 +2496,10 @@
   "link:https://www.mercadolivre.com.br/forno-eletrico-de-embutir-60-litros-nardelli-black-e60-cor-preto-127-v/p/MLB26693158": {
    "r": "falha",
    "t": 1795529688
+  },
+  "link:https://www.mercadolivre.com.br/frigobar-brastemp-retro-76-litros-classic-black-bra08me/p/MLB66431398": {
+   "r": "falha",
+   "t": 1795575845
   },
   "link:https://www.mercadolivre.com.br/gz/account-verification?go=https%3A%2F%2Flista.mercadolivre.com.br%2F_Container_FH-Afiliado-MELIUZDECOR%3Fcoupon_campaign_id%3D14199499%26forceContainer%3Dtrue%26matt_tool%3D49722217%26matt_word%3Dachadosporluh&tid=21f30433-0bd2-4d52-8840-1ce4c73934de": {
    "r": "falha",
@@ -2570,6 +2628,10 @@
   "link:https://www.mercadolivre.com.br/social/pp20250311151339?matt_word=pp20250311151339&matt_tool=70540603&forceInApp=true&ref=BFHFIoxh2TecyB8zR4yuKopwDltJ56hX2OFdjYp4icEo%2Bx00hngz4UovDgWHK2R%2FwMVOmeaJQZ0hEO24msDeioTcHQQu0dmlU3eozGPIN9A4Jd0OcJOdeBoMgz7uijBGFXi3UHRJDcmcJoLgXJsZhVXrmp0Mnz%2B1z2woqh8Q0hBrYik1U%2FWGcZz2ca23oZMFyTwbow8%3D": {
    "r": "duplicado",
    "t": 1795570763
+  },
+  "link:https://www.mercadolivre.com.br/social/pp20250311151339?matt_word=pp20250311151339&matt_tool=70540603&forceInApp=true&ref=BL%2FxnZEdIN6SxJEtQOEuOSvPckvRoANcmWDeHOXRHuRzQfsVCoJMywIsLY0ubN5QFSS875vI%2BE%2Fk7PRDsNjoD6zVScqPIG3s9gvhRgaSjx%2By2iPIf3RsUp2h%2Fj%2BuM4FpYIEgJGdrvRTRANHE7cclfDmiQEh5N0pMauvhgt3jCthd4Goz9yV%2Fm%2BYZJDzuuPAlmTE%2BqwMLU60%2B6QzfZHZzPAkKcgmrrceeIJui94lWU%2BOqLEOOCOwHr%2B9oFLzluB3a4rrc": {
+   "r": "duplicado",
+   "t": 1795577308
   },
   "link:https://www.mercadolivre.com.br/social/pp20250311151339?matt_word=pp20250311151339&matt_tool=70540603&forceInApp=true&ref=BMhYAqpUMBX55RkgcQkkmW%2Bh3L5voF7EwvFQ2rAPw1I4HTeE8W3kIwKj5o0mcXHmnBj3pdlKU%2F0IXRHJ9f3x%2BAyWSXeVKmfuT20IOAXiBjiMfelzJFUetpSVtM%2BKv1C3%2BcFLNsTMYnKH96jGura7ZtWtNu4KSDOYztGVkwF3bN%2BwBRk0L7YdCzuTeXjJVdWqd0tMD3Y%3D": {
    "r": "gerado",
@@ -2882,6 +2944,62 @@
   "pechinchou:240457": {
    "r": "pulado:loja desconhecida",
    "t": 1795574314
+  },
+  "pechinchou:240458": {
+   "r": "pulado:aliexpress (bloqueado)",
+   "t": 1795576915
+  },
+  "pechinchou:240459": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795576958
+  },
+  "pechinchou:240460": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795577001
+  },
+  "pechinchou:240461": {
+   "r": "duplicado",
+   "t": 1795577265
+  },
+  "pechinchou:240462": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795577047
+  },
+  "pechinchou:240463": {
+   "r": "duplicado",
+   "t": 1795577308
+  },
+  "pechinchou:240464": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795577093
+  },
+  "pechinchou:240465": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795577115
+  },
+  "pechinchou:240466": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795577158
+  },
+  "pechinchou:240467": {
+   "r": "duplicado",
+   "t": 1795577401
+  },
+  "pechinchou:240469": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795577205
+  },
+  "pechinchou:240470": {
+   "r": "pulado:aliexpress (bloqueado)",
+   "t": 1795577205
+  },
+  "pechinchou:240471": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795577248
+  },
+  "pechinchou:240472": {
+   "r": "pulado:aliexpress (bloqueado)",
+   "t": 1795577248
   },
   "perfumepromo:10154": {
    "r": "falha",
@@ -3414,6 +3532,10 @@
   "pincei:371546": {
    "r": "falha",
    "t": 1795567957
+  },
+  "pincei:371547": {
+   "r": "falha",
+   "t": 1795575248
   },
   "pincei:371548": {
    "r": "pulado:periferico de PC",
@@ -5026,6 +5148,10 @@
   "promosdaluh:325067": {
    "r": "duplicado",
    "t": 1795569028
+  },
+  "promosdaluh:325068": {
+   "r": "falha",
+   "t": 1795575845
   },
   "promosdaluh:325069": {
    "r": "pulado:repetido",
@@ -8413,80 +8539,6 @@
  "postados": [
   {
    "ids": [
-    "B0HCVW2HPS"
-   ],
-   "p": 479.0,
-   "t": 1795482037,
-   "w": [
-    "144hz",
-    "1ms",
-    "ips",
-    "monitor"
-   ]
-  },
-  {
-   "ids": [
-    "B085YDLGFR"
-   ],
-   "p": 79.9,
-   "t": 1795482646,
-   "w": [
-    "10w",
-    "bluetooth",
-    "caixa",
-    "essential",
-    "i2go",
-    "rms",
-    "som",
-    "sound"
-   ]
-  },
-  {
-   "ids": [
-    "B0H4N4L11K"
-   ],
-   "p": 2124.15,
-   "t": 1795482699,
-   "w": [
-    "220v",
-    "btus",
-    "condicionado",
-    "frio",
-    "inverter",
-    "pro",
-    "samsung",
-    "split",
-    "windfree"
-   ]
-  },
-  {
-   "ids": [],
-   "p": 99.99,
-   "t": 1795483844,
-   "w": [
-    "camiseta",
-    "corinthians",
-    "jogo",
-    "masculina",
-    "nike",
-    "pre"
-   ]
-  },
-  {
-   "ids": [
-    "B0CVCLGV1W"
-   ],
-   "p": 175.5,
-   "t": 1795483927,
-   "w": [
-    "fit3",
-    "galaxy",
-    "samsung",
-    "smartband"
-   ]
-  },
-  {
-   "ids": [
     "B0D2RY5LFK"
    ],
    "p": 211.0,
@@ -10989,50 +11041,122 @@
     "manifesto",
     "produtos"
    ]
+  },
+  {
+   "ids": [
+    "B081DJTHY1"
+   ],
+   "p": 1979.0,
+   "t": 1795577254,
+   "w": [
+    "220v",
+    "auto",
+    "btus",
+    "condicionado",
+    "frio",
+    "gree",
+    "inverter",
+    "side",
+    "split",
+    "wall"
+   ]
+  },
+  {
+   "ids": [],
+   "p": 48.0,
+   "t": 1795577293,
+   "w": [
+    "20x20",
+    "cano",
+    "chuveiro",
+    "cores",
+    "ducha",
+    "inox",
+    "quadrada",
+    "slim"
+   ]
+  },
+  {
+   "ids": [
+    "B093ZMF9JP"
+   ],
+   "p": 116.0,
+   "t": 1795577391,
+   "w": [
+    "100ml",
+    "attar",
+    "edp",
+    "wataniah",
+    "wesal"
+   ]
+  },
+  {
+   "ids": [],
+   "p": 59.0,
+   "t": 1795577942,
+   "w": [
+    "390g",
+    "chocolate",
+    "chocotone",
+    "gotas",
+    "lindt",
+    "panettone"
+   ]
   }
  ],
  "resumo_dia": "2026-11-24",
  "retry": [
   {
+   "canal": "pincei",
+   "id": 371572,
+   "n": 2,
+   "quando": 1795576903.928693,
+   "t": 1795573955.7125885,
+   "txt": "💥💥PREÇO ABSURDO (CUSTA O DOBRO  DO VALOR)\n\nKit Kérastase Curl Manifesto Fondamentale (3 Produtos)\n\n🔥 R$ 323,90\n\n🛍️ PEGAR PROMOÇÃO:\nhttps://pincei.co/e/b2ix576gN1j_m4\n\n💖 Grupo Pincei Beleza:\nhttps://join.pincei.co/beleza"
+  },
+  {
+   "canal": "pincei",
+   "id": 371574,
+   "n": 1,
+   "quando": 1795577395.4632618,
+   "t": 1795576915.4632614,
+   "txt": "🍷SÓ NO APP AMAZON : 3 Vinhos por R$89.90\n\n🛍️ PEGAR PROMOÇÃO:\nhttps://pincei.co/e/aNa4iaM49CV_m4\n\n🟡 Grupo Pincei Bebidas:\nhttps://join.pincei.co/bebidas"
+  },
+  {
+   "canal": "pechinchou",
+   "id": 240473,
+   "n": 1,
+   "quando": 1795578396.3191047,
+   "t": 1795577916.3191044,
+   "txt": "LEVE 3 VINHOS POR 89 REAIS NA AMAZON 🗿🍷 Para Compor Sua Adega 😍\n\n📦 Frete Grátis todo o Brasil\n•⁠  3 em Vinhos por R$89.90\n\n🔥 R$ 89,90 Pix\nAchado Amazon 👇🏻\n🛒 https://pechin.co/103513"
+  },
+  {
    "canal": "juaocupons",
    "id": 27780,
-   "n": 1,
-   "quando": 1795571884.363652,
+   "n": 2,
+   "quando": 1795578950.3733566,
    "t": 1795571404.3636518,
    "txt": "BLACK ESTÁ CHEGANDO \n\n🔥Oferta Especial Amazon Prime - 3 meses por apenas R$ 9,90\n\nCole o link no navegador para conseguir assinar por 9,90 \n\n🔗Veja aqui:\nhttps://amzlink.to/az0Od0e73begY"
   },
   {
-   "canal": "pincei",
-   "id": 371547,
-   "n": 2,
-   "quando": 1795573082.2928116,
-   "t": 1795568537.2682827,
-   "txt": "Aspirador Vertical WAP POWER SPEED MAX CI10 3 EM 1 1600W 220V\n\n🔥 R$ 178,12\n\n🏷️ Usar cupom TECHHOME\n\n🛍️ PEGAR PROMOÇÃO:\nhttps://pincei.co/e/1DZbh9a0Qaj_m4\n\n🟤 Grupo Pincei Casa:\nhttps://join.pincei.co/casa"
-  },
-  {
-   "canal": "promosdaluh",
-   "id": 325068,
-   "n": 2,
-   "quando": 1795573679.609035,
-   "t": 1795569625.6387749,
-   "txt": "🛍️ Triplo Sérum Para Os Olhos Rénergie 20ml Todo Tipo De Pele Dia/noite\n\nde R$ 849,00\n💸por R$ 419,11 🔥\n\n🎟️BLACKDELUXO\n\nCompre aqui 🔗\nhttps://promosdaluh.com/p/2t15kt/\n\n📍 GRUPOS COM VAGAS: https://promosdaluh.com/bio"
-  },
-  {
-   "canal": "pincei",
-   "id": 371572,
+   "canal": "pechinchou",
+   "id": 240468,
    "n": 1,
-   "quando": 1795574435.712589,
-   "t": 1795573955.7125885,
-   "txt": "💥💥PREÇO ABSURDO (CUSTA O DOBRO  DO VALOR)\n\nKit Kérastase Curl Manifesto Fondamentale (3 Produtos)\n\n🔥 R$ 323,90\n\n🛍️ PEGAR PROMOÇÃO:\nhttps://pincei.co/e/b2ix576gN1j_m4\n\n💖 Grupo Pincei Beleza:\nhttps://join.pincei.co/beleza"
+   "quando": 1795579461.280773,
+   "t": 1795578981.2807724,
+   "txt": "CHEGA DE PNEU CARECA POR AQUI!! 🖤 194 Cada Unidade 😆\n\n•⁠  Kit 4 Pneus 175/60r13 77h Rw581 Roadwing\n\n🔥 R$ 777 Pix\n\n1º Resgate Cupom aqui:\nhttps://s.shopee.com.br/30mzRxdWQj\n2º Link do produto 👇🏻\n🛒 https://s.shopee.com.br/3LSfj3wucZ?lp=aff"
   }
  ],
  "tentativas": {
   "fumotom:52425": 1,
-  "juaocupons:27780": 1,
+  "juaocupons:27780": 2,
+  "pechinchou:240468": 1,
+  "pechinchou:240473": 1,
   "pincei:371517": 2,
   "pincei:371539": 2,
   "pincei:371547": 2,
-  "pincei:371572": 1,
+  "pincei:371572": 2,
+  "pincei:371574": 1,
   "promosdaluh:324979": 2,
   "promosdaluh:324982": 2,
   "promosdaluh:324983": 1,
@@ -11043,15 +11167,15 @@
   "promosdaluh:325068": 2
  },
  "tpl_ultimo": 2032135,
- "ult_ciclo": 1795574654.9172018,
+ "ult_ciclo": 1795579006.2983623,
  "ultimo_id": {
   "apromodaluh": 159219,
-  "fumotom": 52465,
-  "iuriindica": 124475,
-  "juaocupons": 27780,
-  "pechinchou": 240457,
+  "fumotom": 52467,
+  "iuriindica": 124478,
+  "juaocupons": 27781,
+  "pechinchou": 240473,
   "perfumepromo": 10183,
-  "pincei": 371573,
+  "pincei": 371574,
   "promosdaluh": 325081,
   "promotom": 115364,
   "teniscertocupons": 66227,
