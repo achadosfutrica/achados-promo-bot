@@ -248,6 +248,12 @@
    "tipo": "percent",
    "valor": 15.0
   },
+  "MELI782YHDL": {
+   "min": 89.0,
+   "t": 1795629602.9306998,
+   "tipo": "percent",
+   "valor": 15.0
+  },
   "MELIAGORA": {
    "min": 199.0,
    "t": 1795624197.917881,
@@ -307,6 +313,12 @@
    "t": 1795624197.7777255,
    "tipo": "percent",
    "valor": 10.0
+  },
+  "OFICIAIS2511": {
+   "min": 150.0,
+   "t": 1795629602.9306672,
+   "tipo": "percent",
+   "valor": 15.0
   },
   "P1XDAY15AF": {
    "min": 999.0,
@@ -13127,16 +13139,16 @@
  "tpl_ultimo": 2032135,
  "ult_ciclo": 1795624180.661412,
  "ultimo_id": {
-  "apromodaluh": 159307,
-  "fumotom": 52675,
-  "iuriindica": 124646,
-  "juaocupons": 27816,
-  "pechinchou": 240641,
-  "perfumepromo": 10185,
-  "pincei": 371808,
-  "promosdaluh": 325433,
-  "promotom": 115397,
-  "teniscertocupons": 66250,
+  "apromodaluh": 159308,
+  "fumotom": 52723,
+  "iuriindica": 124664,
+  "juaocupons": 27817,
+  "pechinchou": 240653,
+  "perfumepromo": 10186,
+  "pincei": 371828,
+  "promosdaluh": 325455,
+  "promotom": 115398,
+  "teniscertocupons": 66252,
   "teste": 1795214930
  }
 }
