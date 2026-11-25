@@ -7,8 +7,10 @@ O Divulgador não tem campo de "compra mínima" no cupom: quando o monitoramento
 A sentinela:
   1) APRENDE o mínimo de cada cupom lendo os canais de cupom (juaocupons, promotom, fumotom...);
   2) VIGIA o grupo onde o Divulgador posta: post com preço zerado/negativo, ou com cupom cujo
-     mínimo é maior que o preço, é APAGADO do grupo do Telegram e você recebe o aviso nas
-     Mensagens Salvas com o link do produto para corrigir no Divulgador.
+     mínimo é maior que o preço (mesmo somando a folga do desconto Pix), é APAGADO do grupo do Telegram e
+     você recebe o aviso nas Mensagens Salvas com o link do produto para corrigir no Divulgador.
+     Na DÚVIDA (o preço do post é o do Pix, mas o mínimo do cupom vale sobre o preço cheio/parcelado,
+     sem o desconto do Pix) NÃO apaga: só avisa para conferir (24/11: Philco 58 era válida e foi apagada).
 """
 import re
 import time
@@ -83,14 +85,21 @@ def preco_do_post(texto):
     return None
 
 
-def problema(texto, minimos):
-    """Texto do problema do post ou None."""
+MARGEM_PIX = 0.20   # maior desconto à vista/Pix esperado (config: sentinela.margem_pix)
+
+
+def avaliar(texto, minimos, margem=MARGEM_PIX):
+    """(nivel, texto) do post do Divulgador.
+    nivel 'erro'   = CERTO que está errado (preço zerado/negativo, ou cupom que não vale nem pelo preço cheio): apaga e avisa.
+    nivel 'duvida' = pode estar certo: o preço do post é o do Pix, mas o MÍNIMO DO CUPOM vale sobre o preço cheio/parcelado
+                     (sem o desconto do Pix, que é maior que o do post): NÃO apaga, só avisa para conferir.
+    (None, None)   = nada a apontar."""
     p = preco_do_post(texto)
     if p is None:
-        return None
+        return None, None
     cod = T.cupom(texto or "")
     if p <= 0:
-        return "preço %s (zerado ou negativo%s)" % (("-R$ %s" % T.formatar_preco(-p)) if p < 0 else "R$ 0", ", cupom " + cod if cod else "")
+        return "erro", "preço %s (zerado ou negativo%s)" % (("-R$ %s" % T.formatar_preco(-p)) if p < 0 else "R$ 0", ", cupom " + cod if cod else "")
     if cod and cod in minimos:
         info = minimos[cod]
         # o preço do post pode já estar com o desconto: estima o preço ANTES do cupom (assim não acusa à toa)
@@ -101,8 +110,20 @@ def problema(texto, minimos):
         else:
             antes = p
         if antes < info["min"] - 0.01:
-            return "cupom %s só vale acima de R$ %s, e o produto custa R$ %s" % (cod, T.formatar_preco(info["min"]), T.formatar_preco(p))
-    return None
+            margem = min(max(float(margem), 0.0), 0.5)
+            cheio_max = antes / (1 - margem)          # maior preço cheio (antes do desconto Pix) que esse preço permite
+            if cheio_max + 0.01 >= info["min"]:
+                return "duvida", ("cupom %s pede mínimo de R$ %s; o produto está R$ %s no Pix (R$ %s antes do cupom). "
+                                  "O mínimo vale sobre o preço cheio/parcelado (sem desconto Pix): confira se ele chega a R$ %s"
+                                  % (cod, T.formatar_preco(info["min"]), T.formatar_preco(p), T.formatar_preco(antes), T.formatar_preco(info["min"])))
+            return "erro", "cupom %s só vale acima de R$ %s, e o produto custa R$ %s" % (cod, T.formatar_preco(info["min"]), T.formatar_preco(p))
+    return None, None
+
+
+def problema(texto, minimos, margem=MARGEM_PIX):
+    """Texto do problema CERTO do post (o que apaga) ou None. Casos duvidosos: use avaliar()."""
+    nivel, msg = avaliar(texto, minimos, margem)
+    return msg if nivel == "erro" else None
 
 
 def _exec(loop, x):
@@ -119,6 +140,10 @@ class Sentinela:
         self.c, self.log = client, log
         self.ligada = sc.get("ligado", True)
         self.apagar = sc.get("apagar_do_grupo", True)
+        try:
+            self.margem = float(sc.get("margem_pix", MARGEM_PIX))
+        except (TypeError, ValueError):
+            self.margem = MARGEM_PIX
         self.grupo = (cfg.get("inteligencia") or {}).get("meu_grupo")
         self.canais = [str(x).lstrip("@").lower() for x in (sc.get("canais_cupom") or canais)]
         # CODIGO -> {"min": 1499.0, "tipo": "fixed", "valor": 230.0, "t": epoch} (guardado no estado: vale 3 dias)
@@ -143,25 +168,31 @@ class Sentinela:
             return
         self.vistos.add(chave)
         txt = msg.message or ""
-        prob = problema(txt, self.minimos)
+        nivel, prob = avaliar(txt, self.minimos, self.margem)
         if not prob or msg.id in self.avisados:
             return
         self.avisados.append(msg.id)
         link = "https://t.me/c/%s/%s" % (str(self.grupo).replace("-100", "", 1), msg.id)
         site = re.search(r"https?://(?:www\.)?achadosfutrica\.com\.br/p/\S+", txt)
         apagou = False
-        if self.apagar:
+        if self.apagar and nivel == "erro":      # só apaga quando é CERTO que está errado; na dúvida só avisa
             try:
                 await self.c.delete_messages(int(self.grupo), [msg.id])
                 apagou = True
             except Exception as e:  # noqa
                 self.log("aviso: sentinela: nao apaguei do grupo: %r" % e)
         nome = next((l.strip() for l in txt.splitlines() if len(l.strip()) > 8 and "R$" not in l), "")[:90]
-        aviso = ("🚨 CUPOM ABAIXO DO MÍNIMO — postagem do Divulgador\n"
-                 "%s\n⚠️ %s\n%s\n%s\n\n👉 Corrija no Divulgador (tire o cupom ou acerte o preço)%s."
-                 % (nome, prob, ("🗑 Apaguei do grupo do Telegram." if apagou else "🔗 " + link),
-                    ("🛒 " + site.group(0)) if site else "", " e confira o WhatsApp" if apagou else ""))
-        self.log("sentinela: %s | %s" % (prob, nome))
+        if nivel == "erro":
+            aviso = ("🚨 CUPOM ABAIXO DO MÍNIMO — postagem do Divulgador\n"
+                     "%s\n⚠️ %s\n%s\n%s\n\n👉 Corrija no Divulgador (tire o cupom ou acerte o preço)%s."
+                     % (nome, prob, ("🗑 Apaguei do grupo do Telegram." if apagou else "🔗 " + link),
+                        ("🛒 " + site.group(0)) if site else "", " e confira o WhatsApp" if apagou else ""))
+        else:
+            aviso = ("🔎 CONFIRA O CUPOM — postagem do Divulgador (NÃO apaguei)\n"
+                     "%s\n⚠️ %s\n🔗 %s\n%s\n\n👉 Se o preço cheio/parcelado já passa do mínimo, está certo e não precisa fazer nada; "
+                     "se não passa, tire o cupom ou acerte o preço no Divulgador."
+                     % (nome, prob, link, ("🛒 " + site.group(0)) if site else ""))
+        self.log("sentinela (%s): %s | %s" % (nivel, prob, nome))
         try:
             await self.c.send_message("me", aviso, link_preview=False)
         except Exception as e:  # noqa
