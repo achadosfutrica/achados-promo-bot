@@ -428,6 +428,12 @@
    "tipo": "fixed",
    "valor": 30.0
   },
+  "QUERO40": {
+   "min": 499.0,
+   "t": 1795648244.3337266,
+   "tipo": "percent",
+   "valor": 20.0
+  },
   "QUERO50": {
    "min": 599.0,
    "t": 1795479348.805878,
@@ -13214,15 +13220,15 @@
  "ult_ciclo": 1795624180.661412,
  "ultimo_id": {
   "apromodaluh": 159339,
-  "fumotom": 52811,
-  "iuriindica": 124738,
-  "juaocupons": 27844,
-  "pechinchou": 240772,
-  "perfumepromo": 10205,
-  "pincei": 372014,
-  "promosdaluh": 325619,
-  "promotom": 115445,
-  "teniscertocupons": 66310,
+  "fumotom": 52813,
+  "iuriindica": 124741,
+  "juaocupons": 27845,
+  "pechinchou": 240784,
+  "perfumepromo": 10206,
+  "pincei": 372026,
+  "promosdaluh": 325643,
+  "promotom": 115447,
+  "teniscertocupons": 66313,
   "teste": 1795214930
  }
 }
