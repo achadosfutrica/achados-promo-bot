@@ -146,11 +146,18 @@ templates:
   bot_manual: di48291bot
   robo_templates: achadosfutricatemplatesbot
 
-# não posta o MESMO produto 2x em 24 h (robô + seu grupo), a não ser que o preço caia 15% ou mais
+# não posta o MESMO produto 2x no mesmo dia (robô + seu grupo), a não ser que o preço tenha CAÍDO o mínimo da faixa
+# (25/11 regra do Oscar; faixa pelo preço NOVO: [até R$, queda mínima]). Acima do último teto vale "acima".
 repetidos:
   ligado: true
   horas: 24
-  desconto_min: 0.15
+  faixas:
+    - [100, 0.20]
+    - [500, 0.15]
+    - [1000, 0.12]
+    - [5000, 0.10]
+    - [10000, 0.05]
+  acima: 0.05
 
 # bônus na nota para lojas novas (as 4 grandes não ganham bônus)
 bonus_loja:
