@@ -8,6 +8,7 @@ import time
 
 from . import config as C
 from . import filtro, inteligencia, links, lojas_extra, ml_vendedor, repetidos, templates, texto as T, vigia, painel, sentinela
+from . import cadastro_canais
 from .driver import Driver, Falha
 from .estado import Estado
 
@@ -329,6 +330,25 @@ def _ler_canais(client, cfg, est, log):
         else:
             todos = client.loop.run_until_complete(_buscar(client, canal, ultimo, 100, com_data=True))
             out[canal] = recentes_apenas(todos, cfg["limites"].get("max_idade_min", 90), est, canal, log)
+
+def _verificar_cadastros_canais(posts_por_canal, est, log):
+    """v73: manda cada post novo dos canais pro cadastro (Apps Script); se bater, avisa o Oscar
+    pelo bot do monitor de precos (NAO cria a promocao sozinho -- so avisa)."""
+    for canal, posts in posts_por_canal.items():
+        for p in posts:
+            pid, txt = p[0], p[1]
+            chave = "cad:%s:%s" % (canal, pid)
+            if est.ja_fez(chave):
+                continue
+            try:
+                achados = cadastro_canais.verificar(txt, canal, log=log)
+                if achados:
+                    link = "https://t.me/%s/%s" % (canal, pid)
+                    log("  cadastro bateu em %s:%s: %s" % (canal, pid, ", ".join(a.get("nome") or "?" for a in achados)))
+                    cadastro_canais.avisar(achados, canal, txt, link, log=log)
+            except Exception as e:  # noqa
+                log("  aviso: verificacao de cadastro falhou em %s:%s: %r" % (canal, pid, e))
+            est.marcar(chave, "cad_verificado")
     return out
 
 
@@ -490,6 +510,7 @@ def main():
             templates.encaminhar_manuais(client, cfg, est, log, cfg["mode"])   # @di48291bot -> não vira arte
             if posts is None:
                 posts = _ler_canais(client, cfg, est, log)
+                _verificar_cadastros_canais(posts, est, log)
             drv = Driver(conv_divulgador(), cfg, log)
             perfil = atualizar_perfil(client, cfg, est, log)
             est.d["_grupo_hoje"] = grupo_hoje(client, cfg, log)
