@@ -1,6 +1,6 @@
 {
- "cmd_ultimo": 2053338,
- "contagem_dia": 20,
+ "cmd_ultimo": 2054474,
+ "contagem_dia": 36,
  "cupom_min": {
   "1124MAISME": {
    "min": 499.0,
@@ -19,6 +19,12 @@
    "t": 1795567286.927701,
    "tipo": "fixed",
    "valor": 150.0
+  },
+  "4N04C4B4ND0": {
+   "min": 120.0,
+   "t": 1795605258.436245,
+   "tipo": "fixed",
+   "valor": 50.0
   },
   "50NABLACK": {
    "min": 249.0,
@@ -1259,6 +1265,14 @@
    "r": "pulado:periferico de PC",
    "t": 1795583344
   },
+  "fumotom:52535": {
+   "r": "falha",
+   "t": 1795606302
+  },
+  "fumotom:52536": {
+   "r": "pulado:so cupom (ignorado)",
+   "t": 1795604494
+  },
   "iuriindica:124222": {
    "r": "pulado:periferico de PC",
    "t": 1795534147
@@ -1767,6 +1781,10 @@
    "r": "pulado:sem preco",
    "t": 1795601961
   },
+  "juaocupons:27791": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795604501
+  },
   "link:https://meli.la/11rci6P": {
    "r": "falha",
    "t": 1795530555
@@ -2203,6 +2221,10 @@
    "r": "duplicado",
    "t": 1795570710
   },
+  "link:https://www.amazon.com.br/dp/B079VPMXHF": {
+   "r": "gerado",
+   "t": 1795605606
+  },
   "link:https://www.amazon.com.br/dp/B07BKBTMLY": {
    "r": "gerado",
    "t": 1795602114
@@ -2219,9 +2241,17 @@
    "r": "gerado",
    "t": 1795561256
   },
+  "link:https://www.amazon.com.br/dp/B07GBMJKYN": {
+   "r": "falha",
+   "t": 1795606302
+  },
   "link:https://www.amazon.com.br/dp/B07GCXZTMB": {
    "r": "gerado",
    "t": 1795561327
+  },
+  "link:https://www.amazon.com.br/dp/B07H113TPQ": {
+   "r": "gerado",
+   "t": 1795605559
   },
   "link:https://www.amazon.com.br/dp/B07HZKLRCK": {
    "r": "falha",
@@ -2258,6 +2288,10 @@
   "link:https://www.amazon.com.br/dp/B07W8X4F48": {
    "r": "gerado",
    "t": 1795525310
+  },
+  "link:https://www.amazon.com.br/dp/B07Y1NTK1Z": {
+   "r": "gerado",
+   "t": 1795605087
   },
   "link:https://www.amazon.com.br/dp/B081DJTHY1": {
    "r": "duplicado",
@@ -2307,9 +2341,17 @@
    "r": "duplicado",
    "t": 1795601982
   },
+  "link:https://www.amazon.com.br/dp/B09V6R64FN": {
+   "r": "gerado",
+   "t": 1795605654
+  },
   "link:https://www.amazon.com.br/dp/B0B3JL4VLZ": {
    "r": "gerado",
    "t": 1795566426
+  },
+  "link:https://www.amazon.com.br/dp/B0BHJK4SHJ": {
+   "r": "gerado",
+   "t": 1795604768
   },
   "link:https://www.amazon.com.br/dp/B0BHL6FKYY": {
    "r": "duplicado",
@@ -2334,6 +2376,10 @@
   "link:https://www.amazon.com.br/dp/B0CP6CVJSG": {
    "r": "gerado",
    "t": 1795583431
+  },
+  "link:https://www.amazon.com.br/dp/B0CVBC25TJ": {
+   "r": "falha",
+   "t": 1795604913
   },
   "link:https://www.amazon.com.br/dp/B0CVSBKF4N": {
    "r": "falha",
@@ -2371,6 +2417,10 @@
    "r": "falha",
    "t": 1795546576
   },
+  "link:https://www.amazon.com.br/dp/B0DPBG1WN6": {
+   "r": "gerado",
+   "t": 1795604820
+  },
   "link:https://www.amazon.com.br/dp/B0DVMQVVDY": {
    "r": "falha",
    "t": 1795530197
@@ -2387,9 +2437,17 @@
    "r": "falha",
    "t": 1795561430
   },
+  "link:https://www.amazon.com.br/dp/B0F8C4M33R": {
+   "r": "gerado",
+   "t": 1795606148
+  },
   "link:https://www.amazon.com.br/dp/B0F9NVSBVP": {
    "r": "falha",
    "t": 1795570091
+  },
+  "link:https://www.amazon.com.br/dp/B0FFTS3DQ2": {
+   "r": "gerado",
+   "t": 1795606504
   },
   "link:https://www.amazon.com.br/dp/B0FK1NJLXB": {
    "r": "falha",
@@ -2443,6 +2501,10 @@
    "r": "gerado",
    "t": 1795531508
   },
+  "link:https://www.amazon.com.br/dp/B0GR1W4GCP": {
+   "r": "gerado",
+   "t": 1795606404
+  },
   "link:https://www.amazon.com.br/dp/B0GT6LW2VN": {
    "r": "gerado",
    "t": 1795602058
@@ -2450,6 +2512,10 @@
   "link:https://www.amazon.com.br/dp/B0GWN59JB6": {
    "r": "gerado",
    "t": 1795533181
+  },
+  "link:https://www.amazon.com.br/dp/B0H1282J24": {
+   "r": "gerado",
+   "t": 1795606248
   },
   "link:https://www.amazon.com.br/dp/B0H1K4R949": {
    "r": "duplicado",
@@ -2687,6 +2753,10 @@
    "r": "gerado",
    "t": 1795603194
   },
+  "link:https://www.mercadolivre.com.br/gel-de-limpeza-facial-purificante-avene-cleanance-pele-oleosa-e-sensivel-400g/p/MLB26241166": {
+   "r": "gerado",
+   "t": 1795605770
+  },
   "link:https://www.mercadolivre.com.br/gz/account-verification?go=https%3A%2F%2Flista.mercadolivre.com.br%2F_Container_FH-Afiliado-MELIUZDECOR%3Fcoupon_campaign_id%3D14199499%26forceContainer%3Dtrue%26matt_tool%3D49722217%26matt_word%3Dachadosporluh&tid=21f30433-0bd2-4d52-8840-1ce4c73934de": {
    "r": "falha",
    "t": 1795546873
@@ -2759,6 +2829,10 @@
    "r": "gerado",
    "t": 1795603298
   },
+  "link:https://www.mercadolivre.com.br/panela-de-pressao-eletrica-digital-5l-mondial-900w-pe-39/p/MLB23011951": {
+   "r": "gerado",
+   "t": 1795605890
+  },
   "link:https://www.mercadolivre.com.br/parafusadeira-e-furadeira-de-impacto-38-wap-k21-id02-2000-mah/p/MLB28765604": {
    "r": "falha",
    "t": 1795527279
@@ -2810,6 +2884,14 @@
   "link:https://www.mercadolivre.com.br/protetor-solar-facial-sem-cor-antioleosidade-toque-seco-fps-60-reduz-acne-e-poros-acabamento-invisivel-com-niacinamida-acido-salicilico-capital-soleil-uv-clear-vichy-40g/p/MLB38686865": {
    "r": "gerado",
    "t": 1795562474
+  },
+  "link:https://www.mercadolivre.com.br/protetor-solar-fps80-anthelios-cor-10-40g-la-roche-posay/p/MLB30237244": {
+   "r": "gerado",
+   "t": 1795605311
+  },
+  "link:https://www.mercadolivre.com.br/refil-perfume-feminino-eau-de-parfum-fragrancia-floral-gourmand-inebriante-com-iris-nobre-e-baunilha-aroma-de-felicidade-e-feminilidade-la-vie-est-belle-lancome-frasco-com-100ml/p/MLB34729362": {
+   "r": "gerado",
+   "t": 1795605511
   },
   "link:https://www.mercadolivre.com.br/roteador-mercusys-mr80x-v4-ax3000-dual-band-wifi6/p/MLB47097785": {
    "r": "falha",
@@ -2935,6 +3017,14 @@
    "r": "gerado",
    "t": 1795524996
   },
+  "link:https://www.paguemenos.com.br/barra-de-proteina-nutrata-caramel-protein-45g/p": {
+   "r": "gerado",
+   "t": 1795604653
+  },
+  "link:https://www.paguemenos.com.br/preservativo-blowtex-lubrificado-leve-9-pague-6/p": {
+   "r": "gerado",
+   "t": 1795604595
+  },
   "link:https://www.paguemenos.com.br/shampoo-anticaspa-head-shoulders-hidratacao-com-oleo-de-amendoas-400ml/p": {
    "r": "falha",
    "t": 1795526644
@@ -2942,6 +3032,10 @@
   "link:https://www.paguemenos.com.br/tintura-koleston-louro-clarissimo-acinzentado-121/p": {
    "r": "falha",
    "t": 1795527318
+  },
+  "link:https://www.paguemenos.com.br/yopro-bebida-lactea-uht-chocolate-15g-de-proteinas-250ml/p": {
+   "r": "falha",
+   "t": 1795604692
   },
   "pechinchou:240403": {
    "r": "pulado:repetido",
@@ -3262,6 +3356,38 @@
   "pechinchou:240485": {
    "r": "gerado",
    "t": 1795603965
+  },
+  "pechinchou:240486": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795605932
+  },
+  "pechinchou:240487": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795605974
+  },
+  "pechinchou:240488": {
+   "r": "gerado",
+   "t": 1795606248
+  },
+  "pechinchou:240489": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795606020
+  },
+  "pechinchou:240490": {
+   "r": "gerado",
+   "t": 1795606148
+  },
+  "pechinchou:240491": {
+   "r": "gerado",
+   "t": 1795606404
+  },
+  "pechinchou:240492": {
+   "r": "gerado",
+   "t": 1795606504
+  },
+  "pechinchou:240493": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795606073
   },
   "perfumepromo:10154": {
    "r": "falha",
@@ -3942,6 +4068,62 @@
   "pincei:371591": {
    "r": "gerado",
    "t": 1795602225
+  },
+  "pincei:371593": {
+   "r": "pulado:sem preco",
+   "t": 1795604504
+  },
+  "pincei:371594": {
+   "r": "pulado:loja desativada: aliexpress",
+   "t": 1795604511
+  },
+  "pincei:371595": {
+   "r": "pulado:sem preco",
+   "t": 1795604516
+  },
+  "pincei:371596": {
+   "r": "pulado:sem preco",
+   "t": 1795604519
+  },
+  "pincei:371597": {
+   "r": "pulado:sem preco",
+   "t": 1795604524
+  },
+  "pincei:371598": {
+   "r": "pulado:sem preco",
+   "t": 1795604529
+  },
+  "pincei:371599": {
+   "r": "pulado:so cupom (ignorado)",
+   "t": 1795604534
+  },
+  "pincei:371600": {
+   "r": "gerado",
+   "t": 1795604595
+  },
+  "pincei:371601": {
+   "r": "gerado",
+   "t": 1795604653
+  },
+  "pincei:371602": {
+   "r": "falha",
+   "t": 1795604692
+  },
+  "pincei:371603": {
+   "r": "gerado",
+   "t": 1795604768
+  },
+  "pincei:371604": {
+   "r": "gerado",
+   "t": 1795604820
+  },
+  "pincei:371605": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795604869
+  },
+  "pincei:371606": {
+   "r": "falha",
+   "t": 1795604913
   },
   "promosdaluh:324149": {
    "r": "falha",
@@ -5663,6 +5845,86 @@
    "r": "pulado:loja desconhecida",
    "t": 1795603701
   },
+  "promosdaluh:325127": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795604956
+  },
+  "promosdaluh:325128": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795604998
+  },
+  "promosdaluh:325129": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795605040
+  },
+  "promosdaluh:325130": {
+   "r": "gerado",
+   "t": 1795605087
+  },
+  "promosdaluh:325131": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795605130
+  },
+  "promosdaluh:325132": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795605172
+  },
+  "promosdaluh:325133": {
+   "r": "pulado:repetido",
+   "t": 1795605195
+  },
+  "promosdaluh:325134": {
+   "r": "pulado:repetido",
+   "t": 1795605236
+  },
+  "promosdaluh:325135": {
+   "r": "gerado",
+   "t": 1795605311
+  },
+  "promosdaluh:325136": {
+   "r": "pulado:repetido",
+   "t": 1795605344
+  },
+  "promosdaluh:325137": {
+   "r": "pulado:repetido",
+   "t": 1795605374
+  },
+  "promosdaluh:325138": {
+   "r": "pulado:repetido",
+   "t": 1795605416
+  },
+  "promosdaluh:325139": {
+   "r": "gerado",
+   "t": 1795605511
+  },
+  "promosdaluh:325140": {
+   "r": "gerado",
+   "t": 1795605559
+  },
+  "promosdaluh:325141": {
+   "r": "gerado",
+   "t": 1795605606
+  },
+  "promosdaluh:325142": {
+   "r": "pulado:repetido",
+   "t": 1795605607
+  },
+  "promosdaluh:325143": {
+   "r": "gerado",
+   "t": 1795605654
+  },
+  "promosdaluh:325144": {
+   "r": "pulado:repetido",
+   "t": 1795605695
+  },
+  "promosdaluh:325145": {
+   "r": "gerado",
+   "t": 1795605770
+  },
+  "promosdaluh:325146": {
+   "r": "gerado",
+   "t": 1795605890
+  },
   "promotom:115239": {
    "r": "falha",
    "t": 1795546794
@@ -5926,6 +6188,10 @@
   "promotom:115364": {
    "r": "pulado:sem link",
    "t": 1795567884
+  },
+  "promotom:115371": {
+   "r": "pulado:periferico de PC",
+   "t": 1795604494
   },
   "teniscertocupons:66201": {
    "r": "gerado",
@@ -8996,64 +9262,6 @@
  },
  "postados": [
   {
-   "ids": [
-    "B0DTKHXJK8"
-   ],
-   "p": 257.0,
-   "t": 1795512532,
-   "w": [
-    "bolsa",
-    "demand",
-    "dourada",
-    "dourado",
-    "esportiva",
-    "preta",
-    "preto",
-    "puma"
-   ]
-  },
-  {
-   "ids": [
-    "B001CSMN54"
-   ],
-   "p": 86.0,
-   "t": 1795512603,
-   "w": [
-    "ano",
-    "cachorro",
-    "caes",
-    "caixas",
-    "camas",
-    "for",
-    "garantia",
-    "gatos",
-    "homes",
-    "ideais",
-    "lavavel",
-    "luxo",
-    "maquina",
-    "midwest",
-    "pelucia",
-    "pets",
-    "secadora"
-   ]
-  },
-  {
-   "ids": [
-    "B0DR9JDRRK"
-   ],
-   "p": 9.0,
-   "t": 1795512676,
-   "w": [
-    "ciclismo",
-    "luke",
-    "oculos",
-    "polarizado",
-    "sports",
-    "uv400"
-   ]
-  },
-  {
    "ids": [],
    "p": 27.12,
    "t": 1795518036,
@@ -11628,6 +11836,276 @@
     "protect",
     "sec"
    ]
+  },
+  {
+   "ids": [],
+   "p": 6.6,
+   "t": 1795604541,
+   "w": [
+    "blowtex",
+    "lubrificado",
+    "preservativo",
+    "tradicional"
+   ]
+  },
+  {
+   "ids": [],
+   "p": 2.99,
+   "t": 1795604603,
+   "w": [
+    "10g",
+    "45g",
+    "amendoim",
+    "barra",
+    "caramel",
+    "caramelo",
+    "nutrata",
+    "protein",
+    "proteina"
+   ]
+  },
+  {
+   "ids": [
+    "B0BHJK4SHJ"
+   ],
+   "p": 28.47,
+   "t": 1795604697,
+   "w": [
+    "black",
+    "colgate",
+    "dente",
+    "escova",
+    "macia",
+    "slim",
+    "soft"
+   ]
+  },
+  {
+   "ids": [
+    "B0DPBG1WN6"
+   ],
+   "p": 21.75,
+   "t": 1795604774,
+   "w": [
+    "4x90g",
+    "alivio",
+    "colgate",
+    "creme",
+    "dental",
+    "pro",
+    "sensitive",
+    "xtreme"
+   ]
+  },
+  {
+   "ids": [
+    "B07Y1NTK1Z"
+   ],
+   "p": 112.72,
+   "t": 1795605041,
+   "w": [
+    "capilar",
+    "light",
+    "may",
+    "oil",
+    "oleo",
+    "packaging",
+    "professionals",
+    "reflections",
+    "vary",
+    "wella"
+   ]
+  },
+  {
+   "ids": [
+    "30237244"
+   ],
+   "p": 69.29,
+   "t": 1795605258,
+   "w": [
+    "40g",
+    "anthelios",
+    "fps80",
+    "posay",
+    "protetor",
+    "roche",
+    "solar"
+   ]
+  },
+  {
+   "ids": [
+    "34729362"
+   ],
+   "p": 470.24,
+   "t": 1795605458,
+   "w": [
+    "eau",
+    "feminino",
+    "floral",
+    "fragrancia",
+    "gourmand",
+    "inebriante",
+    "iris",
+    "nobre",
+    "parfum",
+    "perfume",
+    "refil"
+   ]
+  },
+  {
+   "ids": [
+    "B07H113TPQ"
+   ],
+   "p": 29.9,
+   "t": 1795605511,
+   "w": [
+    "capilar",
+    "elseve",
+    "extraordinario",
+    "finalizador",
+    "oleo",
+    "oreal",
+    "paris"
+   ]
+  },
+  {
+   "ids": [
+    "B079VPMXHF"
+   ],
+   "p": 69.9,
+   "t": 1795605560,
+   "w": [
+    "473ml",
+    "48h",
+    "cetaphil",
+    "corporal",
+    "facial",
+    "hidratacao",
+    "hidratante",
+    "locao",
+    "normal",
+    "pele",
+    "seca",
+    "sensivel"
+   ]
+  },
+  {
+   "ids": [
+    "B09V6R64FN"
+   ],
+   "p": 189.9,
+   "t": 1795605607,
+   "w": [
+    "expert",
+    "inforcer",
+    "mascara",
+    "oreal",
+    "professionnel",
+    "serie",
+    "shampoo",
+    "tratamento"
+   ]
+  },
+  {
+   "ids": [
+    "26241166"
+   ],
+   "p": 86.99,
+   "t": 1795605717,
+   "w": [
+    "400g",
+    "avene",
+    "cleanance",
+    "facial",
+    "gel",
+    "limpeza",
+    "oleosa",
+    "pele",
+    "purificante",
+    "sensivel"
+   ]
+  },
+  {
+   "ids": [
+    "23011951"
+   ],
+   "p": 347.45,
+   "t": 1795605792,
+   "w": [
+    "900w",
+    "digital",
+    "eletrica",
+    "mondial",
+    "panela",
+    "pressao"
+   ]
+  },
+  {
+   "ids": [
+    "B0F8C4M33R"
+   ],
+   "p": 25.99,
+   "t": 1795606076,
+   "w": [
+    "aplicativo",
+    "balanca",
+    "bioimpedancia",
+    "bluetooth",
+    "completo",
+    "composicao",
+    "controle",
+    "corporal",
+    "inteligente",
+    "peso",
+    "premium",
+    "saude",
+    "sua",
+    "visor"
+   ]
+  },
+  {
+   "ids": [
+    "B0H1282J24"
+   ],
+   "p": 1139.0,
+   "t": 1795606177,
+   "w": [
+    "bluetooth",
+    "caixa",
+    "encore",
+    "essential",
+    "jbl",
+    "partybox",
+    "portatil",
+    "som"
+   ]
+  },
+  {
+   "ids": [
+    "B0GR1W4GCP"
+   ],
+   "p": 12.53,
+   "t": 1795606330,
+   "w": [
+    "530g",
+    "acucar",
+    "heinz",
+    "ketchup",
+    "zero"
+   ]
+  },
+  {
+   "ids": [
+    "B0FFTS3DQ2"
+   ],
+   "p": 159.0,
+   "t": 1795606432,
+   "w": [
+    "city",
+    "mizuno",
+    "tenis",
+    "wall"
+   ]
   }
  ],
  "resumo_dia": "2026-11-24",
@@ -11763,8 +12241,8 @@
   {
    "canal": "pincei",
    "id": 371592,
-   "n": 1,
-   "quando": 1795603194.726993,
+   "n": 2,
+   "quando": 1795604973.9893863,
    "t": 1795602714.7269928,
    "txt": "🍷SÓ NO APP AMAZON : 3 Vinhos por R$89.90\n\n🛍️ PEGAR PROMOÇÃO:\nhttps://pincei.co/e/jJizwnIsJl4_m4\n\n🟡 Grupo Pincei Bebidas:\nhttps://join.pincei.co/bebidas"
   }
@@ -11792,7 +12270,7 @@
   "pincei:371547": 2,
   "pincei:371572": 2,
   "pincei:371574": 2,
-  "pincei:371592": 1,
+  "pincei:371592": 2,
   "promosdaluh:324979": 2,
   "promosdaluh:324982": 2,
   "promosdaluh:324983": 1,
@@ -11803,17 +12281,17 @@
   "promosdaluh:325068": 2
  },
  "tpl_ultimo": 2032135,
- "ult_ciclo": 1795603993.3962414,
+ "ult_ciclo": 1795606529.0136747,
  "ultimo_id": {
   "apromodaluh": 159219,
-  "fumotom": 52534,
+  "fumotom": 52536,
   "iuriindica": 124522,
-  "juaocupons": 27790,
-  "pechinchou": 240485,
+  "juaocupons": 27791,
+  "pechinchou": 240493,
   "perfumepromo": 10183,
-  "pincei": 371592,
-  "promosdaluh": 325126,
-  "promotom": 115370,
+  "pincei": 371606,
+  "promosdaluh": 325146,
+  "promotom": 115371,
   "teniscertocupons": 66227,
   "teste": 1795214930
  }
