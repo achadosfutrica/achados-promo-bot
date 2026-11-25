@@ -26,6 +26,8 @@ jobs:
     timeout-minutes: 360
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main   # sempre o main mais recente na hora de rodar (inclui o estado salvo pela execucao anterior)
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
