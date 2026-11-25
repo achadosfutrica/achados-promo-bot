@@ -1,22 +1,22 @@
 {
- "cmd_ultimo": 2051712,
- "contagem_dia": 87,
+ "cmd_ultimo": 2051889,
+ "contagem_dia": 91,
  "cupom_min": {
   "1124MAISME": {
    "min": 499.0,
-   "t": 1795559372.6395845,
+   "t": 1795563377.2993312,
    "tipo": "fixed",
    "valor": 70.0
   },
   "2STTRTE": {
    "min": 150.0,
-   "t": 1795559372.6371386,
+   "t": 1795563377.2969065,
    "tipo": "percent",
    "valor": 20.0
   },
   "2U6U32Q": {
    "min": 500.0,
-   "t": 1795559371.119789,
+   "t": 1795563375.0171282,
    "tipo": "fixed",
    "valor": 150.0
   },
@@ -28,19 +28,19 @@
   },
   "BEMVINDOZAP": {
    "min": 100.0,
-   "t": 1795559371.325898,
+   "t": 1795563375.2619789,
    "tipo": "fixed",
    "valor": 40.0
   },
   "BLACK150": {
    "min": 1499.0,
-   "t": 1795559372.6382387,
+   "t": 1795563377.2979958,
    "tipo": "fixed",
    "valor": 150.0
   },
   "BLACK40": {
    "min": 199.0,
-   "t": 1795559372.637036,
+   "t": 1795563377.2968035,
    "tipo": "fixed",
    "valor": 40.0
   },
@@ -58,7 +58,7 @@
   },
   "CUP0MD04DM2026": {
    "min": 120.0,
-   "t": 1795559372.637566,
+   "t": 1795563377.2973273,
    "tipo": "fixed",
    "valor": 50.0
   },
@@ -70,37 +70,37 @@
   },
   "CUPOMBLACK99": {
    "min": 199.0,
-   "t": 1795559372.6426053,
+   "t": 1795563377.302259,
    "tipo": "fixed",
    "valor": 99.0
   },
   "CUPOMMAGALU150": {
    "min": 399.0,
-   "t": 1795559372.6367676,
+   "t": 1795563377.2965362,
    "tipo": "fixed",
    "valor": 150.0
   },
   "CURTAMELI": {
    "min": 199.0,
-   "t": 1795559372.7831063,
+   "t": 1795563376.560743,
    "tipo": "percent",
    "valor": 10.0
   },
   "D14B0MC0MCUP0M": {
    "min": 60.0,
-   "t": 1795559372.6415286,
+   "t": 1795563377.3012676,
    "tipo": "fixed",
    "valor": 20.0
   },
   "ESPETACULO50": {
    "min": 249.0,
-   "t": 1795559372.6374958,
+   "t": 1795563377.2972555,
    "tipo": "fixed",
    "valor": 50.0
   },
   "ESPORTE2311": {
    "min": 299.0,
-   "t": 1795559372.641912,
+   "t": 1795563377.301603,
    "tipo": "percent",
    "valor": 20.0
   },
@@ -112,13 +112,13 @@
   },
   "ESPORTES15": {
    "min": 299.0,
-   "t": 1795559371.3284419,
+   "t": 1795563375.2644691,
    "tipo": "percent",
    "valor": 15.0
   },
   "ESQUENTABF": {
    "min": 27.0,
-   "t": 1795559372.6408033,
+   "t": 1795563377.3005474,
    "tipo": "fixed",
    "valor": 12.0
   },
@@ -130,7 +130,7 @@
   },
   "FULL2411": {
    "min": 159.0,
-   "t": 1795559372.6396413,
+   "t": 1795563377.2993886,
    "tipo": "percent",
    "valor": 25.0
   },
@@ -160,25 +160,25 @@
   },
   "LIVROSJOGOS2311": {
    "min": 200.0,
-   "t": 1795559372.6412613,
+   "t": 1795563377.3010046,
    "tipo": "percent",
    "valor": 20.0
   },
   "M0D4TUHS": {
    "min": 159.0,
-   "t": 1795559372.6381686,
+   "t": 1795563377.297927,
    "tipo": "percent",
    "valor": 15.0
   },
   "M3LH0R4PP": {
    "min": 60.0,
-   "t": 1795559372.6388812,
+   "t": 1795563377.2986374,
    "tipo": "fixed",
    "valor": 20.0
   },
   "MAGALU150": {
    "min": 399.0,
-   "t": 1795559372.916953,
+   "t": 1795563377.776426,
    "tipo": "fixed",
    "valor": 150.0
   },
@@ -190,7 +190,7 @@
   },
   "MELIMAISXPT1122": {
    "min": 499.0,
-   "t": 1795559372.6419108,
+   "t": 1795563377.3016016,
    "tipo": "percent",
    "valor": 15.0
   },
@@ -220,25 +220,25 @@
   },
   "OFICIAIS2311": {
    "min": 89.0,
-   "t": 1795559372.6419115,
+   "t": 1795563377.3016024,
    "tipo": "percent",
    "valor": 10.0
   },
   "OFICIAIS2411": {
    "min": 89.0,
-   "t": 1795559372.639584,
+   "t": 1795563377.2993305,
    "tipo": "percent",
    "valor": 10.0
   },
   "P1XDAY15AF": {
    "min": 999.0,
-   "t": 1795559372.4860413,
+   "t": 1795563377.0642114,
    "tipo": "fixed",
    "valor": 100.0
   },
   "PECHINCHOULAR": {
    "min": 150.0,
-   "t": 1795559372.7795165,
+   "t": 1795563377.548639,
    "tipo": "percent",
    "valor": 20.0
   },
@@ -250,13 +250,13 @@
   },
   "PREBLACK": {
    "min": 27.0,
-   "t": 1795559371.3281095,
+   "t": 1795563375.2641406,
    "tipo": "fixed",
    "valor": 12.0
   },
   "PRIME70OFF": {
    "min": 499.0,
-   "t": 1795559372.6389475,
+   "t": 1795563377.2987037,
    "tipo": "fixed",
    "valor": 70.0
   },
@@ -280,73 +280,73 @@
   },
   "S3M4N4BL4CKSH0P33": {
    "min": 60.0,
-   "t": 1795559372.6415977,
+   "t": 1795563377.3013396,
    "tipo": "fixed",
    "valor": 20.0
   },
   "SITE2311TODO": {
    "min": 999.0,
-   "t": 1795559372.6409104,
+   "t": 1795563377.300657,
    "tipo": "fixed",
    "valor": 120.0
   },
   "SITETODO2211": {
    "min": 1099.0,
-   "t": 1795559372.6424649,
+   "t": 1795563377.3021104,
    "tipo": "fixed",
    "valor": 150.0
   },
   "SITETODO2311": {
    "min": 150.0,
-   "t": 1795559372.64091,
+   "t": 1795563377.3006563,
    "tipo": "fixed",
    "valor": 30.0
   },
   "SITETODO2411": {
    "min": 399.0,
-   "t": 1795559372.638668,
+   "t": 1795563377.298424,
    "tipo": "fixed",
    "valor": 50.0
   },
   "TECH2411": {
    "min": 1599.0,
-   "t": 1795559372.6395848,
+   "t": 1795563377.2993314,
    "tipo": "fixed",
    "valor": 200.0
   },
   "TODO2211SITE": {
    "min": 1499.0,
-   "t": 1795559372.642465,
+   "t": 1795563377.302111,
    "tipo": "fixed",
    "valor": 230.0
   },
   "TODO2311SITE": {
    "min": 399.0,
-   "t": 1795559372.6409092,
+   "t": 1795563377.3006558,
    "tipo": "fixed",
    "valor": 50.0
   },
   "TODO2411SITE": {
    "min": 1499.0,
-   "t": 1795559372.638667,
+   "t": 1795563377.298423,
    "tipo": "fixed",
    "valor": 230.0
   },
   "TODOSITE2211": {
    "min": 159.0,
-   "t": 1795559372.642464,
+   "t": 1795563377.30211,
    "tipo": "fixed",
    "valor": 30.0
   },
   "TODOSITE2311": {
    "min": 199.0,
-   "t": 1795559372.6421342,
+   "t": 1795563377.301815,
    "tipo": "fixed",
    "valor": 40.0
   },
   "TODOSITE2411": {
    "min": 159.0,
-   "t": 1795559372.6386688,
+   "t": 1795563377.2984252,
    "tipo": "fixed",
    "valor": 30.0
   },
@@ -358,13 +358,13 @@
   },
   "TVSCELULARES2311": {
    "min": 899.0,
-   "t": 1795559372.6412606,
+   "t": 1795563377.3010035,
    "tipo": "percent",
    "valor": 20.0
   },
   "VEMPROMP": {
    "min": 500.0,
-   "t": 1795559372.7809882,
+   "t": 1795563377.5500553,
    "tipo": "fixed",
    "valor": 150.0
   },
@@ -398,7 +398,9 @@
    24301,
    24342,
    24346,
-   24349
+   24349,
+   24462,
+   24467
   ]
  },
  "dia": "2026-11-24",
@@ -1428,8 +1430,24 @@
    "t": 1795561327
   },
   "fumotom:52449": {
+   "r": "pulado:repetido",
+   "t": 1795567108
+  },
+  "fumotom:52450": {
    "r": "gerado",
-   "t": 1795563250
+   "t": 1795567243
+  },
+  "fumotom:52451": {
+   "r": "gerado",
+   "t": 1795567162
+  },
+  "fumotom:52452": {
+   "r": "falha",
+   "t": 1795567015
+  },
+  "fumotom:52453": {
+   "r": "pulado:repetido",
+   "t": 1795567108
   },
   "iuriindica:124222": {
    "r": "pulado:periferico de PC",
@@ -1837,15 +1855,19 @@
   },
   "iuriindica:124468": {
    "r": "pulado:repetido",
-   "t": 1795563275
+   "t": 1795567112
   },
   "iuriindica:124469": {
    "r": "pulado:periferico de PC",
-   "t": 1795561725
+   "t": 1795563469
   },
   "iuriindica:124470": {
    "r": "pulado:aliexpress (bloqueado)",
-   "t": 1795561725
+   "t": 1795563469
+  },
+  "iuriindica:124471": {
+   "r": "falha",
+   "t": 1795567078
   },
   "juaocupons:27698": {
    "r": "pulado:sem preco",
@@ -2071,6 +2093,10 @@
    "r": "falha",
    "t": 1795547607
   },
+  "link:https://meli.la/1N4HvR8": {
+   "r": "falha",
+   "t": 1795567078
+  },
   "link:https://meli.la/1NFjg88": {
    "r": "gerado",
    "t": 1795523922
@@ -2088,8 +2114,8 @@
    "t": 1795524130
   },
   "link:https://meli.la/1RkoQFX": {
-   "r": "duplicado",
-   "t": 1795563179
+   "r": "gerado",
+   "t": 1795566950
   },
   "link:https://meli.la/1SHxk14": {
    "r": "falha",
@@ -2110,6 +2136,10 @@
   "link:https://meli.la/1WUetrL": {
    "r": "duplicado",
    "t": 1795523966
+  },
+  "link:https://meli.la/1XS1HCz": {
+   "r": "falha",
+   "t": 1795567015
   },
   "link:https://meli.la/1YYWxgW": {
    "r": "falha",
@@ -2419,9 +2449,17 @@
    "r": "falha",
    "t": 1795526381
   },
+  "link:https://www.amazon.com.br/dp/B003JZ0BNE": {
+   "r": "gerado",
+   "t": 1795567243
+  },
   "link:https://www.amazon.com.br/dp/B0081XIKYG": {
    "r": "falha",
    "t": 1795527465
+  },
+  "link:https://www.amazon.com.br/dp/B00BGYQ80K": {
+   "r": "gerado",
+   "t": 1795567162
   },
   "link:https://www.amazon.com.br/dp/B00BYFNAGG": {
    "r": "gerado",
@@ -2539,9 +2577,9 @@
    "r": "gerado",
    "t": 1795521296
   },
-  "link:https://www.amazon.com.br/dp/B09V6R64FN": {
+  "link:https://www.amazon.com.br/dp/B0B3JL4VLZ": {
    "r": "gerado",
-   "t": 1795562691
+   "t": 1795566426
   },
   "link:https://www.amazon.com.br/dp/B0BP2XFR8H": {
    "r": "gerado",
@@ -2623,9 +2661,9 @@
    "r": "falha",
    "t": 1795522599
   },
-  "link:https://www.amazon.com.br/dp/B0FR4TGL7J": {
+  "link:https://www.amazon.com.br/dp/B0FQPMH9TC": {
    "r": "gerado",
-   "t": 1795563250
+   "t": 1795565780
   },
   "link:https://www.amazon.com.br/dp/B0FR6PC1FB": {
    "r": "gerado",
@@ -2775,6 +2813,14 @@
    "r": "falha",
    "t": 1795534944
   },
+  "link:https://www.mercadolivre.com.br/brus-fit-bicicleta-ergometrica-spinning-liftness-x11-cor-pretovermelho/p/MLB28263665": {
+   "r": "gerado",
+   "t": 1795564543
+  },
+  "link:https://www.mercadolivre.com.br/cadeira-presidente-ergonomica-sweet-studio-de-escritorio-giratoria-com-apoio-de-cabeca-e-pes-encosto-reclinavel-assento-estofado-em-couro-sintetico-cor-preto-504/p/MLB80257895": {
+   "r": "falha",
+   "t": 1795564601
+  },
   "link:https://www.mercadolivre.com.br/caiaque-robalo-pro-de-1-lugar-aventureros-jungle-color-fishing-kayak/p/MLB59083210": {
    "r": "falha",
    "t": 1795544675
@@ -2798,6 +2844,10 @@
   "link:https://www.mercadolivre.com.br/conjunto-de-bowls-tigela-inox-com-tampa-plastica-bumper-cinza/p/MLB64809074": {
    "r": "gerado",
    "t": 1795535901
+  },
+  "link:https://www.mercadolivre.com.br/conjunto-sala-de-jantar-4-lugares-com-cadeiras-estofadas-mesa-com-tampo-retangular-semelhante-vidro-base-v-mel-branco-off-white/p/MLB52595849": {
+   "r": "falha",
+   "t": 1795565988
   },
   "link:https://www.mercadolivre.com.br/creatina-max-titanium-em-po-sem-sabor-300g-creatina-100-pura-monohidratada/p/MLB6104856": {
    "r": "falha",
@@ -2825,7 +2875,11 @@
   },
   "link:https://www.mercadolivre.com.br/extensao-eletrica-30mts-3-tomadas-20a-10a-bivolt-reforcada-preto-127220v/p/MLB68929894": {
    "r": "duplicado",
-   "t": 1795561842
+   "t": 1795563594
+  },
+  "link:https://www.mercadolivre.com.br/fechadura-inteligente-de-embutir-mfw-5000-wi-fi-intelbras/up/MLBU5414998923": {
+   "r": "gerado",
+   "t": 1795563734
   },
   "link:https://www.mercadolivre.com.br/floratta-flores-secretas-75ml-o-boticario-feminino/p/MLB62797467": {
    "r": "gerado",
@@ -2859,6 +2913,10 @@
    "r": "falha",
    "t": 1795522756
   },
+  "link:https://www.mercadolivre.com.br/kit-good-girl-edp-80ml-leg-oil-100ml-travel-spray-10ml/up/MLBU5907235681": {
+   "r": "falha",
+   "t": 1795566067
+  },
   "link:https://www.mercadolivre.com.br/kit-hidratante-e-de-limpeza-cetaphil-para-pele-normal-a-sensivel/p/MLB75666691": {
    "r": "falha",
    "t": 1795535989
@@ -2874,6 +2932,10 @@
   "link:https://www.mercadolivre.com.br/locao-intensiva-corporal-hidratante-neutrogena-norwegian-for/up/MLBU4989376248": {
    "r": "falha",
    "t": 1795527186
+  },
+  "link:https://www.mercadolivre.com.br/mochila-jiesipote-9242-prova-dagua-reforcada-expansivel-cor-preto/p/MLB74678961": {
+   "r": "gerado",
+   "t": 1795564455
   },
   "link:https://www.mercadolivre.com.br/multivitaminico-growth-supplements-em-capsula-sem-sabor-x-100g-de-120-un/p/MLB21555776": {
    "r": "gerado",
@@ -2907,13 +2969,21 @@
    "r": "gerado",
    "t": 1795560549
   },
-  "link:https://www.mercadolivre.com.br/perfume-masculino-alta-fixacao-the-most-wanted-azzaro-parfum-100ml/p/MLB27096041": {
+  "link:https://www.mercadolivre.com.br/perfume-feminino-giorgio-armani-my-way-ylang-edp-90ml/up/MLBU3733875764": {
    "r": "gerado",
-   "t": 1795562123
+   "t": 1795565687
+  },
+  "link:https://www.mercadolivre.com.br/perfume-feminino-giorgio-armani-si-passione-edp-100ml/up/MLBU3724934481": {
+   "r": "gerado",
+   "t": 1795565592
   },
   "link:https://www.mercadolivre.com.br/perfume-masculino-arabe-salvo-eua-de-parfum-alhmabra-100ml-original-c-nf/up/MLBU3376059330": {
    "r": "gerado",
    "t": 1795544043
+  },
+  "link:https://www.mercadolivre.com.br/perfume-masculino-azzaro-chrome-united-edt-100ml/p/MLB36453549": {
+   "r": "gerado",
+   "t": 1795565497
   },
   "link:https://www.mercadolivre.com.br/proteina-adaptogen-science-tasty-whey-gourmet-em-po-sem-sabor-x-900g/p/MLB19592785": {
    "r": "falha",
@@ -2931,9 +3001,21 @@
    "r": "gerado",
    "t": 1795555588
   },
+  "link:https://www.mercadolivre.com.br/serra-marmore-110mm-1300w-com-2-discos-4100nh3zx2-makita-profissional/p/MLB19802405": {
+   "r": "gerado",
+   "t": 1795564378
+  },
+  "link:https://www.mercadolivre.com.br/serum-lancome-genifique-ultimate-50ml/p/MLB68724438": {
+   "r": "gerado",
+   "t": 1795566248
+  },
   "link:https://www.mercadolivre.com.br/short-volei-masculino-polo-wear/up/MLBU3740932845": {
    "r": "falha",
    "t": 1795534843
+  },
+  "link:https://www.mercadolivre.com.br/smart-tv-aoc-dled-32-pole-wi-fi-roku-tv-quadcore-32s515578g/up/MLBU3385408576": {
+   "r": "gerado",
+   "t": 1795566522
   },
   "link:https://www.mercadolivre.com.br/social/pp20250311151339?matt_word=pp20250311151339&matt_tool=70540603&forceInApp=true&ref=BMhYAqpUMBX55RkgcQkkmW%2Bh3L5voF7EwvFQ2rAPw1I4HTeE8W3kIwKj5o0mcXHmnBj3pdlKU%2F0IXRHJ9f3x%2BAyWSXeVKmfuT20IOAXiBjiMfelzJFUetpSVtM%2BKv1C3%2BcFLNsTMYnKH96jGura7ZtWtNu4KSDOYztGVkwF3bN%2BwBRk0L7YdCzuTeXjJVdWqd0tMD3Y%3D": {
    "r": "gerado",
@@ -2945,7 +3027,7 @@
   },
   "link:https://www.mercadolivre.com.br/streettalk-adidas/up/MLBU4046941989": {
    "r": "falha",
-   "t": 1795562938
+   "t": 1795565336
   },
   "link:https://www.mercadolivre.com.br/suplemento-em-po-dux-nutrition-hydrolite-carboidratos-sabor-limao-em-pote-de-1000g-outros/p/MLB19549255": {
    "r": "falha",
@@ -3061,31 +3143,63 @@
   },
   "pechinchou:240411": {
    "r": "pulado:loja desconhecida",
-   "t": 1795563065
+   "t": 1795566565
   },
   "pechinchou:240412": {
    "r": "pulado:loja desconhecida",
-   "t": 1795563107
+   "t": 1795566607
   },
   "pechinchou:240413": {
    "r": "pulado:repetido",
-   "t": 1795563275
+   "t": 1795567112
   },
   "pechinchou:240414": {
    "r": "pulado:repetido",
-   "t": 1795563285
+   "t": 1795567191
   },
   "pechinchou:240415": {
    "r": "pulado:repetido",
-   "t": 1795563278
+   "t": 1795567115
   },
   "pechinchou:240416": {
    "r": "pulado:loja desconhecida",
-   "t": 1795563155
+   "t": 1795566657
   },
   "pechinchou:240417": {
    "r": "pulado:periferico de PC",
-   "t": 1795563162
+   "t": 1795566665
+  },
+  "pechinchou:240418": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795566707
+  },
+  "pechinchou:240419": {
+   "r": "pulado:repetido",
+   "t": 1795567194
+  },
+  "pechinchou:240420": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795566754
+  },
+  "pechinchou:240421": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795566796
+  },
+  "pechinchou:240422": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795566839
+  },
+  "pechinchou:240423": {
+   "r": "pulado:repetido",
+   "t": 1795567112
+  },
+  "pechinchou:240424": {
+   "r": "pulado:repetido",
+   "t": 1795567107
+  },
+  "pechinchou:240425": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795566891
   },
   "perfumepromo:10154": {
    "r": "falha",
@@ -3140,8 +3254,8 @@
    "t": 1795535703
   },
   "perfumepromo:10182": {
-   "r": "duplicado",
-   "t": 1795563179
+   "r": "gerado",
+   "t": 1795566950
   },
   "pincei:371106": {
    "r": "pulado:sem preco",
@@ -3673,27 +3787,55 @@
   },
   "pincei:371532": {
    "r": "pulado:repetido",
-   "t": 1795561751
+   "t": 1795563497
   },
   "pincei:371533": {
    "r": "pulado:repetido",
-   "t": 1795561778
+   "t": 1795563525
   },
   "pincei:371534": {
    "r": "pulado:repetido",
-   "t": 1795561805
+   "t": 1795563553
   },
   "pincei:371535": {
    "r": "duplicado",
-   "t": 1795561842
+   "t": 1795563594
   },
   "pincei:371536": {
-   "r": "gerado",
-   "t": 1795561919
+   "r": "pulado:repetido",
+   "t": 1795563619
   },
   "pincei:371537": {
    "r": "pulado:repetido",
-   "t": 1795561946
+   "t": 1795563647
+  },
+  "pincei:371538": {
+   "r": "gerado",
+   "t": 1795563734
+  },
+  "pincei:371540": {
+   "r": "pulado:sem preco",
+   "t": 1795564284
+  },
+  "pincei:371541": {
+   "r": "pulado:repetido",
+   "t": 1795564287
+  },
+  "pincei:371542": {
+   "r": "gerado",
+   "t": 1795564378
+  },
+  "pincei:371543": {
+   "r": "gerado",
+   "t": 1795564455
+  },
+  "pincei:371544": {
+   "r": "gerado",
+   "t": 1795564543
+  },
+  "pincei:371545": {
+   "r": "falha",
+   "t": 1795564601
   },
   "promosdaluh:324149": {
    "r": "falha",
@@ -5392,8 +5534,8 @@
    "t": 1795555887
   },
   "promosdaluh:324982": {
-   "r": "gerado",
-   "t": 1795561715
+   "r": "pulado:repetido",
+   "t": 1795563459
   },
   "promosdaluh:324983": {
    "r": "em_andamento",
@@ -5473,99 +5615,171 @@
   },
   "promosdaluh:325025": {
    "r": "pulado:repetido",
-   "t": 1795561988
+   "t": 1795564645
   },
   "promosdaluh:325026": {
    "r": "pulado:repetido",
-   "t": 1795562030
+   "t": 1795564687
   },
   "promosdaluh:325027": {
-   "r": "gerado",
-   "t": 1795562123
+   "r": "pulado:repetido",
+   "t": 1795564730
   },
   "promosdaluh:325028": {
    "r": "pulado:repetido",
-   "t": 1795562165
+   "t": 1795564774
   },
   "promosdaluh:325029": {
    "r": "pulado:repetido",
-   "t": 1795562206
+   "t": 1795564816
   },
   "promosdaluh:325030": {
-   "r": "gerado",
-   "t": 1795562255
+   "r": "pulado:repetido",
+   "t": 1795564819
   },
   "promosdaluh:325031": {
-   "r": "gerado",
-   "t": 1795562309
+   "r": "pulado:repetido",
+   "t": 1795564820
   },
   "promosdaluh:325032": {
    "r": "pulado:loja desconhecida",
-   "t": 1795562352
+   "t": 1795564882
   },
   "promosdaluh:325033": {
-   "r": "gerado",
-   "t": 1795562401
+   "r": "pulado:repetido",
+   "t": 1795564883
   },
   "promosdaluh:325034": {
-   "r": "gerado",
-   "t": 1795562474
+   "r": "pulado:repetido",
+   "t": 1795564906
   },
   "promosdaluh:325035": {
    "r": "pulado:repetido",
-   "t": 1795562516
+   "t": 1795564949
   },
   "promosdaluh:325036": {
    "r": "pulado:repetido",
-   "t": 1795562558
+   "t": 1795564992
   },
   "promosdaluh:325037": {
    "r": "pulado:repetido",
-   "t": 1795562600
+   "t": 1795565035
   },
   "promosdaluh:325038": {
    "r": "pulado:repetido",
-   "t": 1795562642
+   "t": 1795565078
   },
   "promosdaluh:325039": {
-   "r": "gerado",
-   "t": 1795562691
+   "r": "pulado:repetido",
+   "t": 1795565081
   },
   "promosdaluh:325040": {
    "r": "pulado:repetido",
-   "t": 1795562693
+   "t": 1795565084
   },
   "promosdaluh:325041": {
    "r": "pulado:sem preco",
-   "t": 1795562696
+   "t": 1795565087
   },
   "promosdaluh:325042": {
    "r": "pulado:repetido",
-   "t": 1795562737
+   "t": 1795565130
   },
   "promosdaluh:325043": {
    "r": "pulado:repetido",
-   "t": 1795562779
+   "t": 1795565172
   },
   "promosdaluh:325044": {
    "r": "pulado:repetido",
-   "t": 1795562821
+   "t": 1795565216
   },
   "promosdaluh:325045": {
    "r": "pulado:repetido",
-   "t": 1795562863
+   "t": 1795565258
   },
   "promosdaluh:325046": {
    "r": "falha",
-   "t": 1795562938
+   "t": 1795565336
   },
   "promosdaluh:325047": {
    "r": "pulado:repetido",
-   "t": 1795562980
+   "t": 1795565379
   },
   "promosdaluh:325048": {
    "r": "pulado:repetido",
-   "t": 1795563022
+   "t": 1795565422
+  },
+  "promosdaluh:325049": {
+   "r": "gerado",
+   "t": 1795565497
+  },
+  "promosdaluh:325050": {
+   "r": "gerado",
+   "t": 1795565592
+  },
+  "promosdaluh:325051": {
+   "r": "gerado",
+   "t": 1795565687
+  },
+  "promosdaluh:325052": {
+   "r": "pulado:repetido",
+   "t": 1795565730
+  },
+  "promosdaluh:325053": {
+   "r": "gerado",
+   "t": 1795565780
+  },
+  "promosdaluh:325054": {
+   "r": "pulado:repetido",
+   "t": 1795565823
+  },
+  "promosdaluh:325055": {
+   "r": "pulado:repetido",
+   "t": 1795565866
+  },
+  "promosdaluh:325056": {
+   "r": "pulado:repetido",
+   "t": 1795565909
+  },
+  "promosdaluh:325057": {
+   "r": "falha",
+   "t": 1795565988
+  },
+  "promosdaluh:325058": {
+   "r": "falha",
+   "t": 1795566067
+  },
+  "promosdaluh:325059": {
+   "r": "pulado:repetido",
+   "t": 1795566110
+  },
+  "promosdaluh:325060": {
+   "r": "pulado:repetido",
+   "t": 1795566153
+  },
+  "promosdaluh:325061": {
+   "r": "gerado",
+   "t": 1795566248
+  },
+  "promosdaluh:325062": {
+   "r": "pulado:mesmo link",
+   "t": 1795566290
+  },
+  "promosdaluh:325063": {
+   "r": "pulado:repetido",
+   "t": 1795566333
+  },
+  "promosdaluh:325064": {
+   "r": "pulado:repetido",
+   "t": 1795566376
+  },
+  "promosdaluh:325065": {
+   "r": "gerado",
+   "t": 1795566426
+  },
+  "promosdaluh:325066": {
+   "r": "gerado",
+   "t": 1795566522
   },
   "promotom:115225": {
    "r": "pulado:loja desativada: magalu",
@@ -5897,7 +6111,7 @@
   },
   "teniscertocupons:66227": {
    "r": "pulado:loja desconhecida",
-   "t": 1795561724
+   "t": 1795563469
   }
  },
  "fila": [],
@@ -5907,15 +6121,15 @@
  },
  "perfil": {
   "faixas": [
-   816,
-   837,
-   860,
-   978,
+   808,
+   832,
+   861,
+   981,
    767,
-   625,
+   629,
    253,
-   402,
-   252
+   405,
+   255
   ],
   "n": 5991,
   "palavras": {
@@ -5927,16 +6141,17 @@
    "100g": 16,
    "100hz": 10,
    "100l": 4,
-   "100ml": 170,
+   "100ml": 173,
    "101v": 4,
    "104mb": 3,
-   "105g": 7,
+   "105g": 6,
    "1080p": 9,
    "10a": 5,
    "10g": 4,
    "10kg": 16,
-   "1100w": 7,
-   "110v": 53,
+   "10ml": 4,
+   "1100w": 8,
+   "110v": 52,
    "11kg": 9,
    "1200w": 13,
    "120g": 8,
@@ -5947,12 +6162,12 @@
    "127v": 81,
    "128gb": 56,
    "12fc": 5,
-   "12gb": 41,
+   "12gb": 42,
    "12h": 5,
    "12kg": 4,
-   "12l": 17,
+   "12l": 16,
    "12mp": 10,
-   "12v": 12,
+   "12v": 11,
    "13000pa": 4,
    "1300w": 10,
    "13420h": 12,
@@ -5970,7 +6185,7 @@
    "15g": 15,
    "15h": 4,
    "15kg": 13,
-   "15ml": 10,
+   "15ml": 9,
    "1600w": 6,
    "160hz": 5,
    "165g": 3,
@@ -5990,11 +6205,11 @@
    "18w": 3,
    "190ml": 5,
    "1920x1080": 7,
-   "1kg": 50,
+   "1kg": 51,
    "1ms": 62,
    "1tb": 3,
    "20000mah": 6,
-   "2000w": 8,
+   "2000w": 7,
    "200g": 24,
    "200hz": 8,
    "200ml": 91,
@@ -6007,7 +6222,7 @@
    "2100w": 6,
    "210g": 3,
    "215g": 7,
-   "220v": 168,
+   "220v": 170,
    "227g": 4,
    "22kg": 3,
    "236ml": 3,
@@ -6024,6 +6239,7 @@
    "25g4s": 5,
    "25g523b": 4,
    "25g64": 12,
+   "25l": 3,
    "25ml": 5,
    "25mm": 4,
    "25w": 5,
@@ -6041,7 +6257,7 @@
    "300ml": 23,
    "30g": 10,
    "30h": 8,
-   "30ml": 31,
+   "30ml": 32,
    "30w": 4,
    "310hz": 5,
    "320l": 6,
@@ -6050,7 +6266,7 @@
    "330ml": 4,
    "33l": 12,
    "34g600a": 5,
-   "34h": 5,
+   "34h": 6,
    "34l": 3,
    "350g": 8,
    "350ml": 17,
@@ -6064,7 +6280,7 @@
    "397g": 4,
    "3mp": 6,
    "3ms": 12,
-   "3vs": 11,
+   "3vs": 10,
    "3x70g": 3,
    "3x90g": 5,
    "400g": 10,
@@ -6079,7 +6295,8 @@
    "42mm": 4,
    "435l": 4,
    "450g": 8,
-   "450ml": 12,
+   "450ml": 11,
+   "450w": 3,
    "453g": 8,
    "455l": 4,
    "45g": 15,
@@ -6101,17 +6318,17 @@
    "5000mah": 6,
    "500g": 26,
    "500gr": 3,
-   "500ml": 52,
+   "500ml": 53,
    "500w": 6,
    "50cm": 8,
    "50cmx70cm": 3,
-   "50ml": 50,
+   "50ml": 51,
    "50mp": 25,
    "50qd6sf": 3,
    "50u7066": 5,
    "50x60": 3,
    "511l": 4,
-   "512gb": 25,
+   "512gb": 26,
    "530bt": 7,
    "53mm": 4,
    "550w": 6,
@@ -6123,7 +6340,7 @@
    "5mm": 4,
    "5ms": 32,
    "600g": 9,
-   "600ml": 10,
+   "600ml": 9,
    "60hz": 6,
    "60ml": 20,
    "60x55cm": 3,
@@ -6143,10 +6360,10 @@
    "750ml": 64,
    "750w": 5,
    "7520u": 5,
-   "75ml": 24,
+   "75ml": 25,
    "75q6qv": 3,
    "76h": 8,
-   "78g": 5,
+   "78g": 7,
    "800g": 13,
    "800w": 6,
    "80g": 6,
@@ -6162,7 +6379,7 @@
    "900g": 45,
    "900w": 6,
    "90g": 16,
-   "90ml": 31,
+   "90ml": 32,
    "9800x3d": 3,
    "9fc": 3,
    "9kg": 3,
@@ -6184,20 +6401,20 @@
    "absor": 3,
    "absorcao": 22,
    "absorvente": 14,
-   "acabamento": 8,
+   "acabamento": 9,
    "acabar": 157,
-   "academia": 74,
-   "acao": 33,
+   "academia": 72,
+   "acao": 34,
    "acelera": 3,
    "acendimento": 5,
    "acer": 17,
-   "acesso": 31,
-   "acessorios": 16,
+   "acesso": 28,
+   "acessorios": 15,
    "acetinado": 4,
    "achocolatado": 8,
-   "acido": 55,
+   "acido": 56,
    "acinzentado": 3,
-   "acne": 9,
+   "acne": 10,
    "acneica": 4,
    "aco": 58,
    "acolchoada": 4,
@@ -6210,7 +6427,6 @@
    "active": 4,
    "acucar": 14,
    "adapt": 4,
-   "adaptador": 4,
    "adaptativo": 3,
    "adaptive": 7,
    "adaptogen": 5,
@@ -6226,14 +6442,14 @@
    "aerolight": 5,
    "aerosol": 4,
    "aerossol": 7,
-   "afon": 6,
+   "afon": 5,
    "ag15": 3,
    "agile": 4,
    "agitator": 3,
    "agon": 22,
    "agua": 94,
    "aha": 8,
-   "air": 79,
+   "air": 78,
    "airfryer": 3,
    "aiwa": 11,
    "ajuda": 4,
@@ -6242,14 +6458,14 @@
    "alanina": 4,
    "alca": 20,
    "alcas": 6,
-   "alcool": 8,
+   "alcool": 7,
    "alcoolico": 4,
    "aleatoria": 3,
-   "alexa": 50,
+   "alexa": 46,
    "alfa": 6,
    "alfaparf": 3,
    "alfazema": 3,
-   "algodao": 63,
+   "algodao": 62,
    "alhambra": 3,
    "alho": 6,
    "alienware": 4,
@@ -6263,12 +6479,12 @@
    "allen": 3,
    "almofada": 8,
    "aloe": 9,
-   "alpha": 13,
+   "alpha": 12,
    "alpino": 3,
-   "alta": 92,
+   "alta": 93,
    "alto": 16,
    "altura": 8,
-   "aluminio": 37,
+   "aluminio": 38,
    "am4": 17,
    "am5": 3,
    "amaciante": 34,
@@ -6278,7 +6494,7 @@
    "amarelos": 3,
    "amarracao": 3,
    "amazfit": 3,
-   "amazon": 38,
+   "amazon": 37,
    "ambar": 8,
    "ambarado": 3,
    "ambiente": 3,
@@ -6299,7 +6515,7 @@
    "and": 4,
    "andares": 6,
    "andorinha": 3,
-   "android": 19,
+   "android": 18,
    "anel": 5,
    "ange": 3,
    "angel": 9,
@@ -6307,12 +6523,12 @@
    "anker": 6,
    "ano": 5,
    "anos": 39,
-   "antecipado": 28,
-   "anti": 54,
+   "antecipado": 25,
+   "anti": 53,
    "antiacne": 4,
    "antiaderente": 41,
    "antialergico": 6,
-   "antibacteriano": 9,
+   "antibacteriano": 7,
    "anticaspa": 19,
    "antiderrapante": 12,
    "antiderrapantes": 7,
@@ -6320,7 +6536,7 @@
    "antimanchas": 14,
    "antimofo": 4,
    "antiodor": 5,
-   "antioleosidade": 9,
+   "antioleosidade": 10,
    "antioxidante": 7,
    "antiparasita": 3,
    "antipulgas": 14,
@@ -6329,18 +6545,17 @@
    "antirrugas": 6,
    "antissinais": 9,
    "antitranspirante": 26,
-   "aoc": 50,
+   "aoc": 52,
    "apara": 3,
    "aparador": 13,
-   "aparelho": 50,
+   "aparelho": 49,
    "aparencia": 4,
    "aperitivo": 4,
-   "apimentado": 3,
    "aplicador": 6,
    "apoio": 6,
    "app": 39,
    "apparel": 7,
-   "apple": 74,
+   "apple": 76,
    "aprimorado": 6,
    "aptanutri": 3,
    "aqua": 7,
@@ -6358,16 +6573,16 @@
    "armacao": 5,
    "armani": 37,
    "armario": 11,
-   "armazenamento": 5,
+   "armazenamento": 6,
    "armour": 5,
    "army": 6,
    "arno": 6,
    "aro": 6,
    "aroma": 12,
    "aromatica": 5,
-   "aromatico": 3,
+   "aromatico": 4,
    "arranhador": 3,
-   "arroz": 7,
+   "arroz": 6,
    "articulado": 3,
    "artificial": 4,
    "arvore": 5,
@@ -6389,15 +6604,15 @@
    "atrativo": 3,
    "atualizacao": 6,
    "atx": 3,
-   "audio": 40,
+   "audio": 41,
    "aura": 5,
    "auracast": 4,
    "aurafit": 3,
    "auto": 9,
-   "autolimpante": 5,
+   "autolimpante": 6,
    "automatic": 3,
    "automatica": 12,
-   "automatico": 28,
+   "automatico": 27,
    "automotivo": 3,
    "autonomia": 5,
    "autorizado": 4,
@@ -6410,7 +6625,7 @@
    "aws": 6,
    "azeite": 8,
    "azul": 114,
-   "azzaro": 13,
+   "azzaro": 15,
    "b099ktrzp7": 3,
    "b12": 5,
    "b400f": 15,
@@ -6426,25 +6641,24 @@
    "baixouuu": 4,
    "bala": 3,
    "balanca": 6,
-   "balance": 16,
+   "balance": 17,
    "balanceado": 4,
    "balcao": 5,
    "balde": 3,
    "ballantine": 13,
-   "bambu": 14,
+   "bambu": 15,
    "ban": 8,
    "bancada": 7,
    "band": 7,
-   "banderas": 4,
+   "banderas": 5,
    "banheiro": 9,
-   "banho": 29,
+   "banho": 28,
    "bank": 27,
    "bar": 20,
    "barba": 5,
    "barbeador": 5,
-   "barbear": 19,
+   "barbear": 18,
    "barbecue": 5,
-   "barco": 3,
    "barra": 28,
    "barreda": 3,
    "barreira": 3,
@@ -6460,7 +6674,7 @@
    "batedeira": 5,
    "batedor": 4,
    "bateria": 72,
-   "baterias": 6,
+   "baterias": 5,
    "batom": 6,
    "baume": 10,
    "baunilha": 40,
@@ -6500,8 +6714,7 @@
    "biscoito": 4,
    "biscrok": 6,
    "bisel": 5,
-   "bisnaga": 3,
-   "bivolt": 123,
+   "bivolt": 122,
    "black": 96,
    "bldc": 7,
    "blend": 7,
@@ -6510,11 +6723,11 @@
    "blf08bs": 3,
    "blond": 5,
    "blonde": 11,
-   "bloqueador": 7,
+   "bloqueador": 6,
    "blu": 5,
    "blue": 28,
    "bluetooth": 143,
-   "blusa": 15,
+   "blusa": 14,
    "blush": 15,
    "blz": 7,
    "boca": 6,
@@ -6536,7 +6749,7 @@
    "boni": 5,
    "book": 4,
    "boom": 4,
-   "boombox": 13,
+   "boombox": 14,
    "boost": 32,
    "booster": 5,
    "borda": 6,
@@ -6558,13 +6771,14 @@
    "boxer": 26,
    "boy": 4,
    "bpa": 10,
-   "bracelete": 13,
+   "bracelete": 14,
    "braco": 3,
    "brae": 17,
    "branca": 84,
    "brancas": 4,
    "branco": 270,
    "brancos": 6,
+   "branqueadora": 4,
    "brasa": 3,
    "brasil": 10,
    "brasileira": 3,
@@ -6576,18 +6790,19 @@
    "brilhante": 12,
    "brilho": 69,
    "brilliance": 7,
-   "brinox": 24,
+   "brinox": 23,
    "brinquedo": 8,
    "brinquedos": 9,
    "brisa": 13,
-   "britania": 48,
+   "britania": 47,
    "bronze": 14,
    "bronzer": 6,
    "bros": 8,
+   "brown": 3,
    "btu": 22,
    "btus": 43,
    "buba": 16,
-   "bucal": 12,
+   "bucal": 10,
    "buddemeyer": 9,
    "buds": 8,
    "bullet": 3,
@@ -6607,7 +6822,7 @@
    "cada": 11,
    "cadastre": 5,
    "cadeado": 5,
-   "cadeira": 26,
+   "cadeira": 27,
    "cadeiras": 3,
    "cadence": 8,
    "caes": 44,
@@ -6615,7 +6830,7 @@
    "cafeina": 10,
    "cafeteira": 29,
    "caffeine": 6,
-   "caixa": 96,
+   "caixa": 98,
    "caixas": 3,
    "calca": 25,
    "calcas": 7,
@@ -6623,17 +6838,18 @@
    "calendario": 5,
    "calm": 4,
    "calmante": 9,
+   "calor": 3,
    "calvin": 27,
    "cam": 15,
    "cama": 11,
    "camadas": 3,
    "camelia": 3,
-   "camera": 81,
+   "camera": 82,
    "camesa": 3,
    "caminhada": 20,
-   "camisa": 24,
+   "camisa": 23,
    "camiseta": 61,
-   "camisetas": 31,
+   "camisetas": 30,
    "camomila": 9,
    "campainha": 3,
    "camurca": 4,
@@ -6653,18 +6869,18 @@
    "capas": 3,
    "capilar": 84,
    "cappuccino": 3,
-   "caps": 6,
-   "capsula": 20,
+   "caps": 5,
+   "capsula": 19,
    "capsulas": 39,
    "capuz": 4,
    "caqui": 3,
    "caramelo": 13,
    "carboidratos": 4,
    "carbon": 5,
-   "carbono": 7,
+   "carbono": 6,
    "cardio": 3,
    "care": 57,
-   "carga": 30,
+   "carga": 29,
    "cargo": 4,
    "carina": 4,
    "carne": 18,
@@ -6672,14 +6888,14 @@
    "carolina": 54,
    "carpete": 3,
    "carrapatos": 14,
-   "carregador": 42,
+   "carregador": 41,
    "carregamento": 15,
    "carrinho": 5,
-   "carro": 8,
+   "carro": 6,
    "carros": 4,
    "carter": 8,
-   "carvao": 18,
-   "casa": 34,
+   "carvao": 17,
+   "casa": 33,
    "casaco": 5,
    "casal": 14,
    "casamento": 4,
@@ -6690,9 +6906,9 @@
    "celebre": 3,
    "celeron": 4,
    "cellular": 5,
-   "celular": 51,
+   "celular": 52,
    "centifolia": 4,
-   "ceramic": 29,
+   "ceramic": 28,
    "ceramica": 24,
    "ceramico": 4,
    "ceramidas": 18,
@@ -6702,11 +6918,11 @@
    "cerveja": 33,
    "cervejeira": 5,
    "cesta": 3,
-   "cesto": 20,
-   "cetaphil": 24,
+   "cesto": 21,
+   "cetaphil": 23,
    "cfi": 3,
    "cha": 19,
-   "chaleira": 11,
+   "chaleira": 10,
    "chama": 4,
    "chamadas": 5,
    "chao": 3,
@@ -6732,7 +6948,7 @@
    "cicaplast": 10,
    "ciclismo": 3,
    "ciclo": 23,
-   "cif": 9,
+   "cif": 8,
    "cilios": 5,
    "cintura": 15,
    "cinza": 110,
@@ -6787,12 +7003,12 @@
    "como": 4,
    "comp": 3,
    "compact": 6,
-   "compacta": 23,
+   "compacta": 22,
    "compacto": 20,
    "companion": 5,
    "compartimento": 9,
    "compatibilidade": 4,
-   "compativel": 21,
+   "compativel": 20,
    "completa": 12,
    "completo": 11,
    "complex": 4,
@@ -6820,29 +7036,29 @@
    "conjunto": 49,
    "connect": 3,
    "console": 7,
-   "consul": 31,
+   "consul": 32,
    "consumo": 5,
    "contem": 5,
    "continental": 4,
    "continuo": 3,
-   "contra": 20,
+   "contra": 19,
    "control": 21,
    "controla": 7,
    "controle": 76,
    "cook": 5,
    "cookies": 3,
    "cooktop": 14,
-   "cool": 33,
+   "cool": 32,
    "cooler": 15,
    "copo": 34,
    "copos": 10,
    "coracao": 12,
    "coracoes": 11,
    "coral": 5,
-   "core": 45,
+   "core": 46,
    "cores": 40,
    "corpo": 28,
-   "corporal": 103,
+   "corporal": 102,
    "corre": 6,
    "correeee": 170,
    "correeeee": 5,
@@ -6869,15 +7085,15 @@
    "creamy": 7,
    "creatina": 59,
    "creator": 3,
-   "creme": 113,
+   "creme": 112,
    "cremosa": 4,
-   "cremoso": 6,
+   "cremoso": 5,
    "crescimento": 11,
    "criancas": 14,
    "crisp": 10,
    "cristal": 10,
    "crm53mk": 5,
-   "crocante": 5,
+   "crocante": 4,
    "cromada": 5,
    "cronografo": 5,
    "cronograma": 3,
@@ -6893,7 +7109,7 @@
    "cup": 4,
    "cupons": 124,
    "curta": 15,
-   "curto": 9,
+   "curto": 8,
    "curves": 4,
    "curvo": 13,
    "cybenetics": 4,
@@ -6934,9 +7150,9 @@
    "densidade": 6,
    "dentais": 3,
    "dental": 21,
-   "dente": 11,
+   "dente": 12,
    "dentes": 9,
-   "deo": 26,
+   "deo": 27,
    "depilar": 3,
    "deqiaodan": 3,
    "dercos": 19,
@@ -6955,13 +7171,13 @@
    "desempenho": 4,
    "desenho": 3,
    "design": 32,
-   "desinfetante": 16,
+   "desinfetante": 17,
    "desitin": 5,
    "desligamento": 5,
-   "desodorante": 81,
+   "desodorante": 80,
    "desodorizador": 5,
-   "despertador": 8,
-   "desportiva": 5,
+   "despertador": 7,
+   "desportiva": 6,
    "detalhes": 5,
    "detangler": 4,
    "deteccao": 6,
@@ -6978,24 +7194,24 @@
    "dias": 8,
    "dieta": 7,
    "dificeis": 3,
-   "digital": 69,
+   "digital": 70,
    "dino": 3,
    "discos": 3,
    "disney": 3,
-   "display": 38,
+   "display": 37,
    "displayport": 14,
    "disponivel": 7,
    "distribuidor": 4,
    "diver": 3,
    "diversas": 3,
-   "dled": 9,
-   "dobravel": 32,
+   "dled": 10,
+   "dobravel": 33,
    "doce": 14,
    "dolby": 51,
    "dolce": 16,
    "donna": 9,
    "doses": 9,
-   "dot": 18,
+   "dot": 16,
    "dourada": 3,
    "dourado": 21,
    "dove": 24,
@@ -7009,7 +7225,7 @@
    "drivers": 12,
    "driving": 7,
    "drops": 8,
-   "dry": 24,
+   "dry": 22,
    "dryfit": 6,
    "dts": 6,
    "dual": 21,
@@ -7020,7 +7236,7 @@
    "duplex": 42,
    "duplo": 9,
    "dura": 4,
-   "duracao": 9,
+   "duracao": 10,
    "duradoura": 5,
    "duramo": 3,
    "duravel": 6,
@@ -7029,8 +7245,8 @@
    "e1504fa": 5,
    "ear": 14,
    "easy": 5,
-   "eau": 207,
-   "echo": 32,
+   "eau": 210,
+   "echo": 28,
    "eco": 13,
    "ecomaster": 3,
    "econo": 3,
@@ -7043,8 +7259,8 @@
    "edition": 10,
    "edp": 61,
    "edredom": 5,
-   "edt": 43,
-   "efeito": 13,
+   "edt": 44,
+   "efeito": 14,
    "efficient": 25,
    "egeo": 7,
    "ehlke": 3,
@@ -7054,12 +7270,12 @@
    "electrolux": 92,
    "elegante": 13,
    "elektra": 4,
-   "eletrica": 76,
+   "eletrica": 73,
    "eletrico": 34,
    "eletronico": 6,
    "elg": 9,
    "elgin": 17,
-   "elimina": 8,
+   "elimina": 7,
    "eliminacao": 3,
    "elite": 5,
    "elixir": 31,
@@ -7075,8 +7291,8 @@
    "energy": 16,
    "enrich": 38,
    "entrada": 5,
-   "envolvente": 6,
-   "enxaguante": 11,
+   "envolvente": 5,
+   "enxaguante": 9,
    "enxoval": 3,
    "eos": 5,
    "epa": 8,
@@ -7092,9 +7308,9 @@
    "eros": 4,
    "ervas": 5,
    "escoces": 18,
-   "escova": 46,
-   "escovas": 5,
-   "escritorio": 27,
+   "escova": 45,
+   "escovas": 4,
+   "escritorio": 28,
    "escuro": 13,
    "esfoliante": 4,
    "esmerilhadeira": 5,
@@ -7114,18 +7330,18 @@
    "essencial": 14,
    "essential": 21,
    "essentials": 4,
-   "est": 30,
+   "est": 29,
    "estampado": 6,
-   "estar": 4,
+   "estar": 5,
    "estelle": 5,
    "estereo": 6,
    "estilo": 7,
    "estimulante": 9,
    "estojo": 6,
    "estrela": 4,
-   "estrelas": 5,
+   "estrelas": 6,
    "eucerin": 22,
-   "eudora": 26,
+   "eudora": 25,
    "eva": 3,
    "evnia": 7,
    "evolution": 4,
@@ -7135,7 +7351,7 @@
    "expansivel": 6,
    "expedidor": 3,
    "experience": 4,
-   "expert": 14,
+   "expert": 15,
    "expertise": 6,
    "explorer": 3,
    "expresso": 3,
@@ -7166,9 +7382,9 @@
    "fecho": 8,
    "felicidade": 6,
    "feminilidade": 5,
-   "feminina": 48,
+   "feminina": 47,
    "femininas": 3,
-   "feminino": 282,
+   "feminino": 283,
    "femme": 5,
    "fenda": 6,
    "fenix": 4,
@@ -7190,18 +7406,18 @@
    "finish": 7,
    "fino": 5,
    "finos": 8,
-   "fio": 108,
+   "fio": 107,
    "fios": 28,
    "fire": 8,
    "firmador": 8,
    "firme": 3,
    "fisher": 4,
-   "fit": 24,
+   "fit": 23,
    "fit3": 3,
    "fitas": 4,
-   "fitness": 45,
+   "fitness": 44,
    "fix": 4,
-   "fixacao": 10,
+   "fixacao": 11,
    "fixador": 4,
    "fixo": 3,
    "flame": 6,
@@ -7228,13 +7444,13 @@
    "fone": 45,
    "fonte": 24,
    "food": 4,
-   "for": 24,
+   "for": 25,
    "forca": 14,
-   "force": 13,
+   "force": 14,
    "forerunner": 4,
    "forever": 3,
    "formula": 42,
-   "forno": 17,
+   "forno": 16,
    "forro": 7,
    "fort": 4,
    "fortalece": 4,
@@ -7246,7 +7462,7 @@
    "foto": 6,
    "fougere": 6,
    "foundation": 3,
-   "fps": 45,
+   "fps": 46,
    "fps50": 6,
    "fps60": 5,
    "fps70": 4,
@@ -7260,9 +7476,9 @@
    "frango": 14,
    "frasco": 5,
    "free": 81,
-   "freeco": 7,
+   "freeco": 6,
    "freesync": 57,
-   "freezer": 16,
+   "freezer": 17,
    "french": 8,
    "frente": 4,
    "frequencia": 3,
@@ -7270,11 +7486,11 @@
    "fresh": 20,
    "freshwhey": 3,
    "fria": 6,
-   "frigideira": 8,
+   "frigideira": 7,
    "frigobar": 6,
    "frio": 72,
    "frita": 8,
-   "fritadeira": 33,
+   "fritadeira": 32,
    "frizz": 26,
    "from": 7,
    "fronhas": 3,
@@ -7283,12 +7499,12 @@
    "frutada": 7,
    "frutado": 5,
    "frutas": 16,
-   "fryer": 48,
+   "fryer": 47,
    "ftw": 7,
    "fuelcell": 4,
    "full": 94,
    "fullhd": 3,
-   "funcao": 26,
+   "funcao": 27,
    "funcoes": 13,
    "fundo": 15,
    "furadeira": 26,
@@ -7301,7 +7517,7 @@
    "g64": 10,
    "gabbana": 6,
    "galactic": 3,
-   "galaxy": 88,
+   "galaxy": 89,
    "galhos": 4,
    "game": 19,
    "gamer": 162,
@@ -7315,20 +7531,20 @@
    "gatos": 39,
    "gaultier": 29,
    "gavetas": 7,
-   "gel": 68,
+   "gel": 70,
    "geladeira": 82,
    "gemini": 10,
-   "gengivite": 6,
-   "geometrico": 4,
+   "gengivite": 4,
+   "geometrico": 3,
    "geonav": 3,
    "ger9": 7,
-   "geracao": 24,
+   "geracao": 21,
    "germain": 8,
-   "germes": 8,
+   "germes": 6,
    "ghz": 5,
    "gigabyte": 4,
    "gigante": 6,
-   "gillette": 22,
+   "gillette": 21,
    "gin": 15,
    "ginastica": 5,
    "gio": 4,
@@ -7345,14 +7561,14 @@
    "glicerina": 18,
    "glicerinado": 3,
    "glicolico": 13,
-   "gloss": 27,
+   "gloss": 28,
    "glow": 10,
    "glutamina": 3,
    "glutamine": 3,
    "glycare": 3,
    "glycolic": 3,
    "gola": 9,
-   "gold": 31,
+   "gold": 32,
    "golden": 6,
    "good": 18,
    "google": 34,
@@ -7361,19 +7577,19 @@
    "gota": 6,
    "gourmand": 17,
    "gourmet": 21,
-   "gps": 24,
+   "gps": 25,
    "grafite": 34,
    "gramas": 6,
    "gran": 6,
    "granado": 6,
    "grand": 10,
-   "grande": 57,
+   "grande": 58,
    "grandes": 4,
    "graos": 18,
    "graphics": 5,
    "gratuitos": 4,
    "graus": 4,
-   "graves": 18,
+   "graves": 17,
    "gree": 8,
    "grego": 11,
    "grelha": 5,
@@ -7382,7 +7598,7 @@
    "grisalhos": 3,
    "grossa": 4,
    "grosso": 5,
-   "growth": 27,
+   "growth": 26,
    "gsb": 4,
    "gsr": 4,
    "gta": 4,
@@ -7399,9 +7615,9 @@
    "h510": 4,
    "hair": 17,
    "hansen": 4,
-   "hardcore": 13,
+   "hardcore": 12,
    "harpic": 4,
-   "hdmi": 45,
+   "hdmi": 46,
    "hdr": 16,
    "hdr10": 86,
    "hdr400": 5,
@@ -7416,7 +7632,7 @@
    "hemmer": 5,
    "hepa": 4,
    "hepta": 6,
-   "her": 5,
+   "her": 6,
    "hering": 5,
    "hermetica": 4,
    "hermetico": 16,
@@ -7426,7 +7642,7 @@
    "hfn650pt": 4,
    "hialuronico": 30,
    "hidrata": 14,
-   "hidratacao": 88,
+   "hidratacao": 87,
    "hidratante": 118,
    "high": 10,
    "higiene": 4,
@@ -7446,17 +7662,17 @@
    "home": 18,
    "homem": 5,
    "homens": 5,
-   "homme": 12,
+   "homme": 13,
    "honey": 3,
    "hook": 3,
    "hora": 9,
    "horas": 15,
-   "horizontal": 10,
-   "hortela": 4,
+   "horizontal": 11,
+   "hortela": 3,
    "hot": 6,
    "hotel": 7,
    "huawei": 6,
-   "hub": 6,
+   "hub": 5,
    "huggies": 24,
    "hugo": 11,
    "huile": 5,
@@ -7464,7 +7680,7 @@
    "husky": 6,
    "hva": 5,
    "hyaluron": 5,
-   "hydra": 10,
+   "hydra": 11,
    "hydration": 3,
    "hydro": 5,
    "hydrolite": 4,
@@ -7474,7 +7690,7 @@
    "iconic": 3,
    "id02": 3,
    "idade": 3,
-   "ideal": 17,
+   "ideal": 16,
    "ideapad": 16,
    "idole": 12,
    "ifood": 39,
@@ -7496,18 +7712,18 @@
    "inducao": 29,
    "inebriante": 5,
    "infantil": 46,
-   "inforcer": 10,
+   "inforcer": 11,
    "ingredientes": 11,
    "inox": 116,
    "inoxidavel": 20,
    "insider": 8,
    "instax": 3,
-   "integrado": 15,
+   "integrado": 14,
    "integral": 6,
-   "integralmedica": 32,
+   "integralmedica": 31,
    "intel": 39,
    "intelbras": 12,
-   "inteligente": 42,
+   "inteligente": 38,
    "intensa": 16,
    "intense": 40,
    "intensiva": 4,
@@ -7520,22 +7736,21 @@
    "inverno": 4,
    "inverse": 9,
    "inverter": 110,
-   "invertplus": 3,
    "invicta": 5,
    "invictus": 9,
    "invigo": 42,
    "invisible": 5,
-   "invisivel": 12,
+   "invisivel": 13,
    "ion": 4,
    "ions": 5,
-   "ios": 10,
+   "ios": 9,
    "ip54": 3,
    "ip66": 4,
    "ip67": 8,
-   "ip68": 23,
+   "ip68": 24,
    "ip69": 7,
    "ipad": 3,
-   "iphone": 68,
+   "iphone": 69,
    "ips": 73,
    "ipx4": 5,
    "ipx6": 5,
@@ -7554,7 +7769,7 @@
    "jarra": 5,
    "jasmim": 8,
    "jato": 7,
-   "jbl": 43,
+   "jbl": 44,
    "jean": 31,
    "jeans": 13,
    "jelly": 3,
@@ -7571,7 +7786,7 @@
    "jump": 3,
    "k21": 3,
    "k800": 6,
-   "kabum": 7,
+   "kabum": 8,
    "kaiak": 4,
    "kalkan": 3,
    "kappa": 27,
@@ -7588,7 +7803,7 @@
    "kg0": 5,
    "kg243y": 3,
    "kids": 11,
-   "kiko": 17,
+   "kiko": 18,
    "kindle": 9,
    "king": 4,
    "klein": 27,
@@ -7620,7 +7835,7 @@
    "lateral": 5,
    "latina": 3,
    "lattafa": 10,
-   "lauren": 11,
+   "lauren": 12,
    "laurent": 6,
    "lava": 65,
    "lavadora": 19,
@@ -7649,7 +7864,7 @@
    "lha": 3,
    "lib": 3,
    "licor": 13,
-   "life": 47,
+   "life": 46,
    "lifter": 3,
    "liga": 7,
    "ligacoes": 6,
@@ -7662,9 +7877,9 @@
    "limitada": 11,
    "limp": 4,
    "limpa": 35,
-   "limpador": 23,
+   "limpador": 25,
    "limpeza": 105,
-   "line": 12,
+   "line": 13,
    "linha": 19,
    "linhas": 7,
    "linho": 3,
@@ -7678,18 +7893,18 @@
    "lisas": 4,
    "liso": 66,
    "liss": 3,
-   "listerine": 8,
+   "listerine": 6,
    "listrada": 4,
    "lite": 11,
    "litio": 3,
    "litro": 14,
-   "litros": 63,
+   "litros": 64,
    "live": 10,
    "livre": 111,
    "lixeira": 4,
    "liz": 8,
-   "lobo": 5,
-   "locao": 54,
+   "lobo": 4,
+   "locao": 53,
    "logitech": 18,
    "logo": 8,
    "logotipo": 8,
@@ -7699,8 +7914,8 @@
    "lombar": 6,
    "london": 6,
    "long": 5,
-   "longa": 17,
-   "longo": 6,
+   "longa": 18,
+   "longo": 7,
    "look": 11,
    "lorenzetti": 3,
    "lossless": 5,
@@ -7713,14 +7928,13 @@
    "luminous": 5,
    "luna": 13,
    "lupo": 14,
-   "luxe": 8,
+   "luxe": 9,
    "luxena": 4,
    "luxo": 16,
-   "luz": 30,
+   "luz": 31,
    "luzes": 12,
    "lycra": 3,
    "lyor": 3,
-   "lyra": 3,
    "lysoform": 10,
    "lytia": 3,
    "m1502ya": 7,
@@ -7772,21 +7986,22 @@
    "maquina": 41,
    "maracuja": 4,
    "marca": 6,
+   "marcante": 3,
    "marcas": 8,
    "marfim": 3,
-   "marine": 3,
+   "marine": 4,
    "marinho": 24,
    "mario": 9,
    "marmita": 11,
-   "marrom": 19,
+   "marrom": 18,
    "marula": 6,
    "marvel": 11,
    "masc": 5,
-   "mascara": 90,
+   "mascara": 91,
    "mascaras": 5,
-   "masculina": 102,
+   "masculina": 101,
    "masculinas": 13,
-   "masculino": 370,
+   "masculino": 374,
    "mash": 8,
    "mask": 5,
    "massa": 4,
@@ -7798,7 +8013,7 @@
    "mattel": 5,
    "matx": 7,
    "mauve": 4,
-   "max": 76,
+   "max": 75,
    "maxi": 7,
    "maxima": 24,
    "maxxaudio": 5,
@@ -7817,40 +8032,40 @@
    "meia": 24,
    "meias": 20,
    "mel": 6,
-   "melancia": 5,
+   "melancia": 4,
    "melatonina": 4,
    "memoria": 6,
    "men": 29,
    "menina": 5,
    "meninas": 7,
    "meninos": 3,
-   "menta": 13,
+   "menta": 12,
    "menthol": 10,
    "mentolado": 10,
    "mentos": 5,
    "mercado": 102,
    "mercedes": 3,
    "mercusys": 6,
-   "mesa": 30,
+   "mesa": 29,
    "meses": 15,
    "mesh": 21,
-   "metal": 10,
+   "metal": 9,
    "metros": 15,
    "meu": 5,
    "micelar": 6,
    "michelob": 6,
-   "micro": 52,
+   "micro": 53,
    "microfibra": 22,
    "microfone": 19,
    "microfones": 12,
    "mics": 4,
    "midea": 51,
-   "milagrosa": 6,
-   "milano": 18,
+   "milagrosa": 5,
+   "milano": 19,
    "miles": 4,
    "militar": 7,
    "milk": 17,
-   "million": 27,
+   "million": 28,
    "mimo": 6,
    "min": 3,
    "minas": 7,
@@ -7860,16 +8075,16 @@
    "miniatura": 4,
    "miniled": 6,
    "minis": 8,
-   "mint": 11,
+   "mint": 10,
    "miracle": 9,
    "mist": 3,
    "mista": 6,
    "mistico": 4,
-   "mix": 4,
+   "mix": 5,
    "mixer": 12,
    "mizuno": 7,
    "mochila": 18,
-   "moda": 8,
+   "moda": 7,
    "mode": 20,
    "modelador": 4,
    "modeladora": 6,
@@ -7879,11 +8094,12 @@
    "modos": 12,
    "moido": 16,
    "moisture": 4,
+   "moldura": 3,
    "molecular": 9,
    "moletom": 5,
    "molho": 7,
    "monaco": 12,
-   "mondial": 56,
+   "mondial": 55,
    "monica": 11,
    "monitor": 151,
    "monohidratada": 34,
@@ -7895,9 +8111,9 @@
    "mordedor": 3,
    "morte": 5,
    "mosquitos": 3,
-   "most": 6,
+   "most": 7,
    "mostrador": 4,
-   "moto": 26,
+   "moto": 25,
    "motor": 5,
    "motorola": 28,
    "mouse": 21,
@@ -7926,7 +8142,7 @@
    "natal": 11,
    "nativo": 4,
    "natura": 23,
-   "natural": 46,
+   "natural": 47,
    "nautica": 3,
    "neck": 5,
    "neo": 3,
@@ -7938,12 +8154,12 @@
    "neutrogena": 29,
    "neve": 7,
    "nevoa": 3,
-   "new": 23,
+   "new": 24,
    "nexgard": 7,
    "next": 3,
    "nfc": 11,
    "nfe": 3,
-   "niacinamida": 17,
+   "niacinamida": 18,
    "night": 8,
    "nike": 60,
    "ninho": 4,
@@ -7957,7 +8173,7 @@
    "nobre": 5,
    "noite": 25,
    "normais": 5,
-   "normal": 10,
+   "normal": 9,
    "notas": 26,
    "notebook": 63,
    "noturna": 9,
@@ -7980,19 +8196,19 @@
    "nyc": 6,
    "oakley": 7,
    "obrigatorio": 9,
-   "oculos": 25,
-   "odor": 14,
-   "odores": 11,
+   "oculos": 24,
+   "odor": 15,
+   "odores": 10,
    "odyssey": 11,
    "office": 6,
    "ogochi": 3,
    "oikos": 6,
-   "oil": 45,
+   "oil": 46,
    "ois": 5,
    "ola": 3,
    "old": 11,
    "oled": 14,
-   "oleo": 101,
+   "oleo": 102,
    "oleos": 6,
    "oleosa": 8,
    "oleosas": 3,
@@ -8005,15 +8221,15 @@
    "ombro": 8,
    "omega": 10,
    "omo": 23,
-   "ondas": 40,
+   "ondas": 41,
    "one": 40,
    "oneblade": 5,
    "onix": 3,
    "online": 4,
    "oppo": 3,
    "optimum": 3,
-   "oral": 6,
-   "oreal": 60,
+   "oral": 7,
+   "oreal": 61,
    "orfeu": 12,
    "organico": 8,
    "organizador": 8,
@@ -8023,13 +8239,12 @@
    "oscilante": 4,
    "oster": 19,
    "ouro": 5,
-   "ousado": 3,
    "outros": 4,
    "ouvido": 34,
-   "oven": 12,
+   "oven": 11,
    "over": 10,
    "oversized": 4,
-   "ovomaltine": 9,
+   "ovomaltine": 8,
    "oxford": 9,
    "oxi": 6,
    "p1bip": 3,
@@ -8050,7 +8265,7 @@
    "pampers": 37,
    "panasonic": 9,
    "pandora": 8,
-   "panela": 37,
+   "panela": 36,
    "panelas": 37,
    "panettone": 5,
    "pano": 7,
@@ -8064,18 +8279,18 @@
    "parafusadeira": 26,
    "parede": 24,
    "pares": 29,
-   "parfum": 193,
-   "paris": 27,
+   "parfum": 197,
+   "paris": 28,
    "park": 7,
    "parr": 7,
-   "partir": 13,
+   "partir": 12,
    "party": 4,
    "partybox": 16,
    "pas": 6,
    "passa": 5,
-   "pasta": 11,
+   "pasta": 12,
    "patchouli": 8,
-   "pato": 5,
+   "pato": 6,
    "pau": 10,
    "paul": 30,
    "pbp90a": 3,
@@ -8089,7 +8304,7 @@
    "pedigree": 9,
    "peixe": 3,
    "pela": 5,
-   "pele": 117,
+   "pele": 116,
    "peles": 8,
    "pelo": 5,
    "pelos": 15,
@@ -8110,20 +8325,20 @@
    "perfuma": 3,
    "perfumada": 4,
    "perfumado": 7,
-   "perfume": 339,
+   "perfume": 344,
    "perfumes": 4,
    "personal": 12,
    "personalizaveis": 5,
    "peruana": 4,
    "pes": 9,
-   "pesada": 6,
+   "pesada": 7,
    "pesca": 6,
    "pessoas": 4,
    "pet": 23,
    "petisco": 11,
    "pets": 7,
    "pfc": 15,
-   "philco": 95,
+   "philco": 96,
    "philips": 57,
    "phillips": 5,
    "photoage": 4,
@@ -8135,9 +8350,8 @@
    "pilao": 6,
    "pilha": 3,
    "pilsen": 3,
-   "pink": 22,
+   "pink": 21,
    "pintura": 11,
-   "pipoca": 3,
    "pipocas": 3,
    "pipoqueira": 9,
    "piquet": 8,
@@ -8156,23 +8370,23 @@
    "pm36": 5,
    "pmo24e": 5,
    "pneu": 4,
-   "pocket": 5,
+   "pocket": 4,
    "pode": 83,
    "poderosos": 4,
    "poeira": 6,
    "pokemon": 3,
    "pol": 4,
-   "polegadas": 56,
+   "polegadas": 57,
    "poliamida": 7,
    "poliester": 3,
-   "polo": 52,
+   "polo": 53,
    "pom": 9,
    "pomada": 5,
    "pontas": 5,
    "pop": 7,
    "porcelana": 4,
    "pore": 6,
-   "poros": 10,
+   "poros": 11,
    "porta": 30,
    "portas": 16,
    "portatil": 89,
@@ -8182,10 +8396,10 @@
    "positivo": 3,
    "possui": 6,
    "posta": 3,
-   "pote": 45,
+   "pote": 44,
    "potencia": 14,
-   "potente": 20,
-   "potentes": 5,
+   "potente": 19,
+   "potentes": 4,
    "potes": 17,
    "pouch": 8,
    "pour": 12,
@@ -8209,9 +8423,9 @@
    "presidente": 3,
    "pressao": 50,
    "pressure": 6,
-   "preta": 97,
-   "preto": 563,
-   "prevencao": 9,
+   "preta": 95,
+   "preto": 565,
+   "prevencao": 7,
    "preventivo": 12,
    "previne": 10,
    "price": 4,
@@ -8226,11 +8440,11 @@
    "produto": 7,
    "produtos": 27,
    "professional": 14,
-   "professionals": 53,
-   "professionnel": 37,
+   "professionals": 54,
+   "professionnel": 38,
    "profissional": 31,
    "profit": 5,
-   "profunda": 34,
+   "profunda": 35,
    "profundidade": 3,
    "profundos": 3,
    "profutura": 3,
@@ -8240,7 +8454,7 @@
    "promopack": 8,
    "promove": 9,
    "proof": 5,
-   "protecao": 104,
+   "protecao": 102,
    "protect": 10,
    "protective": 3,
    "protege": 7,
@@ -8248,7 +8462,7 @@
    "proteina": 41,
    "proteinas": 22,
    "protek": 8,
-   "protetor": 70,
+   "protetor": 71,
    "protex": 4,
    "prova": 29,
    "ps5": 15,
@@ -8272,13 +8486,13 @@
    "qled": 42,
    "qned": 4,
    "qned70": 3,
-   "quad": 7,
+   "quad": 8,
    "quadhd": 5,
    "quadrada": 4,
    "quadrado": 9,
-   "quadrupla": 14,
+   "quadrupla": 15,
    "qualidade": 4,
-   "quarto": 7,
+   "quarto": 8,
    "quartz": 5,
    "quartzo": 8,
    "quasar": 3,
@@ -8295,15 +8509,15 @@
    "quick": 3,
    "quin": 4,
    "quinoa": 4,
-   "rabanne": 52,
+   "rabanne": 53,
    "racao": 31,
    "racas": 7,
    "racer": 7,
    "racing": 6,
    "radeon": 5,
    "radiante": 5,
-   "ralph": 11,
-   "ram": 111,
+   "ralph": 12,
+   "ram": 112,
    "rapida": 29,
    "rapidas": 5,
    "rapido": 33,
@@ -8314,22 +8528,22 @@
    "rebel": 4,
    "rebote": 3,
    "recarga": 9,
-   "recarregavel": 18,
+   "recarregavel": 17,
    "receitas": 16,
-   "recente": 22,
+   "recente": 19,
    "reclinavel": 4,
    "reconstroi": 9,
    "reconstrucao": 13,
    "reconstrutor": 10,
    "reconstrutora": 6,
-   "recupera": 5,
+   "recupera": 4,
    "recursos": 16,
-   "red": 19,
+   "red": 20,
    "redmi": 5,
    "redonda": 5,
    "redragon": 14,
    "redstone": 15,
-   "reduz": 9,
+   "reduz": 10,
    "reebok": 16,
    "reenquadramento": 5,
    "refil": 52,
@@ -8350,7 +8564,7 @@
    "relevo": 3,
    "relogio": 95,
    "remoto": 10,
-   "remove": 15,
+   "remove": 14,
    "removiveis": 9,
    "removivel": 11,
    "rende": 15,
@@ -8364,7 +8578,7 @@
    "reserva": 22,
    "reservatorio": 8,
    "resfriamento": 7,
-   "resgate": 8,
+   "resgate": 7,
    "residencial": 4,
    "resistencia": 19,
    "resistente": 45,
@@ -8390,7 +8604,7 @@
    "rodas": 22,
    "rodeo": 3,
    "rodinhas": 11,
-   "roku": 31,
+   "roku": 33,
    "roll": 3,
    "rolo": 4,
    "rolos": 13,
@@ -8401,7 +8615,7 @@
    "rosto": 10,
    "rotacao": 5,
    "roteador": 4,
-   "roupa": 29,
+   "roupa": 30,
    "roupas": 69,
    "roupinha": 4,
    "roxo": 12,
@@ -8415,13 +8629,13 @@
    "rustic": 3,
    "ryzen": 30,
    "s10": 7,
-   "s25": 11,
+   "s25": 12,
    "s26": 29,
    "s42r": 4,
    "sabah": 5,
    "sabao": 17,
    "sabonete": 45,
-   "sabor": 159,
+   "sabor": 158,
    "sabores": 3,
    "sache": 11,
    "saches": 4,
@@ -8431,24 +8645,24 @@
    "saint": 14,
    "sala": 16,
    "salgadinho": 8,
-   "salicilico": 13,
+   "salicilico": 14,
    "salmao": 6,
    "salon": 5,
    "sambalele": 3,
-   "samsung": 156,
+   "samsung": 157,
    "sandalia": 10,
    "sandrini": 14,
    "sanduicheira": 5,
    "sangue": 3,
    "sanitaria": 5,
-   "sanitario": 13,
-   "sanitarios": 7,
+   "sanitario": 14,
+   "sanitarios": 6,
    "santo": 3,
    "sapateira": 3,
    "sapatilha": 9,
    "sapato": 3,
    "sapatos": 7,
-   "saponaceo": 5,
+   "saponaceo": 4,
    "sapphire": 6,
    "sarja": 5,
    "satin": 3,
@@ -8463,11 +8677,11 @@
    "search": 7,
    "sebastian": 8,
    "sec": 17,
-   "seca": 57,
+   "seca": 56,
    "secador": 26,
    "secadora": 14,
    "secagem": 4,
-   "seco": 22,
+   "seco": 23,
    "secos": 18,
    "secret": 17,
    "secretas": 4,
@@ -8492,16 +8706,17 @@
    "sensibilidade": 4,
    "sensitive": 15,
    "sensiveis": 4,
-   "sensivel": 43,
+   "sensivel": 42,
    "sensodyne": 4,
    "sensor": 5,
    "sequinhas": 3,
-   "serie": 33,
+   "serie": 34,
    "series": 6,
    "serum": 53,
    "servicos": 9,
    "set": 4,
-   "shampoo": 158,
+   "seu": 3,
+   "shampoo": 159,
    "shark": 5,
    "shine": 3,
    "shirt": 3,
@@ -8510,7 +8725,7 @@
    "short": 26,
    "shorts": 22,
    "shot": 8,
-   "show": 12,
+   "show": 11,
    "shower": 4,
    "siage": 17,
    "side": 13,
@@ -8534,7 +8749,7 @@
    "slip": 3,
    "small": 7,
    "smart": 207,
-   "smartphone": 39,
+   "smartphone": 38,
    "smartwatch": 16,
    "smb": 4,
    "sobrepor": 10,
@@ -8544,15 +8759,15 @@
    "soft": 30,
    "sol": 23,
    "sola": 6,
-   "solar": 62,
-   "soldiers": 13,
+   "solar": 63,
+   "soldiers": 14,
    "soleil": 4,
-   "som": 98,
+   "som": 95,
    "sonicblast": 3,
    "sono": 7,
    "sony": 20,
    "sopro": 6,
-   "soquete": 13,
+   "soquete": 12,
    "soquetes": 4,
    "sortidas": 8,
    "sortido": 14,
@@ -8562,7 +8777,7 @@
    "soundcore": 6,
    "sparta": 7,
    "spaten": 3,
-   "speaker": 23,
+   "speaker": 21,
    "speed": 7,
    "spider": 5,
    "spinning": 5,
@@ -8572,7 +8787,7 @@
    "sport": 11,
    "sports": 6,
    "sportswear": 7,
-   "spot": 8,
+   "spot": 7,
    "spray": 43,
    "spry": 4,
    "srgb": 28,
@@ -8594,14 +8809,14 @@
    "stronger": 6,
    "studio": 7,
    "style": 14,
-   "sua": 7,
+   "sua": 6,
    "suave": 49,
    "suaviza": 4,
    "subita": 5,
    "suede": 3,
    "sugar": 4,
-   "suja": 4,
-   "sujeira": 6,
+   "suja": 5,
+   "sujeira": 5,
    "sul": 5,
    "sulfatos": 3,
    "sun": 16,
@@ -8613,10 +8828,10 @@
    "supercoffee": 7,
    "supernova": 3,
    "suplemento": 19,
-   "suporte": 22,
-   "supplements": 27,
+   "suporte": 21,
+   "supplements": 26,
    "supra": 5,
-   "suprema": 4,
+   "suprema": 3,
    "supreme": 13,
    "surpresa": 3,
    "sustentacao": 6,
@@ -8626,13 +8841,12 @@
    "sync": 39,
    "t6c": 4,
    "tab": 10,
-   "tablet": 9,
+   "tablet": 8,
    "tablete": 7,
    "tabua": 5,
-   "taiff": 3,
    "talheres": 6,
    "tamanhos": 4,
-   "tampa": 36,
+   "tampa": 37,
    "tangle": 6,
    "tanque": 4,
    "tanqueray": 7,
@@ -8642,14 +8856,14 @@
    "tcl": 38,
    "tech": 8,
    "technos": 10,
-   "tecido": 14,
+   "tecido": 15,
    "tecidos": 4,
    "teclado": 14,
    "teclas": 4,
    "tecnologia": 19,
    "teezer": 6,
    "teia": 3,
-   "tela": 114,
+   "tela": 115,
    "temperatura": 7,
    "temperaturas": 5,
    "tempo": 6,
@@ -8668,7 +8882,7 @@
    "texturizado": 5,
    "tf38s": 5,
    "thc": 3,
-   "the": 31,
+   "the": 32,
    "theft": 7,
    "thiamidol": 8,
    "threads": 4,
@@ -8678,7 +8892,7 @@
    "tinta": 12,
    "tipo": 15,
    "tipos": 16,
-   "tira": 15,
+   "tira": 16,
    "titan": 7,
    "titanio": 11,
    "titanium": 23,
@@ -8690,9 +8904,9 @@
    "todas": 8,
    "toddy": 6,
    "todo": 33,
-   "tododia": 5,
-   "todos": 19,
-   "toilette": 64,
+   "tododia": 4,
+   "todos": 18,
+   "toilette": 65,
    "tom": 16,
    "tomadas": 8,
    "tommy": 17,
@@ -8702,7 +8916,7 @@
    "too": 6,
    "tools": 8,
    "top": 46,
-   "toque": 22,
+   "toque": 23,
    "torneira": 8,
    "torrado": 16,
    "torre": 4,
@@ -8721,10 +8935,10 @@
    "transparente": 14,
    "transporte": 5,
    "transversal": 5,
-   "tratamento": 30,
+   "tratamento": 31,
    "trava": 11,
    "travas": 4,
-   "travel": 9,
+   "travel": 10,
    "travesseiro": 9,
    "treino": 54,
    "tres": 6,
@@ -8750,7 +8964,7 @@
    "uau": 5,
    "uhd": 56,
    "uht": 17,
-   "ultimate": 16,
+   "ultimate": 17,
    "ultime": 4,
    "ultra": 59,
    "ultra2": 3,
@@ -8767,14 +8981,14 @@
    "unico": 10,
    "unid": 6,
    "uniforme": 4,
-   "unissex": 58,
+   "unissex": 59,
    "united": 3,
    "universal": 11,
    "unni": 3,
    "uomini": 4,
    "uplift": 3,
-   "usb": 64,
-   "use": 40,
+   "usb": 63,
+   "use": 39,
    "uso": 61,
    "utensilios": 6,
    "uv400": 6,
@@ -8784,7 +8998,7 @@
    "vai": 158,
    "vaio": 3,
    "valvulas": 3,
-   "vanilla": 10,
+   "vanilla": 9,
    "vanish": 7,
    "vapor": 7,
    "vaporizador": 6,
@@ -8798,7 +9012,7 @@
    "vegana": 5,
    "vegano": 6,
    "vegetal": 10,
-   "veja": 13,
+   "veja": 14,
    "velocidade": 7,
    "velocidades": 23,
    "ventilador": 32,
@@ -8810,7 +9024,7 @@
    "verde": 61,
    "vermelha": 9,
    "vermelhas": 10,
-   "vermelho": 27,
+   "vermelho": 26,
    "versace": 7,
    "versatil": 3,
    "vertical": 26,
@@ -8823,7 +9037,7 @@
    "viagem": 28,
    "viagens": 5,
    "vibes": 4,
-   "vibrante": 21,
+   "vibrante": 19,
    "vichy": 20,
    "victory": 10,
    "vida": 7,
@@ -8832,7 +9046,7 @@
    "vidros": 3,
    "vie": 27,
    "vinho": 5,
-   "vintage": 10,
+   "vintage": 9,
    "violeta": 8,
    "vip": 33,
    "virgem": 6,
@@ -8845,7 +9059,7 @@
    "vit": 7,
    "vitafor": 9,
    "vital": 5,
-   "vitamina": 35,
+   "vitamina": 34,
    "vitaminas": 8,
    "vitamino": 4,
    "vitrex": 4,
@@ -8865,30 +9079,30 @@
    "walker": 17,
    "wall": 19,
    "want": 3,
-   "wanted": 8,
-   "wap": 39,
+   "wanted": 10,
+   "wap": 38,
    "ward": 7,
-   "watch": 21,
+   "watch": 22,
    "watch9": 5,
    "water": 15,
    "wave": 6,
    "way": 6,
    "wear": 28,
    "webos": 8,
-   "wella": 81,
+   "wella": 82,
    "wheels": 4,
    "whey": 75,
    "whiskas": 6,
    "whiskey": 10,
    "whisky": 53,
-   "white": 24,
+   "white": 25,
    "wide": 5,
    "widemax": 5,
    "wifi": 35,
    "wilson": 8,
    "windfree": 4,
    "windows": 15,
-   "wireless": 6,
+   "wireless": 5,
    "with": 7,
    "wolff": 6,
    "wolverine": 8,
@@ -8903,7 +9117,7 @@
    "xboom": 3,
    "xbox": 20,
    "xiaomi": 8,
-   "xicaras": 7,
+   "xicaras": 6,
    "xtreme": 4,
    "xxg": 6,
    "ye24f": 3,
@@ -8920,7 +9134,7 @@
    "ziper": 10,
    "zma": 4
   },
-  "t": 1795561636
+  "t": 1795563443
  },
  "postados": [
   {
@@ -11055,23 +11269,11 @@
    ]
   },
   {
-   "ids": [],
-   "p": 249.0,
-   "t": 1795561646,
-   "w": [
-    "cadeira",
-    "diretor",
-    "escritorio",
-    "giratoria",
-    "preta"
-   ]
-  },
-  {
    "ids": [
     "68929894"
    ],
    "p": 45.48,
-   "t": 1795561829,
+   "t": 1795563578,
    "w": [
     "10a",
     "20a",
@@ -11086,125 +11288,178 @@
    ]
   },
   {
-   "ids": [
-    "18725310"
-   ],
-   "p": 68.9,
-   "t": 1795561866,
+   "ids": [],
+   "p": 422.99,
+   "t": 1795563674,
    "w": [
-    "1kg",
-    "creatina",
-    "nutrition",
-    "sabor",
-    "soldiers"
+    "embutir",
+    "fechadura",
+    "intelbras",
+    "inteligente",
+    "mfw"
    ]
   },
   {
    "ids": [
-    "27096041"
+    "19802405"
    ],
-   "p": 477.0,
-   "t": 1795562072,
+   "p": 287.91,
+   "t": 1795564315,
+   "w": [
+    "110mm",
+    "1300w",
+    "4100nh3zx2",
+    "discos",
+    "makita",
+    "marmore",
+    "profissional",
+    "serra"
+   ]
+  },
+  {
+   "ids": [
+    "74678961"
+   ],
+   "p": 78.56,
+   "t": 1795564403,
+   "w": [
+    "agua",
+    "expansivel",
+    "jiesipote",
+    "mochila",
+    "preto",
+    "prova",
+    "reforcada"
+   ]
+  },
+  {
+   "ids": [
+    "28263665"
+   ],
+   "p": 365.03,
+   "t": 1795564483,
+   "w": [
+    "bicicleta",
+    "brus",
+    "ergometrica",
+    "fit",
+    "liftness",
+    "preto",
+    "spinning",
+    "vermelho",
+    "x11"
+   ]
+  },
+  {
+   "ids": [
+    "36453549"
+   ],
+   "p": 256.0,
+   "t": 1795565445,
    "w": [
     "100ml",
-    "alta",
     "azzaro",
-    "fixacao",
+    "chrome",
+    "edt",
     "masculino",
-    "most",
-    "parfum",
     "perfume",
-    "the",
-    "wanted"
-   ]
-  },
-  {
-   "ids": [
-    "B0CYLYGM4V"
-   ],
-   "p": 69.98,
-   "t": 1795562209,
-   "w": [
-    "30ml",
-    "luxe",
-    "oil",
-    "oleo",
-    "professionals",
-    "ultimate",
-    "wella"
+    "united"
    ]
   },
   {
    "ids": [],
-   "p": 525.91,
-   "t": 1795562255,
+   "p": 618.03,
+   "t": 1795565540,
    "w": [
-    "50ml",
-    "dior",
-    "eau",
-    "homme",
-    "masculino",
-    "perfume",
-    "toilette"
+    "100ml",
+    "armani",
+    "edp",
+    "feminino",
+    "giorgio",
+    "passione",
+    "perfume"
    ]
   },
   {
    "ids": [],
-   "p": 674.61,
-   "t": 1795562352,
+   "p": 620.38,
+   "t": 1795565635,
    "w": [
     "90ml",
+    "armani",
+    "edp",
     "feminino",
-    "for",
-    "her",
-    "million",
-    "parfum",
+    "giorgio",
     "perfume",
-    "rabanne",
-    "red"
+    "way",
+    "ylang"
    ]
   },
   {
    "ids": [
-    "38686865"
+    "B0FQPMH9TC"
    ],
-   "p": 59.71,
-   "t": 1795562423,
+   "p": 124.06,
+   "t": 1795565733,
    "w": [
-    "acabamento",
-    "acne",
-    "antioleosidade",
-    "facial",
-    "fps",
-    "poros",
-    "protetor",
-    "reduz",
-    "seco",
-    "solar",
-    "toque"
+    "bond",
+    "molecular",
+    "pantene",
+    "repair",
+    "reparador"
    ]
   },
   {
    "ids": [
-    "B09V6R64FN"
+    "68724438"
    ],
-   "p": 189.9,
-   "t": 1795562645,
+   "p": 460.4,
+   "t": 1795566196,
    "w": [
-    "expert",
-    "inforcer",
-    "mascara",
-    "oreal",
-    "professionnel",
-    "serie",
-    "shampoo",
-    "tratamento"
+    "50ml",
+    "genifique",
+    "lancome",
+    "serum",
+    "ultimate"
+   ]
+  },
+  {
+   "ids": [
+    "B0B3JL4VLZ"
+   ],
+   "p": 79.99,
+   "t": 1795566379,
+   "w": [
+    "cabelo",
+    "desembaracadora",
+    "detangler",
+    "escova",
+    "grossas",
+    "tangle",
+    "teezer",
+    "texturas",
+    "the",
+    "ultimate"
+   ]
+  },
+  {
+   "ids": [],
+   "p": 794.0,
+   "t": 1795566469,
+   "w": [
+    "32s515578g",
+    "aoc",
+    "dled",
+    "pole",
+    "quadcore",
+    "roku",
+    "smart"
    ]
   },
   {
    "ids": [],
    "p": 439.0,
-   "t": 1795563163,
+   "t": 1795566892,
    "w": [
     "125ml",
     "armani",
@@ -11215,56 +11470,58 @@
   },
   {
    "ids": [
-    "B0FR4TGL7J"
+    "B00BGYQ80K"
    ],
-   "p": 174.0,
-   "t": 1795563204,
+   "p": 214.0,
+   "t": 1795567115,
    "w": [
-    "armazenamento",
-    "bambu",
-    "cesto",
-    "dobravel",
-    "estar",
-    "litros",
-    "moldura",
-    "oxford",
-    "preta",
-    "quarto",
-    "roupa",
-    "sala",
-    "songmics",
-    "suja",
-    "tampa",
-    "tecido",
-    "tinta",
-    "ulcb518bh01"
+    "conjunto",
+    "estacas",
+    "franklin",
+    "futebol",
+    "gols",
+    "infantil",
+    "juvenis",
+    "mini",
+    "portateis",
+    "quintal",
+    "solo",
+    "sports"
    ]
   },
   {
    "ids": [
-    "B0FVB4RZJ6"
+    "B003JZ0BNE"
    ],
-   "p": 153.0,
-   "t": 1795563285,
+   "p": 37.0,
+   "t": 1795567194,
    "w": [
-    "acao",
-    "brown",
-    "caroling",
-    "charlie",
-    "figura",
-    "figures",
-    "peanuts",
-    "reaction",
-    "snoopy",
-    "super7"
+    "7757bk25da03",
+    "7mm",
+    "blister",
+    "lapiseira",
+    "mars",
+    "microb",
+    "mina",
+    "staedtler"
    ]
   }
  ],
  "resumo_dia": "2026-11-23",
- "retry": [],
+ "retry": [
+  {
+   "canal": "pincei",
+   "id": 371539,
+   "n": 1,
+   "quando": 1795564740.357825,
+   "t": 1795564260.3578248,
+   "txt": "ANTENA STARLINK MINI INTERNET VIA SATÉLITE\n\n🔥 R$ 427,41\n\n🏷️ Usar cupom TECHHOME\n\n🛍️ PEGAR PROMOÇÃO:\nhttps://pincei.co/e/bVr1YnHzUbv_m4\n\n🔵 Grupo Pincei Tech:\nhttps://join.pincei.co/tech"
+  }
+ ],
  "tentativas": {
   "fumotom:52425": 1,
   "pincei:371517": 2,
+  "pincei:371539": 1,
   "promosdaluh:324979": 2,
   "promosdaluh:324982": 2,
   "promosdaluh:324983": 1,
@@ -11274,16 +11531,16 @@
   "promosdaluh:324987": 1
  },
  "tpl_ultimo": 2032135,
- "ult_ciclo": 1795563356.3866081,
+ "ult_ciclo": 1795567268.168306,
  "ultimo_id": {
   "apromodaluh": 159218,
-  "fumotom": 52449,
-  "iuriindica": 124470,
+  "fumotom": 52453,
+  "iuriindica": 124471,
   "juaocupons": 27779,
-  "pechinchou": 240417,
+  "pechinchou": 240425,
   "perfumepromo": 10182,
-  "pincei": 371537,
-  "promosdaluh": 325048,
+  "pincei": 371545,
+  "promosdaluh": 325066,
   "promotom": 115361,
   "teniscertocupons": 66227,
   "teste": 1795214930
