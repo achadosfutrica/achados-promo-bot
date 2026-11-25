@@ -62,6 +62,18 @@
    "tipo": "fixed",
    "valor": 150.0
   },
+  "BLACK20LIMPEZA": {
+   "min": 99.0,
+   "t": 1795630844.4844818,
+   "tipo": "percent",
+   "valor": 20.0
+  },
+  "BLACK25BABY": {
+   "min": 99.0,
+   "t": 1795630811.1069481,
+   "tipo": "percent",
+   "valor": 25.0
+  },
   "BLACK40": {
    "min": 199.0,
    "t": 1795624197.774687,
@@ -250,7 +262,7 @@
   },
   "MELI782YHDL": {
    "min": 89.0,
-   "t": 1795629602.9306998,
+   "t": 1795629690.8953898,
    "tipo": "percent",
    "valor": 15.0
   },
@@ -284,6 +296,12 @@
    "tipo": "fixed",
    "valor": 300.0
   },
+  "NAAMAZONTEM": {
+   "min": 99.0,
+   "t": 1795629802.112368,
+   "tipo": "fixed",
+   "valor": 350.0
+  },
   "OFERTAPARAVOCE": {
    "min": 79.0,
    "t": 1795451068.4788005,
@@ -316,7 +334,7 @@
   },
   "OFICIAIS2511": {
    "min": 150.0,
-   "t": 1795629602.9306672,
+   "t": 1795629690.8953874,
    "tipo": "percent",
    "valor": 15.0
   },
@@ -13139,16 +13157,16 @@
  "tpl_ultimo": 2032135,
  "ult_ciclo": 1795624180.661412,
  "ultimo_id": {
-  "apromodaluh": 159308,
-  "fumotom": 52723,
-  "iuriindica": 124664,
+  "apromodaluh": 159309,
+  "fumotom": 52738,
+  "iuriindica": 124668,
   "juaocupons": 27817,
-  "pechinchou": 240653,
-  "perfumepromo": 10186,
-  "pincei": 371828,
-  "promosdaluh": 325455,
+  "pechinchou": 240665,
+  "perfumepromo": 10188,
+  "pincei": 371843,
+  "promosdaluh": 325468,
   "promotom": 115398,
-  "teniscertocupons": 66252,
+  "teniscertocupons": 66255,
   "teste": 1795214930
  }
 }
