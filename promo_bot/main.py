@@ -101,7 +101,7 @@ def processar_post(post_id, canal, texto, cfg, est, driver, modo, log, notificar
     reg = repetidos.registro(limpo, link, info.get("preco"))
     if rcfg.get("ligado", True):
         hist = (est.d.get("postados") or []) + (est.d.get("_grupo_hoje") or [])
-        rep, motivo = repetidos.ja_postado(reg, hist, rcfg.get("desconto_min", 0.15), rcfg.get("horas", 24))
+        rep, motivo = repetidos.ja_postado(reg, hist, rcfg.get("faixas"), rcfg.get("horas", 24), acima=rcfg.get("acima", repetidos.ACIMA))
         if rep:
             log("  pulado %s (%s)" % (chave, motivo))
             est.marcar(chave, "pulado:repetido")
