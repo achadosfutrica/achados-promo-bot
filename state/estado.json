@@ -1,16 +1,16 @@
 {
- "cmd_ultimo": 2053027,
+ "cmd_ultimo": 2053338,
  "contagem_dia": 3,
  "cupom_min": {
   "1124MAISME": {
    "min": 499.0,
-   "t": 1795591308.6692064,
+   "t": 1795595728.275557,
    "tipo": "fixed",
    "valor": 70.0
   },
   "2STTRTE": {
    "min": 150.0,
-   "t": 1795591308.6668067,
+   "t": 1795595728.2731073,
    "tipo": "percent",
    "valor": 20.0
   },
@@ -28,19 +28,19 @@
   },
   "BEMVINDOZAP": {
    "min": 100.0,
-   "t": 1795591307.080835,
+   "t": 1795595726.8603668,
    "tipo": "fixed",
    "valor": 40.0
   },
   "BLACK150": {
    "min": 1499.0,
-   "t": 1795591308.6678982,
+   "t": 1795595728.2742088,
    "tipo": "fixed",
    "valor": 150.0
   },
   "BLACK40": {
    "min": 199.0,
-   "t": 1795591308.6667056,
+   "t": 1795595728.2730072,
    "tipo": "fixed",
    "valor": 40.0
   },
@@ -58,7 +58,7 @@
   },
   "CUP0MD04DM2026": {
    "min": 120.0,
-   "t": 1795591308.6672082,
+   "t": 1795595728.2735114,
    "tipo": "fixed",
    "valor": 50.0
   },
@@ -76,31 +76,31 @@
   },
   "CUPOMMAGALU150": {
    "min": 399.0,
-   "t": 1795591308.666447,
+   "t": 1795595728.2727344,
    "tipo": "fixed",
    "valor": 150.0
   },
   "CURTAMELI": {
    "min": 199.0,
-   "t": 1795591308.1042125,
+   "t": 1795595727.8316922,
    "tipo": "percent",
    "valor": 10.0
   },
   "D14B0MC0MCUP0M": {
    "min": 60.0,
-   "t": 1795591308.6711721,
+   "t": 1795595728.2775204,
    "tipo": "fixed",
    "valor": 20.0
   },
   "ESPETACULO50": {
    "min": 249.0,
-   "t": 1795591308.667139,
+   "t": 1795595728.2734406,
    "tipo": "fixed",
    "valor": 50.0
   },
   "ESPORTE2311": {
    "min": 299.0,
-   "t": 1795591308.6715167,
+   "t": 1795595728.2778692,
    "tipo": "percent",
    "valor": 20.0
   },
@@ -112,13 +112,13 @@
   },
   "ESPORTES15": {
    "min": 299.0,
-   "t": 1795591307.0833347,
+   "t": 1795595726.8628447,
    "tipo": "percent",
    "valor": 15.0
   },
   "ESQUENTABF": {
    "min": 27.0,
-   "t": 1795591308.670461,
+   "t": 1795595728.2768068,
    "tipo": "fixed",
    "valor": 12.0
   },
@@ -130,7 +130,7 @@
   },
   "FULL2411": {
    "min": 159.0,
-   "t": 1795591308.6692638,
+   "t": 1795595728.2756152,
    "tipo": "percent",
    "valor": 25.0
   },
@@ -160,25 +160,25 @@
   },
   "LIVROSJOGOS2311": {
    "min": 200.0,
-   "t": 1795591308.6709235,
+   "t": 1795595728.2772696,
    "tipo": "percent",
    "valor": 20.0
   },
   "LUCIENE": {
    "min": 99.0,
-   "t": 1795591308.1013436,
+   "t": 1795595727.8288646,
    "tipo": "percent",
    "valor": 15.0
   },
   "M0D4TUHS": {
    "min": 159.0,
-   "t": 1795591308.6678293,
+   "t": 1795595728.2741394,
    "tipo": "percent",
    "valor": 15.0
   },
   "M3LH0R4PP": {
    "min": 60.0,
-   "t": 1795591308.6685276,
+   "t": 1795595728.2748537,
    "tipo": "fixed",
    "valor": 20.0
   },
@@ -196,7 +196,7 @@
   },
   "MELIMAISXPT1122": {
    "min": 499.0,
-   "t": 1795591308.6715157,
+   "t": 1795595728.277868,
    "tipo": "percent",
    "valor": 15.0
   },
@@ -226,13 +226,13 @@
   },
   "OFICIAIS2311": {
    "min": 89.0,
-   "t": 1795591308.6715164,
+   "t": 1795595728.2778687,
    "tipo": "percent",
    "valor": 10.0
   },
   "OFICIAIS2411": {
    "min": 89.0,
-   "t": 1795591308.669206,
+   "t": 1795595728.2755566,
    "tipo": "percent",
    "valor": 10.0
   },
@@ -244,7 +244,7 @@
   },
   "PECHINCHOULAR": {
    "min": 150.0,
-   "t": 1795591308.8602827,
+   "t": 1795595728.417206,
    "tipo": "percent",
    "valor": 20.0
   },
@@ -256,13 +256,13 @@
   },
   "PREBLACK": {
    "min": 27.0,
-   "t": 1795591307.0829859,
+   "t": 1795595726.8625073,
    "tipo": "fixed",
    "valor": 12.0
   },
   "PRIME70OFF": {
    "min": 499.0,
-   "t": 1795591308.6685934,
+   "t": 1795595728.2749243,
    "tipo": "fixed",
    "valor": 70.0
   },
@@ -286,13 +286,13 @@
   },
   "S3M4N4BL4CKSH0P33": {
    "min": 60.0,
-   "t": 1795591308.6712399,
+   "t": 1795595728.2775888,
    "tipo": "fixed",
    "valor": 20.0
   },
   "SITE2311TODO": {
    "min": 999.0,
-   "t": 1795591308.670571,
+   "t": 1795595728.2769165,
    "tipo": "fixed",
    "valor": 120.0
   },
@@ -304,19 +304,19 @@
   },
   "SITETODO2311": {
    "min": 150.0,
-   "t": 1795591308.6705706,
+   "t": 1795595728.2769158,
    "tipo": "fixed",
    "valor": 30.0
   },
   "SITETODO2411": {
    "min": 399.0,
-   "t": 1795591308.6683042,
+   "t": 1795595728.2746212,
    "tipo": "fixed",
    "valor": 50.0
   },
   "TECH2411": {
    "min": 1599.0,
-   "t": 1795591308.6692066,
+   "t": 1795595728.2755573,
    "tipo": "fixed",
    "valor": 200.0
   },
@@ -328,13 +328,13 @@
   },
   "TODO2311SITE": {
    "min": 399.0,
-   "t": 1795591308.6705697,
+   "t": 1795595728.2769153,
    "tipo": "fixed",
    "valor": 50.0
   },
   "TODO2411SITE": {
    "min": 1499.0,
-   "t": 1795591308.668303,
+   "t": 1795595728.2746205,
    "tipo": "fixed",
    "valor": 230.0
   },
@@ -346,19 +346,19 @@
   },
   "TODOSITE2311": {
    "min": 199.0,
-   "t": 1795591308.671727,
+   "t": 1795595728.2780833,
    "tipo": "fixed",
    "valor": 40.0
   },
   "TODOSITE2411": {
    "min": 159.0,
-   "t": 1795591308.668305,
+   "t": 1795595728.2746224,
    "tipo": "fixed",
    "valor": 30.0
   },
   "TODOSITE251126": {
    "min": 199.0,
-   "t": 1795591308.666331,
+   "t": 1795595728.2726374,
    "tipo": "fixed",
    "valor": 40.0
   },
@@ -370,13 +370,13 @@
   },
   "TVSCELULARES2311": {
    "min": 899.0,
-   "t": 1795591308.6709225,
+   "t": 1795595728.2772684,
    "tipo": "percent",
    "valor": 20.0
   },
   "VEMPROMP": {
    "min": 500.0,
-   "t": 1795591308.8617492,
+   "t": 1795595728.4186702,
    "tipo": "fixed",
    "valor": 150.0
   },
@@ -3147,6 +3147,10 @@
    "r": "duplicado",
    "t": 1795591267
   },
+  "pechinchou:240477": {
+   "r": "pulado:repetido",
+   "t": 1795601932
+  },
   "perfumepromo:10154": {
    "r": "falha",
    "t": 1795527350
@@ -5743,159 +5747,9 @@
  "fila": [
   {
    "canal": "fumotom",
-   "id": 52501,
-   "t": 1795576885.0,
-   "txt": "Controle Ps5 Sony Dualsense sem fio JoyStick - Midnight Black\n\nR$ 303\n-Resgate todos os cupons desta página:\nhttps://s.shopee.com.br/7KyoXbphKN\n\n-Preto\nhttps://s.shopee.com.br/4VedBbWFwm\n\n-Branco\nhttps://s.shopee.com.br/9zzZjiBFW7\n\n-Azul\nhttps://s.shopee.com.br/AUvqKd4sUM\n\n-Anúncio"
-  },
-  {
-   "canal": "fumotom",
-   "id": 52518,
-   "t": 1795577470.0,
-   "txt": "Kit Whey Protein One Refil 900g + Creatina Monohidratada Pura 300g Refil + Coqueteleira Fuse 700ml - Dark Lab\n\nR$ 79\n-Resgate todos os cupons desta página:\nhttps://s.shopee.com.br/30fk4tl3lu\n\n-Link produto: https://s.shopee.com.br/6AmrBI1Djf\n\n-Anúncio"
-  },
-  {
-   "canal": "fumotom",
-   "id": 52514,
-   "t": 1795577325.0,
-   "txt": "Whey Blend Protein Concentrado e Isolado 900g Soldiers Nutrition Suplemento Proteína Muscular Recuperação\n\nR$ 51\n-Resgate todos os cupons desta página:\nhttps://s.shopee.com.br/3qOwOsV0Dn\n\n-Link produto:\nhttps://s.shopee.com.br/BVe28rlI5\n\n-Anúncio"
-  },
-  {
-   "canal": "fumotom",
-   "id": 52503,
-   "t": 1795576917.0,
-   "txt": "Smart Tv Lg 55\" 4K Uhd Hdr10 Pro Ai Gen8 Webos 25\n\nR$ 2069\n-Resgate todos os cupons desta página:\nhttps://s.shopee.com.br/5VXANTeqAa\n\n-Link produto:\nhttps://s.shopee.com.br/9AQPYBajFa\n\n-Anúncio"
-  },
-  {
-   "canal": "fumotom",
-   "id": 52526,
-   "t": 1795578254.0,
-   "txt": "Cadeira Gamer Acegeek Lorien, Tecido, Cinza, Ag-Lorien-Gy\n\nR$ 468\n-Resgate todos os cupons desta página:\nhttps://s.shopee.com.br/60TQzkVKpE\n\n-Link produto:\nhttps://s.shopee.com.br/9V3JABLzwP\n\n-Anúncio"
-  },
-  {
-   "canal": "iuriindica",
-   "id": 124521,
-   "t": 1795578275.0,
-   "txt": "Cadeira Gamer Acegeek Lorien, Tecido, Cinza, Ag-Lorien-Gy\n\nRESGATE TODOS CUPONS DESSA PAGINA: https://s.shopee.com.br/30ppQRbZbr\n\n💵  R$ 468\n✅  https://s.shopee.com.br/1BOBF4mob9\n\n🤑 Grupos de promoções: https://iuriindica.com.br"
-  },
-  {
-   "canal": "fumotom",
-   "id": 52527,
-   "t": 1795578256.0,
-   "txt": "Cadeira Gamer WeiShi Bastion, Preto, Ws-Bastion-Bk\n\nR$ 341\n-Resgate todos os cupons desta página:\nhttps://s.shopee.com.br/9AQSlhkuo6\n\n-Link produto:\nhttps://s.shopee.com.br/1W11dcMlNl\n\n-Anúncio"
-  },
-  {
-   "canal": "iuriindica",
-   "id": 124522,
-   "t": 1795578276.0,
-   "txt": "Cadeira Gamer WeiShi Bastion, Preto, Ws-Bastion-Bk\n\nRESGATE TODOS CUPONS DESSA PAGINA: https://s.shopee.com.br/4B1moaWePR\n\n💵  R$ 341\n✅  https://s.shopee.com.br/1LhbRNmBGC\n\n🤑 Grupos de promoções: https://iuriindica.com.br"
-  },
-  {
-   "canal": "fumotom",
-   "id": 52510,
-   "t": 1795577162.0,
-   "txt": "Monitor Gamer Asus Rog Strix Xg27acs 27 Qhd 180Hz 1ms Fast\n\nR$ 1153\n-Resgate todos os cupons desta página:\nhttps://s.shopee.com.br/W8UQZQCrZ\n\n-Link produto:\nhttps://s.shopee.com.br/20xIDKT9oD\n\n-Anúncio"
-  },
-  {
-   "canal": "iuriindica",
-   "id": 124510,
-   "t": 1795577228.0,
-   "txt": "Monitor Gamer Asus Rog Strix Xg27acs 27 Qhd 180Hz 1ms Fast\n\nRESGATE TODOS CUPONS DESSA PAGINA: https://s.shopee.com.br/1gKRonO0Vu\n\n💵  R$ 1153\n✅  https://s.shopee.com.br/8KrLl331kC?lp=aff\n\n🤑 Grupos de promoções: https://iuriindica.com.br"
-  },
-  {
-   "canal": "fumotom",
-   "id": 52506,
-   "t": 1795577130.0,
-   "txt": "Celular Hotwav A17 Pro Max\n\nR$ 624\n-Resgate todos os cupons desta página:\nhttps://s.shopee.com.br/1W11cMf8oK\n\n-Link produto:\nhttps://s.shopee.com.br/2VtYoCkCaO\n\n-Anúncio"
-  },
-  {
-   "canal": "fumotom",
-   "id": 52524,
-   "t": 1795577854.0,
-   "txt": "Cadeira Gamer Python Fly Reclinável com Almofadas de Apoio Lombar e Cervical Altura Ajustável\n\nR$ 365\n-Resgate todos os cupons desta página:\nhttps://s.shopee.com.br/7fbeyWsKTJ\n\n-Link produto:\nhttps://s.shopee.com.br/7KyoZvF7Bx\n\n-Anúncio"
-  },
-  {
-   "canal": "fumotom",
-   "id": 52516,
-   "t": 1795577367.0,
-   "txt": "Creatina Monohidratado Pura 600g Dark Lab - 100% Pura\n\nR$ 31\n-Resgate todos os cupons desta página:\nhttps://s.shopee.com.br/50atn4gXHM\n\n-Link produto:\nhttps://s.shopee.com.br/80EVMaZrH5\n\n-Anúncio"
-  },
-  {
-   "canal": "fumotom",
-   "id": 52530,
-   "t": 1795580726.0,
-   "txt": "Kit 3 Geleias Linea Sabor Framboesa, Frutas Vermelhas e Goiaba de 230g\n\nR$ 21\n-Resgate todos os cupons desta página:\nhttps://s.shopee.com.br/9zzZo6XIZX\n\n-Link produto:\nhttps://s.shopee.com.br/1CDtjR2Fu\n\n-Anúncio"
-  },
-  {
-   "canal": "fumotom",
-   "id": 52523,
-   "t": 1795577673.0,
-   "txt": "Cadeira de Escritório Diretor Dr.Office Giratória Ergo, Mesh Respirável, Regulagem de Altura\n\nR$ 598\n-Resgate todos os cupons desta página:\nhttps://s.shopee.com.br/5AuJzjFPqh\n\n-Link produto:\nhttps://s.shopee.com.br/1CDqEdxvG\n\n-Anúncio"
-  },
-  {
-   "canal": "iuriindica",
-   "id": 124517,
-   "t": 1795578264.0,
-   "txt": "Cadeira de Escritório Diretor Dr.Office Giratória Ergo, Mesh Respirável, Regulagem de Altura\n\nRESGATE TODOS CUPONS DESSA PAGINA: https://s.shopee.com.br/9pg9YzT54D\n\n💵  R$ 598\n✅  https://s.shopee.com.br/1CDqv4vbv?lp=aff\n\n🤑 Grupos de promoções: https://iuriindica.com.br"
-  },
-  {
-   "canal": "fumotom",
-   "id": 52504,
-   "t": 1795576945.0,
-   "txt": "Kit Smartphone Motorola Moto g67 5G 128Gb + Moto Buds 2\n\nR$ 1305\n-Resgate todos os cupons desta página:\nhttps://s.shopee.com.br/30ppOunYB6\n\n-Link produto:\nhttps://s.shopee.com.br/BVe1i2fTd\n\n-Anúncio"
-  },
-  {
-   "canal": "pechinchou",
-   "id": 240473,
-   "t": 1795577916.3191044,
-   "txt": "LEVE 3 VINHOS POR 89 REAIS NA AMAZON 🗿🍷 Para Compor Sua Adega 😍\n\n📦 Frete Grátis todo o Brasil\n•⁠  3 em Vinhos por R$89.90\n\n🔥 R$ 89,90 Pix\nAchado Amazon 👇🏻\n🛒 https://pechin.co/103513"
-  },
-  {
-   "canal": "fumotom",
-   "id": 52529,
-   "t": 1795578334.0,
-   "txt": "Brinquedo Elka Cacá, A partir de 18 meses | Mexe Perninhas\n\nR$ 38\n\nhttps://www.amazon.com.br/dp/B0B785XR7F?tag=promotom05-20\n\n-Anúncio"
-  },
-  {
-   "canal": "pincei",
-   "id": 371581,
-   "t": 1795578820.0,
-   "txt": "Apple iPhone 17 de 256 GB\n\n🔥 R$ 5.273,10 VIA PIX\n\nPRETO:\nhttps://pincei.co/e/lnaSiUm7zVI_m4\n\nBRANCO:\nhttps://pincei.co/e/4mYHom8cMqE_m4\n\nAZUL:\nhttps://pincei.co/e/55qWwY5R8lu_m4"
-  },
-  {
-   "canal": "fumotom",
-   "id": 52525,
-   "t": 1795577926.0,
-   "txt": "Mesa Dynamica 180X60X75cm\n\nR$ 348\n-Resgate todos os cupons desta página:\nhttps://s.shopee.com.br/7pv5Auu0O6\n\n-Link produto:\nhttps://s.shopee.com.br/gRudkYUIi\n\n-Anúncio"
-  },
-  {
-   "canal": "iuriindica",
-   "id": 124519,
-   "t": 1795578265.0,
-   "txt": "Mesa Dynamica 180X60X75cm\n\nRESGATE TODOS CUPONS DESSA PAGINA: https://s.shopee.com.br/Lp4FX3euu\n\n💵  R$ 348\n✅  https://s.shopee.com.br/5VXAP1k3hn\n\n🤑 Grupos de promoções: https://iuriindica.com.br"
-  },
-  {
-   "canal": "fumotom",
-   "id": 52520,
-   "t": 1795577563.0,
-   "txt": "Pack Monster 6 Unidades 473ml\n\nR$ 47\n-Resgate todos os cupons desta página:\nhttps://s.shopee.com.br/7KyoXbphKN\n\n-Link produto:\nhttps://s.shopee.com.br/9zzZk8DsTp\nhttps://s.shopee.com.br/Lp4EMoKkT\nhttps://s.shopee.com.br/8pncLzIJqS\nhttps://s.shopee.com.br/30ppPGeBLF\nhttps://s.shopee.com.br/8KrLl4KDrT\nhttps://s.shopee.com.br/9KjswuGYM9\n\n-Anúncio"
-  },
-  {
-   "canal": "fumotom",
-   "id": 52512,
-   "t": 1795577298.0,
-   "txt": "Energético Monster em Oferta\n\n-Resgate todos os cupons desta página:\nhttps://s.shopee.com.br/3LSfnsdFys\n\n-Energético Monster Pacific Punch 473Ml 6Un = R$ 47\nhttps://s.shopee.com.br/Lp4EMoKkT\n\n-Energético Monster Pipeline Punch 473Ml 6Un = R$ 47\nhttps://s.shopee.com.br/8pncLzIJqS\n\n-Kit com 6 Energético Monster Energy 473ml = R$ 49\nhttps://s.shopee.com.br/30ppPGeBLF\n\n-Kit com 6 Energético Monster Mango Loco Lata 473ml = R$ 49\nhttps://s.shopee.com.br/9zzZk8DsTp\n\n-Kit com 6 Energético Monster Absolutely Zero Lata 473ml = R$ 49\nhttps://s.shopee.com.br/8KrLl4KDrT\n\n-Kit com 6 Energético Monster Ultra Lata 473ml = R$ 49\nhttps://s.shopee.com.br/9KjswuGYM9\n\n-Anúncio"
-  },
-  {
-   "canal": "fumotom",
-   "id": 52515,
-   "t": 1795577332.0,
-   "txt": "Great Papers! Horizon Letterhead, 21 x 28 cm, 80 unidades (2013184)\n\nR$ 21\n\nhttps://www.amazon.com.br/dp/B00K3MGDT2?tag=promotom05-20\n\n-Anúncio"
-  },
-  {
-   "canal": "pechinchou",
-   "id": 240468,
-   "t": 1795578981.2807724,
-   "txt": "CHEGA DE PNEU CARECA POR AQUI!! 🖤 194 Cada Unidade 😆\n\n•⁠  Kit 4 Pneus 175/60r13 77h Rw581 Roadwing\n\n🔥 R$ 777 Pix\n\n1º Resgate Cupom aqui:\nhttps://s.shopee.com.br/30mzRxdWQj\n2º Link do produto 👇🏻\n🛒 https://s.shopee.com.br/3LSfj3wucZ?lp=aff"
+   "id": 52533,
+   "t": 1795594835.0,
+   "txt": "YouTheFan Ímã 3D NFL Cleveland Browns, cores do time\n\nR$ 69\n\nhttps://www.amazon.com.br/dp/B08NFJ2FZM?tag=promotom05-20\n\n-Anúncio"
   }
  ],
  "flags": {
@@ -11280,122 +11134,114 @@
   {
    "canal": "fumotom",
    "id": 52509,
-   "n": 1,
-   "quando": 1795585560.23477,
+   "n": 2,
+   "quando": 1795596736.8185112,
    "t": 1795585080.2347696,
    "txt": "Fonte Gamer Rise Mode Elektra, 650W, Bronze, Full Modular, Pfc Ativo, Preto - Rm-Psu-Elkm-650-B\n\nR$ 256\n-Resgate todos os cupons desta página:\nhttps://s.shopee.com.br/4VedBoI4Io\n\n-Link produto:\nhttps://s.shopee.com.br/AAIzwE0YEs\n\n-Anúncio"
   },
   {
    "canal": "iuriindica",
    "id": 124512,
-   "n": 1,
-   "quando": 1795586070.7602096,
+   "n": 2,
+   "quando": 1795597249.8967092,
    "t": 1795585590.7602093,
    "txt": "Fonte Gamer Rise Mode Elektra, 650W, Bronze, Full Modular, Pfc Ativo, Preto Rm-Psu-Elkm-650-B\n\nRESGATE TODOS CUPONS DESSA PAGINA: https://s.shopee.com.br/50atmvFiUq\n\n💵  R$ 256\n✅  https://s.shopee.com.br/9zzZk6wkdr?lp=aff\n\n🤑 Grupos de promoções: https://iuriindica.com.br"
   },
   {
    "canal": "fumotom",
    "id": 52511,
-   "n": 1,
-   "quando": 1795586589.226328,
+   "n": 2,
+   "quando": 1795597763.150283,
    "t": 1795586109.2263272,
    "txt": "Basike Caixa de Som Sem Fio Basike 160W Bluetooth 5.4 Rgb Bateria 10000mAh Tws Ipx6\n\nR$ 368\n-Resgate todos os cupons desta página:\nhttps://s.shopee.com.br/1LhbQDbjfs\n\n-Link produto:\nhttps://s.shopee.com.br/9fMg9F8qbm\n\n-Anúncio"
   },
   {
    "canal": "iuriindica",
    "id": 124516,
-   "n": 1,
-   "quando": 1795587100.2377577,
+   "n": 2,
+   "quando": 1795598276.7357495,
    "t": 1795586620.2377574,
    "txt": "Basike Caixa de Som Sem Fio Basike 160W Bluetooth 5.4 Rgb Bateria 10000mAh Tws Ipx6\n\nRESGATE TODOS CUPONS DESSA PAGINA: https://s.shopee.com.br/7fbeyAjY2k\n\n💵  R$ 368\n✅  https://s.shopee.com.br/80EVMmiHO3\n\n🤑 Grupos de promoções: https://iuriindica.com.br"
   },
   {
    "canal": "iuriindica",
    "id": 124507,
-   "n": 1,
-   "quando": 1795587611.733231,
+   "n": 2,
+   "quando": 1795598790.0114312,
    "t": 1795587131.7332308,
    "txt": "Fonte Duex Pulse Pro 850w Gold Pcf Ativo Full Modular Cor Preto\n\nRESGATE TODOS CUPONS DESSA PAGINA: https://s.shopee.com.br/1BOBDV8wLq\n\n💵  R$ 514\n✅  https://s.shopee.com.br/1W11c77fg4?lp=aff\n\n🤑 Grupos de promoções: https://iuriindica.com.br"
   },
   {
    "canal": "fumotom",
    "id": 52502,
-   "n": 1,
-   "quando": 1795588123.3532379,
+   "n": 2,
+   "quando": 1795599306.2106621,
    "t": 1795587643.3532374,
    "txt": "Celular Samsung Galaxy A07 Ram Tela 6, 7\" Câm. Dupla + Selfie 8Mp\n\nR$ 661\n-Resgate todos os cupons desta página:\nhttps://s.shopee.com.br/4VedBc0zAe\n\n-Link produto:\nhttps://s.shopee.com.br/50atmX3TvE\n\n-Anúncio"
   },
   {
    "canal": "iuriindica",
    "id": 124508,
-   "n": 1,
-   "quando": 1795588634.7365646,
+   "n": 2,
+   "quando": 1795599819.5203538,
    "t": 1795588154.7365642,
    "txt": "Celular Samsung Galaxy A07 Ram Tela 6, 7\" Câm. Dupla + Selfie 8Mp\n\nRESGATE TODOS CUPONS DESSA PAGINA: https://s.shopee.com.br/6AmrAhP6Su\n\n💵  R$ 661\n✅  https://s.shopee.com.br/7pv59lIgqF?lp=aff\n\n🤑 Grupos de promoções: https://iuriindica.com.br"
   },
   {
    "canal": "fumotom",
    "id": 52528,
-   "n": 1,
-   "quando": 1795589145.4585037,
+   "n": 2,
+   "quando": 1795600332.7322896,
    "t": 1795588665.4585035,
    "txt": "Cadeira Gamer Python Fly Deluxe, Design Ergonômico, Ajuste De 90-150 Graus, Design Preto E Dourado\n\nR$ 633\n-Resgate todos os cupons desta página:\nhttps://s.shopee.com.br/6q2XzWDNAz\n\n-Link produto:\nhttps://s.shopee.com.br/5VXAP4Mqf3\n\n-Anúncio"
   },
   {
    "canal": "fumotom",
    "id": 52513,
-   "n": 1,
-   "quando": 1795589657.3936353,
+   "n": 2,
+   "quando": 1795600844.8773828,
    "t": 1795589177.393635,
    "txt": "Celular Hotwav A17 Pro Max Tela 6,75” Android 15 Dual Chip Bateria 5160mAh\n\nR$ 652\n-Resgate todos os cupons desta página:\nhttps://s.shopee.com.br/6AmrB8ivUB\n\n-Link produto:\nhttps://s.shopee.com.br/2VtYoCkCaO\n\n-Anúncio"
   },
   {
    "canal": "fumotom",
    "id": 52519,
-   "n": 1,
-   "quando": 1795590168.6425567,
+   "n": 2,
+   "quando": 1795601358.2103937,
    "t": 1795589688.6425564,
    "txt": "Kit Whey Core 70% de Proteína Concentrada -900g + Pré-Treino Evoluition 300g + Creatina 150g -Soldiers Nutrition\n\nR$ 80\n-Resgate todos os cupons desta página:\nhttps://s.shopee.com.br/1CDq5CfNd\n\n-Link produto:\nhttps://s.shopee.com.br/1BO9cPVHZi\n\n-Anúncio"
   },
   {
    "canal": "iuriindica",
    "id": 124514,
-   "n": 1,
-   "quando": 1795590679.743357,
+   "n": 2,
+   "quando": 1795601871.1366134,
    "t": 1795590199.7433567,
    "txt": "Kit Whey Protein One Refil 900g + Creatina Monohidratada Pura 300g Refil + Coqueteleira Fuse 700ml - Dark Lab\n\nRESGATE TODOS CUPONS DESSA PAGINA: https://s.shopee.com.br/9pg9Y9at43\n\n💵  R$ 79\n✅  https://s.shopee.com.br/1CDq5Cnqq\n\n🤑 Grupos de promoções: https://iuriindica.com.br"
   },
   {
    "canal": "iuriindica",
    "id": 124509,
-   "n": 1,
-   "quando": 1795591190.8203254,
+   "n": 2,
+   "quando": 1795602383.1598458,
    "t": 1795590710.820325,
    "txt": "Smart Tv Lg 55\" 4K Uhd Hdr10 Pro Ai Gen8 Webos 25\n\nRESGATE TODOS CUPONS DESSA PAGINA: https://s.shopee.com.br/5fqaZpKukH\n\n💵  R$ 2069\n✅  https://s.shopee.com.br/3g5WC9XGsa?lp=aff\n\n🤑 Grupos de promoções: https://iuriindica.com.br"
-  },
-  {
-   "canal": "pechinchou",
-   "id": 240477,
-   "n": 1,
-   "quando": 1795591706.1086104,
-   "t": 1795591226.1086102,
-   "txt": "🥶 GRANDONA DE 431 LITROS! ⭐ ELECTROLUX Frost Free 🏃🏻\n\n📦 Frete Grátis todo o Brasil\n•⁠  Geladeira Electrolux Frost Free 431l Efficient Autosense Duplex Branca (tf70) 220v\n\n🔥 R$ 2.659 Pix\nAchado Amazon 👇🏻\n🛒 https://pechin.co/114621"
   }
  ],
  "tentativas": {
   "fumotom:52425": 1,
-  "fumotom:52502": 1,
-  "fumotom:52509": 1,
-  "fumotom:52511": 1,
-  "fumotom:52513": 1,
-  "fumotom:52519": 1,
-  "fumotom:52528": 1,
-  "iuriindica:124507": 1,
-  "iuriindica:124508": 1,
-  "iuriindica:124509": 1,
-  "iuriindica:124512": 1,
-  "iuriindica:124514": 1,
-  "iuriindica:124516": 1,
+  "fumotom:52502": 2,
+  "fumotom:52509": 2,
+  "fumotom:52511": 2,
+  "fumotom:52513": 2,
+  "fumotom:52519": 2,
+  "fumotom:52528": 2,
+  "iuriindica:124507": 2,
+  "iuriindica:124508": 2,
+  "iuriindica:124509": 2,
+  "iuriindica:124512": 2,
+  "iuriindica:124514": 2,
+  "iuriindica:124516": 2,
   "juaocupons:27780": 2,
   "pechinchou:240468": 1,
   "pechinchou:240473": 1,
@@ -11415,10 +11261,10 @@
   "promosdaluh:325068": 2
  },
  "tpl_ultimo": 2032135,
- "ult_ciclo": 1795591292.6060116,
+ "ult_ciclo": 1795601932.4764593,
  "ultimo_id": {
   "apromodaluh": 159219,
-  "fumotom": 52530,
+  "fumotom": 52533,
   "iuriindica": 124522,
   "juaocupons": 27789,
   "pechinchou": 240477,
