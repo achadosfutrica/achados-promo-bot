@@ -30,8 +30,18 @@ class Tela:
         return None
 
     def carregando(self):
-        """Tela intermediária ('processando...') sem botões: ainda não é a resposta final."""
-        return (not self.botoes) and self.tem_texto("processando", "carregando", "aguarde", "buscando", "analisando", "gerando")
+        """Tela intermediária ('processando...', 'aplicando...') sem botões: ainda não é a resposta final.
+        v60: qualquer texto sem botão que termine em reticencias também conta (o Divulgador tem várias telas de
+        status - 'Aplicando cupom...', 'Validando...', 'Confirmando...' - e tratar uma delas como resposta final
+        cancelava o produto à toa; ver ATUALIZACAO de 25/11 ~09h10)."""
+        if self.botoes:
+            return False
+        if self.tem_texto("processando", "carregando", "aguarde", "buscando", "analisando", "gerando",
+                           "aplicando", "validando", "confirmando", "verificando", "atualizando",
+                           "preparando", "montando", "conferindo", "calculando", "iniciando"):
+            return True
+        fim = re.sub(r"[\s\U0001F000-\U0001FAFF\u2600-\u27BF\u2190-\u21FF\u2B00-\u2BFF\uFE0F]+$", "", self.texto or "")
+        return fim.endswith("...") or fim.endswith("\u2026")
 
     def tem_texto(self, *trechos):
         n = T.norm(self.texto)
