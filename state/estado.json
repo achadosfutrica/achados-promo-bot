@@ -1,5 +1,5 @@
 {
- "cmd_ultimo": 2058392,
+ "cmd_ultimo": 2058627,
  "contagem_dia": 112,
  "cupom_min": {
   "1124MAISME": {
@@ -613,7 +613,9 @@
    25847,
    25857,
    25915,
-   25929
+   25929,
+   26012,
+   26019
   ]
  },
  "dia": "2026-11-25",
@@ -13219,16 +13221,16 @@
  "tpl_ultimo": 2032135,
  "ult_ciclo": 1795624180.661412,
  "ultimo_id": {
-  "apromodaluh": 159339,
-  "fumotom": 52814,
-  "iuriindica": 124745,
+  "apromodaluh": 159346,
+  "fumotom": 52815,
+  "iuriindica": 124748,
   "juaocupons": 27847,
-  "pechinchou": 240788,
+  "pechinchou": 240799,
   "perfumepromo": 10207,
-  "pincei": 372039,
-  "promosdaluh": 325658,
-  "promotom": 115453,
-  "teniscertocupons": 66317,
+  "pincei": 372051,
+  "promosdaluh": 325665,
+  "promotom": 115454,
+  "teniscertocupons": 66321,
   "teste": 1795214930
  }
 }
