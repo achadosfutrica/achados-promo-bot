@@ -352,7 +352,6 @@ def _verificar_cadastros_canais(posts_por_canal, est, log):
             except Exception as e:  # noqa
                 log("  aviso: verificacao de cadastro falhou em %s:%s: %r" % (canal, pid, e))
             est.marcar(chave, "cad_verificado")
-    return out
 
 
 def recentes_apenas(msgs, max_idade_min, est, canal, log, agora=None):
