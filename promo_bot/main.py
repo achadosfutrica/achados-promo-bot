@@ -330,6 +330,9 @@ def _ler_canais(client, cfg, est, log):
         else:
             todos = client.loop.run_until_complete(_buscar(client, canal, ultimo, 100, com_data=True))
             out[canal] = recentes_apenas(todos, cfg["limites"].get("max_idade_min", 90), est, canal, log)
+    return out
+
+
 
 def _verificar_cadastros_canais(posts_por_canal, est, log):
     """v73: manda cada post novo dos canais pro cadastro (Apps Script); se bater, avisa o Oscar
