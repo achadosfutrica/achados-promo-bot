@@ -1,6 +1,6 @@
 {
- "cmd_ultimo": 2058837,
- "contagem_dia": 5,
+ "cmd_ultimo": 2058994,
+ "contagem_dia": 17,
  "cupom_min": {
   "1124MAISME": {
    "min": 499.0,
@@ -10,13 +10,13 @@
   },
   "15ELUX": {
    "min": 100.0,
-   "t": 1795681447.885503,
+   "t": 1795685091.3315272,
    "tipo": "percent",
    "valor": 15.0
   },
   "2STTRTE": {
    "min": 150.0,
-   "t": 1795681448.950699,
+   "t": 1795685092.57591,
    "tipo": "percent",
    "valor": 20.0
   },
@@ -34,7 +34,7 @@
   },
   "4N04C4B4ND0": {
    "min": 120.0,
-   "t": 1795681448.9501803,
+   "t": 1795685092.5750394,
    "tipo": "fixed",
    "valor": 50.0
   },
@@ -46,13 +46,13 @@
   },
   "75MAIS1125MELI": {
    "min": 499.0,
-   "t": 1795681448.9498508,
+   "t": 1795685092.5744748,
    "tipo": "fixed",
    "valor": 75.0
   },
   "APROMODALUH": {
    "min": 299.0,
-   "t": 1795681448.575517,
+   "t": 1795685092.1286457,
    "tipo": "percent",
    "valor": 35.0
   },
@@ -70,43 +70,43 @@
   },
   "BFWEEKFOOD": {
    "min": 27.0,
-   "t": 1795681448.9489555,
+   "t": 1795685092.5729938,
    "tipo": "fixed",
    "valor": 12.0
   },
   "BLACK100OFF": {
    "min": 999.0,
-   "t": 1795681448.9483058,
+   "t": 1795685092.5719395,
    "tipo": "fixed",
    "valor": 100.0
   },
   "BLACK150": {
    "min": 1499.0,
-   "t": 1795681448.9513838,
+   "t": 1795685092.577018,
    "tipo": "fixed",
    "valor": 150.0
   },
   "BLACK20LIMPEZA": {
    "min": 99.0,
-   "t": 1795681447.8855026,
+   "t": 1795685091.3315265,
    "tipo": "percent",
    "valor": 20.0
   },
   "BLACK25BABY": {
    "min": 99.0,
-   "t": 1795681448.9491074,
+   "t": 1795685092.5732498,
    "tipo": "percent",
    "valor": 25.0
   },
   "BLACK40": {
    "min": 199.0,
-   "t": 1795681448.950641,
+   "t": 1795685092.575811,
    "tipo": "fixed",
    "valor": 40.0
   },
   "BLACK75OFF": {
    "min": 499.0,
-   "t": 1795681448.949647,
+   "t": 1795685092.574152,
    "tipo": "fixed",
    "valor": 75.0
   },
@@ -118,7 +118,7 @@
   },
   "BLACKNUPAY25": {
    "min": 50.0,
-   "t": 1795681447.8836591,
+   "t": 1795685091.3285577,
    "tipo": "percent",
    "valor": 25.0
   },
@@ -130,7 +130,7 @@
   },
   "CUP0MD04DM2026": {
    "min": 120.0,
-   "t": 1795681448.9509556,
+   "t": 1795685092.5763154,
    "tipo": "fixed",
    "valor": 50.0
   },
@@ -148,7 +148,7 @@
   },
   "CUPOMMAGALU150": {
    "min": 399.0,
-   "t": 1795681448.950482,
+   "t": 1795685092.575541,
    "tipo": "fixed",
    "valor": 150.0
   },
@@ -166,19 +166,19 @@
   },
   "DECORNATAL2511": {
    "min": 119.0,
-   "t": 1795681448.9494772,
+   "t": 1795685092.5738676,
    "tipo": "fixed",
    "valor": 40.0
   },
   "ELETRO2511": {
    "min": 500.0,
-   "t": 1795681448.949476,
+   "t": 1795685092.5738666,
    "tipo": "percent",
    "valor": 15.0
   },
   "ESPETACULO50": {
    "min": 249.0,
-   "t": 1795681448.950913,
+   "t": 1795685092.576245,
    "tipo": "fixed",
    "valor": 50.0
   },
@@ -202,7 +202,7 @@
   },
   "ESPORTIVO10": {
    "min": 299.0,
-   "t": 1795681447.885062,
+   "t": 1795685091.3308148,
    "tipo": "percent",
    "valor": 10.0
   },
@@ -226,7 +226,7 @@
   },
   "FULL2611": {
    "min": 159.0,
-   "t": 1795681447.883842,
+   "t": 1795685091.3288612,
    "tipo": "percent",
    "valor": 25.0
   },
@@ -238,7 +238,7 @@
   },
   "INFLU200": {
    "min": 2000.0,
-   "t": 1795681448.949419,
+   "t": 1795685092.573777,
    "tipo": "fixed",
    "valor": 200.0
   },
@@ -254,9 +254,15 @@
    "tipo": "fixed",
    "valor": 300.0
   },
+  "INFLUBLACK150": {
+   "min": 1000.0,
+   "t": 1795685091.3267791,
+   "tipo": "fixed",
+   "valor": 150.0
+  },
   "INFLUBLACK200": {
    "min": 2000.0,
-   "t": 1795681448.9484632,
+   "t": 1795685092.572202,
    "tipo": "fixed",
    "valor": 200.0
   },
@@ -292,7 +298,7 @@
   },
   "M0D4TUHS": {
    "min": 159.0,
-   "t": 1795681448.95134,
+   "t": 1795685092.576948,
    "tipo": "percent",
    "valor": 15.0
   },
@@ -322,7 +328,7 @@
   },
   "MELI782YHDL": {
    "min": 89.0,
-   "t": 1795681448.9492235,
+   "t": 1795685092.573441,
    "tipo": "percent",
    "valor": 15.0
   },
@@ -346,7 +352,7 @@
   },
   "MELIXF9": {
    "min": 499.0,
-   "t": 1795681448.9481952,
+   "t": 1795685092.5717628,
    "tipo": "percent",
    "valor": 20.0
   },
@@ -358,13 +364,13 @@
   },
   "MENOSPRATECH": {
    "min": 2699.0,
-   "t": 1795681448.57529,
+   "t": 1795685092.1282256,
    "tipo": "fixed",
    "valor": 300.0
   },
   "MODOCASA": {
    "min": 1499.0,
-   "t": 1795681448.5701299,
+   "t": 1795685092.1199448,
    "tipo": "percent",
    "valor": 12.0
   },
@@ -406,7 +412,7 @@
   },
   "OFICIAIS2511": {
    "min": 150.0,
-   "t": 1795681448.9492228,
+   "t": 1795685092.57344,
    "tipo": "percent",
    "valor": 15.0
   },
@@ -424,7 +430,7 @@
   },
   "PM52MP66": {
    "min": 3500.0,
-   "t": 1795681448.948692,
+   "t": 1795685092.5725675,
    "tipo": "fixed",
    "valor": 1000.0
   },
@@ -472,7 +478,7 @@
   },
   "S1Y3OJMASUJ": {
    "min": 999.0,
-   "t": 1795681447.883756,
+   "t": 1795685091.328723,
    "tipo": "fixed",
    "valor": 100.0
   },
@@ -514,7 +520,7 @@
   },
   "SITETODO2511": {
    "min": 399.0,
-   "t": 1795681448.9498506,
+   "t": 1795685092.5744736,
    "tipo": "fixed",
    "valor": 50.0
   },
@@ -544,7 +550,7 @@
   },
   "TODO2511SITE": {
    "min": 1299.0,
-   "t": 1795681448.9498513,
+   "t": 1795685092.5744753,
    "tipo": "fixed",
    "valor": 220.0
   },
@@ -568,13 +574,13 @@
   },
   "TODOSITE2511": {
    "min": 159.0,
-   "t": 1795681448.9498496,
+   "t": 1795685092.5744722,
    "tipo": "fixed",
    "valor": 30.0
   },
   "TODOSITE251126": {
    "min": 199.0,
-   "t": 1795681448.9504282,
+   "t": 1795685092.575452,
    "tipo": "fixed",
    "valor": 40.0
   },
@@ -795,6 +801,90 @@
    "r": "pulado:repetido",
    "t": 1795623034
   },
+  "cad:fumotom:52955": {
+   "r": "cad_verificado",
+   "t": 1795685094
+  },
+  "cad:fumotom:52956": {
+   "r": "cad_verificado",
+   "t": 1795685094
+  },
+  "cad:fumotom:52957": {
+   "r": "cad_verificado",
+   "t": 1795685094
+  },
+  "cad:fumotom:52958": {
+   "r": "cad_verificado",
+   "t": 1795685094
+  },
+  "cad:fumotom:52959": {
+   "r": "cad_verificado",
+   "t": 1795685094
+  },
+  "cad:fumotom:52960": {
+   "r": "cad_verificado",
+   "t": 1795685094
+  },
+  "cad:fumotom:52961": {
+   "r": "cad_verificado",
+   "t": 1795685094
+  },
+  "cad:fumotom:52962": {
+   "r": "cad_verificado",
+   "t": 1795685094
+  },
+  "cad:juaocupons:27877": {
+   "r": "cad_verificado",
+   "t": 1795685094
+  },
+  "cad:pincei:372220": {
+   "r": "cad_verificado",
+   "t": 1795685094
+  },
+  "cad:pincei:372221": {
+   "r": "cad_verificado",
+   "t": 1795685094
+  },
+  "cad:promosdaluh:325795": {
+   "r": "cad_verificado",
+   "t": 1795685094
+  },
+  "cad:promosdaluh:325796": {
+   "r": "cad_verificado",
+   "t": 1795685094
+  },
+  "cad:promosdaluh:325797": {
+   "r": "cad_verificado",
+   "t": 1795685094
+  },
+  "cad:promosdaluh:325798": {
+   "r": "cad_verificado",
+   "t": 1795685094
+  },
+  "cad:promosdaluh:325799": {
+   "r": "cad_verificado",
+   "t": 1795685094
+  },
+  "cad:promosdaluh:325800": {
+   "r": "cad_verificado",
+   "t": 1795685094
+  },
+  "cad:promosdaluh:325801": {
+   "r": "cad_verificado",
+   "t": 1795685094
+  },
+  "cad:promosdaluh:325802": {
+   "r": "cad_verificado",
+   "t": 1795685094
+  },
+  "cad:promosdaluh:325803": {
+   "r": "cad_verificado",
+   "t": 1795685094
+  },
+  "cad:promosdaluh:325804": {
+   "r": "cad_verificado",
+   "t": 1795685094
+  },
   "cad:promotom:115544": {
    "r": "cad_verificado",
    "t": 1795681450
@@ -883,6 +973,10 @@
    "r": "cad_verificado",
    "t": 1795681450
   },
+  "cad:promotom:115566": {
+   "r": "cad_verificado",
+   "t": 1795685094
+  },
   "esg:2BWKUQM": {
    "r": "avisado",
    "t": 1795554931
@@ -890,6 +984,14 @@
   "esg:2VOAC4KLA0": {
    "r": "avisado",
    "t": 1795616809
+  },
+  "esg:AUTOMOVEIS": {
+   "r": "avisado",
+   "t": 1795685285
+  },
+  "esg:CARTINHAS": {
+   "r": "avisado",
+   "t": 1795685285
   },
   "esg:CORRE": {
    "r": "avisado",
@@ -914,6 +1016,18 @@
   "esg:LIBERADOS": {
    "r": "avisado",
    "t": 1795616809
+  },
+  "esg:MODA": {
+   "r": "avisado",
+   "t": 1795685285
+  },
+  "esg:MOTOCICLETAS": {
+   "r": "avisado",
+   "t": 1795685285
+  },
+  "esg:NATAL": {
+   "r": "avisado",
+   "t": 1795685285
   },
   "esg:NIKE": {
    "r": "avisado",
@@ -1302,6 +1416,30 @@
   "fumotom:52588": {
    "r": "duplicado",
    "t": 1795623864
+  },
+  "fumotom:52955": {
+   "r": "gerado",
+   "t": 1795685731
+  },
+  "fumotom:52956": {
+   "r": "gerado",
+   "t": 1795685873
+  },
+  "fumotom:52957": {
+   "r": "gerado",
+   "t": 1795686593
+  },
+  "fumotom:52959": {
+   "r": "gerado",
+   "t": 1795685944
+  },
+  "fumotom:52960": {
+   "r": "gerado",
+   "t": 1795685660
+  },
+  "fumotom:52961": {
+   "r": "gerado",
+   "t": 1795685802
   },
   "iuriindica:124326": {
    "r": "falha",
@@ -1971,6 +2109,10 @@
    "r": "gerado",
    "t": 1795612450
   },
+  "link:https://www.amazon.com.br/dp/B002OOYIOY": {
+   "r": "gerado",
+   "t": 1795686664
+  },
   "link:https://www.amazon.com.br/dp/B003JZ0BNE": {
    "r": "gerado",
    "t": 1795567243
@@ -2010,6 +2152,10 @@
   "link:https://www.amazon.com.br/dp/B01M4RLTNG": {
    "r": "gerado",
    "t": 1795602225
+  },
+  "link:https://www.amazon.com.br/dp/B01M71S9DU": {
+   "r": "gerado",
+   "t": 1795686593
   },
   "link:https://www.amazon.com.br/dp/B075QHV5LD": {
    "r": "gerado",
@@ -2207,6 +2353,10 @@
    "r": "gerado",
    "t": 1795607195
   },
+  "link:https://www.amazon.com.br/dp/B0CBKBBTXK": {
+   "r": "gerado",
+   "t": 1795685447
+  },
   "link:https://www.amazon.com.br/dp/B0CF6PJNCL": {
    "r": "gerado",
    "t": 1795617957
@@ -2214,6 +2364,10 @@
   "link:https://www.amazon.com.br/dp/B0CFB8H4H5": {
    "r": "duplicado",
    "t": 1795609911
+  },
+  "link:https://www.amazon.com.br/dp/B0CJTPJL5W": {
+   "r": "gerado",
+   "t": 1795685802
   },
   "link:https://www.amazon.com.br/dp/B0CK9JSM6K": {
    "r": "gerado",
@@ -2283,6 +2437,10 @@
    "r": "gerado",
    "t": 1795611347
   },
+  "link:https://www.amazon.com.br/dp/B0DL5HZGK2": {
+   "r": "gerado",
+   "t": 1795685944
+  },
   "link:https://www.amazon.com.br/dp/B0DPBG1WN6": {
    "r": "gerado",
    "t": 1795604820
@@ -2307,6 +2465,10 @@
    "r": "gerado",
    "t": 1795606148
   },
+  "link:https://www.amazon.com.br/dp/B0F8H2ZG8S": {
+   "r": "gerado",
+   "t": 1795685873
+  },
   "link:https://www.amazon.com.br/dp/B0F9NVSBVP": {
    "r": "falha",
    "t": 1795570091
@@ -2322,6 +2484,10 @@
   "link:https://www.amazon.com.br/dp/B0FG1S3F4G": {
    "r": "gerado",
    "t": 1795616859
+  },
+  "link:https://www.amazon.com.br/dp/B0FHBNQQFV": {
+   "r": "falha",
+   "t": 1795685401
   },
   "link:https://www.amazon.com.br/dp/B0FNGHWMZT": {
    "r": "gerado",
@@ -2375,9 +2541,17 @@
    "r": "gerado",
    "t": 1795602058
   },
+  "link:https://www.amazon.com.br/dp/B0GXLLPK3N": {
+   "r": "gerado",
+   "t": 1795685731
+  },
   "link:https://www.amazon.com.br/dp/B0H1282J24": {
    "r": "gerado",
    "t": 1795606248
+  },
+  "link:https://www.amazon.com.br/dp/B0H15F4STV": {
+   "r": "gerado",
+   "t": 1795685660
   },
   "link:https://www.amazon.com.br/dp/B0H1K4R949": {
    "r": "duplicado",
@@ -2414,6 +2588,10 @@
   "link:https://www.amazon.com.br/dp/B0HKYBZRN1": {
    "r": "gerado",
    "t": 1795613934
+  },
+  "link:https://www.amazon.com.br/dp/B0HNLL898L": {
+   "r": "gerado",
+   "t": 1795685331
   },
   "link:https://www.amazon.com.br/dp/B0HNLYH279": {
    "r": "gerado",
@@ -2455,9 +2633,17 @@
    "r": "gerado",
    "t": 1795615748
   },
+  "link:https://www.drogasil.com.br/dove-desodorante-aerosol-original-89g.html": {
+   "r": "gerado",
+   "t": 1795685159
+  },
   "link:https://www.drogasil.com.br/dove-desodorante-antitranspirante-aerosol-original-250ml.html": {
    "r": "gerado",
    "t": 1795615956
+  },
+  "link:https://www.drogasil.com.br/lavitan-melatonina-0-21mg-maracuja-150-comprimidos.html": {
+   "r": "falha",
+   "t": 1795685199
   },
   "link:https://www.epocacosmeticos.com.br/alfaparf-semi-di-lino-sunshine-kit-shampoo-e-mascara--2-produtos--173773/p": {
    "r": "gerado",
@@ -2731,6 +2917,10 @@
    "r": "gerado",
    "t": 1795609707
   },
+  "link:https://www.mercadolivre.com.br/perfume-feminino-eau-de-parfum-fragrancia-floral-gourmand-inebriante-com-notas-de-iris-nobre-baunilha-e-praline-la-vie-est-belle-lancome-frasco-com-50ml/p/MLB6092973": {
+   "r": "gerado",
+   "t": 1795685520
+  },
   "link:https://www.mercadolivre.com.br/perfume-feminino-eau-de-parfum-fragrancia-floral-oriental-com-notas-de-rosa-negra-orquidea-baunilha-e-patchouli-la-nuit-tresor-lancome-frasco-com-50ml/p/MLB6155969": {
    "r": "gerado",
    "t": 1795617001
@@ -2754,6 +2944,10 @@
   "link:https://www.mercadolivre.com.br/perfume-givenchy-ange-ou-demon-eau-de-parfum-feminino/up/MLBU5755138962": {
    "r": "duplicado",
    "t": 1795619016
+  },
+  "link:https://www.mercadolivre.com.br/perfume-idole-power-50-ml-lancome/p/MLB51585460": {
+   "r": "gerado",
+   "t": 1795685614
   },
   "link:https://www.mercadolivre.com.br/perfume-jean-paul-gaultier-le-beau-eau-de-toilette-125-ml-masculino/p/MLB25539351": {
    "r": "gerado",
@@ -4287,6 +4481,14 @@
    "r": "pulado:repetido",
    "t": 1795616809
   },
+  "pincei:372220": {
+   "r": "gerado",
+   "t": 1795685159
+  },
+  "pincei:372221": {
+   "r": "falha",
+   "t": 1795685199
+  },
   "promosdaluh:324679": {
    "r": "pulado:sacola laranja (bloqueado)",
    "t": 1795535041
@@ -5695,6 +5897,46 @@
    "r": "gerado",
    "t": 1795620257
   },
+  "promosdaluh:325795": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795685243
+  },
+  "promosdaluh:325796": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795685285
+  },
+  "promosdaluh:325797": {
+   "r": "esgotado_avisado",
+   "t": 1795685285
+  },
+  "promosdaluh:325798": {
+   "r": "gerado",
+   "t": 1795685331
+  },
+  "promosdaluh:325799": {
+   "r": "pulado:repetido",
+   "t": 1795685352
+  },
+  "promosdaluh:325800": {
+   "r": "pulado:repetido",
+   "t": 1795685372
+  },
+  "promosdaluh:325801": {
+   "r": "falha",
+   "t": 1795685401
+  },
+  "promosdaluh:325802": {
+   "r": "gerado",
+   "t": 1795685447
+  },
+  "promosdaluh:325803": {
+   "r": "gerado",
+   "t": 1795685520
+  },
+  "promosdaluh:325804": {
+   "r": "gerado",
+   "t": 1795685614
+  },
   "promotom:115239": {
    "r": "falha",
    "t": 1795546794
@@ -5927,9 +6169,17 @@
    "r": "falha",
    "t": 1795681656
   },
+  "promotom:115563": {
+   "r": "gerado",
+   "t": 1795686664
+  },
   "promotom:115565": {
    "r": "gerado",
    "t": 1795681601
+  },
+  "promotom:115566": {
+   "r": "pulado:sem preco",
+   "t": 1795685100
   },
   "teniscertocupons:66210": {
    "r": "falha",
@@ -5966,100 +6216,16 @@
  },
  "fila": [
   {
-   "canal": "promotom",
-   "id": 115561,
-   "t": 1795679231.0,
-   "txt": "TANGWIN Hastes de cortina blackout envolventes, ajuste resistente de 2,5 cm | Barra de luz curva francesa para escurecimento de ambiente, quarto, sala de estar, cozinha, fácil instalação com ferragens\n\nR$ 323\n\nhttps://www.amazon.com.br/dp/B0BHZ1ZBLJ?tag=promotom05-20\n\n-Anúncio"
+   "canal": "fumotom",
+   "id": 52962,
+   "t": 1795684939.0,
+   "txt": "Rush Creek Creations Rack de armazenamento de vara de pesca redondo com 16\n\nR$ 248\n\nhttps://www.amazon.com.br/dp/B07MNGHTMC?tag=promotom05-20\n\n-Anúncio"
   },
   {
-   "canal": "promotom",
-   "id": 115549,
-   "t": 1795677629.0,
-   "txt": "Tinaco Tapetes de cama luxuosos e calmantes para cães/gatos, capa de sofá removível lavável, tapete de pelo longo de pelúcia para animais de estimação, forro impermeável, perfeito para cães e gatos\n\nR$ 278\n\nhttps://www.amazon.com.br/dp/B09KXQDF57?tag=promotom05-20\n\n-Anúncio"
-  },
-  {
-   "canal": "promotom",
-   "id": 115554,
-   "t": 1795678555.0,
-   "txt": "Wrangler Calça jeans masculina 20X 02 Competition Slim Fit\n\nR$ 405\n\nhttps://www.amazon.com.br/dp/B00XRDB5RE?tag=promotom05-20\n\n-Anúncio"
-  },
-  {
-   "canal": "promotom",
-   "id": 115558,
-   "t": 1795679180.0,
-   "txt": "HOLDN' STORAGE Recipiente de armazenamento de enfeites de Natal, caixa armazena até 54, divisórias ajustáveis, grande organizador para proteger e armazenar decoração de férias\n\nR$ 352\n\nhttps://www.amazon.com.br/dp/B0BF651P18?tag=promotom05-20\n\n-Anúncio"
-  },
-  {
-   "canal": "promotom",
-   "id": 115550,
-   "t": 1795677640.0,
-   "txt": "KAWAHONE Grind Hustle Conquer Success Wall Art, Motivation Canvas Wall Decor Framed Inspirational Painting Citações Positive Poster Wall Hanging Picture for Home Office Workplace - 30,48 cm L L x 40,5\n\nR$ 196\n\nhttps://www.amazon.com.br/dp/B08LH2P7NL?tag=promotom05-20\n\n-Anúncio"
-  },
-  {
-   "canal": "promotom",
-   "id": 115560,
-   "t": 1795679185.0,
-   "txt": "Mochila Mochila Alpha Lite OGIOadulto-unissex\n\nR$ 410\n\nhttps://www.amazon.com.br/dp/B07K6YTPSQ?tag=promotom05-20\n\n-Anúncio"
-  },
-  {
-   "canal": "promotom",
-   "id": 115546,
-   "t": 1795676866.0,
-   "txt": "Xícara de Chá com Pires Alleanza, Verde Água, Laços de Páscoa\n\nR$ 89\n\nhttps://www.amazon.com.br/dp/B0FZVXBDHL?tag=promotom05-20\n\n-Anúncio"
-  },
-  {
-   "canal": "promotom",
-   "id": 115557,
-   "t": 1795679172.0,
-   "txt": "FOUXTEL Substituição de almofada de sofá de 5 camadas de espessura extra, substituição de almofadas de sofá de 61 cm x 61 cm x 15 cm, almofada de estofamento de espuma 100% 25D, espuma de almofada de\n\nR$ 329\n\nhttps://www.amazon.com.br/dp/B0DHGWJXV6?tag=promotom05-20\n\n-Anúncio"
-  },
-  {
-   "canal": "promotom",
-   "id": 115555,
-   "t": 1795679144.0,
-   "txt": "Hanes Meia-calça feminina Silk\n\nR$ 67\n\nhttps://www.amazon.com.br/dp/B000FIW13Q?tag=promotom05-20\n\n-Anúncio"
-  },
-  {
-   "canal": "promotom",
-   "id": 115544,
-   "t": 1795676752.0,
-   "txt": "Camp Chef Capa de pátio para 3 fogões com pernas removíveis\n\nR$ 271\n\nhttps://www.amazon.com.br/dp/B0009N0QGQ?tag=promotom05-20\n\n-Anúncio"
-  },
-  {
-   "canal": "promotom",
-   "id": 115551,
-   "t": 1795678073.0,
-   "txt": "Loafer Clarks Rubi Elaina feminino\n\nR$ 485\n\nhttps://www.amazon.com.br/dp/B0B4X4GH5T?tag=promotom05-20\n\n-Anúncio"
-  },
-  {
-   "canal": "promotom",
-   "id": 115563,
-   "t": 1795680002.0,
-   "txt": "CAP Suporte para halteres A-Frame\n\nR$ 235\n\nhttps://www.amazon.com.br/dp/B002OOYIOY?tag=promotom05-20\n\n-Anúncio"
-  },
-  {
-   "canal": "promotom",
-   "id": 115547,
-   "t": 1795677076.0,
-   "txt": "80Six Capacete de skate\n\nR$ 212\n\nhttps://www.amazon.com.br/dp/B087CXSKN3?tag=promotom05-20\n\n-Anúncio"
-  },
-  {
-   "canal": "promotom",
-   "id": 115552,
-   "t": 1795678085.0,
-   "txt": "Jessica Simpson\n\nR$ 254\n\nhttps://www.amazon.com.br/dp/B00ESVAU52?tag=promotom05-20\n\n-Anúncio"
-  },
-  {
-   "canal": "promotom",
-   "id": 115559,
-   "t": 1795679185.0,
-   "txt": "Bicycle Cocktail (Designer Spielkarten, Poker, Skat...)\n\nR$ 74\n\nhttps://www.amazon.com.br/dp/B0DGWJSWNM?tag=promotom05-20\n\n-Anúncio"
-  },
-  {
-   "canal": "promotom",
-   "id": 115564,
-   "t": 1795680129.0,
-   "txt": "Cupom Magalu APP\n\n15% OFF em compras até R$ 1000: INFLUBLACK15\n\n-Resgate aqui: https://cutt.ly/StZAnVsN\n\n-Anúncio"
+   "canal": "fumotom",
+   "id": 52958,
+   "t": 1795682859.0,
+   "txt": "Chuteira Penalty RX Locker Y-4 Futsal Amarela e Preta\n\nR$ 88\n\nhttps://www.amazon.com.br/dp/B0CZM4DKV1?tag=promotom05-20\n\n-Anúncio"
   }
  ],
  "flags": {
@@ -9086,21 +9252,6 @@
  "postados": [
   {
    "ids": [
-    "B0BZ54N724"
-   ],
-   "p": 262.0,
-   "t": 1795591255,
-   "w": [
-    "aparelho",
-    "jantar",
-    "maresia",
-    "oxford",
-    "pecas",
-    "ryo"
-   ]
-  },
-  {
-   "ids": [
     "B09FFVMNFB"
    ],
    "p": 0.79,
@@ -11317,6 +11468,236 @@
     "sintetica",
     "windoware"
    ]
+  },
+  {
+   "ids": [],
+   "p": 9.99,
+   "t": 1795685108,
+   "w": [
+    "150ml",
+    "72h",
+    "aerosol",
+    "antitranspirante",
+    "desodorante",
+    "dove",
+    "feminino"
+   ]
+  },
+  {
+   "ids": [
+    "B0HNLL898L"
+   ],
+   "p": 109.64,
+   "t": 1795685285,
+   "w": [
+    "40g",
+    "dermage",
+    "facial",
+    "fps50",
+    "photoage",
+    "protetor",
+    "solar",
+    "water"
+   ]
+  },
+  {
+   "ids": [
+    "B0CBKBBTXK"
+   ],
+   "p": 62.5,
+   "t": 1795685401,
+   "w": [
+    "back",
+    "cabelo",
+    "combing",
+    "escova",
+    "finalizacao",
+    "hairbrush",
+    "lilas",
+    "tangle",
+    "teezer"
+   ]
+  },
+  {
+   "ids": [
+    "6092973"
+   ],
+   "p": 427.49,
+   "t": 1795685469,
+   "w": [
+    "eau",
+    "feminino",
+    "floral",
+    "fragrancia",
+    "gourmand",
+    "inebriante",
+    "iris",
+    "nobre",
+    "notas",
+    "parfum",
+    "perfume"
+   ]
+  },
+  {
+   "ids": [
+    "51585460"
+   ],
+   "p": 445.49,
+   "t": 1795685562,
+   "w": [
+    "idole",
+    "lancome",
+    "perfume",
+    "power"
+   ]
+  },
+  {
+   "ids": [
+    "B0H15F4STV"
+   ],
+   "p": 49.0,
+   "t": 1795685614,
+   "w": [
+    "adulto",
+    "camiseta",
+    "confortavel",
+    "descansar",
+    "dormir",
+    "duomo",
+    "frescor",
+    "macio",
+    "masculino",
+    "pijama",
+    "sensacao",
+    "shorts",
+    "toque",
+    "verao"
+   ]
+  },
+  {
+   "ids": [
+    "B0GXLLPK3N"
+   ],
+   "p": 46.0,
+   "t": 1795685685,
+   "w": [
+    "discreto",
+    "invisiveis",
+    "invisivel",
+    "lupo",
+    "masculina",
+    "masculinas",
+    "meia",
+    "meias",
+    "originais",
+    "pares",
+    "sapatenis",
+    "sapatilha",
+    "soquete",
+    "tenis",
+    "visual"
+   ]
+  },
+  {
+   "ids": [
+    "B0CJTPJL5W"
+   ],
+   "p": 203.0,
+   "t": 1795685756,
+   "w": [
+    "adultos",
+    "amplim",
+    "armazenamento",
+    "bebe",
+    "cabeca",
+    "contato",
+    "criancas",
+    "digital",
+    "estojo",
+    "febre",
+    "premium",
+    "temperatura",
+    "temporal",
+    "termometro",
+    "testa",
+    "toque"
+   ]
+  },
+  {
+   "ids": [
+    "B0F8H2ZG8S"
+   ],
+   "p": 24.0,
+   "t": 1795685827,
+   "w": [
+    "antiderrapante",
+    "cores",
+    "malha",
+    "meias",
+    "pares",
+    "pilates",
+    "preta",
+    "sapatilha",
+    "sortidas",
+    "yoga"
+   ]
+  },
+  {
+   "ids": [
+    "B0DL5HZGK2"
+   ],
+   "p": 270.0,
+   "t": 1795685898,
+   "w": [
+    "arame",
+    "armazenamento",
+    "camadas",
+    "carrinho",
+    "facil",
+    "ganchos",
+    "metal",
+    "montagem",
+    "prateleiras",
+    "rodas",
+    "rodinhas",
+    "sobre",
+    "toolf",
+    "utilitario"
+   ]
+  },
+  {
+   "ids": [
+    "B01M71S9DU"
+   ],
+   "p": 55.0,
+   "t": 1795686547,
+   "w": [
+    "artisticos",
+    "caligrafia",
+    "caneta",
+    "canetas",
+    "desenhos",
+    "dura",
+    "fudenosuke",
+    "macia",
+    "pacote",
+    "pincel",
+    "ponta",
+    "tombow"
+   ]
+  },
+  {
+   "ids": [
+    "B002OOYIOY"
+   ],
+   "p": 235.0,
+   "t": 1795686618,
+   "w": [
+    "cap",
+    "frame",
+    "halteres",
+    "suporte"
+   ]
   }
  ],
  "resumo_dia": "2026-11-25",
@@ -11528,6 +11909,22 @@
    "quando": 1795624010.7747674,
    "t": 1795623530.7747672,
    "txt": "OLYMPIKUS CORRE TURBO! 🆘👟\n\n✨Tênis Olympikus Corre Turbo\n\n~de R$ 699,99~\n🔥 *por R$ 479,99* \n💳 ou 6x de R$ 80,00\n\n🛒 https://apromodaluh.com.br/p/P5p2469Ses?r=1"
+  },
+  {
+   "canal": "juaocupons",
+   "id": 27877,
+   "n": 1,
+   "quando": 1795687002.4937367,
+   "t": 1795686522.4937365,
+   "txt": "🔥 Cupons Magalu\n\n🏷️ 15% OFF em compras até R$ 1000: INFLUBLACK15\n🏷️ R$ 150 OFF em R$ 1000: INFLUBLACK150\n\n🔗 Teste aqui\nhttps://ofertou.ai/Bpt5c"
+  },
+  {
+   "canal": "promotom",
+   "id": 115564,
+   "n": 1,
+   "quando": 1795687659.3045368,
+   "t": 1795687179.3045366,
+   "txt": "Cupom Magalu APP\n\n15% OFF em compras até R$ 1000: INFLUBLACK15\n\n-Resgate aqui: https://cutt.ly/StZAnVsN\n\n-Anúncio"
   }
  ],
  "tentativas": {
@@ -11547,6 +11944,7 @@
   "iuriindica:124514": 2,
   "iuriindica:124516": 2,
   "juaocupons:27780": 2,
+  "juaocupons:27877": 1,
   "pechinchou:240468": 1,
   "pechinchou:240473": 1,
   "pechinchou:240477": 1,
@@ -11571,20 +11969,21 @@
   "promosdaluh:324987": 1,
   "promosdaluh:325068": 2,
   "promosdaluh:325183": 1,
-  "promosdaluh:325233": 1
+  "promosdaluh:325233": 1,
+  "promotom:115564": 1
  },
  "tpl_ultimo": 2032135,
- "ult_ciclo": 1795681968.2334194,
+ "ult_ciclo": 1795687204.3328257,
  "ultimo_id": {
   "apromodaluh": 159351,
-  "fumotom": 52954,
+  "fumotom": 52962,
   "iuriindica": 124907,
-  "juaocupons": 27876,
+  "juaocupons": 27877,
   "pechinchou": 240912,
   "perfumepromo": 10220,
-  "pincei": 372219,
-  "promosdaluh": 325794,
-  "promotom": 115565,
+  "pincei": 372221,
+  "promosdaluh": 325804,
+  "promotom": 115566,
   "teniscertocupons": 66348,
   "teste": 1795214930
  }
