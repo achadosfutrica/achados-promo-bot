@@ -1,0 +1,33 @@
+name: watchdog-divulgador
+# De 2 em 2 horas, confere se os bots do Divulgador (divulgadorinteligentebot e os outros 2) ficaram travados
+# numa pergunta sem resposta (ex.: apos uma execucao do robo principal cair no meio) e destrava com /cancelar.
+# NUNCA mexe se parecer promocao em andamento (so age quando a ultima mensagem esta ha mais de 20 min parada).
+# Roda sozinho, sem depender do Claude. Para desligar: Actions > watchdog-divulgador > ... > Disable workflow.
+on:
+  workflow_dispatch: {}
+  schedule:
+    - cron: "17 */2 * * *"
+
+concurrency:
+  group: watchdog-divulgador
+  cancel-in-progress: false
+
+jobs:
+  checar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Checar e destravar
+        env:
+          TG_API_ID: ${{ secrets.TG_API_ID }}
+          TG_API_HASH: ${{ secrets.TG_API_HASH }}
+          TG_SESSION: ${{ secrets.TG_SESSION }}
+        run: python -m promo_bot.watchdog_divulgador
