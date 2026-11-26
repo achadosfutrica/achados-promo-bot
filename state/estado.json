@@ -1,5 +1,5 @@
 {
- "cmd_ultimo": 2058752,
+ "cmd_ultimo": 2058837,
  "contagem_dia": 112,
  "cupom_min": {
   "1124MAISME": {
@@ -74,6 +74,12 @@
    "tipo": "fixed",
    "valor": 12.0
   },
+  "BLACK100OFF": {
+   "min": 999.0,
+   "t": 1795662076.6475337,
+   "tipo": "fixed",
+   "valor": 100.0
+  },
   "BLACK150": {
    "min": 1499.0,
    "t": 1795652357.957849,
@@ -109,6 +115,12 @@
    "t": 1795556711.9332979,
    "tipo": "fixed",
    "valor": 50.0
+  },
+  "BLACKNUPAY25": {
+   "min": 50.0,
+   "t": 1795662121.8772595,
+   "tipo": "percent",
+   "valor": 25.0
   },
   "BLACKTAQUETA": {
    "min": 50.0,
@@ -209,6 +221,12 @@
   "FULL2411": {
    "min": 159.0,
    "t": 1795624197.7777996,
+   "tipo": "percent",
+   "valor": 25.0
+  },
+  "FULL2611": {
+   "min": 159.0,
+   "t": 1795662163.9167798,
    "tipo": "percent",
    "valor": 25.0
   },
@@ -326,6 +344,12 @@
    "tipo": "percent",
    "valor": 15.0
   },
+  "MELIXF9": {
+   "min": 499.0,
+   "t": 1795662100.828924,
+   "tipo": "percent",
+   "valor": 20.0
+  },
   "MELIYTBF26": {
    "min": 149.0,
    "t": 1795652356.733122,
@@ -337,6 +361,12 @@
    "t": 1795652357.5236075,
    "tipo": "fixed",
    "valor": 300.0
+  },
+  "MODOCASA": {
+   "min": 1499.0,
+   "t": 1795662020.900337,
+   "tipo": "percent",
+   "valor": 12.0
   },
   "NAAMAZONTEM": {
    "min": 99.0,
@@ -439,6 +469,12 @@
    "t": 1795479348.805878,
    "tipo": "percent",
    "valor": 80.0
+  },
+  "S1Y3OJMASUJ": {
+   "min": 999.0,
+   "t": 1795662126.0676816,
+   "tipo": "fixed",
+   "valor": 100.0
   },
   "S3M4N4BL4CKSH0P33": {
    "min": 60.0,
@@ -616,7 +652,9 @@
    25929,
    26012,
    26019,
-   26100
+   26100,
+   26138,
+   26144
   ]
  },
  "dia": "2026-11-25",
@@ -13224,11 +13262,11 @@
  "ultimo_id": {
   "apromodaluh": 159347,
   "fumotom": 52819,
-  "iuriindica": 124770,
-  "juaocupons": 27851,
-  "pechinchou": 240848,
+  "iuriindica": 124772,
+  "juaocupons": 27852,
+  "pechinchou": 240859,
   "perfumepromo": 10211,
-  "pincei": 372115,
+  "pincei": 372117,
   "promosdaluh": 325697,
   "promotom": 115457,
   "teniscertocupons": 66348,
