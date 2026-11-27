@@ -266,7 +266,7 @@ def rodar(cfg, posts_por_canal, est, driver, log=print, notificar=lambda m: None
             log("  %s:%s nota %s (%s)" % (canal, pid, -neg, det))
         r = fazer(canal, pid, txt)
         conta(r)
-        if r in ("gerado", "cancelado_teste", "duplicado", "falha"):
+        if r in ("gerado", "cancelado_teste", "duplicado"):
             feitos += 1
             por_canal[canal] = por_canal.get(canal, 0) + 1
             dormir(lim["pausa_entre_promocoes_seg"])
