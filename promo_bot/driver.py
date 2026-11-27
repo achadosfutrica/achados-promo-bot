@@ -301,7 +301,7 @@ class Driver:
                     break
                 except (Falha, TimeoutError, RuntimeError) as e_t:
                     m_t = str(e_t)
-                    if _tent == 3 or not re.search(r"nao e o do post|revisao nao reconhecida|nao respondeu|botao sumiu|cadastro manual nao terminou|perdi o botao", m_t):
+                    if _tent == 3 or not re.search(r"nao e o do post|revisao nao reconhecida|botao sumiu|cadastro manual nao terminou|perdi o botao", m_t):
                         raise
                     self.log("  tentativa %d/3 falhou (%s): reinicio a conversa com o bot e tento de novo" % (_tent, m_t[:110]))
                     for fn in ("cancelar_tudo", "zerar"):
