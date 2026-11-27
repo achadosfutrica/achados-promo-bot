@@ -33,6 +33,7 @@ bots_divulgador:
   - di73604bot
   - di15827bot
   - di90463bot
+# 27/11 13h45: reinicio para o workflow novo (alerta de cadastro ligado)
 
 # robô de cupons que recebe o aviso "/cupomacabou CODIGO" quando um canal avisa que o cupom esgotou
 # (ele pergunta para você se posta que acabou ou não)
