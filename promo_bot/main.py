@@ -143,7 +143,10 @@ def processar_post(post_id, canal, texto, cfg, est, driver, modo, log, notificar
         except Exception:  # noqa
             pass
         msg_e = str(e)
-        definitiva = bool(re.search(r"VALOR NAO|cupom desconhecido|recusei clicar|nao tem foto|FloodWait", msg_e))
+        awin_instavel = "AWIN INSTAVEL" in msg_e
+        # AWIN INSTAVEL: instabilidade da rede de afiliados (nao e bug nosso) - repetir na hora so
+        # gasta credito de novo pro mesmo resultado, entao tratamos como definitiva (1 tentativa so)
+        definitiva = awin_instavel or bool(re.search(r"VALOR NAO|cupom desconhecido|recusei clicar|nao tem foto|FloodWait", msg_e))
         tents = est.d.setdefault("tentativas", {})
         if len(tents) > 400:
             tents.clear()
@@ -157,7 +160,17 @@ def processar_post(post_id, canal, texto, cfg, est, driver, modo, log, notificar
             log("  vai tentar de novo %s (tentativa %d de 3) em ~8 min" % (chave, tent + 1))
             est.salvar()
             return "falha"
-        notificar("⚠️ Robô de promoções: NAO gerei %s%s\n%s\nLink: %s" % (chave, (" (depois de %d tentativas)" % tent) if tent > 1 else "", e, link))
+        if awin_instavel:
+            # varios posts podem bater nisso ao mesmo tempo (ex.: rede de afiliados fora do ar);
+            # evita floodar o Telegram com a mesma notificacao a cada poucos minutos
+            ult = est.d.get("ult_aviso_awin", 0)
+            if time.time() - ult > 1800:
+                notificar("⚠️ Robô de promoções: a rede de afiliados (Awin) está instável, não consegui gerar %s (e possivelmente outras da mesma loja).\nLink: %s\n\nNão é erro do robô; deve voltar ao normal sozinho. Posts dessa loja vão continuar falhando rápido (1 tentativa só) até lá, pra economizar." % (chave, link))
+                est.d["ult_aviso_awin"] = time.time()
+            else:
+                log("  aviso suprimido (AWIN INSTAVEL ja avisado ha pouco): %s" % chave)
+        else:
+            notificar("⚠️ Robô de promoções: NAO gerei %s%s\n%s\nLink: %s" % (chave, (" (depois de %d tentativas)" % tent) if tent > 1 else "", e, link))
         est.marcar(chave, "falha")
         est.marcar(chave_link, "falha")
         est.salvar()
