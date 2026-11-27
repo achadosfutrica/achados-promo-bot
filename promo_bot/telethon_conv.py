@@ -2,8 +2,18 @@
 import asyncio
 import time
 
+from . import saude
 from . import texto as T
 from .driver import Tela, botao_confirmar_cancelamento, eh_confirmacao_cancelar, eh_resposta_cancelar
+
+
+async def _clicar(botao):
+    """Clica num botao do bot sem esperar para sempre (27/11). Se o bot nao confirmar o clique em 30 s,
+    segue: a tela nova e conferida depois por _esperar_mudanca, que tem o seu proprio limite de tempo."""
+    try:
+        await asyncio.wait_for(botao.click(), timeout=30)
+    except asyncio.TimeoutError:
+        pass
 
 
 def _tela(msg):
@@ -30,7 +40,9 @@ class ConvTelethon:
 
     async def _assinatura(self):
         """Última mensagem RECEBIDA do bot (ignora as nossas, senão agiríamos antes da resposta)."""
-        msgs = await self.c.get_messages(self.bot, limit=8)
+        saude.pulso()
+        # 27/11: nunca espera para sempre uma leitura do Telegram (conexao quebrada travava o robo inteiro)
+        msgs = await asyncio.wait_for(self.c.get_messages(self.bot, limit=8), timeout=40)
         m = next((x for x in msgs if not x.out), None)
         if m is None:
             return None, ()
@@ -76,7 +88,7 @@ class ConvTelethon:
     def enviar(self, txt, timeout=None, aceitar=None):
         async def f():
             _, antes = await self._assinatura()
-            enviada = await self.c.send_message(self.bot, txt)
+            enviada = await asyncio.wait_for(self.c.send_message(self.bot, txt), timeout=40)
             return await self._esperar_mudanca(antes, min_id=getattr(enviada, "id", None), timeout=timeout, aceitar=aceitar)
         return self._run(f())
 
@@ -94,7 +106,7 @@ class ConvTelethon:
         """Manda a foto do post original (cadastro manual: 'Qual a foto do produto?')."""
         async def f():
             _, antes = await self._assinatura()
-            enviada = await self.c.send_file(self.bot, midia)
+            enviada = await asyncio.wait_for(self.c.send_file(self.bot, midia), timeout=90)
             return await self._esperar_mudanca(antes, min_id=getattr(enviada, "id", None))
         return self._run(f())
 
@@ -108,7 +120,7 @@ class ConvTelethon:
                         alvo = b
             if alvo is None:
                 raise RuntimeError("botao sumiu: " + rotulo)
-            await alvo.click()
+            await _clicar(alvo)
             return await self._esperar_mudanca(antes)
         return self._run(f())
 
@@ -129,7 +141,7 @@ class ConvTelethon:
             self.log("  Divulgador pediu confirmacao (%r | %s): confirmo o cancelamento" % ((t.texto or "")[:60].replace("\n", " "), t.botoes))
         except Exception:  # noqa
             pass
-        await alvo.click()
+        await _clicar(alvo)
         try:
             return await self._esperar_mudanca(antes, timeout=timeout)
         except TimeoutError:
@@ -143,7 +155,7 @@ class ConvTelethon:
                 return True
             if m and not m.buttons and "/cancelar" in (m.message or ""):
                 # pergunta do cadastro manual ("Qual a foto do produto? /cancelar"): cancela por comando
-                enviada = await self.c.send_message(self.bot, "/cancelar")
+                enviada = await asyncio.wait_for(self.c.send_message(self.bot, "/cancelar"), timeout=40)
                 try:
                     await self._esperar_mudanca(antes, min_id=getattr(enviada, "id", None), timeout=15)
                 except TimeoutError:
@@ -160,7 +172,7 @@ class ConvTelethon:
                         alvo = alvo or b
             if alvo is None:
                 return False
-            await alvo.click()
+            await _clicar(alvo)
             try:
                 await self._esperar_mudanca(antes, timeout=15)
             except TimeoutError:
@@ -180,7 +192,7 @@ class ConvTelethon:
         async def f():
             await self._confirmar_cancelamento()        # se ja ha um 'Tem certeza...?' aberto, confirma antes
             _, antes = await self._assinatura()
-            enviada = await self.c.send_message(self.bot, "/cancelar")
+            enviada = await asyncio.wait_for(self.c.send_message(self.bot, "/cancelar"), timeout=40)
             t0 = time.time()
             fim = t0 + espera
             # sem min_id: a confirmacao 'Tem certeza?' e uma EDICAO da tela de produto antiga (id menor que o
@@ -328,3 +340,15 @@ class MultiConv:
             except Exception:  # noqa
                 pass
         return False
+
+    def marcar_falha(self, motivo=""):
+        """27/11: o bot desta promocao travou/demorou (falha passageira): fica de fora por cooldown_seg e a
+        PROXIMA promocao ja vai para outro bot, sem perder tempo esperando o travado."""
+        c = self.atual
+        self.lento_ate[id(c)] = self._agora() + self.cooldown_seg
+        try:
+            self._log("  @%s falhou nesta promocao (%s): fica de fora por %d min, a proxima vai para outro bot"
+                      % (c.bot, (motivo or "")[:60], self.cooldown_seg // 60))
+        except Exception:  # noqa
+            pass
+
