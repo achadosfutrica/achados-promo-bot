@@ -8,7 +8,7 @@ import time
 
 from . import config as C
 from . import filtro, inteligencia, links, lojas_extra, ml_vendedor, repetidos, templates, texto as T, vigia, painel, sentinela
-from . import cadastro_canais
+from . import cadastro_canais, saude
 from .driver import Driver, Falha
 from .estado import Estado
 
@@ -151,6 +151,11 @@ def processar_post(post_id, canal, texto, cfg, est, driver, modo, log, notificar
         if len(tents) > 400:
             tents.clear()
         tent = tents.get(chave, 0) + 1
+        if not definitiva and hasattr(driver.conv, "marcar_falha"):
+            try:
+                driver.conv.marcar_falha(msg_e)      # 27/11: bot travado sai do rodizio por 5 min
+            except Exception:  # noqa
+                pass
         if modo == "live" and not definitiva and tent < 3:
             # falha passageira (tela velha, bot lento...): NAO perde a promocao, tenta de novo em ~8 min (ate 3 vezes)
             tents[chave] = tent
@@ -460,7 +465,9 @@ def teste_link_env():
 def main():
     cfg = C.carregar()
     cfg["_manual"] = os.environ.get("GITHUB_EVENT_NAME") == "workflow_dispatch"
-    log = lambda s: print(time.strftime("%H:%M:%S"), s, flush=True)
+    def log(s):
+        saude.pulso()          # 27/11: cada linha de log = sinal de vida (o vigia de saude reinicia se parar)
+        print(time.strftime("%H:%M:%S"), s, flush=True)
     if cfg["mode"] == "off":
         log("modo OFF (config.yaml / PROMO_MODE). Nada foi feito. Para ligar: mode: dry, test ou live.")
         return 0
@@ -483,7 +490,41 @@ def main():
             except Exception as e:  # noqa
                 log("aviso: nao consegui avisar o robo de cupons: %s" % e)
                 notificar("⚠️ Robô de promoções: não consegui avisar @%s:\n%s" % (cfg["robo_cupons"], msg))
-        dormir = lambda seg: client.loop.run_until_complete(asyncio.sleep(seg))   # o vigia continua ouvindo
+        def dormir(seg):
+            fim_d = time.time() + seg
+            while True:                     # em pedacos de 60 s: cada pedaco e um sinal de vida
+                saude.pulso()
+                falta_d = fim_d - time.time()
+                if falta_d <= 0:
+                    break
+                client.loop.run_until_complete(asyncio.sleep(min(60, falta_d)))   # o vigia continua ouvindo
+
+        def sem_travar(fn, *a):
+            """27/11: roda trabalho demorado (navegador do Pechinchou/Pincei, HTTP do cadastro) numa linha de
+            execucao separada ENQUANTO o loop do Telegram continua rodando. Antes, 20 min abrindo links do
+            Pechinchou sem o loop rodar quebravam a conexao ('very old message') e travavam os bots."""
+            saude.pulso()
+            try:
+                return client.loop.run_until_complete(client.loop.run_in_executor(None, lambda: fn(*a)))
+            finally:
+                saude.pulso()
+
+        _links = {}
+
+        def resolver_vivo(u):
+            """Resolve link encurtado sem travar o Telegram, e lembra o resultado (o mesmo link era aberto 2x:
+            no ranking e de novo na hora de gerar)."""
+            agora_r = time.time()
+            if u in _links and agora_r - _links[u][1] < 6 * 3600:
+                return _links[u][0]
+            r = sem_travar(lojas_extra.resolver, u)
+            if len(_links) > 3000:
+                _links.clear()
+            _links[u] = (r, agora_r)
+            return r
+
+        if cfg["mode"] == "live" and os.environ.get("GITHUB_ACTIONS"):
+            saude.vigiar(log, reiniciar=lambda: proxima_execucao(log))
         sent = None
         if cfg["mode"] == "live" and not teste_link_env():
             try:                       # v74: apaga do grupo e avisa quando o Divulgador aplica cupom abaixo do mínimo
@@ -525,12 +566,17 @@ def main():
             templates.encaminhar_manuais(client, cfg, est, log, cfg["mode"])   # @di48291bot -> não vira arte
             if posts is None:
                 posts = _ler_canais(client, cfg, est, log)
-                _verificar_cadastros_canais(posts, est, log)
+                if not cadastro_canais.configurado():
+                    if not est.d.get("_aviso_cadastro"):
+                        log("aviso: alerta de cadastro DESLIGADO (faltam CADASTRO_CANAIS_URL/CHAVE ou BOT_MONITOR_TOKEN/CHAT_MONITOR_ID no workflow)")
+                        est.d["_aviso_cadastro"] = 1
+                else:
+                    sem_travar(_verificar_cadastros_canais, posts, est, log)
             drv = Driver(conv_divulgador(), cfg, log)
             perfil = atualizar_perfil(client, cfg, est, log)
             est.d["_grupo_hoje"] = grupo_hoje(client, cfg, log)
             cont = rodar(cfg, posts, est, drv, log, notificar, dormir=dormir, avisar_robo=avisar_robo,
-                         divulgador=Divulgador(), resolver=lojas_extra.resolver, perfil=perfil, midia=midia)
+                         divulgador=Divulgador(), resolver=resolver_vivo, perfil=perfil, midia=midia)
             est.d["ult_ciclo"] = time.time()
             log("resumo: %s" % cont)
             est.salvar()
