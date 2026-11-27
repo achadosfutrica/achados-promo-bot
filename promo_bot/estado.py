@@ -41,5 +41,9 @@ class Estado:
 
     def salvar(self):
         os.makedirs(os.path.dirname(self.caminho) or ".", exist_ok=True)
-        with open(self.caminho, "w", encoding="utf-8") as f:
-            json.dump({k: v for k, v in self.d.items() if not k.startswith("_")}, f, ensure_ascii=False, indent=1, sort_keys=True)
+        # 27/11: grava num arquivo temporario e troca de uma vez (se a execucao cair no meio, o estado nao corrompe)
+        dados = json.dumps({k: v for k, v in list(self.d.items()) if not k.startswith("_")}, ensure_ascii=False, indent=1, sort_keys=True)
+        tmp = self.caminho + ".tmp"
+        with open(tmp, "w", encoding="utf-8") as f:
+            f.write(dados)
+        os.replace(tmp, self.caminho)
