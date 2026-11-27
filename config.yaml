@@ -79,7 +79,7 @@ lojas:
   efacil: true
   hering: true          # Hering e Espaço Hering
   fastshop: true
-  kabum: true
+  kabum: false          # PAUSADO 27/11: Awin/KaBuM dando erro no Divulgador
   lg: true
   mizuno: true
   olympikus: true
