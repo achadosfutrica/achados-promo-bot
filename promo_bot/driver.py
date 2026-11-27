@@ -270,6 +270,10 @@ class Driver:
                 try:
                     tela = self.conv.enviar(link, timeout=getattr(self.conv, "timeout_link", None), aceitar=self._aceitar_link(dados))
                     tela = self._plataforma(tela, loja)
+                    if not tela.botoes and tela.tem_texto("erro inesperado"):
+                        # instabilidade conhecida da rede de afiliados (ex.: Awin) ao buscar o produto;
+                        # nao e erro nosso e repetir na hora so vai dar o mesmo resultado - ver 27/11
+                        raise Falha("AWIN INSTAVEL: o Divulgador respondeu 'erro inesperado' ao buscar o produto (loja=%s)" % (loja or "?"))
                     if (not tela.achar("gerar promo") and tela.tem_texto("informe os dados", "nao e de produto", "não é de produto")
                             and not tela.tem_texto("qual a foto", "qual o titulo", "qual o título") and hasattr(self.conv, "esperar")):
                         try:
