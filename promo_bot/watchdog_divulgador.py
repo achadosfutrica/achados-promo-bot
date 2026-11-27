@@ -29,6 +29,8 @@ def parece_travado(msg):
     baixo = txt.lower()
     if any(p in baixo for p in ("processando", "carregando", "aguarde", "buscando", "analisando", "gerando")):
         return False  # etapa intermediaria: nunca mexe aqui, mesmo que demore
+    if any(p in baixo for p in ("adicionado a fila", "adicionado à fila", "fila de disparo", "produto ja gerado", "produto já gerado")):
+        return False  # 27/11: mensagem FINAL de sucesso (tem botao "Configurar"): nao e travamento
     if txt.endswith("/cancelar"):
         return True
     if msg.buttons:
