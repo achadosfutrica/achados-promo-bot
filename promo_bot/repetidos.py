@@ -48,10 +48,16 @@ def registro(texto, link="", preco=None, t=None):
 
 
 def inicio_do_dia(agora):
-    """00:01 (Brasilia) de hoje: so o que saiu de hoje em diante conta como repetido; o de ontem pode repetir."""
+    """00:01 (Brasilia) de hoje: so o que saiu de hoje em diante conta como repetido; o de ontem pode repetir.
+    EXCECAO so 27/11/2026 (pedido do Oscar so por hoje): corta as 04:00 em vez de 00:01, liberando repostar
+    o que saiu entre 22:00 de ontem e 04:00 de hoje. Se autorrevogar sozinha (so vale nessa data)."""
     from datetime import datetime, timedelta, timezone
     brt = timezone(timedelta(hours=-3))
-    d = datetime.fromtimestamp(agora, brt).replace(hour=0, minute=1, second=0, microsecond=0)
+    hoje = datetime.fromtimestamp(agora, brt)
+    if hoje.strftime("%Y-%m-%d") == "2026-11-27":
+        d = hoje.replace(hour=4, minute=0, second=0, microsecond=0)
+    else:
+        d = hoje.replace(hour=0, minute=1, second=0, microsecond=0)
     return d.timestamp()
 
 
