@@ -375,8 +375,8 @@
    "valor": 25.0
   },
   "BLACKPET": {
-   "min": 100.0,
-   "t": 1795789438.2931075,
+   "min": 40.0,
+   "t": 1795796591.1538842,
    "tipo": "fixed",
    "valor": 30.0
   },
@@ -400,7 +400,7 @@
   },
   "C4RR1NH070": {
    "min": 350.0,
-   "t": 1795795241.4610574,
+   "t": 1795795779.2007647,
    "tipo": "fixed",
    "valor": 70.0
   },
@@ -487,6 +487,12 @@
    "t": 1795773724.5635316,
    "tipo": "fixed",
    "valor": 40.0
+  },
+  "CUPOMLUBLACK30": {
+   "min": 90.0,
+   "t": 1795797353.6567774,
+   "tipo": "fixed",
+   "valor": 30.0
   },
   "CUPOMMAGA99": {
    "min": 199.0,
@@ -739,6 +745,18 @@
    "t": 1795783782.1184402,
    "tipo": "fixed",
    "valor": 500.0
+  },
+  "INFLUPRIME": {
+   "min": 500.0,
+   "t": 1795797303.9479668,
+   "tipo": "fixed",
+   "valor": 150.0
+  },
+  "JOICO15": {
+   "min": 179.0,
+   "t": 1795795763.7646763,
+   "tipo": "percent",
+   "valor": 15.0
   },
   "K1TC04L410OFF": {
    "min": 40.0,
@@ -1384,7 +1402,7 @@
   },
   "VEMGASTAR40AF": {
    "min": 120.0,
-   "t": 1795795351.9217694,
+   "t": 1795795593.5671234,
    "tipo": "fixed",
    "valor": 40.0
   },
@@ -1606,406 +1624,44 @@
    28709,
    28712,
    28736,
-   28781
+   28781,
+   28838,
+   28843
   ]
  },
  "dia": "2026-11-27",
  "feitos": {
-  "apromodaluh:159437": {
-   "r": "esgotado_avisado",
-   "t": 1795759517
-  },
-  "apromodaluh:159440": {
-   "r": "pulado:loja desconhecida",
-   "t": 1795759517
-  },
-  "apromodaluh:159442": {
-   "r": "esgotado_avisado",
-   "t": 1795759517
-  },
-  "apromodaluh:159443": {
-   "r": "pulado:loja desconhecida",
-   "t": 1795759517
-  },
-  "apromodaluh:159445": {
-   "r": "pulado:loja desconhecida",
-   "t": 1795759517
-  },
-  "apromodaluh:159446": {
-   "r": "pulado:loja desconhecida",
-   "t": 1795759517
-  },
-  "apromodaluh:159447": {
-   "r": "pulado:loja desconhecida",
-   "t": 1795759517
-  },
-  "apromodaluh:159448": {
-   "r": "pulado:loja desconhecida",
-   "t": 1795759517
-  },
-  "apromodaluh:159450": {
-   "r": "pulado:so cupom (ignorado)",
-   "t": 1795759517
-  },
-  "apromodaluh:159451": {
-   "r": "esgotado_avisado",
-   "t": 1795759517
-  },
   "cad:apromodaluh:159452": {
    "r": "cad_verificado",
    "t": 1795783784
   },
-  "cad:fumotom:54123": {
+  "cad:apromodaluh:159467": {
    "r": "cad_verificado",
-   "t": 1795773727
+   "t": 1795795412
   },
-  "cad:fumotom:54124": {
+  "cad:apromodaluh:159469": {
    "r": "cad_verificado",
-   "t": 1795773727
+   "t": 1795795412
   },
-  "cad:fumotom:54125": {
+  "cad:apromodaluh:159470": {
    "r": "cad_verificado",
-   "t": 1795773727
+   "t": 1795795412
   },
-  "cad:fumotom:54126": {
+  "cad:apromodaluh:159471": {
    "r": "cad_verificado",
-   "t": 1795773727
+   "t": 1795795412
   },
-  "cad:fumotom:54127": {
+  "cad:apromodaluh:159472": {
    "r": "cad_verificado",
-   "t": 1795773727
+   "t": 1795795412
   },
-  "cad:fumotom:54128": {
+  "cad:apromodaluh:159473": {
    "r": "cad_verificado",
-   "t": 1795773727
+   "t": 1795795412
   },
-  "cad:fumotom:54129": {
+  "cad:apromodaluh:159474": {
    "r": "cad_verificado",
-   "t": 1795773727
-  },
-  "cad:fumotom:54130": {
-   "r": "cad_verificado",
-   "t": 1795773727
-  },
-  "cad:fumotom:54151": {
-   "r": "cad_verificado",
-   "t": 1795781252
-  },
-  "cad:fumotom:54152": {
-   "r": "cad_verificado",
-   "t": 1795781252
-  },
-  "cad:fumotom:54153": {
-   "r": "cad_verificado",
-   "t": 1795781252
-  },
-  "cad:fumotom:54154": {
-   "r": "cad_verificado",
-   "t": 1795781252
-  },
-  "cad:fumotom:54155": {
-   "r": "cad_verificado",
-   "t": 1795781252
-  },
-  "cad:fumotom:54156": {
-   "r": "cad_verificado",
-   "t": 1795781252
-  },
-  "cad:fumotom:54157": {
-   "r": "cad_verificado",
-   "t": 1795781252
-  },
-  "cad:fumotom:54158": {
-   "r": "cad_verificado",
-   "t": 1795781252
-  },
-  "cad:fumotom:54159": {
-   "r": "cad_verificado",
-   "t": 1795781252
-  },
-  "cad:fumotom:54160": {
-   "r": "cad_verificado",
-   "t": 1795781252
-  },
-  "cad:fumotom:54161": {
-   "r": "cad_verificado",
-   "t": 1795781252
-  },
-  "cad:fumotom:54162": {
-   "r": "cad_verificado",
-   "t": 1795781252
-  },
-  "cad:fumotom:54163": {
-   "r": "cad_verificado",
-   "t": 1795781252
-  },
-  "cad:fumotom:54164": {
-   "r": "cad_verificado",
-   "t": 1795781252
-  },
-  "cad:fumotom:54165": {
-   "r": "cad_verificado",
-   "t": 1795781252
-  },
-  "cad:fumotom:54166": {
-   "r": "cad_verificado",
-   "t": 1795781252
-  },
-  "cad:fumotom:54167": {
-   "r": "cad_verificado",
-   "t": 1795781252
-  },
-  "cad:fumotom:54168": {
-   "r": "cad_verificado",
-   "t": 1795781252
-  },
-  "cad:fumotom:54169": {
-   "r": "cad_verificado",
-   "t": 1795781252
-  },
-  "cad:fumotom:54170": {
-   "r": "cad_verificado",
-   "t": 1795781252
-  },
-  "cad:fumotom:54171": {
-   "r": "cad_verificado",
-   "t": 1795781252
-  },
-  "cad:fumotom:54172": {
-   "r": "cad_verificado",
-   "t": 1795781252
-  },
-  "cad:fumotom:54173": {
-   "r": "cad_verificado",
-   "t": 1795781252
-  },
-  "cad:fumotom:54174": {
-   "r": "cad_verificado",
-   "t": 1795781252
-  },
-  "cad:fumotom:54175": {
-   "r": "cad_verificado",
-   "t": 1795781252
-  },
-  "cad:fumotom:54176": {
-   "r": "cad_verificado",
-   "t": 1795781252
-  },
-  "cad:fumotom:54177": {
-   "r": "cad_verificado",
-   "t": 1795781252
-  },
-  "cad:fumotom:54178": {
-   "r": "cad_verificado",
-   "t": 1795781252
-  },
-  "cad:fumotom:54179": {
-   "r": "cad_verificado",
-   "t": 1795781252
-  },
-  "cad:fumotom:54180": {
-   "r": "cad_verificado",
-   "t": 1795781252
-  },
-  "cad:fumotom:54181": {
-   "r": "cad_verificado",
-   "t": 1795781252
-  },
-  "cad:fumotom:54182": {
-   "r": "cad_verificado",
-   "t": 1795781252
-  },
-  "cad:fumotom:54183": {
-   "r": "cad_verificado",
-   "t": 1795781252
-  },
-  "cad:fumotom:54184": {
-   "r": "cad_verificado",
-   "t": 1795781252
-  },
-  "cad:fumotom:54185": {
-   "r": "cad_verificado",
-   "t": 1795781252
-  },
-  "cad:fumotom:54186": {
-   "r": "cad_verificado",
-   "t": 1795781252
-  },
-  "cad:fumotom:54187": {
-   "r": "cad_verificado",
-   "t": 1795781252
-  },
-  "cad:fumotom:54188": {
-   "r": "cad_verificado",
-   "t": 1795781252
-  },
-  "cad:fumotom:54189": {
-   "r": "cad_verificado",
-   "t": 1795781252
-  },
-  "cad:fumotom:54190": {
-   "r": "cad_verificado",
-   "t": 1795781252
-  },
-  "cad:fumotom:54191": {
-   "r": "cad_verificado",
-   "t": 1795781252
-  },
-  "cad:fumotom:54192": {
-   "r": "cad_verificado",
-   "t": 1795781252
-  },
-  "cad:fumotom:54193": {
-   "r": "cad_verificado",
-   "t": 1795781252
-  },
-  "cad:fumotom:54194": {
-   "r": "cad_verificado",
-   "t": 1795781252
-  },
-  "cad:fumotom:54195": {
-   "r": "cad_verificado",
-   "t": 1795781252
-  },
-  "cad:fumotom:54196": {
-   "r": "cad_verificado",
-   "t": 1795781252
-  },
-  "cad:fumotom:54197": {
-   "r": "cad_verificado",
-   "t": 1795781252
-  },
-  "cad:fumotom:54198": {
-   "r": "cad_verificado",
-   "t": 1795781252
-  },
-  "cad:fumotom:54199": {
-   "r": "cad_verificado",
-   "t": 1795781252
-  },
-  "cad:fumotom:54200": {
-   "r": "cad_verificado",
-   "t": 1795781252
-  },
-  "cad:fumotom:54201": {
-   "r": "cad_verificado",
-   "t": 1795781252
-  },
-  "cad:fumotom:54202": {
-   "r": "cad_verificado",
-   "t": 1795781252
-  },
-  "cad:fumotom:54203": {
-   "r": "cad_verificado",
-   "t": 1795781252
-  },
-  "cad:fumotom:54204": {
-   "r": "cad_verificado",
-   "t": 1795781252
-  },
-  "cad:fumotom:54205": {
-   "r": "cad_verificado",
-   "t": 1795781252
-  },
-  "cad:fumotom:54206": {
-   "r": "cad_verificado",
-   "t": 1795781252
-  },
-  "cad:fumotom:54207": {
-   "r": "cad_verificado",
-   "t": 1795781252
-  },
-  "cad:fumotom:54208": {
-   "r": "cad_verificado",
-   "t": 1795781252
-  },
-  "cad:fumotom:54209": {
-   "r": "cad_verificado",
-   "t": 1795781252
-  },
-  "cad:fumotom:54210": {
-   "r": "cad_verificado",
-   "t": 1795781252
-  },
-  "cad:fumotom:54211": {
-   "r": "cad_verificado",
-   "t": 1795781252
-  },
-  "cad:fumotom:54212": {
-   "r": "cad_verificado",
-   "t": 1795781252
-  },
-  "cad:fumotom:54213": {
-   "r": "cad_verificado",
-   "t": 1795781252
-  },
-  "cad:fumotom:54214": {
-   "r": "cad_verificado",
-   "t": 1795781252
-  },
-  "cad:fumotom:54215": {
-   "r": "cad_verificado",
-   "t": 1795781252
-  },
-  "cad:fumotom:54216": {
-   "r": "cad_verificado",
-   "t": 1795781252
-  },
-  "cad:fumotom:54217": {
-   "r": "cad_verificado",
-   "t": 1795781252
-  },
-  "cad:fumotom:54218": {
-   "r": "cad_verificado",
-   "t": 1795781252
-  },
-  "cad:fumotom:54219": {
-   "r": "cad_verificado",
-   "t": 1795781252
-  },
-  "cad:fumotom:54220": {
-   "r": "cad_verificado",
-   "t": 1795781252
-  },
-  "cad:fumotom:54221": {
-   "r": "cad_verificado",
-   "t": 1795781252
-  },
-  "cad:fumotom:54222": {
-   "r": "cad_verificado",
-   "t": 1795781252
-  },
-  "cad:fumotom:54223": {
-   "r": "cad_verificado",
-   "t": 1795781252
-  },
-  "cad:fumotom:54224": {
-   "r": "cad_verificado",
-   "t": 1795781252
-  },
-  "cad:fumotom:54225": {
-   "r": "cad_verificado",
-   "t": 1795781252
-  },
-  "cad:fumotom:54226": {
-   "r": "cad_verificado",
-   "t": 1795781252
-  },
-  "cad:fumotom:54227": {
-   "r": "cad_verificado",
-   "t": 1795781252
-  },
-  "cad:fumotom:54228": {
-   "r": "cad_verificado",
-   "t": 1795781252
-  },
-  "cad:fumotom:54229": {
-   "r": "cad_verificado",
-   "t": 1795781252
-  },
-  "cad:fumotom:54230": {
-   "r": "cad_verificado",
-   "t": 1795781252
+   "t": 1795795412
   },
   "cad:fumotom:54231": {
    "r": "cad_verificado",
@@ -2355,297 +2011,405 @@
    "r": "cad_verificado",
    "t": 1795783784
   },
-  "cad:iuriindica:125800": {
+  "cad:fumotom:54408": {
    "r": "cad_verificado",
-   "t": 1795773727
+   "t": 1795795412
   },
-  "cad:iuriindica:125801": {
+  "cad:fumotom:54409": {
    "r": "cad_verificado",
-   "t": 1795773727
+   "t": 1795795412
   },
-  "cad:iuriindica:125802": {
+  "cad:fumotom:54410": {
    "r": "cad_verificado",
-   "t": 1795773727
+   "t": 1795795412
   },
-  "cad:iuriindica:125803": {
+  "cad:fumotom:54411": {
    "r": "cad_verificado",
-   "t": 1795773727
+   "t": 1795795412
   },
-  "cad:iuriindica:125804": {
+  "cad:fumotom:54412": {
    "r": "cad_verificado",
-   "t": 1795773727
+   "t": 1795795412
   },
-  "cad:iuriindica:125805": {
+  "cad:fumotom:54413": {
    "r": "cad_verificado",
-   "t": 1795773727
+   "t": 1795795412
   },
-  "cad:iuriindica:125806": {
+  "cad:fumotom:54414": {
    "r": "cad_verificado",
-   "t": 1795773727
+   "t": 1795795412
   },
-  "cad:iuriindica:125829": {
+  "cad:fumotom:54415": {
    "r": "cad_verificado",
-   "t": 1795781252
+   "t": 1795795412
   },
-  "cad:iuriindica:125830": {
+  "cad:fumotom:54416": {
    "r": "cad_verificado",
-   "t": 1795781252
+   "t": 1795795412
   },
-  "cad:iuriindica:125831": {
+  "cad:fumotom:54417": {
    "r": "cad_verificado",
-   "t": 1795781252
+   "t": 1795795412
   },
-  "cad:iuriindica:125832": {
+  "cad:fumotom:54418": {
    "r": "cad_verificado",
-   "t": 1795781252
+   "t": 1795795412
   },
-  "cad:iuriindica:125833": {
+  "cad:fumotom:54419": {
    "r": "cad_verificado",
-   "t": 1795781252
+   "t": 1795795412
   },
-  "cad:iuriindica:125834": {
+  "cad:fumotom:54420": {
    "r": "cad_verificado",
-   "t": 1795781252
+   "t": 1795795412
   },
-  "cad:iuriindica:125835": {
+  "cad:fumotom:54421": {
    "r": "cad_verificado",
-   "t": 1795781252
+   "t": 1795795412
   },
-  "cad:iuriindica:125836": {
+  "cad:fumotom:54422": {
    "r": "cad_verificado",
-   "t": 1795781252
+   "t": 1795795412
   },
-  "cad:iuriindica:125837": {
+  "cad:fumotom:54423": {
    "r": "cad_verificado",
-   "t": 1795781252
+   "t": 1795795412
   },
-  "cad:iuriindica:125838": {
+  "cad:fumotom:54424": {
    "r": "cad_verificado",
-   "t": 1795781252
+   "t": 1795795412
   },
-  "cad:iuriindica:125839": {
+  "cad:fumotom:54425": {
    "r": "cad_verificado",
-   "t": 1795781252
+   "t": 1795795412
   },
-  "cad:iuriindica:125840": {
+  "cad:fumotom:54426": {
    "r": "cad_verificado",
-   "t": 1795781252
+   "t": 1795795412
   },
-  "cad:iuriindica:125841": {
+  "cad:fumotom:54427": {
    "r": "cad_verificado",
-   "t": 1795781252
+   "t": 1795795412
   },
-  "cad:iuriindica:125842": {
+  "cad:fumotom:54428": {
    "r": "cad_verificado",
-   "t": 1795781252
+   "t": 1795795412
   },
-  "cad:iuriindica:125843": {
+  "cad:fumotom:54429": {
    "r": "cad_verificado",
-   "t": 1795781252
+   "t": 1795795412
   },
-  "cad:iuriindica:125844": {
+  "cad:fumotom:54430": {
    "r": "cad_verificado",
-   "t": 1795781252
+   "t": 1795795412
   },
-  "cad:iuriindica:125845": {
+  "cad:fumotom:54431": {
    "r": "cad_verificado",
-   "t": 1795781252
+   "t": 1795795412
   },
-  "cad:iuriindica:125846": {
+  "cad:fumotom:54432": {
    "r": "cad_verificado",
-   "t": 1795781252
+   "t": 1795795412
   },
-  "cad:iuriindica:125847": {
+  "cad:fumotom:54433": {
    "r": "cad_verificado",
-   "t": 1795781252
+   "t": 1795795412
   },
-  "cad:iuriindica:125848": {
+  "cad:fumotom:54434": {
    "r": "cad_verificado",
-   "t": 1795781252
+   "t": 1795795412
   },
-  "cad:iuriindica:125849": {
+  "cad:fumotom:54435": {
    "r": "cad_verificado",
-   "t": 1795781252
+   "t": 1795795412
   },
-  "cad:iuriindica:125851": {
+  "cad:fumotom:54436": {
    "r": "cad_verificado",
-   "t": 1795781252
+   "t": 1795795412
   },
-  "cad:iuriindica:125852": {
+  "cad:fumotom:54437": {
    "r": "cad_verificado",
-   "t": 1795781252
+   "t": 1795795412
   },
-  "cad:iuriindica:125853": {
+  "cad:fumotom:54438": {
    "r": "cad_verificado",
-   "t": 1795781252
+   "t": 1795795412
   },
-  "cad:iuriindica:125854": {
+  "cad:fumotom:54439": {
    "r": "cad_verificado",
-   "t": 1795781252
+   "t": 1795795412
   },
-  "cad:iuriindica:125855": {
+  "cad:fumotom:54440": {
    "r": "cad_verificado",
-   "t": 1795781252
+   "t": 1795795412
   },
-  "cad:iuriindica:125856": {
+  "cad:fumotom:54441": {
    "r": "cad_verificado",
-   "t": 1795781252
+   "t": 1795795412
   },
-  "cad:iuriindica:125857": {
+  "cad:fumotom:54442": {
    "r": "cad_verificado",
-   "t": 1795781252
+   "t": 1795795412
   },
-  "cad:iuriindica:125858": {
+  "cad:fumotom:54443": {
    "r": "cad_verificado",
-   "t": 1795781252
+   "t": 1795795412
   },
-  "cad:iuriindica:125859": {
+  "cad:fumotom:54444": {
    "r": "cad_verificado",
-   "t": 1795781252
+   "t": 1795795412
   },
-  "cad:iuriindica:125860": {
+  "cad:fumotom:54445": {
    "r": "cad_verificado",
-   "t": 1795781252
+   "t": 1795795412
   },
-  "cad:iuriindica:125861": {
+  "cad:fumotom:54446": {
    "r": "cad_verificado",
-   "t": 1795781252
+   "t": 1795795412
   },
-  "cad:iuriindica:125862": {
+  "cad:fumotom:54447": {
    "r": "cad_verificado",
-   "t": 1795781252
+   "t": 1795795412
   },
-  "cad:iuriindica:125864": {
+  "cad:fumotom:54448": {
    "r": "cad_verificado",
-   "t": 1795781252
+   "t": 1795795412
   },
-  "cad:iuriindica:125865": {
+  "cad:fumotom:54449": {
    "r": "cad_verificado",
-   "t": 1795781252
+   "t": 1795795412
   },
-  "cad:iuriindica:125866": {
+  "cad:fumotom:54451": {
    "r": "cad_verificado",
-   "t": 1795781252
+   "t": 1795795412
   },
-  "cad:iuriindica:125867": {
+  "cad:fumotom:54452": {
    "r": "cad_verificado",
-   "t": 1795781252
+   "t": 1795795412
   },
-  "cad:iuriindica:125868": {
+  "cad:fumotom:54453": {
    "r": "cad_verificado",
-   "t": 1795781252
+   "t": 1795795412
   },
-  "cad:iuriindica:125869": {
+  "cad:fumotom:54454": {
    "r": "cad_verificado",
-   "t": 1795781252
+   "t": 1795795412
   },
-  "cad:iuriindica:125870": {
+  "cad:fumotom:54455": {
    "r": "cad_verificado",
-   "t": 1795781252
+   "t": 1795795412
   },
-  "cad:iuriindica:125871": {
+  "cad:fumotom:54456": {
    "r": "cad_verificado",
-   "t": 1795781252
+   "t": 1795795412
   },
-  "cad:iuriindica:125872": {
+  "cad:fumotom:54457": {
    "r": "cad_verificado",
-   "t": 1795781252
+   "t": 1795795412
   },
-  "cad:iuriindica:125873": {
+  "cad:fumotom:54458": {
    "r": "cad_verificado",
-   "t": 1795781252
+   "t": 1795795412
   },
-  "cad:iuriindica:125874": {
+  "cad:fumotom:54459": {
    "r": "cad_verificado",
-   "t": 1795781252
+   "t": 1795795412
   },
-  "cad:iuriindica:125876": {
+  "cad:fumotom:54460": {
    "r": "cad_verificado",
-   "t": 1795781252
+   "t": 1795795412
   },
-  "cad:iuriindica:125877": {
+  "cad:fumotom:54461": {
    "r": "cad_verificado",
-   "t": 1795781252
+   "t": 1795795412
   },
-  "cad:iuriindica:125878": {
+  "cad:fumotom:54462": {
    "r": "cad_verificado",
-   "t": 1795781252
+   "t": 1795795412
   },
-  "cad:iuriindica:125879": {
+  "cad:fumotom:54463": {
    "r": "cad_verificado",
-   "t": 1795781252
+   "t": 1795795412
   },
-  "cad:iuriindica:125880": {
+  "cad:fumotom:54464": {
    "r": "cad_verificado",
-   "t": 1795781252
+   "t": 1795795412
   },
-  "cad:iuriindica:125881": {
+  "cad:fumotom:54465": {
    "r": "cad_verificado",
-   "t": 1795781252
+   "t": 1795795412
   },
-  "cad:iuriindica:125882": {
+  "cad:fumotom:54466": {
    "r": "cad_verificado",
-   "t": 1795781252
+   "t": 1795795412
   },
-  "cad:iuriindica:125883": {
+  "cad:fumotom:54467": {
    "r": "cad_verificado",
-   "t": 1795781252
+   "t": 1795795412
   },
-  "cad:iuriindica:125884": {
+  "cad:fumotom:54468": {
    "r": "cad_verificado",
-   "t": 1795781252
+   "t": 1795795412
   },
-  "cad:iuriindica:125885": {
+  "cad:fumotom:54469": {
    "r": "cad_verificado",
-   "t": 1795781252
+   "t": 1795795412
   },
-  "cad:iuriindica:125886": {
+  "cad:fumotom:54470": {
    "r": "cad_verificado",
-   "t": 1795781252
+   "t": 1795795412
   },
-  "cad:iuriindica:125887": {
+  "cad:fumotom:54471": {
    "r": "cad_verificado",
-   "t": 1795781252
+   "t": 1795795412
   },
-  "cad:iuriindica:125888": {
+  "cad:fumotom:54472": {
    "r": "cad_verificado",
-   "t": 1795781252
+   "t": 1795795412
   },
-  "cad:iuriindica:125889": {
+  "cad:fumotom:54473": {
    "r": "cad_verificado",
-   "t": 1795781252
+   "t": 1795795412
   },
-  "cad:iuriindica:125891": {
+  "cad:fumotom:54474": {
    "r": "cad_verificado",
-   "t": 1795781252
+   "t": 1795795412
   },
-  "cad:iuriindica:125892": {
+  "cad:fumotom:54475": {
    "r": "cad_verificado",
-   "t": 1795781252
+   "t": 1795795412
   },
-  "cad:iuriindica:125893": {
+  "cad:fumotom:54476": {
    "r": "cad_verificado",
-   "t": 1795781252
+   "t": 1795795412
   },
-  "cad:iuriindica:125894": {
+  "cad:fumotom:54477": {
    "r": "cad_verificado",
-   "t": 1795781252
+   "t": 1795795412
   },
-  "cad:iuriindica:125895": {
+  "cad:fumotom:54478": {
    "r": "cad_verificado",
-   "t": 1795781252
+   "t": 1795795412
   },
-  "cad:iuriindica:125896": {
+  "cad:fumotom:54479": {
    "r": "cad_verificado",
-   "t": 1795781252
+   "t": 1795795412
   },
-  "cad:iuriindica:125898": {
+  "cad:fumotom:54480": {
    "r": "cad_verificado",
-   "t": 1795781252
+   "t": 1795795412
   },
-  "cad:iuriindica:125899": {
+  "cad:fumotom:54481": {
    "r": "cad_verificado",
-   "t": 1795781252
+   "t": 1795795412
+  },
+  "cad:fumotom:54482": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:fumotom:54483": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:fumotom:54484": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:fumotom:54485": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:fumotom:54486": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:fumotom:54487": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:fumotom:54488": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:fumotom:54489": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:fumotom:54490": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:fumotom:54491": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:fumotom:54492": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:fumotom:54493": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:fumotom:54494": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:fumotom:54495": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:fumotom:54496": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:fumotom:54497": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:fumotom:54498": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:fumotom:54499": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:fumotom:54500": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:fumotom:54501": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:fumotom:54502": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:fumotom:54503": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:fumotom:54504": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:fumotom:54505": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:fumotom:54506": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:fumotom:54507": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:fumotom:54508": {
+   "r": "cad_verificado",
+   "t": 1795795412
   },
   "cad:iuriindica:125900": {
    "r": "cad_verificado",
@@ -2947,133 +2711,369 @@
    "r": "cad_verificado",
    "t": 1795783784
   },
-  "cad:juaocupons:28112": {
+  "cad:iuriindica:126120": {
    "r": "cad_verificado",
-   "t": 1795773727
+   "t": 1795795412
   },
-  "cad:juaocupons:28113": {
+  "cad:iuriindica:126121": {
    "r": "cad_verificado",
-   "t": 1795773727
+   "t": 1795795412
   },
-  "cad:juaocupons:28115": {
+  "cad:iuriindica:126122": {
    "r": "cad_verificado",
-   "t": 1795773727
+   "t": 1795795412
   },
-  "cad:juaocupons:28116": {
+  "cad:iuriindica:126123": {
    "r": "cad_verificado",
-   "t": 1795773727
+   "t": 1795795412
   },
-  "cad:juaocupons:28124": {
+  "cad:iuriindica:126124": {
    "r": "cad_verificado",
-   "t": 1795781252
+   "t": 1795795412
   },
-  "cad:juaocupons:28126": {
+  "cad:iuriindica:126125": {
    "r": "cad_verificado",
-   "t": 1795781252
+   "t": 1795795412
   },
-  "cad:juaocupons:28127": {
+  "cad:iuriindica:126126": {
    "r": "cad_verificado",
-   "t": 1795781252
+   "t": 1795795412
   },
-  "cad:juaocupons:28128": {
+  "cad:iuriindica:126127": {
    "r": "cad_verificado",
-   "t": 1795781252
+   "t": 1795795412
   },
-  "cad:juaocupons:28129": {
+  "cad:iuriindica:126129": {
    "r": "cad_verificado",
-   "t": 1795781252
+   "t": 1795795412
   },
-  "cad:juaocupons:28130": {
+  "cad:iuriindica:126131": {
    "r": "cad_verificado",
-   "t": 1795781252
+   "t": 1795795412
   },
-  "cad:juaocupons:28131": {
+  "cad:iuriindica:126132": {
    "r": "cad_verificado",
-   "t": 1795781252
+   "t": 1795795412
   },
-  "cad:juaocupons:28132": {
+  "cad:iuriindica:126133": {
    "r": "cad_verificado",
-   "t": 1795781252
+   "t": 1795795412
   },
-  "cad:juaocupons:28133": {
+  "cad:iuriindica:126134": {
    "r": "cad_verificado",
-   "t": 1795781252
+   "t": 1795795412
   },
-  "cad:juaocupons:28134": {
+  "cad:iuriindica:126135": {
    "r": "cad_verificado",
-   "t": 1795781252
+   "t": 1795795412
   },
-  "cad:juaocupons:28135": {
+  "cad:iuriindica:126136": {
    "r": "cad_verificado",
-   "t": 1795781252
+   "t": 1795795412
   },
-  "cad:juaocupons:28136": {
+  "cad:iuriindica:126137": {
    "r": "cad_verificado",
-   "t": 1795781252
+   "t": 1795795412
   },
-  "cad:juaocupons:28137": {
+  "cad:iuriindica:126138": {
    "r": "cad_verificado",
-   "t": 1795781252
+   "t": 1795795412
   },
-  "cad:juaocupons:28138": {
+  "cad:iuriindica:126139": {
    "r": "cad_verificado",
-   "t": 1795781252
+   "t": 1795795412
   },
-  "cad:juaocupons:28139": {
+  "cad:iuriindica:126140": {
    "r": "cad_verificado",
-   "t": 1795781252
+   "t": 1795795412
   },
-  "cad:juaocupons:28140": {
+  "cad:iuriindica:126141": {
    "r": "cad_verificado",
-   "t": 1795781252
+   "t": 1795795412
   },
-  "cad:juaocupons:28141": {
+  "cad:iuriindica:126142": {
    "r": "cad_verificado",
-   "t": 1795781252
+   "t": 1795795412
   },
-  "cad:juaocupons:28142": {
+  "cad:iuriindica:126143": {
    "r": "cad_verificado",
-   "t": 1795781252
+   "t": 1795795412
   },
-  "cad:juaocupons:28143": {
+  "cad:iuriindica:126144": {
    "r": "cad_verificado",
-   "t": 1795781252
+   "t": 1795795412
   },
-  "cad:juaocupons:28144": {
+  "cad:iuriindica:126145": {
    "r": "cad_verificado",
-   "t": 1795781252
+   "t": 1795795412
   },
-  "cad:juaocupons:28145": {
+  "cad:iuriindica:126146": {
    "r": "cad_verificado",
-   "t": 1795781252
+   "t": 1795795412
   },
-  "cad:juaocupons:28146": {
+  "cad:iuriindica:126147": {
    "r": "cad_verificado",
-   "t": 1795781252
+   "t": 1795795412
   },
-  "cad:juaocupons:28147": {
+  "cad:iuriindica:126148": {
    "r": "cad_verificado",
-   "t": 1795781252
+   "t": 1795795412
   },
-  "cad:juaocupons:28148": {
+  "cad:iuriindica:126149": {
    "r": "cad_verificado",
-   "t": 1795781252
+   "t": 1795795412
   },
-  "cad:juaocupons:28149": {
+  "cad:iuriindica:126150": {
    "r": "cad_verificado",
-   "t": 1795781252
+   "t": 1795795412
   },
-  "cad:juaocupons:28150": {
+  "cad:iuriindica:126151": {
    "r": "cad_verificado",
-   "t": 1795781252
+   "t": 1795795412
   },
-  "cad:juaocupons:28151": {
+  "cad:iuriindica:126152": {
    "r": "cad_verificado",
-   "t": 1795781252
+   "t": 1795795412
   },
-  "cad:juaocupons:28152": {
+  "cad:iuriindica:126153": {
    "r": "cad_verificado",
-   "t": 1795781252
+   "t": 1795795412
+  },
+  "cad:iuriindica:126154": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:iuriindica:126156": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:iuriindica:126157": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:iuriindica:126158": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:iuriindica:126159": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:iuriindica:126160": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:iuriindica:126161": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:iuriindica:126162": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:iuriindica:126163": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:iuriindica:126164": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:iuriindica:126165": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:iuriindica:126166": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:iuriindica:126167": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:iuriindica:126168": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:iuriindica:126169": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:iuriindica:126170": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:iuriindica:126171": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:iuriindica:126172": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:iuriindica:126173": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:iuriindica:126174": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:iuriindica:126175": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:iuriindica:126176": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:iuriindica:126177": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:iuriindica:126178": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:iuriindica:126179": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:iuriindica:126180": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:iuriindica:126181": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:iuriindica:126182": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:iuriindica:126183": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:iuriindica:126184": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:iuriindica:126185": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:iuriindica:126186": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:iuriindica:126187": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:iuriindica:126188": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:iuriindica:126189": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:iuriindica:126190": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:iuriindica:126191": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:iuriindica:126192": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:iuriindica:126193": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:iuriindica:126194": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:iuriindica:126195": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:iuriindica:126196": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:iuriindica:126197": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:iuriindica:126198": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:iuriindica:126199": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:iuriindica:126200": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:iuriindica:126201": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:iuriindica:126202": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:iuriindica:126203": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:iuriindica:126204": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:iuriindica:126205": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:iuriindica:126206": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:iuriindica:126207": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:iuriindica:126208": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:iuriindica:126209": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:iuriindica:126210": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:iuriindica:126211": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:iuriindica:126212": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:iuriindica:126213": {
+   "r": "cad_verificado",
+   "t": 1795795412
   },
   "cad:juaocupons:28155": {
    "r": "cad_verificado",
@@ -3095,173 +3095,89 @@
    "r": "cad_verificado",
    "t": 1795783784
   },
-  "cad:pechinchou:241754": {
+  "cad:juaocupons:28192": {
    "r": "cad_verificado",
-   "t": 1795781252
+   "t": 1795795412
   },
-  "cad:pechinchou:241755": {
+  "cad:juaocupons:28193": {
    "r": "cad_verificado",
-   "t": 1795781252
+   "t": 1795795412
   },
-  "cad:pechinchou:241756": {
+  "cad:juaocupons:28194": {
    "r": "cad_verificado",
-   "t": 1795781252
+   "t": 1795795412
   },
-  "cad:pechinchou:241757": {
+  "cad:juaocupons:28195": {
    "r": "cad_verificado",
-   "t": 1795781252
+   "t": 1795795412
   },
-  "cad:pechinchou:241758": {
+  "cad:juaocupons:28196": {
    "r": "cad_verificado",
-   "t": 1795781252
+   "t": 1795795412
   },
-  "cad:pechinchou:241759": {
+  "cad:juaocupons:28197": {
    "r": "cad_verificado",
-   "t": 1795781252
+   "t": 1795795412
   },
-  "cad:pechinchou:241760": {
+  "cad:juaocupons:28198": {
    "r": "cad_verificado",
-   "t": 1795781252
+   "t": 1795795412
   },
-  "cad:pechinchou:241761": {
+  "cad:juaocupons:28199": {
    "r": "cad_verificado",
-   "t": 1795781252
+   "t": 1795795412
   },
-  "cad:pechinchou:241762": {
+  "cad:juaocupons:28200": {
    "r": "cad_verificado",
-   "t": 1795781252
+   "t": 1795795412
   },
-  "cad:pechinchou:241764": {
+  "cad:juaocupons:28201": {
    "r": "cad_verificado",
-   "t": 1795781252
+   "t": 1795795412
   },
-  "cad:pechinchou:241765": {
+  "cad:juaocupons:28202": {
    "r": "cad_verificado",
-   "t": 1795781252
+   "t": 1795795412
   },
-  "cad:pechinchou:241766": {
+  "cad:juaocupons:28205": {
    "r": "cad_verificado",
-   "t": 1795781252
+   "t": 1795795412
   },
-  "cad:pechinchou:241767": {
+  "cad:juaocupons:28206": {
    "r": "cad_verificado",
-   "t": 1795781252
+   "t": 1795795412
   },
-  "cad:pechinchou:241768": {
+  "cad:juaocupons:28207": {
    "r": "cad_verificado",
-   "t": 1795781252
+   "t": 1795795412
   },
-  "cad:pechinchou:241769": {
+  "cad:juaocupons:28208": {
    "r": "cad_verificado",
-   "t": 1795781252
+   "t": 1795795412
   },
-  "cad:pechinchou:241770": {
+  "cad:juaocupons:28209": {
    "r": "cad_verificado",
-   "t": 1795781252
+   "t": 1795795412
   },
-  "cad:pechinchou:241771": {
+  "cad:juaocupons:28210": {
    "r": "cad_verificado",
-   "t": 1795781252
+   "t": 1795795412
   },
-  "cad:pechinchou:241772": {
+  "cad:juaocupons:28211": {
    "r": "cad_verificado",
-   "t": 1795781252
+   "t": 1795795412
   },
-  "cad:pechinchou:241773": {
+  "cad:juaocupons:28212": {
    "r": "cad_verificado",
-   "t": 1795781252
+   "t": 1795795412
   },
-  "cad:pechinchou:241774": {
+  "cad:juaocupons:28213": {
    "r": "cad_verificado",
-   "t": 1795781252
+   "t": 1795795412
   },
-  "cad:pechinchou:241775": {
+  "cad:juaocupons:28214": {
    "r": "cad_verificado",
-   "t": 1795781252
-  },
-  "cad:pechinchou:241776": {
-   "r": "cad_verificado",
-   "t": 1795781252
-  },
-  "cad:pechinchou:241777": {
-   "r": "cad_verificado",
-   "t": 1795781252
-  },
-  "cad:pechinchou:241778": {
-   "r": "cad_verificado",
-   "t": 1795781252
-  },
-  "cad:pechinchou:241779": {
-   "r": "cad_verificado",
-   "t": 1795781252
-  },
-  "cad:pechinchou:241780": {
-   "r": "cad_verificado",
-   "t": 1795781252
-  },
-  "cad:pechinchou:241781": {
-   "r": "cad_verificado",
-   "t": 1795781252
-  },
-  "cad:pechinchou:241782": {
-   "r": "cad_verificado",
-   "t": 1795781252
-  },
-  "cad:pechinchou:241783": {
-   "r": "cad_verificado",
-   "t": 1795781252
-  },
-  "cad:pechinchou:241784": {
-   "r": "cad_verificado",
-   "t": 1795781252
-  },
-  "cad:pechinchou:241785": {
-   "r": "cad_verificado",
-   "t": 1795781252
-  },
-  "cad:pechinchou:241786": {
-   "r": "cad_verificado",
-   "t": 1795781252
-  },
-  "cad:pechinchou:241787": {
-   "r": "cad_verificado",
-   "t": 1795781252
-  },
-  "cad:pechinchou:241788": {
-   "r": "cad_verificado",
-   "t": 1795781252
-  },
-  "cad:pechinchou:241789": {
-   "r": "cad_verificado",
-   "t": 1795781252
-  },
-  "cad:pechinchou:241790": {
-   "r": "cad_verificado",
-   "t": 1795781252
-  },
-  "cad:pechinchou:241791": {
-   "r": "cad_verificado",
-   "t": 1795781252
-  },
-  "cad:pechinchou:241792": {
-   "r": "cad_verificado",
-   "t": 1795781252
-  },
-  "cad:pechinchou:241793": {
-   "r": "cad_verificado",
-   "t": 1795781252
-  },
-  "cad:pechinchou:241794": {
-   "r": "cad_verificado",
-   "t": 1795781252
-  },
-  "cad:pechinchou:241795": {
-   "r": "cad_verificado",
-   "t": 1795781252
-  },
-  "cad:pechinchou:241796": {
-   "r": "cad_verificado",
-   "t": 1795781252
+   "t": 1795795412
   },
   "cad:pechinchou:241797": {
    "r": "cad_verificado",
@@ -3439,6 +3355,194 @@
    "r": "cad_verificado",
    "t": 1795783784
   },
+  "cad:pechinchou:241913": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:pechinchou:241914": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:pechinchou:241915": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:pechinchou:241916": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:pechinchou:241917": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:pechinchou:241918": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:pechinchou:241919": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:pechinchou:241920": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:pechinchou:241921": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:pechinchou:241922": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:pechinchou:241923": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:pechinchou:241924": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:pechinchou:241925": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:pechinchou:241926": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:pechinchou:241927": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:pechinchou:241928": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:pechinchou:241929": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:pechinchou:241930": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:pechinchou:241931": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:pechinchou:241932": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:pechinchou:241933": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:pechinchou:241934": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:pechinchou:241935": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:pechinchou:241937": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:pechinchou:241938": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:pechinchou:241939": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:pechinchou:241940": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:pechinchou:241941": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:pechinchou:241942": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:pechinchou:241943": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:pechinchou:241944": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:pechinchou:241945": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:pechinchou:241946": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:pechinchou:241947": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:pechinchou:241948": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:pechinchou:241949": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:pechinchou:241950": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:pechinchou:241951": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:pechinchou:241952": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:pechinchou:241953": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:pechinchou:241954": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:pechinchou:241955": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:pechinchou:241956": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:pechinchou:241957": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:pechinchou:241958": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:pechinchou:241959": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:pechinchou:241960": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
   "cad:perfumepromo:10275": {
    "r": "cad_verificado",
    "t": 1795783784
@@ -3467,29 +3571,21 @@
    "r": "cad_verificado",
    "t": 1795783784
   },
-  "cad:pincei:372829": {
+  "cad:perfumepromo:10293": {
    "r": "cad_verificado",
-   "t": 1795781252
+   "t": 1795795412
   },
-  "cad:pincei:372830": {
+  "cad:perfumepromo:10294": {
    "r": "cad_verificado",
-   "t": 1795781252
+   "t": 1795795412
   },
-  "cad:pincei:372831": {
+  "cad:perfumepromo:10295": {
    "r": "cad_verificado",
-   "t": 1795781252
+   "t": 1795795412
   },
-  "cad:pincei:372832": {
+  "cad:perfumepromo:10296": {
    "r": "cad_verificado",
-   "t": 1795781252
-  },
-  "cad:pincei:372833": {
-   "r": "cad_verificado",
-   "t": 1795781252
-  },
-  "cad:pincei:372834": {
-   "r": "cad_verificado",
-   "t": 1795781252
+   "t": 1795795412
   },
   "cad:pincei:372835": {
    "r": "cad_verificado",
@@ -3855,21 +3951,265 @@
    "r": "cad_verificado",
    "t": 1795783784
   },
-  "cad:promosdaluh:326965": {
+  "cad:pincei:373007": {
    "r": "cad_verificado",
-   "t": 1795773727
+   "t": 1795795412
   },
-  "cad:promosdaluh:326966": {
+  "cad:pincei:373008": {
    "r": "cad_verificado",
-   "t": 1795773727
+   "t": 1795795412
   },
-  "cad:promosdaluh:326967": {
+  "cad:pincei:373009": {
    "r": "cad_verificado",
-   "t": 1795773727
+   "t": 1795795412
   },
-  "cad:promosdaluh:326968": {
+  "cad:pincei:373010": {
    "r": "cad_verificado",
-   "t": 1795773727
+   "t": 1795795412
+  },
+  "cad:pincei:373011": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:pincei:373012": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:pincei:373013": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:pincei:373014": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:pincei:373015": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:pincei:373016": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:pincei:373017": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:pincei:373018": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:pincei:373019": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:pincei:373020": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:pincei:373021": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:pincei:373022": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:pincei:373023": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:pincei:373024": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:pincei:373025": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:pincei:373026": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:pincei:373027": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:pincei:373028": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:pincei:373029": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:pincei:373030": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:pincei:373031": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:pincei:373032": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:pincei:373033": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:pincei:373034": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:pincei:373035": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:pincei:373036": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:pincei:373037": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:pincei:373038": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:pincei:373039": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:pincei:373040": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:pincei:373041": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:pincei:373042": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:pincei:373043": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:pincei:373044": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:pincei:373045": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:pincei:373046": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:pincei:373047": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:pincei:373048": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:pincei:373049": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:pincei:373050": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:pincei:373051": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:pincei:373052": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:pincei:373053": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:pincei:373054": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:pincei:373055": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:pincei:373056": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:pincei:373057": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:pincei:373058": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:pincei:373059": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:pincei:373060": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:pincei:373061": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:pincei:373062": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:pincei:373063": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:pincei:373064": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:pincei:373065": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:pincei:373066": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:pincei:373067": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:pincei:373068": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:pincei:373069": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:pincei:373070": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:pincei:373071": {
+   "r": "cad_verificado",
+   "t": 1795795412
   },
   "cad:promosdaluh:326992": {
    "r": "cad_verificado",
@@ -4287,17 +4627,405 @@
    "r": "cad_verificado",
    "t": 1795783784
   },
-  "cad:promotom:116099": {
+  "cad:promosdaluh:327306": {
    "r": "cad_verificado",
-   "t": 1795773727
+   "t": 1795795412
   },
-  "cad:promotom:116100": {
+  "cad:promosdaluh:327307": {
    "r": "cad_verificado",
-   "t": 1795773727
+   "t": 1795795412
   },
-  "cad:promotom:116101": {
+  "cad:promosdaluh:327308": {
    "r": "cad_verificado",
-   "t": 1795773727
+   "t": 1795795412
+  },
+  "cad:promosdaluh:327309": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:promosdaluh:327310": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:promosdaluh:327311": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:promosdaluh:327312": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:promosdaluh:327313": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:promosdaluh:327314": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:promosdaluh:327315": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:promosdaluh:327316": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:promosdaluh:327317": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:promosdaluh:327318": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:promosdaluh:327319": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:promosdaluh:327320": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:promosdaluh:327321": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:promosdaluh:327322": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:promosdaluh:327323": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:promosdaluh:327324": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:promosdaluh:327325": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:promosdaluh:327326": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:promosdaluh:327327": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:promosdaluh:327328": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:promosdaluh:327329": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:promosdaluh:327330": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:promosdaluh:327331": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:promosdaluh:327332": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:promosdaluh:327333": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:promosdaluh:327334": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:promosdaluh:327335": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:promosdaluh:327336": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:promosdaluh:327337": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:promosdaluh:327338": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:promosdaluh:327339": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:promosdaluh:327340": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:promosdaluh:327341": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:promosdaluh:327342": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:promosdaluh:327343": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:promosdaluh:327344": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:promosdaluh:327345": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:promosdaluh:327346": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:promosdaluh:327347": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:promosdaluh:327348": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:promosdaluh:327349": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:promosdaluh:327350": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:promosdaluh:327351": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:promosdaluh:327352": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:promosdaluh:327353": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:promosdaluh:327354": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:promosdaluh:327355": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:promosdaluh:327356": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:promosdaluh:327357": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:promosdaluh:327358": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:promosdaluh:327359": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:promosdaluh:327360": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:promosdaluh:327361": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:promosdaluh:327362": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:promosdaluh:327363": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:promosdaluh:327364": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:promosdaluh:327365": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:promosdaluh:327366": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:promosdaluh:327367": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:promosdaluh:327368": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:promosdaluh:327369": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:promosdaluh:327370": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:promosdaluh:327371": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:promosdaluh:327372": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:promosdaluh:327373": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:promosdaluh:327374": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:promosdaluh:327375": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:promosdaluh:327376": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:promosdaluh:327377": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:promosdaluh:327378": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:promosdaluh:327379": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:promosdaluh:327380": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:promosdaluh:327381": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:promosdaluh:327382": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:promosdaluh:327383": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:promosdaluh:327384": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:promosdaluh:327385": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:promosdaluh:327386": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:promosdaluh:327387": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:promosdaluh:327388": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:promosdaluh:327389": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:promosdaluh:327390": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:promosdaluh:327391": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:promosdaluh:327392": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:promosdaluh:327393": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:promosdaluh:327394": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:promosdaluh:327395": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:promosdaluh:327396": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:promosdaluh:327397": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:promosdaluh:327398": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:promosdaluh:327399": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:promosdaluh:327400": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:promosdaluh:327401": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:promosdaluh:327402": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:promosdaluh:327403": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:promosdaluh:327404": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:promosdaluh:327405": {
+   "r": "cad_verificado",
+   "t": 1795795412
   },
   "cad:promotom:116103": {
    "r": "cad_verificado",
@@ -4435,6 +5163,150 @@
    "r": "cad_verificado",
    "t": 1795783784
   },
+  "cad:promotom:116186": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:promotom:116187": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:promotom:116188": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:promotom:116189": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:promotom:116190": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:promotom:116191": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:promotom:116192": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:promotom:116193": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:promotom:116194": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:promotom:116195": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:promotom:116196": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:promotom:116197": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:promotom:116198": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:promotom:116199": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:promotom:116200": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:promotom:116201": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:promotom:116202": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:promotom:116203": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:promotom:116204": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:promotom:116205": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:promotom:116206": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:promotom:116207": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:promotom:116208": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:promotom:116209": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:promotom:116210": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:promotom:116211": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:promotom:116212": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:promotom:116213": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:promotom:116214": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:promotom:116215": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:promotom:116216": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:promotom:116217": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:promotom:116218": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:promotom:116219": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:promotom:116220": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:promotom:116221": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
   "cad:teniscertocupons:66507": {
    "r": "cad_verificado",
    "t": 1795783784
@@ -4447,53 +5319,69 @@
    "r": "cad_verificado",
    "t": 1795783784
   },
+  "cad:teniscertocupons:66528": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:teniscertocupons:66529": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:teniscertocupons:66530": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:teniscertocupons:66531": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:teniscertocupons:66532": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:teniscertocupons:66533": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:teniscertocupons:66534": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:teniscertocupons:66535": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:teniscertocupons:66536": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:teniscertocupons:66537": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:teniscertocupons:66538": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:teniscertocupons:66539": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:teniscertocupons:66540": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
+  "cad:teniscertocupons:66541": {
+   "r": "cad_verificado",
+   "t": 1795795412
+  },
   "esg:400FFN4SH0": {
    "r": "avisado",
    "t": 1795784190
   },
-  "esg:AUTOMOVEIS": {
-   "r": "avisado",
-   "t": 1795773918
-  },
-  "esg:BLACK150": {
-   "r": "avisado",
-   "t": 1795759517
-  },
-  "esg:CARTINHAS": {
-   "r": "avisado",
-   "t": 1795773918
-  },
-  "esg:CORRE": {
-   "r": "avisado",
-   "t": 1795759517
-  },
-  "esg:FORAM": {
-   "r": "avisado",
-   "t": 1795759517
-  },
-  "esg:MOTOCICLETAS": {
-   "r": "avisado",
-   "t": 1795773918
-  },
-  "esg:NATAL": {
-   "r": "avisado",
-   "t": 1795773918
-  },
-  "esg:RAPIDO": {
-   "r": "avisado",
-   "t": 1795759517
-  },
-  "esg:RENOVADOS": {
-   "r": "avisado",
-   "t": 1795759517
-  },
   "esg:SOHOJEBF": {
    "r": "avisado",
    "t": 1795781774
-  },
-  "esg:TECNOLOGIA": {
-   "r": "avisado",
-   "t": 1795773918
   },
   "fumotom:54151": {
    "r": "pulado:periferico de PC",
@@ -4695,213 +5583,9 @@
    "r": "duplicado",
    "t": 1795794796
   },
-  "iuriindica:125669": {
-   "r": "pulado:periferico de PC",
-   "t": 1795754587
-  },
-  "iuriindica:125670": {
-   "r": "pulado:periferico de PC",
-   "t": 1795754587
-  },
-  "iuriindica:125671": {
-   "r": "pulado:aliexpress (bloqueado)",
-   "t": 1795754587
-  },
-  "iuriindica:125672": {
-   "r": "pulado:periferico de PC",
-   "t": 1795754588
-  },
-  "iuriindica:125673": {
-   "r": "pulado:periferico de PC",
-   "t": 1795754588
-  },
-  "iuriindica:125674": {
-   "r": "pulado:periferico de PC",
-   "t": 1795754589
-  },
-  "iuriindica:125675": {
-   "r": "pulado:periferico de PC",
-   "t": 1795754589
-  },
-  "iuriindica:125677": {
-   "r": "pulado:periferico de PC",
-   "t": 1795754589
-  },
-  "iuriindica:125678": {
-   "r": "pulado:periferico de PC",
-   "t": 1795754589
-  },
-  "iuriindica:125679": {
-   "r": "pulado:sem link",
-   "t": 1795754589
-  },
-  "iuriindica:125680": {
-   "r": "pulado:aliexpress (bloqueado)",
-   "t": 1795754589
-  },
-  "iuriindica:125681": {
-   "r": "pulado:aliexpress (bloqueado)",
-   "t": 1795754589
-  },
-  "iuriindica:125682": {
-   "r": "pulado:periferico de PC",
-   "t": 1795754589
-  },
-  "iuriindica:125683": {
-   "r": "pulado:periferico de PC",
-   "t": 1795754589
-  },
-  "iuriindica:125687": {
-   "r": "pulado:periferico de PC",
-   "t": 1795754589
-  },
-  "iuriindica:125689": {
-   "r": "pulado:periferico de PC",
-   "t": 1795754589
-  },
-  "iuriindica:125690": {
-   "r": "pulado:periferico de PC",
-   "t": 1795754589
-  },
-  "iuriindica:125696": {
-   "r": "pulado:periferico de PC",
-   "t": 1795754590
-  },
-  "iuriindica:125699": {
-   "r": "pulado:periferico de PC",
-   "t": 1795754590
-  },
-  "iuriindica:125702": {
-   "r": "pulado:periferico de PC",
-   "t": 1795754590
-  },
-  "iuriindica:125704": {
-   "r": "pulado:periferico de PC",
-   "t": 1795754590
-  },
-  "iuriindica:125707": {
-   "r": "pulado:sem link",
-   "t": 1795754590
-  },
-  "iuriindica:125708": {
-   "r": "pulado:sem link",
-   "t": 1795754590
-  },
-  "iuriindica:125711": {
-   "r": "pulado:periferico de PC",
-   "t": 1795754590
-  },
-  "iuriindica:125720": {
-   "r": "pulado:periferico de PC",
-   "t": 1795754590
-  },
-  "iuriindica:125721": {
-   "r": "pulado:so cupom (ignorado)",
-   "t": 1795754590
-  },
-  "iuriindica:125723": {
-   "r": "pulado:periferico de PC",
-   "t": 1795754590
-  },
-  "iuriindica:125737": {
-   "r": "pulado:sem link",
-   "t": 1795754590
-  },
-  "iuriindica:125738": {
-   "r": "pulado:aliexpress (bloqueado)",
-   "t": 1795754590
-  },
-  "iuriindica:125739": {
-   "r": "pulado:periferico de PC",
-   "t": 1795754593
-  },
-  "iuriindica:125743": {
-   "r": "pulado:aliexpress (bloqueado)",
-   "t": 1795754593
-  },
-  "iuriindica:125744": {
-   "r": "pulado:aliexpress (bloqueado)",
-   "t": 1795754593
-  },
-  "iuriindica:125746": {
-   "r": "pulado:sem preco",
-   "t": 1795754593
-  },
-  "iuriindica:125747": {
-   "r": "pulado:aliexpress (bloqueado)",
-   "t": 1795754593
-  },
-  "iuriindica:125748": {
-   "r": "pulado:aliexpress (bloqueado)",
-   "t": 1795754593
-  },
-  "iuriindica:125750": {
-   "r": "pulado:aliexpress (bloqueado)",
-   "t": 1795754593
-  },
-  "iuriindica:125751": {
-   "r": "pulado:periferico de PC",
-   "t": 1795754596
-  },
-  "iuriindica:125754": {
-   "r": "pulado:sem preco",
-   "t": 1795754599
-  },
-  "iuriindica:125755": {
-   "r": "pulado:aliexpress (bloqueado)",
-   "t": 1795754599
-  },
-  "iuriindica:125759": {
-   "r": "pulado:sem preco",
-   "t": 1795754601
-  },
-  "iuriindica:125760": {
-   "r": "pulado:periferico de PC",
-   "t": 1795754601
-  },
-  "iuriindica:125763": {
-   "r": "pulado:aliexpress (bloqueado)",
-   "t": 1795754601
-  },
-  "iuriindica:125764": {
-   "r": "pulado:aliexpress (bloqueado)",
-   "t": 1795754601
-  },
-  "iuriindica:125765": {
-   "r": "pulado:aliexpress (bloqueado)",
-   "t": 1795754601
-  },
-  "iuriindica:125767": {
-   "r": "pulado:aliexpress (bloqueado)",
-   "t": 1795754602
-  },
-  "iuriindica:125768": {
-   "r": "pulado:aliexpress (bloqueado)",
-   "t": 1795754602
-  },
-  "iuriindica:125800": {
-   "r": "pulado:periferico de PC",
-   "t": 1795773828
-  },
   "iuriindica:125802": {
    "r": "pulado:repetido",
    "t": 1795794993
-  },
-  "iuriindica:125803": {
-   "r": "pulado:aliexpress (bloqueado)",
-   "t": 1795773829
-  },
-  "iuriindica:125804": {
-   "r": "pulado:aliexpress (bloqueado)",
-   "t": 1795773829
-  },
-  "iuriindica:125805": {
-   "r": "falha",
-   "t": 1795781207
-  },
-  "iuriindica:125806": {
-   "r": "pulado:so cupom (ignorado)",
-   "t": 1795773829
   },
   "iuriindica:125829": {
    "r": "pulado:so cupom (ignorado)",
@@ -5219,18 +5903,6 @@
    "r": "pulado:repetido",
    "t": 1795794822
   },
-  "juaocupons:28112": {
-   "r": "pulado:sem preco",
-   "t": 1795773823
-  },
-  "juaocupons:28115": {
-   "r": "pulado:sem link",
-   "t": 1795773823
-  },
-  "juaocupons:28116": {
-   "r": "pulado:sem preco",
-   "t": 1795773825
-  },
   "juaocupons:28124": {
    "r": "pulado:loja desconhecida",
    "t": 1795781773
@@ -5387,10 +6059,6 @@
    "r": "gerado",
    "t": 1795794444
   },
-  "link:https://meli.la/26MyoA5": {
-   "r": "falha",
-   "t": 1795781207
-  },
   "link:https://meli.la/29gf778": {
    "r": "duplicado",
    "t": 1795791225
@@ -5418,10 +6086,6 @@
   "link:https://meli.la/2hzz4p7": {
    "r": "duplicado",
    "t": 1795791352
-  },
-  "link:https://meli.la/2k3yrJb": {
-   "r": "duplicado",
-   "t": 1795766441
   },
   "link:https://meli.la/2nYPVL7": {
    "r": "duplicado",
@@ -5451,61 +6115,9 @@
    "r": "falha",
    "t": 1795794222
   },
-  "link:https://shopee.com.br/Caixa-Amplificada-Jbl-Party-Box-Club-120-160w-Bluetooth-Conex%C3%A3o-Usb-Bivolt-i.898761179.44718674582?gads_t_sig=gqRjZGVrxHCFomtpsTE0MjUxOnRzc19zZGtfa2V5omt20QACpGFsZ2_SAAAAZKNkZWvAomN0xEAAAAAMc1TPTF0zl9lUk9doKYfbtNkYCBZaTm6dQ6q3WJIrnGYlyLtpSCE1-D6jy2YmlKEe_b7zxJZfI6lpwZ6fqmNpcGhlcnRleHTE1AAAAAzTsTpxrLEfbU2jzvPgwtoluyCI5xzTjNMpZdIfB0STUnPAoot9OuMJNrV-LMzCkzgM8IgO8xWUVhzedArU8IJQ5DJcOR0VzVBtpl-SPXcr3IiFHKmRsz1LG574FeYfuZwmeSd6OSDVS5Q7iW0sMMp15Ywg_A8fj_NMjfqLYn-V2rZSfWEzyf_0uxXiMJ1KhDsZK1wHOdxLfTWCN_mJ1CIuTdTSL2zVv8CsgqkJFBuav9I4C_tMiE49wLDQcBmvQR6Ozikzd23vtVc4ISIvcAk9&mmp_pid=an_18376710595&uls_trackid=577ok1vv00c1&utm_campaign=id_b2f05521558c9e68&utm_content=Glenda----&utm_medium=affiliates&utm_source=an_18376710595&utm_term=fwu9jh5vte5u": {
-   "r": "falha",
-   "t": 1795755929
-  },
-  "link:https://shopee.com.br/Caixa-de-Som-JBL-Boombox-3-Bluetooth-Partyboost-Squad-Camuflada-i.1343318906.49305419428?gads_t_sig=gqRjZGVrxHCFomtpsTE0MjUxOnRzc19zZGtfa2V5omt20QACpGFsZ2_SAAAAZKNkZWvAomN0xEAAAAAMc1TPTF0zl9lUk9doKYfbtNkYCBZaTm6dQ6q3WJIrnGYlyLtpSCE1-D6jy2YmlKEe_b7zxJZfI6lpwZ6fqmNpcGhlcnRleHTEygAAAAyO3P8ivDPdwhWpWpmdJ6La4LYi7fMmrzGwgMszAm-Ums4DixBle5OWkhggDS0X6mKwRtkOfAUFJDtHoOxi3E5FsfbAtnxCFUtYB7zjelcUlZS6-KsgJGf6NoM6MJMSzaZ7R6BgQdluRGTQ0iRftTZoKxk9kOzbhtjXJtLeKOwo3N1k61Fng_6zu1-QCKAqn0Ua6luu1eVh47SdNSf7b6q_UadyOHTLZU7QKFg07JKbybAeTmf6-8OPNbZ2r3aeE5R1GjH-tIM&mmp_pid=an_18376710595&uls_trackid=577ogd2900bt&utm_campaign=id_ad7a961fb914c061&utm_content=Glenda----&utm_medium=affiliates&utm_source=an_18376710595&utm_term=fwu6qva27sfu": {
-   "r": "falha",
-   "t": 1795754731
-  },
-  "link:https://shopee.com.br/Caixa-de-Som-Jbl-Boombox-4-Bluetooth-34h-Ip68-210rms-Preta-i.898761179.20198314386?gads_t_sig=gqRjZGVrxHCFomtpsTE0MjUxOnRzc19zZGtfa2V5omt20QACpGFsZ2_SAAAAZKNkZWvAomN0xEAAAAAMc1TPTF0zl9lUk9doKYfbtNkYCBZaTm6dQ6q3WJIrnGYlyLtpSCE1-D6jy2YmlKEe_b7zxJZfI6lpwZ6fqmNpcGhlcnRleHTEwwAAAAzxbbVFT6HRfhCycLo77nVWCzNY3ljerMmWAqwPI2jZCdu8ATLSyDGP-8tr-mHHv7x0Da1xYRICH8BNzRkT_kP5PqsQT-r5VwDxFP0pWNCWPeZbP7Dnp43nnb5PgEgcXHKH2ZnbeoFTqDoUsCKjCv3htMc-1TkWV7-N7ITOdfQTzKlyyD93bCFttJ4afNIWEjCcijXGGsvvPB2OoWgqzXPTAnhDj5iqN6SPOBri7KlSqf2FWscVGxYRnI2zeC-UVA&mmp_pid=an_18376710595&uls_trackid=577og4v300bq&utm_campaign=id_93ac2b167e03750d&utm_content=Glenda----&utm_medium=affiliates&utm_source=an_18376710595&utm_term=fwu6j92toops": {
-   "r": "gerado",
-   "t": 1795754690
-  },
-  "link:https://shopee.com.br/Console-Nintendo-Switch-OLED-Bundle-Super-Mario-Bros-Wonder-i.1930141978.58221872410?gads_t_sig=gqRjZGVrxHCFomtpsTE0MjUxOnRzc19zZGtfa2V5omt20QACpGFsZ2_SAAAAZKNkZWvAomN0xEAAAAAMc1TPTF0zl9lUk9doKYfbtNkYCBZaTm6dQ6q3WJIrnGYlyLtpSCE1-D6jy2YmlKEe_b7zxJZfI6lpwZ6fqmNpcGhlcnRleHTExgAAAAwWyzh1N-p3hKVqiOB5pFTjrrkPFuAXI8yBn9Mja-NaLdhDpY04Zv_Ou5a8u_yZMGhaMvgFCY6dyprsgXKGnMoqvEiXEW9xgYBX7ZNnq1wORqZ_jvy2PazZBWQRJrK5B8wW4rrQRlU0Q9BgupjU7CueIhheqxiz7AFK6isT3JbhuANX4nMPC4-64QJCJHN3Rw1uHgekKQBKEzvhUFeDiC8FntUZXi-77Gjm6Q4PsTXbzLJZVlNNG_WOaZXTDCuj8z3E-A&mmp_pid=an_18376710595&uls_trackid=577ogh23000o&utm_campaign=id_9c6441e9862902ef&utm_content=Glenda----&utm_medium=affiliates&utm_source=an_18376710595&utm_term=fwu6u5anvkb9": {
-   "r": "duplicado",
-   "t": 1795754746
-  },
-  "link:https://shopee.com.br/Controle-para-Xbox-Sem-Fio-Preto-Cabo-USB-C-i.1509845472.18499921197?extraParams=%7B%22display_model_id%22%3A109725818073%7D&gads_t_sig=gqRjZGVrxHCFomtpsTE0MjUxOnRzc19zZGtfa2V5omt20QACpGFsZ2_SAAAAZKNkZWvAomN0xEAAAAAMc1TPTF0zl9lUk9doKYfbtNkYCBZaTm6dQ6q3WJIrnGYlyLtpSCE1-D6jy2YmlKEe_b7zxJZfI6lpwZ6fqmNpcGhlcnRleHTEtgAAAAw9p04M3AML2HCInnK523BGYFoiOEonGpPQ3Y2RnkRFiBqyJE0MmrE6ThIx_mU40yosZdpZJDLHK3cWTCWWwYqrT2GFSeXI_3ocgxYXzuYLNUZvaq-OkN51ZNXWFhQhqSb67cG45Y7ELyRKicmX8sPbnSdERHlybQn0KgRx8GYSx710UhHL6X8f6gRDJY6o-hC87L5h_9hmoV9Erlqvw00e7epldQCpJwd95ORx8HAKy9dB&image_ids=sg-11134201-82582-mfu72o2xwavfe7&mmp_pid=an_18349640001&uls_trackid=577ov4fd002i&utm_campaign=id_bf525456384a6a37&utm_content=achadosporluh----&utm_medium=affiliates&utm_source=an_18349640001&utm_term=fwui3cpnofxc": {
-   "r": "falha",
-   "t": 1795759571
-  },
-  "link:https://shopee.com.br/Estante-De-A%C3%A7o-Decoteam-Organizadora-5-Prateleiras-Multiuso-i.359168917.41317360645?extraParams=%7B%22display_model_id%22%3A276431042323%7D&gads_t_sig=gqRjZGVrxHCFomtpsTE0MjUxOnRzc19zZGtfa2V5omt20QACpGFsZ2_SAAAAZKNkZWvAomN0xEAAAAAMc1TPTF0zl9lUk9doKYfbtNkYCBZaTm6dQ6q3WJIrnGYlyLtpSCE1-D6jy2YmlKEe_b7zxJZfI6lpwZ6fqmNpcGhlcnRleHTExQAAAAyD9VOwns8WJqToxUm7QjTV1GvjiRxLSabPrKoAeMOnWvDsCraD_FMQNAJlIa1hrMllnob6C2cNQw_8147Kujr_QlAwxmp-cWb00M4vgIvx2Ngst0NT_HfaAKYXaLzVGAIb2dWrGB5FsW5vTR0ip8QAaKcwJUnWfw_Hq2tI5TuFMICYa6BhCP5oXgVesv79XhkgwMPmmp7OYO22S0illn0AwZqKpg1kFJmxMxFZg3dd7_MK-DgsNaqnXpvcuTS5QeG8&image_ids=br-11134207-81z1k-me7j3xd7zs3l59&mmp_pid=an_18349640001&uls_trackid=577ovmv300c3&utm_campaign=id_f5f6ab1097469ed7&utm_content=achadosporluh----&utm_medium=affiliates&utm_source=an_18349640001&utm_term=fwuiigsjwo99": {
-   "r": "falha",
-   "t": 1795759763
-  },
   "link:https://shopee.com.br/Lava-Lou%C3%A7as-Philco-10-Servi%C3%A7os-Preto-Espelhado-PLL10-i.811034337.58269942451?gads_t_sig=gqRjZGVrxHCFomtpsTE0MjUxOnRzc19zZGtfa2V5omt20QACpGFsZ2_SAAAAZKNkZWvAomN0xEAAAAAMc1TPTF0zl9lUk9doKYfbtNkYCBZaTm6dQ6q3WJIrnGYlyLtpSCE1-D6jy2YmlKEe_b7zxJZfI6lpwZ6fqmNpcGhlcnRleHTEvwAAAAy6pUf0Woa6y43yMGlVUWIFDj_prJADDDdj67iXakBjew56VnJYLKjftQO0ppD1xYJ5LNpBUEWMfKtirzXaGnsUTXNR1XpNSaamcw2UPHBJSPxOEtUptNCeRp8lMG0ZNEDsc_UIW5qErzvy1I6gA-arWt85Gm74pmKfEON8QHHj3P7YI6gs99bOXSGOPd4HIkz34gO95Zy64L2jjjx_9zfkkuLoH6kJRUevgrLthayE5C1S5KsAwNsxv9AB&mmp_pid=an_18376710595&uls_trackid=577r62ls00br&utm_campaign=id_cd3def1c614f79c2&utm_content=Leticia----&utm_medium=affiliates&utm_source=an_18376710595&utm_term=fww4ord3k311": {
    "r": "falha",
    "t": 1795782796
-  },
-  "link:https://shopee.com.br/Lava-Roupas-L%C3%ADquido-Coala-Laundry-Ch%C3%A1-Branco-3L-i.1177903362.23194317485?extraParams=%7B%22display_model_id%22%3A219178244887%7D&gads_t_sig=gqRjZGVrxHCFomtpsTE0MjUxOnRzc19zZGtfa2V5omt20QACpGFsZ2_SAAAAZKNkZWvAomN0xEAAAAAMc1TPTF0zl9lUk9doKYfbtNkYCBZaTm6dQ6q3WJIrnGYlyLtpSCE1-D6jy2YmlKEe_b7zxJZfI6lpwZ6fqmNpcGhlcnRleHTEvAAAAAwXm_tKjL_s36hes5hrTSjqH1OAxZuzaae_DI30jutYYWBlfgu5mkYWsMlXOhwYTPYfBJwA00oFXV48KRYYynKOYW2Fg_Y3GCJbckYZ12y2y2iwBSx5q85MTZ63aAX9_tIhpAmsezrhgdU7pKQnlTsOqFF_5j931QJrlvCV3kgUFsilHclSowc3TePhior28QT5IszsjbcUANyBTc4wtYb3yGL9Jb_Q5K-lNkaOZpw-9DIQhsHplYbL&image_ids=sg-11134201-7rdxh-mdg16743c5q4b5&mmp_pid=an_18349640001&uls_trackid=577p01md00jp&utm_campaign=id_809e08c504c308fa&utm_content=achadosporluh----&utm_medium=affiliates&utm_source=an_18349640001&utm_term=fwuis9387omy": {
-   "r": "falha",
-   "t": 1795759870
-  },
-  "link:https://shopee.com.br/Lava-Roupas-Liquido-Profissional-Omo-Pro-7L-i.683952730.11086604605?extraParams=%7B%22display_model_id%22%3A38338630271%7D&gads_t_sig=gqRjZGVrxHCFomtpsTE0MjUxOnRzc19zZGtfa2V5omt20QACpGFsZ2_SAAAAZKNkZWvAomN0xEAAAAAMc1TPTF0zl9lUk9doKYfbtNkYCBZaTm6dQ6q3WJIrnGYlyLtpSCE1-D6jy2YmlKEe_b7zxJZfI6lpwZ6fqmNpcGhlcnRleHTEtAAAAAw_ODHnwOp6VObuTpm2ZAKdHSt_WoMC7xzJP6K3X7xqW1Oz6hHnbP-kB-IE6MlDMMtXpekZjviMXW5glVyYlG7X2Gjo-hPHiA9ssTqg7Y5JzmX7uwReX_8cAEo_57wvP7kMC6KEbItgeE137rPwZkbTkKXvGTQeArZuKH72AuUpWD29U0Hc8HLZGCRKI2j7tIBwwJVHj5-pQzpumRk1qaQO5gZD5WHiQuuf_nBBM4SbJA&image_ids=br-11134207-7r98o-m94jcrcrark2dd&mmp_pid=an_18349640001&uls_trackid=577ovsf900br&utm_campaign=id_bb169907cbcf9b5f&utm_content=achadosporluh----&utm_medium=affiliates&utm_source=an_18349640001&utm_term=fwuinyvdu1qh": {
-   "r": "falha",
-   "t": 1795759816
-  },
-  "link:https://shopee.com.br/Lavadora-de-Alta-Press%C3%A3o-Potente-Compacta-1200W-Porta-Detergente-Lav1300-Vonder-i.951290141.23498370145?extraParams=%7B%22display_model_id%22%3A229419642921%7D&gads_t_sig=gqRjZGVrxHCFomtpsTE0MjUxOnRzc19zZGtfa2V5omt20QACpGFsZ2_SAAAAZKNkZWvAomN0xEAAAAAMc1TPTF0zl9lUk9doKYfbtNkYCBZaTm6dQ6q3WJIrnGYlyLtpSCE1-D6jy2YmlKEe_b7zxJZfI6lpwZ6fqmNpcGhlcnRleHTE2QAAAAwZH5LqTOuCR3INZvwqzpg6iflexjT6kEaAurtMuBDWYenjlDi1Gvi8ZoyCy6pztSkxa_mqJXSjVnfWlDAFxE93beMT-PVv-C076o65-bMW9Neajqp9T5aqML2a8dSC6pVCQvxvteBjgzLsG-bwB_p4mhN7YXpXwc4s6FR0HqdVahzZgXuTJGDH8dpM8R2cWYzC5p3sA0VInZanpWu6rTHhXXuNRCl2annJ9XoBoLQFUtMWhMSmUZNAce6SI9UnuBo6MZhXvyuYxd7woQrWXhVLmSkOf_Q&image_ids=sg-11134201-7reou-m83egtsfqg7rd7&mmp_pid=an_18349640001&uls_trackid=577p0ggb00kf&utm_campaign=id_8537e5eca912eb03&utm_content=achadosporluh----&utm_medium=affiliates&utm_source=an_18349640001&utm_term=fwuj5cue7zmm": {
-   "r": "gerado",
-   "t": 1795760064
-  },
-  "link:https://shopee.com.br/Smart-TV-Philips-65-4K-UHD-Ambilight-65PUG8100-78-Wi-Fi-Bluetooth-IA-HDMI-USB-60Hz-i.1343318906.29695795023?gads_t_sig=gqRjZGVrxHCFomtpsTE0MjUxOnRzc19zZGtfa2V5omt20QACpGFsZ2_SAAAAZKNkZWvAomN0xEAAAAAMc1TPTF0zl9lUk9doKYfbtNkYCBZaTm6dQ6q3WJIrnGYlyLtpSCE1-D6jy2YmlKEe_b7zxJZfI6lpwZ6fqmNpcGhlcnRleHTE3QAAAAya5m9n9coe3sLEtqyoH2iHfMy33oyRuKGZ8p1yJM2oLLxaySADqfzjAPUZoNh9Axwm18vab2ivCA5NDyUYxTVFKxcpRqEvHT2WtXzuykzb25gtH5pAD4B73R3qwJbzLuzMWO9fn9d7Kavb_v-yc-MbLMekp3LSp-mDr3UU-1hNyqlkDgwn1uUUx76ur91D5-Tsh28zKmedJXF33uBfYVLl4KJEIfvDKmpP_GvUDz1sfhTdEiI7BDaSlBGxDYY9iImhYf32mwQJ08PRgYmwTOhKPMo52V0rB-Tg&mmp_pid=an_18376710595&uls_trackid=577ok67700c5&utm_campaign=id_14cb525ffe52a103&utm_content=Glenda----&utm_medium=affiliates&utm_source=an_18376710595&utm_term=fwu9nxmd8ozg": {
-   "r": "gerado",
-   "t": 1795756015
-  },
-  "link:https://shopee.com.br/Smartwatch-Samsung-Galaxy-Watch8-40mm-Grafite-32GB-Bluetooth-i.1929663743.58270475390?gads_t_sig=gqRjZGVrxHCFomtpsTE0MjUxOnRzc19zZGtfa2V5omt20QACpGFsZ2_SAAAAZKNkZWvAomN0xEAAAAAMc1TPTF0zl9lUk9doKYfbtNkYCBZaTm6dQ6q3WJIrnGYlyLtpSCE1-D6jy2YmlKEe_b7zxJZfI6lpwZ6fqmNpcGhlcnRleHTExwAAAAwa3lLG_yrGGaDiQPZZGTSzz3rgF6JrRP3KJtbuxODZhgskw00FsfTAbnvOkOQ52Itnrmxn5AYr1_A12o0XANAXvif5GHK5mAuuz1nNkEubDPDjsk2H-C2O5cGXee4LUY4tfb8R9P1F86IBptadSqJqyvgzTjX3cQSt3UaDRLp_CEog0cgtqXci8BzLkRfss9pBRIR8dUEUuPKDnR-PYr3VCMlXNrvbApZ_gdZ3P-JppBBtioco2EW2bPJkBiHAjuk_O6E&mmp_pid=an_18376710595&uls_trackid=577okfa300kf&utm_campaign=id_40199ea63b452be5&utm_content=Glenda----&utm_medium=affiliates&utm_source=an_18376710595&utm_term=fwu9vddrg4o1": {
-   "r": "falha",
-   "t": 1795756064
-  },
-  "link:https://shopee.com.br/Whey-Ultra-Protein-Refil-900g-15g-Prote%C3%ADna-por-Dose-FTW-i.1397772996.21099598473?extraParams=%7B%22display_model_id%22%3A228778777045%7D&gads_t_sig=gqRjZGVrxHCFomtpsTE0MjUxOnRzc19zZGtfa2V5omt20QACpGFsZ2_SAAAAZKNkZWvAomN0xEAAAAAMc1TPTF0zl9lUk9doKYfbtNkYCBZaTm6dQ6q3WJIrnGYlyLtpSCE1-D6jy2YmlKEe_b7zxJZfI6lpwZ6fqmNpcGhlcnRleHTEwwAAAAxSxxDi_gppfPr2nSTQMkNkFQY5gWROTmfs-IQBYdOrpjaxcg_GyM6ghvlnT9hB58DHR6dNVyTttb3mFBp98AXctIjVOIo2w4gIGeWeu_Sj5zXYiwY1WdARpbsGYtdyjEi1CzaplRVV6pAXfmAPhd4oNkYVOWFXcDFSN3n-PQNAKQlOaiR0wNVVBmrglfESWm2kHwsDH-FGU9xSgTTI_wvR7aeWJvTrrW_Mxf084KNI2U-dpIJxcfmIanUK_QVLWA&image_ids=br-11134207-81ztc-mj9xdvlpne2ue8&mmp_pid=an_18349640001&uls_trackid=577p0b5200l1&utm_campaign=id_44ae9ead2fdb09d8&utm_content=achadosporluh----&utm_medium=affiliates&utm_source=an_18349640001&utm_term=fwuizyzoquuq": {
-   "r": "falha",
-   "t": 1795759968
-  },
-  "link:https://shopee.com.br/opaanlp/1010974641/22592492072?__mobile__=1&credential_token=3fbCuxANX4izWQ312mUKEe4Zq8pAeBfhn2FDtvEq3tUV5&exp_group=rollout&gads_t_sig=gqRjZGVrxHCFomtpsTE0MjUxOnRzc19zZGtfa2V5omt20QACpGFsZ2_SAAAAZKNkZWvAomN0xEAAAAAMc1TPTF0zl9lUk9doKYfbtNkYCBZaTm6dQ6q3WJIrnGYlyLtpSCE1-D6jy2YmlKEe_b7zxJZfI6lpwZ6fqmNpcGhlcnRleHTEmQAAAAys6lRkUGs5mB3cX7qT3Sdd0nlJbsT-3keKpmIrUAK45dhRDTo2mAJwhdAsbvKJm1CO_FjKbSmzrlBJ5Sh_ynzmXWcOU77x5wrc7_a2dtagToqQ9vEsx-gASVmGjS6PmhR5-cw2ncmvrUwdrDeBmT-Rnjm3VkefgoaGT5dlQX_55pNVa11GvcgpjH21ptn5JI0iKhZcAg&mmp_pid=an_18349640001&uls_trackid=577p5fcq00bq&utm_campaign=id_8e385b3b576f7063&utm_content=achadosporluh----&utm_medium=affiliates&utm_source=an_18349640001&utm_term=fwunyadt39iw": {
-   "r": "duplicado",
-   "t": 1795761610
   },
   "link:https://shopee.com.br/opaanlp/1059412251/23398163218?__mobile__=1&credential_token=3fbCuxANX4kkiFNGgXnogMkjWFTbn1zst6BffqARvGp39&exp_group=rollout&gads_t_sig=gqRjZGVrxHCFomtpsTE0MjUxOnRzc19zZGtfa2V5omt20QACpGFsZ2_SAAAAZKNkZWvAomN0xEAAAAAMc1TPTF0zl9lUk9doKYfbtNkYCBZaTm6dQ6q3WJIrnGYlyLtpSCE1-D6jy2YmlKEe_b7zxJZfI6lpwZ6fqmNpcGhlcnRleHTEmQAAAAwGErRKje0kXLOyhft6eAsRyxMm4qIBXepBi6bJ5LfP9KzCGGcrF5u40PlnvONUXAVTkL7P5AHC3oL0T1uitRuausLdj54yyGyzOdcWGrC_XkgFi68yVTBs2sznn6KDPOhvnLtuuZ5a5Q3U9W7tSdn3ylIPEHQVvGrXm4CzPO09EgWxK5h5FeGhWdx7L_AUbgXoS0kFuQ&mmp_pid=an_18349640001&uls_trackid=577rpp4i00l7&utm_campaign=id_f22eeb12fe6db84a&utm_content=achadosporluh----&utm_medium=affiliates&utm_source=an_18349640001&utm_term=fwwjuasojohq": {
    "r": "falha",
@@ -5519,157 +6131,25 @@
    "r": "falha",
    "t": 1795789218
   },
-  "link:https://shopee.com.br/opaanlp/1177903362/22198915719?__mobile__=1&exp_group=rollout&gads_t_sig=gqRjZGVrxHCFomtpsTE0MjUxOnRzc19zZGtfa2V5omt20QACpGFsZ2_SAAAAZKNkZWvAomN0xEAAAAAMc1TPTF0zl9lUk9doKYfbtNkYCBZaTm6dQ6q3WJIrnGYlyLtpSCE1-D6jy2YmlKEe_b7zxJZfI6lpwZ6fqmNpcGhlcnRleHTEmQAAAAxw9ymvJDiPo-SugjEWoy_ZfHDjC_Wow3u4rQB9S_jeu-030n-wilWCE31Z1O9qwUVIpBvliBa8dCkVCKFdMTs6b9-WbodrYTFFkJH_7WFH4hOBnbffOc0SOf1jXCpjwS7fSXLY-2lupCpb3H5QLsf463YH7FjUs2W5FAu1FeloDHeMguist1BbLgI0hpwrfHv5KdqOYA&mmp_pid=an_18349640001&uls_trackid=577p52v400l1&utm_campaign=id_e73ad6fc465a6c2d&utm_content=achadosporluh----&utm_medium=affiliates&utm_source=an_18349640001&utm_term=fwuno4uz8cas": {
-   "r": "falha",
-   "t": 1795761521
-  },
   "link:https://shopee.com.br/opaanlp/1186779187/18797677549?__mobile__=1&credential_token=3fbCuxANWw513ycbbkVqYuMVjbroTo9yZ77H68xKiazfh&exp_group=rollout&gads_t_sig=gqRjZGVrxHCFomtpsTE0MjUxOnRzc19zZGtfa2V5omt20QACpGFsZ2_SAAAAZKNkZWvAomN0xEAAAAAMc1TPTF0zl9lUk9doKYfbtNkYCBZaTm6dQ6q3WJIrnGYlyLtpSCE1-D6jy2YmlKEe_b7zxJZfI6lpwZ6fqmNpcGhlcnRleHTEmQAAAAzqJ95_XkapxkixTEkXHa51dTUETSt_peMslsSiYnCa-OLMkqZARoeLk0Dwe1HzYGnoierVjW-IHQX7s7VshxpN72m_R9MD2Dln0w75f5H5x9jZ4SKYVSbKnMw3RZJ2BnMjSYkUSowPoOL-bubpuNPBkA8fp8hQVpG6BcTiK_iHdzlqAO8yr805QyFInWz58IARzeiNhA&mmp_pid=an_18376710595&uls_trackid=577r65m901jp&utm_campaign=id_b4cb5648fa7890f7&utm_content=Leticia----&utm_medium=affiliates&utm_source=an_18376710595&utm_term=fww4r844z5t3": {
    "r": "gerado",
    "t": 1795782869
-  },
-  "link:https://shopee.com.br/opaanlp/1343318906/51563938794?__mobile__=1&credential_token=3fbCuxANXUDCSLSReRsDmJQEw5x5fFBvxQ6MvN5ic8FCb&exp_group=rollout&gads_t_sig=gqRjZGVrxHCFomtpsTE0MjUxOnRzc19zZGtfa2V5omt20QACpGFsZ2_SAAAAZKNkZWvAomN0xEAAAAAMc1TPTF0zl9lUk9doKYfbtNkYCBZaTm6dQ6q3WJIrnGYlyLtpSCE1-D6jy2YmlKEe_b7zxJZfI6lpwZ6fqmNpcGhlcnRleHTEmQAAAAzkvnqQLRa297vOgJocsTrb0XAy2KrYY2l8eH5TZS78ueEDEiHudY8ZWwYh60ZPMzaPPj0jVMVEFj7qo5fT1rB0dPq9hFbWqfaw96A1RcW5La0q-9lvIggbvHAujEkoqTN49-Q_Q5LJacz4o2UGN2cLaj7pbpzLmGY5wu3pAaVUZ3ib-6m6MBAUa6mQVKOMAoKwlfNc5A&mmp_pid=an_18349640001&uls_trackid=577p5mpl00bu&utm_campaign=id_c2964531208d4424&utm_content=achadosporluh----&utm_medium=affiliates&utm_source=an_18349640001&utm_term=fwuo5c6mnumy": {
-   "r": "duplicado",
-   "t": 1795761684
-  },
-  "link:https://shopee.com.br/opaanlp/1512106181/58055821373?__mobile__=1&exp_group=rollout&gads_t_sig=gqRjZGVrxHCFomtpsTE0MjUxOnRzc19zZGtfa2V5omt20QACpGFsZ2_SAAAAZKNkZWvAomN0xEAAAAAMc1TPTF0zl9lUk9doKYfbtNkYCBZaTm6dQ6q3WJIrnGYlyLtpSCE1-D6jy2YmlKEe_b7zxJZfI6lpwZ6fqmNpcGhlcnRleHTEmQAAAAwPgSeJwB3bUFokFJq9MqYfvBgx4JBupxu9kXqGZTTSdyc0sM6VkhDBsdA0BEf7JWauPce9hmGOEqnXfOML5I35-oeSGSml679cCYlbQ9ofidw1cBF0HdAXzL_B_94GiNHsq2RiTU9XHWKxbbZIY9Yb5AWygFVTlsgVMLB_Is450WtLHln616WtLVN7zJs-2CJbSZ0vMQ&mmp_pid=an_18349640001&uls_trackid=577ovf4u00f4&utm_campaign=id_c14dd4f9ad4e47b6&utm_content=----&utm_medium=affiliates&utm_source=an_18349640001&utm_term=fwuic3gskhh9": {
-   "r": "gerado",
-   "t": 1795759700
-  },
-  "link:https://shopee.com.br/opaanlp/1537142489/22494203260?__mobile__=1&credential_token=3fbCuxANX4iz74UQLFgTa8fQX7eRMyifZ9H99fhKDAGx7&exp_group=rollout&gads_t_sig=gqRjZGVrxHCFomtpsTE0MjUxOnRzc19zZGtfa2V5omt20QACpGFsZ2_SAAAAZKNkZWvAomN0xEAAAAAMc1TPTF0zl9lUk9doKYfbtNkYCBZaTm6dQ6q3WJIrnGYlyLtpSCE1-D6jy2YmlKEe_b7zxJZfI6lpwZ6fqmNpcGhlcnRleHTEmQAAAAzd4sQ_ptDExQCAbxXnKA2KV3PDcoqiXd6HX4ZrdlOMDMgOs43tp87nJDG1hf2J2baFx6nDvJXPrzX16UXGt-CtdrNx1rg_0XHTzR_g2bIdvp6sTJXjyCW4ruz06cmQUa1zVlEYzH0mL7EHv-Qr1jhaF0hIjKN45hXUtpxrJaggHuTZec3e_h4kFHshC7MLKOJ_7eBf_w&mmp_pid=an_18376710595&uls_trackid=577ojorl00k8&utm_campaign=id_3e6e55520e8bbb8c&utm_content=Glenda----&utm_medium=affiliates&utm_source=an_18376710595&utm_term=fwu9c16brnh5": {
-   "r": "gerado",
-   "t": 1795755877
-  },
-  "link:https://shopee.com.br/opaanlp/1587699638/22298900995?credential_token=3fbCuxANX4iyJPMFwVX9GPSP4XMdbHGu6ULv39CfZLBEo&gads_t_sig=gqRjZGVrxHCFomtpsTE0MjUxOnRzc19zZGtfa2V5omt20QACpGFsZ2_SAAAAZKNkZWvAomN0xEAAAAAMc1TPTF0zl9lUk9doKYfbtNkYCBZaTm6dQ6q3WJIrnGYlyLtpSCE1-D6jy2YmlKEe_b7zxJZfI6lpwZ6fqmNpcGhlcnRleHTEmQAAAAyO8hNauDbp_c_7Ib0nWC6rFVpWpswVJi589ibN9VstHIRrzG2c4XprAGl-vZMz6v-UzgO39yiseAxOAn2oP2nHaBaJAZvr9QPWYVJ_jGcZM9x-K4sHR0XNhu6HMyaz4m888BLSFfgIIErezg_ZTzFLJw1pUuU2XkBZcePANsroeFwq7G5vWll2wTvqx14HSzeXo9oC-Q&mmp_pid=an_18349640001&uls_trackid=577p5hdr00jp&utm_campaign=id_46eefdf76c68b402&utm_content=achadosporluh----&utm_medium=affiliates&utm_source=an_18349640001&utm_term=fwunzxvukoo5": {
-   "r": "falha",
-   "t": 1795761671
   },
   "link:https://shopee.com.br/opaanlp/1602856616/58272423595?__mobile__=1&credential_token=3fbCuxANXURcJ5oPG81njvUgUjxvZiopc3FUJfHyzL4mM&exp_group=rollout&gads_t_sig=gqRjZGVrxHCFomtpsTE0MjUxOnRzc19zZGtfa2V5omt20QACpGFsZ2_SAAAAZKNkZWvAomN0xEAAAAAMc1TPTF0zl9lUk9doKYfbtNkYCBZaTm6dQ6q3WJIrnGYlyLtpSCE1-D6jy2YmlKEe_b7zxJZfI6lpwZ6fqmNpcGhlcnRleHTEmQAAAAyYPwtBXcBODsD-YYF2wQzqdz2-ylarlVdgeDTFCy1NhHUuwV7UFJhcublw5xWFhl2diVg_PRELLprha5gcprhoNF0Mcd7Uz_EvM3FrVkASiiXWowGu425AlzniTJlQ8jsKAxtlMrBs1zxuZJJV0T7WI_y-8Hu57PyBZAc0dQmILz9SQ7h9k_uTbut5qwB094XpwtmG7g&mmp_pid=an_18349640001&uls_trackid=577rmoos00s2&utm_campaign=id_6dd330b50649cc5a&utm_content=achadosporluh----&utm_medium=affiliates&utm_source=an_18349640001&utm_term=fwwhihjvxo5q": {
    "r": "falha",
    "t": 1795788288
   },
-  "link:https://shopee.com.br/opaanlp/1634932891/58263552159?__mobile__=1&credential_token=3fbCuxANXURcHzXupqE6LSxu8BxGRXCbbn3EA6xLdUXrP&exp_group=rollout&gads_t_sig=gqRjZGVrxHCFomtpsTE0MjUxOnRzc19zZGtfa2V5omt20QACpGFsZ2_SAAAAZKNkZWvAomN0xEAAAAAMc1TPTF0zl9lUk9doKYfbtNkYCBZaTm6dQ6q3WJIrnGYlyLtpSCE1-D6jy2YmlKEe_b7zxJZfI6lpwZ6fqmNpcGhlcnRleHTEmQAAAAwPy5zC9QpBuDveaOpX7aY2ui7erRRco-T_ll6J-55ihdd6I0OmClKiF1NFdBDx5B3-SseaRtSrHsz6zWnZkUEZD42EkwYBaYzhKnlk1mIat-cx7EqZCMWH58eI1jk2WJGnf6s2TjcZG_zVqWD5KXXF81rHWScQBfRGVsQjZ7xVQdWffflvfhVQTFdDs-4isMWkHx8bSw&mmp_pid=an_18349640001&uls_trackid=577p194e00bs&utm_campaign=id_a61c44e20610ea69&utm_content=achadosporluh----&utm_medium=affiliates&utm_source=an_18349640001&utm_term=fwujqhj4jn9u": {
-   "r": "falha",
-   "t": 1795760274
-  },
-  "link:https://shopee.com.br/opaanlp/1785523344/58209674396?__mobile__=1&credential_token=3fbCuxANXURcHSw3qQR1pvD9qJfafu5eZt3CuNzgc8YnB&exp_group=rollout&gads_t_sig=gqRjZGVrxHCFomtpsTE0MjUxOnRzc19zZGtfa2V5omt20QACpGFsZ2_SAAAAZKNkZWvAomN0xEAAAAAMc1TPTF0zl9lUk9doKYfbtNkYCBZaTm6dQ6q3WJIrnGYlyLtpSCE1-D6jy2YmlKEe_b7zxJZfI6lpwZ6fqmNpcGhlcnRleHTEmQAAAAyjlQjT2nhAhSr4eVNqCjNXn7lmNcd-hoyIMSdR3L8XVU0gfbe0dEQEhR0DtowFxT6u9mvlfortbboEpmmwPzU4cgpc7GZ6CvJ0end8ZRf7xveE2TabVmSGI1Q4ODAuRvGf3XVyej95JJnEK4tMM7Iazr7B8N7c7umoIyCTdMs_h8LraR4EiTLfKoY_tNPu36JGjyZUzA&mmp_pid=an_18349640001&uls_trackid=577p5o4e01f4&utm_campaign=id_ac91a0a2042322f4&utm_content=achadosporluh----&utm_medium=affiliates&utm_source=an_18349640001&utm_term=fwuo6f7v4eh5": {
-   "r": "falha",
-   "t": 1795761738
-  },
-  "link:https://shopee.com.br/opaanlp/1819539909/55317311281?credential_token=3fbCuxANXULHfJY6xVboWyhA6vZ3bvD7GRE1DHzr7ZBiF&gads_t_sig=gqRjZGVrxHCFomtpsTE0MjUxOnRzc19zZGtfa2V5omt20QACpGFsZ2_SAAAAZKNkZWvAomN0xEAAAAAMc1TPTF0zl9lUk9doKYfbtNkYCBZaTm6dQ6q3WJIrnGYlyLtpSCE1-D6jy2YmlKEe_b7zxJZfI6lpwZ6fqmNpcGhlcnRleHTEmQAAAAz1A6SgHLaNSYTrOjEFZLpJqodeHZ6gE7mToq9rcRNe4YhBTZ6p0fTK6B33SS32TMnE1SlxC5edyFrF-Uk3COABQMk6L99pBNlvCxHFCGULTmLLUTbDuWlz96D54p-UO0pxwhVZ7ZNIzyXzLubyWzZkb_if48rsrL2OZOvAUvCuY1rjxN-t1Qb-Yh-CB0Cnb-ebTxWNuw&mmp_pid=an_18349640001&uls_trackid=577p2drm00c1&utm_campaign=id_caa03f540bb7e31e&utm_content=achadosporluh----&utm_medium=affiliates&utm_source=an_18349640001&utm_term=fwukminjzmxb": {
-   "r": "falha",
-   "t": 1795760651
-  },
-  "link:https://shopee.com.br/opaanlp/1855294045/58212710640?credential_token=3fbCuxANXURcHY5LvXaeHaoqhKyNbkC9LmYXys68S1gQX&gads_t_sig=gqRjZGVrxHCFomtpsTE0MjUxOnRzc19zZGtfa2V5omt20QACpGFsZ2_SAAAAZKNkZWvAomN0xEAAAAAMc1TPTF0zl9lUk9doKYfbtNkYCBZaTm6dQ6q3WJIrnGYlyLtpSCE1-D6jy2YmlKEe_b7zxJZfI6lpwZ6fqmNpcGhlcnRleHTEmQAAAAwTKlMazj9jZI0GFYFhzhFMoccKAeRLlbyum2Lysuv2bt2Qe_OfkPIvkZa3KIBzkP4EvaYS3vh5lHHcFTgFWBwRvS-mckmi3PQ_3cIT8qGe3OpIlDXyWNvoDgfPGZdZ4Eszm8kk1BhuXN3L3QmZ6_a-6ObBlxF2SZN5ZhYFkgWrAD08dfbNfvbrEFGu20ieHKsxnxrgHA&mmp_pid=an_18349640001&uls_trackid=577p28c000c3&utm_campaign=id_1d1791cb6e697e28&utm_content=achadosporluh----&utm_medium=affiliates&utm_source=an_18349640001&utm_term=fwukh1zyyg23": {
-   "r": "falha",
-   "t": 1795760595
-  },
-  "link:https://shopee.com.br/opaanlp/322434863/20699674169?__mobile__=1&exp_group=rollout&gads_t_sig=gqRjZGVrxHCFomtpsTE0MjUxOnRzc19zZGtfa2V5omt20QACpGFsZ2_SAAAAZKNkZWvAomN0xEAAAAAMc1TPTF0zl9lUk9doKYfbtNkYCBZaTm6dQ6q3WJIrnGYlyLtpSCE1-D6jy2YmlKEe_b7zxJZfI6lpwZ6fqmNpcGhlcnRleHTElwAAAAzl1S9lvOfbm1_9wWOgAvjuX7rgurKA4a_GD4wJSQkatzlhXbzX9OBcq_-5bbnFv_qX0wD7wMhCC0KJWQpTHFAPZTZznlJP6WdlJxdmd5MJDiWXzDOMbdCUpRN-wEcle1p47yo9vDtE3zHaR3KzacnlD8tjksHUoXtt0koqNRDLrztid9TQH1MZ06-GjC-hevEAW50&mmp_pid=an_18349640001&uls_trackid=577peenq00bs&utm_campaign=id_a56bf379daaaf14d&utm_content=achadosporluh----&utm_medium=affiliates&utm_source=an_18349640001&utm_term=fwuuv9ansccw": {
-   "r": "gerado",
-   "t": 1795764609
-  },
   "link:https://shopee.com.br/opaanlp/359066629/19975160032?__mobile__=1&credential_token=3fbCuxANWw6nrzcruom5xLhQAy56o53xsm72UJRDLCegF&exp_group=rollout&gads_t_sig=gqRjZGVrxHCFomtpsTE0MjUxOnRzc19zZGtfa2V5omt20QACpGFsZ2_SAAAAZKNkZWvAomN0xEAAAAAMc1TPTF0zl9lUk9doKYfbtNkYCBZaTm6dQ6q3WJIrnGYlyLtpSCE1-D6jy2YmlKEe_b7zxJZfI6lpwZ6fqmNpcGhlcnRleHTElwAAAAwi0uWuR9xehGYmlbd6npsV3VnFVU0KRXgACl-UvNpDpw6sg8JjU_uOVdnwfhcBME076Fzbyb_p3Et_QRE0RwEZrWLp4sLIzXTscBS2BFuuWvEC4z_AvWpAxGlKu6QP9AvJ-gJrevYj2JrsZV3vqDGf6jogMVL_FTtez0Gnxk2BCZjFNV0KHhQU-kWaeHMEEQNyV7U&mmp_pid=an_18349640001&uls_trackid=577rmu3702cc&utm_campaign=id_5bf44267edf5519e&utm_content=achadosporluh----&utm_medium=affiliates&utm_source=an_18349640001&utm_term=fwwhnukj9awz": {
    "r": "falha",
    "t": 1795788341
-  },
-  "link:https://shopee.com.br/opaanlp/373261329/23399025451?__mobile__=1&credential_token=3fbCuxANX4kkiFPTtTLsnyUryyQgE4z8Uq6w7dLyTieJj&exp_group=rollout&gads_t_sig=gqRjZGVrxHCFomtpsTE0MjUxOnRzc19zZGtfa2V5omt20QACpGFsZ2_SAAAAZKNkZWvAomN0xEAAAAAMc1TPTF0zl9lUk9doKYfbtNkYCBZaTm6dQ6q3WJIrnGYlyLtpSCE1-D6jy2YmlKEe_b7zxJZfI6lpwZ6fqmNpcGhlcnRleHTElwAAAAx3--oIJydXUdPT3co_UvCnURwaLlD5sKb0o7XT-NiKj9Il2jBKwKkeUAJOyZkSOhdB3-SZ4sOIRemFGXOLl71WcSdh2YvzFhCOCdxmYrUNCnKDVAM_eHQtqszOSU54jqAnqYIC9WuFwi_4vyGR4NBb69rVKXQeIqm_sqLuBkI-dPRq_QhKAHKtOePRKR9L0vf9Hls&mmp_pid=an_18349640001&uls_trackid=577p3num00l1&utm_campaign=id_7c4117c17a7dd73c&utm_content=achadosporluh----&utm_medium=affiliates&utm_source=an_18349640001&utm_term=fwummxxu2ej1": {
-   "r": "falha",
-   "t": 1795761082
-  },
-  "link:https://shopee.com.br/opaanlp/811879342/20298661096?__mobile__=1&credential_token=3fbCuxANX4fRHLX7Y2LuoCMigV2W7s5QUrqfAriHSQ8md&exp_group=rollout&gads_t_sig=gqRjZGVrxHCFomtpsTE0MjUxOnRzc19zZGtfa2V5omt20QACpGFsZ2_SAAAAZKNkZWvAomN0xEAAAAAMc1TPTF0zl9lUk9doKYfbtNkYCBZaTm6dQ6q3WJIrnGYlyLtpSCE1-D6jy2YmlKEe_b7zxJZfI6lpwZ6fqmNpcGhlcnRleHTElwAAAAynXY1JKfikp85PmvQmEk7iHZAw8qOU0wRTcbeQ4YGf0mcAKFzPynmgVuEfudXFDWN1--0KZHel0gHHZoJCCMO_uwuX3v0Rpud2Nwt9isFs_lRPAhO1Z2cXp44hWZYdYKPfZ5oHcj7aJwT0KPDtj7XUjCXOTJqdofIl6-j7d96956Ibgw__-tdj-FsEM3P-i8PPdUA&mmp_pid=an_18349640001&uls_trackid=577p4m4l00bt&utm_campaign=id_59aab9ba99307bb4&utm_content=achadosporluh----&utm_medium=affiliates&utm_source=an_18349640001&utm_term=fwuncn8m9wz7": {
-   "r": "falha",
-   "t": 1795761390
-  },
-  "link:https://shopee.com.br/opaanlp/811879342/23993933147?__mobile__=1&credential_token=3fbCuxANX4ko8GtE6WwjFMZLenkpoeJEJPaDkjRgKpgS3&exp_group=rollout&gads_t_sig=gqRjZGVrxHCFomtpsTE0MjUxOnRzc19zZGtfa2V5omt20QACpGFsZ2_SAAAAZKNkZWvAomN0xEAAAAAMc1TPTF0zl9lUk9doKYfbtNkYCBZaTm6dQ6q3WJIrnGYlyLtpSCE1-D6jy2YmlKEe_b7zxJZfI6lpwZ6fqmNpcGhlcnRleHTElwAAAAxFVM_oC8PPIC_bb77r5NKcXj04oJpyLK2CXxxRd9Qp1oByb8V7VJ67Xr5Lkwefiw7Zm3KICm4FR6M1Gpm_TdpEZQdh1u_IbqIJc-6ilyfkrO7fTbVAEn-QJDmByu4YIlrkvRL_8yqQtSBo8W6afL7XN7v84KFK9l0FeTVbjeZHkDX4YI4l2r7ZWklGos1l-6y6S4I&mmp_pid=an_18349640001&uls_trackid=577pdiu800k8&utm_campaign=id_59aab9ba99307bb4&utm_content=achadosporluh----&utm_medium=affiliates&utm_source=an_18349640001&utm_term=fwuu7iehn2s1": {
-   "r": "falha",
-   "t": 1795764306
-  },
-  "link:https://www.amazon.com.br/dp/B0086LLUG8": {
-   "r": "gerado",
-   "t": 1795759212
-  },
-  "link:https://www.amazon.com.br/dp/B06XQ27YLL": {
-   "r": "gerado",
-   "t": 1795762229
-  },
-  "link:https://www.amazon.com.br/dp/B07XRTY3NH": {
-   "r": "gerado",
-   "t": 1795759264
   },
   "link:https://www.amazon.com.br/dp/B08L6YHZ75": {
    "r": "gerado",
    "t": 1795788233
   },
-  "link:https://www.amazon.com.br/dp/B0B3PJXDMN": {
-   "r": "gerado",
-   "t": 1795758914
-  },
-  "link:https://www.amazon.com.br/dp/B0B61WJRY5": {
-   "r": "duplicado",
-   "t": 1795756108
-  },
-  "link:https://www.amazon.com.br/dp/B0C4RV19RH": {
-   "r": "gerado",
-   "t": 1795764490
-  },
-  "link:https://www.amazon.com.br/dp/B0CFB8H4H5": {
-   "r": "duplicado",
-   "t": 1795757159
-  },
-  "link:https://www.amazon.com.br/dp/B0CVSBKF4N": {
-   "r": "gerado",
-   "t": 1795760113
-  },
-  "link:https://www.amazon.com.br/dp/B0DDDKZLJP": {
-   "r": "gerado",
-   "t": 1795762397
-  },
-  "link:https://www.amazon.com.br/dp/B0DJFSKVZ5": {
-   "r": "gerado",
-   "t": 1795764442
-  },
-  "link:https://www.amazon.com.br/dp/B0DSXZWWDM": {
-   "r": "falha",
-   "t": 1795759516
-  },
-  "link:https://www.amazon.com.br/dp/B0DSYJCY45": {
-   "r": "duplicado",
-   "t": 1795756089
-  },
-  "link:https://www.amazon.com.br/dp/B0FH2RFLCL": {
-   "r": "gerado",
-   "t": 1795763389
-  },
-  "link:https://www.amazon.com.br/dp/B0FHTBXQ93": {
-   "r": "duplicado",
-   "t": 1795762182
-  },
-  "link:https://www.amazon.com.br/dp/B0FPYS7W21": {
-   "r": "falha",
-   "t": 1795759471
-  },
-  "link:https://www.amazon.com.br/dp/B0GT5YS3F7": {
-   "r": "gerado",
-   "t": 1795764537
-  },
-  "link:https://www.amazon.com.br/dp/B0GTS998HJ": {
-   "r": "duplicado",
-   "t": 1795756132
-  },
-  "link:https://www.amazon.com.br/dp/B0GXXBDWG7": {
-   "r": "gerado",
-   "t": 1795759122
-  },
-  "link:https://www.amazon.com.br/dp/B0H277NGVR": {
-   "r": "gerado",
-   "t": 1795759316
-  },
   "link:https://www.amazon.com.br/dp/B0HBYYN84S": {
    "r": "duplicado",
    "t": 1795795051
-  },
-  "link:https://www.amazon.com.br/dp/B0HCRN58Z6": {
-   "r": "gerado",
-   "t": 1795759029
   },
   "link:https://www.epocacosmeticos.com.br/hypnotic-poison-eau-de-toilette-dior-perfume-feminino/p?idsku=514": {
    "r": "gerado",
@@ -5678,10 +6158,6 @@
   "link:https://www.epocacosmeticos.com.br/kenzo-amour-eau-de-parfum-kenzo-perfume-feminino/p?skuId=686": {
    "r": "gerado",
    "t": 1795787915
-  },
-  "link:https://www.epocacosmeticos.com.br/kit-coffret-la-vie-est-belle-lancome-perfume-eau-de-parfum--perfume-eau-de-parfum--l-corporal/p": {
-   "r": "gerado",
-   "t": 1795761336
   },
   "link:https://www.epocacosmeticos.com.br/kit-estee-lauder-skincare-the-glow-heroes-pele-iluminada-gel-de-limpeza-creme-serum-antirrugas/p?skuId=295271": {
    "r": "falha",
@@ -5694,10 +6170,6 @@
   "link:https://www.epocacosmeticos.com.br/oleo-labial-dior-lip-glow-oil-/p": {
    "r": "gerado",
    "t": 1795788595
-  },
-  "link:https://www.epocacosmeticos.com.br/perfume-212-vip-black-ny-rodeo-masculino-eau-de-parfum/p": {
-   "r": "gerado",
-   "t": 1795761131
   },
   "link:https://www.epocacosmeticos.com.br/perfume-la-bomba-carolina-herrera-feminino-eau-de-parfum/p": {
    "r": "gerado",
@@ -5735,18 +6207,6 @@
    "r": "falha",
    "t": 1795785606
   },
-  "link:https://www.mercadolivre.com.br/armani-beauty-perfume-feminino-acqua-di-gioia-eau-de-parfum-30ml/p/MLB6093115": {
-   "r": "gerado",
-   "t": 1795762150
-  },
-  "link:https://www.mercadolivre.com.br/aspirador-de-po-vertical-e-portatil-wap-high-speed-plus-1350w-3-em-1/p/MLB22511808": {
-   "r": "falha",
-   "t": 1795763010
-  },
-  "link:https://www.mercadolivre.com.br/caffeine-army-supercoffee-classic-size-sabor-doce-de-leite-380g/p/MLB51758944": {
-   "r": "falha",
-   "t": 1795761207
-  },
   "link:https://www.mercadolivre.com.br/camisa-termica-camiseta-touca-com-balaclava-protecao-uv50/up/MLBU5525319143": {
    "r": "gerado",
    "t": 1795787387
@@ -5755,53 +6215,13 @@
    "r": "duplicado",
    "t": 1795788183
   },
-  "link:https://www.mercadolivre.com.br/cooktop-5-bocas-a-gas-electrolux-mesa-de-vidro-efficient-grade-de-aco-fosco-ke5gr-bivolt/p/MLB50374350": {
-   "r": "falha",
-   "t": 1795761468
-  },
   "link:https://www.mercadolivre.com.br/creatina-growth-supplements-monohidratada-em-po-sem-sabor-x-500g/p/MLB66637233": {
    "r": "duplicado",
    "t": 1795789672
   },
-  "link:https://www.mercadolivre.com.br/creatina-monohidratada-dux-company-nutrition-po-450g-sache/p/MLB74867120": {
-   "r": "falha",
-   "t": 1795758810
-  },
-  "link:https://www.mercadolivre.com.br/essencial-exclusivo-floral-deo-parfum-feminino-natura/p/MLB26739970": {
-   "r": "duplicado",
-   "t": 1795763807
-  },
-  "link:https://www.mercadolivre.com.br/fogao-a-gas-mesa-inox-e-forno-50l-limpa-facil-esmaltec-ideal-pop-f4isp-cor-preto-4-bocas/p/MLB46112439": {
-   "r": "falha",
-   "t": 1795761283
-  },
-  "link:https://www.mercadolivre.com.br/geladeira-brastemp-duplex-415-l-110v220v-branca-brm51mb/up/MLBU5194779255": {
-   "r": "gerado",
-   "t": 1795763169
-  },
   "link:https://www.mercadolivre.com.br/iphone-16e-128-gb-branco/p/MLB46217031": {
    "r": "gerado",
    "t": 1795787093
-  },
-  "link:https://www.mercadolivre.com.br/jogo-de-jantar-e-cha-20-pecas-unni-brisa-oxford-aw20-5903/p/MLB33795714": {
-   "r": "falha",
-   "t": 1795761816
-  },
-  "link:https://www.mercadolivre.com.br/kerastase-blond-absolu-bain-lumiere-cicaflash-cicaplasme/p/MLB2064108860": {
-   "r": "falha",
-   "t": 1795764120
-  },
-  "link:https://www.mercadolivre.com.br/kerastase-blond-absolu-cicaplasme-serum-termoprotector-para-cabelo-loiro-tingido-ou-descolorido-sem-enxague-com-filtro-uv-protege-nutre-e-controla-o-frizz-150-ml/p/MLB19601146": {
-   "r": "gerado",
-   "t": 1795763668
-  },
-  "link:https://www.mercadolivre.com.br/kerastase-elixir-ultime-lhuile-originale-refillable-oleo-capilar-30ml/p/MLB37927129": {
-   "r": "duplicado",
-   "t": 1795764176
-  },
-  "link:https://www.mercadolivre.com.br/kerastase-genesis-serum-fortalecedor-anti-queda-cure-activate-365-90ml-/p/MLB19760356": {
-   "r": "gerado",
-   "t": 1795761021
   },
   "link:https://www.mercadolivre.com.br/kit-cetaphil-1-creme-hidratante-neutra-453g-1-locao-hidratante-neutra-473ml/up/MLBU3721832026": {
    "r": "duplicado",
@@ -5823,10 +6243,6 @@
    "r": "gerado",
    "t": 1795789820
   },
-  "link:https://www.mercadolivre.com.br/liquidificador-daily-ri2110-philips-walita-550w-vermelho/p/MLB15579062": {
-   "r": "falha",
-   "t": 1795762305
-  },
   "link:https://www.mercadolivre.com.br/loreal-professionnel-inforcer-kit-shampoo-300ml-e-mascara-250ml/p/MLB29482203": {
    "r": "gerado",
    "t": 1795789893
@@ -5835,57 +6251,13 @@
    "r": "gerado",
    "t": 1795788037
   },
-  "link:https://www.mercadolivre.com.br/mascara-de-tratamento-kerastase-resistance-masque-therapiste/up/MLBU5806244385": {
-   "r": "duplicado",
-   "t": 1795761593
-  },
-  "link:https://www.mercadolivre.com.br/mascara-de-tratamento-reparacao-do-cabelo-danificado-extreme-500-ml-redken/p/MLB36342599": {
-   "r": "gerado",
-   "t": 1795763575
-  },
-  "link:https://www.mercadolivre.com.br/medicube-retinol-nmn-boosting-serum-30-ml-momento-de-aplicacao-noite-tipo-de-pele-todo-tipo-de-pele/p/MLB53422339": {
-   "r": "gerado",
-   "t": 1795763998
-  },
-  "link:https://www.mercadolivre.com.br/oleo-chroma-absolu-kerastase-chroma-eclat-oleo-capilar-recarregavel-75ml/p/MLB50004317": {
-   "r": "duplicado",
-   "t": 1795761558
-  },
-  "link:https://www.mercadolivre.com.br/perfume-carolina-herrera-good-girl-blush-elixir-eau-de-parfum-80ml-feminino/p/MLB36251279": {
-   "r": "duplicado",
-   "t": 1795764232
-  },
   "link:https://www.mercadolivre.com.br/perfume-carolina-herrera-good-girl-eau-de-parfum-30-ml-feminino/p/MLB6271498": {
    "r": "gerado",
    "t": 1795789043
   },
-  "link:https://www.mercadolivre.com.br/perfume-feminino-giorgio-armani-emporio-power-of-you-eau-de-parfum-90-ml/p/MLB67373298": {
-   "r": "gerado",
-   "t": 1795761910
-  },
-  "link:https://www.mercadolivre.com.br/perfume-feminino-lancome-idole-edt-50ml/p/MLB41040173": {
-   "r": "gerado",
-   "t": 1795762078
-  },
-  "link:https://www.mercadolivre.com.br/perfume-feminino-lancome-la-vie-est-belle-lelixir-eau-de-parfum-50ml/p/MLB43277539": {
-   "r": "gerado",
-   "t": 1795762004
-  },
   "link:https://www.mercadolivre.com.br/perfume-feminino-rabanne-fame-in-love-parfum-elixir-30ml-floral-frutado-morango-baunilha/p/MLB66128130": {
    "r": "gerado",
    "t": 1795789163
-  },
-  "link:https://www.mercadolivre.com.br/perfume-jean-paul-gaultier-le-male-eau-de-toilette-200-ml-masculino/p/MLB6198268": {
-   "r": "gerado",
-   "t": 1795764701
-  },
-  "link:https://www.mercadolivre.com.br/perfume-masculino-eau-de-toilette-ralph-lauren-polo-67-75-ml/p/MLB47381290": {
-   "r": "gerado",
-   "t": 1795763742
-  },
-  "link:https://www.mercadolivre.com.br/philco-geladeira-inverter-frost-free-prf535i-inox-com-freezer-437l/p/MLB24044937": {
-   "r": "gerado",
-   "t": 1795760453
   },
   "link:https://www.mercadolivre.com.br/serum-kerastase-chroma-absolu-termoprotetor-em-spray-de-150-ml/p/MLB19513590": {
    "r": "gerado",
@@ -5895,10 +6267,6 @@
    "r": "duplicado",
    "t": 1795785539
   },
-  "link:https://www.mercadolivre.com.br/wella-professionals-fusion-kit-com-2-shampoos/up/MLBU5156468496": {
-   "r": "duplicado",
-   "t": 1795760926
-  },
   "link:https://www.mercadolivre.com.br/wella-professionals-invigo-nutri-enrich-kit-shampoo-cond/up/MLBU4921847029": {
    "r": "duplicado",
    "t": 1795788397
@@ -5906,198 +6274,6 @@
   "link:https://www.mercadolivre.com.br/whey-protein-adaptogen-tasty-de-torta-de-limao-900g/p/MLB65560424": {
    "r": "falha",
    "t": 1795789519
-  },
-  "link:https://www.mercadolivre.com.br/whey-protein-dux-company-power-810g-po-chocolate-mint/p/MLB76222763": {
-   "r": "falha",
-   "t": 1795757255
-  },
-  "pechinchou:241622": {
-   "r": "pulado:loja desconhecida",
-   "t": 1795764744
-  },
-  "pechinchou:241623": {
-   "r": "pulado:loja desconhecida",
-   "t": 1795764786
-  },
-  "pechinchou:241624": {
-   "r": "pulado:loja desconhecida",
-   "t": 1795764828
-  },
-  "pechinchou:241625": {
-   "r": "pulado:loja desconhecida",
-   "t": 1795764870
-  },
-  "pechinchou:241626": {
-   "r": "pulado:loja desconhecida",
-   "t": 1795764912
-  },
-  "pechinchou:241628": {
-   "r": "pulado:loja desconhecida",
-   "t": 1795764957
-  },
-  "pechinchou:241629": {
-   "r": "pulado:loja desconhecida",
-   "t": 1795764999
-  },
-  "pechinchou:241630": {
-   "r": "pulado:loja desconhecida",
-   "t": 1795765041
-  },
-  "pechinchou:241631": {
-   "r": "pulado:loja desconhecida",
-   "t": 1795765083
-  },
-  "pechinchou:241632": {
-   "r": "pulado:loja desconhecida",
-   "t": 1795765125
-  },
-  "pechinchou:241633": {
-   "r": "pulado:loja desconhecida",
-   "t": 1795765167
-  },
-  "pechinchou:241634": {
-   "r": "pulado:loja desconhecida",
-   "t": 1795765189
-  },
-  "pechinchou:241635": {
-   "r": "pulado:loja desconhecida",
-   "t": 1795765231
-  },
-  "pechinchou:241636": {
-   "r": "pulado:loja desconhecida",
-   "t": 1795765273
-  },
-  "pechinchou:241637": {
-   "r": "pulado:loja desconhecida",
-   "t": 1795765315
-  },
-  "pechinchou:241638": {
-   "r": "pulado:loja desconhecida",
-   "t": 1795765358
-  },
-  "pechinchou:241639": {
-   "r": "pulado:loja desconhecida",
-   "t": 1795765400
-  },
-  "pechinchou:241640": {
-   "r": "pulado:loja desconhecida",
-   "t": 1795765442
-  },
-  "pechinchou:241642": {
-   "r": "pulado:loja desconhecida",
-   "t": 1795765484
-  },
-  "pechinchou:241643": {
-   "r": "pulado:loja desconhecida",
-   "t": 1795765526
-  },
-  "pechinchou:241644": {
-   "r": "pulado:loja desconhecida",
-   "t": 1795765568
-  },
-  "pechinchou:241647": {
-   "r": "pulado:periferico de PC",
-   "t": 1795765575
-  },
-  "pechinchou:241648": {
-   "r": "pulado:loja desconhecida",
-   "t": 1795765617
-  },
-  "pechinchou:241650": {
-   "r": "pulado:loja desconhecida",
-   "t": 1795765662
-  },
-  "pechinchou:241658": {
-   "r": "pulado:loja desconhecida",
-   "t": 1795765714
-  },
-  "pechinchou:241666": {
-   "r": "pulado:loja desconhecida",
-   "t": 1795765773
-  },
-  "pechinchou:241670": {
-   "r": "pulado:loja desconhecida",
-   "t": 1795765826
-  },
-  "pechinchou:241671": {
-   "r": "pulado:loja desconhecida",
-   "t": 1795765868
-  },
-  "pechinchou:241674": {
-   "r": "pulado:loja desconhecida",
-   "t": 1795765914
-  },
-  "pechinchou:241675": {
-   "r": "pulado:loja desconhecida",
-   "t": 1795765955
-  },
-  "pechinchou:241676": {
-   "r": "pulado:loja desconhecida",
-   "t": 1795765998
-  },
-  "pechinchou:241678": {
-   "r": "pulado:loja desconhecida",
-   "t": 1795766042
-  },
-  "pechinchou:241679": {
-   "r": "pulado:loja desconhecida",
-   "t": 1795766084
-  },
-  "pechinchou:241680": {
-   "r": "pulado:repetido",
-   "t": 1795772681
-  },
-  "pechinchou:241681": {
-   "r": "pulado:loja desconhecida",
-   "t": 1795766130
-  },
-  "pechinchou:241682": {
-   "r": "pulado:loja desconhecida",
-   "t": 1795766132
-  },
-  "pechinchou:241683": {
-   "r": "pulado:periferico de PC",
-   "t": 1795766139
-  },
-  "pechinchou:241686": {
-   "r": "pulado:loja desconhecida",
-   "t": 1795766188
-  },
-  "pechinchou:241691": {
-   "r": "pulado:loja desconhecida",
-   "t": 1795766239
-  },
-  "pechinchou:241692": {
-   "r": "pulado:loja desconhecida",
-   "t": 1795766281
-  },
-  "pechinchou:241694": {
-   "r": "pulado:aliexpress (bloqueado)",
-   "t": 1795766285
-  },
-  "pechinchou:241695": {
-   "r": "pulado:aliexpress (bloqueado)",
-   "t": 1795766285
-  },
-  "pechinchou:241697": {
-   "r": "pulado:aliexpress (bloqueado)",
-   "t": 1795766288
-  },
-  "pechinchou:241698": {
-   "r": "pulado:aliexpress (bloqueado)",
-   "t": 1795766288
-  },
-  "pechinchou:241699": {
-   "r": "pulado:loja desconhecida",
-   "t": 1795766330
-  },
-  "pechinchou:241704": {
-   "r": "pulado:loja desconhecida",
-   "t": 1795766383
-  },
-  "pechinchou:241705": {
-   "r": "pulado:loja desconhecida",
-   "t": 1795766425
   },
   "pechinchou:241797": {
    "r": "pulado:loja desconhecida",
@@ -6247,14 +6423,6 @@
    "r": "pulado:loja desconhecida",
    "t": 1795791114
   },
-  "perfumepromo:10273": {
-   "r": "pulado:so cupom (ignorado)",
-   "t": 1795754606
-  },
-  "perfumepromo:10274": {
-   "r": "duplicado",
-   "t": 1795766441
-  },
   "perfumepromo:10275": {
    "r": "duplicado",
    "t": 1795791131
@@ -6282,198 +6450,6 @@
   "perfumepromo:10281": {
    "r": "duplicado",
    "t": 1795791394
-  },
-  "pincei:372766": {
-   "r": "pulado:so cupom (ignorado)",
-   "t": 1795754608
-  },
-  "pincei:372767": {
-   "r": "pulado:so cupom (ignorado)",
-   "t": 1795754608
-  },
-  "pincei:372768": {
-   "r": "gerado",
-   "t": 1795754690
-  },
-  "pincei:372769": {
-   "r": "falha",
-   "t": 1795754731
-  },
-  "pincei:372770": {
-   "r": "duplicado",
-   "t": 1795754746
-  },
-  "pincei:372773": {
-   "r": "gerado",
-   "t": 1795755877
-  },
-  "pincei:372774": {
-   "r": "pulado:periferico de PC",
-   "t": 1795755880
-  },
-  "pincei:372775": {
-   "r": "pulado:repetido",
-   "t": 1795755888
-  },
-  "pincei:372776": {
-   "r": "falha",
-   "t": 1795755929
-  },
-  "pincei:372777": {
-   "r": "pulado:periferico de PC",
-   "t": 1795755931
-  },
-  "pincei:372778": {
-   "r": "gerado",
-   "t": 1795756015
-  },
-  "pincei:372779": {
-   "r": "pulado:so cupom (ignorado)",
-   "t": 1795756024
-  },
-  "pincei:372780": {
-   "r": "falha",
-   "t": 1795756064
-  },
-  "pincei:372781": {
-   "r": "pulado:periferico de PC",
-   "t": 1795756065
-  },
-  "pincei:372782": {
-   "r": "pulado:sem preco",
-   "t": 1795756071
-  },
-  "pincei:372783": {
-   "r": "duplicado",
-   "t": 1795756089
-  },
-  "pincei:372784": {
-   "r": "duplicado",
-   "t": 1795756108
-  },
-  "pincei:372785": {
-   "r": "pulado:sem preco",
-   "t": 1795756113
-  },
-  "pincei:372786": {
-   "r": "pulado:repetido",
-   "t": 1795756114
-  },
-  "pincei:372787": {
-   "r": "duplicado",
-   "t": 1795756132
-  },
-  "pincei:372790": {
-   "r": "pulado:so cupom (ignorado)",
-   "t": 1795757117
-  },
-  "pincei:372791": {
-   "r": "pulado:repetido",
-   "t": 1795757144
-  },
-  "pincei:372792": {
-   "r": "duplicado",
-   "t": 1795757159
-  },
-  "pincei:372793": {
-   "r": "pulado:repetido",
-   "t": 1795757186
-  },
-  "pincei:372794": {
-   "r": "falha",
-   "t": 1795757255
-  },
-  "pincei:372795": {
-   "r": "pulado:so cupom (ignorado)",
-   "t": 1795757283
-  },
-  "pincei:372799": {
-   "r": "falha",
-   "t": 1795758810
-  },
-  "pincei:372800": {
-   "r": "pulado:repetido",
-   "t": 1795758837
-  },
-  "pincei:372801": {
-   "r": "gerado",
-   "t": 1795758914
-  },
-  "pincei:372802": {
-   "r": "pulado:repetido",
-   "t": 1795758941
-  },
-  "pincei:372803": {
-   "r": "gerado",
-   "t": 1795759029
-  },
-  "pincei:372804": {
-   "r": "pulado:sem preco",
-   "t": 1795759035
-  },
-  "pincei:372805": {
-   "r": "gerado",
-   "t": 1795759122
-  },
-  "pincei:372806": {
-   "r": "pulado:loja desativada: aliexpress",
-   "t": 1795759130
-  },
-  "pincei:372807": {
-   "r": "pulado:loja desativada: aliexpress",
-   "t": 1795759138
-  },
-  "pincei:372808": {
-   "r": "pulado:so cupom (ignorado)",
-   "t": 1795759146
-  },
-  "pincei:372809": {
-   "r": "pulado:loja desativada: aliexpress",
-   "t": 1795759154
-  },
-  "pincei:372810": {
-   "r": "pulado:loja desativada: aliexpress",
-   "t": 1795759161
-  },
-  "pincei:372811": {
-   "r": "gerado",
-   "t": 1795759212
-  },
-  "pincei:372812": {
-   "r": "gerado",
-   "t": 1795759264
-  },
-  "pincei:372813": {
-   "r": "gerado",
-   "t": 1795759316
-  },
-  "pincei:372814": {
-   "r": "pulado:repetido",
-   "t": 1795759321
-  },
-  "pincei:372815": {
-   "r": "pulado:repetido",
-   "t": 1795759326
-  },
-  "pincei:372816": {
-   "r": "pulado:loja desativada: aliexpress",
-   "t": 1795759333
-  },
-  "pincei:372817": {
-   "r": "pulado:loja desativada: aliexpress",
-   "t": 1795759341
-  },
-  "pincei:372818": {
-   "r": "pulado:loja desconhecida",
-   "t": 1795759424
-  },
-  "pincei:372819": {
-   "r": "falha",
-   "t": 1795759471
-  },
-  "pincei:372820": {
-   "r": "falha",
-   "t": 1795759516
   },
   "pincei:372829": {
    "r": "pulado:repetido",
@@ -6603,6 +6579,10 @@
    "r": "pulado:loja desconhecida",
    "t": 1795787389
   },
+  "pincei:372921": {
+   "r": "pulado:repetido",
+   "t": 1795797590
+  },
   "pincei:372923": {
    "r": "gerado",
    "t": 1795787797
@@ -6614,410 +6594,6 @@
   "pincei:372925": {
    "r": "pulado:repetido",
    "t": 1795787829
-  },
-  "promosdaluh:326856": {
-   "r": "falha",
-   "t": 1795759571
-  },
-  "promosdaluh:326857": {
-   "r": "pulado:trava preco",
-   "t": 1795759572
-  },
-  "promosdaluh:326858": {
-   "r": "pulado:repetido",
-   "t": 1795759574
-  },
-  "promosdaluh:326859": {
-   "r": "pulado:trava preco",
-   "t": 1795759576
-  },
-  "promosdaluh:326860": {
-   "r": "pulado:loja desconhecida",
-   "t": 1795759620
-  },
-  "promosdaluh:326861": {
-   "r": "pulado:trava preco",
-   "t": 1795759625
-  },
-  "promosdaluh:326862": {
-   "r": "gerado",
-   "t": 1795759700
-  },
-  "promosdaluh:326863": {
-   "r": "pulado:trava preco",
-   "t": 1795759705
-  },
-  "promosdaluh:326864": {
-   "r": "falha",
-   "t": 1795759763
-  },
-  "promosdaluh:326865": {
-   "r": "falha",
-   "t": 1795759816
-  },
-  "promosdaluh:326866": {
-   "r": "falha",
-   "t": 1795759870
-  },
-  "promosdaluh:326867": {
-   "r": "pulado:repetido",
-   "t": 1795759894
-  },
-  "promosdaluh:326868": {
-   "r": "pulado:trava preco",
-   "t": 1795759898
-  },
-  "promosdaluh:326869": {
-   "r": "pulado:trava preco",
-   "t": 1795759903
-  },
-  "promosdaluh:326870": {
-   "r": "pulado:trava preco",
-   "t": 1795759907
-  },
-  "promosdaluh:326871": {
-   "r": "pulado:trava preco",
-   "t": 1795759912
-  },
-  "promosdaluh:326872": {
-   "r": "falha",
-   "t": 1795759968
-  },
-  "promosdaluh:326873": {
-   "r": "gerado",
-   "t": 1795760064
-  },
-  "promosdaluh:326874": {
-   "r": "gerado",
-   "t": 1795760113
-  },
-  "promosdaluh:326875": {
-   "r": "pulado:repetido",
-   "t": 1795760156
-  },
-  "promosdaluh:326876": {
-   "r": "pulado:repetido",
-   "t": 1795760177
-  },
-  "promosdaluh:326877": {
-   "r": "pulado:repetido",
-   "t": 1795760177
-  },
-  "promosdaluh:326878": {
-   "r": "pulado:repetido",
-   "t": 1795760220
-  },
-  "promosdaluh:326879": {
-   "r": "falha",
-   "t": 1795760274
-  },
-  "promosdaluh:326880": {
-   "r": "pulado:loja desconhecida",
-   "t": 1795760317
-  },
-  "promosdaluh:326881": {
-   "r": "pulado:repetido",
-   "t": 1795760359
-  },
-  "promosdaluh:326882": {
-   "r": "gerado",
-   "t": 1795760453
-  },
-  "promosdaluh:326883": {
-   "r": "pulado:repetido",
-   "t": 1795760495
-  },
-  "promosdaluh:326884": {
-   "r": "pulado:repetido",
-   "t": 1795760538
-  },
-  "promosdaluh:326885": {
-   "r": "falha",
-   "t": 1795760595
-  },
-  "promosdaluh:326886": {
-   "r": "falha",
-   "t": 1795760651
-  },
-  "promosdaluh:326887": {
-   "r": "pulado:periferico de PC",
-   "t": 1795760653
-  },
-  "promosdaluh:326888": {
-   "r": "pulado:so cupom (ignorado)",
-   "t": 1795760694
-  },
-  "promosdaluh:326889": {
-   "r": "pulado:so cupom (ignorado)",
-   "t": 1795760779
-  },
-  "promosdaluh:326890": {
-   "r": "pulado:repetido",
-   "t": 1795760821
-  },
-  "promosdaluh:326891": {
-   "r": "pulado:loja desconhecida",
-   "t": 1795760865
-  },
-  "promosdaluh:326892": {
-   "r": "duplicado",
-   "t": 1795760926
-  },
-  "promosdaluh:326893": {
-   "r": "gerado",
-   "t": 1795761021
-  },
-  "promosdaluh:326894": {
-   "r": "pulado:repetido",
-   "t": 1795761026
-  },
-  "promosdaluh:326895": {
-   "r": "falha",
-   "t": 1795761082
-  },
-  "promosdaluh:326896": {
-   "r": "gerado",
-   "t": 1795761131
-  },
-  "promosdaluh:326897": {
-   "r": "falha",
-   "t": 1795761207
-  },
-  "promosdaluh:326898": {
-   "r": "falha",
-   "t": 1795761283
-  },
-  "promosdaluh:326899": {
-   "r": "gerado",
-   "t": 1795761336
-  },
-  "promosdaluh:326900": {
-   "r": "falha",
-   "t": 1795761390
-  },
-  "promosdaluh:326901": {
-   "r": "falha",
-   "t": 1795761468
-  },
-  "promosdaluh:326902": {
-   "r": "falha",
-   "t": 1795761521
-  },
-  "promosdaluh:326903": {
-   "r": "pulado:repetido",
-   "t": 1795761521
-  },
-  "promosdaluh:326904": {
-   "r": "duplicado",
-   "t": 1795761558
-  },
-  "promosdaluh:326905": {
-   "r": "duplicado",
-   "t": 1795761593
-  },
-  "promosdaluh:326906": {
-   "r": "duplicado",
-   "t": 1795761610
-  },
-  "promosdaluh:326907": {
-   "r": "pulado:trava preco",
-   "t": 1795761614
-  },
-  "promosdaluh:326908": {
-   "r": "falha",
-   "t": 1795761671
-  },
-  "promosdaluh:326909": {
-   "r": "duplicado",
-   "t": 1795761684
-  },
-  "promosdaluh:326910": {
-   "r": "falha",
-   "t": 1795761738
-  },
-  "promosdaluh:326911": {
-   "r": "pulado:trava preco",
-   "t": 1795761740
-  },
-  "promosdaluh:326912": {
-   "r": "falha",
-   "t": 1795761816
-  },
-  "promosdaluh:326913": {
-   "r": "gerado",
-   "t": 1795761910
-  },
-  "promosdaluh:326914": {
-   "r": "gerado",
-   "t": 1795762004
-  },
-  "promosdaluh:326915": {
-   "r": "gerado",
-   "t": 1795762078
-  },
-  "promosdaluh:326916": {
-   "r": "gerado",
-   "t": 1795762150
-  },
-  "promosdaluh:326917": {
-   "r": "duplicado",
-   "t": 1795762182
-  },
-  "promosdaluh:326918": {
-   "r": "gerado",
-   "t": 1795762229
-  },
-  "promosdaluh:326919": {
-   "r": "pulado:repetido",
-   "t": 1795762229
-  },
-  "promosdaluh:326920": {
-   "r": "falha",
-   "t": 1795762305
-  },
-  "promosdaluh:326921": {
-   "r": "pulado:trava preco",
-   "t": 1795762347
-  },
-  "promosdaluh:326922": {
-   "r": "gerado",
-   "t": 1795762397
-  },
-  "promosdaluh:326924": {
-   "r": "falha",
-   "t": 1795763010
-  },
-  "promosdaluh:326925": {
-   "r": "pulado:repetido",
-   "t": 1795763053
-  },
-  "promosdaluh:326926": {
-   "r": "pulado:repetido",
-   "t": 1795763095
-  },
-  "promosdaluh:326927": {
-   "r": "gerado",
-   "t": 1795763169
-  },
-  "promosdaluh:326930": {
-   "r": "pulado:repetido",
-   "t": 1795763296
-  },
-  "promosdaluh:326931": {
-   "r": "gerado",
-   "t": 1795763389
-  },
-  "promosdaluh:326932": {
-   "r": "pulado:loja desconhecida",
-   "t": 1795763432
-  },
-  "promosdaluh:326933": {
-   "r": "pulado:repetido",
-   "t": 1795763453
-  },
-  "promosdaluh:326934": {
-   "r": "gerado",
-   "t": 1795763575
-  },
-  "promosdaluh:326935": {
-   "r": "gerado",
-   "t": 1795763668
-  },
-  "promosdaluh:326936": {
-   "r": "gerado",
-   "t": 1795763742
-  },
-  "promosdaluh:326937": {
-   "r": "duplicado",
-   "t": 1795763807
-  },
-  "promosdaluh:326938": {
-   "r": "pulado:repetido",
-   "t": 1795763850
-  },
-  "promosdaluh:326939": {
-   "r": "pulado:repetido",
-   "t": 1795763893
-  },
-  "promosdaluh:326940": {
-   "r": "gerado",
-   "t": 1795763998
-  },
-  "promosdaluh:326941": {
-   "r": "pulado:repetido",
-   "t": 1795764020
-  },
-  "promosdaluh:326942": {
-   "r": "pulado:repetido",
-   "t": 1795764042
-  },
-  "promosdaluh:326943": {
-   "r": "falha",
-   "t": 1795764120
-  },
-  "promosdaluh:326944": {
-   "r": "duplicado",
-   "t": 1795764176
-  },
-  "promosdaluh:326945": {
-   "r": "duplicado",
-   "t": 1795764232
-  },
-  "promosdaluh:326946": {
-   "r": "pulado:mesmo link",
-   "t": 1795764253
-  },
-  "promosdaluh:326947": {
-   "r": "falha",
-   "t": 1795764306
-  },
-  "promosdaluh:326948": {
-   "r": "pulado:repetido",
-   "t": 1795764308
-  },
-  "promosdaluh:326949": {
-   "r": "pulado:periferico de PC",
-   "t": 1795764350
-  },
-  "promosdaluh:326950": {
-   "r": "gerado",
-   "t": 1795764442
-  },
-  "promosdaluh:326951": {
-   "r": "pulado:repetido",
-   "t": 1795764443
-  },
-  "promosdaluh:326952": {
-   "r": "gerado",
-   "t": 1795764490
-  },
-  "promosdaluh:326953": {
-   "r": "gerado",
-   "t": 1795764537
-  },
-  "promosdaluh:326954": {
-   "r": "gerado",
-   "t": 1795764609
-  },
-  "promosdaluh:326955": {
-   "r": "gerado",
-   "t": 1795764701
-  },
-  "promosdaluh:326965": {
-   "r": "pulado:loja desconhecida",
-   "t": 1795773876
-  },
-  "promosdaluh:326966": {
-   "r": "pulado:loja desconhecida",
-   "t": 1795773918
-  },
-  "promosdaluh:326967": {
-   "r": "esgotado_avisado",
-   "t": 1795773918
-  },
-  "promosdaluh:326968": {
-   "r": "pulado:so cupom (ignorado)",
-   "t": 1795774003
   },
   "promosdaluh:327059": {
    "r": "falha",
@@ -7170,18 +6746,6 @@
   "promotom:116063": {
    "r": "falha",
    "t": 1795794044
-  },
-  "promotom:116099": {
-   "r": "pulado:loja desconhecida",
-   "t": 1795773821
-  },
-  "promotom:116100": {
-   "r": "pulado:sem preco",
-   "t": 1795773821
-  },
-  "promotom:116101": {
-   "r": "pulado:sem preco",
-   "t": 1795773823
   },
   "promotom:116103": {
    "r": "pulado:sem preco",
@@ -15459,134 +15023,6 @@
    "txt": "🔝💥COOORREEE, BAIXOU MAISL\n\nCerveja Premium 5L Barril Heineken\n\n🔥 R$ 64,00 VIA PIX\n\n👉RESGATE O CUPOM DE R$16:\nhttps://s.shopee.com.br/7fbifV8FiS\n\n🛍️ COMPRE AQUI:\nhttps://pincei.co/e/fVqclJxIFjk_m4\n\n🟡 Grupo Pincei Bebidas:\nhttps://join.pincei.co/bebidas"
   },
   {
-   "canal": "pincei",
-   "id": 372891,
-   "n": 1,
-   "quando": 1795785168.8469062,
-   "t": 1795784688.846906,
-   "txt": "Celular Samsung Galaxy A17 5G 256GB\n\n🔥 R$ 1.057,08 VIA PIX\n\n👉RESGATE O CUPOM DE R$100:\nhttps://pincei.co/e/5ba83fd3\n\n🛍️ COMPRE AQUI:\nhttps://pincei.co/e/f4NgygJShtt_m4\n\n🔵 Grupo Pincei Tech:\nhttps://join.pincei.co/tech"
-  },
-  {
-   "canal": "pincei",
-   "id": 372894,
-   "n": 1,
-   "quando": 1795785352.5596342,
-   "t": 1795784872.559634,
-   "txt": "SAI 3,90 CADA LATA 🍻\n\nCerveja Heineken Zero Lata 350ml - Pack com 12 Unidades\n\n🔥 R$ 46,90 VIA PIX\n\n👉RESGATE O CUPOM DE R$30:\nhttps://s.shopee.com.br/7fbifV8FiS\n\n🛍️ COMPRE AQUI:\nhttps://pincei.co/e/axEOUZB6EDa_m4\n\n🟡 Grupo Pincei Bebidas:\nhttps://join.pincei.co/bebidas"
-  },
-  {
-   "canal": "pincei",
-   "id": 372895,
-   "n": 1,
-   "quando": 1795785508.4699047,
-   "t": 1795785028.4699044,
-   "txt": "Cetaphil Loção Hidratante Galderma para Pele Normal a Seca 473ml\n\n🔥 R$ 46,89 VIA PIX\n\n👉RESGATE O CUPOM DE 30%\nhttps://pincei.co/e/5ba83fd3\n\n🛍️ COMPRE AQUI:\nhttps://pincei.co/e/1SMXod2DufA_m4\n\n💖 Grupo Pincei Beleza:\nhttps://join.pincei.co/beleza"
-  },
-  {
-   "canal": "pincei",
-   "id": 372896,
-   "n": 1,
-   "quando": 1795785662.1479757,
-   "t": 1795785182.1479754,
-   "txt": "TA BARATO!!!\n\nCacheador Britânia 25mm Revestimento Cerâmico\n\n🔥 R$ 35,92 VIA PIX\n\n👉RESGATE O CUPOM DE R$20:\nhttps://s.shopee.com.br/7fbifV8FiS\n\n🛍️ COMPRE AQUI:\nhttps://pincei.co/e/iZ5j1vvYQyl_m4\n\n💖 Grupo Pincei Beleza:\nhttps://join.pincei.co/beleza"
-  },
-  {
-   "canal": "pincei",
-   "id": 372898,
-   "n": 1,
-   "quando": 1795785824.4409568,
-   "t": 1795785344.4409568,
-   "txt": "🚨 CUIDA QUE VOLTOU\n\nCerveja Heineken Long Neck 330ml - Pack com 6 Unidades\n\n🔥 R$ 27,29 VIA PIX\n🔥 R$ 4,55 CADA\n\n👉RESGATE O CUPOM DE 30%\nhttps://pincei.co/e/5ba83fd3\n\n🛍️ COMPRE AQUI:\nhttps://pincei.co/e/cfewIDAotpS_m4\n\n🟡 Grupo Pincei Bebidas:\nhttps://join.pincei.co/bebidas"
-  },
-  {
-   "canal": "pincei",
-   "id": 372899,
-   "n": 1,
-   "quando": 1795785978.2061982,
-   "t": 1795785498.206198,
-   "txt": "🚨🚨CORREEE\n\nBody Splash Masculino Ocean Homme Barbours 200ml\n\n🔥 R$ 25,13 VIA PIX\n\n👉RESGATE O CUPOM DE R$30:\nhttps://s.shopee.com.br/7fbifV8FiS\n\n🛍️ COMPRE AQUI:\nhttps://pincei.co/e/gMzHgTfOQCC_m4\n\n⚪️ Grupo Pincei Perfumes:\nhttps://join.pincei.co/perfumes"
-  },
-  {
-   "canal": "pincei",
-   "id": 372903,
-   "n": 1,
-   "quando": 1795786283.77195,
-   "t": 1795785803.7719498,
-   "txt": "Smart TV 43\" Philco QLED HDR10 Roku TV\n\n🔥 R$ 1.149,91 VIA PIX\n\n👉RESGATE O CUPOM DE R$100:\nhttps://pincei.co/e/5ba83fd3\n\n🛍️ COMPRE AQUI:\nhttps://pincei.co/e/9ba4BZEl3PR_m4\n\n🔵 Grupo Pincei Tech:\nhttps://join.pincei.co/tech"
-  },
-  {
-   "canal": "pincei",
-   "id": 372904,
-   "n": 1,
-   "quando": 1795786438.8030188,
-   "t": 1795785958.8030186,
-   "txt": "Jbl Partybox Stage 320\n\n🔥 R$ 2.279,67 VIA PIX\n\n👉RESGATE O CUPOM DE R$100:\nhttps://pincei.co/e/5ba83fd3\n\n🛍️ COMPRE AQUI:\nhttps://pincei.co/e/45HQprplQvA_m4\n\n🔵 Grupo Pincei Tech:\nhttps://join.pincei.co/tech"
-  },
-  {
-   "canal": "pincei",
-   "id": 372907,
-   "n": 1,
-   "quando": 1795786700.0805316,
-   "t": 1795786220.0805314,
-   "txt": "🚨 Fritadeira Air Fryer Oven AFON-12L-FG 12L Digital 2000W Mondial\n\n🔥 R$ 425,13 VIA PIX\n\n👉RESGATE O CUPOM DE R$50:\nhttps://s.shopee.com.br/7fbifV8FiS\n\n🛍️ COMPRE AQUI:\nhttps://pincei.co/e/a7bX9Xh70gM_m4\n\n🟤 Grupo Pincei Casa:\nhttps://join.pincei.co/casa"
-  },
-  {
-   "canal": "pincei",
-   "id": 372909,
-   "n": 1,
-   "quando": 1795786965.7685912,
-   "t": 1795786485.768591,
-   "txt": "Smartphone Motorola Moto G17 4G 128GB 4GB RAM\n\n🔥 R$ 601,68 VIA PIX\n\n👉RESGATE O CUPOM DE R$100:\nhttps://pincei.co/e/5ba83fd3\n\n🛍️ COMPRE AQUI:\nhttps://pincei.co/e/2KIRL8m84Bs_m4\n\n🔵 Grupo Pincei Tech:\nhttps://join.pincei.co/tech"
-  },
-  {
-   "canal": "pincei",
-   "id": 372910,
-   "n": 1,
-   "quando": 1795787123.0632334,
-   "t": 1795786643.0632331,
-   "txt": "Smart TV 50\" Samsung 4K UHD Crystal UHD One UI Tizen 2026\n\n🔥 R$ 2.069,08 VIA PIX\n\n👉RESGATE O CUPOM DE R$100:\nhttps://pincei.co/e/5ba83fd3\n\n🛍️ COMPRE AQUI:\nhttps://pincei.co/e/9deXHCGylKb_m4\n\n🔵 Grupo Pincei Tech:\nhttps://join.pincei.co/tech"
-  },
-  {
-   "canal": "pincei",
-   "id": 372912,
-   "n": 1,
-   "quando": 1795787306.0494192,
-   "t": 1795786826.049419,
-   "txt": "Cafeteira Espresso Philco 20 Bar com Painel Digital\n\n🔥 R$ 379,91 VIA PIX\n\n👉RESGATE O CUPOM DE R$50:\nhttps://pincei.co/e/5ba83fd3\n\n🛍️ COMPRE AQUI:\nhttps://pincei.co/e/7edegK4tknF_m4\n\n🟤 Grupo Pincei Casa:\nhttps://join.pincei.co/casa"
-  },
-  {
-   "canal": "pincei",
-   "id": 372913,
-   "n": 1,
-   "quando": 1795787460.9867787,
-   "t": 1795786980.9867787,
-   "txt": "🚨🚨\n\nConsole Nintendo Switch OLED Bundle Super Mario Bros Wonder\n\n🔥 R$ 1.655,08 VIA PIX\n\n👉RESGATE O CUPOM DE R$100:\nhttps://s.shopee.com.br/7fbifV8FiS\n\n🛍️ COMPRE AQUI:\nhttps://pincei.co/e/b7duuaGWyzC_m4\n\n🔵 Grupo Pincei Tech:\nhttps://join.pincei.co/tech"
-  },
-  {
-   "canal": "pincei",
-   "id": 372917,
-   "n": 1,
-   "quando": 1795787762.2953947,
-   "t": 1795787282.2953944,
-   "txt": "😍😍\n\nFechadura Intelbras Digital de Sobrepor FD 1000 4670100\n\n🔥 R$ 276,36 VIA PIX\n\n👉RESGATE O CUPOM DE R$40:\nhttps://s.shopee.com.br/7fbifV8FiS\n\n🛍️ COMPRE AQUI:\nhttps://pincei.co/e/04Q5XQNHNZ7_m4\n\n🟤 Grupo Pincei Casa:\nhttps://join.pincei.co/casa"
-  },
-  {
-   "canal": "pincei",
-   "id": 372921,
-   "n": 1,
-   "quando": 1795788022.7721066,
-   "t": 1795787542.7721064,
-   "txt": "A BLACK TÁ NO AR!‼️\n\nAntena de Internet Via Satélite Starlink Mini\n\n🔥 R$ 351,50 VIA PIX\n\n👉RESGATE O CUPOM DE R$50:\nhttps://s.shopee.com.br/7fbifV8FiS\n\n🛍️ COMPRE AQUI:\nhttps://pincei.co/e/gEBf1SgGlgy_m4\n\n🔵 Grupo Pincei Tech:\nhttps://join.pincei.co/tech"
-  },
-  {
-   "canal": "pincei",
-   "id": 372922,
-   "n": 1,
-   "quando": 1795788176.6612825,
-   "t": 1795787696.6612823,
-   "txt": "🔥 SEU PRÓXIMO UPGRADE CHEGOU!\n\nSmartphone Motorola Moto G37 5G\n\n🔥 R$ 883,20 VIA PIX\n\n👉RESGATE O CUPOM DE R$100:\nhttps://s.shopee.com.br/7fbifV8FiS\n\n🛍️ COMPRE AQUI:\nhttps://pincei.co/e/22oVZHUR9Wd_m4\n\n🔵 Grupo Pincei Tech:\nhttps://join.pincei.co/tech"
-  },
-  {
    "canal": "fumotom",
    "id": 54238,
    "n": 1,
@@ -15737,6 +15173,126 @@
    "quando": 1795795711.23902,
    "t": 1795795231.2390199,
    "txt": "Ar Condicionado Split Haier 9000 Btus Inverter Frio Branco 220v\n\n💵 R$ 1121\n🎟️ Cupom: CONECTAML + Resgate o cupom do anúncio\n✅ https://meli.la/1MHoLat\n\n🤑 Grupos de ofertas: https://iuriindica.com.br"
+  },
+  {
+   "canal": "pincei",
+   "id": 372891,
+   "n": 2,
+   "quando": 1795796049.993013,
+   "t": 1795784688.846906,
+   "txt": "Celular Samsung Galaxy A17 5G 256GB\n\n🔥 R$ 1.057,08 VIA PIX\n\n👉RESGATE O CUPOM DE R$100:\nhttps://pincei.co/e/5ba83fd3\n\n🛍️ COMPRE AQUI:\nhttps://pincei.co/e/f4NgygJShtt_m4\n\n🔵 Grupo Pincei Tech:\nhttps://join.pincei.co/tech"
+  },
+  {
+   "canal": "pincei",
+   "id": 372894,
+   "n": 2,
+   "quando": 1795796205.1293843,
+   "t": 1795784872.559634,
+   "txt": "SAI 3,90 CADA LATA 🍻\n\nCerveja Heineken Zero Lata 350ml - Pack com 12 Unidades\n\n🔥 R$ 46,90 VIA PIX\n\n👉RESGATE O CUPOM DE R$30:\nhttps://s.shopee.com.br/7fbifV8FiS\n\n🛍️ COMPRE AQUI:\nhttps://pincei.co/e/axEOUZB6EDa_m4\n\n🟡 Grupo Pincei Bebidas:\nhttps://join.pincei.co/bebidas"
+  },
+  {
+   "canal": "pincei",
+   "id": 372895,
+   "n": 2,
+   "quando": 1795796359.9193108,
+   "t": 1795785028.4699044,
+   "txt": "Cetaphil Loção Hidratante Galderma para Pele Normal a Seca 473ml\n\n🔥 R$ 46,89 VIA PIX\n\n👉RESGATE O CUPOM DE 30%\nhttps://pincei.co/e/5ba83fd3\n\n🛍️ COMPRE AQUI:\nhttps://pincei.co/e/1SMXod2DufA_m4\n\n💖 Grupo Pincei Beleza:\nhttps://join.pincei.co/beleza"
+  },
+  {
+   "canal": "pincei",
+   "id": 372896,
+   "n": 2,
+   "quando": 1795796513.8492856,
+   "t": 1795785182.1479754,
+   "txt": "TA BARATO!!!\n\nCacheador Britânia 25mm Revestimento Cerâmico\n\n🔥 R$ 35,92 VIA PIX\n\n👉RESGATE O CUPOM DE R$20:\nhttps://s.shopee.com.br/7fbifV8FiS\n\n🛍️ COMPRE AQUI:\nhttps://pincei.co/e/iZ5j1vvYQyl_m4\n\n💖 Grupo Pincei Beleza:\nhttps://join.pincei.co/beleza"
+  },
+  {
+   "canal": "pincei",
+   "id": 372898,
+   "n": 2,
+   "quando": 1795796670.04334,
+   "t": 1795785344.4409568,
+   "txt": "🚨 CUIDA QUE VOLTOU\n\nCerveja Heineken Long Neck 330ml - Pack com 6 Unidades\n\n🔥 R$ 27,29 VIA PIX\n🔥 R$ 4,55 CADA\n\n👉RESGATE O CUPOM DE 30%\nhttps://pincei.co/e/5ba83fd3\n\n🛍️ COMPRE AQUI:\nhttps://pincei.co/e/cfewIDAotpS_m4\n\n🟡 Grupo Pincei Bebidas:\nhttps://join.pincei.co/bebidas"
+  },
+  {
+   "canal": "pincei",
+   "id": 372899,
+   "n": 2,
+   "quando": 1795796825.0459623,
+   "t": 1795785498.206198,
+   "txt": "🚨🚨CORREEE\n\nBody Splash Masculino Ocean Homme Barbours 200ml\n\n🔥 R$ 25,13 VIA PIX\n\n👉RESGATE O CUPOM DE R$30:\nhttps://s.shopee.com.br/7fbifV8FiS\n\n🛍️ COMPRE AQUI:\nhttps://pincei.co/e/gMzHgTfOQCC_m4\n\n⚪️ Grupo Pincei Perfumes:\nhttps://join.pincei.co/perfumes"
+  },
+  {
+   "canal": "pincei",
+   "id": 372903,
+   "n": 2,
+   "quando": 1795796982.1349506,
+   "t": 1795785803.7719498,
+   "txt": "Smart TV 43\" Philco QLED HDR10 Roku TV\n\n🔥 R$ 1.149,91 VIA PIX\n\n👉RESGATE O CUPOM DE R$100:\nhttps://pincei.co/e/5ba83fd3\n\n🛍️ COMPRE AQUI:\nhttps://pincei.co/e/9ba4BZEl3PR_m4\n\n🔵 Grupo Pincei Tech:\nhttps://join.pincei.co/tech"
+  },
+  {
+   "canal": "pincei",
+   "id": 372904,
+   "n": 2,
+   "quando": 1795797139.1304455,
+   "t": 1795785958.8030186,
+   "txt": "Jbl Partybox Stage 320\n\n🔥 R$ 2.279,67 VIA PIX\n\n👉RESGATE O CUPOM DE R$100:\nhttps://pincei.co/e/5ba83fd3\n\n🛍️ COMPRE AQUI:\nhttps://pincei.co/e/45HQprplQvA_m4\n\n🔵 Grupo Pincei Tech:\nhttps://join.pincei.co/tech"
+  },
+  {
+   "canal": "pincei",
+   "id": 372907,
+   "n": 2,
+   "quando": 1795797292.7624419,
+   "t": 1795786220.0805314,
+   "txt": "🚨 Fritadeira Air Fryer Oven AFON-12L-FG 12L Digital 2000W Mondial\n\n🔥 R$ 425,13 VIA PIX\n\n👉RESGATE O CUPOM DE R$50:\nhttps://s.shopee.com.br/7fbifV8FiS\n\n🛍️ COMPRE AQUI:\nhttps://pincei.co/e/a7bX9Xh70gM_m4\n\n🟤 Grupo Pincei Casa:\nhttps://join.pincei.co/casa"
+  },
+  {
+   "canal": "pincei",
+   "id": 372909,
+   "n": 2,
+   "quando": 1795797450.141282,
+   "t": 1795786485.768591,
+   "txt": "Smartphone Motorola Moto G17 4G 128GB 4GB RAM\n\n🔥 R$ 601,68 VIA PIX\n\n👉RESGATE O CUPOM DE R$100:\nhttps://pincei.co/e/5ba83fd3\n\n🛍️ COMPRE AQUI:\nhttps://pincei.co/e/2KIRL8m84Bs_m4\n\n🔵 Grupo Pincei Tech:\nhttps://join.pincei.co/tech"
+  },
+  {
+   "canal": "pincei",
+   "id": 372910,
+   "n": 2,
+   "quando": 1795797606.279695,
+   "t": 1795786643.0632331,
+   "txt": "Smart TV 50\" Samsung 4K UHD Crystal UHD One UI Tizen 2026\n\n🔥 R$ 2.069,08 VIA PIX\n\n👉RESGATE O CUPOM DE R$100:\nhttps://pincei.co/e/5ba83fd3\n\n🛍️ COMPRE AQUI:\nhttps://pincei.co/e/9deXHCGylKb_m4\n\n🔵 Grupo Pincei Tech:\nhttps://join.pincei.co/tech"
+  },
+  {
+   "canal": "pincei",
+   "id": 372912,
+   "n": 2,
+   "quando": 1795797763.3675005,
+   "t": 1795786826.049419,
+   "txt": "Cafeteira Espresso Philco 20 Bar com Painel Digital\n\n🔥 R$ 379,91 VIA PIX\n\n👉RESGATE O CUPOM DE R$50:\nhttps://pincei.co/e/5ba83fd3\n\n🛍️ COMPRE AQUI:\nhttps://pincei.co/e/7edegK4tknF_m4\n\n🟤 Grupo Pincei Casa:\nhttps://join.pincei.co/casa"
+  },
+  {
+   "canal": "pincei",
+   "id": 372913,
+   "n": 2,
+   "quando": 1795797917.3066475,
+   "t": 1795786980.9867787,
+   "txt": "🚨🚨\n\nConsole Nintendo Switch OLED Bundle Super Mario Bros Wonder\n\n🔥 R$ 1.655,08 VIA PIX\n\n👉RESGATE O CUPOM DE R$100:\nhttps://s.shopee.com.br/7fbifV8FiS\n\n🛍️ COMPRE AQUI:\nhttps://pincei.co/e/b7duuaGWyzC_m4\n\n🔵 Grupo Pincei Tech:\nhttps://join.pincei.co/tech"
+  },
+  {
+   "canal": "pincei",
+   "id": 372917,
+   "n": 2,
+   "quando": 1795798070.8810825,
+   "t": 1795787282.2953944,
+   "txt": "😍😍\n\nFechadura Intelbras Digital de Sobrepor FD 1000 4670100\n\n🔥 R$ 276,36 VIA PIX\n\n👉RESGATE O CUPOM DE R$40:\nhttps://s.shopee.com.br/7fbifV8FiS\n\n🛍️ COMPRE AQUI:\nhttps://pincei.co/e/04Q5XQNHNZ7_m4\n\n🟤 Grupo Pincei Casa:\nhttps://join.pincei.co/casa"
+  },
+  {
+   "canal": "pincei",
+   "id": 372922,
+   "n": 2,
+   "quando": 1795798224.7400904,
+   "t": 1795787696.6612823,
+   "txt": "🔥 SEU PRÓXIMO UPGRADE CHEGOU!\n\nSmartphone Motorola Moto G37 5G\n\n🔥 R$ 883,20 VIA PIX\n\n👉RESGATE O CUPOM DE R$100:\nhttps://s.shopee.com.br/7fbifV8FiS\n\n🛍️ COMPRE AQUI:\nhttps://pincei.co/e/22oVZHUR9Wd_m4\n\n🔵 Grupo Pincei Tech:\nhttps://join.pincei.co/tech"
   }
  ],
  "tentativas": {
@@ -15826,22 +15382,22 @@
   "pincei:372841": 1,
   "pincei:372886": 1,
   "pincei:372890": 1,
-  "pincei:372891": 1,
-  "pincei:372894": 1,
-  "pincei:372895": 1,
-  "pincei:372896": 1,
-  "pincei:372898": 1,
-  "pincei:372899": 1,
-  "pincei:372903": 1,
-  "pincei:372904": 1,
-  "pincei:372907": 1,
-  "pincei:372909": 1,
-  "pincei:372910": 1,
-  "pincei:372912": 1,
-  "pincei:372913": 1,
-  "pincei:372917": 1,
+  "pincei:372891": 2,
+  "pincei:372894": 2,
+  "pincei:372895": 2,
+  "pincei:372896": 2,
+  "pincei:372898": 2,
+  "pincei:372899": 2,
+  "pincei:372903": 2,
+  "pincei:372904": 2,
+  "pincei:372907": 2,
+  "pincei:372909": 2,
+  "pincei:372910": 2,
+  "pincei:372912": 2,
+  "pincei:372913": 2,
+  "pincei:372917": 2,
   "pincei:372921": 1,
-  "pincei:372922": 1,
+  "pincei:372922": 2,
   "promosdaluh:324979": 2,
   "promosdaluh:324982": 2,
   "promosdaluh:324983": 1,
@@ -15880,16 +15436,16 @@
  "tpl_ultimo": 2032135,
  "ult_ciclo": 1795795403.5821402,
  "ultimo_id": {
-  "apromodaluh": 159452,
-  "fumotom": 54318,
-  "iuriindica": 125980,
-  "juaocupons": 28161,
-  "pechinchou": 241840,
-  "perfumepromo": 10281,
-  "pincei": 372925,
-  "promosdaluh": 327095,
-  "promotom": 116138,
-  "teniscertocupons": 66509,
+  "apromodaluh": 159474,
+  "fumotom": 54508,
+  "iuriindica": 126213,
+  "juaocupons": 28214,
+  "pechinchou": 241960,
+  "perfumepromo": 10296,
+  "pincei": 373071,
+  "promosdaluh": 327405,
+  "promotom": 116221,
+  "teniscertocupons": 66541,
   "teste": 1795214930
  }
 }
