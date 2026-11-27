@@ -29,6 +29,10 @@ bots_divulgador:
   - divulgadorinteligente2bot
   - divulgadorinteligente3bot
   - divulgadorinteligentebot
+  - di27185bot          # 27/11: 4 bots novos (Black Friday)
+  - di73604bot
+  - di15827bot
+  - di90463bot
 
 # robô de cupons que recebe o aviso "/cupomacabou CODIGO" quando um canal avisa que o cupom esgotou
 # (ele pergunta para você se posta que acabou ou não)
