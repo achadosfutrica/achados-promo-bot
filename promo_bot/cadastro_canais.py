@@ -6,6 +6,11 @@ import os
 import urllib.request
 
 
+def configurado():
+    """True se o workflow passou as 4 variaveis do alerta de cadastro (sem elas o alerta fica mudo)."""
+    return all(os.environ.get(k) for k in ("CADASTRO_CANAIS_URL", "CADASTRO_CANAIS_CHAVE", "BOT_MONITOR_TOKEN", "CHAT_MONITOR_ID"))
+
+
 def verificar(texto, canal, log=print):
     """Manda o texto do post pro Apps Script (mesmo motor de combinacao dos cadastros) e devolve
     a lista de quem bateu: [{"id":.., "nome":.., "whatsapp":.., "produto":..}, ...] (vazio se ninguem bateu
