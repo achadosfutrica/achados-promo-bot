@@ -3,10 +3,12 @@ name: watchdog-divulgador
 # numa pergunta sem resposta (ex.: apos uma execucao do robo principal cair no meio) e destrava com /cancelar.
 # NUNCA mexe se parecer promocao em andamento (so age quando a ultima mensagem esta ha mais de 20 min parada).
 # Roda sozinho, sem depender do Claude. Para desligar: Actions > watchdog-divulgador > ... > Disable workflow.
+# 27/11: o agendamento foi DESLIGADO. Ele usava a mesma sessao do Telegram (TG_SESSION) ao mesmo tempo que o
+# promo-bot, que fica ligado o dia todo: duas conexoes com a mesma sessao quebram as duas. O destravamento
+# agora e feito dentro do proprio promo-bot (bot que falha sai do rodizio por 5 min; execucao travada reinicia
+# sozinha). Ainda da para rodar este a mao: Actions > watchdog-divulgador > Run workflow.
 on:
   workflow_dispatch: {}
-  schedule:
-    - cron: "17 */2 * * *"
 
 concurrency:
   group: watchdog-divulgador
