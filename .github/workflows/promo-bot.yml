@@ -43,6 +43,12 @@ jobs:
           PROMO_MODE: ${{ github.event.inputs.mode || vars.PROMO_MODE || '' }}
           PROMO_TESTE_LINK: ${{ github.event.inputs.link || '' }}
           GH_TOKEN: ${{ github.token }}
+          # 27/11: alerta de cadastro (post dos canais que bate com cadastro de cliente) -- antes estas 4 nao
+          # eram passadas ao robo e o alerta ficava mudo
+          CADASTRO_CANAIS_URL: ${{ secrets.CADASTRO_CANAIS_URL }}
+          CADASTRO_CANAIS_CHAVE: ${{ secrets.CADASTRO_CANAIS_CHAVE }}
+          BOT_MONITOR_TOKEN: ${{ secrets.BOT_MONITOR_TOKEN }}
+          CHAT_MONITOR_ID: ${{ secrets.CHAT_MONITOR_ID }}
         run: python -m promo_bot.main
       - name: Salvar estado
         if: always()
