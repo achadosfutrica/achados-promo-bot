@@ -571,7 +571,7 @@ def main():
                         log("aviso: alerta de cadastro DESLIGADO (faltam CADASTRO_CANAIS_URL/CHAVE ou BOT_MONITOR_TOKEN/CHAT_MONITOR_ID no workflow)")
                         est.d["_aviso_cadastro"] = 1
                 else:
-                    sem_travar(_verificar_cadastros_canais, posts, est, log)
+                    cadastro_canais.enfileirar(posts, est, log)   # 27/11: em segundo plano, nunca segura o ciclo
             drv = Driver(conv_divulgador(), cfg, log)
             perfil = atualizar_perfil(client, cfg, est, log)
             est.d["_grupo_hoje"] = grupo_hoje(client, cfg, log)
