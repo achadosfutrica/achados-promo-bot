@@ -1,7 +1,7 @@
 {
  "bug_robo_ok": "AchadosFutricaBot",
  "cmd_ultimo": 2079352,
- "contagem_dia": 15,
+ "contagem_dia": 16,
  "cupom_min": {
   "0A9MELI": {
    "min": 999.0,
@@ -23,7 +23,7 @@
   },
   "10OFFSMFABFC": {
    "min": 4.0,
-   "t": 1795841890.0929585,
+   "t": 1795844076.426867,
    "tipo": "percent",
    "valor": 10.0
   },
@@ -77,13 +77,13 @@
   },
   "20OFFN4BL4CK": {
    "min": 99.0,
-   "t": 1795841891.526137,
+   "t": 1795844077.6633008,
    "tipo": "fixed",
    "valor": 20.0
   },
   "20OFFSMFGHJK": {
    "min": 4.0,
-   "t": 1795841890.0929592,
+   "t": 1795844076.4268675,
    "tipo": "percent",
    "valor": 20.0
   },
@@ -125,7 +125,7 @@
   },
   "30OFFSMFLMNP": {
    "min": 4.0,
-   "t": 1795841890.0929577,
+   "t": 1795844076.4268663,
    "tipo": "percent",
    "valor": 30.0
   },
@@ -149,13 +149,13 @@
   },
   "400FFN4SH0": {
    "min": 200.0,
-   "t": 1795841891.525925,
+   "t": 1795844077.6629903,
    "tipo": "fixed",
    "valor": 40.0
   },
   "40OFFSMFQRST": {
    "min": 4.0,
-   "t": 1795841890.0929568,
+   "t": 1795844076.4268656,
    "tipo": "percent",
    "valor": 40.0
   },
@@ -179,7 +179,7 @@
   },
   "50OFFSMFUVWX": {
    "min": 4.99,
-   "t": 1795841891.5245066,
+   "t": 1795844077.6609209,
    "tipo": "percent",
    "valor": 50.0
   },
@@ -191,13 +191,13 @@
   },
   "60OFFSMFBCDE": {
    "min": 4.99,
-   "t": 1795841891.5255578,
+   "t": 1795844077.662445,
    "tipo": "percent",
    "valor": 60.0
   },
   "70OFFSMFFGHI": {
    "min": 4.99,
-   "t": 1795841891.5245056,
+   "t": 1795844077.6609197,
    "tipo": "percent",
    "valor": 70.0
   },
@@ -215,13 +215,13 @@
   },
   "80OFFSMFJKLM": {
    "min": 4.99,
-   "t": 1795841891.525874,
+   "t": 1795844077.6629095,
    "tipo": "percent",
    "valor": 80.0
   },
   "ACABANDO": {
    "min": 599.0,
-   "t": 1795841891.0126011,
+   "t": 1795844077.169458,
    "tipo": "percent",
    "valor": 15.0
   },
@@ -263,7 +263,7 @@
   },
   "AUTOMELI45": {
    "min": 130.0,
-   "t": 1795841891.52601,
+   "t": 1795844077.6631167,
    "tipo": "fixed",
    "valor": 45.0
   },
@@ -299,7 +299,7 @@
   },
   "BELEZAPREMIUM": {
    "min": 99.0,
-   "t": 1795841890.6837015,
+   "t": 1795844076.8833294,
    "tipo": "percent",
    "valor": 20.0
   },
@@ -353,13 +353,13 @@
   },
   "BFMP100": {
    "min": 500.0,
-   "t": 1795841891.5241685,
+   "t": 1795844077.660434,
    "tipo": "fixed",
    "valor": 100.0
   },
   "BFMP200": {
    "min": 500.0,
-   "t": 1795841891.523649,
+   "t": 1795844077.6597116,
    "tipo": "fixed",
    "valor": 200.0
   },
@@ -371,7 +371,7 @@
   },
   "BFT41RN": {
    "min": 500.0,
-   "t": 1795841891.5248823,
+   "t": 1795844077.6614492,
    "tipo": "fixed",
    "valor": 100.0
   },
@@ -383,7 +383,7 @@
   },
   "BLACK100OFF": {
    "min": 999.0,
-   "t": 1795841891.0171225,
+   "t": 1795844077.1756308,
    "tipo": "fixed",
    "valor": 100.0
   },
@@ -395,7 +395,7 @@
   },
   "BLACK150": {
    "min": 1499.0,
-   "t": 1795841891.018792,
+   "t": 1795844077.1779563,
    "tipo": "fixed",
    "valor": 150.0
   },
@@ -449,7 +449,7 @@
   },
   "BLACK50": {
    "min": 199.0,
-   "t": 1795841891.525242,
+   "t": 1795844077.6619809,
    "tipo": "fixed",
    "valor": 50.0
   },
@@ -479,25 +479,25 @@
   },
   "BLACKHOJE": {
    "min": 1199.0,
-   "t": 1795841890.8376431,
+   "t": 1795844077.0152113,
    "tipo": "percent",
    "valor": 15.0
   },
   "BLACKMAGALU100": {
    "min": 1200.0,
-   "t": 1795841891.5256207,
+   "t": 1795844077.6625369,
    "tipo": "fixed",
    "valor": 100.0
   },
   "BLACKMAGALU50": {
    "min": 200.0,
-   "t": 1795841891.5256197,
+   "t": 1795844077.662536,
    "tipo": "fixed",
    "valor": 50.0
   },
   "BLACKMELI": {
    "min": 199.0,
-   "t": 1795841891.013987,
+   "t": 1795844077.1713374,
    "tipo": "percent",
    "valor": 20.0
   },
@@ -521,19 +521,19 @@
   },
   "BLACKSONHO": {
    "min": 30.0,
-   "t": 1795841891.0144045,
+   "t": 1795844077.1719155,
    "tipo": "percent",
    "valor": 15.0
   },
   "BLACKVIP": {
    "min": 599.0,
-   "t": 1795841891.0124574,
+   "t": 1795844077.1692572,
    "tipo": "percent",
    "valor": 18.0
   },
   "BLACKVIPMELI": {
    "min": 79.0,
-   "t": 1795841891.0150416,
+   "t": 1795844077.172767,
    "tipo": "percent",
    "valor": 25.0
   },
@@ -599,7 +599,7 @@
   },
   "CORREBLACK": {
    "min": 79.0,
-   "t": 1795841891.0189502,
+   "t": 1795844077.178173,
    "tipo": "percent",
    "valor": 25.0
   },
@@ -617,7 +617,7 @@
   },
   "CUPOM100BLACK": {
    "min": 200.0,
-   "t": 1795841891.5259714,
+   "t": 1795844077.6630604,
    "tipo": "fixed",
    "valor": 100.0
   },
@@ -635,7 +635,7 @@
   },
   "CUPOMBLACK300": {
    "min": 599.0,
-   "t": 1795841891.5257041,
+   "t": 1795844077.6626625,
    "tipo": "fixed",
    "valor": 300.0
   },
@@ -839,7 +839,7 @@
   },
   "H55MELI": {
    "min": 79.0,
-   "t": 1795841891.0145204,
+   "t": 1795844077.1720698,
    "tipo": "percent",
    "valor": 20.0
   },
@@ -929,7 +929,7 @@
   },
   "JJRMELI": {
    "min": 79.0,
-   "t": 1795841891.0119731,
+   "t": 1795844077.1685822,
    "tipo": "percent",
    "valor": 20.0
   },
@@ -947,7 +947,7 @@
   },
   "K4RMELI": {
    "min": 399.0,
-   "t": 1795841891.5248256,
+   "t": 1795844077.6613677,
    "tipo": "fixed",
    "valor": 60.0
   },
@@ -977,7 +977,7 @@
   },
   "LF4MELI": {
    "min": 199.0,
-   "t": 1795841891.5233243,
+   "t": 1795844077.6592762,
    "tipo": "fixed",
    "valor": 50.0
   },
@@ -1061,7 +1061,7 @@
   },
   "MAGALU250": {
    "min": 2500.0,
-   "t": 1795841891.5251195,
+   "t": 1795844077.6617975,
    "tipo": "fixed",
    "valor": 250.0
   },
@@ -1073,13 +1073,13 @@
   },
   "MAGALU350": {
    "min": 4000.0,
-   "t": 1795841891.5255156,
+   "t": 1795844077.6623821,
    "tipo": "fixed",
    "valor": 350.0
   },
   "MAGALUBLACK50": {
    "min": 200.0,
-   "t": 1795841891.5256202,
+   "t": 1795844077.6625366,
    "tipo": "fixed",
    "valor": 50.0
   },
@@ -1091,7 +1091,7 @@
   },
   "MAISBLACK": {
    "min": 1299.0,
-   "t": 1795841891.7030225,
+   "t": 1795844077.8088715,
    "tipo": "percent",
    "valor": 18.0
   },
@@ -1109,7 +1109,7 @@
   },
   "MELHORDABLACK": {
    "min": 1999.0,
-   "t": 1795841891.1726587,
+   "t": 1795844077.3715572,
    "tipo": "fixed",
    "valor": 300.0
   },
@@ -1157,7 +1157,7 @@
   },
   "MELICE8": {
    "min": 299.0,
-   "t": 1795841891.5253,
+   "t": 1795844077.6620667,
    "tipo": "percent",
    "valor": 20.0
   },
@@ -1187,7 +1187,7 @@
   },
   "MELINABLACK": {
    "min": 1999.0,
-   "t": 1795841891.012308,
+   "t": 1795844077.1690545,
    "tipo": "fixed",
    "valor": 300.0
   },
@@ -1223,7 +1223,7 @@
   },
   "MELIZA2": {
    "min": 199.0,
-   "t": 1795841891.5253007,
+   "t": 1795844077.6620677,
    "tipo": "percent",
    "valor": 15.0
   },
@@ -1277,7 +1277,7 @@
   },
   "N0VF31RG3": {
    "min": 149.0,
-   "t": 1795841891.5256674,
+   "t": 1795844077.6626065,
    "tipo": "fixed",
    "valor": 30.0
   },
@@ -1397,7 +1397,7 @@
   },
   "PMFT0001JACATC": {
    "min": 4000.0,
-   "t": 1795841891.5260901,
+   "t": 1795844077.6632311,
    "tipo": "fixed",
    "valor": 1200.0
   },
@@ -1469,7 +1469,7 @@
   },
   "R3ZMELI": {
    "min": 139.0,
-   "t": 1795841891.5244403,
+   "t": 1795844077.6608262,
    "tipo": "percent",
    "valor": 20.0
   },
@@ -1487,13 +1487,13 @@
   },
   "RELAMPAGO": {
    "min": 79.0,
-   "t": 1795841891.0155582,
+   "t": 1795844077.1734667,
    "tipo": "percent",
    "valor": 20.0
   },
   "RIABF": {
    "min": 99.0,
-   "t": 1795841890.8365078,
+   "t": 1795844077.0136085,
    "tipo": "percent",
    "valor": 80.0
   },
@@ -1577,13 +1577,13 @@
   },
   "SONHOBLACK10": {
    "min": 40.0,
-   "t": 1795841891.524739,
+   "t": 1795844077.661246,
    "tipo": "fixed",
    "valor": 10.0
   },
   "SONHOBLACK15": {
    "min": 60.0,
-   "t": 1795841891.5246112,
+   "t": 1795844077.6610708,
    "tipo": "fixed",
    "valor": 15.0
   },
@@ -1733,13 +1733,13 @@
   },
   "ULT1M0D4BL4CK": {
    "min": 59.0,
-   "t": 1795841891.5249288,
+   "t": 1795844077.661516,
    "tipo": "fixed",
    "valor": 10.0
   },
   "ULTIMACHANCE": {
    "min": 1000.0,
-   "t": 1795841891.1672645,
+   "t": 1795844077.3637662,
    "tipo": "fixed",
    "valor": 400.0
   },
@@ -2571,6 +2571,10 @@
   "cad:fumotom:55120": {
    "r": "cad_verificado",
    "t": 1795840485
+  },
+  "cad:fumotom:55121": {
+   "r": "cad_verificado",
+   "t": 1795844081
   },
   "cad:gatunopromos:137409": {
    "r": "cad_verificado",
@@ -5580,6 +5584,14 @@
    "r": "pulado:periferico de PC",
    "t": 1795835017
   },
+  "fumotom:55120": {
+   "r": "falha",
+   "t": 1795844139
+  },
+  "fumotom:55121": {
+   "r": "gerado",
+   "t": 1795844187
+  },
   "iuriindica:126815": {
    "r": "pulado:so cupom (ignorado)",
    "t": 1795830079
@@ -5875,6 +5887,14 @@
   "link:https://www.amazon.com.br/dp/B0BXH21DB1": {
    "r": "gerado",
    "t": 1795832146
+  },
+  "link:https://www.amazon.com.br/dp/B0C7YJGTJK": {
+   "r": "gerado",
+   "t": 1795844187
+  },
+  "link:https://www.amazon.com.br/dp/B0CV2V1CSP": {
+   "r": "falha",
+   "t": 1795844139
   },
   "link:https://www.amazon.com.br/dp/B0D9HWL3T7": {
    "r": "falha",
@@ -9922,209 +9942,6 @@
  "postados": [
   {
    "ids": [
-    "68405556"
-   ],
-   "p": 186.91,
-   "t": 1795748714,
-   "w": [
-    "40ml",
-    "antimanchas",
-    "antirrugas",
-    "creme",
-    "dose",
-    "double",
-    "gel",
-    "mela",
-    "posay",
-    "roche"
-   ]
-  },
-  {
-   "ids": [
-    "6539535668"
-   ],
-   "p": 359.99,
-   "t": 1795748788,
-   "w": [
-    "25ml",
-    "angel",
-    "eau",
-    "feminino",
-    "mugler",
-    "parfum",
-    "perfume",
-    "refilavel"
-   ]
-  },
-  {
-   "ids": [
-    "81300764"
-   ],
-   "p": 303.59,
-   "t": 1795748883,
-   "w": [
-    "cafeteira",
-    "dolce",
-    "gusto",
-    "mini",
-    "nescafe",
-    "preto"
-   ]
-  },
-  {
-   "ids": [
-    "46671029"
-   ],
-   "p": 185.75,
-   "t": 1795749283,
-   "w": [
-    "agile",
-    "atlas",
-    "bivolt",
-    "bocas",
-    "chama",
-    "cooktop",
-    "mega",
-    "mesa",
-    "vidro"
-   ]
-  },
-  {
-   "ids": [
-    "19731776"
-   ],
-   "p": 157.0,
-   "t": 1795749383,
-   "w": [
-    "30w",
-    "aspira",
-    "aspirador",
-    "pano",
-    "passa",
-    "preto",
-    "robo",
-    "robot",
-    "varre",
-    "w90",
-    "wap"
-   ]
-  },
-  {
-   "ids": [
-    "19617679"
-   ],
-   "p": 338.0,
-   "t": 1795749442,
-   "w": [
-    "23l",
-    "branco",
-    "efficient",
-    "electrolux",
-    "me23b",
-    "micro",
-    "ondas"
-   ]
-  },
-  {
-   "ids": [
-    "26797988"
-   ],
-   "p": 340.0,
-   "t": 1795749479,
-   "w": [
-    "1450w",
-    "bico",
-    "borrifa",
-    "cleaner",
-    "esfrega",
-    "extrai",
-    "extratora",
-    "portatil",
-    "potencia",
-    "spot",
-    "sujeira",
-    "wap"
-   ]
-  },
-  {
-   "ids": [
-    "50123845"
-   ],
-   "p": 146.4,
-   "t": 1795749614,
-   "w": [
-    "absolu",
-    "acao",
-    "acido",
-    "anti",
-    "bain",
-    "frizz",
-    "glaze",
-    "gloss",
-    "hialuronico",
-    "hydra",
-    "kerastase",
-    "shampoo"
-   ]
-  },
-  {
-   "ids": [
-    "52052995"
-   ],
-   "p": 189.0,
-   "t": 1795749841,
-   "w": [
-    "127v",
-    "1700w",
-    "65l",
-    "air",
-    "fryer",
-    "glass",
-    "paf65a",
-    "philco",
-    "preto",
-    "redstone",
-    "visor"
-   ]
-  },
-  {
-   "ids": [
-    "20862597"
-   ],
-   "p": 269.0,
-   "t": 1795749899,
-   "w": [
-    "1700w",
-    "acessorios",
-    "agua",
-    "aspirador",
-    "barril",
-    "bocal",
-    "gtw",
-    "inox",
-    "sopro",
-    "wap"
-   ]
-  },
-  {
-   "ids": [
-    "63476642"
-   ],
-   "p": 1495.0,
-   "t": 1795750473,
-   "w": [
-    "lava",
-    "loucas",
-    "midea",
-    "plus",
-    "preta",
-    "preto",
-    "servicos",
-    "touch"
-   ]
-  },
-  {
-   "ids": [
     "898761179-20198314386"
    ],
    "p": 1940.28,
@@ -13874,6 +13691,23 @@
     "marvel",
     "pecas"
    ]
+  },
+  {
+   "ids": [
+    "B0C7YJGTJK"
+   ],
+   "p": 574.0,
+   "t": 1795844139,
+   "w": [
+    "azul",
+    "branco",
+    "detalhes",
+    "dourado",
+    "germer",
+    "jantar",
+    "jogo",
+    "pecas"
+   ]
   }
  ],
  "resumo_dia": "2026-11-26",
@@ -15045,14 +14879,6 @@
    "quando": 1795830107.7402701,
    "t": 1795825408.0070283,
    "txt": "Fonte Xpg Coreshift Ii Ve 850w 80 Plus Gold Preto\n\n💵 R$ 298\n🎟️ Cupom: BLACKMELI\n✅ https://meli.la/1eZVzk1\n\n🤑 Grupos de ofertas: https://iuriindica.com.br"
-  },
-  {
-   "canal": "fumotom",
-   "id": 55120,
-   "n": 2,
-   "quando": 1795842604.979819,
-   "t": 1795840992.3076181,
-   "txt": "INVICTA Pro Diver Mostrador masculino verde de aço inoxidável de 48 mm, preto, tira, preto, tira\n\nR$ 222 - Finalização\n\nhttps://www.amazon.com.br/dp/B0CV2V1CSP?tag=promotom05-20\n\n-Anúncio"
   }
  ],
  "tentativas": {
@@ -15233,7 +15059,7 @@
   "teniscertocupons:66563": 2
  },
  "tpl_ultimo": 2032135,
- "ult_ciclo": 1795842301.1323833,
+ "ult_ciclo": 1795844212.5561528,
  "ultimo_id": {
   "apromodaluh": 159505,
   "cadonly:babypromokids": 71890,
@@ -15257,7 +15083,7 @@
   "cadonly:urubupromo": 44421,
   "cadonly:urubutenis": 2687,
   "cadonly:xetdaspromocoes": 97726,
-  "fumotom": 55120,
+  "fumotom": 55121,
   "iuriindica": 126873,
   "juaocupons": 28396,
   "pechinchou": 242478,
