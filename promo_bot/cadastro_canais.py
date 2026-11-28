@@ -227,12 +227,12 @@ def verificar_bots(log=print, est=None):
         except Exception as e:  # noqa
             log("  aviso: nao consegui avisar o problema do token: %r" % e)
     if "robo" in nomes and ROTULO_ROBO not in _BLOQUEADOS and est is not None:
-        if est.d.get("_bug_robo_ok") != nomes["robo"]:
+        if est.d.get("bug_robo_ok") != nomes["robo"]:
             chat = os.environ.get("CHAT_ROBO_ID", "") or os.environ.get("CHAT_MONITOR_ID", "")
             try:
                 _telegram(toks["robo"], chat, "\u2705 Token conferido: aqui e o %s. Os alertas de BUG (com a mensagem pronta) "
                           "do robo de promocoes vao chegar neste chat." % ROTULO_ROBO, html=False)
-                est.d["_bug_robo_ok"] = nomes["robo"]
+                est.d["bug_robo_ok"] = nomes["robo"]
                 log("  confirmacao enviada no chat do %s" % ROTULO_ROBO)
             except Exception as e:  # noqa
                 log("  aviso: o %s nao conseguiu te mandar mensagem (%r): aperte /start nele" % (ROTULO_ROBO, e))
