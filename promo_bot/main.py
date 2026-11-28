@@ -575,6 +575,16 @@ def main():
                 sent.ligar()
             except Exception as e:  # noqa
                 log("aviso: sentinela nao ligou: %r" % e)
+        bug_vivo = None
+        if cfg["mode"] == "live" and not teste_link_env():
+            try:                       # 28/11: alerta de BUG em tempo real (alem da leitura do ciclo)
+                canais_b = list(cfg.get("canais") or []) + list((cfg.get("vigia") or {}).get("canais") or []) + list(cfg.get("canais_cadastro") or [])
+                bug_vivo = cadastro_canais.BugVigia(client, canais_b, est, log)
+                if not bug_vivo.ligar():
+                    bug_vivo = None
+            except Exception as e:  # noqa
+                bug_vivo = None
+                log("aviso: alerta de BUG em tempo real nao ligou: %r" % e)
         from .divulgador_api import Divulgador
         teste_link = os.environ.get("PROMO_TESTE_LINK", "").strip()
         def midia(canal, pid):
@@ -672,6 +682,8 @@ def main():
             ciclo()
         if sent:
             sent.desligar()
+        if bug_vivo:
+            bug_vivo.desligar()
     salvar_no_git(est, log)          # 27/11: grava também o histórico de menor preço (state/precos)
     return 0
 
