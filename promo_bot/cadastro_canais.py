@@ -153,20 +153,95 @@ def _enviar_monitor(msg, log=print):
     return _telegram(token, chat, msg, html=True)
 
 
+ROTULO_ROBO = "@AchadosFutricaBot"
+ROTULO_MONITORA = "@Achadosfutricamonitorabot"
+_BLOQUEADOS = set()        # destinos cujo token NAO e do bot esperado (conferido no getMe): nunca recebem alerta
+
+
 def destinos_bug():
     """28/11: para onde vai o alerta de BUG, na ordem de tentativa: [(rotulo, token, chat)].
     1o o @AchadosFutricaBot (secret BOT_ROBO_TOKEN; chat = CHAT_ROBO_ID ou o mesmo chat do monitora, que e o seu Telegram);
-    2o o @Achadosfutricamonitorabot como reserva (o aviso nunca se perde se o 1o faltar ou falhar)."""
+    2o o @Achadosfutricamonitorabot como reserva (o aviso nunca se perde se o 1o faltar ou falhar).
+    Um destino cujo token e de OUTRO bot (ver verificar_bots) fica de fora."""
     chat_m = os.environ.get("CHAT_MONITOR_ID", "")
     out = []
     tr = os.environ.get("BOT_ROBO_TOKEN", "")
     chat_r = os.environ.get("CHAT_ROBO_ID", "") or chat_m
-    if tr and chat_r:
-        out.append(("@AchadosFutricaBot", tr, chat_r))
+    if tr and chat_r and ROTULO_ROBO not in _BLOQUEADOS:
+        out.append((ROTULO_ROBO, tr, chat_r))
     tm = os.environ.get("BOT_MONITOR_TOKEN", "")
-    if tm and chat_m:
-        out.append(("@Achadosfutricamonitorabot", tm, chat_m))
+    if tm and chat_m and ROTULO_MONITORA not in _BLOQUEADOS:
+        out.append((ROTULO_MONITORA, tm, chat_m))
     return out
+
+
+def _getme(token):
+    """Dono do token (username do bot) segundo o Telegram. O token nunca vai para o log."""
+    with urllib.request.urlopen("https://api.telegram.org/bot%s/getMe" % token, timeout=15) as r:
+        d = json.loads(r.read().decode())
+    return ((d.get("result") or {}).get("username") or "")
+
+
+_VERIFICADO = {"feito": False}
+
+
+def verificar_bots(log=print, est=None):
+    """28/11: CONFERE de quem e cada token antes de usar, para nunca misturar os robos:
+      - BOT_ROBO_TOKEN tem que ser do @AchadosFutricaBot; se for de outro bot (ex.: monitora/dicas), o destino e BLOQUEADO
+        (o alerta de BUG vai so pelo monitora) e o aviso sai no monitora;
+      - BOT_MONITOR_TOKEN tem que ser do @Achadosfutricamonitorabot (so avisa, nao bloqueia: nao pode ficar sem alerta);
+      - BOT_DICAS_TOKEN: so registra de quem e.
+    Se o robo estiver certo, manda UMA confirmacao no chat dele (guardada no estado: nao repete)."""
+    if _VERIFICADO["feito"]:
+        return dict(_VERIFICADO.get("nomes") or {})
+    _VERIFICADO["feito"] = True
+    toks = {"robo": os.environ.get("BOT_ROBO_TOKEN", ""), "monitora": os.environ.get("BOT_MONITOR_TOKEN", ""),
+            "dicas": os.environ.get("BOT_DICAS_TOKEN", "")}
+    esperado = {"robo": ROTULO_ROBO.lstrip("@"), "monitora": ROTULO_MONITORA.lstrip("@")}
+    nomes, problemas = {}, []
+    for k, t in toks.items():
+        if not t:
+            continue
+        try:
+            nomes[k] = _getme(t)
+        except Exception as e:  # noqa
+            log("  aviso: nao consegui conferir de quem e o token %s: %r" % (k, e))
+    _VERIFICADO["nomes"] = dict(nomes)
+    if nomes:
+        log("  bots dos tokens: " + ", ".join("%s=@%s" % (k, v) for k, v in nomes.items()))
+    if "robo" in nomes and nomes["robo"].lower() != esperado["robo"].lower():
+        _BLOQUEADOS.add(ROTULO_ROBO)
+        problemas.append("o secret BOT_ROBO_TOKEN e do bot @%s, e NAO do %s. O alerta de BUG nao vai usar esse token (vai pelo monitora). "
+                         "Troque o secret pelo token do %s (BotFather)." % (nomes["robo"], ROTULO_ROBO, ROTULO_ROBO))
+    if "monitora" in nomes and nomes["monitora"].lower() != esperado["monitora"].lower():
+        problemas.append("o secret BOT_MONITOR_TOKEN e do bot @%s, e nao do %s." % (nomes["monitora"], ROTULO_MONITORA))
+    vistos = {}
+    for k, t in toks.items():
+        if t and t in vistos:
+            problemas.append("os secrets %s e %s tem o MESMO token." % (vistos[t], k))
+        vistos.setdefault(t, k) if t else None
+    for p in problemas:
+        log("  ATENCAO: " + p)
+        try:
+            _enviar_monitor("\u26a0\ufe0f <b>Token conferido no robo</b>: " + _esc(p))
+        except Exception as e:  # noqa
+            log("  aviso: nao consegui avisar o problema do token: %r" % e)
+    if "robo" in nomes and ROTULO_ROBO not in _BLOQUEADOS and est is not None:
+        if est.d.get("_bug_robo_ok") != nomes["robo"]:
+            chat = os.environ.get("CHAT_ROBO_ID", "") or os.environ.get("CHAT_MONITOR_ID", "")
+            try:
+                _telegram(toks["robo"], chat, "\u2705 Token conferido: aqui e o %s. Os alertas de BUG (com a mensagem pronta) "
+                          "do robo de promocoes vao chegar neste chat." % ROTULO_ROBO, html=False)
+                est.d["_bug_robo_ok"] = nomes["robo"]
+                log("  confirmacao enviada no chat do %s" % ROTULO_ROBO)
+            except Exception as e:  # noqa
+                log("  aviso: o %s nao conseguiu te mandar mensagem (%r): aperte /start nele" % (ROTULO_ROBO, e))
+                try:
+                    _enviar_monitor("\u26a0\ufe0f O %s nao conseguiu te mandar mensagem: abra o chat dele e aperte /start. "
+                                    "Enquanto isso o alerta de BUG vai pelo monitora." % ROTULO_ROBO)
+                except Exception:  # noqa
+                    pass
+    return nomes
 
 
 BUG_CABECALHO = "\U0001F41E ACHADO BUGADO! Corre, pode acabar a qualquer momento!"
