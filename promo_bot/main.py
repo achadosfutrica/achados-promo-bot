@@ -132,6 +132,8 @@ def processar_post(post_id, canal, texto, cfg, est, driver, modo, log, notificar
             "preco_antigo": (T.formatar_preco(inteligencia.preco_antigo(limpo), cent) if inteligencia.preco_antigo(limpo) else None),
             "loja_nome": info["loja"],
             "foto": (lambda: midia(canal, post_id)) if midia else None,
+            "texto": limpo,                              # 28/11: trava de valor v2 le o cupom/desconto do post
+            "cupom_cache": est.d.get("cupom_min"),
         }
         res, det = driver.gerar(link, preco_txt, info["cupom"], extra, modo=modo, loja=info["loja"], dados=dados)
         if res in ("gerado", "duplicado") and modo == "live":
