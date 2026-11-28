@@ -22,7 +22,7 @@
   },
   "10OFFSMFABFC": {
    "min": 4.0,
-   "t": 1795838167.4664354,
+   "t": 1795838316.6807597,
    "tipo": "percent",
    "valor": 10.0
   },
@@ -76,13 +76,13 @@
   },
   "20OFFN4BL4CK": {
    "min": 99.0,
-   "t": 1795838168.5730066,
+   "t": 1795838318.330861,
    "tipo": "fixed",
    "valor": 20.0
   },
   "20OFFSMFGHJK": {
    "min": 4.0,
-   "t": 1795838167.4664364,
+   "t": 1795838316.6807606,
    "tipo": "percent",
    "valor": 20.0
   },
@@ -124,7 +124,7 @@
   },
   "30OFFSMFLMNP": {
    "min": 4.0,
-   "t": 1795838167.4664345,
+   "t": 1795838316.6807587,
    "tipo": "percent",
    "valor": 30.0
   },
@@ -148,13 +148,13 @@
   },
   "400FFN4SH0": {
    "min": 200.0,
-   "t": 1795838168.5728142,
+   "t": 1795838318.330644,
    "tipo": "fixed",
    "valor": 40.0
   },
   "40OFFSMFQRST": {
    "min": 4.0,
-   "t": 1795838167.4664335,
+   "t": 1795838316.680758,
    "tipo": "percent",
    "valor": 40.0
   },
@@ -178,7 +178,7 @@
   },
   "50OFFSMFUVWX": {
    "min": 4.99,
-   "t": 1795838168.5714967,
+   "t": 1795838318.3292065,
    "tipo": "percent",
    "valor": 50.0
   },
@@ -190,13 +190,13 @@
   },
   "60OFFSMFBCDE": {
    "min": 4.99,
-   "t": 1795838168.5724719,
+   "t": 1795838318.3302789,
    "tipo": "percent",
    "valor": 60.0
   },
   "70OFFSMFFGHI": {
    "min": 4.99,
-   "t": 1795838168.5714958,
+   "t": 1795838318.329206,
    "tipo": "percent",
    "valor": 70.0
   },
@@ -214,13 +214,13 @@
   },
   "80OFFSMFJKLM": {
    "min": 4.99,
-   "t": 1795838168.5727665,
+   "t": 1795838318.330592,
    "tipo": "percent",
    "valor": 80.0
   },
   "ACABANDO": {
    "min": 599.0,
-   "t": 1795838168.1530442,
+   "t": 1795838317.7245271,
    "tipo": "percent",
    "valor": 15.0
   },
@@ -262,7 +262,7 @@
   },
   "AUTOMELI45": {
    "min": 130.0,
-   "t": 1795838168.5728924,
+   "t": 1795838318.330731,
    "tipo": "fixed",
    "valor": 45.0
   },
@@ -298,7 +298,7 @@
   },
   "BELEZAPREMIUM": {
    "min": 99.0,
-   "t": 1795838167.8990946,
+   "t": 1795838317.3126905,
    "tipo": "percent",
    "valor": 20.0
   },
@@ -352,13 +352,13 @@
   },
   "BFMP100": {
    "min": 500.0,
-   "t": 1795838168.571193,
+   "t": 1795838318.3288734,
    "tipo": "fixed",
    "valor": 100.0
   },
   "BFMP200": {
    "min": 500.0,
-   "t": 1795838168.5707538,
+   "t": 1795838318.328367,
    "tipo": "fixed",
    "valor": 200.0
   },
@@ -370,7 +370,7 @@
   },
   "BFT41RN": {
    "min": 500.0,
-   "t": 1795838168.5718462,
+   "t": 1795838318.329583,
    "tipo": "fixed",
    "valor": 100.0
   },
@@ -382,7 +382,7 @@
   },
   "BLACK100OFF": {
    "min": 999.0,
-   "t": 1795838168.1570075,
+   "t": 1795838317.7290332,
    "tipo": "fixed",
    "valor": 100.0
   },
@@ -394,7 +394,7 @@
   },
   "BLACK150": {
    "min": 1499.0,
-   "t": 1795838168.1584878,
+   "t": 1795838317.7306943,
    "tipo": "fixed",
    "valor": 150.0
   },
@@ -448,7 +448,7 @@
   },
   "BLACK50": {
    "min": 199.0,
-   "t": 1795838168.5721817,
+   "t": 1795838318.3299499,
    "tipo": "fixed",
    "valor": 50.0
   },
@@ -478,25 +478,25 @@
   },
   "BLACKHOJE": {
    "min": 1199.0,
-   "t": 1795838168.0177398,
+   "t": 1795838317.5092225,
    "tipo": "percent",
    "valor": 15.0
   },
   "BLACKMAGALU100": {
    "min": 1200.0,
-   "t": 1795838168.5725305,
+   "t": 1795838318.3303459,
    "tipo": "fixed",
    "valor": 100.0
   },
   "BLACKMAGALU50": {
    "min": 200.0,
-   "t": 1795838168.5725288,
+   "t": 1795838318.3303444,
    "tipo": "fixed",
    "valor": 50.0
   },
   "BLACKMELI": {
    "min": 199.0,
-   "t": 1795838168.1542234,
+   "t": 1795838317.7258816,
    "tipo": "percent",
    "valor": 20.0
   },
@@ -520,19 +520,19 @@
   },
   "BLACKSONHO": {
    "min": 30.0,
-   "t": 1795838168.1545799,
+   "t": 1795838317.7262998,
    "tipo": "percent",
    "valor": 15.0
   },
   "BLACKVIP": {
    "min": 599.0,
-   "t": 1795838168.1529174,
+   "t": 1795838317.7243886,
    "tipo": "percent",
    "valor": 18.0
   },
   "BLACKVIPMELI": {
    "min": 79.0,
-   "t": 1795838168.1551313,
+   "t": 1795838317.7269125,
    "tipo": "percent",
    "valor": 25.0
   },
@@ -598,7 +598,7 @@
   },
   "CORREBLACK": {
    "min": 79.0,
-   "t": 1795838168.1586254,
+   "t": 1795838317.7308497,
    "tipo": "percent",
    "valor": 25.0
   },
@@ -616,7 +616,7 @@
   },
   "CUPOM100BLACK": {
    "min": 200.0,
-   "t": 1795838168.5728576,
+   "t": 1795838318.3306918,
    "tipo": "fixed",
    "valor": 100.0
   },
@@ -634,7 +634,7 @@
   },
   "CUPOMBLACK300": {
    "min": 599.0,
-   "t": 1795838168.572608,
+   "t": 1795838318.3304322,
    "tipo": "fixed",
    "valor": 300.0
   },
@@ -838,7 +838,7 @@
   },
   "H55MELI": {
    "min": 79.0,
-   "t": 1795838168.154689,
+   "t": 1795838317.7264087,
    "tipo": "percent",
    "valor": 20.0
   },
@@ -928,7 +928,7 @@
   },
   "JJRMELI": {
    "min": 79.0,
-   "t": 1795838168.1524904,
+   "t": 1795838317.7239063,
    "tipo": "percent",
    "valor": 20.0
   },
@@ -946,7 +946,7 @@
   },
   "K4RMELI": {
    "min": 399.0,
-   "t": 1795838168.5717945,
+   "t": 1795838318.3295248,
    "tipo": "fixed",
    "valor": 60.0
   },
@@ -976,7 +976,7 @@
   },
   "LF4MELI": {
    "min": 199.0,
-   "t": 1795838168.5704591,
+   "t": 1795838318.3280249,
    "tipo": "fixed",
    "valor": 50.0
   },
@@ -1060,7 +1060,7 @@
   },
   "MAGALU250": {
    "min": 2500.0,
-   "t": 1795838168.5720658,
+   "t": 1795838318.3298244,
    "tipo": "fixed",
    "valor": 250.0
   },
@@ -1072,13 +1072,13 @@
   },
   "MAGALU350": {
    "min": 4000.0,
-   "t": 1795838168.5724318,
+   "t": 1795838318.3302276,
    "tipo": "fixed",
    "valor": 350.0
   },
   "MAGALUBLACK50": {
    "min": 200.0,
-   "t": 1795838168.57253,
+   "t": 1795838318.3303454,
    "tipo": "fixed",
    "valor": 50.0
   },
@@ -1090,7 +1090,7 @@
   },
   "MAISBLACK": {
    "min": 1299.0,
-   "t": 1795838168.701322,
+   "t": 1795838318.5254824,
    "tipo": "percent",
    "valor": 18.0
   },
@@ -1108,7 +1108,7 @@
   },
   "MELHORDABLACK": {
    "min": 1999.0,
-   "t": 1795838168.422127,
+   "t": 1795838318.1219015,
    "tipo": "fixed",
    "valor": 300.0
   },
@@ -1156,7 +1156,7 @@
   },
   "MELICE8": {
    "min": 299.0,
-   "t": 1795838168.5722344,
+   "t": 1795838318.330009,
    "tipo": "percent",
    "valor": 20.0
   },
@@ -1186,7 +1186,7 @@
   },
   "MELINABLACK": {
    "min": 1999.0,
-   "t": 1795838168.152788,
+   "t": 1795838317.724233,
    "tipo": "fixed",
    "valor": 300.0
   },
@@ -1222,7 +1222,7 @@
   },
   "MELIZA2": {
    "min": 199.0,
-   "t": 1795838168.5722358,
+   "t": 1795838318.3300104,
    "tipo": "percent",
    "valor": 15.0
   },
@@ -1276,7 +1276,7 @@
   },
   "N0VF31RG3": {
    "min": 149.0,
-   "t": 1795838168.5725737,
+   "t": 1795838318.3303938,
    "tipo": "fixed",
    "valor": 30.0
   },
@@ -1396,7 +1396,7 @@
   },
   "PMFT0001JACATC": {
    "min": 4000.0,
-   "t": 1795838168.572964,
+   "t": 1795838318.3308132,
    "tipo": "fixed",
    "valor": 1200.0
   },
@@ -1468,7 +1468,7 @@
   },
   "R3ZMELI": {
    "min": 139.0,
-   "t": 1795838168.5714276,
+   "t": 1795838318.3291416,
    "tipo": "percent",
    "valor": 20.0
   },
@@ -1486,13 +1486,13 @@
   },
   "RELAMPAGO": {
    "min": 79.0,
-   "t": 1795838168.1555786,
+   "t": 1795838317.7274747,
    "tipo": "percent",
    "valor": 20.0
   },
   "RIABF": {
    "min": 99.0,
-   "t": 1795838168.0167334,
+   "t": 1795838317.5080688,
    "tipo": "percent",
    "valor": 80.0
   },
@@ -1576,13 +1576,13 @@
   },
   "SONHOBLACK10": {
    "min": 40.0,
-   "t": 1795838168.5717158,
+   "t": 1795838318.3294384,
    "tipo": "fixed",
    "valor": 10.0
   },
   "SONHOBLACK15": {
    "min": 60.0,
-   "t": 1795838168.5715933,
+   "t": 1795838318.3293197,
    "tipo": "fixed",
    "valor": 15.0
   },
@@ -1732,13 +1732,13 @@
   },
   "ULT1M0D4BL4CK": {
    "min": 59.0,
-   "t": 1795838168.5718882,
+   "t": 1795838318.3296313,
    "tipo": "fixed",
    "valor": 10.0
   },
   "ULTIMACHANCE": {
    "min": 1000.0,
-   "t": 1795838168.283783,
+   "t": 1795838317.908553,
    "tipo": "fixed",
    "valor": 400.0
   },
@@ -2930,6 +2930,10 @@
   "cad:gatunopromos:137448": {
    "r": "cad_verificado",
    "t": 1795838174
+  },
+  "cad:gatunopromos:137449": {
+   "r": "cad_verificado",
+   "t": 1795838326
   },
   "cad:gtofertas:194787": {
    "r": "cad_verificado",
@@ -4546,6 +4550,14 @@
   "cad:pechinchou:242466": {
    "r": "cad_verificado",
    "t": 1795838172
+  },
+  "cad:pechinchou:242467": {
+   "r": "cad_verificado",
+   "t": 1795838323
+  },
+  "cad:pechinchou:242468": {
+   "r": "cad_verificado",
+   "t": 1795838323
   },
   "cad:perfumepromo:10318": {
    "r": "cad_verificado",
@@ -7246,6 +7258,14 @@
   "pechinchou:242391": {
    "r": "pulado:loja desconhecida",
    "t": 1795834410
+  },
+  "pechinchou:242467": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795838425
+  },
+  "pechinchou:242468": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795838446
   },
   "perfumepromo:10310": {
    "r": "falha",
@@ -16059,8 +16079,8 @@
   {
    "canal": "promosdaluh",
    "id": 328043,
-   "n": 1,
-   "quando": 1795835254.488091,
+   "n": 2,
+   "quando": 1795839122.7594447,
    "t": 1795834774.4880905,
    "txt": "🚨 ALERTA CUPOM MERCADO LIVRE 🚨\n\nUse o cupom 🎟️70OFFSMFFGHI e garanta 70% OFF em compras acima de R$5, limite R$100!\n\n✅ Válido na seleção: https://promosdaluh.com/p/nwah9m/\n\n⚠️ A oferta pode acabar a qualquer momento!\n\n📍 GRUPOS COM VAGAS: https://promosdaluh.com/bio"
   }
@@ -16217,7 +16237,7 @@
   "promosdaluh:327577": 2,
   "promosdaluh:327603": 2,
   "promosdaluh:327607": 1,
-  "promosdaluh:328043": 1,
+  "promosdaluh:328043": 2,
   "promosdaluh:328115": 1,
   "promotom:115564": 2,
   "promotom:115568": 1,
@@ -16242,7 +16262,7 @@
   "teniscertocupons:66563": 2
  },
  "tpl_ultimo": 2032135,
- "ult_ciclo": 1795830012.1155095,
+ "ult_ciclo": 1795838642.7712405,
  "ultimo_id": {
   "apromodaluh": 159505,
   "cadonly:babypromokids": 71890,
@@ -16250,7 +16270,7 @@
   "cadonly:camisasechuteirasofertas": 20174,
   "cadonly:ctofertaseletroetv": 24299,
   "cadonly:eletrodicasgb": 27418,
-  "cadonly:gatunopromos": 137448,
+  "cadonly:gatunopromos": 137449,
   "cadonly:gtofertas": 194836,
   "cadonly:homemcheiroso": 5800,
   "cadonly:lapromotion": 120854,
@@ -16269,7 +16289,7 @@
   "fumotom": 55119,
   "iuriindica": 126870,
   "juaocupons": 28396,
-  "pechinchou": 242466,
+  "pechinchou": 242468,
   "perfumepromo": 10323,
   "pincei": 373408,
   "promosdaluh": 328159,
