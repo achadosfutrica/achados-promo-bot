@@ -4,6 +4,7 @@ criar a promocao na mao (NAO cria nada sozinho)."""
 import json
 import os
 import queue
+import re
 import threading
 import time
 import urllib.request
@@ -117,4 +118,82 @@ def enfileirar(posts_por_canal, est, log=print, agora=None):
                 log("  aviso: fila da conferencia de cadastro cheia; %s ficou sem conferir" % chave)
     if len(_VISTOS) > 20000:
         _VISTOS.clear()
+    return n
+
+# ---------------------------------------------------------------------------------------------
+# 27/11: ALERTA DE BUG -- todo post (dos canais de promoção e dos canais_cadastro) que tiver a palavra
+# BUG (bug, bugs, bugou, bugado, bugada, "tá bugado"...) vira um aviso NA HORA no @Achadosfutricamonitorabot.
+# Fila e linha de execução próprias: não espera a conferência dos cadastros e nunca segura o ciclo.
+# ---------------------------------------------------------------------------------------------
+BUG_RE = re.compile(r"(?<![a-z0-9])bug(?:s|ou|ado|ada|ados|adas|adao|adassa|zinho)?(?![a-z0-9])", re.I)
+_FILA_BUG = queue.Queue(maxsize=200)
+_VISTOS_BUG = set()
+_THREAD_BUG = {"t": None}
+
+
+def tem_bug(texto):
+    return bool(BUG_RE.search(texto or ""))
+
+
+def _enviar_monitor(msg, log=print):
+    token, chat = os.environ.get("BOT_MONITOR_TOKEN", ""), os.environ.get("CHAT_MONITOR_ID", "")
+    if not token or not chat:
+        return False
+    body = json.dumps({"chat_id": chat, "text": msg, "parse_mode": "HTML", "disable_web_page_preview": False}).encode()
+    req = urllib.request.Request("https://api.telegram.org/bot%s/sendMessage" % token, data=body,
+                                 headers={"Content-Type": "application/json"}, method="POST")
+    urllib.request.urlopen(req, timeout=20)
+    return True
+
+
+def _esc(t):
+    return (t or "").replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+
+
+def _trabalhar_bug():
+    while True:
+        canal, pid, txt = _FILA_BUG.get()
+        try:
+            resumo = _esc((txt or "").strip()[:600])
+            msg = ("\U0001F41E <b>BUG encontrado</b> · canal <b>%s</b>" % _esc(canal) + chr(10) + chr(10) + resumo +
+                   chr(10) + chr(10) + "https://t.me/%s/%s" % (canal, pid))
+            _enviar_monitor(msg, log=_log_fundo)
+            _log_fundo("  BUG avisado: %s:%s" % (canal, pid))
+        except Exception as e:  # noqa
+            _log_fundo("  aviso: alerta de BUG falhou em %s:%s: %r" % (canal, pid, e))
+        finally:
+            _FILA_BUG.task_done()
+
+
+def enfileirar_bugs(posts_por_canal, est, log=print, agora=None):
+    """Procura a palavra BUG nos posts novos e avisa no monitora (em segundo plano). Volta na hora."""
+    if not (os.environ.get("BOT_MONITOR_TOKEN") and os.environ.get("CHAT_MONITOR_ID")):
+        return 0
+    t = _THREAD_BUG["t"]
+    if t is None or not t.is_alive():
+        t = threading.Thread(target=_trabalhar_bug, name="alerta_bug", daemon=True)
+        t.start()
+        _THREAD_BUG["t"] = t
+    agora = agora or time.time()
+    n = 0
+    for canal, posts in (posts_por_canal or {}).items():
+        for p in posts:
+            pid, txt = p[0], p[1]
+            quando = p[2] if len(p) > 2 else None
+            if not tem_bug(txt):
+                continue
+            chave = "bug:%s:%s" % (canal, pid)
+            if chave in _VISTOS_BUG or est.ja_fez(chave):
+                continue
+            _VISTOS_BUG.add(chave)
+            est.marcar(chave, "bug_avisado")
+            if quando and agora - quando > 3600:          # bug com mais de 1 h já esgotou
+                continue
+            try:
+                _FILA_BUG.put_nowait((canal, pid, txt))
+                n += 1
+            except queue.Full:
+                log("  aviso: fila do alerta de BUG cheia; %s ficou sem aviso" % chave)
+    if len(_VISTOS_BUG) > 20000:
+        _VISTOS_BUG.clear()
     return n
