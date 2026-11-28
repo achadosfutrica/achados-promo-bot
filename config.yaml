@@ -20,6 +20,39 @@ canais:
   - promosdaluh       # Promos da Luh (t.me/promosdaluh)
   - pechinchou        # Pechinchou (t.me/pechinchou)
 
+# 27/11: canais SÓ para cruzar com os cadastros (alerta "Cadastro pode ter achado" no @Achadosfutricamonitorabot).
+# NÃO geram promoção. Um canal que já está em `canais` é ignorado aqui (não confere duas vezes).
+# Escolhidos pelo volume diário e pelo nicho; tirar um canal = apagar a linha.
+cadastro_ler_seg: 120            # lê esta lista no máximo a cada 2 min
+canais_cadastro:
+  # gerais (muito movimento, todas as categorias)
+  - lapromotion          # La Promotion ~178 mil · bugs e promoções gerais (casa, ferramentas, moda, perfume)
+  - xetdaspromocoes      # xet das promoções ~137 mil · geral (moda, tênis, perfume, pet, casa, suplementos)
+  - urubupromo           # Urubu das Promoções ~193 mil · geral (eletro, cozinha, perfume, roupa, bebidas)
+  - pobregram            # promoções para pobres ~188 mil · geral (casa, mercado, limpeza, livros)
+  - nerdofertas          # NERD OFERTAS ~127 mil · geral (eletro, cozinha, pet, esporte, pneus)
+  - gatunopromos         # gatuna das promoções ~59 mil · geral (casa, moda, beleza, ferramentas)
+  - promotop             # PromoTop ~111 mil · geral + cupons
+  - cacadoresofertas     # Caçadores de Ofertas ~32 mil · eletrodomésticos, TV, ar, cozinha
+  # eletrodomésticos e eletrônicos (TV, geladeira, lavadora, ar)
+  - gtofertas            # gt.OFERTAS ~142 mil · eletro, celular, tablet, smartwatch
+  - ctofertaseletroetv   # CT Ofertas Eletro e TVs · TV, geladeira, lavadora, ar
+  - eletrodicasgb        # Ofertas Eletrodicas · eletrodomésticos
+  # casa, mercado e limpeza
+  - promocasinha         # Promocasinha ~66 mil · casa, mercado, limpeza, higiene
+  - mercaguiga           # Guiga Mercadinho · mercado, bebidas, higiene, eletro
+  # tênis, esporte e moda
+  - urubutenis           # Urubu dos tênis ~49 mil · tênis (Nike, Adidas, Puma)
+  - camisasechuteirasofertas   # Camisas e Chuteiras ~18 mil · artigos esportivos
+  - ofertasmachomoda     # Macho Moda Ofertas ~16 mil · moda masculina
+  # perfumaria
+  - homemcheiroso        # Homem Cheiroso ~43 mil · perfumes
+  # bebês, brinquedos e livros
+  - promocaozinha        # Promoçãozinha ~121 mil · bebê (fralda, lenço, higiene)
+  - babypromokids        # Baby Promo Kids ~98 mil · bebê e infantil
+  - promobrinquedo       # Promo Brinquedo ~12 mil · brinquedos, LEGO, jogos
+  - promodelivro         # Promo de Livro ~77 mil · livros e ebooks
+
 bot_divulgador: "divulgadorinteligente2bot"
 
 # VARIOS bots do Divulgador (mesma conta/configuracoes/destino): as promocoes sao divididas em rodizio entre eles
