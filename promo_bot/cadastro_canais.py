@@ -394,11 +394,14 @@ class BugVigia:
         if not self.canais or not destinos_bug():
             return False
         import asyncio
+        import inspect
         from telethon import events
         ok = []
         for canal in self.canais:         # so os canais que a conta enxerga: um nome ruim nao derruba o alerta dos outros
             try:
-                self.c.loop.run_until_complete(asyncio.wait_for(self.c.get_input_entity(canal), timeout=20))
+                r = self.c.get_input_entity(canal)       # cliente telethon.sync devolve o resultado; o assincrono devolve corrotina
+                if inspect.isawaitable(r):
+                    self.c.loop.run_until_complete(asyncio.wait_for(r, timeout=20))
                 ok.append(canal)
             except Exception as e:  # noqa
                 self.log("aviso: alerta de BUG em tempo real: nao enxergo @%s (%r); fica so na leitura do ciclo" % (canal, e))
