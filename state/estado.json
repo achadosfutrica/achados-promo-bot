@@ -1,6 +1,6 @@
 {
- "cmd_ultimo": 2077483,
- "contagem_dia": 138,
+ "cmd_ultimo": 2077573,
+ "contagem_dia": 142,
  "cupom_min": {
   "0A9MELI": {
    "min": 999.0,
@@ -18,6 +18,12 @@
    "min": 89.0,
    "t": 1795710639.554825,
    "tipo": "fixed",
+   "valor": 10.0
+  },
+  "10OFFSMFABFC": {
+   "min": 4.99,
+   "t": 1795827693.7482407,
+   "tipo": "percent",
    "valor": 10.0
   },
   "1124MAISME": {
@@ -64,14 +70,20 @@
   },
   "200CUPOMBLACK": {
    "min": 2200.0,
-   "t": 1795825529.4686842,
+   "t": 1795826693.2098262,
    "tipo": "fixed",
    "valor": 200.0
   },
   "20OFFN4BL4CK": {
    "min": 99.0,
-   "t": 1795825531.6612709,
+   "t": 1795826694.1778884,
    "tipo": "fixed",
+   "valor": 20.0
+  },
+  "20OFFSMFGHJK": {
+   "min": 4.0,
+   "t": 1795827760.210296,
+   "tipo": "percent",
    "valor": 20.0
   },
   "250PRAVOCE": {
@@ -94,7 +106,7 @@
   },
   "2U6U32Q": {
    "min": 1999.0,
-   "t": 1795825529.2237067,
+   "t": 1795826693.061404,
    "tipo": "fixed",
    "valor": 300.0
   },
@@ -108,6 +120,12 @@
    "min": 179.0,
    "t": 1795614337.578439,
    "tipo": "fixed",
+   "valor": 30.0
+  },
+  "30OFFSMFLMNP": {
+   "min": 4.0,
+   "t": 1795827760.2102919,
+   "tipo": "percent",
    "valor": 30.0
   },
   "3ABL4CKDASH0": {
@@ -130,8 +148,14 @@
   },
   "400FFN4SH0": {
    "min": 200.0,
-   "t": 1795825531.661057,
+   "t": 1795826694.1776967,
    "tipo": "fixed",
+   "valor": 40.0
+  },
+  "40OFFSMFQRST": {
+   "min": 4.0,
+   "t": 1795827760.2102602,
+   "tipo": "percent",
    "valor": 40.0
   },
   "4M3LH0RBLACKSH0P33": {
@@ -152,6 +176,12 @@
    "tipo": "fixed",
    "valor": 15.0
   },
+  "50OFFSMFUVWX": {
+   "min": 4.99,
+   "t": 1795827693.7482133,
+   "tipo": "percent",
+   "valor": 50.0
+  },
   "5D3D3SC0NT0": {
    "min": 25.0,
    "t": 1795807119.3618946,
@@ -160,9 +190,15 @@
   },
   "60OFFSMFBCDE": {
    "min": 4.99,
-   "t": 1795825531.6606975,
+   "t": 1795826694.1773796,
    "tipo": "percent",
    "valor": 60.0
+  },
+  "70OFFSMFFGHI": {
+   "min": 5.0,
+   "t": 1795827641.1796536,
+   "tipo": "percent",
+   "valor": 70.0
   },
   "75MAIS1125MELI": {
    "min": 499.0,
@@ -178,13 +214,13 @@
   },
   "80OFFSMFJKLM": {
    "min": 4.99,
-   "t": 1795825531.6610043,
+   "t": 1795826694.1776505,
    "tipo": "percent",
    "valor": 80.0
   },
   "ACABANDO": {
    "min": 599.0,
-   "t": 1795825530.8307724,
+   "t": 1795826693.8219197,
    "tipo": "percent",
    "valor": 15.0
   },
@@ -226,7 +262,7 @@
   },
   "AUTOMELI45": {
    "min": 130.0,
-   "t": 1795825531.6611438,
+   "t": 1795826694.1777744,
    "tipo": "fixed",
    "valor": 45.0
   },
@@ -262,7 +298,7 @@
   },
   "BELEZAPREMIUM": {
    "min": 99.0,
-   "t": 1795825530.3058095,
+   "t": 1795826693.60726,
    "tipo": "percent",
    "valor": 20.0
   },
@@ -314,6 +350,12 @@
    "tipo": "fixed",
    "valor": 20.0
   },
+  "BFMP100": {
+   "min": 500.0,
+   "t": 1795828038.5568607,
+   "tipo": "fixed",
+   "valor": 100.0
+  },
   "BFSICREDI75": {
    "min": 500.0,
    "t": 1795773724.563918,
@@ -322,7 +364,7 @@
   },
   "BFT41RN": {
    "min": 500.0,
-   "t": 1795825531.6599903,
+   "t": 1795826694.1767504,
    "tipo": "fixed",
    "valor": 100.0
   },
@@ -334,19 +376,19 @@
   },
   "BLACK100OFF": {
    "min": 999.0,
-   "t": 1795825530.8352294,
+   "t": 1795826693.825765,
    "tipo": "fixed",
    "valor": 100.0
   },
   "BLACK120": {
    "min": 799.0,
-   "t": 1795825531.6622515,
+   "t": 1795826694.178767,
    "tipo": "fixed",
    "valor": 120.0
   },
   "BLACK150": {
    "min": 1499.0,
-   "t": 1795825530.8368788,
+   "t": 1795826693.8271964,
    "tipo": "fixed",
    "valor": 150.0
   },
@@ -400,7 +442,7 @@
   },
   "BLACK50": {
    "min": 199.0,
-   "t": 1795825531.6603603,
+   "t": 1795826694.1770883,
    "tipo": "fixed",
    "valor": 50.0
   },
@@ -430,31 +472,31 @@
   },
   "BLACKHOJE": {
    "min": 1199.0,
-   "t": 1795825531.91689,
+   "t": 1795826694.2934966,
    "tipo": "percent",
    "valor": 15.0
   },
   "BLACKMAGALU100": {
    "min": 1200.0,
-   "t": 1795825531.6607623,
+   "t": 1795826694.1774368,
    "tipo": "fixed",
    "valor": 100.0
   },
   "BLACKMAGALU50": {
    "min": 200.0,
-   "t": 1795825531.6607606,
+   "t": 1795826694.1774354,
    "tipo": "fixed",
    "valor": 50.0
   },
   "BLACKMELI": {
    "min": 199.0,
-   "t": 1795825530.83214,
+   "t": 1795826693.8231266,
    "tipo": "percent",
    "valor": 20.0
   },
   "BLACKNAY": {
    "min": 70.0,
-   "t": 1795825529.4691024,
+   "t": 1795826693.2101564,
    "tipo": "fixed",
    "valor": 20.0
   },
@@ -472,19 +514,19 @@
   },
   "BLACKSONHO": {
    "min": 30.0,
-   "t": 1795825530.8325655,
+   "t": 1795826693.8234773,
    "tipo": "percent",
    "valor": 15.0
   },
   "BLACKVIP": {
    "min": 599.0,
-   "t": 1795825530.8306243,
+   "t": 1795826693.821792,
    "tipo": "percent",
    "valor": 18.0
   },
   "BLACKVIPMELI": {
    "min": 79.0,
-   "t": 1795825530.8331785,
+   "t": 1795826693.8240192,
    "tipo": "percent",
    "valor": 25.0
   },
@@ -496,7 +538,7 @@
   },
   "C0RR3PR04PPBF": {
    "min": 120.0,
-   "t": 1795825531.6629035,
+   "t": 1795826694.1793537,
    "tipo": "fixed",
    "valor": 50.0
   },
@@ -508,7 +550,7 @@
   },
   "C4RR1NH070": {
    "min": 350.0,
-   "t": 1795825531.6626651,
+   "t": 1795826694.1791391,
    "tipo": "fixed",
    "valor": 70.0
   },
@@ -550,7 +592,7 @@
   },
   "CORREBLACK": {
    "min": 79.0,
-   "t": 1795825530.8370342,
+   "t": 1795826693.8273296,
    "tipo": "percent",
    "valor": 25.0
   },
@@ -568,7 +610,7 @@
   },
   "CUPOM100BLACK": {
    "min": 200.0,
-   "t": 1795825531.6611052,
+   "t": 1795826694.1777399,
    "tipo": "fixed",
    "valor": 100.0
   },
@@ -586,15 +628,9 @@
   },
   "CUPOMBLACK300": {
    "min": 599.0,
-   "t": 1795825531.6608462,
+   "t": 1795826694.177511,
    "tipo": "fixed",
    "valor": 300.0
-  },
-  "CUPOMBLACK99": {
-   "min": 199.0,
-   "t": 1795567288.9122558,
-   "tipo": "fixed",
-   "valor": 99.0
   },
   "CUPOMCLIPS": {
    "min": 500.0,
@@ -646,7 +682,7 @@
   },
   "D3SC0NT4SS015": {
    "min": 75.0,
-   "t": 1795825531.662615,
+   "t": 1795826694.1790948,
    "tipo": "fixed",
    "valor": 15.0
   },
@@ -658,7 +694,7 @@
   },
   "DESCONTABF300": {
    "min": 301.0,
-   "t": 1795825531.6625671,
+   "t": 1795826694.1790526,
    "tipo": "fixed",
    "valor": 300.0
   },
@@ -796,13 +832,13 @@
   },
   "H55MELI": {
    "min": 79.0,
-   "t": 1795825530.832675,
+   "t": 1795826693.823579,
    "tipo": "percent",
    "valor": 20.0
   },
   "INFLU100": {
    "min": 1000.0,
-   "t": 1795825531.663025,
+   "t": 1795826694.1794615,
    "tipo": "fixed",
    "valor": 100.0
   },
@@ -814,13 +850,13 @@
   },
   "INFLU200": {
    "min": 2000.0,
-   "t": 1795825531.6630256,
+   "t": 1795826694.1794622,
    "tipo": "fixed",
    "valor": 200.0
   },
   "INFLU300": {
    "min": 3000.0,
-   "t": 1795825531.663026,
+   "t": 1795826694.1794627,
    "tipo": "fixed",
    "valor": 300.0
   },
@@ -898,7 +934,7 @@
   },
   "K4RMELI": {
    "min": 399.0,
-   "t": 1795825531.659929,
+   "t": 1795826694.1766982,
    "tipo": "fixed",
    "valor": 60.0
   },
@@ -922,7 +958,7 @@
   },
   "L40FH139H90": {
    "min": 139.0,
-   "t": 1795825530.8373733,
+   "t": 1795826693.827626,
    "tipo": "percent",
    "valor": 40.0
   },
@@ -994,37 +1030,37 @@
   },
   "MAGALU100": {
    "min": 1000.0,
-   "t": 1795825529.4686415,
+   "t": 1795826693.209793,
    "tipo": "fixed",
    "valor": 100.0
   },
   "MAGALU200": {
    "min": 2000.0,
-   "t": 1795825529.4680333,
+   "t": 1795826693.20934,
    "tipo": "fixed",
    "valor": 200.0
   },
   "MAGALU250": {
    "min": 2500.0,
-   "t": 1795825531.6602335,
+   "t": 1795826694.176961,
    "tipo": "fixed",
    "valor": 250.0
   },
   "MAGALU300": {
    "min": 3500.0,
-   "t": 1795825529.4679964,
+   "t": 1795826693.2093084,
    "tipo": "fixed",
    "valor": 300.0
   },
   "MAGALU350": {
    "min": 4000.0,
-   "t": 1795825531.6606514,
+   "t": 1795826694.177339,
    "tipo": "fixed",
    "valor": 350.0
   },
   "MAGALUBLACK50": {
    "min": 200.0,
-   "t": 1795825531.6607616,
+   "t": 1795826694.177436,
    "tipo": "fixed",
    "valor": 50.0
   },
@@ -1033,6 +1069,12 @@
    "t": 1795800474.1640816,
    "tipo": "percent",
    "valor": 80.0
+  },
+  "MAISBLACK": {
+   "min": 1299.0,
+   "t": 1795827742.034454,
+   "tipo": "percent",
+   "valor": 18.0
   },
   "MAISDESCONTODEZ": {
    "min": 79.0,
@@ -1090,7 +1132,7 @@
   },
   "MELICE8": {
    "min": 299.0,
-   "t": 1795825531.6604207,
+   "t": 1795826694.17714,
    "tipo": "percent",
    "valor": 20.0
   },
@@ -1120,7 +1162,7 @@
   },
   "MELINABLACK": {
    "min": 1999.0,
-   "t": 1795825531.9205256,
+   "t": 1795826694.2966504,
    "tipo": "fixed",
    "valor": 300.0
   },
@@ -1156,7 +1198,7 @@
   },
   "MELIZA2": {
    "min": 199.0,
-   "t": 1795825531.6604214,
+   "t": 1795826694.1771407,
    "tipo": "percent",
    "valor": 15.0
   },
@@ -1210,13 +1252,13 @@
   },
   "N0VF31RG3": {
    "min": 149.0,
-   "t": 1795825531.6608098,
+   "t": 1795826694.1774783,
    "tipo": "fixed",
    "valor": 30.0
   },
   "N4OAC4B0U": {
    "min": 60.0,
-   "t": 1795825531.6620343,
+   "t": 1795826694.1785762,
    "tipo": "fixed",
    "valor": 20.0
   },
@@ -1274,11 +1316,11 @@
    "tipo": "percent",
    "valor": 15.0
   },
-  "P1XDAY15AF": {
-   "min": 999.0,
-   "t": 1795567288.6975927,
+  "OLHAHORAAF": {
+   "min": 75.0,
+   "t": 1795827667.4909832,
    "tipo": "fixed",
-   "valor": 100.0
+   "valor": 25.0
   },
   "PECHINCHOULAR": {
    "min": 150.0,
@@ -1306,7 +1348,7 @@
   },
   "PERFEITA": {
    "min": 199.0,
-   "t": 1795825530.837529,
+   "t": 1795826693.8277488,
    "tipo": "percent",
    "valor": 30.0
   },
@@ -1330,7 +1372,7 @@
   },
   "PMFT0001JACATC": {
    "min": 4000.0,
-   "t": 1795825531.6612241,
+   "t": 1795826694.1778464,
    "tipo": "fixed",
    "valor": 1200.0
   },
@@ -1372,7 +1414,7 @@
   },
   "PROMOFASHION": {
    "min": 59.0,
-   "t": 1795825531.1172473,
+   "t": 1795826693.9364946,
    "tipo": "percent",
    "valor": 15.0
   },
@@ -1400,6 +1442,12 @@
    "tipo": "percent",
    "valor": 20.0
   },
+  "R3ZMELI": {
+   "min": 139.0,
+   "t": 1795827668.5353894,
+   "tipo": "percent",
+   "valor": 20.0
+  },
   "RELAMP1": {
    "min": 3300.0,
    "t": 1795783780.9167204,
@@ -1414,13 +1462,13 @@
   },
   "RELAMPAGO": {
    "min": 79.0,
-   "t": 1795825530.8336904,
+   "t": 1795826693.8244429,
    "tipo": "percent",
    "valor": 20.0
   },
   "RIABF": {
    "min": 99.0,
-   "t": 1795825530.561537,
+   "t": 1795826693.7090487,
    "tipo": "percent",
    "valor": 80.0
   },
@@ -1466,12 +1514,6 @@
    "tipo": "fixed",
    "valor": 120.0
   },
-  "SITETODO2211": {
-   "min": 1099.0,
-   "t": 1795567288.9121196,
-   "tipo": "fixed",
-   "valor": 150.0
-  },
   "SITETODO2311": {
    "min": 150.0,
    "t": 1795624197.779355,
@@ -1510,13 +1552,13 @@
   },
   "SONHOBLACK10": {
    "min": 40.0,
-   "t": 1795825531.6598327,
+   "t": 1795826694.1766224,
    "tipo": "fixed",
    "valor": 10.0
   },
   "SONHOBLACK15": {
    "min": 60.0,
-   "t": 1795825872.3811219,
+   "t": 1795826694.1764944,
    "tipo": "fixed",
    "valor": 15.0
   },
@@ -1582,7 +1624,7 @@
   },
   "TDS50BF26": {
    "min": 249.0,
-   "t": 1795825530.8372052,
+   "t": 1795826693.8274803,
    "tipo": "fixed",
    "valor": 50.0
   },
@@ -1610,12 +1652,6 @@
    "tipo": "percent",
    "valor": 12.0
   },
-  "TODO2211SITE": {
-   "min": 1499.0,
-   "t": 1795567288.9121203,
-   "tipo": "fixed",
-   "valor": 230.0
-  },
   "TODO2311SITE": {
    "min": 399.0,
    "t": 1795624197.7793543,
@@ -1633,12 +1669,6 @@
    "t": 1795710641.4292598,
    "tipo": "fixed",
    "valor": 220.0
-  },
-  "TODOSITE2211": {
-   "min": 159.0,
-   "t": 1795567288.9121187,
-   "tipo": "fixed",
-   "valor": 30.0
   },
   "TODOSITE2311": {
    "min": 199.0,
@@ -1678,7 +1708,7 @@
   },
   "ULT1M0D4BL4CK": {
    "min": 59.0,
-   "t": 1795825531.660038,
+   "t": 1795826694.1767917,
    "tipo": "fixed",
    "valor": 10.0
   },
@@ -1719,7 +1749,6 @@
    "valor": 250.0
   },
   "__avisados": [
-   23557,
    23637,
    23652,
    23653,
@@ -1919,7 +1948,10 @@
    29381,
    29385,
    29436,
-   29446
+   29446,
+   29480,
+   29482,
+   29514
   ]
  },
  "dia": "2026-11-27",
@@ -1932,6 +1964,10 @@
    "r": "pulado:sem preco",
    "t": 1795813488
   },
+  "apromodaluh:159498": {
+   "r": "esgotado_avisado",
+   "t": 1795827095
+  },
   "cad:apromodaluh:159481": {
    "r": "cad_verificado",
    "t": 1795808563
@@ -1943,6 +1979,10 @@
   "cad:apromodaluh:159497": {
    "r": "cad_verificado",
    "t": 1795825535
+  },
+  "cad:apromodaluh:159498": {
+   "r": "cad_verificado",
+   "t": 1795826696
   },
   "cad:fumotom:54919": {
    "r": "cad_verificado",
@@ -2279,6 +2319,38 @@
   "cad:fumotom:55002": {
    "r": "cad_verificado",
    "t": 1795825535
+  },
+  "cad:fumotom:55003": {
+   "r": "cad_verificado",
+   "t": 1795826696
+  },
+  "cad:fumotom:55004": {
+   "r": "cad_verificado",
+   "t": 1795826696
+  },
+  "cad:fumotom:55005": {
+   "r": "cad_verificado",
+   "t": 1795826696
+  },
+  "cad:fumotom:55006": {
+   "r": "cad_verificado",
+   "t": 1795826696
+  },
+  "cad:fumotom:55007": {
+   "r": "cad_verificado",
+   "t": 1795826696
+  },
+  "cad:fumotom:55008": {
+   "r": "cad_verificado",
+   "t": 1795826696
+  },
+  "cad:fumotom:55009": {
+   "r": "cad_verificado",
+   "t": 1795826696
+  },
+  "cad:fumotom:55010": {
+   "r": "cad_verificado",
+   "t": 1795826696
   },
   "cad:iuriindica:126382": {
    "r": "cad_verificado",
@@ -3044,6 +3116,22 @@
    "r": "cad_verificado",
    "t": 1795825535
   },
+  "cad:iuriindica:126808": {
+   "r": "cad_verificado",
+   "t": 1795826696
+  },
+  "cad:iuriindica:126809": {
+   "r": "cad_verificado",
+   "t": 1795826696
+  },
+  "cad:iuriindica:126810": {
+   "r": "cad_verificado",
+   "t": 1795826696
+  },
+  "cad:iuriindica:126811": {
+   "r": "cad_verificado",
+   "t": 1795826696
+  },
   "cad:juaocupons:28333": {
    "r": "cad_verificado",
    "t": 1795825535
@@ -3139,6 +3227,10 @@
   "cad:juaocupons:28357": {
    "r": "cad_verificado",
    "t": 1795825535
+  },
+  "cad:juaocupons:28358": {
+   "r": "cad_verificado",
+   "t": 1795826696
   },
   "cad:pechinchou:242045": {
    "r": "cad_verificado",
@@ -3692,6 +3784,38 @@
    "r": "cad_verificado",
    "t": 1795825535
   },
+  "cad:pechinchou:242347": {
+   "r": "cad_verificado",
+   "t": 1795826696
+  },
+  "cad:pechinchou:242348": {
+   "r": "cad_verificado",
+   "t": 1795826696
+  },
+  "cad:pechinchou:242349": {
+   "r": "cad_verificado",
+   "t": 1795826696
+  },
+  "cad:pechinchou:242350": {
+   "r": "cad_verificado",
+   "t": 1795826696
+  },
+  "cad:pechinchou:242351": {
+   "r": "cad_verificado",
+   "t": 1795826696
+  },
+  "cad:pechinchou:242352": {
+   "r": "cad_verificado",
+   "t": 1795826696
+  },
+  "cad:pechinchou:242353": {
+   "r": "cad_verificado",
+   "t": 1795826696
+  },
+  "cad:pechinchou:242354": {
+   "r": "cad_verificado",
+   "t": 1795826696
+  },
   "cad:perfumepromo:10303": {
    "r": "cad_verificado",
    "t": 1795808268
@@ -4195,6 +4319,14 @@
   "cad:pincei:373378": {
    "r": "cad_verificado",
    "t": 1795825535
+  },
+  "cad:pincei:373379": {
+   "r": "cad_verificado",
+   "t": 1795826696
+  },
+  "cad:pincei:373380": {
+   "r": "cad_verificado",
+   "t": 1795826696
   },
   "cad:promosdaluh:327540": {
    "r": "cad_verificado",
@@ -4996,6 +5128,38 @@
    "r": "cad_verificado",
    "t": 1795825535
   },
+  "cad:promosdaluh:328024": {
+   "r": "cad_verificado",
+   "t": 1795826696
+  },
+  "cad:promosdaluh:328025": {
+   "r": "cad_verificado",
+   "t": 1795826696
+  },
+  "cad:promosdaluh:328026": {
+   "r": "cad_verificado",
+   "t": 1795826696
+  },
+  "cad:promosdaluh:328027": {
+   "r": "cad_verificado",
+   "t": 1795826696
+  },
+  "cad:promosdaluh:328028": {
+   "r": "cad_verificado",
+   "t": 1795826696
+  },
+  "cad:promosdaluh:328029": {
+   "r": "cad_verificado",
+   "t": 1795826696
+  },
+  "cad:promosdaluh:328030": {
+   "r": "cad_verificado",
+   "t": 1795826696
+  },
+  "cad:promosdaluh:328031": {
+   "r": "cad_verificado",
+   "t": 1795826696
+  },
   "cad:promotom:116396": {
    "r": "cad_verificado",
    "t": 1795825535
@@ -5088,6 +5252,10 @@
    "r": "cad_verificado",
    "t": 1795825535
   },
+  "cad:promotom:116420": {
+   "r": "cad_verificado",
+   "t": 1795826696
+  },
   "cad:teniscertocupons:66616": {
    "r": "cad_verificado",
    "t": 1795825535
@@ -5095,6 +5263,10 @@
   "cad:teniscertocupons:66617": {
    "r": "cad_verificado",
    "t": 1795825535
+  },
+  "esg:BLACKHOJE": {
+   "r": "avisado",
+   "t": 1795827095
   },
   "fumotom:54666": {
    "r": "pulado:repetido",
@@ -5383,6 +5555,38 @@
   "fumotom:54765": {
    "r": "pulado:repetido",
    "t": 1795824512
+  },
+  "fumotom:55003": {
+   "r": "falha",
+   "t": 1795829317
+  },
+  "fumotom:55004": {
+   "r": "pulado:periferico de PC",
+   "t": 1795827038
+  },
+  "fumotom:55005": {
+   "r": "pulado:repetido",
+   "t": 1795829246
+  },
+  "fumotom:55006": {
+   "r": "gerado",
+   "t": 1795829914
+  },
+  "fumotom:55007": {
+   "r": "pulado:repetido",
+   "t": 1795829687
+  },
+  "fumotom:55008": {
+   "r": "gerado",
+   "t": 1795829987
+  },
+  "fumotom:55009": {
+   "r": "gerado",
+   "t": 1795829839
+  },
+  "fumotom:55010": {
+   "r": "falha",
+   "t": 1795829686
   },
   "iuriindica:126376": {
    "r": "pulado:sem link",
@@ -5680,6 +5884,22 @@
    "r": "pulado:repetido",
    "t": 1795824513
   },
+  "iuriindica:126808": {
+   "r": "pulado:periferico de PC",
+   "t": 1795827041
+  },
+  "iuriindica:126809": {
+   "r": "pulado:sem link",
+   "t": 1795827041
+  },
+  "iuriindica:126810": {
+   "r": "pulado:aliexpress (bloqueado)",
+   "t": 1795827041
+  },
+  "iuriindica:126811": {
+   "r": "pulado:periferico de PC",
+   "t": 1795827043
+  },
   "juaocupons:28240": {
    "r": "pulado:sem preco",
    "t": 1795809569
@@ -5828,6 +6048,10 @@
    "r": "pulado:sem preco",
    "t": 1795809572
   },
+  "juaocupons:28358": {
+   "r": "pulado:sem preco",
+   "t": 1795827041
+  },
   "link:https://magazineluiza.onelink.me/589508454/zh8i1id0": {
    "r": "gerado",
    "t": 1795810136
@@ -5852,6 +6076,10 @@
    "r": "duplicado",
    "t": 1795822308
   },
+  "link:https://meli.la/1YLwqGP": {
+   "r": "gerado",
+   "t": 1795829987
+  },
   "link:https://meli.la/1exXpA9": {
    "r": "gerado",
    "t": 1795821797
@@ -5863,6 +6091,10 @@
   "link:https://meli.la/22EJyLm": {
    "r": "falha",
    "t": 1795823812
+  },
+  "link:https://meli.la/259U7s7": {
+   "r": "gerado",
+   "t": 1795829914
   },
   "link:https://meli.la/29fExj5": {
    "r": "gerado",
@@ -5876,6 +6108,10 @@
    "r": "falha",
    "t": 1795824511
   },
+  "link:https://meli.la/2y9AZgv": {
+   "r": "falha",
+   "t": 1795829317
+  },
   "link:https://meli.la/32gzhxw": {
    "r": "gerado",
    "t": 1795824310
@@ -5887,6 +6123,10 @@
   "link:https://produto.mercadolivre.com.br/MLB-3998048897-mala-de-viagem-falcon-line-bordo-45l-4-rodas-55cm-bali-_JM": {
    "r": "falha",
    "t": 1795817891
+  },
+  "link:https://produto.mercadolivre.com.br/MLB-4094472333-the-perfect-top-insider-_JM": {
+   "r": "falha",
+   "t": 1795827538
   },
   "link:https://produto.mercadolivre.com.br/MLB-4199806343-bolsa-tote-mini-gocase-casual-feminina-compacta-e-elegante-_JM": {
    "r": "falha",
@@ -5948,6 +6188,10 @@
    "r": "gerado",
    "t": 1795820266
   },
+  "link:https://www.amazon.com.br/dp/B075V5Z84D": {
+   "r": "gerado",
+   "t": 1795829839
+  },
   "link:https://www.amazon.com.br/dp/B09ZHCLVXF": {
    "r": "gerado",
    "t": 1795820417
@@ -5955,6 +6199,10 @@
   "link:https://www.amazon.com.br/dp/B0B8KSDM1N": {
    "r": "gerado",
    "t": 1795825039
+  },
+  "link:https://www.amazon.com.br/dp/B0CRTYZG5C": {
+   "r": "falha",
+   "t": 1795829686
   },
   "link:https://www.amazon.com.br/dp/B0H6WVX4L2": {
    "r": "gerado",
@@ -5983,6 +6231,14 @@
   "link:https://www.mercadolivre.com.br/air-fryer-philco-65l-visor-glass-e-redstone-1700w-paf65a-preto-127v/p/MLB52052995": {
    "r": "duplicado",
    "t": 1795813799
+  },
+  "link:https://www.mercadolivre.com.br/aparelho-de-jantar-16-pecas-organico-preto-matte-porto-brasil/p/MLB47321095": {
+   "r": "falha",
+   "t": 1795827295
+  },
+  "link:https://www.mercadolivre.com.br/ar-condicionado-janela-hisense-7500-btu-frio-eletronico-127v/up/MLBU4445365567": {
+   "r": "falha",
+   "t": 1795827189
   },
   "link:https://www.mercadolivre.com.br/ar-condicionado-split-gree-g-classic-12000-btus-inverter-branco/p/MLB80581941": {
    "r": "duplicado",
@@ -6056,6 +6312,10 @@
    "r": "falha",
    "t": 1795815828
   },
+  "link:https://www.mercadolivre.com.br/iphone-17-de-256gb-lavanda/p/MLB55308835": {
+   "r": "duplicado",
+   "t": 1795827391
+  },
   "link:https://www.mercadolivre.com.br/jogo-de-cama-queen-4-pecas-altenburg-toque-acetinado-arbor/up/MLBU5886662488": {
    "r": "gerado",
    "t": 1795816283
@@ -6124,6 +6384,10 @@
    "r": "falha",
    "t": 1795815540
   },
+  "link:https://www.mercadolivre.com.br/perfume-rabanne-1-million-parfum-100-ml-masculino-couro-floral/p/MLB16998135": {
+   "r": "falha",
+   "t": 1795827038
+  },
   "link:https://www.mercadolivre.com.br/proteina-growth-supplements-basic-whey-em-po-sabor-chocolate-x-1kg/p/MLB18725403": {
    "r": "gerado",
    "t": 1795812051
@@ -6143,6 +6407,10 @@
   "link:https://www.mercadolivre.com.br/robo-aspirador-robot-w90-varre-aspira-e-passa-pano-30w-wap-cor-preto/p/MLB19731776": {
    "r": "duplicado",
    "t": 1795811250
+  },
+  "link:https://www.mercadolivre.com.br/robo-aspirador-xiaomi-s40-pro-mop-15000pa-branco-bivolt/p/MLB65702567": {
+   "r": "falha",
+   "t": 1795826963
   },
   "link:https://www.mercadolivre.com.br/secador-de-cabelos-philcopsc3500-4-em-1dobravelmotorbldc-prateado/p/MLB50269368": {
    "r": "gerado",
@@ -6183,6 +6451,10 @@
   "link:https://www.nike.com.br/camiseta-nike-miler-feminina-004959.html?af_channel=690943": {
    "r": "gerado",
    "t": 1795810418
+  },
+  "link:https://www.nike.com.br/chuteira-nike-tiempo-10-academy-futsal-026504.html?af_channel=667997": {
+   "r": "gerado",
+   "t": 1795829737
   },
   "pechinchou:242045": {
    "r": "pulado:loja desconhecida",
@@ -6379,6 +6651,38 @@
   "pechinchou:242112": {
    "r": "pulado:loja desconhecida",
    "t": 1795821583
+  },
+  "pechinchou:242347": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795827600
+  },
+  "pechinchou:242348": {
+   "r": "gerado",
+   "t": 1795829737
+  },
+  "pechinchou:242349": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795827622
+  },
+  "pechinchou:242350": {
+   "r": "pulado:repetido",
+   "t": 1795829762
+  },
+  "pechinchou:242351": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795827646
+  },
+  "pechinchou:242352": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795827667
+  },
+  "pechinchou:242353": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795827688
+  },
+  "pechinchou:242354": {
+   "r": "pulado:loja desconhecida",
+   "t": 1795827709
   },
   "perfumepromo:10303": {
    "r": "pulado:sem preco",
@@ -6632,6 +6936,14 @@
    "r": "pulado:repetido",
    "t": 1795813488
   },
+  "pincei:373379": {
+   "r": "pulado:repetido",
+   "t": 1795827069
+  },
+  "pincei:373380": {
+   "r": "pulado:repetido",
+   "t": 1795827095
+  },
   "promosdaluh:327541": {
    "r": "duplicado",
    "t": 1795813799
@@ -6768,6 +7080,10 @@
    "r": "pulado:repetido",
    "t": 1795816586
   },
+  "promosdaluh:327577": {
+   "r": "falha",
+   "t": 1795826963
+  },
   "promosdaluh:327578": {
    "r": "gerado",
    "t": 1795816911
@@ -6867,6 +7183,10 @@
   "promosdaluh:327602": {
    "r": "pulado:repetido",
    "t": 1795818326
+  },
+  "promosdaluh:327603": {
+   "r": "falha",
+   "t": 1795827038
   },
   "promosdaluh:327604": {
    "r": "gerado",
@@ -7012,6 +7332,38 @@
    "r": "pulado:repetido",
    "t": 1795820711
   },
+  "promosdaluh:328024": {
+   "r": "pulado:so cupom (ignorado)",
+   "t": 1795827116
+  },
+  "promosdaluh:328025": {
+   "r": "falha",
+   "t": 1795827189
+  },
+  "promosdaluh:328026": {
+   "r": "falha",
+   "t": 1795827295
+  },
+  "promosdaluh:328027": {
+   "r": "pulado:repetido",
+   "t": 1795827337
+  },
+  "promosdaluh:328028": {
+   "r": "duplicado",
+   "t": 1795827391
+  },
+  "promosdaluh:328029": {
+   "r": "pulado:periferico de PC",
+   "t": 1795827432
+  },
+  "promosdaluh:328030": {
+   "r": "falha",
+   "t": 1795827538
+  },
+  "promosdaluh:328031": {
+   "r": "pulado:repetido",
+   "t": 1795827579
+  },
   "promotom:116247": {
    "r": "pulado:loja desconhecida",
    "t": 1795809544
@@ -7136,6 +7488,10 @@
    "r": "pulado:periferico de PC",
    "t": 1795809569
   },
+  "promotom:116420": {
+   "r": "pulado:sem preco",
+   "t": 1795827038
+  },
   "teniscertocupons:66554": {
    "r": "gerado",
    "t": 1795824827
@@ -7161,512 +7517,7 @@
    "t": 1795809583
   }
  },
- "fila": [
-  {
-   "canal": "pechinchou",
-   "id": 241962,
-   "t": 1795805629.696497,
-   "txt": "CORREEEE 🆘🏃 ALEXA, LIGAR O VENTILADOR DA SALA 🤣 🔝\n\n•⁠  Echo Dot Smart speaker com Alexa Com Alexa\n\n🔥 R$ 222 Pix\n\n1º Resgate Cupom aqui:\nR$30 OFF acima de R$249\nhttps://s.shopee.com.br/30mzRxdWQj\n2º Link do produto 👇🏻\n🛒 https://s.shopee.com.br/3B9JdN4p46\n➡ Cupom: VEMGASTAR40AF"
-  },
-  {
-   "canal": "fumotom",
-   "id": 54760,
-   "t": 1795807053.0,
-   "txt": "Hisense Smart Tv Uhd 4K Hi-Qled 65\" Polegadas 65Q6qv\n\nR$ 2779\n-CUPOM: BLACK120\n\nhttps://www.amazon.com.br/dp/B0FL4VDVCV?tag=promotom05-20\n\n-Anúncio"
-  },
-  {
-   "canal": "iuriindica",
-   "id": 126464,
-   "t": 1795806591.0,
-   "txt": "Tablet Lenovo Tab 10.1\" - Octa-Core, 4GB RAM, 64GB, Wi-Fi, Android 14\n\n💵  R$ 786\n🎟  Cupom: BLACK120\n✅  https://www.amazon.com.br/dp/B0F7HYZV8V/?tag=afiliado333-20\n\n🤑 Grupos de promoções: https://iuriindica.com.br"
-  },
-  {
-   "canal": "iuriindica",
-   "id": 126480,
-   "t": 1795807057.0,
-   "txt": "Hisense Smart TV UHD 4K HI-QLED 65\" Polegadas 65Q6QV\n\n💵  R$ 2779,90\n🎟  Cupom: BLACK120\n✅  https://www.amazon.com.br/dp/B0FL4VDVCV/?tag=afiliado333-20\n\n🤑 Grupos de promoções: https://iuriindica.com.br"
-  },
-  {
-   "canal": "fumotom",
-   "id": 54730,
-   "t": 1795805352.0,
-   "txt": "Smartwatch Samsung Galaxy Watch8 40mm Grafite 32Gb Bluetooth\n\n-Somente no APP Magalu\n\nR$ 879\n-CUPOM: RELOGIO200\n\nhttps://cutt.ly/UyFiJpDd\n\n-Anúncio"
-  },
-  {
-   "canal": "iuriindica",
-   "id": 126382,
-   "t": 1795803556.0,
-   "txt": "iPhone Air 256GB - Branco-nuvem - somente eSIM - Distribuidor Autorizado\n\n💵 R$ 5129\n🎟️ Cupom: DESCONTABF300\n✅ https://meli.la/2BKzLtw\n\n🤑 Grupos de ofertas: https://iuriindica.com.br"
-  },
-  {
-   "canal": "pechinchou",
-   "id": 242097,
-   "t": 1795806375.0,
-   "txt": "ASPIRADOR DE PÓ E ÁGUA 💧 MENOS R$250, ideal pra limpeza pesada🏃\n\n•⁠  Aspirador de Pó e Água WAP GTW 10 1400W de Potência com Bocal de Sopro\n\n🔥 R$ 160 Parcelado\nAchado Mercado Livre 👇🏻\n🛒 https://pechin.co/148941\n➡ Cupom: BLACKMELI"
-  },
-  {
-   "canal": "iuriindica",
-   "id": 126468,
-   "t": 1795806764.0,
-   "txt": "Fonte Mach1 Steady 750w 80 Plus Bronze Pfc Ativo Preto\n\n💵  R$ 204\n🎟  Cupom: PLSPQEWMAD\n✅  https://meli.la/2CSQ9mJ\n\n🤑 Grupos de promoções: https://iuriindica.com.br"
-  },
-  {
-   "canal": "iuriindica",
-   "id": 126463,
-   "t": 1795806579.0,
-   "txt": "Cadeira Gamer TGT Heron TC3, Preto e Vermelho, TGT-HRTC3-BLRD\n\nRESGATE TODOS CUPONS DESSA PAGINA: https://s.shopee.com.br/BVhxx1MpU\n\n💵  R$ 361\n✅  https://s.shopee.com.br/9zzdycQTyy?lp=aff\n\n🤑 Grupos de promoções: https://iuriindica.com.br"
-  },
-  {
-   "canal": "iuriindica",
-   "id": 126475,
-   "t": 1795806925.0,
-   "txt": "Smart Tv Philips 50 4k 50pug7300 Comando De Voz Bluetooth\n\n💵 R$ 1661\n🎟️ Cupom: MEUDESCONTOBLACK\n✅ https://meli.la/1uukSbF\n\n🤑 Grupos de ofertas: https://iuriindica.com.br"
-  },
-  {
-   "canal": "fumotom",
-   "id": 54549,
-   "t": 1795806249.1971393,
-   "txt": "Mouse Ergonômico Vertical Logitech Lift Sem Fio, Óptico, Design para Redução de Tensão Muscular, Silencioso, Bluetooth/Usb Logi Bolt Wireless, Windows/macOS/iPadOS, Grafite – 91000\n\nR$ 167\n\nhttps://meli.la/1JMrvg7\n\n-Anúncio"
-  },
-  {
-   "canal": "pechinchou",
-   "id": 241975,
-   "t": 1795806404.1365051,
-   "txt": "🏃🏻‍♂️ 16 GB - MODELO MAIS ATUAL! 📖 Mais Barato que na Amazon\n\n•⁠  Kindle 16gb Modelo2024, Tela Antirreflexo, Troca De Página Rápida, Luz Ajustável E Bateria Longa Duração, Cor Preto\n\n🔥 R$ 477 À vista\n\n1º Resgate Cupom aqui:\nR$50 OFF acima de R$389\nhttps://s.shopee.com.br/30mzRxdWQj\n2º Link do produto 👇🏻\n🛒 https://s.shopee.com.br/20xMG1Jr7P?lp=aff"
-  },
-  {
-   "canal": "fumotom",
-   "id": 54683,
-   "t": 1795803468.0,
-   "txt": "Headset Gamer Redragon H510-pro Zeus Rgb Wireless 7.1 53mm P\n\nR$ 249\n-CUPOM: BLACKMELI\n\nhttps://meli.la/25LXamt\n\n-Anúncio"
-  },
-  {
-   "canal": "iuriindica",
-   "id": 126381,
-   "t": 1795803482.0,
-   "txt": "Headset Gamer Redragon H510-pro Zeus Rgb Wireless 7.1 53mm P\n\n💵  R$ 249\n🎟  Cupom: BLACKMELI\n✅  https://meli.la/2BJShdc\n\n🤑 Grupos de promoções: https://iuriindica.com.br"
-  },
-  {
-   "canal": "iuriindica",
-   "id": 126451,
-   "t": 1795806405.0,
-   "txt": "Smart Tv 55 Pol Qned Mini Led Ai 4k Qned70 Webos 2026 LG\n\n💵 R$ 2366\n🎟️ Cupom: MEUDESCONTOBLACK\n✅ https://meli.la/2cPfTN3\n\n🤑 Grupos de ofertas: https://iuriindica.com.br"
-  },
-  {
-   "canal": "fumotom",
-   "id": 54668,
-   "t": 1795802403.0,
-   "txt": "Smart Tv 75\" Tcl 4K Uhd Qled 75P7l Google Tv 2026\n\nR$ 3749\n-CUPOM: INFLU300\n\nhttps://cutt.ly/ZyFirIow\n\n-Anúncio"
-  },
-  {
-   "canal": "fumotom",
-   "id": 54751,
-   "t": 1795806873.0,
-   "txt": "Monitor Gamer Dell Alienware 27″ Qhd 240Hz – Qd-Oled 0,03ms FreeSync™ Premium – Aw2726dm\n\nR$ 3302\n-CUPOM: MEUDESCONTOBLACK\n\nhttps://meli.la/1zYczm8\n\n-Anúncio"
-  },
-  {
-   "canal": "pechinchou",
-   "id": 241970,
-   "t": 1795806672.6657622,
-   "txt": "BARATINHOO 😱 HQ Frost Free 320 Litros 🧊 ESSA COR É LINDA 😍\n\n•⁠  Geladeira Duplex Frost Free 320 Litros Hq Inverter Multi Airflow Fresh Box Prata Hq-320rffs\n\n🔥 R$ 1.887 Pix\n\n1º Resgate Cupom aqui:\nR$100 OFF acima de R$729\nhttps://s.shopee.com.br/1qbUdLhHfk\n2º Link do produto 👇🏻\n🛒 https://s.shopee.com.br/6VPevjbau3"
-  },
-  {
-   "canal": "pechinchou",
-   "id": 241981,
-   "t": 1795806827.6527061,
-   "txt": "NO MENOR PREÇOOOO 🏃‍♂️🏃‍♂️😱😱 GELADEIRA INTELIGENTE 🥶\n\n•⁠  Geladeira Inteligente B= Smart 3 Portas French Door Frost Free 630L cor Black Inox Brastemp - BRO88AE\n\n🔥 R$ 5.361 Pix\n\n1º Resgate Cupom aqui:\n5% OFF acima de R$1mil Limite de R$100\nhttps://s.shopee.com.br/30mzRxdWQj\n2º Link do produto 👇🏻\n🛒 https://s.shopee.com.br/4fxA3RAlQ6"
-  },
-  {
-   "canal": "pechinchou",
-   "id": 242061,
-   "t": 1795803588.0,
-   "txt": "LINDOOO ♨️ Modelo top, Micro-ondas Todo ESPELHADO de 36L! 😱\n\n•⁠  Micro-ondas Electrolux 36L cor Inox Efficient com Descongelamento Assistido ME36S\n\n🔥 R$ 569 Pix\nAchado Mercado Livre 👇🏻\n🛒 https://pechin.co/110084"
-  },
-  {
-   "canal": "pechinchou",
-   "id": 242064,
-   "t": 1795803713.0,
-   "txt": "PREÇÃO TOP 😱 🔝 Air Fryer DE 3,5 LITROS, TOP DEMAIS 🤩⭐\n\n•⁠  Fritadeira Air Fryer Facilita Fry 3,5 Litros Preta Elgin\n\n🔥 R$ 121 Pix\n\n1º Resgate Cupom aqui:\nR$10 OFF Nas compras acima de R$89\nhttps://s.shopee.com.br/30mzRxdWQj\n2º Link do produto 👇🏻\n🛒 https://s.shopee.com.br/80EZWDFeIm?lp=aff"
-  },
-  {
-   "canal": "iuriindica",
-   "id": 126421,
-   "t": 1795805456.0,
-   "txt": "Fonte Rise Mode Elektra 650w Rm-psu-elk-650-b Para Pc Preto\n\n💵 R$ 179\n🎟️ Cupom: BLACKMELI\n✅ https://meli.la/1E8y5JF\n\n🤑 Grupos de ofertas: https://iuriindica.com.br"
-  },
-  {
-   "canal": "iuriindica",
-   "id": 126431,
-   "t": 1795806143.0,
-   "txt": "Samsung Odyssey G5 2.7 Qhd 180 Hz 0,03 ms G-sync Freesync\n\n💵  R$ 2210,09\n🎟  Cupom: MEUDESCONTOBLACK\n✅  https://meli.la/2kmeEK2\n\n🤑 Grupos de promoções: https://iuriindica.com.br"
-  },
-  {
-   "canal": "fumotom",
-   "id": 54747,
-   "t": 1795806691.0,
-   "txt": "Smart Tv Lg Nano Uhd Ai 4k Nu855 75 Polegadas 2026\n\nR$ 3707\n-CUPOM: MEUDESCONTOBLACK\n\nhttps://meli.la/2eauxXb\n\n-Anúncio"
-  },
-  {
-   "canal": "iuriindica",
-   "id": 126465,
-   "t": 1795806611.0,
-   "txt": "Smart Tv LG Nano Uhd Ai 4k Nu855 75 Polegadas 2026\n\n💵  R$ 3707\n🎟  Cupom: MEUDESCONTOBLACK\n✅  https://meli.la/288cz6L\n\n🤑 Grupos de promoções: https://iuriindica.com.br"
-  },
-  {
-   "canal": "pechinchou",
-   "id": 242100,
-   "t": 1795806516.0,
-   "txt": "FRETE GRÁTISSS 😱 377 Litros CONSUL 🥶 GRANDE E DE QUALIDADE 😌\n\n📦 Frete Grátis todo o Brasil\n•⁠  Geladeira Frost Free Duplex Consul 377 Litros Branca - CRM44MB\n\n🔥 R$ 2.327 Pix\nAchado Magazine Luiza 👇🏻\n🛒 https://pechin.co/140846"
-  },
-  {
-   "canal": "pechinchou",
-   "id": 242069,
-   "t": 1795803882.0,
-   "txt": "RÁPIDOOOOOO 🏃🏻🏃🏻 Modelo MAIS TOP DA PHILIPS 💥 Excelente Preço 🔝\n\n•⁠  Smart Tv 50\" Philips 4k 50pug7300 Bluetooth Hdr Dolby Atmos Hdmi Usb Wi-fi\n\n🔥 R$ 1.537 Pix\n\n1º Resgate Cupom aqui:\nR$100 OFF acima de R$999\nhttps://s.shopee.com.br/1qbUdLhHfk\n2º Link do produto 👇🏻\n🛒 https://s.shopee.com.br/9zzcwmNOgX"
-  },
-  {
-   "canal": "pechinchou",
-   "id": 242101,
-   "t": 1795806586.0,
-   "txt": "ESSE É TOP DEMAIS 😱 A Mais Recomendada Pras Festinhas 🤭 Partybox Stage 320\n\n•⁠  Caixa De Som Jbl Partybox Stage 320 Bluetooth Ipx4 Preta\n\n🔥 R$ 1.995 À vista\n\n1º Resgate Cupom aqui:\nR$100 OFF acima de R$729\nhttps://s.shopee.com.br/1qbUdLhHfk\n2º Link do produto 👇🏻\n🛒 https://s.shopee.com.br/9fMXAEq0hE?lp=aff"
-  },
-  {
-   "canal": "iuriindica",
-   "id": 126445,
-   "t": 1795806311.0,
-   "txt": "Teclado Mecanico Mancer Shade MK3, Rainbow, Switch Huano Vermelho, Preto, MCR-SHM3-RBW01RD\n\nRESGATE TODOS CUPONS DESSA PAGINA:\nhttps://s.shopee.com.br/AUvuZDjmxF\n\n💵 R$ 104\n✅ https://s.shopee.com.br/70M2On1eKw\n\n🤑 Grupos de ofertas: https://iuriindica.com.br"
-  },
-  {
-   "canal": "fumotom",
-   "id": 54740,
-   "t": 1795806334.0,
-   "txt": "Kit Whey Core 70% de Proteína Concentrada 900g + Pré-Treino Evolution 300g + Creatina 150g - Soldiers Nutrition\n\nR$ 79\n-Resgate todos os cupons desta página:\nhttps://s.shopee.com.br/4LLHDuXOcG\n\n-Link produto:\nhttps://s.shopee.com.br/8VAqBZH3M3\n\n-Anúncio"
-  },
-  {
-   "canal": "iuriindica",
-   "id": 126448,
-   "t": 1795806336.0,
-   "txt": "Kit Whey Core 70% de Proteína Concentrada -900g + Pré-Treino Evoluition 300g + Creatina 150g -Soldiers Nutrition\n\nRESGATE TODOS CUPONS DESSA PAGINA:\nhttps://s.shopee.com.br/40iQpJKzck\n\n💵 R$ 79\n✅ https://s.shopee.com.br/4LLHDvJJPB\n\n🤑 Grupos de ofertas: https://iuriindica.com.br"
-  },
-  {
-   "canal": "fumotom",
-   "id": 54703,
-   "t": 1795804242.0,
-   "txt": "Watercooler Redragon Gamerstorm Le360 Rd Argb Preto de 360mm\n\nR$ 269\n-CUPOM: BLACKMELI\n\nhttps://meli.la/2umVpoZ\n\n-Anúncio"
-  },
-  {
-   "canal": "iuriindica",
-   "id": 126400,
-   "t": 1795804141.0,
-   "txt": "Watercooler Redragon Gamerstorm LE360 RD ARGB Preto de 360mm\n\n💵 R$ 269\n🎟️ Cupom: BLACKMELI\n✅ https://meli.la/1WJwPrg\n\n🤑 Grupos de ofertas: https://iuriindica.com.br"
-  },
-  {
-   "canal": "iuriindica",
-   "id": 126466,
-   "t": 1795806646.0,
-   "txt": "Cadeira Gamer TGT Heron TX Tecido, Preto, TGT-HRTX-FB03\n\nRESGATE TODOS CUPONS DESSA PAGINA: https://s.shopee.com.br/BVhxx1MpU\n\n💵  R$ 551\n✅  https://s.shopee.com.br/2qWTRWccBM?lp=aff\n\n🤑 Grupos de promoções: https://iuriindica.com.br"
-  },
-  {
-   "canal": "promotom",
-   "id": 116261,
-   "t": 1795803901.0,
-   "txt": "Luz para Festa JBL Portátil PartyLight Sticks Show de Luzes - Preto\n\nR$ 49\n\nhttps://s.shopee.com.br/1gKW0ETMa2\n\n-Anúncio"
-  },
-  {
-   "canal": "iuriindica",
-   "id": 126452,
-   "t": 1795806412.0,
-   "txt": "Teclado Mecanico Mancer Shade MK3, Rainbow, Switch Huano Vermelho, Branco, MCR-SHM3-WH01\n\nRESGATE TODOS CUPONS DESSA PAGINA:\nhttps://s.shopee.com.br/9076maUKAB\n\n💵 R$ 107\n✅ https://s.shopee.com.br/114pFsz7is\n\n🤑 Grupos de ofertas: https://iuriindica.com.br"
-  },
-  {
-   "canal": "pechinchou",
-   "id": 242052,
-   "t": 1795803011.0,
-   "txt": "DA TRAMONTINA 🍴 12 PEÇAS, Saindo a R$ 5,48 CADAAA!\n\n📦 Frete Grátis Amazon Prime\n•⁠  Jogo De Talheres Para Churrasco Dynamic Sortidos Com Laminas De Aco Inox E Cabos De Madeira - 12 Peças\n\n🔥 R$ 65,70 Parcelado\nAchado Amazon 👇🏻\n🛒 https://pechin.co/67282"
-  },
-  {
-   "canal": "fumotom",
-   "id": 54679,
-   "t": 1795803426.0,
-   "txt": "Wella Treatment Oil Reflections Light 100ml\n\nR$ 82\n\nhttps://meli.la/1XThcQG\n\n-Anúncio"
-  },
-  {
-   "canal": "teniscertocupons",
-   "id": 66557,
-   "t": 1795803439.0,
-   "txt": "🔤🔤🔤🔤🔤\n\n🔤🔤🔤🔤🔤🔤\n\n💥 MENOR PREÇO HISTÓRICO!!\n\n💢ADIDAS HYPERBOOST RUN fem\n\nde R$ 1.299,99 por R$ 899,99*\n\n*️⃣No Pix ou em até 10x de R$ 89,99\n\n🔗 https://tenis.cc/490QMwh\n\n🎟 sem necessidade de cupom\n\n🚺️️️️️️ Tamanhos: 34, 35, 36, 37, 38, 39, 40\n\n🛒 Promoção válida SOMENTE para produtos vendidos e entregues pela Centauro"
-  },
-  {
-   "canal": "teniscertocupons",
-   "id": 66558,
-   "t": 1795803527.0,
-   "txt": "🔤🔤🔤🔤🔤\n\n🔤🔤🔤🔤🔤🔤\n\n💥 MENOR PREÇO HISTÓRICO!!\n\n💢ADIDAS HYPERBOOST RUN masc\n\nde R$ 1.299,99 por R$ 899,99*\n\n*️⃣No Pix ou em até 10x de R$ 89,99\n\n🔗 https://tenis.cc/4C9Rh4r\n\n🎟 sem necessidade de cupom\n\n🚹 Tamanhos: 39, 40, 41, 42, 43, 44\n\n🛒 Promoção válida SOMENTE para produtos vendidos e entregues pela Centauro"
-  },
-  {
-   "canal": "teniscertocupons",
-   "id": 66559,
-   "t": 1795803702.0,
-   "txt": "🔤🔤🔤🔤🔤\n\n🔤🔤🔤🔤🔤🔤\n\n💥 MENOR PREÇO HISTÓRICO!!\n\n💢ADIDAS HYPERBOOST RUN fem\n\nde R$ 1.299,99 por R$ 899,99*\n\n*️⃣No Pix ou em até 10x de R$ 89,99\n\n🔗 https://tenis.cc/3XcFvXa\n\n🎟 sem necessidade de cupom\n\n🚺️️️️️️ Tamanhos: 34, 35, 36, 37, 38, 39, 40\n\n🛒 Promoção válida SOMENTE para produtos vendidos e entregues pela Centauro"
-  },
-  {
-   "canal": "teniscertocupons",
-   "id": 66560,
-   "t": 1795803920.0,
-   "txt": "🔤🔤🔤🔤🔤\n\n🔤🔤🔤🔤🔤🔤\n\n💥 MENOR PREÇO HISTÓRICO!!\n\n💢ADIDAS HYPERBOOST RUN masc\n\nde R$ 1.299,99 por R$ 899,99*\n\n*️⃣No Pix ou em até 10x de R$ 89,99\n\n🔗 https://tenis.cc/3UWWbkV\n\n🎟 sem necessidade de cupom\n\n🚹 Tamanhos: 41, 42, 43, 44\n\n🛒 Promoção válida SOMENTE para produtos vendidos e entregues pela Centauro"
-  },
-  {
-   "canal": "fumotom",
-   "id": 54748,
-   "t": 1795806863.0,
-   "txt": "Colchão Queen Emma Original 158x198cm 3 Camadas de Espuma à Vácuo, Alta Respirabilidade, Tecnologia Alemã, Capa Removível Lavável e 10 Anos de Garantia\n\nR$ 2046 - Sem Juros\n-CUPOM: MEUDESCONTOBLACK\n\nhttps://meli.la/2PKJ27C\n\n-Anúncio"
-  },
-  {
-   "canal": "promotom",
-   "id": 116259,
-   "t": 1795803336.0,
-   "txt": "Smart TV 50\" Philips 4K 50PUG7300 Bluetooth HDR Dolby Atmos HDMI USB Wi-Fi\n\nR$ 1398 - Finalização\n\nhttps://s.shopee.com.br/7fbj8bN5Ie\n\n-Anúncio"
-  },
-  {
-   "canal": "pechinchou",
-   "id": 242084,
-   "t": 1795805114.0,
-   "txt": "PREÇÃO, AMIGAS! 🥰 Reduz Rugas e Linhas de Expressão A Partir de 2 Semanas\n\n📦 Frete Grátis Amazon Prime\n•⁠  Nivea Creme Facial Q10 Antissinais Power Noite 49g, Reduz E Previne Rugas, Fórmula Com Glycostop®\n\n🔥 R$ 33,10 À vista\nAchado Amazon 👇🏻\n🛒 https://pechin.co/102928"
-  },
-  {
-   "canal": "fumotom",
-   "id": 54750,
-   "t": 1795806871.0,
-   "txt": "Colchão King Emma Duo Comfort 193x203cm, Dupla Face, à vácuo, Suporte Ideal para o Corpo, Alta Durabilidade, Capa Lavável\n\nR$ 1706 - Sem Juros\n-CUPOM: MEUDESCONTOBLACK\n\nhttps://meli.la/2LHAgF6\n\n-Anúncio"
-  },
-  {
-   "canal": "fumotom",
-   "id": 54700,
-   "t": 1795804144.0,
-   "txt": "Fonte Msi Mag Bn65a, 650w, 80 Plus Bronze\n\nR$ 188\n-CUPOM: BLACKMELI\n\nhttps://meli.la/16aJSug\n\n-Anúncio"
-  },
-  {
-   "canal": "fumotom",
-   "id": 54742,
-   "t": 1795806421.0,
-   "txt": "Notebook Acer Aspire Go 15 (Versão Com Windows 11)\n\nR$ 2465\n-CUPOM: MEUDESCONTOBLACK\n\nhttps://meli.la/26eaLSW\n\n-Anúncio"
-  },
-  {
-   "canal": "iuriindica",
-   "id": 126399,
-   "t": 1795804129.0,
-   "txt": "Fonte Msi Mag Bn65a, 650w, 80 Plus Bronze\n\n💵 R$ 188\n🎟️ Cupom: BLACKMELI\n✅ https://meli.la/1kHkc7R\n\n🤑 Grupos de ofertas: https://iuriindica.com.br"
-  },
-  {
-   "canal": "pechinchou",
-   "id": 242089,
-   "t": 1795805903.0,
-   "txt": "ORIGINAL PUMA - Custa R$ 100 agora por R$ 61\n\n📦 Frete Grátis assinantes Meli+\n•⁠  Camiseta Ess Small Puma Logo Poly Tee Masculina Puma\n\n🔥 R$ 61,09 Pix\nAchado Mercado Livre 👇🏻\n🛒 https://pechin.co/152734"
-  },
-  {
-   "canal": "pechinchou",
-   "id": 242075,
-   "t": 1795804363.0,
-   "txt": "SUAVIDADE NO BANHO 👶🏻 Para Cabelos Claros 👱🏻 Johnson's Baby ⭐\n\n📦 Frete Grátis todo o Brasil\n•⁠  Shampoo Johnson's Baby Cabelos Claros, 400ml\n\n🔥 R$ 17,98 À vista\nAchado Amazon 👇🏻\n🛒 https://pechin.co/48735"
-  },
-  {
-   "canal": "pechinchou",
-   "id": 242050,
-   "t": 1795802942.0,
-   "txt": "CAIUUU O PREÇOOO ⬇️ Conjunto de 30 peças 🍽️ BARATO DEMAISS 😱\n\n📦 Frete Grátis todo o Brasil\n•⁠  Aparelho De Jantar E Chá 30 Peças Donna Colb\n\n🔥 R$ 250 À vista\nAchado Amazon 👇🏻\n🛒 https://pechin.co/121517"
-  },
-  {
-   "canal": "fumotom",
-   "id": 54698,
-   "t": 1795804048.0,
-   "txt": "iPhone Air 1 Tb - Azul-céu - somente eSIM - Distribuidor Autorizado\n\nR$ 5579\n\nhttps://meli.la/1uhQmCa\n\n-Anúncio"
-  },
-  {
-   "canal": "pechinchou",
-   "id": 242062,
-   "t": 1795803608.0,
-   "txt": "VOLTOUU, AMIGASS 😍 Hidratação Intensiva, QUALIDADE Neutrogena 🤌🏻\n\n📦 Frete Grátis Amazon Prime\n•⁠  Creme Hidratante Neutrogena Hidrata&Repara, Kit 2 Unidades de 400ml\n\n🔥 R$ 44,89 Pix\nAchado Amazon 👇🏻\n🛒 https://pechin.co/131545"
-  },
-  {
-   "canal": "iuriindica",
-   "id": 126460,
-   "t": 1795806546.0,
-   "txt": "Cadeira Ergonômica com Encosto 4D e Coluna S – Mesh Respirável, 3 Posições, Ajuste de Altura, Ideal para Home Office\n\nRESGATE TODOS CUPONS DESSA PAGINA:\nhttps://s.shopee.com.br/8AXznD3THV\n\n💵 R$ 699\n✅ https://s.shopee.com.br/9076mk0ELL\n\n🤑 Grupos de ofertas: https://iuriindica.com.br"
-  },
-  {
-   "canal": "fumotom",
-   "id": 54704,
-   "t": 1795804252.0,
-   "txt": "Freezer Horizontal Consul 1 Porta 307L Cha31mb\n\nR$ 1599\n-CUPOM: 300BFELETRO\n\nhttps://cutt.ly/FyFiRiYK\n\n-Anúncio"
-  },
-  {
-   "canal": "iuriindica",
-   "id": 126402,
-   "t": 1795804275.0,
-   "txt": "Freezer Horizontal Consul 1 Porta 307L Cha31mb\n\n💵  R$ 1599\n🎟  Cupom: 300BFELETRO\n✅  https://www.magazinevoce.com.br/papotech/botdoafiliado/p/241111600/in/waco/\n\n🤑 Grupos de promoções: https://iuriindica.com.br"
-  },
-  {
-   "canal": "iuriindica",
-   "id": 126398,
-   "t": 1795804114.0,
-   "txt": "Esrb Grand Theft Auto Vi Gta Vi Ps5 Físico\n\n💵 R$ 362\n🎟 Cupom: BLACKMELI\n✅ https://meli.la/1rbgNm6\n\n🤑 Grupos de ofertas: https://iuriindica.com.br"
-  },
-  {
-   "canal": "pechinchou",
-   "id": 242067,
-   "t": 1795803823.0,
-   "txt": "TÁ BARATOOOO Demaissssssss! UMA PECHINCHA 👶🏼💜 400ML de Sabonete PROTEX!\n\n📦 Frete Grátis todo o Brasil\n•⁠  Protex Baby Lavanda Sabonete Líquido Infantil, 400ml\n\n🔥 R$ 19,99 Pix\nAchado Amazon 👇🏻\n🛒 https://pechin.co/115376"
-  },
-  {
-   "canal": "iuriindica",
-   "id": 126385,
-   "t": 1795803897.0,
-   "txt": "iPhone Air 1 TB Azul-céu somente eSIM\n\n💵  R$ 5579,10\n✅  https://meli.la/1WzzctC\n\n🤑 Grupos de promoções: https://iuriindica.com.br"
-  },
-  {
-   "canal": "fumotom",
-   "id": 54744,
-   "t": 1795806554.0,
-   "txt": "Combo Mini Siàge Tratamento (6 itens)\n\nR$ 7\n\nhttps://s.shopee.com.br/AUvuZUlmzm\n\n-Anúncio"
-  },
-  {
-   "canal": "promotom",
-   "id": 116285,
-   "t": 1795806564.0,
-   "txt": "Combo Mini Siàge Tratamento (6 itens)\n\nR$ 7\n\nhttps://s.shopee.com.br/AUvuZUlmzm\n\n-Anúncio"
-  },
-  {
-   "canal": "perfumepromo",
-   "id": 10311,
-   "t": 1795806643.0,
-   "txt": "CORREEEE 1 REAL CADA MINI\n\nCombo Mini Siage Tratamento 6 Itens\n\nR$ 7.56\n🎟️ Resgate o Cupom na página do produto:\nhttps://s.shopee.com.br/9KjxBQNoQg\n\nAplique o Cupom e Compre aqui:\nhttps://s.shopee.com.br/9KjxBQNoQg"
-  },
-  {
-   "canal": "pechinchou",
-   "id": 242063,
-   "t": 1795803678.0,
-   "txt": "2 TAMANHO FAMÍLIA 180G 😱 Total Mint Branqueia os Dente 🦷 Só R$11 CADA 🪥\n\n📦 Frete Grátis Amazon Prime\n•⁠  Colgate Total Original Mint Creme Dental Com Flúor, 2x180g\n\n🔥 R$ 22,24 À vista\nAchado Amazon 👇🏻\n🛒 https://pechin.co/138775"
-  },
-  {
-   "canal": "fumotom",
-   "id": 54701,
-   "t": 1795804145.0,
-   "txt": "Elg Mousepad Deskmat Xl em Feltro 900x400mm Antiderrapante Cinza Claro\n\nR$ 38\n\nhttps://www.amazon.com.br/dp/B0F1PL74GV?tag=promotom05-20\n\n-Anúncio"
-  },
-  {
-   "canal": "fumotom",
-   "id": 54689,
-   "t": 1795803638.0,
-   "txt": "Toyng Chaveiro Bolsinha Barbie, Modelo Sortido, Acessório Infantil para Mochila, Bolsa e Passeios\n\nR$ 15\n\nhttps://www.amazon.com.br/dp/B0DSQ4TMCS?tag=promotom05-20\n\n-Anúncio"
-  },
-  {
-   "canal": "iuriindica",
-   "id": 126469,
-   "t": 1795806771.0,
-   "txt": "Monitor LG UltraFine 27\" 4K UHD IPS - 27U711B\n\nRESGATE TODOS CUPONS DESSA PAGINA: https://s.shopee.com.br/2qWTRfQ2h6\n\n💵  R$ 1017\n✅  https://s.shopee.com.br/5qA51BElAO\n\n🤑 Grupos de promoções: https://iuriindica.com.br"
-  },
-  {
-   "canal": "pechinchou",
-   "id": 242092,
-   "t": 1795806176.0,
-   "txt": "CORREEEE 🏃‍♂️🏃‍♂️ 😱 Basiquinha da RESERVA Não Tem Erro 🖤\n\n📦 Frete Grátis assinantes Meli+\n•⁠  Camiseta Bolso Cb Pica-pau Xadrez Reserva\n\n🔥 R$ 50,00 Pix\nAchado Mercado Livre 👇🏻\n🛒 https://pechin.co/156259"
-  },
-  {
-   "canal": "fumotom",
-   "id": 54710,
-   "t": 1795804651.0,
-   "txt": "Furadeira de Impacto Gsb 450 Re 450W 3/8Pol Bosch\n\nR$ 152\n-CUPOM: BLACKMELI\n\nhttps://meli.la/1e4B5ia\n\n-Anúncio"
-  },
-  {
-   "canal": "fumotom",
-   "id": 54729,
-   "t": 1795805315.0,
-   "txt": "Rechaud Retangular - Eleonora - Porcelana - Queimador - 1,4L - Full Fit\n\nR$ 99\n\nhttps://www.amazon.com.br/dp/B0GWNJLRKB?tag=promotom05-20\n\n-Anúncio"
-  },
-  {
-   "canal": "iuriindica",
-   "id": 126416,
-   "t": 1795804866.0,
-   "txt": "Furadeira de Impacto GSB 450 RE 450W 3/8POL Bosch\n\n💵  R$ 152\n🎟  Cupom: BLACKMELI\n✅  https://meli.la/1yFUnye\n\n🤑 Grupos de promoções: https://iuriindica.com.br"
-  },
-  {
-   "canal": "fumotom",
-   "id": 54688,
-   "t": 1795803636.0,
-   "txt": "N08 Pincel profissional para corretivo - Linha N - Plástico, Alumínio e náilon\n\nR$ 8\n\nhttps://www.amazon.com.br/dp/B0GT1VXQG4?tag=promotom05-20\n\n-Anúncio"
-  },
-  {
-   "canal": "fumotom",
-   "id": 54723,
-   "t": 1795805164.0,
-   "txt": "Aquarela para adultos, 12 projetos florais guiados | Uma pasta de exercícios de aquarela para iniciantes com contornos florais impressos e dicas guiadas; um presente criativo\n\nR$ 46\n\nhttps://www.amazon.com.br/dp/B0H6G7GMTS?tag=promotom05-20\n\n-Anúncio"
-  },
-  {
-   "canal": "fumotom",
-   "id": 54725,
-   "t": 1795805166.0,
-   "txt": "Unhas Postiças Macrilan UP204A, Nude Claro, Tamanho Curto, 24 Unidades | Plástico ABS, Formato Redondo\n\nR$ 11\n\nhttps://www.amazon.com.br/dp/B0CV29SMG2?tag=promotom05-20\n\n-Anúncio"
-  },
-  {
-   "canal": "pechinchou",
-   "id": 242046,
-   "t": 1795802036.0,
-   "txt": "ESSE TÁ NO PRECINHO MENINAS 💙 Kit Siage 😍\n\n📦 Frete Grátis todo o Brasil\n•⁠  Kit Siage Hair Plastia Mini\n\n🔥 R$ 35,91 À vista\nAchado Amazon 👇🏻\n🛒 https://pechin.co/142694"
-  },
-  {
-   "canal": "promotom",
-   "id": 116258,
-   "t": 1795803277.0,
-   "txt": "SAROS Edição Standard - PlayStation 5\n\nR$ 49\n\nhttps://s.shopee.com.br/8KrPvli9yq\n\n-Anúncio"
-  },
-  {
-   "canal": "fumotom",
-   "id": 54678,
-   "t": 1795803413.0,
-   "txt": "Mesa Dynamica 180X60X75cm\n\nR$ 312\n-CUPOM: C4RR1NH070\n\nhttps://s.shopee.com.br/8VAq6flwKH\n\n-Anúncio"
-  },
-  {
-   "canal": "fumotom",
-   "id": 54724,
-   "t": 1795805165.0,
-   "txt": "WIX XP 57055XP WIX XP Filtro de lubrificante giratório\n\nR$ 61\n\nhttps://www.amazon.com.br/dp/B07BMK9BDN?tag=promotom05-20\n\n-Anúncio"
-  },
-  {
-   "canal": "fumotom",
-   "id": 54669,
-   "t": 1795802407.0,
-   "txt": "Hellmann's Maionese Queijo Squeeze 335g\n\nR$ 5\n\nhttps://www.amazon.com.br/dp/B0G23Q9P1L?tag=promotom05-20\n\n-Anúncio"
-  },
-  {
-   "canal": "pechinchou",
-   "id": 242060,
-   "t": 1795803564.0,
-   "txt": "VOLTOUUUU🏃🏻 ESTOQUE ACABA RÁPIDO 😱 Hellmann's Queijo 🧀\n\n📦 Frete Grátis Amazon Prime\n•⁠  Hellmann's Maionese Queijo Squeeze 335g\n\n🔥 R$ 5,00 Pix\nAchado Amazon 👇🏻\n🛒 https://pechin.co/146752"
-  },
-  {
-   "canal": "fumotom",
-   "id": 54675,
-   "t": 1795803077.0,
-   "txt": "Thule Organizador de Malas Packing Cube M Soft Green\n\nR$ 70\n\nhttps://www.amazon.com.br/dp/B0CY3GHG14?tag=promotom05-20\n\n-Anúncio"
-  },
-  {
-   "canal": "pechinchou",
-   "id": 242070,
-   "t": 1795803904.0,
-   "txt": "FECHADURA EXTERNA MANUAL 🔐 Com 6 Chaves Tetra Para Segurança Total\n\n•⁠  Fechadura Portão Sobrepor Externo Manual Com 6 Chaves Tetra\n\n🔥 R$ 49,00 À vista no Pix e boleto\nAchado Mercado Livre 👇🏻\n🛒 https://pechin.co/154228"
-  },
-  {
-   "canal": "pechinchou",
-   "id": 242057,
-   "t": 1795803395.0,
-   "txt": "PARA DURAR MUITO TEMPO - Pinho Sol 3,8l 🧼 O MELHOR Desinfetante 🥰\n\n📦 Frete Grátis Amazon Prime\n•⁠  Pinho Sol Desinfetante Original 3 8L\n\n🔥 R$ 28,41 À vista\nAchado Amazon 👇🏻\n🛒 https://pechin.co/117812"
-  },
-  {
-   "canal": "fumotom",
-   "id": 54735,
-   "t": 1795805908.0,
-   "txt": "SUNNY, Dora Aventureira, Mochila com Mapa e Binóculo, Kit de Aventuras\n\nR$ 75\n\nhttps://www.amazon.com.br/dp/B0F6ZHVKRW?tag=promotom05-20\n\n-Anúncio"
-  }
- ],
+ "fila": [],
  "flags": {
   "resumo": true,
   "trava": true
@@ -10689,446 +10540,6 @@
   "t": 1795773790
  },
  "postados": [
-  {
-   "ids": [
-    "42862763"
-   ],
-   "p": 3399.0,
-   "t": 1795731897,
-   "w": [
-    "322l",
-    "autosense",
-    "efficient",
-    "electrolux",
-    "free",
-    "frost",
-    "geladeira",
-    "ib42g",
-    "inverse",
-    "inverter",
-    "preta"
-   ]
-  },
-  {
-   "ids": [
-    "66836847"
-   ],
-   "p": 2483.08,
-   "t": 1795731989,
-   "w": [
-    "electrolux",
-    "lava",
-    "louca",
-    "lp10e",
-    "min",
-    "seca",
-    "servicos"
-   ]
-  },
-  {
-   "ids": [
-    "B07ND7SGST"
-   ],
-   "p": 66.17,
-   "t": 1795732481,
-   "w": [
-    "aparelho",
-    "barbear",
-    "cargas",
-    "gillette",
-    "mach3",
-    "sensitive"
-   ]
-  },
-  {
-   "ids": [
-    "62990474"
-   ],
-   "p": 290.56,
-   "t": 1795732687,
-   "w": [
-    "olympikus",
-    "tenis",
-    "voa"
-   ]
-  },
-  {
-   "ids": [],
-   "p": 1599.0,
-   "t": 1795732816,
-   "w": [
-    "bluetooth",
-    "caixa",
-    "encore",
-    "jbl",
-    "microfone",
-    "partybox",
-    "som"
-   ]
-  },
-  {
-   "ids": [
-    "49488296"
-   ],
-   "p": 579.41,
-   "t": 1795733122,
-   "w": [
-    "100ml",
-    "azzaro",
-    "elixir",
-    "forever",
-    "perfume",
-    "wanted"
-   ]
-  },
-  {
-   "ids": [],
-   "p": 389.0,
-   "t": 1795733217,
-   "w": [
-    "bluetooth",
-    "caixa",
-    "grip",
-    "jbl",
-    "preta",
-    "som"
-   ]
-  },
-  {
-   "ids": [
-    "35200276"
-   ],
-   "p": 68.99,
-   "t": 1795733343,
-   "w": [
-    "aco",
-    "alicates",
-    "carbono",
-    "chaves",
-    "ferramentas",
-    "maleta",
-    "martelos",
-    "pecas",
-    "serra",
-    "titanium"
-   ]
-  },
-  {
-   "ids": [
-    "10421668"
-   ],
-   "p": 461.7,
-   "t": 1795733422,
-   "w": [
-    "200ml",
-    "edt",
-    "eros",
-    "masculino",
-    "perfume",
-    "versace"
-   ]
-  },
-  {
-   "ids": [
-    "80713504"
-   ],
-   "p": 2012.56,
-   "t": 1795733510,
-   "w": [
-    "bluetooth6",
-    "caixa",
-    "dr500",
-    "sabala",
-    "som",
-    "tws"
-   ]
-  },
-  {
-   "ids": [
-    "79396769"
-   ],
-   "p": 615.46,
-   "t": 1795733557,
-   "w": [
-    "100ml",
-    "edp",
-    "laurent",
-    "masculino",
-    "myslf",
-    "perfume",
-    "saint",
-    "yves"
-   ]
-  },
-  {
-   "ids": [
-    "80139594"
-   ],
-   "p": 1645.59,
-   "t": 1795733633,
-   "w": [
-    "alexa",
-    "app",
-    "assistente",
-    "btus",
-    "condicionado",
-    "controle",
-    "frio",
-    "google",
-    "kabum",
-    "portatil",
-    "quente",
-    "smart",
-    "via"
-   ]
-  },
-  {
-   "ids": [],
-   "p": 76.39,
-   "t": 1795733779,
-   "w": [
-    "50ml",
-    "antonio",
-    "banderas",
-    "eau",
-    "king",
-    "masculino",
-    "perfume",
-    "seduction",
-    "toilette"
-   ]
-  },
-  {
-   "ids": [
-    "B0FK1NJLXB"
-   ],
-   "p": 1869.9,
-   "t": 1795733928,
-   "w": [
-    "boombox",
-    "caixa",
-    "jbl",
-    "preto",
-    "som"
-   ]
-  },
-  {
-   "ids": [
-    "69983495"
-   ],
-   "p": 1973.7,
-   "t": 1795734043,
-   "w": [
-    "a57",
-    "dual",
-    "galaxy",
-    "lilas",
-    "ram",
-    "samsung",
-    "sim"
-   ]
-  },
-  {
-   "ids": [],
-   "p": 1804.92,
-   "t": 1795734130,
-   "w": [
-    "220v",
-    "btus",
-    "condicionado",
-    "frio",
-    "invt",
-    "lite",
-    "midea",
-    "split"
-   ]
-  },
-  {
-   "ids": [
-    "50232347"
-   ],
-   "p": 214.12,
-   "t": 1795734259,
-   "w": [
-    "1900w",
-    "air",
-    "aluminio",
-    "fritadeira",
-    "fryer",
-    "interior",
-    "midea",
-    "widemax"
-   ]
-  },
-  {
-   "ids": [
-    "66149470"
-   ],
-   "p": 1928.7,
-   "t": 1795734356,
-   "w": [
-    "256gb",
-    "a57",
-    "azul",
-    "claro",
-    "galaxy"
-   ]
-  },
-  {
-   "ids": [],
-   "p": 1538.0,
-   "t": 1795734498,
-   "w": [
-    "mario",
-    "meses",
-    "nintendo",
-    "oled",
-    "online",
-    "switch",
-    "wonder"
-   ]
-  },
-  {
-   "ids": [
-    "47113437"
-   ],
-   "p": 1073.7,
-   "t": 1795734611,
-   "w": [
-    "128gb",
-    "6gb",
-    "a36",
-    "galaxy",
-    "ram",
-    "samsung",
-    "smartphone"
-   ]
-  },
-  {
-   "ids": [
-    "48897709"
-   ],
-   "p": 355.21,
-   "t": 1795734654,
-   "w": [
-    "100ml",
-    "edt",
-    "invictus",
-    "paco",
-    "perfume",
-    "rabanne"
-   ]
-  },
-  {
-   "ids": [],
-   "p": 2039.0,
-   "t": 1795734696,
-   "w": [
-    "220v",
-    "btus",
-    "condicionado",
-    "ecomaster",
-    "frio",
-    "inv",
-    "midea"
-   ]
-  },
-  {
-   "ids": [
-    "17932299"
-   ],
-   "p": 131.47,
-   "t": 1795735158,
-   "w": [
-    "250ml",
-    "argan",
-    "brilho",
-    "limpeza",
-    "maciez",
-    "nutricao",
-    "oleo",
-    "profunda",
-    "radiante",
-    "shampoo",
-    "todos"
-   ]
-  },
-  {
-   "ids": [],
-   "p": 1935.0,
-   "t": 1795735216,
-   "w": [
-    "220v",
-    "auto",
-    "btu",
-    "condicionado",
-    "gree",
-    "inverter",
-    "side"
-   ]
-  },
-  {
-   "ids": [
-    "42974667"
-   ],
-   "p": 187.2,
-   "t": 1795736058,
-   "w": [
-    "13ml",
-    "corretivo",
-    "idole",
-    "ivoire",
-    "lancome",
-    "liquido",
-    "teint"
-   ]
-  },
-  {
-   "ids": [
-    "38659839"
-   ],
-   "p": 525.83,
-   "t": 1795736152,
-   "w": [
-    "carolina",
-    "eau",
-    "edp",
-    "herrera",
-    "mulheres",
-    "parfum",
-    "rose",
-    "vip"
-   ]
-  },
-  {
-   "ids": [],
-   "p": 350.55,
-   "t": 1795736247,
-   "w": [
-    "50ml",
-    "intense",
-    "jean",
-    "masculino",
-    "paul",
-    "perfume",
-    "scandal"
-   ]
-  },
-  {
-   "ids": [
-    "39608364"
-   ],
-   "p": 293.28,
-   "t": 1795736285,
-   "w": [
-    "cond",
-    "masc",
-    "obrigatorio",
-    "reconstrutor",
-    "truss",
-    "uso"
-   ]
-  },
   {
    "ids": [
     "23849747"
@@ -14457,6 +13868,75 @@
     "tenis",
     "vizzano"
    ]
+  },
+  {
+   "ids": [
+    "55308835"
+   ],
+   "p": 5114.0,
+   "t": 1795827378,
+   "w": [
+    "iphone",
+    "lavanda"
+   ]
+  },
+  {
+   "ids": [],
+   "p": 179.0,
+   "t": 1795829687,
+   "w": [
+    "academy",
+    "chuteira",
+    "futsal",
+    "nike",
+    "tiempo"
+   ]
+  },
+  {
+   "ids": [
+    "B075V5Z84D"
+   ],
+   "p": 1079.0,
+   "t": 1795829762,
+   "w": [
+    "aiven",
+    "cadeira",
+    "cinza",
+    "elements",
+    "ergonomica",
+    "escritorio",
+    "nr17",
+    "premium"
+   ]
+  },
+  {
+   "ids": [],
+   "p": 19.0,
+   "t": 1795829865,
+   "w": [
+    "1kg",
+    "alvejante",
+    "calisul",
+    "manchas",
+    "percarbonato",
+    "puro",
+    "sodio",
+    "tira"
+   ]
+  },
+  {
+   "ids": [],
+   "p": 19.0,
+   "t": 1795829939,
+   "w": [
+    "4kg",
+    "areia",
+    "biodegradavel",
+    "fina",
+    "gatos",
+    "higienica",
+    "kadi"
+   ]
   }
  ],
  "resumo_dia": "2026-11-26",
@@ -15542,100 +15022,12 @@
    "txt": "🛍️ Mala Bordo Wilson Viagem P Abs Rodinhas Removiveis 10kg Anac\n\nde R$ 571,00\n💸por R$ 175,00 🔥\n\n🎟️BLACKMELI\n\nCompre aqui 🔗\nhttps://promosdaluh.com/p/6538fw/\n\n📍 GRUPOS COM VAGAS: https://promosdaluh.com/bio"
   },
   {
-   "canal": "perfumepromo",
-   "id": 10310,
-   "n": 1,
-   "quando": 1795822218.9689364,
-   "t": 1795821738.9689362,
-   "txt": "🔥 MENOR PREÇO HISTÓRICO NESSE GIORGIO ARMANI\n\nPerfume Giorgio Armani Acqua Di Gioia EDP 30ml\n\nde R$ 509 por R$ 204\n🎟️ Use o Cupom: BLACKMELI\n\nLoja Oficial Armani Beauty: https://meli.la/2wGYHyh"
-  },
-  {
-   "canal": "juaocupons",
-   "id": 28268,
-   "n": 1,
-   "quando": 1795822774.642161,
-   "t": 1795822294.6421607,
-   "txt": "🔥 Cupons Renovados, Black Friday Shopee\n\n🏷️ R$ 23 milhões em cupons\n🏷️ Cupons pra todo app\n🏷️ Cupons de Frete Grátis\n🏷️ 50% OFF Shopee Vip\n\n🔗 Resgate todos os cupons aqui:\nhttps://s.shopee.com.br/8pkowavkaP\nhttps://s.shopee.com.br/7VIGHD4NHP\n\n✔️ Assine Shopee VIP (30 dias Grátis):\nhttps://s.shopee.com.br/3B6RiXXgfc"
-  },
-  {
-   "canal": "perfumepromo",
-   "id": 10307,
-   "n": 1,
-   "quando": 1795822969.8198245,
-   "t": 1795822489.8198242,
-   "txt": "🔥 CORREEE MENOR PREÇO HISTÓRICO, ja aproveita pra comprar de presente de Natal\n\nPerfume Rabanne Lady Million Fabulous EDP 80ml\n\nde R$ 899 por R$ 371\n🎟️ Use o Cupom: BLACKMELI\n\nLoja Oficial Rabanne: https://meli.la/19Px3i4"
-  },
-  {
-   "canal": "teniscertocupons",
-   "id": 66555,
-   "n": 1,
-   "quando": 1795823177.1683717,
-   "t": 1795822697.1683714,
-   "txt": "🔤🔤🔤🔤🔤\n\n🔤🔤🔤🔤🔤🔤\n\n💥 MENOR PREÇO HISTÓRICO!!\n\n💢ASICS MAGIC SPEED 5 masc.\n\nde R$ 1.399,99 por R$ 599,99*\n\n*️⃣No Pix ou em até 8x de R$ 75,00\n\n🔗  https://tenis.cc/4cSIsQS\n\n🎟 sem necessidade de cupom\n\n🚹 Tamanhos: 39, 40, 41, 42, 43, 44\n\n🛒 Promoção válida para produtos vendidos e entregues pela Netshoes"
-  },
-  {
-   "canal": "teniscertocupons",
-   "id": 66556,
-   "n": 1,
-   "quando": 1795823353.5525482,
-   "t": 1795822873.552548,
-   "txt": "🔤🔤🔤🔤🔤\n\n🔤🔤🔤🔤🔤🔤\n\n💥 MENOR PREÇO HISTÓRICO!!\n\n💢ASICS MAGIC SPEED 5 masc.\n\nde R$ 1.399,99 por R$ 599,99*\n\n*️⃣No Pix ou em até 8x de R$ 75,00\n\n🔗  https://tenis.cc/4jcUbgd\n\n🎟 sem necessidade de cupom\n\n🚹 Tamanhos: 39, 40, 41, 42, 43, 44\n\n🛒 Promoção válida para produtos vendidos e entregues pela Netshoes"
-  },
-  {
-   "canal": "promotom",
-   "id": 116288,
-   "n": 1,
-   "quando": 1795823543.7656841,
-   "t": 1795823063.7656841,
-   "txt": "Monitor Gamer Samsung Essential S3, 24\" FHD, 120 Hz, HDMI, Preto\n\nR$ 262\n-CUPOM: WEUYRUE\n\nhttps://meli.la/2s6DFjp\n\n-Anúncio"
-  },
-  {
-   "canal": "iuriindica",
-   "id": 126476,
-   "n": 1,
-   "quando": 1795823698.7946239,
-   "t": 1795823218.7946231,
-   "txt": "Monitor Gamer Samsung Essential S3 24 Fhd 120 Hz Hdmi Preto\n\n💵 R$ 262\n🎟️ Cupom: WEUYRUE\n✅ https://meli.la/2T96MsV\n\n🤑 Grupos de ofertas: https://iuriindica.com.br"
-  },
-  {
-   "canal": "iuriindica",
-   "id": 126483,
-   "n": 1,
-   "quando": 1795823853.8064084,
-   "t": 1795823373.8064082,
-   "txt": "Monitor Gamer Samsung Essential S3 24 Fhd 120 Hz Hdmi Preto\n\n💵 R$ 262\n🎟 Cupom: WEUYRUE\n\nCLIQUE EM MOSTRAR MAIS\n✅ https://meli.la/2T96MsV\n\n🤑 Grupos de ofertas: https://iuriindica.com.br"
-  },
-  {
    "canal": "teniscertocupons",
    "id": 66543,
    "n": 2,
    "quando": 1795824210.1744602,
    "t": 1795804643.9697912,
    "txt": "🔤🔤🔤🔤🔤\n\n🔤🔤🔤🔤🔤🔤\n\n💢NEW BALANCE 1080 V15  masc.\n\nde R$ 1.199,99 por R$ 599,99*\n\n*️⃣No Pix ou em até 6x de R$ 99,99\n\n🔗  https://tenis.cc/4zBhaI4\n\n🎟 sem necessidade de cupom\n\n🚹 Tamanhos: 39, 40, 41, 42, 43, 44\n\n🛒 Produto vendido pela Authentic Feet"
-  },
-  {
-   "canal": "teniscertocupons",
-   "id": 66563,
-   "n": 1,
-   "quando": 1795824483.3366256,
-   "t": 1795824003.3366253,
-   "txt": "🔤🔤🔤🔤🔤\n\n🔤🔤🔤🔤🔤🔤\n\n💥 MENOR PREÇO HISTÓRICO\n\n💢OLYMPIKUS CORRE MAX 2\n\nde R$ 599,99 por R$ 359,91 no Pix\n\n🔗 FEM https://tenis.cc/3VJYmsh\n\n🔗 MASC https://tenis.cc/4jkNI2V\n\n🎟 sem necessidade de cupom\n\n🚻 Tamanhos: 34, 35, 36, 37, 38, 39, 41, 42, 43\n\n🛒 Promoção válida apenas para produtos vendidos e entregues pela FutFanatics"
-  },
-  {
-   "canal": "promotom",
-   "id": 116274,
-   "n": 1,
-   "quando": 1795825700.7593112,
-   "t": 1795825220.7593112,
-   "txt": "Fonte Xpg Coreshift Ii Ve 850w 80 Plus Gold Preto\n\nR$ 264\n-CUPOM: BLACKMELI\n\nhttps://meli.la/2KNiMxk\n\n-Anúncio"
-  },
-  {
-   "canal": "iuriindica",
-   "id": 126403,
-   "n": 1,
-   "quando": 1795825888.0070286,
-   "t": 1795825408.0070283,
-   "txt": "Fonte Xpg Coreshift Ii Ve 850w 80 Plus Gold Preto\n\n💵 R$ 298\n🎟️ Cupom: BLACKMELI\n✅ https://meli.la/1eZVzk1\n\n🤑 Grupos de ofertas: https://iuriindica.com.br"
   },
   {
    "canal": "promosdaluh",
@@ -15646,20 +15038,92 @@
    "txt": "🛍️ Best Whey 900g Todos Sabores - Atlhetica Nutrition\n\nde R$ 299,99\n💸por R$ 127,00 no pix 🔥\n\n🎟️BLACKMELI\n\nCompre aqui 🔗\nhttps://promosdaluh.com/p/qb312k/\n\n📍 GRUPOS COM VAGAS: https://promosdaluh.com/bio"
   },
   {
-   "canal": "promosdaluh",
-   "id": 327577,
+   "canal": "perfumepromo",
+   "id": 10310,
    "n": 2,
-   "quando": 1795826467.0688896,
-   "t": 1795816836.7271001,
-   "txt": "🛍️ Perfume Lancôme Feminino La Vie Est Belle Refil Edp 100ml Frasco Parfum Tradicional\n\nde R$ 909,00\n💸por R$ 367,49 🔥\n\n🎟️BELEZAPREMIUM ou BLACKMELI\n\nCompre aqui 🔗\nhttps://promosdaluh.com/p/l8tuhd/\n\n📍 GRUPOS COM VAGAS: https://promosdaluh.com/bio"
+   "quando": 1795828345.336622,
+   "t": 1795821738.9689362,
+   "txt": "🔥 MENOR PREÇO HISTÓRICO NESSE GIORGIO ARMANI\n\nPerfume Giorgio Armani Acqua Di Gioia EDP 30ml\n\nde R$ 509 por R$ 204\n🎟️ Use o Cupom: BLACKMELI\n\nLoja Oficial Armani Beauty: https://meli.la/2wGYHyh"
   },
   {
-   "canal": "promosdaluh",
-   "id": 327603,
+   "canal": "juaocupons",
+   "id": 28268,
    "n": 2,
-   "quando": 1795826686.9884725,
-   "t": 1795818576.4605112,
-   "txt": "🛍️ Perfume Feminino Giorgio Armani Acqua Di Gioia Edp 30ml\n\nde R$ 509,00\n💸por R$ 191,68 🔥\n\n🎟️BLACKMELI\n\nCompre aqui 🔗\nhttps://promosdaluh.com/p/cqnh1v/\n\n📍 GRUPOS COM VAGAS: https://promosdaluh.com/bio"
+   "quando": 1795828500.009807,
+   "t": 1795822294.6421607,
+   "txt": "🔥 Cupons Renovados, Black Friday Shopee\n\n🏷️ R$ 23 milhões em cupons\n🏷️ Cupons pra todo app\n🏷️ Cupons de Frete Grátis\n🏷️ 50% OFF Shopee Vip\n\n🔗 Resgate todos os cupons aqui:\nhttps://s.shopee.com.br/8pkowavkaP\nhttps://s.shopee.com.br/7VIGHD4NHP\n\n✔️ Assine Shopee VIP (30 dias Grátis):\nhttps://s.shopee.com.br/3B6RiXXgfc"
+  },
+  {
+   "canal": "perfumepromo",
+   "id": 10307,
+   "n": 2,
+   "quando": 1795828686.753924,
+   "t": 1795822489.8198242,
+   "txt": "🔥 CORREEE MENOR PREÇO HISTÓRICO, ja aproveita pra comprar de presente de Natal\n\nPerfume Rabanne Lady Million Fabulous EDP 80ml\n\nde R$ 899 por R$ 371\n🎟️ Use o Cupom: BLACKMELI\n\nLoja Oficial Rabanne: https://meli.la/19Px3i4"
+  },
+  {
+   "canal": "teniscertocupons",
+   "id": 66555,
+   "n": 2,
+   "quando": 1795828863.117106,
+   "t": 1795822697.1683714,
+   "txt": "🔤🔤🔤🔤🔤\n\n🔤🔤🔤🔤🔤🔤\n\n💥 MENOR PREÇO HISTÓRICO!!\n\n💢ASICS MAGIC SPEED 5 masc.\n\nde R$ 1.399,99 por R$ 599,99*\n\n*️⃣No Pix ou em até 8x de R$ 75,00\n\n🔗  https://tenis.cc/4cSIsQS\n\n🎟 sem necessidade de cupom\n\n🚹 Tamanhos: 39, 40, 41, 42, 43, 44\n\n🛒 Promoção válida para produtos vendidos e entregues pela Netshoes"
+  },
+  {
+   "canal": "teniscertocupons",
+   "id": 66556,
+   "n": 2,
+   "quando": 1795829070.0040925,
+   "t": 1795822873.552548,
+   "txt": "🔤🔤🔤🔤🔤\n\n🔤🔤🔤🔤🔤🔤\n\n💥 MENOR PREÇO HISTÓRICO!!\n\n💢ASICS MAGIC SPEED 5 masc.\n\nde R$ 1.399,99 por R$ 599,99*\n\n*️⃣No Pix ou em até 8x de R$ 75,00\n\n🔗  https://tenis.cc/4jcUbgd\n\n🎟 sem necessidade de cupom\n\n🚹 Tamanhos: 39, 40, 41, 42, 43, 44\n\n🛒 Promoção válida para produtos vendidos e entregues pela Netshoes"
+  },
+  {
+   "canal": "promotom",
+   "id": 116288,
+   "n": 2,
+   "quando": 1795829227.8268592,
+   "t": 1795823063.7656841,
+   "txt": "Monitor Gamer Samsung Essential S3, 24\" FHD, 120 Hz, HDMI, Preto\n\nR$ 262\n-CUPOM: WEUYRUE\n\nhttps://meli.la/2s6DFjp\n\n-Anúncio"
+  },
+  {
+   "canal": "iuriindica",
+   "id": 126476,
+   "n": 2,
+   "quando": 1795829382.9068618,
+   "t": 1795823218.7946231,
+   "txt": "Monitor Gamer Samsung Essential S3 24 Fhd 120 Hz Hdmi Preto\n\n💵 R$ 262\n🎟️ Cupom: WEUYRUE\n✅ https://meli.la/2T96MsV\n\n🤑 Grupos de ofertas: https://iuriindica.com.br"
+  },
+  {
+   "canal": "iuriindica",
+   "id": 126483,
+   "n": 2,
+   "quando": 1795829568.7135572,
+   "t": 1795823373.8064082,
+   "txt": "Monitor Gamer Samsung Essential S3 24 Fhd 120 Hz Hdmi Preto\n\n💵 R$ 262\n🎟 Cupom: WEUYRUE\n\nCLIQUE EM MOSTRAR MAIS\n✅ https://meli.la/2T96MsV\n\n🤑 Grupos de ofertas: https://iuriindica.com.br"
+  },
+  {
+   "canal": "teniscertocupons",
+   "id": 66563,
+   "n": 2,
+   "quando": 1795829726.580951,
+   "t": 1795824003.3366253,
+   "txt": "🔤🔤🔤🔤🔤\n\n🔤🔤🔤🔤🔤🔤\n\n💥 MENOR PREÇO HISTÓRICO\n\n💢OLYMPIKUS CORRE MAX 2\n\nde R$ 599,99 por R$ 359,91 no Pix\n\n🔗 FEM https://tenis.cc/3VJYmsh\n\n🔗 MASC https://tenis.cc/4jkNI2V\n\n🎟 sem necessidade de cupom\n\n🚻 Tamanhos: 34, 35, 36, 37, 38, 39, 41, 42, 43\n\n🛒 Promoção válida apenas para produtos vendidos e entregues pela FutFanatics"
+  },
+  {
+   "canal": "promotom",
+   "id": 116274,
+   "n": 2,
+   "quando": 1795829952.4324143,
+   "t": 1795825220.7593112,
+   "txt": "Fonte Xpg Coreshift Ii Ve 850w 80 Plus Gold Preto\n\nR$ 264\n-CUPOM: BLACKMELI\n\nhttps://meli.la/2KNiMxk\n\n-Anúncio"
+  },
+  {
+   "canal": "iuriindica",
+   "id": 126403,
+   "n": 2,
+   "quando": 1795830107.7402701,
+   "t": 1795825408.0070283,
+   "txt": "Fonte Xpg Coreshift Ii Ve 850w 80 Plus Gold Preto\n\n💵 R$ 298\n🎟️ Cupom: BLACKMELI\n✅ https://meli.la/1eZVzk1\n\n🤑 Grupos de ofertas: https://iuriindica.com.br"
   }
  ],
  "tentativas": {
@@ -15712,15 +15176,15 @@
   "iuriindica:125912": 2,
   "iuriindica:125915": 2,
   "iuriindica:125929": 2,
-  "iuriindica:126403": 1,
-  "iuriindica:126476": 1,
-  "iuriindica:126483": 1,
+  "iuriindica:126403": 2,
+  "iuriindica:126476": 2,
+  "iuriindica:126483": 2,
   "juaocupons:27780": 2,
   "juaocupons:27877": 2,
   "juaocupons:27994": 1,
   "juaocupons:28096": 1,
   "juaocupons:28113": 2,
-  "juaocupons:28268": 1,
+  "juaocupons:28268": 2,
   "pechinchou:240468": 1,
   "pechinchou:240473": 1,
   "pechinchou:240477": 1,
@@ -15730,8 +15194,8 @@
   "pechinchou:241975": 1,
   "pechinchou:241981": 1,
   "perfumepromo:10244": 2,
-  "perfumepromo:10307": 1,
-  "perfumepromo:10310": 1,
+  "perfumepromo:10307": 2,
+  "perfumepromo:10310": 2,
   "pincei:371517": 2,
   "pincei:371539": 2,
   "pincei:371547": 2,
@@ -15824,30 +15288,30 @@
   "promotom:116083": 2,
   "promotom:116090": 2,
   "promotom:116115": 1,
-  "promotom:116274": 1,
-  "promotom:116288": 1,
+  "promotom:116274": 2,
+  "promotom:116288": 2,
   "teniscertocupons:66376": 2,
   "teniscertocupons:66377": 2,
   "teniscertocupons:66378": 2,
   "teniscertocupons:66379": 2,
   "teniscertocupons:66488": 2,
   "teniscertocupons:66543": 2,
-  "teniscertocupons:66555": 1,
-  "teniscertocupons:66556": 1,
-  "teniscertocupons:66563": 1
+  "teniscertocupons:66555": 2,
+  "teniscertocupons:66556": 2,
+  "teniscertocupons:66563": 2
  },
  "tpl_ultimo": 2032135,
- "ult_ciclo": 1795825511.6839619,
+ "ult_ciclo": 1795830012.1155095,
  "ultimo_id": {
-  "apromodaluh": 159497,
-  "fumotom": 55002,
-  "iuriindica": 126807,
-  "juaocupons": 28357,
-  "pechinchou": 242346,
+  "apromodaluh": 159498,
+  "fumotom": 55010,
+  "iuriindica": 126811,
+  "juaocupons": 28358,
+  "pechinchou": 242354,
   "perfumepromo": 10317,
-  "pincei": 373378,
-  "promosdaluh": 328023,
-  "promotom": 116419,
+  "pincei": 373380,
+  "promosdaluh": 328031,
+  "promotom": 116420,
   "teniscertocupons": 66617,
   "teste": 1795214930
  }
