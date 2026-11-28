@@ -344,7 +344,7 @@ def conferir(posts_por_canal, cfg, est, log=print, agora=None):
             chave, preco, _, _, tit = r
             if preco > meu[0] + 0.005:
                 continue
-            igual = preco >= meu[0] - 0.005
+            igual = preco >= meu[0] * 0.99 - 0.005          # diferenca de menos de 1% conta como igual (centavos nao sao novidade)
             if igual and agora - meu[1] < 24 * 3600:
                 continue                                  # voce acabou de postar por esse preco
             ja = _AVISADOS.get(meu[5]) or _AVISADOS.get(chave)
