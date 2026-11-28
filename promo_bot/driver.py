@@ -100,6 +100,30 @@ def eh_confirmacao_cancelar(tela):
     return "certeza" in T.norm(tela.texto) and botao_confirmar_cancelamento(tela.botoes) is not None
 
 
+# 28/11: pergunta "Qual perfil Awin deseja utilizar?" (botoes "Dafiti BR" / "Dafiti Fashion Creators BR"). Regra do Oscar:
+# Dafiti = SEMPRE "Dafiti BR". Antes o robo nao reconhecia os botoes, deixava a pergunta aberta e o bot do Divulgador
+# ficava preso (nao respondia mais ao /cancelar) - 2 dos 5 bots ficaram assim por horas.
+PERFIS_AWIN = ("dafiti br",)
+
+
+def eh_pergunta_perfil(tela):
+    return bool(tela.botoes) and "qual perfil" in T.norm(tela.texto)
+
+
+def escolher_perfil(botoes, prefs=None, estrito=True):
+    """Escolhe o botao de perfil: o preferido (padrao 'Dafiti BR'), nunca um 'Creators'.
+    estrito=False (so para destravar um pedido que vai ser CANCELADO): na falta do preferido, o primeiro que nao e 'Creators'."""
+    ps = [T.norm(p) for p in (prefs or PERFIS_AWIN) if p]
+    cands = [b for b in botoes if "creator" not in T.norm(b)]
+    for p in ps:
+        for b in cands:
+            if p in T.norm(b):
+                return b
+    if not estrito and cands:
+        return cands[0]
+    return None
+
+
 class Falha(Exception):
     pass
 
@@ -157,9 +181,16 @@ class Driver:
 
     def _plataforma(self, tela, loja):
         """Se o bot perguntar por qual plataforma gerar (Awin/Rakuten/...), escolhe a do config."""
-        for _ in range(2):
+        for _ in range(3):
             if tela.achar("gerar promo"):
                 return tela
+            if eh_pergunta_perfil(tela):
+                esc = escolher_perfil(tela.botoes, self.cfg.get("perfil_awin"))
+                if not esc:
+                    raise Falha("perfil Awin nao reconhecido (loja=%s) | botoes=%s" % (loja or "?", tela.botoes))
+                self.log("  perfil Awin: %s" % esc)
+                tela = self.conv.clicar(esc)
+                continue
             opcoes = [b for b in tela.botoes if any(p in T.norm(b) for p in self.PLATAFORMAS)]
             if not opcoes:
                 return tela
