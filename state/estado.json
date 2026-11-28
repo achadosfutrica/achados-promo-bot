@@ -1,7 +1,7 @@
 {
  "bug_robo_ok": "AchadosFutricaBot",
  "cmd_ultimo": 2079438,
- "contagem_dia": 21,
+ "contagem_dia": 26,
  "cupom_min": {
   "0A9MELI": {
    "min": 999.0,
@@ -23,7 +23,7 @@
   },
   "10OFFSMFABFC": {
    "min": 4.0,
-   "t": 1795852532.5361257,
+   "t": 1795855155.1176217,
    "tipo": "percent",
    "valor": 10.0
   },
@@ -77,13 +77,13 @@
   },
   "20OFFN4BL4CK": {
    "min": 99.0,
-   "t": 1795852534.003097,
+   "t": 1795855156.303087,
    "tipo": "fixed",
    "valor": 20.0
   },
   "20OFFSMFGHJK": {
    "min": 4.0,
-   "t": 1795852532.5361261,
+   "t": 1795855155.1176226,
    "tipo": "percent",
    "valor": 20.0
   },
@@ -125,7 +125,7 @@
   },
   "30OFFSMFLMNP": {
    "min": 4.0,
-   "t": 1795852532.5361247,
+   "t": 1795855155.1176207,
    "tipo": "percent",
    "valor": 30.0
   },
@@ -149,13 +149,13 @@
   },
   "400FFN4SH0": {
    "min": 200.0,
-   "t": 1795852534.002784,
+   "t": 1795855156.302867,
    "tipo": "fixed",
    "valor": 40.0
   },
   "40OFFSMFQRST": {
    "min": 4.0,
-   "t": 1795852532.536124,
+   "t": 1795855155.11762,
    "tipo": "percent",
    "valor": 40.0
   },
@@ -179,7 +179,7 @@
   },
   "50OFFSMFUVWX": {
    "min": 4.99,
-   "t": 1795852534.0006993,
+   "t": 1795855156.3014631,
    "tipo": "percent",
    "valor": 50.0
   },
@@ -191,13 +191,13 @@
   },
   "60OFFSMFBCDE": {
    "min": 4.99,
-   "t": 1795852534.002251,
+   "t": 1795855156.3025105,
    "tipo": "percent",
    "valor": 60.0
   },
   "70OFFSMFFGHI": {
    "min": 4.99,
-   "t": 1795852534.0006986,
+   "t": 1795855156.3014622,
    "tipo": "percent",
    "valor": 70.0
   },
@@ -215,13 +215,13 @@
   },
   "80OFFSMFJKLM": {
    "min": 4.99,
-   "t": 1795852534.0026946,
+   "t": 1795855156.3028157,
    "tipo": "percent",
    "valor": 80.0
   },
   "ACABANDO": {
    "min": 599.0,
-   "t": 1795852533.4732268,
+   "t": 1795855155.8542426,
    "tipo": "percent",
    "valor": 15.0
   },
@@ -263,7 +263,7 @@
   },
   "AUTOMELI45": {
    "min": 130.0,
-   "t": 1795852534.002913,
+   "t": 1795855156.3029513,
    "tipo": "fixed",
    "valor": 45.0
   },
@@ -299,7 +299,7 @@
   },
   "BELEZAPREMIUM": {
    "min": 99.0,
-   "t": 1795852533.1127713,
+   "t": 1795855155.5728579,
    "tipo": "percent",
    "valor": 20.0
   },
@@ -353,13 +353,13 @@
   },
   "BFMP100": {
    "min": 500.0,
-   "t": 1795852534.0002277,
+   "t": 1795855156.3011343,
    "tipo": "fixed",
    "valor": 100.0
   },
   "BFMP200": {
    "min": 500.0,
-   "t": 1795852533.9995031,
+   "t": 1795855156.3006253,
    "tipo": "fixed",
    "valor": 200.0
   },
@@ -371,7 +371,7 @@
   },
   "BFT41RN": {
    "min": 500.0,
-   "t": 1795852534.0012534,
+   "t": 1795855156.3018258,
    "tipo": "fixed",
    "valor": 100.0
   },
@@ -383,7 +383,7 @@
   },
   "BLACK100OFF": {
    "min": 999.0,
-   "t": 1795852533.4793575,
+   "t": 1795855155.8587062,
    "tipo": "fixed",
    "valor": 100.0
   },
@@ -395,7 +395,7 @@
   },
   "BLACK150": {
    "min": 1499.0,
-   "t": 1795852533.4816494,
+   "t": 1795855155.860368,
    "tipo": "fixed",
    "valor": 150.0
   },
@@ -449,7 +449,7 @@
   },
   "BLACK50": {
    "min": 199.0,
-   "t": 1795852534.0017858,
+   "t": 1795855156.3021944,
    "tipo": "fixed",
    "valor": 50.0
   },
@@ -479,25 +479,25 @@
   },
   "BLACKHOJE": {
    "min": 1199.0,
-   "t": 1795852533.2929626,
+   "t": 1795855155.7104814,
    "tipo": "percent",
    "valor": 15.0
   },
   "BLACKMAGALU100": {
    "min": 1200.0,
-   "t": 1795852534.0023427,
+   "t": 1795855156.3025732,
    "tipo": "fixed",
    "valor": 100.0
   },
   "BLACKMAGALU50": {
    "min": 200.0,
-   "t": 1795852534.0023413,
+   "t": 1795855156.3025723,
    "tipo": "fixed",
    "valor": 50.0
   },
   "BLACKMELI": {
    "min": 199.0,
-   "t": 1795852533.4750957,
+   "t": 1795855155.8556004,
    "tipo": "percent",
    "valor": 20.0
   },
@@ -521,19 +521,19 @@
   },
   "BLACKSONHO": {
    "min": 30.0,
-   "t": 1795852533.4756572,
+   "t": 1795855155.856014,
    "tipo": "percent",
    "valor": 15.0
   },
   "BLACKVIP": {
    "min": 599.0,
-   "t": 1795852533.4730284,
+   "t": 1795855155.8541028,
    "tipo": "percent",
    "valor": 18.0
   },
   "BLACKVIPMELI": {
    "min": 79.0,
-   "t": 1795852533.4765127,
+   "t": 1795855155.85663,
    "tipo": "percent",
    "valor": 25.0
   },
@@ -599,7 +599,7 @@
   },
   "CORREBLACK": {
    "min": 79.0,
-   "t": 1795852533.4818757,
+   "t": 1795855155.8605247,
    "tipo": "percent",
    "valor": 25.0
   },
@@ -617,7 +617,7 @@
   },
   "CUPOM100BLACK": {
    "min": 200.0,
-   "t": 1795852534.002856,
+   "t": 1795855156.302914,
    "tipo": "fixed",
    "valor": 100.0
   },
@@ -635,7 +635,7 @@
   },
   "CUPOMBLACK300": {
    "min": 599.0,
-   "t": 1795852534.0024662,
+   "t": 1795855156.3026583,
    "tipo": "fixed",
    "valor": 300.0
   },
@@ -839,7 +839,7 @@
   },
   "H55MELI": {
    "min": 79.0,
-   "t": 1795852533.4758263,
+   "t": 1795855155.8561332,
    "tipo": "percent",
    "valor": 20.0
   },
@@ -929,7 +929,7 @@
   },
   "JJRMELI": {
    "min": 79.0,
-   "t": 1795852533.472348,
+   "t": 1795855155.8536181,
    "tipo": "percent",
    "valor": 20.0
   },
@@ -947,7 +947,7 @@
   },
   "K4RMELI": {
    "min": 399.0,
-   "t": 1795852534.0011702,
+   "t": 1795855156.3017678,
    "tipo": "fixed",
    "valor": 60.0
   },
@@ -977,7 +977,7 @@
   },
   "LF4MELI": {
    "min": 199.0,
-   "t": 1795852533.999063,
+   "t": 1795855156.300305,
    "tipo": "fixed",
    "valor": 50.0
   },
@@ -1061,7 +1061,7 @@
   },
   "MAGALU250": {
    "min": 2500.0,
-   "t": 1795852534.0015936,
+   "t": 1795855156.3020606,
    "tipo": "fixed",
    "valor": 250.0
   },
@@ -1073,13 +1073,13 @@
   },
   "MAGALU350": {
    "min": 4000.0,
-   "t": 1795852534.0021884,
+   "t": 1795855156.3024683,
    "tipo": "fixed",
    "valor": 350.0
   },
   "MAGALUBLACK50": {
    "min": 200.0,
-   "t": 1795852534.0023425,
+   "t": 1795855156.3025732,
    "tipo": "fixed",
    "valor": 50.0
   },
@@ -1091,7 +1091,7 @@
   },
   "MAISBLACK": {
    "min": 1299.0,
-   "t": 1795852534.1760623,
+   "t": 1795855156.4622827,
    "tipo": "percent",
    "valor": 18.0
   },
@@ -1109,7 +1109,7 @@
   },
   "MELHORDABLACK": {
    "min": 1999.0,
-   "t": 1795852533.6504614,
+   "t": 1795855156.013821,
    "tipo": "fixed",
    "valor": 300.0
   },
@@ -1157,7 +1157,7 @@
   },
   "MELICE8": {
    "min": 299.0,
-   "t": 1795852534.0018737,
+   "t": 1795855156.302253,
    "tipo": "percent",
    "valor": 20.0
   },
@@ -1187,7 +1187,7 @@
   },
   "MELINABLACK": {
    "min": 1999.0,
-   "t": 1795852533.4728227,
+   "t": 1795855155.8539486,
    "tipo": "fixed",
    "valor": 300.0
   },
@@ -1223,7 +1223,7 @@
   },
   "MELIZA2": {
    "min": 199.0,
-   "t": 1795852534.001875,
+   "t": 1795855156.302254,
    "tipo": "percent",
    "valor": 15.0
   },
@@ -1277,7 +1277,7 @@
   },
   "N0VF31RG3": {
    "min": 149.0,
-   "t": 1795852534.0024114,
+   "t": 1795855156.3026206,
    "tipo": "fixed",
    "valor": 30.0
   },
@@ -1397,7 +1397,7 @@
   },
   "PMFT0001JACATC": {
    "min": 4000.0,
-   "t": 1795852534.0030282,
+   "t": 1795855156.303032,
    "tipo": "fixed",
    "valor": 1200.0
   },
@@ -1469,7 +1469,7 @@
   },
   "R3ZMELI": {
    "min": 139.0,
-   "t": 1795852534.000607,
+   "t": 1795855156.3013976,
    "tipo": "percent",
    "valor": 20.0
   },
@@ -1487,13 +1487,13 @@
   },
   "RELAMPAGO": {
    "min": 79.0,
-   "t": 1795852533.4772093,
+   "t": 1795855155.8571453,
    "tipo": "percent",
    "valor": 20.0
   },
   "RIABF": {
    "min": 99.0,
-   "t": 1795852533.2913208,
+   "t": 1795855155.7092938,
    "tipo": "percent",
    "valor": 80.0
   },
@@ -1577,13 +1577,13 @@
   },
   "SONHOBLACK10": {
    "min": 40.0,
-   "t": 1795852534.0010428,
+   "t": 1795855156.3016827,
    "tipo": "fixed",
    "valor": 10.0
   },
   "SONHOBLACK15": {
    "min": 60.0,
-   "t": 1795852534.0008647,
+   "t": 1795855156.3015666,
    "tipo": "fixed",
    "valor": 15.0
   },
@@ -1733,13 +1733,13 @@
   },
   "ULT1M0D4BL4CK": {
    "min": 59.0,
-   "t": 1795852534.001322,
+   "t": 1795855156.3018718,
    "tipo": "fixed",
    "valor": 10.0
   },
   "ULTIMACHANCE": {
    "min": 1000.0,
-   "t": 1795852533.643009,
+   "t": 1795855156.0084918,
    "tipo": "fixed",
    "valor": 400.0
   },
@@ -2595,6 +2595,26 @@
   "cad:fumotom:55126": {
    "r": "cad_verificado",
    "t": 1795852269
+  },
+  "cad:fumotom:55127": {
+   "r": "cad_verificado",
+   "t": 1795855160
+  },
+  "cad:fumotom:55128": {
+   "r": "cad_verificado",
+   "t": 1795855160
+  },
+  "cad:fumotom:55129": {
+   "r": "cad_verificado",
+   "t": 1795855160
+  },
+  "cad:fumotom:55130": {
+   "r": "cad_verificado",
+   "t": 1795855160
+  },
+  "cad:fumotom:55131": {
+   "r": "cad_verificado",
+   "t": 1795855160
   },
   "cad:gatunopromos:137409": {
    "r": "cad_verificado",
@@ -5224,6 +5244,10 @@
    "r": "cad_verificado",
    "t": 1795838172
   },
+  "cad:promotom:116520": {
+   "r": "cad_verificado",
+   "t": 1795855160
+  },
   "cad:promotop:263116": {
    "r": "cad_verificado",
    "t": 1795834987
@@ -5632,6 +5656,26 @@
    "r": "gerado",
    "t": 1795852344
   },
+  "fumotom:55127": {
+   "r": "gerado",
+   "t": 1795855235
+  },
+  "fumotom:55128": {
+   "r": "gerado",
+   "t": 1795855378
+  },
+  "fumotom:55129": {
+   "r": "gerado",
+   "t": 1795855523
+  },
+  "fumotom:55130": {
+   "r": "gerado",
+   "t": 1795855450
+  },
+  "fumotom:55131": {
+   "r": "gerado",
+   "t": 1795855306
+  },
   "iuriindica:126815": {
    "r": "pulado:so cupom (ignorado)",
    "t": 1795830079
@@ -5924,9 +5968,21 @@
    "r": "duplicado",
    "t": 1795835549
   },
+  "link:https://www.amazon.com.br/dp/B009J8DYGG": {
+   "r": "gerado",
+   "t": 1795855378
+  },
+  "link:https://www.amazon.com.br/dp/B00R4J5EGK": {
+   "r": "gerado",
+   "t": 1795855450
+  },
   "link:https://www.amazon.com.br/dp/B01M7NMZJW": {
    "r": "gerado",
    "t": 1795852489
+  },
+  "link:https://www.amazon.com.br/dp/B079X4659D": {
+   "r": "gerado",
+   "t": 1795855523
   },
   "link:https://www.amazon.com.br/dp/B08S1ZS6R1": {
    "r": "falha",
@@ -5935,6 +5991,10 @@
   "link:https://www.amazon.com.br/dp/B0BN1GGDFZ": {
    "r": "gerado",
    "t": 1795847543
+  },
+  "link:https://www.amazon.com.br/dp/B0BPQ47TD4": {
+   "r": "gerado",
+   "t": 1795855235
   },
   "link:https://www.amazon.com.br/dp/B0BXH21DB1": {
    "r": "gerado",
@@ -5951,6 +6011,10 @@
   "link:https://www.amazon.com.br/dp/B0CXG11532": {
    "r": "gerado",
    "t": 1795852344
+  },
+  "link:https://www.amazon.com.br/dp/B0D5RMKHQ5": {
+   "r": "gerado",
+   "t": 1795855306
   },
   "link:https://www.amazon.com.br/dp/B0D9HWL3T7": {
    "r": "falha",
@@ -6975,6 +7039,10 @@
   "promotom:116515": {
    "r": "pulado:sem preco",
    "t": 1795835017
+  },
+  "promotom:116520": {
+   "r": "pulado:sem preco",
+   "t": 1795855188
   }
  },
  "fila": [],
@@ -10000,288 +10068,6 @@
   "t": 1795773790
  },
  "postados": [
-  {
-   "ids": [
-    "B0HCRN58Z6"
-   ],
-   "p": 1439.05,
-   "t": 1795758949,
-   "w": [
-    "13kg",
-    "220v",
-    "branca",
-    "compacta",
-    "diluicao",
-    "economica",
-    "efficient",
-    "electrolux",
-    "lavar",
-    "let13",
-    "maquina",
-    "pre"
-   ]
-  },
-  {
-   "ids": [
-    "B0GXXBDWG7"
-   ],
-   "p": 1449.1,
-   "t": 1795759042,
-   "w": [
-    "bocas",
-    "cinza",
-    "efficient",
-    "electrolux",
-    "fe5ig",
-    "fogao",
-    "inox"
-   ]
-  },
-  {
-   "ids": [
-    "B0086LLUG8"
-   ],
-   "p": 49.99,
-   "t": 1795759166,
-   "w": [
-    "750ml",
-    "johnnie",
-    "label",
-    "red",
-    "walker",
-    "whisky"
-   ]
-  },
-  {
-   "ids": [
-    "B07XRTY3NH"
-   ],
-   "p": 49.15,
-   "t": 1795759218,
-   "w": [
-    "coco",
-    "malibu",
-    "rum",
-    "sabor"
-   ]
-  },
-  {
-   "ids": [
-    "B0H277NGVR"
-   ],
-   "p": 55.57,
-   "t": 1795759269,
-   "w": [
-    "350ml",
-    "cerveja",
-    "gold",
-    "lata",
-    "therezopolis"
-   ]
-  },
-  {
-   "ids": [],
-   "p": 189.05,
-   "t": 1795759629,
-   "w": [
-    "1500w",
-    "air",
-    "aluminio",
-    "fritadeira",
-    "fryer",
-    "interior",
-    "midea",
-    "widemax"
-   ]
-  },
-  {
-   "ids": [
-    "951290141-23498370145"
-   ],
-   "p": 250.71,
-   "t": 1795759970,
-   "w": [
-    "1200w",
-    "alta",
-    "compacta",
-    "detergente",
-    "lav1300",
-    "lavadora",
-    "porta",
-    "potente",
-    "pressao",
-    "vonder"
-   ]
-  },
-  {
-   "ids": [
-    "B0CVSBKF4N"
-   ],
-   "p": 38.0,
-   "t": 1795760065,
-   "w": [
-    "casa",
-    "desinfetante",
-    "lavanda",
-    "limpeza",
-    "liquido",
-    "lysoform"
-   ]
-  },
-  {
-   "ids": [
-    "24044937"
-   ],
-   "p": 3199.0,
-   "t": 1795760402,
-   "w": [
-    "437l",
-    "free",
-    "freezer",
-    "frost",
-    "geladeira",
-    "inox",
-    "inverter",
-    "philco",
-    "prf535i"
-   ]
-  },
-  {
-   "ids": [],
-   "p": 258.63,
-   "t": 1795760907,
-   "w": [
-    "fusion",
-    "professionals",
-    "shampoos",
-    "wella"
-   ]
-  },
-  {
-   "ids": [
-    "19760356"
-   ],
-   "p": 286.5,
-   "t": 1795760968,
-   "w": [
-    "90ml",
-    "activate",
-    "anti",
-    "cure",
-    "fortalecedor",
-    "genesis",
-    "kerastase",
-    "queda",
-    "serum"
-   ]
-  },
-  {
-   "ids": [],
-   "p": 329.05,
-   "t": 1795761082,
-   "w": [
-    "100ml",
-    "black",
-    "edp",
-    "friday",
-    "rodeo",
-    "vip"
-   ]
-  },
-  {
-   "ids": [],
-   "p": 983.7,
-   "t": 1795761283,
-   "w": [
-    "belle",
-    "coffret",
-    "corporal",
-    "eau",
-    "est",
-    "lancome",
-    "locao",
-    "parfum",
-    "perfume",
-    "size",
-    "travel",
-    "vie"
-   ]
-  },
-  {
-   "ids": [
-    "50004317"
-   ],
-   "p": 230.0,
-   "t": 1795761544,
-   "w": [
-    "75ml",
-    "absolu",
-    "capilar",
-    "chroma",
-    "eclat",
-    "kerastase",
-    "oleo",
-    "recarregavel"
-   ]
-  },
-  {
-   "ids": [],
-   "p": 119.26,
-   "t": 1795761580,
-   "w": [
-    "kerastase",
-    "mascara",
-    "masque",
-    "resistance",
-    "therapiste",
-    "tratamento"
-   ]
-  },
-  {
-   "ids": [],
-   "p": 89.9,
-   "t": 1795761598,
-   "w": [
-    "enrich",
-    "professionals",
-    "shampoo",
-    "wella"
-   ]
-  },
-  {
-   "ids": [],
-   "p": 1517.0,
-   "t": 1795761673,
-   "w": [
-    "50pug7300",
-    "atmos",
-    "bluetooth",
-    "dolby",
-    "hdmi",
-    "hdr",
-    "philips",
-    "smart",
-    "usb"
-   ]
-  },
-  {
-   "ids": [
-    "67373298"
-   ],
-   "p": 480.83,
-   "t": 1795761858,
-   "w": [
-    "armani",
-    "eau",
-    "emporio",
-    "feminino",
-    "giorgio",
-    "parfum",
-    "perfume",
-    "power",
-    "you"
-   ]
-  },
   {
    "ids": [
     "43277539"
@@ -13717,6 +13503,106 @@
     "minnow",
     "zuri"
    ]
+  },
+  {
+   "ids": [
+    "B0BPQ47TD4"
+   ],
+   "p": 309.0,
+   "t": 1795855188,
+   "w": [
+    "1500d",
+    "agua",
+    "bruxolay",
+    "cadeira",
+    "capas",
+    "clima",
+    "externo",
+    "moveis",
+    "oxford",
+    "pacote",
+    "patio",
+    "preto",
+    "prova",
+    "resistente",
+    "revestimento",
+    "uso"
+   ]
+  },
+  {
+   "ids": [
+    "B0D5RMKHQ5"
+   ],
+   "p": 58.0,
+   "t": 1795855260,
+   "w": [
+    "absorcao",
+    "airpods",
+    "antiqueda",
+    "capa",
+    "chaveiro",
+    "geracao",
+    "grau",
+    "impactos",
+    "laranja",
+    "limpeza",
+    "macio",
+    "mhyaludo",
+    "militar",
+    "pro",
+    "silicone"
+   ]
+  },
+  {
+   "ids": [
+    "B009J8DYGG"
+   ],
+   "p": 64.0,
+   "t": 1795855331,
+   "w": [
+    "acessorios",
+    "celuloide",
+    "fender",
+    "formato",
+    "guitarra",
+    "medio",
+    "moto",
+    "pacote",
+    "palhetas",
+    "premium",
+    "verde"
+   ]
+  },
+  {
+   "ids": [
+    "B00R4J5EGK"
+   ],
+   "p": 303.0,
+   "t": 1795855403,
+   "w": [
+    "capa",
+    "embutida",
+    "grelha",
+    "pequena",
+    "ravenna"
+   ]
+  },
+  {
+   "ids": [
+    "B079X4659D"
+   ],
+   "p": 64.0,
+   "t": 1795855475,
+   "w": [
+    "450p",
+    "delrin",
+    "dunlop",
+    "grip",
+    "guitarra",
+    "jim",
+    "palhetas",
+    "prime"
+   ]
   }
  ],
  "resumo_dia": "2026-11-26",
@@ -15068,7 +14954,7 @@
   "teniscertocupons:66563": 2
  },
  "tpl_ultimo": 2032135,
- "ult_ciclo": 1795852514.5826914,
+ "ult_ciclo": 1795855548.5090206,
  "ultimo_id": {
   "apromodaluh": 159505,
   "cadonly:babypromokids": 71890,
@@ -15092,14 +14978,14 @@
   "cadonly:urubupromo": 44421,
   "cadonly:urubutenis": 2687,
   "cadonly:xetdaspromocoes": 97726,
-  "fumotom": 55126,
+  "fumotom": 55131,
   "iuriindica": 126873,
   "juaocupons": 28396,
   "pechinchou": 242478,
   "perfumepromo": 10323,
   "pincei": 373408,
   "promosdaluh": 328159,
-  "promotom": 116519,
+  "promotom": 116520,
   "teniscertocupons": 66617,
   "teste": 1795214930
  }
