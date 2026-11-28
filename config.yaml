@@ -171,6 +171,7 @@ limites:
   max_idade_min: 90               # posts com mais de 90 min são ignorados (evita postar promoção vencida)
   max_por_canal: 6                # 24/11 (Black Friday): no maximo N de cada canal por execucao (o fumotom nao ocupa tudo)
   fila_max: 200                   # promoções boas que sobraram esperam a próxima execução
+  max_ciclo_min: 8                # 28/11: cada ciclo de geração para após ~8 min; o resto vai para a fila e os canais são lidos de novo (alertas não esperam mais de ~10 min)
 
 # INTELIGÊNCIA: nota para cada promoção com base no que VOCÊ posta (seu grupo do Telegram, últimos 7 dias)
 # as de nota maior saem primeiro; abaixo de nota_minima são puladas (aparece no log)
