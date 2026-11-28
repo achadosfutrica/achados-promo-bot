@@ -1,6 +1,6 @@
 """27/11: ALERTA DE MENOR PRECO -- quando um canal (os de promocao E os canais_cadastro) posta um produto pelo
 MESMO preco ou MAIS BAIXO do que o menor preco que o Oscar ja postou daquele produto no grupo dele, avisa no
-@Achadosfutricamonitorabot.
+bot de DICAS DE POSTAGEM (BOT_DICAS_TOKEN; sem ele, no @Achadosfutricamonitorabot).
 
 Historico ("menor preco ja encontrado por mim") = os posts do SEU grupo (config inteligencia.meu_grupo).
   - guardado em state/precos/AAAA-MM-DD.json (um arquivo pequeno por dia -> o git nao incha);
@@ -24,6 +24,7 @@ import queue
 import re
 import threading
 import time
+import urllib.request
 from datetime import datetime, timedelta, timezone
 
 from . import inteligencia as IA
@@ -274,13 +275,38 @@ def _link_grupo(grupo, mid):
     return "https://t.me/c/%s/%s" % (g, mid)
 
 
+def _destino():
+    """27/11: bot proprio de DICAS DE POSTAGEM (secret BOT_DICAS_TOKEN). Chat: CHAT_DICAS_ID ou, se faltar, o
+    mesmo chat do monitora (CHAT_MONITOR_ID = o seu Telegram). Sem BOT_DICAS_TOKEN -> vai pro monitora."""
+    tok = os.environ.get("BOT_DICAS_TOKEN", "")
+    chat = os.environ.get("CHAT_DICAS_ID", "") or os.environ.get("CHAT_MONITOR_ID", "")
+    if tok and chat:
+        return tok, chat
+    return os.environ.get("BOT_MONITOR_TOKEN", ""), os.environ.get("CHAT_MONITOR_ID", "")
+
+
+def _enviar(token, chat, msg):
+    body = json.dumps({"chat_id": chat, "text": msg, "parse_mode": "HTML"}).encode()
+    req = urllib.request.Request("https://api.telegram.org/bot%s/sendMessage" % token, data=body,
+                                 headers={"Content-Type": "application/json"}, method="POST")
+    urllib.request.urlopen(req, timeout=20)
+
+
 def _trabalhar():
     from .cadastro_canais import _enviar_monitor, _log_fundo
     while True:
         msg, rotulo = _FILA.get()
         try:
-            _enviar_monitor(msg, log=_log_fundo)
-            _log_fundo("  menor preço avisado: %s" % rotulo)
+            tok, chat = _destino()
+            try:
+                _enviar(tok, chat, msg)
+                _log_fundo("  menor preço avisado: %s" % rotulo)
+            except Exception as e:  # noqa
+                if tok == os.environ.get("BOT_MONITOR_TOKEN", ""):
+                    raise
+                # bot de dicas falhou (ex.: ainda nao apertou /start nele): nao perde o aviso, manda no monitora
+                _log_fundo("  aviso: bot de dicas falhou (%r); mandei no monitora" % e)
+                _enviar_monitor(msg + chr(10) + chr(10) + "(o bot de dicas falhou: aperte /start nele)", log=_log_fundo)
         except Exception as e:  # noqa
             _log_fundo("  aviso: alerta de menor preço falhou (%s): %r" % (rotulo, e))
         finally:
@@ -292,7 +318,7 @@ def conferir(posts_por_canal, cfg, est, log=print, agora=None):
     pc = cfg.get("menor_preco") or {}
     if not pc.get("ligado", True) or not _IDX["k"]:
         return 0
-    if not (os.environ.get("BOT_MONITOR_TOKEN") and os.environ.get("CHAT_MONITOR_ID")):
+    if not all(_destino()):
         return 0
     t = _THREAD["t"]
     if t is None or not t.is_alive():
