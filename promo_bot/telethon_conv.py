@@ -4,7 +4,8 @@ import time
 
 from . import saude
 from . import texto as T
-from .driver import Tela, botao_confirmar_cancelamento, eh_confirmacao_cancelar, eh_resposta_cancelar
+from .driver import (Tela, botao_confirmar_cancelamento, eh_confirmacao_cancelar, eh_pergunta_perfil, eh_resposta_cancelar,
+                     escolher_perfil)
 
 
 async def _clicar(botao):
@@ -124,6 +125,41 @@ class ConvTelethon:
             return await self._esperar_mudanca(antes)
         return self._run(f())
 
+    async def _clicar_rotulo(self, rotulo):
+        """Clica no botao com esse texto na ultima tela do bot. Volta a assinatura de ANTES do clique (ou None se o botao sumiu)."""
+        m, antes = await self._assinatura()
+        alvo = next((b for l in ((m.buttons if m else None) or []) for b in l if b.text == rotulo), None)
+        if alvo is None:
+            return None
+        await _clicar(alvo)
+        return antes
+
+    async def _destravar_perfil(self):
+        """28/11: se a ultima tela do bot e a pergunta 'Qual perfil Awin deseja utilizar?' (ficou aberta de um pedido antigo),
+        o Divulgador nao responde a mais nada, nem ao /cancelar. Escolhe 'Dafiti BR' (nunca 'Creators'); o pedido
+        velho e cancelado logo depois pelo /cancelar. Retorna True se clicou."""
+        m, _ = await self._assinatura()
+        if m is None or not m.buttons:
+            return False
+        t = _tela(m)
+        if not eh_pergunta_perfil(t):
+            return False
+        rot = escolher_perfil(t.botoes, None, estrito=False)
+        if rot is None:
+            return False
+        try:
+            self.log("  Divulgador estava preso na pergunta de perfil (%s): escolhi %r para poder cancelar o pedido antigo" % (t.botoes, rot))
+        except Exception:  # noqa
+            pass
+        ant = await self._clicar_rotulo(rot)
+        if ant is None:
+            return False
+        try:
+            await self._esperar_mudanca(ant, timeout=25)          # tela do produto antigo
+        except TimeoutError:
+            pass
+        return True
+
     async def _confirmar_cancelamento(self, timeout=15):
         """Se a ultima tela do bot e 'Tem certeza que deseja cancelar?', clica em Sim e espera a resposta.
         Retorna None (nao era confirmacao), a Tela que veio depois do clique, ou False (clicou, sem resposta a tempo)."""
@@ -150,6 +186,7 @@ class ConvTelethon:
     def cancelar_tudo(self):
         """Fecha qualquer tela aberta do bot (Cancelar -> Sim / Nao) e ESPERA a resposta, para não atropelar o próximo produto."""
         async def f():
+            await self._destravar_perfil()
             m, antes = await self._assinatura()
             if await self._confirmar_cancelamento() is not None:      # ja estava na pergunta 'Tem certeza...?': confirma
                 return True
@@ -190,6 +227,7 @@ class ConvTelethon:
         lugar de cada produto novo). Tambem fecha qualquer pergunta aberta
         (ex.: 'Qual o preço?' do produto que falhou recebia os dados do PRÓXIMO: o tênis Asics saiu por R$ 14)."""
         async def f():
+            await self._destravar_perfil()              # 28/11: bot preso na pergunta de perfil Awin (Dafiti)
             await self._confirmar_cancelamento()        # se ja ha um 'Tem certeza...?' aberto, confirma antes
             _, antes = await self._assinatura()
             enviada = await asyncio.wait_for(self.c.send_message(self.bot, "/cancelar"), timeout=40)
@@ -199,7 +237,8 @@ class ConvTelethon:
             # do nosso /cancelar) e seria ignorada; antes + aceita ja garantem que so conta mudanca nova.
             min_id = None
             ok = False                                     # True = o Divulgador respondeu ao /cancelar (fila limpa)
-            aceita = lambda x: eh_resposta_cancelar(x) or eh_confirmacao_cancelar(x)
+            aceita = lambda x: eh_resposta_cancelar(x) or eh_confirmacao_cancelar(x) or eh_pergunta_perfil(x)
+            perfis_ok = 0
             for _ in range(4):
                 restante = fim - time.time()
                 if restante <= 0:
@@ -212,6 +251,29 @@ class ConvTelethon:
                     except Exception:  # noqa
                         pass
                     break
+                if eh_pergunta_perfil(t):
+                    # 28/11: o bot ficou preso na pergunta 'Qual perfil Awin...?' (ex.: Dafiti) e nao responde ao /cancelar
+                    # enquanto ela estiver aberta: escolhe 'Dafiti BR' (o pedido e cancelado logo em seguida) e manda /cancelar de novo
+                    rot = escolher_perfil(t.botoes, None, estrito=False)
+                    perfis_ok += 1
+                    if rot is None or perfis_ok > 2:
+                        break
+                    try:
+                        self.log("  Divulgador preso na pergunta de perfil (%s): escolhi %r e cancelo esse pedido" % (t.botoes, rot))
+                    except Exception:  # noqa
+                        pass
+                    ant = await self._clicar_rotulo(rot)
+                    if ant is None:
+                        break
+                    try:
+                        await self._esperar_mudanca(ant, timeout=25)      # tela do produto (ou 'Qual o preco?')
+                    except TimeoutError:
+                        pass
+                    _, antes = await self._assinatura()
+                    await asyncio.wait_for(self.c.send_message(self.bot, "/cancelar"), timeout=40)
+                    fim = max(fim, time.time() + espera)
+                    min_id = None
+                    continue
                 if eh_resposta_cancelar(t):
                     if time.time() - t0 > 12:
                         try:
