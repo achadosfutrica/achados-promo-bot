@@ -597,6 +597,10 @@ def main():
             templates.encaminhar_manuais(client, cfg, est, log, cfg["mode"])   # @di48291bot -> não vira arte
             if posts is None:
                 posts = _ler_canais(client, cfg, est, log)
+                try:                                              # 27/11: alerta de BUG (todos os canais de promoção)
+                    cadastro_canais.enfileirar_bugs(posts, est, log)
+                except Exception as e:  # noqa
+                    log("aviso: alerta de BUG: %r" % e)
                 if not cadastro_canais.configurado():
                     if not est.d.get("_aviso_cadastro"):
                         log("aviso: alerta de cadastro DESLIGADO (faltam CADASTRO_CANAIS_URL/CHAVE ou BOT_MONITOR_TOKEN/CHAT_MONITOR_ID no workflow)")
@@ -604,7 +608,9 @@ def main():
                 else:
                     cadastro_canais.enfileirar(posts, est, log)   # 27/11: em segundo plano, nunca segura o ciclo
                     try:                                          # 27/11: canais só de cadastro (não geram promoção)
-                        cadastro_canais.enfileirar(_ler_canais_cadastro(client, cfg, est, log), est, log)
+                        extras = _ler_canais_cadastro(client, cfg, est, log)
+                        cadastro_canais.enfileirar(extras, est, log)
+                        cadastro_canais.enfileirar_bugs(extras, est, log)   # BUG também nos canais de nicho
                     except Exception as e:  # noqa
                         log("aviso: canais de cadastro: %r" % e)
             drv = Driver(conv_divulgador(), cfg, log)
