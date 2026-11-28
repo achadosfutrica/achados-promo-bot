@@ -8,7 +8,7 @@ import time
 
 from . import config as C
 from . import filtro, inteligencia, links, lojas_extra, ml_vendedor, repetidos, templates, texto as T, vigia, painel, sentinela
-from . import cadastro_canais, saude
+from . import cadastro_canais, saude, precos_meus
 from .driver import Driver, Falha
 from .estado import Estado
 
@@ -474,10 +474,14 @@ def proxima_execucao(log):
 def salvar_no_git(est, log):
     """No GitHub, grava o estado no repositório durante o dia (se o robô cair, não perde o histórico)."""
     est.salvar()
+    try:
+        precos_meus.salvar(int((C.carregar().get("menor_preco") or {}).get("dias", 90)))
+    except Exception as e:  # noqa
+        log("aviso: nao salvei o historico de menor preco: %r" % e)
     if not os.environ.get("GITHUB_ACTIONS"):
         return
     try:
-        cmds = [["git", "add", "state/estado.json"],
+        cmds = [["git", "add", "state/estado.json"], ["git", "add", "-A", "state/precos"],
                 ["git", "-c", "user.name=promo-bot", "-c", "user.email=promo-bot@users.noreply.github.com",
                  "commit", "-q", "-m", "estado"],
                 ["git", "pull", "-q", "--rebase"], ["git", "push", "-q"]]
@@ -595,6 +599,7 @@ def main():
         def ciclo(posts=None):
             painel_agora()
             templates.encaminhar_manuais(client, cfg, est, log, cfg["mode"])   # @di48291bot -> não vira arte
+            extras = {}
             if posts is None:
                 posts = _ler_canais(client, cfg, est, log)
                 try:                                              # 27/11: alerta de BUG (todos os canais de promoção)
@@ -616,6 +621,12 @@ def main():
             drv = Driver(conv_divulgador(), cfg, log)
             perfil = atualizar_perfil(client, cfg, est, log)
             est.d["_grupo_hoje"] = grupo_hoje(client, cfg, log)
+            try:                                  # 27/11: alerta de MENOR PREÇO (seu histórico x canais)
+                precos_meus.atualizar(client, cfg, log)
+                precos_meus.conferir(posts, cfg, est, log)
+                precos_meus.conferir(extras, cfg, est, log)
+            except Exception as e:  # noqa
+                log("aviso: alerta de menor preço: %r" % e)
             cont = rodar(cfg, posts, est, drv, log, notificar, dormir=dormir, avisar_robo=avisar_robo,
                          divulgador=Divulgador(), resolver=resolver_vivo, perfil=perfil, midia=midia)
             est.d["ult_ciclo"] = time.time()
@@ -654,7 +665,7 @@ def main():
             ciclo()
         if sent:
             sent.desligar()
-    est.salvar()
+    salvar_no_git(est, log)          # 27/11: grava também o histórico de menor preço (state/precos)
     return 0
 
 
