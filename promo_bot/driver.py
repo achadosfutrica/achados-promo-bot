@@ -128,6 +128,111 @@ class Falha(Exception):
     pass
 
 
+# 28/11: TRAVA DE VALOR v2. O preco do post costuma JA vir com um desconto que a vitrine da loja (lida pelo Divulgador)
+# nao mostra: codigo de cupom sozinho numa linha (BLACKMELI), "RESGATE O CUPOM...", "desconto na finalizacao" (Amazon).
+# A regra de sempre (post ate 15% abaixo da loja) barrava esses posts. A v2 so roda quando a regra de sempre BARRARIA
+# e compara o preco do post com o que o cupom explica. Nunca afrouxa o teto (post mais caro que a loja).
+_NAO_COD = set(T._NAO_CODIGO) | set(T._LOJAS_NOME) | {
+    "COMPRE", "AQUI", "ABAIXO", "PRECO", "BUG", "PROMO", "OFERTA", "DESCONTO", "RESGATE", "RESGATAR", "ATIVAR", "ATIVE",
+    "FRETE", "GRATIS", "FULL", "OFICIAL", "OFICIAIS", "LOJAS", "PAGINA", "CHECKOUT", "FINALIZACAO", "FINALIZAR",
+}
+_LINHA_COD = re.compile(r"^[^\w]*([A-Z0-9][A-Z0-9_\-]{3,23})[^\w]*$")
+_SINAL_DESC = re.compile(
+    r"resgat\w*\s+(?:o\s+)?cupom|aplique\s+o\s+cupom|cupom\s+(?:na|no|do|da)\s+(?:pagina|app|site|anuncio)|"
+    r"desconto\s+(?:na|ao|no)\s+(?:finaliza\w*|checkout|carrinho|pagamento)|(?:ao|na)\s+finalizar|no\s+checkout|"
+    r"cai\s+no\s+carrinho|desconto\s+(?:extra\s+)?(?:na|ao)\s+finalizacao")
+_PISO_SINAL_SEM_VALOR, _TETO_V2, _FOLGA_CUPOM = 0.70, 1.05, 0.94
+
+
+def codigo_solto(texto):
+    """Codigo de cupom escrito sozinho numa linha (BLACKMELI, CUPONOMOVEIS...). Nunca a 1a linha (titulo)."""
+    linhas = [l for l in (texto or "").splitlines() if l.strip()]
+    for i, l in enumerate(linhas):
+        if i == 0:
+            continue
+        s = T.sem_acento(l).strip()
+        m = _LINHA_COD.match(s)
+        if not m or s != s.upper():
+            continue
+        c = m.group(1)
+        if c.isdigit() or not re.search(r"[A-Z]", c) or c in _NAO_COD or re.match(r"^\d+(OFF|X|GB|TB|MM|CM|ML|KG|W)$", c):
+            continue
+        return c
+    return None
+
+
+def sinal_desconto(texto):
+    """(tem_sinal, motivo, codigo): o preco do post ja leva um desconto que a vitrine da loja nao mostra."""
+    cod = T.cupom(texto)
+    if cod and cod in _NAO_COD:
+        cod = None
+    cod = cod or codigo_solto(texto)
+    if cod:
+        return True, "codigo %s" % cod, cod
+    m = _SINAL_DESC.search(T.norm(texto or ""))
+    if m:
+        return True, "texto '%s'" % m.group(0), None
+    return False, "", None
+
+
+def linhas_extra(texto, cod):
+    """Linhas que o post precisa levar na informacao extra quando a v2 libera: o codigo e/ou a frase do desconto."""
+    out = []
+    if cod:
+        out.append("🎟️ Cupom: %s" % cod)
+    for l in (texto or "").splitlines():
+        s = l.strip()
+        if s and len(s) <= 120 and not T.URL_RE.search(s) and _SINAL_DESC.search(T.norm(s)) and s not in out:
+            out.append(s)
+        if len(out) >= 3:
+            break
+    return out
+
+
+def detalhes_do_cupom(texto, cod, cache):
+    """Valor do desconto: o que o post diz; se nao disser, o que o robo ja aprendeu desse codigo (est.d['cupom_min'])."""
+    det = T.cupom_detalhes(texto) or {}
+    if not det.get("valor") and cod and isinstance((cache or {}).get(cod), dict) and cache[cod].get("valor"):
+        c = cache[cod]
+        det = {"tipo": c.get("tipo"), "valor": c.get("valor")}
+    return det if det.get("valor") else {}
+
+
+def preco_esperado(ref, det):
+    """Preco que a loja deveria mostrar depois do cupom. A compra minima NAO anula o cupom aqui: nos casos reais
+    (BLACKMELI min R$ 199) o post bateu exato com o desconto mesmo com o produto abaixo do minimo."""
+    if det.get("tipo") == "percent":
+        d = ref * det["valor"] / 100.0
+        if det.get("maximo"):
+            d = min(d, det["maximo"])
+    else:
+        d = det["valor"]
+    return ref - d
+
+
+def trava_v2(base, preco_txt, texto, cache=None):
+    """(ok, nivel, motivo, codigo). nivel A = bate com o cupom; B = ha sinal de desconto mas sem valor conhecido."""
+    atual, _antigo = base
+    ours = T._para_float(*re.match(r"\s*([0-9.]+)(?:,([0-9]{1,2}))?", preco_txt.replace(".", "")).groups())
+    if not (atual and ours):
+        return False, "-", "sem preco para comparar", None
+    tem, why, cod = sinal_desconto(texto)
+    if not tem:
+        return False, "N", "o texto do post nao cita cupom nem desconto", cod
+    r = ours / atual
+    if r > _TETO_V2:
+        return False, "teto", "post %.0f%% da loja (acima de 105%%)" % (r * 100), cod
+    det = detalhes_do_cupom(texto, cod, cache)
+    if det:
+        exp = preco_esperado(atual, det)
+        if ours >= exp * _FOLGA_CUPOM:
+            return True, "A", "bate com o cupom (%s): esperado R$ %.2f, post R$ %.2f" % (why, exp, ours), cod
+        return False, "A", "post R$ %.2f esta %.0f%% abaixo do que o cupom explica (R$ %.2f)" % (ours, (1 - ours / exp) * 100, exp), cod
+    if r >= _PISO_SINAL_SEM_VALOR:
+        return True, "B", "sinal de desconto (%s) sem valor conhecido; post %.0f%% da loja" % (why, r * 100), cod
+    return False, "B", "sinal (%s) sem valor conhecido, mas post %.0f%% da loja (piso 70%%)" % (why, r * 100), cod
+
+
 class Driver:
     def __init__(self, conv, cfg, log=print):
         """conv: objeto com enviar(txt)->Tela, clicar(rotulo)->Tela, responder(txt)->Tela, cancelar_tudo()"""
@@ -289,9 +394,40 @@ class Driver:
         elif antigo and ours and ours < antigo * 0.3:
             raise Falha("VALOR NAO CONFERIDO: o Divulgador nao leu o preco atual da loja; post R$ %s vs De R$ %s - nao gerei" % (preco_txt, ("%.2f" % antigo).replace(".", ",")))
 
+    def _trava(self, base, preco_txt, dados, extra, cupom_no_post=None):
+        """Trava de valor: regra de sempre + v2 (28/11). Devolve a informacao extra (pode ganhar o cupom/desconto do post).
+        Se a regra de sempre aprova, NADA muda. Se ela barra com "VALOR NAO BATE", a v2 tenta explicar a diferenca pelo
+        cupom/desconto que o post cita; qualquer erro da v2 cai de volta na regra de sempre.
+        Desliga com `trava_valor_v2: false` no config.yaml."""
+        try:
+            self._trava_valor(base, preco_txt)
+            return extra
+        except Falha as e_old:
+            texto_post = (dados or {}).get("texto")
+            if "VALOR NAO BATE" not in str(e_old) or not texto_post or not self.cfg.get("trava_valor_v2", True):
+                raise
+            try:
+                ok, nivel, motivo, cod = trava_v2(base, preco_txt, texto_post, (dados or {}).get("cupom_cache"))
+                linhas = linhas_extra(texto_post, cod) if ok else []
+            except Exception as e_v2:  # noqa
+                self.log("  aviso: trava v2 com erro (%r): vale a regra de sempre" % (e_v2,))
+                raise e_old
+            if not ok:
+                raise Falha("%s [v2: %s]" % (e_old, motivo))
+            self.log("  trava de valor v2 LIBEROU (nivel %s): %s" % (nivel, motivo))
+            if cod and cupom_no_post and cod == cupom_no_post:
+                linhas = [l for l in linhas if not l.startswith("🎟️ Cupom:")]   # o Divulgador ja poe este cupom na mensagem
+            ja = T.norm(extra or "")
+            novas = [l for l in linhas if T.norm(l) not in ja]
+            if novas:
+                extra = "\n".join(novas) + (("\n\n" + extra) if extra else "")
+                self.log("  extra com o cupom/desconto do post: " + " / ".join(novas)[:140])
+            return extra
+
     # --- fluxo
     def gerar(self, link, preco_txt, cupom=None, extra=None, modo="live", loja=None, dados=None):
         """Retorna ('gerado'|'cancelado_teste', detalhe). Levanta Falha em qualquer anomalia."""
+        cupom_no_post = cupom      # cupom que o robo leu no texto do post (o Divulgador o poe na mensagem)
         try:
             if hasattr(self.conv, "limpar"):
                 self.conv.limpar()          # fecha pergunta que ficou aberta (sua ou de outra execução)
@@ -364,7 +500,7 @@ class Driver:
 
             # 2a) TRAVA DE VALOR: so cancela se o preco do post NAO bater com o preco REAL da loja (lido pelo Divulgador).
             #     Se bater (mesmo sendo bug/preco baixo), segue normal.
-            self._trava_valor(base_loja, preco_txt)
+            extra = self._trava(base_loja, preco_txt, dados, extra, cupom_no_post)    # v2 28/11: ver _trava
 
             # 2) PREÇO POR ÚLTIMO
             tela = self._clicar(tela, "por", "preco", "preço", "valor")
