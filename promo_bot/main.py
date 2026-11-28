@@ -352,6 +352,37 @@ def _ler_canais(client, cfg, est, log):
 
 
 
+def _ler_canais_cadastro(client, cfg, est, log, agora=None):
+    """27/11: canais SÓ para cruzar com os cadastros (config.yaml -> canais_cadastro). NUNCA geram promoção.
+    Cada canal tem ponteiro próprio ("cadonly:<canal>"); erro num canal não atrapalha os outros nem o ciclo.
+    Lê no máximo a cada `cadastro_ler_seg` (padrão 120 s) e para se a leitura passar de 60 s."""
+    lista = [c for c in (cfg.get("canais_cadastro") or []) if c and c not in (cfg.get("canais") or [])]
+    agora = agora or time.time()
+    if not lista or agora - float(est.d.get("_cadonly_ts") or 0) < float(cfg.get("cadastro_ler_seg", 120)):
+        return {}
+    est.d["_cadonly_ts"] = agora
+    out, t0 = {}, time.time()
+    for canal in lista:
+        if time.time() - t0 > 60:
+            log("aviso: leitura dos canais de cadastro passou de 60 s; o resto fica para o próximo ciclo")
+            break
+        chave = "cadonly:" + canal
+        try:
+            ultimo = est.ultimo(chave)
+            if ultimo is None:
+                rec = client.loop.run_until_complete(_buscar(client, canal, None, 1))
+                est.set_ultimo(chave, rec[-1][0] if rec else 0)
+                log("canal de cadastro %s: primeira leitura (base id=%s)" % (canal, est.ultimo(chave)))
+                continue
+            msgs = client.loop.run_until_complete(_buscar(client, canal, ultimo, 60, com_data=True))
+            if msgs:
+                est.set_ultimo(chave, msgs[-1][0])
+            out[canal] = [p for p in msgs if not p[2] or agora - p[2] <= 3 * 3600]
+        except Exception as e:  # noqa
+            log("aviso: canal de cadastro %s nao foi lido: %r" % (canal, e))
+    return out
+
+
 def _verificar_cadastros_canais(posts_por_canal, est, log):
     """v73: manda cada post novo dos canais pro cadastro (Apps Script); se bater, avisa o Oscar
     pelo bot do monitor de precos (NAO cria a promocao sozinho -- so avisa)."""
@@ -572,6 +603,10 @@ def main():
                         est.d["_aviso_cadastro"] = 1
                 else:
                     cadastro_canais.enfileirar(posts, est, log)   # 27/11: em segundo plano, nunca segura o ciclo
+                    try:                                          # 27/11: canais só de cadastro (não geram promoção)
+                        cadastro_canais.enfileirar(_ler_canais_cadastro(client, cfg, est, log), est, log)
+                    except Exception as e:  # noqa
+                        log("aviso: canais de cadastro: %r" % e)
             drv = Driver(conv_divulgador(), cfg, log)
             perfil = atualizar_perfil(client, cfg, est, log)
             est.d["_grupo_hoje"] = grupo_hoje(client, cfg, log)
