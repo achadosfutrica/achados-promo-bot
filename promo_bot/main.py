@@ -579,6 +579,7 @@ def main():
         if cfg["mode"] == "live" and not teste_link_env():
             try:                       # 28/11: alerta de BUG em tempo real (alem da leitura do ciclo)
                 canais_b = list(cfg.get("canais") or []) + list((cfg.get("vigia") or {}).get("canais") or []) + list(cfg.get("canais_cadastro") or [])
+                cadastro_canais.verificar_bots(log, est)      # confere de quem e cada token (nao mistura os robos)
                 bug_vivo = cadastro_canais.BugVigia(client, canais_b, est, log)
                 if not bug_vivo.ligar():
                     bug_vivo = None
