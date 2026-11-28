@@ -49,6 +49,9 @@ jobs:
           CADASTRO_CANAIS_CHAVE: ${{ secrets.CADASTRO_CANAIS_CHAVE }}
           BOT_MONITOR_TOKEN: ${{ secrets.BOT_MONITOR_TOKEN }}
           CHAT_MONITOR_ID: ${{ secrets.CHAT_MONITOR_ID }}
+          # 27/11: bot de DICAS DE POSTAGEM (alerta de menor preco). Sem ele, o alerta vai pro monitora.
+          BOT_DICAS_TOKEN: ${{ secrets.BOT_DICAS_TOKEN }}
+          CHAT_DICAS_ID: ${{ secrets.CHAT_DICAS_ID }}
         run: python -m promo_bot.main
       - name: Salvar estado
         if: always()
