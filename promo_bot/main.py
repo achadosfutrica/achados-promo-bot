@@ -262,9 +262,16 @@ def rodar(cfg, posts_por_canal, est, driver, log=print, notificar=lambda m: None
 
     fila = []
     max_canal = lim.get("max_por_canal", 0)
+    t_gerar = time.time()
+    orcamento = float(lim.get("max_ciclo_min", 0) or 0) * 60      # 28/11: um ciclo nao pode passar de N min (alertas de cadastro/BUG/menor preco dependem da leitura do proximo)
+    avisou_tempo = False
     for neg, _, canal, pid, txt, t, det in candidatos:
         cheio = feitos >= lim["max_por_execucao"] or est.contagem_hoje() >= lim["max_por_dia"]
-        if cheio or (max_canal and por_canal.get(canal, 0) >= max_canal):
+        estourou = bool(orcamento) and time.time() - t_gerar > orcamento
+        if estourou and not avisou_tempo:
+            avisou_tempo = True
+            log("ciclo passou de %d min: o resto fica na fila e a proxima leitura dos canais vem agora" % (orcamento // 60))
+        if cheio or estourou or (max_canal and por_canal.get(canal, 0) >= max_canal):
             fila.append({"canal": canal, "id": pid, "txt": txt, "t": t})
             continue
         if ic.get("ligada", True):
