@@ -23,6 +23,12 @@ canais:
 # 27/11: canais SÓ para cruzar com os cadastros (alerta "Cadastro pode ter achado" no @Achadosfutricamonitorabot).
 # NÃO geram promoção. Um canal que já está em `canais` é ignorado aqui (não confere duas vezes).
 # Escolhidos pelo volume diário e pelo nicho; tirar um canal = apagar a linha.
+# 27/11: alerta de MENOR PREÇO no @Achadosfutricamonitorabot: produto de qualquer canal (os de cima e os
+# de cadastro) pelo MESMO preço ou MAIS BAIXO que o menor que você já postou no seu grupo (últimos `dias`).
+menor_preco:
+  ligado: true
+  dias: 90
+
 cadastro_ler_seg: 120            # lê esta lista no máximo a cada 2 min
 canais_cadastro:
   # gerais (muito movimento, todas as categorias)
