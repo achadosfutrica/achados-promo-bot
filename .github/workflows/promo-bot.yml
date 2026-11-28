@@ -52,6 +52,9 @@ jobs:
           # 27/11: bot de DICAS DE POSTAGEM (alerta de menor preco). Sem ele, o alerta vai pro monitora.
           BOT_DICAS_TOKEN: ${{ secrets.BOT_DICAS_TOKEN }}
           CHAT_DICAS_ID: ${{ secrets.CHAT_DICAS_ID }}
+          # 28/11: alerta de BUG no @AchadosFutricaBot (token dele; sem o secret, o alerta vai pro monitora)
+          BOT_ROBO_TOKEN: ${{ secrets.BOT_ROBO_TOKEN }}
+          CHAT_ROBO_ID: ${{ secrets.CHAT_ROBO_ID }}
         run: python -m promo_bot.main
       - name: Salvar estado
         if: always()
